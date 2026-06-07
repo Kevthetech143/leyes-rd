@@ -9,8 +9,8 @@
 </head>
 <body>
   <header class="topbar">
-    <h1>🇩🇴 Leyes RD <span class="tag">fácil</span></h1>
-    <p class="sub">Las leyes del país, contadas claro. Por temas. Sin enredos.</p>
+    <h1>🇩🇴 Leyes RD <span class="tag">claro</span></h1>
+    <p class="sub">Las leyes del país, explicadas claro y simple. Ordenadas por tema.</p>
   </header>
 
   <nav class="tabs">
@@ -19,29 +19,30 @@
   </nav>
 
   <main>
-    <!-- DEMO banner: data here is sample only until the real congress feed is wired -->
-    <div id="demoBanner" class="demo-banner">
-      ⚠️ Versión de prueba. Los datos son <b>ejemplos</b>, todavía no son leyes reales.
+    <!-- Source/honesty note: real Senate data; per-legislator votes not yet public -->
+    <div id="fuenteBanner" class="info-banner">
+      ℹ️ Datos reales del <b>Senado de la República Dominicana</b>. El voto de cada legislador todavía no es público.
     </div>
 
     <section id="view-leyes" class="view">
       <div class="como">
-        <b>¿Cómo funciona?</b> Las leyes están ordenadas por <b>tema</b>, no por números raros.
-        Toca un tema, luego una ley, y verás <b>qué es</b>, <b>por qué se propuso</b> y <b>quién votó</b>.
+        <b>¿Cómo funciona?</b> Las leyes están ordenadas por <b>tema</b>, no por números.
+        Toca un tema, luego una ley, y verás <b>qué dice</b> y <b>en qué estado va</b>.
       </div>
       <p class="hint">Toca un tema para ver sus leyes. Toca una ley para abrirla.</p>
       <div id="sectores"></div>
     </section>
 
     <section id="view-mapa" class="view hidden">
-      <p class="hint">Toca una provincia para ver quién manda y cómo vota.</p>
+      <p class="hint">Toca una provincia para ver a sus representantes.</p>
       <div id="provincias"></div>
       <div id="perfilProvincia" class="perfil hidden"></div>
     </section>
   </main>
 
   <footer class="foot">
-    <p>Hecho para que cualquiera entienda. Gratis.</p>
+    <p>Información pública, explicada para que cualquiera la entienda. Gratis.</p>
+    <p class="foot-fuente">Fuente: Senado de la República Dominicana · senadord.gob.do</p>
   </footer>
 
   <script src="app.js"></script>

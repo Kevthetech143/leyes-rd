@@ -1,37 +1,389 @@
 {
-  "_nota": "Las 32 demarcaciones reales (31 provincias + Distrito Nacional). Los líderes y votos son PLACEHOLDER ('en construcción') hasta conectar datos reales del Congreso/JCE. No inventar nombres reales.",
+  "_nota": "Las 32 demarcaciones reales (31 provincias + Distrito Nacional). Los representantes se publicarán pronto; aún no se incluyen para no mostrar datos sin confirmar.",
   "provincias": [
-    { "nombre": "Distrito Nacional", "lideres": [ { "cargo": "Senador/a", "nombre": "Dato en construcción", "partido": "—", "resumen": "Pronto verás quién manda aquí.", "registro": "en construcción" } ] },
-    { "nombre": "Azua", "lideres": [ { "cargo": "Senador/a", "nombre": "Dato en construcción", "partido": "—", "resumen": "Pronto verás quién manda aquí.", "registro": "en construcción" } ] },
-    { "nombre": "Bahoruco", "lideres": [ { "cargo": "Senador/a", "nombre": "Dato en construcción", "partido": "—", "resumen": "Pronto verás quién manda aquí.", "registro": "en construcción" } ] },
-    { "nombre": "Barahona", "lideres": [ { "cargo": "Senador/a", "nombre": "Dato en construcción", "partido": "—", "resumen": "Pronto verás quién manda aquí.", "registro": "en construcción" } ] },
-    { "nombre": "Dajabón", "lideres": [ { "cargo": "Senador/a", "nombre": "Dato en construcción", "partido": "—", "resumen": "Pronto verás quién manda aquí.", "registro": "en construcción" } ] },
-    { "nombre": "Duarte", "lideres": [ { "cargo": "Senador/a", "nombre": "Dato en construcción", "partido": "—", "resumen": "Pronto verás quién manda aquí.", "registro": "en construcción" } ] },
-    { "nombre": "El Seibo", "lideres": [ { "cargo": "Senador/a", "nombre": "Dato en construcción", "partido": "—", "resumen": "Pronto verás quién manda aquí.", "registro": "en construcción" } ] },
-    { "nombre": "Elías Piña", "lideres": [ { "cargo": "Senador/a", "nombre": "Dato en construcción", "partido": "—", "resumen": "Pronto verás quién manda aquí.", "registro": "en construcción" } ] },
-    { "nombre": "Espaillat", "lideres": [ { "cargo": "Senador/a", "nombre": "Dato en construcción", "partido": "—", "resumen": "Pronto verás quién manda aquí.", "registro": "en construcción" } ] },
-    { "nombre": "Hato Mayor", "lideres": [ { "cargo": "Senador/a", "nombre": "Dato en construcción", "partido": "—", "resumen": "Pronto verás quién manda aquí.", "registro": "en construcción" } ] },
-    { "nombre": "Hermanas Mirabal", "lideres": [ { "cargo": "Senador/a", "nombre": "Dato en construcción", "partido": "—", "resumen": "Pronto verás quién manda aquí.", "registro": "en construcción" } ] },
-    { "nombre": "Independencia", "lideres": [ { "cargo": "Senador/a", "nombre": "Dato en construcción", "partido": "—", "resumen": "Pronto verás quién manda aquí.", "registro": "en construcción" } ] },
-    { "nombre": "La Altagracia", "lideres": [ { "cargo": "Senador/a", "nombre": "Dato en construcción", "partido": "—", "resumen": "Pronto verás quién manda aquí.", "registro": "en construcción" } ] },
-    { "nombre": "La Romana", "lideres": [ { "cargo": "Senador/a", "nombre": "Dato en construcción", "partido": "—", "resumen": "Pronto verás quién manda aquí.", "registro": "en construcción" } ] },
-    { "nombre": "La Vega", "lideres": [ { "cargo": "Senador/a", "nombre": "Dato en construcción", "partido": "—", "resumen": "Pronto verás quién manda aquí.", "registro": "en construcción" } ] },
-    { "nombre": "María Trinidad Sánchez", "lideres": [ { "cargo": "Senador/a", "nombre": "Dato en construcción", "partido": "—", "resumen": "Pronto verás quién manda aquí.", "registro": "en construcción" } ] },
-    { "nombre": "Monseñor Nouel", "lideres": [ { "cargo": "Senador/a", "nombre": "Dato en construcción", "partido": "—", "resumen": "Pronto verás quién manda aquí.", "registro": "en construcción" } ] },
-    { "nombre": "Monte Cristi", "lideres": [ { "cargo": "Senador/a", "nombre": "Dato en construcción", "partido": "—", "resumen": "Pronto verás quién manda aquí.", "registro": "en construcción" } ] },
-    { "nombre": "Monte Plata", "lideres": [ { "cargo": "Senador/a", "nombre": "Dato en construcción", "partido": "—", "resumen": "Pronto verás quién manda aquí.", "registro": "en construcción" } ] },
-    { "nombre": "Pedernales", "lideres": [ { "cargo": "Senador/a", "nombre": "Dato en construcción", "partido": "—", "resumen": "Pronto verás quién manda aquí.", "registro": "en construcción" } ] },
-    { "nombre": "Peravia", "lideres": [ { "cargo": "Senador/a", "nombre": "Dato en construcción", "partido": "—", "resumen": "Pronto verás quién manda aquí.", "registro": "en construcción" } ] },
-    { "nombre": "Puerto Plata", "lideres": [ { "cargo": "Senador/a", "nombre": "Dato en construcción", "partido": "—", "resumen": "Pronto verás quién manda aquí.", "registro": "en construcción" } ] },
-    { "nombre": "Samaná", "lideres": [ { "cargo": "Senador/a", "nombre": "Dato en construcción", "partido": "—", "resumen": "Pronto verás quién manda aquí.", "registro": "en construcción" } ] },
-    { "nombre": "San Cristóbal", "lideres": [ { "cargo": "Senador/a", "nombre": "Dato en construcción", "partido": "—", "resumen": "Pronto verás quién manda aquí.", "registro": "en construcción" } ] },
-    { "nombre": "San José de Ocoa", "lideres": [ { "cargo": "Senador/a", "nombre": "Dato en construcción", "partido": "—", "resumen": "Pronto verás quién manda aquí.", "registro": "en construcción" } ] },
-    { "nombre": "San Juan", "lideres": [ { "cargo": "Senador/a", "nombre": "Dato en construcción", "partido": "—", "resumen": "Pronto verás quién manda aquí.", "registro": "en construcción" } ] },
-    { "nombre": "San Pedro de Macorís", "lideres": [ { "cargo": "Senador/a", "nombre": "Dato en construcción", "partido": "—", "resumen": "Pronto verás quién manda aquí.", "registro": "en construcción" } ] },
-    { "nombre": "Sánchez Ramírez", "lideres": [ { "cargo": "Senador/a", "nombre": "Dato en construcción", "partido": "—", "resumen": "Pronto verás quién manda aquí.", "registro": "en construcción" } ] },
-    { "nombre": "Santiago", "lideres": [ { "cargo": "Senador/a", "nombre": "Dato en construcción", "partido": "—", "resumen": "Pronto verás quién manda aquí.", "registro": "en construcción" } ] },
-    { "nombre": "Santiago Rodríguez", "lideres": [ { "cargo": "Senador/a", "nombre": "Dato en construcción", "partido": "—", "resumen": "Pronto verás quién manda aquí.", "registro": "en construcción" } ] },
-    { "nombre": "Santo Domingo", "lideres": [ { "cargo": "Senador/a", "nombre": "Dato en construcción", "partido": "—", "resumen": "Pronto verás quién manda aquí.", "registro": "en construcción" } ] },
-    { "nombre": "Valverde", "lideres": [ { "cargo": "Senador/a", "nombre": "Dato en construcción", "partido": "—", "resumen": "Pronto verás quién manda aquí.", "registro": "en construcción" } ] }
+    {
+      "nombre": "Distrito Nacional",
+      "lideres": [
+        {
+          "cargo": "Senador/a",
+          "nombre": "Información por publicar",
+          "partido": "—",
+          "resumen": "Estamos completando los datos de los representantes de esta provincia.",
+          "registro": "No disponible todavía"
+        }
+      ]
+    },
+    {
+      "nombre": "Azua",
+      "lideres": [
+        {
+          "cargo": "Senador/a",
+          "nombre": "Información por publicar",
+          "partido": "—",
+          "resumen": "Estamos completando los datos de los representantes de esta provincia.",
+          "registro": "No disponible todavía"
+        }
+      ]
+    },
+    {
+      "nombre": "Bahoruco",
+      "lideres": [
+        {
+          "cargo": "Senador/a",
+          "nombre": "Información por publicar",
+          "partido": "—",
+          "resumen": "Estamos completando los datos de los representantes de esta provincia.",
+          "registro": "No disponible todavía"
+        }
+      ]
+    },
+    {
+      "nombre": "Barahona",
+      "lideres": [
+        {
+          "cargo": "Senador/a",
+          "nombre": "Información por publicar",
+          "partido": "—",
+          "resumen": "Estamos completando los datos de los representantes de esta provincia.",
+          "registro": "No disponible todavía"
+        }
+      ]
+    },
+    {
+      "nombre": "Dajabón",
+      "lideres": [
+        {
+          "cargo": "Senador/a",
+          "nombre": "Información por publicar",
+          "partido": "—",
+          "resumen": "Estamos completando los datos de los representantes de esta provincia.",
+          "registro": "No disponible todavía"
+        }
+      ]
+    },
+    {
+      "nombre": "Duarte",
+      "lideres": [
+        {
+          "cargo": "Senador/a",
+          "nombre": "Información por publicar",
+          "partido": "—",
+          "resumen": "Estamos completando los datos de los representantes de esta provincia.",
+          "registro": "No disponible todavía"
+        }
+      ]
+    },
+    {
+      "nombre": "El Seibo",
+      "lideres": [
+        {
+          "cargo": "Senador/a",
+          "nombre": "Información por publicar",
+          "partido": "—",
+          "resumen": "Estamos completando los datos de los representantes de esta provincia.",
+          "registro": "No disponible todavía"
+        }
+      ]
+    },
+    {
+      "nombre": "Elías Piña",
+      "lideres": [
+        {
+          "cargo": "Senador/a",
+          "nombre": "Información por publicar",
+          "partido": "—",
+          "resumen": "Estamos completando los datos de los representantes de esta provincia.",
+          "registro": "No disponible todavía"
+        }
+      ]
+    },
+    {
+      "nombre": "Espaillat",
+      "lideres": [
+        {
+          "cargo": "Senador/a",
+          "nombre": "Información por publicar",
+          "partido": "—",
+          "resumen": "Estamos completando los datos de los representantes de esta provincia.",
+          "registro": "No disponible todavía"
+        }
+      ]
+    },
+    {
+      "nombre": "Hato Mayor",
+      "lideres": [
+        {
+          "cargo": "Senador/a",
+          "nombre": "Información por publicar",
+          "partido": "—",
+          "resumen": "Estamos completando los datos de los representantes de esta provincia.",
+          "registro": "No disponible todavía"
+        }
+      ]
+    },
+    {
+      "nombre": "Hermanas Mirabal",
+      "lideres": [
+        {
+          "cargo": "Senador/a",
+          "nombre": "Información por publicar",
+          "partido": "—",
+          "resumen": "Estamos completando los datos de los representantes de esta provincia.",
+          "registro": "No disponible todavía"
+        }
+      ]
+    },
+    {
+      "nombre": "Independencia",
+      "lideres": [
+        {
+          "cargo": "Senador/a",
+          "nombre": "Información por publicar",
+          "partido": "—",
+          "resumen": "Estamos completando los datos de los representantes de esta provincia.",
+          "registro": "No disponible todavía"
+        }
+      ]
+    },
+    {
+      "nombre": "La Altagracia",
+      "lideres": [
+        {
+          "cargo": "Senador/a",
+          "nombre": "Información por publicar",
+          "partido": "—",
+          "resumen": "Estamos completando los datos de los representantes de esta provincia.",
+          "registro": "No disponible todavía"
+        }
+      ]
+    },
+    {
+      "nombre": "La Romana",
+      "lideres": [
+        {
+          "cargo": "Senador/a",
+          "nombre": "Información por publicar",
+          "partido": "—",
+          "resumen": "Estamos completando los datos de los representantes de esta provincia.",
+          "registro": "No disponible todavía"
+        }
+      ]
+    },
+    {
+      "nombre": "La Vega",
+      "lideres": [
+        {
+          "cargo": "Senador/a",
+          "nombre": "Información por publicar",
+          "partido": "—",
+          "resumen": "Estamos completando los datos de los representantes de esta provincia.",
+          "registro": "No disponible todavía"
+        }
+      ]
+    },
+    {
+      "nombre": "María Trinidad Sánchez",
+      "lideres": [
+        {
+          "cargo": "Senador/a",
+          "nombre": "Información por publicar",
+          "partido": "—",
+          "resumen": "Estamos completando los datos de los representantes de esta provincia.",
+          "registro": "No disponible todavía"
+        }
+      ]
+    },
+    {
+      "nombre": "Monseñor Nouel",
+      "lideres": [
+        {
+          "cargo": "Senador/a",
+          "nombre": "Información por publicar",
+          "partido": "—",
+          "resumen": "Estamos completando los datos de los representantes de esta provincia.",
+          "registro": "No disponible todavía"
+        }
+      ]
+    },
+    {
+      "nombre": "Monte Cristi",
+      "lideres": [
+        {
+          "cargo": "Senador/a",
+          "nombre": "Información por publicar",
+          "partido": "—",
+          "resumen": "Estamos completando los datos de los representantes de esta provincia.",
+          "registro": "No disponible todavía"
+        }
+      ]
+    },
+    {
+      "nombre": "Monte Plata",
+      "lideres": [
+        {
+          "cargo": "Senador/a",
+          "nombre": "Información por publicar",
+          "partido": "—",
+          "resumen": "Estamos completando los datos de los representantes de esta provincia.",
+          "registro": "No disponible todavía"
+        }
+      ]
+    },
+    {
+      "nombre": "Pedernales",
+      "lideres": [
+        {
+          "cargo": "Senador/a",
+          "nombre": "Información por publicar",
+          "partido": "—",
+          "resumen": "Estamos completando los datos de los representantes de esta provincia.",
+          "registro": "No disponible todavía"
+        }
+      ]
+    },
+    {
+      "nombre": "Peravia",
+      "lideres": [
+        {
+          "cargo": "Senador/a",
+          "nombre": "Información por publicar",
+          "partido": "—",
+          "resumen": "Estamos completando los datos de los representantes de esta provincia.",
+          "registro": "No disponible todavía"
+        }
+      ]
+    },
+    {
+      "nombre": "Puerto Plata",
+      "lideres": [
+        {
+          "cargo": "Senador/a",
+          "nombre": "Información por publicar",
+          "partido": "—",
+          "resumen": "Estamos completando los datos de los representantes de esta provincia.",
+          "registro": "No disponible todavía"
+        }
+      ]
+    },
+    {
+      "nombre": "Samaná",
+      "lideres": [
+        {
+          "cargo": "Senador/a",
+          "nombre": "Información por publicar",
+          "partido": "—",
+          "resumen": "Estamos completando los datos de los representantes de esta provincia.",
+          "registro": "No disponible todavía"
+        }
+      ]
+    },
+    {
+      "nombre": "San Cristóbal",
+      "lideres": [
+        {
+          "cargo": "Senador/a",
+          "nombre": "Información por publicar",
+          "partido": "—",
+          "resumen": "Estamos completando los datos de los representantes de esta provincia.",
+          "registro": "No disponible todavía"
+        }
+      ]
+    },
+    {
+      "nombre": "San José de Ocoa",
+      "lideres": [
+        {
+          "cargo": "Senador/a",
+          "nombre": "Información por publicar",
+          "partido": "—",
+          "resumen": "Estamos completando los datos de los representantes de esta provincia.",
+          "registro": "No disponible todavía"
+        }
+      ]
+    },
+    {
+      "nombre": "San Juan",
+      "lideres": [
+        {
+          "cargo": "Senador/a",
+          "nombre": "Información por publicar",
+          "partido": "—",
+          "resumen": "Estamos completando los datos de los representantes de esta provincia.",
+          "registro": "No disponible todavía"
+        }
+      ]
+    },
+    {
+      "nombre": "San Pedro de Macorís",
+      "lideres": [
+        {
+          "cargo": "Senador/a",
+          "nombre": "Información por publicar",
+          "partido": "—",
+          "resumen": "Estamos completando los datos de los representantes de esta provincia.",
+          "registro": "No disponible todavía"
+        }
+      ]
+    },
+    {
+      "nombre": "Sánchez Ramírez",
+      "lideres": [
+        {
+          "cargo": "Senador/a",
+          "nombre": "Información por publicar",
+          "partido": "—",
+          "resumen": "Estamos completando los datos de los representantes de esta provincia.",
+          "registro": "No disponible todavía"
+        }
+      ]
+    },
+    {
+      "nombre": "Santiago",
+      "lideres": [
+        {
+          "cargo": "Senador/a",
+          "nombre": "Información por publicar",
+          "partido": "—",
+          "resumen": "Estamos completando los datos de los representantes de esta provincia.",
+          "registro": "No disponible todavía"
+        }
+      ]
+    },
+    {
+      "nombre": "Santiago Rodríguez",
+      "lideres": [
+        {
+          "cargo": "Senador/a",
+          "nombre": "Información por publicar",
+          "partido": "—",
+          "resumen": "Estamos completando los datos de los representantes de esta provincia.",
+          "registro": "No disponible todavía"
+        }
+      ]
+    },
+    {
+      "nombre": "Santo Domingo",
+      "lideres": [
+        {
+          "cargo": "Senador/a",
+          "nombre": "Información por publicar",
+          "partido": "—",
+          "resumen": "Estamos completando los datos de los representantes de esta provincia.",
+          "registro": "No disponible todavía"
+        }
+      ]
+    },
+    {
+      "nombre": "Valverde",
+      "lideres": [
+        {
+          "cargo": "Senador/a",
+          "nombre": "Información por publicar",
+          "partido": "—",
+          "resumen": "Estamos completando los datos de los representantes de esta provincia.",
+          "registro": "No disponible todavía"
+        }
+      ]
+    }
   ]
 }

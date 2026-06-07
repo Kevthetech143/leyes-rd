@@ -53,11 +53,12 @@ main { max-width: 720px; margin: 0 auto; padding: 0 14px 40px; }
   background: #eef2ff; border: 1px solid #dbe3ff; color: #1c2a5e;
   padding: 12px 14px; border-radius: 14px; font-size: .92rem; margin: 14px 0;
 }
-.demo-banner {
-  background: #fff3cd; border: 1px solid #ffe08a;
-  color: #7a5b00; padding: 10px 14px; border-radius: 12px;
+.demo-banner, .info-banner {
+  background: #eaf4ff; border: 1px solid #cfe4ff;
+  color: #14407a; padding: 10px 14px; border-radius: 12px;
   font-size: .9rem; margin: 14px 0; text-align: center;
 }
+.foot-fuente { font-size: .75rem; color: #9aa1ac; margin-top: 6px; }
 
 /* Sectores */
 .sector {
@@ -93,6 +94,7 @@ main { max-width: 720px; margin: 0 auto; padding: 0 14px 40px; }
 .ley.open .ley-detalle { display: block; }
 .ley-detalle h4 { margin: 12px 0 4px; font-size: .95rem; color: var(--azul); }
 .ley-detalle p { margin: 0; }
+.nota-fuente { margin-top: 10px; font-size: .85rem; color: var(--gris); font-style: italic; }
 
 /* Votos */
 .votos { margin-top: 8px; }

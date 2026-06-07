@@ -53,7 +53,15 @@ function renderLey(ley) {
     wrap.append(el("span", "ley-estado estado-" + ley.estado, estadoLabel[ley.estado] || ley.estado));
     const det = el("div", "ley-detalle");
     det.append(el("h4", null, "¿Qué es?"), el("p", null, ley.que_es));
-    det.append(el("h4", null, "¿Por qué se propuso?"), el("p", null, ley.por_que));
+    // Only show a real reason; otherwise a quiet note (the Senate source rarely states the motive).
+    const sinMotivo = !ley.por_que || /^razón no indicada/i.test(ley.por_que);
+    if (sinMotivo) {
+        det.append(el("p", "nota-fuente", "Motivo: no publicado en la fuente oficial."));
+    }
+    else {
+        det.append(el("h4", null, "¿Por qué se propuso?"), el("p", null, ley.por_que));
+    }
+    // Votes: shown when the Senate publishes them; otherwise a quiet note.
     if (ley.votos && ley.votos.length) {
         det.append(el("h4", null, "¿Quién votó?"));
         const votos = el("div", "votos");
@@ -64,6 +72,9 @@ function renderLey(ley) {
             votos.append(fila);
         });
         det.append(votos);
+    }
+    else {
+        det.append(el("p", "nota-fuente", "Voto de cada legislador: el Senado aún no lo hace público."));
     }
     wrap.append(det);
     wrap.addEventListener("click", (e) => {
