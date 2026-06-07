@@ -89,17 +89,17 @@ function renderLey(ley) {
 function funcionDeCargo(cargo) {
     const c = cargo.toLowerCase();
     if (c.startsWith("senador"))
-        return "Hace y aprueba las leyes del país. Hay uno por provincia.";
+        return "Hace las leyes del país junto a los diputados. También aprueba nombramientos importantes (como la junta electoral o el defensor del pueblo) y juzga a altos funcionarios acusados. Y representa a toda la provincia en la capital: pelea por su parte del presupuesto y por obras como carreteras, escuelas y hospitales. Hay uno por provincia.";
     if (c.startsWith("diputad"))
-        return "También hace y vota las leyes, en nombre de su provincia.";
+        return "También hace y vota las leyes, en nombre de su provincia. Propone proyectos, revisa el presupuesto del país y vigila el trabajo del gobierno. Cada provincia tiene varios, según cuánta gente vive en ella.";
     if (c.startsWith("gobernador"))
-        return "Representa al Presidente en la provincia. No hace leyes.";
+        return "Representa al Presidente en la provincia. No hace leyes: es el puente entre el gobierno central y la gente del lugar. Lo nombra la Presidencia; no se elige por voto.";
     if (c.startsWith("alcalde") || c.startsWith("alcaldesa"))
-        return "Manda en su pueblo: calles, basura, parques y permisos.";
+        return "Dirige el ayuntamiento de su pueblo o ciudad. Se encarga del día a día local: calles, basura, aceras, parques, alumbrado y permisos. Se elige por voto de la gente del municipio.";
     if (c.startsWith("director"))
-        return "Como un alcalde, pero de un distrito municipal más pequeño.";
+        return "Como un alcalde, pero de un distrito municipal (una zona más pequeña dentro de un municipio). Maneja los servicios locales de esa zona. Se elige por voto.";
     if (c.startsWith("regidor"))
-        return "Vigila al alcalde y aprueba las cosas del pueblo.";
+        return "Forma parte del concejo del ayuntamiento. Aprueba el presupuesto del pueblo, dicta las normas locales y vigila el trabajo del alcalde. Se elige por voto.";
     return "";
 }
 function esLegislador(cargo) {
@@ -121,7 +121,7 @@ function renderProvincias(data) {
                 block.append(el("p", "lider-cargo", l.cargo));
                 const fn = funcionDeCargo(l.cargo);
                 if (fn)
-                    block.append(el("p", "lider-funcion", "👉 " + fn));
+                    block.append(el("p", "lider-funcion", fn));
                 if (l.resumen)
                     block.append(el("p", null, l.resumen));
                 if (esLegislador(l.cargo)) {
