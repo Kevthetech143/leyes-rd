@@ -11,11 +11,17 @@ A: The Congress records the votes but does not publish them openly per legislato
 Q: Are legislators' votes secret in the DR?
 A: No. Secret voting in Congress is banned. The "secret vote" in the Constitution refers to CITIZENS voting in elections, not legislators in session. Source: Reglamento de la Cámara (no votación secreta); Constitución Art. 208.
 
-Q: Does the Senate keep each senator's vote?
-A: Yes. The Senate runs an automated voting system that keeps an individual, historical record of how each of the 32 senators votes on every matter, shown live on screens. Page: senadord.gob.do/votaciones-electronicas. (Still confirming whether that page lists each senator's choice per bill or only session minutes.)
+Q: Can we show how each senator voted on a bill?
+A: No — confirmed by checking the actual files (2026-06-07). Neither chamber publishes per-person votes. The Senate's "Votaciones Electrónicas" page is empty ("no cuenta con archivos"). The published session minutes (actas) show only the TOTAL per bill (e.g. "25 votos a favor, 27 senadores presentes") plus a separate named attendance list. The per-name electronic tally is referenced in the minutes as "Votación adjunta al acta" but that attachment is not published.
+
+Q: But doesn't the Senate's automated system record each senator's vote?
+A: Yes, internally — the system captures an individual record live in the chamber. But that individual record is not published to the public. So it exists, it just isn't shared.
+
+Q: What CAN we get from the official files?
+A: Per session: bill names, dates, status, vote TOTALS, and per-senator ATTENDANCE (present/absent). Format: clean text-based PDF minutes with a predictable URL pattern, downloadable with no captcha. Latest acta lags ~5-6 weeks; attendance lists are more current. Scraping totals+attendance = medium difficulty; per-person votes = not online, so impossible to scrape.
 
 Q: And the Chamber of Deputies?
-A: Two legal modes — electronic (ordinary) and by name (nominal); no secret voting. The record exists; open per-member publication is limited.
+A: Same model, same answer — actas + attendance, no per-deputy vote breakdown published.
 
 Q: How do I request a vote record?
 A: Free, under the Free Access to Information law (Ley 200-04), through the SAIP portal (saip.gob.do). Pick the chamber, ask for the "acta de votación nominal" for the bill/date. They must answer in ~15 working days.
