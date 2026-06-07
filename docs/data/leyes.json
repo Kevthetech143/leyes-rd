@@ -1,31 +1,45 @@
 {
-  "_nota": "DATOS DE EJEMPLO. No son leyes reales. Reemplazar con el feed real del Congreso.",
+  "_nota": "Datos reales tomados del Senado de la República Dominicana (senadord.gob.do). Los votos por legislador no son públicos. Fecha de extracción: 2026-06-07.",
   "sectores": [
     {
-      "id": "salud",
-      "emoji": "🏥",
-      "nombre": "Salud",
+      "id": "justicia",
+      "emoji": "⚖️",
+      "nombre": "Justicia y Leyes",
       "leyes": [
         {
-          "titulo": "Medicinas más baratas en farmacias",
+          "titulo": "Mejorar y fortalecer el sistema de cárceles del país",
           "estado": "votando",
-          "que_es": "Quiere bajar el precio de las medicinas que más se usan.",
-          "por_que": "La gente se queja de que las pastillas cuestan mucho y no alcanzan.",
-          "votos": [
-            { "nombre": "Ej. Diputado A", "voto": "si" },
-            { "nombre": "Ej. Diputado B", "voto": "no" },
-            { "nombre": "Ej. Diputado C", "voto": "ausente" }
-          ]
+          "que_es": "Cambia las reglas de las cárceles para que funcionen mejor y de forma más justa.",
+          "por_que": "Razón no indicada en la fuente.",
+          "votos": []
         },
         {
-          "titulo": "Un hospital nuevo en cada provincia",
-          "estado": "aprobada",
-          "que_es": "Manda a construir hospitales donde no hay.",
-          "por_que": "Hay pueblos lejos de un hospital y eso pone en riesgo a los enfermos.",
-          "votos": [
-            { "nombre": "Ej. Diputado A", "voto": "si" },
-            { "nombre": "Ej. Diputado B", "voto": "si" }
-          ]
+          "titulo": "Crear un instituto que cuide los bienes quitados a delincuentes",
+          "estado": "votando",
+          "que_es": "Crea una oficina que guarda y administra las cosas que la justicia le quita a personas que cometieron delitos.",
+          "por_que": "Razón no indicada en la fuente.",
+          "votos": []
+        },
+        {
+          "titulo": "Crear un juzgado de tránsito en San Ignacio de Sabaneta",
+          "estado": "votando",
+          "que_es": "Pone un tribunal especial para los casos de tránsito en el pueblo de San Ignacio de Sabaneta.",
+          "por_que": "Razón no indicada en la fuente.",
+          "votos": []
+        },
+        {
+          "titulo": "Cambiar cómo se publican y aplican las leyes (Código Civil)",
+          "estado": "votando",
+          "que_es": "Ajusta la regla sobre cuándo y cómo una ley empieza a tener efecto para la gente.",
+          "por_que": "Razón no indicada en la fuente.",
+          "votos": []
+        },
+        {
+          "titulo": "Agregar una regla nueva a la Ley de Actos del Estado Civil",
+          "estado": "votando",
+          "que_es": "Añade un artículo a la ley que maneja los registros de nacimientos, matrimonios y defunciones.",
+          "por_que": "Razón no indicada en la fuente.",
+          "votos": []
         }
       ]
     },
@@ -35,69 +49,95 @@
       "nombre": "Trabajo y Sueldos",
       "leyes": [
         {
-          "titulo": "Subir el sueldo mínimo",
+          "titulo": "Reglas para quienes trabajan en apps de transporte",
           "estado": "votando",
-          "que_es": "Sube lo menos que te pueden pagar por un mes de trabajo.",
-          "por_que": "El costo de la vida subió y el sueldo no.",
-          "votos": [
-            { "nombre": "Ej. Senador X", "voto": "si" },
-            { "nombre": "Ej. Senador Y", "voto": "no" }
-          ]
-        },
-        {
-          "titulo": "Pago doble por trabajar feriados",
-          "estado": "aprobada",
-          "que_es": "Si trabajas un día de fiesta, te pagan el doble.",
-          "por_que": "Mucha gente trabaja feriados y le pagaban igual que un día normal.",
-          "votos": [
-            { "nombre": "Ej. Diputado A", "voto": "si" },
-            { "nombre": "Ej. Diputado B", "voto": "si" }
-          ]
+          "que_es": "Crea una ley que protege a las personas que trabajan manejando para aplicaciones de transporte.",
+          "por_que": "Razón no indicada en la fuente.",
+          "votos": []
         }
       ]
     },
     {
-      "id": "seguridad",
-      "emoji": "🛡️",
-      "nombre": "Seguridad",
+      "id": "salud",
+      "emoji": "🏥",
+      "nombre": "Salud",
       "leyes": [
         {
-          "titulo": "Más cámaras en las calles",
-          "estado": "rechazada",
-          "que_es": "Poner cámaras para vigilar zonas con mucho robo.",
-          "por_que": "Subieron los robos y la gente pide protección.",
-          "votos": [
-            { "nombre": "Ej. Diputado A", "voto": "no" },
-            { "nombre": "Ej. Diputado B", "voto": "no" },
-            { "nombre": "Ej. Diputado C", "voto": "si" }
-          ]
+          "titulo": "Crear la Dirección General de Salud Bucal",
+          "estado": "votando",
+          "que_es": "Crea una oficina del Estado que se encarga de cuidar los dientes y la boca de la gente.",
+          "por_que": "Razón no indicada en la fuente.",
+          "votos": []
         }
       ]
     },
     {
-      "id": "educacion",
-      "emoji": "📚",
-      "nombre": "Educación",
+      "id": "agua",
+      "emoji": "💧",
+      "nombre": "Agua y Saneamiento",
       "leyes": [
         {
-          "titulo": "Internet gratis en las escuelas",
+          "titulo": "Préstamo de US$400 millones para agua potable en Punta Cana-Bávaro",
           "estado": "aprobada",
-          "que_es": "Da internet a todas las escuelas públicas.",
-          "por_que": "Sin internet, los muchachos se quedan atrás.",
-          "votos": [
-            { "nombre": "Ej. Diputado A", "voto": "si" },
-            { "nombre": "Ej. Diputado B", "voto": "si" }
-          ]
+          "que_es": "Aprueba un préstamo grande para llevar agua limpia y mejorar el saneamiento en la zona de Punta Cana y Bávaro.",
+          "por_que": "Razón no indicada en la fuente.",
+          "votos": []
         },
         {
-          "titulo": "Desayuno escolar todo el año",
+          "titulo": "Pedir un plan para sacar cables eléctricos viejos y en desuso",
           "estado": "votando",
-          "que_es": "Comida en la escuela también en vacaciones.",
-          "por_que": "Hay niños que solo comen bien cuando van a la escuela.",
-          "votos": [
-            { "nombre": "Ej. Senador X", "voto": "si" },
-            { "nombre": "Ej. Senador Y", "voto": "ausente" }
-          ]
+          "que_es": "Pide quitar de las calles los cables de luz, teléfono e internet que ya no sirven.",
+          "por_que": "Razón no indicada en la fuente.",
+          "votos": []
+        }
+      ]
+    },
+    {
+      "id": "transporte",
+      "emoji": "🚌",
+      "nombre": "Transporte y Carreteras",
+      "leyes": [
+        {
+          "titulo": "Arreglar la carretera entre Cruce de Guayacanes y Estero Hondo",
+          "estado": "votando",
+          "que_es": "Pide reparar la carretera que une un pueblo de Valverde con uno de Puerto Plata.",
+          "por_que": "Razón no indicada en la fuente.",
+          "votos": []
+        },
+        {
+          "titulo": "Terminar el puente del paraje El Placer, en Tenares",
+          "estado": "votando",
+          "que_es": "Pide acabar de construir un puente en el pueblo de Tenares, provincia Hermanas Mirabal.",
+          "por_que": "Razón no indicada en la fuente.",
+          "votos": []
+        },
+        {
+          "titulo": "Terminar la carretera de Hato Mayor a San Francisco-Vicentillo",
+          "estado": "votando",
+          "que_es": "Pide acabar la carretera que conecta Hato Mayor con un pueblo de la provincia El Seibo.",
+          "por_que": "Razón no indicada en la fuente.",
+          "votos": []
+        },
+        {
+          "titulo": "Donar dos autobuses para estudiantes de El Valle y Sabana de la Mar",
+          "estado": "votando",
+          "que_es": "Pide regalar dos guaguas para llevar a estudiantes universitarios de esos pueblos.",
+          "por_que": "Razón no indicada en la fuente.",
+          "votos": []
+        }
+      ]
+    },
+    {
+      "id": "conectividad",
+      "emoji": "📶",
+      "nombre": "Internet y Conexión",
+      "leyes": [
+        {
+          "titulo": "Plan urgente de internet en carreteras y zonas rurales",
+          "estado": "votando",
+          "que_es": "Pide llevar señal de internet y teléfono a las carreteras y a los campos donde casi no hay.",
+          "por_que": "Razón no indicada en la fuente.",
+          "votos": []
         }
       ]
     },
@@ -107,31 +147,18 @@
       "nombre": "Vivienda",
       "leyes": [
         {
-          "titulo": "Ayuda para la primera casa",
+          "titulo": "Construir casas para familias que viven a la orilla del río Masacre",
           "estado": "votando",
-          "que_es": "El Estado ayuda a pagar parte de tu primera casa.",
-          "por_que": "Los precios subieron y los jóvenes no pueden comprar.",
-          "votos": [
-            { "nombre": "Ej. Diputado A", "voto": "si" },
-            { "nombre": "Ej. Diputado B", "voto": "no" }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "transporte",
-      "emoji": "🚌",
-      "nombre": "Transporte",
-      "leyes": [
+          "que_es": "Pide hacer un proyecto de viviendas baratas para familias del municipio Loma de Cabrera, en Dajabón.",
+          "por_que": "Razón no indicada en la fuente.",
+          "votos": []
+        },
         {
-          "titulo": "Pasaje más barato para estudiantes",
+          "titulo": "Cambio a un préstamo del Banco Mundial para el plan de viviendas",
           "estado": "aprobada",
-          "que_es": "Los estudiantes pagan menos en la guagua y el metro.",
-          "por_que": "El pasaje se come gran parte de lo que tienen para estudiar.",
-          "votos": [
-            { "nombre": "Ej. Diputado A", "voto": "si" },
-            { "nombre": "Ej. Diputado B", "voto": "si" }
-          ]
+          "que_es": "Aprueba un ajuste a un préstamo que sirve para financiar el programa nacional de viviendas.",
+          "por_que": "Razón no indicada en la fuente.",
+          "votos": []
         }
       ]
     },
@@ -141,31 +168,88 @@
       "nombre": "Medio Ambiente",
       "leyes": [
         {
-          "titulo": "Menos plástico de un solo uso",
+          "titulo": "Préstamo de US$200 millones para la acción contra el cambio climático",
+          "estado": "aprobada",
+          "que_es": "Aprueba un préstamo para apoyar las medidas del país contra el cambio del clima.",
+          "por_que": "Razón no indicada en la fuente.",
+          "votos": []
+        },
+        {
+          "titulo": "Plan para ordenar y organizar el pueblo de Las Terrenas",
           "estado": "votando",
-          "que_es": "Prohíbe poco a poco los vasos y fundas que se usan una vez.",
-          "por_que": "La basura plástica está dañando ríos y playas.",
-          "votos": [
-            { "nombre": "Ej. Senador X", "voto": "si" },
-            { "nombre": "Ej. Senador Y", "voto": "no" }
-          ]
+          "que_es": "Pide hacer un plan para organizar mejor el espacio y el crecimiento del pueblo de Las Terrenas.",
+          "por_que": "Razón no indicada en la fuente.",
+          "votos": []
         }
       ]
     },
     {
-      "id": "economia",
-      "emoji": "💰",
-      "nombre": "Economía y Tu Bolsillo",
+      "id": "cultura",
+      "emoji": "🎭",
+      "nombre": "Cultura y Deporte",
       "leyes": [
         {
-          "titulo": "Menos impuesto a productos básicos",
+          "titulo": "Ponerle el nombre 'Vladimir Guerrero' a un estadio de béisbol",
+          "estado": "votando",
+          "que_es": "Propone nombrar un estadio de béisbol de Nizao, Peravia, en honor a Vladimir Guerrero.",
+          "por_que": "Razón no indicada en la fuente.",
+          "votos": []
+        },
+        {
+          "titulo": "Declarar el 28 de mayo como 'Día de la Academia Naval Dominicana'",
+          "estado": "votando",
+          "que_es": "Propone que cada 28 de mayo se celebre el día de la Academia Naval del país.",
+          "por_que": "Razón no indicada en la fuente.",
+          "votos": []
+        },
+        {
+          "titulo": "Reconocimiento al boxeador Héctor Julio Ávila",
+          "estado": "votando",
+          "que_es": "Da un homenaje a este boxeador por sus logros dentro y fuera del país.",
+          "por_que": "Razón no indicada en la fuente.",
+          "votos": []
+        },
+        {
+          "titulo": "Felicitación al equipo Salcedo Fútbol Club por ser campeón",
+          "estado": "votando",
+          "que_es": "Felicita al equipo Salcedo Fútbol Club por ganar la Liga Dominicana de Fútbol 2025-2026.",
+          "por_que": "Razón no indicada en la fuente.",
+          "votos": []
+        },
+        {
+          "titulo": "Reconocimiento a la escritora Emilia Pereyra",
+          "estado": "votando",
+          "que_es": "Da un homenaje a esta escritora y periodista por sus aportes a la cultura del país.",
+          "por_que": "Razón no indicada en la fuente.",
+          "votos": []
+        }
+      ]
+    },
+    {
+      "id": "exterior",
+      "emoji": "🌍",
+      "nombre": "Asuntos del Exterior",
+      "leyes": [
+        {
+          "titulo": "Confirmar a un embajador dominicano en Malasia",
+          "estado": "aprobada",
+          "que_es": "El Senado confirma el nombramiento de un embajador del país para Malasia.",
+          "por_que": "Razón no indicada en la fuente.",
+          "votos": []
+        },
+        {
+          "titulo": "Confirmar a una embajadora dominicana en Nigeria",
+          "estado": "aprobada",
+          "que_es": "El Senado confirma el nombramiento de una embajadora del país para Nigeria.",
+          "por_que": "Razón no indicada en la fuente.",
+          "votos": []
+        },
+        {
+          "titulo": "Nombramiento de embajador en Bahamas (enviado a archivo)",
           "estado": "rechazada",
-          "que_es": "Baja el impuesto a comida y cosas del diario.",
-          "por_que": "La canasta básica está cara y aprieta a las familias.",
-          "votos": [
-            { "nombre": "Ej. Diputado A", "voto": "no" },
-            { "nombre": "Ej. Diputado B", "voto": "si" }
-          ]
+          "que_es": "Una propuesta para confirmar a un embajador en Bahamas que no siguió adelante y fue enviada al archivo.",
+          "por_que": "Razón no indicada en la fuente.",
+          "votos": []
         }
       ]
     }
