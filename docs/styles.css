@@ -13,10 +13,20 @@
 * { box-sizing: border-box; }
 body {
   margin: 0;
-  font-family: "Segoe UI", system-ui, -apple-system, sans-serif;
+  font-family: "Nunito", "Segoe UI", system-ui, -apple-system, sans-serif;
   background: var(--crema);
   color: var(--tinta);
-  line-height: 1.45;
+  line-height: 1.6;
+  font-size: 17px;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Section headers — clear, friendly intro for each tab */
+.seccion-titulo {
+  font-size: 1.5rem; font-weight: 800; margin: 18px 0 4px; color: var(--tinta);
+}
+.seccion-desc {
+  margin: 0 0 12px; color: #44506a; font-size: 1rem;
 }
 
 .topbar {
