@@ -183,6 +183,7 @@ main { max-width: 720px; margin: 0 auto; padding: 0 14px 40px; }
 .v-iniciativa { background: #f0f1f5; color: var(--gris); }
 .v-conteo { background: #eef2ff; color: var(--azul); }
 .v-resultado { background: #e3f7ec; color: var(--verde); }
+.v-resultado-neutral { background: #f0f1f5; color: var(--gris); }
 .asistencia { border-top: 1px solid #eef0f4; }
 .asistencia summary {
   cursor: pointer; padding: 14px 18px; font-weight: 700; color: var(--azul);

@@ -172,7 +172,9 @@ function renderSesiones(data) {
             const row = el("div", "votacion");
             row.append(el("p", "votacion-titulo", v.titulo));
             const meta = el("div", "votacion-meta");
-            meta.append(el("span", "v-iniciativa", "Iniciativa " + v.iniciativa), el("span", "v-conteo", v.a_favor + " a favor de " + v.presentes + " presentes"), el("span", "v-resultado", "✅ " + v.resultado));
+            const aprob = /^aprob/i.test(v.resultado);
+            const icono = aprob ? "✅ " : "•&nbsp;";
+            meta.append(el("span", "v-iniciativa", "Iniciativa " + v.iniciativa), el("span", "v-conteo", v.a_favor + " a favor de " + v.presentes + " presentes"), el("span", aprob ? "v-resultado" : "v-resultado v-resultado-neutral", icono + v.resultado));
             row.append(meta);
             vlist.append(row);
         });
