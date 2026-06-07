@@ -1,0 +1,131 @@
+:root {
+  --azul: #1a4ed8;
+  --rojo: #d8261a;
+  --crema: #fff8ef;
+  --tinta: #1c2230;
+  --verde: #1f9d57;
+  --gris: #6b7280;
+  --tarjeta: #ffffff;
+  --sombra: 0 4px 14px rgba(0,0,0,.08);
+  --radio: 18px;
+}
+
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  font-family: "Segoe UI", system-ui, -apple-system, sans-serif;
+  background: var(--crema);
+  color: var(--tinta);
+  line-height: 1.45;
+}
+
+.topbar {
+  background: linear-gradient(135deg, var(--azul), #3b6ef0);
+  color: #fff;
+  padding: 22px 18px 26px;
+  text-align: center;
+}
+.topbar h1 { margin: 0; font-size: 1.8rem; }
+.topbar .tag {
+  background: var(--rojo); color:#fff; font-size: .8rem;
+  padding: 2px 10px; border-radius: 999px; vertical-align: middle;
+}
+.topbar .sub { margin: 8px 0 0; opacity: .95; font-size: 1rem; }
+
+.tabs {
+  display: flex; gap: 8px; justify-content: center;
+  padding: 14px; position: sticky; top: 0;
+  background: var(--crema); z-index: 5;
+}
+.tab {
+  border: none; cursor: pointer;
+  background: #fff; color: var(--tinta);
+  padding: 12px 18px; border-radius: 999px;
+  font-size: 1rem; font-weight: 600; box-shadow: var(--sombra);
+}
+.tab.active { background: var(--azul); color: #fff; }
+
+main { max-width: 720px; margin: 0 auto; padding: 0 14px 40px; }
+.hint { color: var(--gris); text-align: center; margin: 6px 0 16px; }
+.hidden { display: none !important; }
+
+.como {
+  background: #eef2ff; border: 1px solid #dbe3ff; color: #1c2a5e;
+  padding: 12px 14px; border-radius: 14px; font-size: .92rem; margin: 14px 0;
+}
+.demo-banner {
+  background: #fff3cd; border: 1px solid #ffe08a;
+  color: #7a5b00; padding: 10px 14px; border-radius: 12px;
+  font-size: .9rem; margin: 14px 0; text-align: center;
+}
+
+/* Sectores */
+.sector {
+  background: var(--tarjeta); border-radius: var(--radio);
+  box-shadow: var(--sombra); margin-bottom: 14px; overflow: hidden;
+}
+.sector-head {
+  display: flex; align-items: center; gap: 12px;
+  padding: 16px 18px; cursor: pointer; user-select: none;
+}
+.sector-emoji { font-size: 1.8rem; }
+.sector-title { font-size: 1.2rem; font-weight: 700; margin: 0; flex: 1; }
+.sector-count {
+  background: #eef2ff; color: var(--azul);
+  padding: 2px 10px; border-radius: 999px; font-size: .85rem; font-weight: 700;
+}
+.sector-body { padding: 0 18px 8px; }
+
+/* Ley */
+.ley {
+  border-top: 1px solid #eef0f4; padding: 14px 0; cursor: pointer;
+}
+.ley:first-child { border-top: none; }
+.ley-titulo { font-weight: 600; margin: 0; }
+.ley-estado {
+  display: inline-block; font-size: .78rem; font-weight: 700;
+  padding: 2px 8px; border-radius: 999px; margin-top: 6px;
+}
+.estado-aprobada { background: #e3f7ec; color: var(--verde); }
+.estado-votando  { background: #fff1d6; color: #b5740a; }
+.estado-rechazada{ background: #fde3e1; color: var(--rojo); }
+.ley-detalle { margin-top: 12px; display: none; }
+.ley.open .ley-detalle { display: block; }
+.ley-detalle h4 { margin: 12px 0 4px; font-size: .95rem; color: var(--azul); }
+.ley-detalle p { margin: 0; }
+
+/* Votos */
+.votos { margin-top: 8px; }
+.voto-fila {
+  display: flex; justify-content: space-between;
+  padding: 6px 0; border-bottom: 1px dashed #eef0f4; font-size: .92rem;
+}
+.voto-si { color: var(--verde); font-weight: 700; }
+.voto-no { color: var(--rojo); font-weight: 700; }
+.voto-aus { color: var(--gris); font-weight: 700; }
+
+/* Provincias */
+.prov-grid {
+  display: grid; grid-template-columns: repeat(auto-fill, minmax(140px,1fr));
+  gap: 10px;
+}
+.prov-card {
+  background: var(--tarjeta); border-radius: 14px; box-shadow: var(--sombra);
+  padding: 14px; text-align: center; cursor: pointer; font-weight: 600;
+}
+.prov-card:hover { outline: 2px solid var(--azul); }
+
+.perfil {
+  background: var(--tarjeta); border-radius: var(--radio);
+  box-shadow: var(--sombra); padding: 18px; margin-top: 16px;
+}
+.perfil h3 { margin: 0 0 4px; }
+.lider { border-top: 1px solid #eef0f4; padding: 12px 0; }
+.lider:first-of-type { border-top: none; }
+.lider-cargo { color: var(--gris); font-size: .9rem; }
+.partido-chip {
+  display:inline-block; font-size:.75rem; font-weight:700;
+  padding:2px 8px; border-radius:999px; background:#eef2ff; color:var(--azul);
+  margin-left:6px;
+}
+.foot { text-align: center; color: var(--gris); padding: 20px; font-size: .85rem; }

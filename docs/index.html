@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Leyes RD — Fácil de Entender</title>
+  <meta name="description" content="Las leyes de República Dominicana, explicadas fácil. Por sectores. Sin palabras difíciles." />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="topbar">
+    <h1>🇩🇴 Leyes RD <span class="tag">fácil</span></h1>
+    <p class="sub">Las leyes del país, contadas claro. Por temas. Sin enredos.</p>
+  </header>
+
+  <nav class="tabs">
+    <button class="tab active" data-view="leyes">📜 Leyes</button>
+    <button class="tab" data-view="mapa">🗺️ Provincias</button>
+  </nav>
+
+  <main>
+    <!-- DEMO banner: data here is sample only until the real congress feed is wired -->
+    <div id="demoBanner" class="demo-banner">
+      ⚠️ Versión de prueba. Los datos son <b>ejemplos</b>, todavía no son leyes reales.
+    </div>
+
+    <section id="view-leyes" class="view">
+      <div class="como">
+        <b>¿Cómo funciona?</b> Las leyes están ordenadas por <b>tema</b>, no por números raros.
+        Toca un tema, luego una ley, y verás <b>qué es</b>, <b>por qué se propuso</b> y <b>quién votó</b>.
+      </div>
+      <p class="hint">Toca un tema para ver sus leyes. Toca una ley para abrirla.</p>
+      <div id="sectores"></div>
+    </section>
+
+    <section id="view-mapa" class="view hidden">
+      <p class="hint">Toca una provincia para ver quién manda y cómo vota.</p>
+      <div id="provincias"></div>
+      <div id="perfilProvincia" class="perfil hidden"></div>
+    </section>
+  </main>
+
+  <footer class="foot">
+    <p>Hecho para que cualquiera entienda. Gratis.</p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>

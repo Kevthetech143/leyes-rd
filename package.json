@@ -1,0 +1,14 @@
+{
+  "name": "leyes-rd",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Leyes RD \u2014 explica las leyes dominicanas f\u00e1cil, por sectores. Built in TypeScript.",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "watch": "tsc -p tsconfig.json --watch",
+    "serve": "cd docs && python3 -m http.server 8765"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.0"
+  }
+}

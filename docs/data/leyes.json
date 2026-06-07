@@ -1,0 +1,173 @@
+{
+  "_nota": "DATOS DE EJEMPLO. No son leyes reales. Reemplazar con el feed real del Congreso.",
+  "sectores": [
+    {
+      "id": "salud",
+      "emoji": "🏥",
+      "nombre": "Salud",
+      "leyes": [
+        {
+          "titulo": "Medicinas más baratas en farmacias",
+          "estado": "votando",
+          "que_es": "Quiere bajar el precio de las medicinas que más se usan.",
+          "por_que": "La gente se queja de que las pastillas cuestan mucho y no alcanzan.",
+          "votos": [
+            { "nombre": "Ej. Diputado A", "voto": "si" },
+            { "nombre": "Ej. Diputado B", "voto": "no" },
+            { "nombre": "Ej. Diputado C", "voto": "ausente" }
+          ]
+        },
+        {
+          "titulo": "Un hospital nuevo en cada provincia",
+          "estado": "aprobada",
+          "que_es": "Manda a construir hospitales donde no hay.",
+          "por_que": "Hay pueblos lejos de un hospital y eso pone en riesgo a los enfermos.",
+          "votos": [
+            { "nombre": "Ej. Diputado A", "voto": "si" },
+            { "nombre": "Ej. Diputado B", "voto": "si" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "trabajo",
+      "emoji": "💼",
+      "nombre": "Trabajo y Sueldos",
+      "leyes": [
+        {
+          "titulo": "Subir el sueldo mínimo",
+          "estado": "votando",
+          "que_es": "Sube lo menos que te pueden pagar por un mes de trabajo.",
+          "por_que": "El costo de la vida subió y el sueldo no.",
+          "votos": [
+            { "nombre": "Ej. Senador X", "voto": "si" },
+            { "nombre": "Ej. Senador Y", "voto": "no" }
+          ]
+        },
+        {
+          "titulo": "Pago doble por trabajar feriados",
+          "estado": "aprobada",
+          "que_es": "Si trabajas un día de fiesta, te pagan el doble.",
+          "por_que": "Mucha gente trabaja feriados y le pagaban igual que un día normal.",
+          "votos": [
+            { "nombre": "Ej. Diputado A", "voto": "si" },
+            { "nombre": "Ej. Diputado B", "voto": "si" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "seguridad",
+      "emoji": "🛡️",
+      "nombre": "Seguridad",
+      "leyes": [
+        {
+          "titulo": "Más cámaras en las calles",
+          "estado": "rechazada",
+          "que_es": "Poner cámaras para vigilar zonas con mucho robo.",
+          "por_que": "Subieron los robos y la gente pide protección.",
+          "votos": [
+            { "nombre": "Ej. Diputado A", "voto": "no" },
+            { "nombre": "Ej. Diputado B", "voto": "no" },
+            { "nombre": "Ej. Diputado C", "voto": "si" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "educacion",
+      "emoji": "📚",
+      "nombre": "Educación",
+      "leyes": [
+        {
+          "titulo": "Internet gratis en las escuelas",
+          "estado": "aprobada",
+          "que_es": "Da internet a todas las escuelas públicas.",
+          "por_que": "Sin internet, los muchachos se quedan atrás.",
+          "votos": [
+            { "nombre": "Ej. Diputado A", "voto": "si" },
+            { "nombre": "Ej. Diputado B", "voto": "si" }
+          ]
+        },
+        {
+          "titulo": "Desayuno escolar todo el año",
+          "estado": "votando",
+          "que_es": "Comida en la escuela también en vacaciones.",
+          "por_que": "Hay niños que solo comen bien cuando van a la escuela.",
+          "votos": [
+            { "nombre": "Ej. Senador X", "voto": "si" },
+            { "nombre": "Ej. Senador Y", "voto": "ausente" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "vivienda",
+      "emoji": "🏠",
+      "nombre": "Vivienda",
+      "leyes": [
+        {
+          "titulo": "Ayuda para la primera casa",
+          "estado": "votando",
+          "que_es": "El Estado ayuda a pagar parte de tu primera casa.",
+          "por_que": "Los precios subieron y los jóvenes no pueden comprar.",
+          "votos": [
+            { "nombre": "Ej. Diputado A", "voto": "si" },
+            { "nombre": "Ej. Diputado B", "voto": "no" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "transporte",
+      "emoji": "🚌",
+      "nombre": "Transporte",
+      "leyes": [
+        {
+          "titulo": "Pasaje más barato para estudiantes",
+          "estado": "aprobada",
+          "que_es": "Los estudiantes pagan menos en la guagua y el metro.",
+          "por_que": "El pasaje se come gran parte de lo que tienen para estudiar.",
+          "votos": [
+            { "nombre": "Ej. Diputado A", "voto": "si" },
+            { "nombre": "Ej. Diputado B", "voto": "si" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ambiente",
+      "emoji": "🌱",
+      "nombre": "Medio Ambiente",
+      "leyes": [
+        {
+          "titulo": "Menos plástico de un solo uso",
+          "estado": "votando",
+          "que_es": "Prohíbe poco a poco los vasos y fundas que se usan una vez.",
+          "por_que": "La basura plástica está dañando ríos y playas.",
+          "votos": [
+            { "nombre": "Ej. Senador X", "voto": "si" },
+            { "nombre": "Ej. Senador Y", "voto": "no" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "economia",
+      "emoji": "💰",
+      "nombre": "Economía y Tu Bolsillo",
+      "leyes": [
+        {
+          "titulo": "Menos impuesto a productos básicos",
+          "estado": "rechazada",
+          "que_es": "Baja el impuesto a comida y cosas del diario.",
+          "por_que": "La canasta básica está cara y aprieta a las familias.",
+          "votos": [
+            { "nombre": "Ej. Diputado A", "voto": "no" },
+            { "nombre": "Ej. Diputado B", "voto": "si" }
+          ]
+        }
+      ]
+    }
+  ]
+}

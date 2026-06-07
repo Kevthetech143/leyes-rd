@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "target": "ES2019",
+    "module": "ESNext",
+    "moduleResolution": "Bundler",
+    "lib": [
+      "DOM",
+      "DOM.Iterable",
+      "ES2019"
+    ],
+    "strict": true,
+    "noImplicitAny": true,
+    "rootDir": "src",
+    "outDir": "docs",
+    "sourceMap": false,
+    "removeComments": false
+  },
+  "include": [
+    "src/**/*.ts"
+  ]
+}
