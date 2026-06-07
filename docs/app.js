@@ -84,6 +84,28 @@ function renderLey(ley) {
     return wrap;
 }
 /* ---------- Provincias ---------- */
+// One kid-friendly explanation per ROLE, matched by the start of the cargo.
+// Keeps the language identical for every person with the same job.
+function funcionDeCargo(cargo) {
+    const c = cargo.toLowerCase();
+    if (c.startsWith("senador"))
+        return "Hace y aprueba las leyes del país. Hay uno por provincia.";
+    if (c.startsWith("diputad"))
+        return "También hace y vota las leyes, en nombre de su provincia.";
+    if (c.startsWith("gobernador"))
+        return "Representa al Presidente en la provincia. No hace leyes.";
+    if (c.startsWith("alcalde") || c.startsWith("alcaldesa"))
+        return "Manda en su pueblo: calles, basura, parques y permisos.";
+    if (c.startsWith("director"))
+        return "Como un alcalde, pero de un distrito municipal más pequeño.";
+    if (c.startsWith("regidor"))
+        return "Vigila al alcalde y aprueba las cosas del pueblo.";
+    return "";
+}
+function esLegislador(cargo) {
+    const c = cargo.toLowerCase();
+    return c.startsWith("senador") || c.startsWith("diputad");
+}
 function renderProvincias(data) {
     const grid = el("div", "prov-grid");
     const perfil = byId("perfilProvincia");
@@ -97,8 +119,14 @@ function renderProvincias(data) {
                 const block = el("div", "lider");
                 block.append(el("p", null, "<b>" + l.nombre + "</b><span class='partido-chip'>" + l.partido + "</span>"));
                 block.append(el("p", "lider-cargo", l.cargo));
-                block.append(el("p", null, l.resumen));
-                block.append(el("p", "lider-cargo", "Registro de votos: " + l.registro));
+                const fn = funcionDeCargo(l.cargo);
+                if (fn)
+                    block.append(el("p", "lider-funcion", "👉 " + fn));
+                if (l.resumen)
+                    block.append(el("p", null, l.resumen));
+                if (esLegislador(l.cargo)) {
+                    block.append(el("p", "lider-cargo", "Registro de votos: " + l.registro));
+                }
                 perfil.append(block);
             });
             perfil.scrollIntoView({ behavior: "smooth", block: "nearest" });
