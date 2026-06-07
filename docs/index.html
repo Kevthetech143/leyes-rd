@@ -16,6 +16,7 @@
   <nav class="tabs">
     <button class="tab active" data-view="leyes">📜 Leyes</button>
     <button class="tab" data-view="mapa">🗺️ Provincias</button>
+    <button class="tab" data-view="sesiones">🏛️ Sesiones</button>
   </nav>
 
   <main>
@@ -52,6 +53,14 @@
       <p class="hint">Toca una provincia para ver a sus representantes.</p>
       <div id="provincias"></div>
       <div id="perfilProvincia" class="perfil hidden"></div>
+    </section>
+
+    <section id="view-sesiones" class="view hidden">
+      <div class="como">
+        Aquí ves cuántos votaron a favor y quién asistió. El voto de cada senador no es público.
+      </div>
+      <p class="hint">Cada tarjeta es una sesión del Senado. Toca "Asistencia" para ver quién faltó.</p>
+      <div id="sesiones"></div>
     </section>
   </main>
 

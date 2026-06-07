@@ -109,6 +109,83 @@ function renderProvincias(data) {
     host.innerHTML = "";
     host.append(grid);
 }
+/* ---------- Sesiones ---------- */
+const MESES = [
+    "enero", "febrero", "marzo", "abril", "mayo", "junio",
+    "julio", "agosto", "septiembre", "octubre", "noviembre", "diciembre",
+];
+function fechaLarga(iso) {
+    // iso = "2026-04-15"
+    const parts = iso.split("-");
+    if (parts.length !== 3)
+        return iso;
+    const y = parts[0];
+    const m = Number(parts[1]) - 1;
+    const d = Number(parts[2]);
+    const mes = MESES[m] || parts[1];
+    return d + " de " + mes + " de " + y;
+}
+const estadoAsist = {
+    presente: "✅ Presente",
+    ausente: "➖ Ausente",
+    excusado: "📝 Excusado",
+};
+function renderSesiones(data) {
+    const cont = byId("sesiones");
+    cont.innerHTML = "";
+    data.sesiones.forEach((ses) => {
+        const card = el("div", "sesion");
+        const head = el("div", "sesion-head");
+        head.append(el("span", "sesion-fecha", fechaLarga(ses.fecha)), el("span", "sesion-acta", "Acta " + ses.acta));
+        card.append(head);
+        // Votaciones
+        const vlist = el("div", "votaciones");
+        ses.votaciones.forEach((v) => {
+            const row = el("div", "votacion");
+            row.append(el("p", "votacion-titulo", v.titulo));
+            const meta = el("div", "votacion-meta");
+            meta.append(el("span", "v-iniciativa", "Iniciativa " + v.iniciativa), el("span", "v-conteo", v.a_favor + " a favor de " + v.presentes + " presentes"), el("span", "v-resultado", "✅ " + v.resultado));
+            row.append(meta);
+            vlist.append(row);
+        });
+        card.append(vlist);
+        // Asistencia (expandable)
+        const det = ses.asistencia.detalle;
+        const asistWrap = el("details", "asistencia");
+        const sum = el("summary", "asistencia-sum");
+        if (det.length) {
+            sum.innerHTML = "👥 Quién faltó (con excusa): " + det.length;
+        }
+        else if (ses.asistencia.ausentes === 0) {
+            sum.innerHTML = "👥 Asistencia: nadie presentó excusa ese día";
+        }
+        else {
+            sum.innerHTML = "👥 Asistencia";
+        }
+        asistWrap.append(sum);
+        const body = el("div", "asistencia-body");
+        if (det.length) {
+            const ul = el("div", "asist-lista");
+            det.forEach((p) => {
+                const fila = el("div", "asist-fila");
+                fila.append(el("span", null, p.nombre));
+                fila.append(el("span", "asist-estado-" + p.estado, estadoAsist[p.estado] || p.estado));
+                ul.append(fila);
+            });
+            body.append(ul);
+            body.append(el("p", "nota-fuente", "Lista de senadores que presentaron excusa, según el acta oficial. El acta no publica una cifra total de presentes."));
+        }
+        else if (ses.asistencia.ausentes === 0) {
+            body.append(el("p", null, "Según el acta, ningún senador presentó excusa ese día."));
+        }
+        else {
+            body.append(el("p", "nota-fuente", "La lista por nombre no está disponible de forma legible para esta sesión."));
+        }
+        asistWrap.append(body);
+        card.append(asistWrap);
+        cont.append(card);
+    });
+}
 /* ---------- Tabs ---------- */
 function setupTabs() {
     document.querySelectorAll(".tab").forEach((tab) => {
@@ -118,18 +195,21 @@ function setupTabs() {
             const view = tab.dataset.view;
             byId("view-leyes").classList.toggle("hidden", view !== "leyes");
             byId("view-mapa").classList.toggle("hidden", view !== "mapa");
+            byId("view-sesiones").classList.toggle("hidden", view !== "sesiones");
         });
     });
 }
 async function init() {
     setupTabs();
     try {
-        const [leyes, provincias] = await Promise.all([
+        const [leyes, provincias, sesiones] = await Promise.all([
             cargar("data/leyes.json"),
             cargar("data/provincias.json"),
+            cargar("data/sesiones.json"),
         ]);
         renderLeyes(leyes);
         renderProvincias(provincias);
+        renderSesiones(sesiones);
     }
     catch (err) {
         const main = document.querySelector("main");
