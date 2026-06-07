@@ -1,5 +1,5 @@
 {
-  "_nota": "Senadores y diputados reales del período 2024-2028, según el Senado y la Cámara de Diputados de la República Dominicana. El voto por legislador no es público. Actualizado el 7 de junio de 2026.",
+  "_nota": "Senadores y diputados reales del período 2024-2028, según el Senado y la Cámara de Diputados de la República Dominicana. Gobernadores/as civiles vigentes designados/as por decreto presidencial (Presidencia de la República) y alcaldes/as electos/as en las elecciones municipales del 18 de febrero de 2024 (2024-2028), según la Junta Central Electoral y fuentes oficiales. El voto por legislador no es público. La lista de alcaldes/as aún es parcial: solo se incluyen municipios confirmados en fuentes oficiales. Actualizado el 7 de junio de 2026.",
   "provincias": [
     {
       "nombre": "Distrito Nacional",
@@ -136,6 +136,13 @@
           "partido": "FP",
           "resumen": "Representa a Distrito Nacional en la Cámara de Diputados.",
           "registro": "No disponible todavía"
+        },
+        {
+          "cargo": "Alcalde/sa de Distrito Nacional",
+          "nombre": "Carolina Mejía",
+          "partido": "PRM",
+          "resumen": "Alcalde/sa de Distrito Nacional (2024-2028).",
+          "registro": "No disponible todavía"
         }
       ]
     },
@@ -176,6 +183,20 @@
           "partido": "FP",
           "resumen": "Representa a Azua en la Cámara de Diputados.",
           "registro": "No disponible todavía"
+        },
+        {
+          "cargo": "Gobernador/a",
+          "nombre": "María Minerva Navarro",
+          "partido": "—",
+          "resumen": "Gobernador/a civil de Azua, designado/a por la Presidencia.",
+          "registro": "No disponible todavía"
+        },
+        {
+          "cargo": "Alcalde/sa de Azua",
+          "nombre": "Rafael Antonio Hidalgo Fernández",
+          "partido": "PJS",
+          "resumen": "Alcalde/sa de Azua (2024-2028).",
+          "registro": "No disponible todavía"
         }
       ]
     },
@@ -201,6 +222,13 @@
           "nombre": "Olfanny Yuverka Méndez Matos",
           "partido": "PRM",
           "resumen": "Representa a Bahoruco en la Cámara de Diputados.",
+          "registro": "No disponible todavía"
+        },
+        {
+          "cargo": "Gobernador/a",
+          "nombre": "María Esther Díaz Medina",
+          "partido": "—",
+          "resumen": "Gobernador/a civil de Bahoruco, designado/a por la Presidencia.",
           "registro": "No disponible todavía"
         }
       ]
@@ -235,6 +263,20 @@
           "partido": "PRM",
           "resumen": "Representa a Barahona en la Cámara de Diputados.",
           "registro": "No disponible todavía"
+        },
+        {
+          "cargo": "Gobernador/a",
+          "nombre": "Oneida Catalina Féliz Medina",
+          "partido": "—",
+          "resumen": "Gobernador/a civil de Barahona, designado/a por la Presidencia.",
+          "registro": "No disponible todavía"
+        },
+        {
+          "cargo": "Alcalde/sa de Barahona",
+          "nombre": "Milton Fernández de la Cruz",
+          "partido": "PRM",
+          "resumen": "Alcalde/sa de Barahona (2024-2028).",
+          "registro": "No disponible todavía"
         }
       ]
     },
@@ -260,6 +302,13 @@
           "nombre": "Daritza Felicidad Zapata Díaz",
           "partido": "PRM",
           "resumen": "Representa a Dajabón en la Cámara de Diputados.",
+          "registro": "No disponible todavía"
+        },
+        {
+          "cargo": "Gobernador/a",
+          "nombre": "Severina Gil Carreras",
+          "partido": "—",
+          "resumen": "Gobernador/a civil de Dajabón, designado/a por la Presidencia.",
           "registro": "No disponible todavía"
         }
       ]
@@ -308,6 +357,20 @@
           "partido": "PRM",
           "resumen": "Representa a Duarte en la Cámara de Diputados.",
           "registro": "No disponible todavía"
+        },
+        {
+          "cargo": "Gobernador/a",
+          "nombre": "Ana Xiomara Cortés Martes",
+          "partido": "—",
+          "resumen": "Gobernador/a civil de Duarte, designado/a por la Presidencia.",
+          "registro": "No disponible todavía"
+        },
+        {
+          "cargo": "Alcalde/sa de San Francisco de Macorís",
+          "nombre": "Alexis (Alex) Díaz",
+          "partido": "PRM",
+          "resumen": "Alcalde/sa de San Francisco de Macorís (2024-2028).",
+          "registro": "No disponible todavía"
         }
       ]
     },
@@ -334,6 +397,13 @@
           "partido": "PRM",
           "resumen": "Representa a El Seibo en la Cámara de Diputados.",
           "registro": "No disponible todavía"
+        },
+        {
+          "cargo": "Gobernador/a",
+          "nombre": "Magaly Tabar De Goico",
+          "partido": "—",
+          "resumen": "Gobernador/a civil de El Seibo, designado/a por la Presidencia.",
+          "registro": "No disponible todavía"
         }
       ]
     },
@@ -359,6 +429,13 @@
           "nombre": "Millys Johanna Martínez Morillo",
           "partido": "PRM",
           "resumen": "Representa a Elías Piña en la Cámara de Diputados.",
+          "registro": "No disponible todavía"
+        },
+        {
+          "cargo": "Gobernador/a",
+          "nombre": "Migdaly Antonia de los Santos Jiménez",
+          "partido": "—",
+          "resumen": "Gobernador/a civil de Elías Piña, designado/a por la Presidencia.",
           "registro": "No disponible todavía"
         }
       ]
@@ -400,6 +477,13 @@
           "partido": "PRM",
           "resumen": "Representa a Espaillat en la Cámara de Diputados.",
           "registro": "No disponible todavía"
+        },
+        {
+          "cargo": "Gobernador/a",
+          "nombre": "Patricia María Muñoz Salcedo",
+          "partido": "—",
+          "resumen": "Gobernador/a civil de Espaillat, designado/a por la Presidencia.",
+          "registro": "No disponible todavía"
         }
       ]
     },
@@ -425,6 +509,13 @@
           "nombre": "Héctor Fodil Rosa Mercedes",
           "partido": "PRM",
           "resumen": "Representa a Hato Mayor en la Cámara de Diputados.",
+          "registro": "No disponible todavía"
+        },
+        {
+          "cargo": "Gobernador/a",
+          "nombre": "Maribel Guadalupe Simón Vargas de Reyes",
+          "partido": "—",
+          "resumen": "Gobernador/a civil de Hato Mayor, designado/a por la Presidencia.",
           "registro": "No disponible todavía"
         }
       ]
@@ -452,6 +543,13 @@
           "partido": "PRM",
           "resumen": "Representa a Hermanas Mirabal en la Cámara de Diputados.",
           "registro": "No disponible todavía"
+        },
+        {
+          "cargo": "Gobernador/a",
+          "nombre": "Lisette Nicasio de Adames",
+          "partido": "—",
+          "resumen": "Gobernador/a civil de Hermanas Mirabal, designado/a por la Presidencia.",
+          "registro": "No disponible todavía"
         }
       ]
     },
@@ -477,6 +575,13 @@
           "nombre": "Llanelis Matos Cuevas",
           "partido": "PRM",
           "resumen": "Representa a Independencia en la Cámara de Diputados.",
+          "registro": "No disponible todavía"
+        },
+        {
+          "cargo": "Gobernador/a",
+          "nombre": "Mercedes Novas Novas",
+          "partido": "—",
+          "resumen": "Gobernador/a civil de Independencia, designado/a por la Presidencia.",
           "registro": "No disponible todavía"
         }
       ]
@@ -525,6 +630,20 @@
           "partido": "PLR",
           "resumen": "Representa a La Altagracia en la Cámara de Diputados.",
           "registro": "No disponible todavía"
+        },
+        {
+          "cargo": "Gobernador/a",
+          "nombre": "Daysi Francisca de Oleo R. de Bastardo",
+          "partido": "—",
+          "resumen": "Gobernador/a civil de La Altagracia, designado/a por la Presidencia.",
+          "registro": "No disponible todavía"
+        },
+        {
+          "cargo": "Alcalde/sa de Salvaleón de Higüey",
+          "nombre": "Karina Aristy",
+          "partido": "PLR",
+          "resumen": "Alcalde/sa de Salvaleón de Higüey (2024-2028).",
+          "registro": "No disponible todavía"
         }
       ]
     },
@@ -564,6 +683,13 @@
           "nombre": "Wandy Modesto Batista Gómez",
           "partido": "PRM",
           "resumen": "Representa a La Romana en la Cámara de Diputados.",
+          "registro": "No disponible todavía"
+        },
+        {
+          "cargo": "Gobernador/a",
+          "nombre": "Ivelisse Mercedes Méndez",
+          "partido": "—",
+          "resumen": "Gobernador/a civil de La Romana, designado/a por la Presidencia.",
           "registro": "No disponible todavía"
         }
       ]
@@ -626,6 +752,20 @@
           "partido": "PRM",
           "resumen": "Representa a La Vega en la Cámara de Diputados.",
           "registro": "No disponible todavía"
+        },
+        {
+          "cargo": "Gobernador/a",
+          "nombre": "Luisa Altagracia Jiménez Cabreja",
+          "partido": "—",
+          "resumen": "Gobernador/a civil de La Vega, designado/a por la Presidencia.",
+          "registro": "No disponible todavía"
+        },
+        {
+          "cargo": "Alcalde/sa de La Vega",
+          "nombre": "Kelvin Cruz",
+          "partido": "PRM",
+          "resumen": "Alcalde/sa de La Vega (2024-2028).",
+          "registro": "No disponible todavía"
         }
       ]
     },
@@ -658,6 +798,13 @@
           "nombre": "Sonia Núñez Espino",
           "partido": "PRM",
           "resumen": "Representa a María Trinidad Sánchez en la Cámara de Diputados.",
+          "registro": "No disponible todavía"
+        },
+        {
+          "cargo": "Gobernador/a",
+          "nombre": "María López Polanco",
+          "partido": "—",
+          "resumen": "Gobernador/a civil de María Trinidad Sánchez, designado/a por la Presidencia.",
           "registro": "No disponible todavía"
         }
       ]
@@ -692,6 +839,20 @@
           "partido": "PRM",
           "resumen": "Representa a Monseñor Nouel en la Cámara de Diputados.",
           "registro": "No disponible todavía"
+        },
+        {
+          "cargo": "Gobernador/a",
+          "nombre": "Adela Tejada Gil",
+          "partido": "—",
+          "resumen": "Gobernador/a civil de Monseñor Nouel, designado/a por la Presidencia.",
+          "registro": "No disponible todavía"
+        },
+        {
+          "cargo": "Alcalde/sa de Bonao",
+          "nombre": "Eberto Núñez",
+          "partido": "PRM",
+          "resumen": "Alcalde/sa de Bonao (2024-2028).",
+          "registro": "No disponible todavía"
         }
       ]
     },
@@ -717,6 +878,20 @@
           "nombre": "Rosendy Joel Polanco Polanco",
           "partido": "PRM",
           "resumen": "Representa a Monte Cristi en la Cámara de Diputados.",
+          "registro": "No disponible todavía"
+        },
+        {
+          "cargo": "Gobernador/a",
+          "nombre": "Leissa Virginia Cruz Polanco",
+          "partido": "—",
+          "resumen": "Gobernador/a civil de Monte Cristi, designado/a por la Presidencia.",
+          "registro": "No disponible todavía"
+        },
+        {
+          "cargo": "Alcalde/sa de San Fernando de Monte Cristi",
+          "nombre": "Rafael Jerez Castro",
+          "partido": "PRM",
+          "resumen": "Alcalde/sa de San Fernando de Monte Cristi (2024-2028).",
           "registro": "No disponible todavía"
         }
       ]
@@ -751,6 +926,13 @@
           "partido": "PRM",
           "resumen": "Representa a Monte Plata en la Cámara de Diputados.",
           "registro": "No disponible todavía"
+        },
+        {
+          "cargo": "Gobernador/a",
+          "nombre": "Rafaela Gomera",
+          "partido": "—",
+          "resumen": "Gobernador/a civil de Monte Plata, designado/a por la Presidencia.",
+          "registro": "No disponible todavía"
         }
       ]
     },
@@ -776,6 +958,13 @@
           "nombre": "Rafael Antonio Pérez Gómez",
           "partido": "FP",
           "resumen": "Representa a Pedernales en la Cámara de Diputados.",
+          "registro": "No disponible todavía"
+        },
+        {
+          "cargo": "Gobernador/a",
+          "nombre": "Edirda Yoalis de Óleo Peña",
+          "partido": "—",
+          "resumen": "Gobernador/a civil de Pedernales, designado/a por la Presidencia.",
           "registro": "No disponible todavía"
         }
       ]
@@ -809,6 +998,13 @@
           "nombre": "Willy Enrique Sánchez González",
           "partido": "PRM",
           "resumen": "Representa a Peravia en la Cámara de Diputados.",
+          "registro": "No disponible todavía"
+        },
+        {
+          "cargo": "Gobernador/a",
+          "nombre": "Ángela Báez",
+          "partido": "—",
+          "resumen": "Gobernador/a civil de Peravia, designado/a por la Presidencia.",
           "registro": "No disponible todavía"
         }
       ]
@@ -864,6 +1060,13 @@
           "partido": "PRM",
           "resumen": "Representa a Puerto Plata en la Cámara de Diputados.",
           "registro": "No disponible todavía"
+        },
+        {
+          "cargo": "Gobernador/a",
+          "nombre": "Claritza Rochtte",
+          "partido": "—",
+          "resumen": "Gobernador/a civil de Puerto Plata, designado/a por la Presidencia.",
+          "registro": "No disponible todavía"
         }
       ]
     },
@@ -889,6 +1092,13 @@
           "nombre": "Cecilio García Javier",
           "partido": "PRM",
           "resumen": "Representa a Samaná en la Cámara de Diputados.",
+          "registro": "No disponible todavía"
+        },
+        {
+          "cargo": "Gobernador/a",
+          "nombre": "Teodora Mullix Geraldino",
+          "partido": "—",
+          "resumen": "Gobernador/a civil de Samaná, designado/a por la Presidencia.",
           "registro": "No disponible todavía"
         }
       ]
@@ -972,6 +1182,20 @@
           "partido": "PLD",
           "resumen": "Representa a San Cristóbal en la Cámara de Diputados.",
           "registro": "No disponible todavía"
+        },
+        {
+          "cargo": "Gobernador/a",
+          "nombre": "Pura Casilla",
+          "partido": "—",
+          "resumen": "Gobernador/a civil de San Cristóbal, designado/a por la Presidencia.",
+          "registro": "No disponible todavía"
+        },
+        {
+          "cargo": "Alcalde/sa de San Cristóbal",
+          "nombre": "Dionisio de la Rosa",
+          "partido": "PRM",
+          "resumen": "Alcalde/sa de San Cristóbal (2024-2028).",
+          "registro": "No disponible todavía"
         }
       ]
     },
@@ -997,6 +1221,13 @@
           "nombre": "Elida Yalis Soto Mordán",
           "partido": "PRM",
           "resumen": "Representa a San José de Ocoa en la Cámara de Diputados.",
+          "registro": "No disponible todavía"
+        },
+        {
+          "cargo": "Gobernador/a",
+          "nombre": "Josefa Oliva Castillo de Peralta",
+          "partido": "—",
+          "resumen": "Gobernador/a civil de San José de Ocoa, designado/a por la Presidencia.",
           "registro": "No disponible todavía"
         }
       ]
@@ -1037,6 +1268,20 @@
           "nombre": "Mélido Mercedes Castillo",
           "partido": "FP",
           "resumen": "Representa a San Juan en la Cámara de Diputados.",
+          "registro": "No disponible todavía"
+        },
+        {
+          "cargo": "Gobernador/a",
+          "nombre": "Ana María Castillo Mateo",
+          "partido": "—",
+          "resumen": "Gobernador/a civil de San Juan, designado/a por la Presidencia.",
+          "registro": "No disponible todavía"
+        },
+        {
+          "cargo": "Alcalde/sa de San Juan de la Maguana",
+          "nombre": "Lenin de la Rosa",
+          "partido": "PLD",
+          "resumen": "Alcalde/sa de San Juan de la Maguana (2024-2028).",
           "registro": "No disponible todavía"
         }
       ]
@@ -1085,6 +1330,20 @@
           "partido": "PRM",
           "resumen": "Representa a San Pedro de Macorís en la Cámara de Diputados.",
           "registro": "No disponible todavía"
+        },
+        {
+          "cargo": "Gobernador/a",
+          "nombre": "Yovanny Agustina Núñez de Tavárez",
+          "partido": "—",
+          "resumen": "Gobernador/a civil de San Pedro de Macorís, designado/a por la Presidencia.",
+          "registro": "No disponible todavía"
+        },
+        {
+          "cargo": "Alcalde/sa de San Pedro de Macorís",
+          "nombre": "Raymundo Ortiz",
+          "partido": "PRM",
+          "resumen": "Alcalde/sa de San Pedro de Macorís (2024-2028).",
+          "registro": "No disponible todavía"
         }
       ]
     },
@@ -1117,6 +1376,20 @@
           "nombre": "Sadoky Duarte Suárez",
           "partido": "PRM",
           "resumen": "Representa a Sánchez Ramírez en la Cámara de Diputados.",
+          "registro": "No disponible todavía"
+        },
+        {
+          "cargo": "Gobernador/a",
+          "nombre": "Cristiana Rodríguez",
+          "partido": "—",
+          "resumen": "Gobernador/a civil de Sánchez Ramírez, designado/a por la Presidencia.",
+          "registro": "No disponible todavía"
+        },
+        {
+          "cargo": "Alcalde/sa de Cotuí",
+          "nombre": "José Montilla de la Cruz",
+          "partido": "PRM",
+          "resumen": "Alcalde/sa de Cotuí (2024-2028).",
           "registro": "No disponible todavía"
         }
       ]
@@ -1256,6 +1529,20 @@
           "partido": "PRM",
           "resumen": "Representa a Santiago en la Cámara de Diputados.",
           "registro": "No disponible todavía"
+        },
+        {
+          "cargo": "Gobernador/a",
+          "nombre": "Rosa Santos Méndez",
+          "partido": "—",
+          "resumen": "Gobernador/a civil de Santiago, designado/a por la Presidencia.",
+          "registro": "No disponible todavía"
+        },
+        {
+          "cargo": "Alcalde/sa de Santiago de los Caballeros",
+          "nombre": "Ulises Rodríguez",
+          "partido": "PRM",
+          "resumen": "Alcalde/sa de Santiago de los Caballeros (2024-2028).",
+          "registro": "No disponible todavía"
         }
       ]
     },
@@ -1281,6 +1568,13 @@
           "nombre": "Nicolás Tolentino López Mercado",
           "partido": "PRM",
           "resumen": "Representa a Santiago Rodríguez en la Cámara de Diputados.",
+          "registro": "No disponible todavía"
+        },
+        {
+          "cargo": "Gobernador/a",
+          "nombre": "Glehany Yafreysys Azcona Torres",
+          "partido": "—",
+          "resumen": "Gobernador/a civil de Santiago Rodríguez, designado/a por la Presidencia.",
           "registro": "No disponible todavía"
         }
       ]
@@ -1595,6 +1889,41 @@
           "partido": "FP",
           "resumen": "Representa a Santo Domingo en la Cámara de Diputados.",
           "registro": "No disponible todavía"
+        },
+        {
+          "cargo": "Gobernador/a",
+          "nombre": "Lucrecia Santana Leyba",
+          "partido": "—",
+          "resumen": "Gobernador/a civil de Santo Domingo, designado/a por la Presidencia.",
+          "registro": "No disponible todavía"
+        },
+        {
+          "cargo": "Alcalde/sa de Santo Domingo Este",
+          "nombre": "Dío Astacio",
+          "partido": "PRM",
+          "resumen": "Alcalde/sa de Santo Domingo Este (2024-2028).",
+          "registro": "No disponible todavía"
+        },
+        {
+          "cargo": "Alcalde/sa de Santo Domingo Norte",
+          "nombre": "Betty Gerónimo",
+          "partido": "PRM",
+          "resumen": "Alcalde/sa de Santo Domingo Norte (2024-2028).",
+          "registro": "No disponible todavía"
+        },
+        {
+          "cargo": "Alcalde/sa de Santo Domingo Oeste",
+          "nombre": "Francisco Peña",
+          "partido": "PRM",
+          "resumen": "Alcalde/sa de Santo Domingo Oeste (2024-2028).",
+          "registro": "No disponible todavía"
+        },
+        {
+          "cargo": "Alcalde/sa de Los Alcarrizos",
+          "nombre": "Junior Santos",
+          "partido": "PRM",
+          "resumen": "Alcalde/sa de Los Alcarrizos (2024-2028).",
+          "registro": "No disponible todavía"
         }
       ]
     },
@@ -1627,6 +1956,20 @@
           "nombre": "Rubén Darío Peñaló Torres",
           "partido": "PRM",
           "resumen": "Representa a Valverde en la Cámara de Diputados.",
+          "registro": "No disponible todavía"
+        },
+        {
+          "cargo": "Gobernador/a",
+          "nombre": "Marta de Jesús Collado Ozoria de López",
+          "partido": "—",
+          "resumen": "Gobernador/a civil de Valverde, designado/a por la Presidencia.",
+          "registro": "No disponible todavía"
+        },
+        {
+          "cargo": "Alcalde/sa de Mao",
+          "nombre": "Yohendi Jiménez",
+          "partido": "PRM",
+          "resumen": "Alcalde/sa de Mao (2024-2028).",
           "registro": "No disponible todavía"
         }
       ]
