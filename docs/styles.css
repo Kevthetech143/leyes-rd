@@ -122,6 +122,23 @@ main { max-width: 720px; margin: 0 auto; padding: 0 14px 40px; }
 .card-dinero   .home-emoji { background: var(--dinero-bg); }
 .card-dinero   .home-card-go { color: var(--dinero); }
 
+.participa {
+  background: var(--tarjeta); border-radius: 18px; box-shadow: var(--sombra);
+  padding: 16px; margin: 18px 0 8px; text-align: center;
+}
+.participa-titulo { margin: 0 0 4px; font-size: 1.15rem; font-weight: 800; }
+.participa-sub { margin: 0 0 12px; color: #44506a; font-size: .92rem; }
+.participa-botones { display: flex; flex-wrap: wrap; gap: 8px; justify-content: center; }
+.btn-part {
+  border: none; cursor: pointer; font: inherit; font-weight: 700; font-size: .9rem;
+  padding: 10px 14px; border-radius: 999px; text-decoration: none; color: #fff;
+}
+.btn-compartir { background: var(--azul); }
+.btn-wa { background: #25d366; }
+.btn-copiar { background: var(--tinta); }
+.btn-aportar { background: var(--dinero); }
+.btn-part:active { transform: scale(.97); }
+
 .home-nota {
   text-align: center; color: #14407a; background: #eaf4ff; border: 1px solid #cfe4ff;
   border-radius: 12px; padding: 10px 14px; font-size: .9rem; margin: 8px 0 0;

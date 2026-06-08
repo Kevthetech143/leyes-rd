@@ -24,3 +24,4 @@ Una línea por ciclo de mejora.
 - 2026-06-07 — Leyes: cada ley muestra una flechita (▸/▾) para indicar que se puede tocar y abrir.
 - 2026-06-07 — Leyes: las tarjetas de tema muestran una flecha que gira al abrir, para que se vea que se pueden desplegar.
 - 2026-06-07 — Rediseño Canva-style fusionado a la versión en vivo (pantalla de inicio + identidad de color por sección + interacciones táctiles). Cron reactivado.
+- 2026-06-07 — Participación: se agregaron botones reales para Compartir, WhatsApp, Copiar enlace y Reportar/aportar (a GitHub issues), en la pantalla de inicio.

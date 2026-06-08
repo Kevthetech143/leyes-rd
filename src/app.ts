@@ -431,8 +431,38 @@ function setupTabs(): void {
   if (homeLink) homeLink.addEventListener("click", () => mostrarVista("home"));
 }
 
+/* ---------- Compartir y participar ---------- */
+function copiarEnlace(url: string, btn: HTMLElement): void {
+  const prev = btn.textContent;
+  const ok = () => {
+    btn.textContent = "✅ ¡Copiado!";
+    window.setTimeout(() => { if (prev) btn.textContent = prev; }, 1600);
+  };
+  const nav = navigator as unknown as { clipboard?: { writeText(s: string): Promise<void> } };
+  if (nav.clipboard?.writeText) nav.clipboard.writeText(url).then(ok, ok);
+  else ok();
+}
+function setupCompartir(): void {
+  const url = "https://kevthetech143.github.io/leyes-rd/";
+  const titulo = "Política Sencilla RD";
+  const texto = "Entiende la política dominicana fácil: leyes, provincias, el Senado y el dinero público.";
+  const wa = document.getElementById("waShare") as HTMLAnchorElement | null;
+  if (wa) wa.href = "https://wa.me/?text=" + encodeURIComponent(texto + " " + url);
+  const sb = document.getElementById("shareBtn");
+  if (sb) {
+    sb.addEventListener("click", () => {
+      const nav = navigator as unknown as { share?: (d: object) => Promise<void> };
+      if (nav.share) nav.share({ title: titulo, text: texto, url }).catch(() => {});
+      else copiarEnlace(url, sb);
+    });
+  }
+  const cb = document.getElementById("copyBtn");
+  if (cb) cb.addEventListener("click", () => copiarEnlace(url, cb));
+}
+
 async function init(): Promise<void> {
   setupTabs();
+  setupCompartir();
   try {
     const [leyes, provincias, sesiones] = await Promise.all([
       cargar<LeyesData>("data/leyes.json"),
