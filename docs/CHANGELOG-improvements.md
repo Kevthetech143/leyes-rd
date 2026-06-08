@@ -35,3 +35,4 @@ Una línea por ciclo de mejora.
 - 2026-06-08 — Honestidad: el pie de página ahora cita ambas fuentes (Senado y Cámara de Diputados), ya que los diputados vienen de la Cámara.
 - 2026-06-08 — Honestidad: en provincias sin alcaldes cargados aún, se muestra una nota clara ("Alcaldes: aún por añadir") en vez de dejar un vacío sin explicación.
 - 2026-06-08 — Honestidad: el aviso de Leyes indica cuándo se recogieron los datos ("junio de 2026") para que se sepa qué tan actuales son.
+- 2026-06-08 — SEO: se agregó enlace canónico al sitio real, para que los buscadores no confundan la copia de vista previa con el sitio oficial.
