@@ -21,3 +21,4 @@ Una línea por ciclo de mejora.
 - 2026-06-07 — Provincias: ficha de cada persona mejorada (avatar con iniciales, nombre y partido arriba, y "En el cargo: 2024-2028" para los electos).
 - 2026-06-07 — Provincias: las tarjetas ahora salen en orden alfabético para encontrar tu provincia más rápido.
 - 2026-06-07 — Provincias: la ficha agrupa por cargo (Senador, Diputados, Gobernador, Alcaldes) con subtítulos, para listas largas más fáciles de leer.
+- 2026-06-07 — Leyes: cada ley muestra una flechita (▸/▾) para indicar que se puede tocar y abrir.

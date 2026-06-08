@@ -119,7 +119,10 @@ main { max-width: 720px; margin: 0 auto; padding: 0 14px 40px; }
   border-top: 1px solid #eef0f4; padding: 14px 0; cursor: pointer;
 }
 .ley:first-child { border-top: none; }
-.ley-titulo { font-weight: 600; margin: 0; }
+.ley-titulo { font-weight: 600; margin: 0; padding-right: 22px; }
+.ley-titulo::after { content: "▸"; position: absolute; right: 2px; color: var(--gris); }
+.ley { position: relative; }
+.ley.open .ley-titulo::after { content: "▾"; }
 .ley-estado {
   display: inline-block; font-size: .78rem; font-weight: 700;
   padding: 2px 8px; border-radius: 999px; margin-top: 6px;
