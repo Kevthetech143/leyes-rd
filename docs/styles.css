@@ -143,6 +143,8 @@ main { max-width: 720px; margin: 0 auto; padding: 0 14px 40px; }
   padding: 14px; text-align: center; cursor: pointer; font-weight: 600;
 }
 .prov-card:hover { outline: 2px solid var(--azul); }
+.prov-nombre { display: block; }
+.prov-count { display: block; margin-top: 4px; font-size: .72rem; font-weight: 700; color: var(--azul); background: #eef2ff; border-radius: 999px; padding: 1px 8px; }
 
 .perfil {
   background: var(--tarjeta); border-radius: var(--radio);

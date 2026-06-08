@@ -198,7 +198,10 @@ function renderProvincias(data: ProvinciasData): void {
   const perfil = byId("perfilProvincia");
 
   data.provincias.forEach((prov) => {
-    const c = el("div", "prov-card", prov.nombre);
+    const c = el("div", "prov-card");
+    c.append(el("span", "prov-nombre", prov.nombre));
+    const n = prov.lideres.length;
+    c.append(el("span", "prov-count", n + (n === 1 ? " cargo" : " cargos")));
     c.addEventListener("click", () => {
       perfil.classList.remove("hidden");
       perfil.innerHTML = "";
