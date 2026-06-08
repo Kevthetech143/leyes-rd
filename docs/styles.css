@@ -8,6 +8,9 @@
   --tarjeta: #ffffff;
   --sombra: 0 4px 14px rgba(0,0,0,.08);
   --radio: 18px;
+  --radio-sm: 12px;   /* chips / pildoras */
+  --radio-md: 14px;   /* cajas informativas */
+  --radio-lg: 18px;   /* tarjetas tocables y acordeones */
 
   /* Per-section accent colors — one distinct, friendly hue per area */
   --leyes:    #6d28d9;   /* morado — leyes */
@@ -36,7 +39,7 @@ body {
   font-size: 1.5rem; font-weight: 800; margin: 18px 0 4px; color: var(--tinta);
 }
 .seccion-desc {
-  margin: 0 0 12px; color: #44506a; font-size: 1rem;
+  margin: 0 0 12px; color: var(--tinta); font-weight: 600; font-size: 1rem;
 }
 
 .topbar {
@@ -58,14 +61,17 @@ body {
 .topbar .sub { margin: 8px 0 0; opacity: .95; font-size: 1rem; }
 
 .tabs {
-  display: flex; gap: 8px; justify-content: center; flex-wrap: wrap;
-  padding: 14px; position: sticky; top: 0;
+  display: flex; gap: 8px; justify-content: flex-start; flex-wrap: nowrap;
+  overflow-x: auto; -webkit-overflow-scrolling: touch; scrollbar-width: none;
+  scroll-snap-type: x mandatory;
+  padding: 12px 14px; position: sticky; top: 0;
   background: var(--crema); z-index: 5;
 }
+.tabs::-webkit-scrollbar { display: none; }
 .tab {
-  border: none; cursor: pointer;
+  border: none; cursor: pointer; flex: 0 0 auto; scroll-snap-align: start;
   background: #fff; color: var(--tinta);
-  padding: 12px 16px; border-radius: 999px;
+  padding: 10px 16px; border-radius: 999px;
   font-size: .98rem; font-weight: 600; box-shadow: var(--sombra);
 }
 .tab.active { background: var(--azul); color: #fff; }
@@ -96,7 +102,7 @@ main { max-width: 720px; margin: 0 auto; padding: 0 14px 40px; }
 .home-card {
   display: flex; flex-direction: column; align-items: flex-start; gap: 4px;
   text-align: left; cursor: pointer; border: none; font: inherit; color: var(--tinta);
-  background: var(--tarjeta); border-radius: 20px; padding: 18px 16px 16px;
+  background: var(--tarjeta); border-radius: var(--radio-lg); padding: 18px 16px 16px;
   box-shadow: var(--sombra); position: relative; overflow: hidden;
   border-top: 6px solid var(--azul); min-height: 150px;
 }
@@ -107,7 +113,7 @@ main { max-width: 720px; margin: 0 auto; padding: 0 14px 40px; }
 }
 .home-card-titulo { font-size: 1.25rem; font-weight: 800; }
 .home-card-desc { font-size: .9rem; color: #44506a; flex: 1; }
-.home-card-go { font-size: .85rem; font-weight: 800; margin-top: 8px; }
+.home-card-go { font-size: .82rem; font-weight: 700; margin-top: 8px; }
 
 .card-leyes    { border-top-color: var(--leyes); }
 .card-leyes    .home-emoji { background: var(--leyes-bg); }
@@ -240,15 +246,23 @@ main { max-width: 720px; margin: 0 auto; padding: 0 14px 40px; }
 /* Provincias */
 .prov-grid {
   display: grid; grid-template-columns: repeat(auto-fill, minmax(140px,1fr));
-  gap: 10px;
+  gap: 14px;
 }
 .prov-card {
-  background: var(--tarjeta); border-radius: 14px; box-shadow: var(--sombra);
-  padding: 14px; text-align: center; cursor: pointer; font-weight: 600;
+  position: relative;
+  background: var(--tarjeta); border-radius: var(--radio-lg); box-shadow: var(--sombra);
+  border-top: 4px solid var(--mapa);
+  padding: 14px 26px 14px 14px; min-height: 84px;
+  display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 8px;
+  text-align: center; cursor: pointer; font-weight: 600;
+}
+.prov-card::after {
+  content: "›"; position: absolute; right: 12px; top: 50%; transform: translateY(-50%);
+  color: var(--mapa); font-weight: 800; font-size: 1.3rem; opacity: .55;
 }
 .prov-card:hover { outline: 2px solid var(--azul); }
 .prov-nombre { display: block; }
-.prov-count { display: block; margin-top: 4px; font-size: .72rem; font-weight: 700; color: var(--azul); background: #eef2ff; border-radius: 999px; padding: 1px 8px; }
+.prov-count { display: block; margin-top: 0; font-size: .72rem; font-weight: 700; color: var(--azul); background: #eef2ff; border-radius: 999px; padding: 1px 8px; }
 
 .perfil {
   background: var(--tarjeta); border-radius: var(--radio);
@@ -360,6 +374,7 @@ main { max-width: 720px; margin: 0 auto; padding: 0 14px 40px; }
 
 /* Provincias — teal accent */
 .sec-mapa .prov-count { background: var(--mapa-bg); color: var(--mapa); }
+.sec-mapa .hint { text-align: left; margin-top: 4px; }
 .sec-mapa .prov-card:hover { outline-color: var(--mapa); }
 .sec-mapa .avatar { background: linear-gradient(135deg, var(--mapa), #2bb5a6); }
 .sec-mapa .grupo-titulo { color: var(--mapa); border-bottom-color: var(--mapa-bg); }
@@ -403,8 +418,10 @@ main { max-width: 720px; margin: 0 auto; padding: 0 14px 40px; }
 .arreglo li { margin: 3px 0; font-size: .92rem; }
 .sec-mapa .prov-card:focus-visible { outline: 3px solid var(--mapa); outline-offset: 2px; }
 .caso-salto {
-  display: inline-block; margin: 4px 0 14px;
-  color: var(--dinero); font-weight: 800; font-size: .95rem; text-decoration: none;
+  display: inline-flex; align-items: center; gap: 6px; margin: 6px 0 14px;
+  min-height: 44px; padding: 10px 16px; border-radius: 999px;
+  background: var(--dinero-bg); color: var(--dinero);
+  font-weight: 800; font-size: .95rem; text-decoration: none;
 }
 .aviso-legal {
   background: #eef3ff; border: 1px solid #c3d2f5; border-radius: 14px;
@@ -413,15 +430,18 @@ main { max-width: 720px; margin: 0 auto; padding: 0 14px 40px; }
 .aviso-legal b { display: block; margin-bottom: 4px; }
 
 /* Inicio — cifra real viva en cada tarjeta */
-.home-card-cifra { font-size: .8rem; font-weight: 800; margin: 2px 0 0; }
-.card-leyes .home-card-cifra { color: var(--leyes); }
-.card-mapa .home-card-cifra { color: var(--mapa); }
-.card-sesiones .home-card-cifra { color: var(--sesiones); }
-.card-dinero .home-card-cifra { color: var(--dinero); }
+.home-card-cifra {
+  font-size: .78rem; font-weight: 800; margin: 4px 0 0;
+  display: inline-block; padding: 3px 9px; border-radius: 999px;
+}
+.card-leyes .home-card-cifra { color: var(--leyes); background: var(--leyes-bg); }
+.card-mapa .home-card-cifra { color: var(--mapa); background: var(--mapa-bg); }
+.card-sesiones .home-card-cifra { color: var(--sesiones); background: var(--sesiones-bg); }
+.card-dinero .home-card-cifra { color: var(--dinero); background: var(--dinero-bg); }
 
 /* Sesiones — barra de proporción de votos */
-.voto-barra { height: 8px; background: #e7e2d8; border-radius: 999px; overflow: hidden; margin-top: 8px; }
-.voto-barra-fill { display: block; height: 100%; background: #1f9d57; border-radius: 999px; transition: width .6s ease; }
+.voto-barra { height: 8px; background: var(--sesiones-bg); border-radius: 999px; overflow: hidden; margin-top: 8px; }
+.voto-barra-fill { display: block; height: 100%; background: var(--sesiones); border-radius: 999px; transition: width .6s ease; }
 @media (prefers-reduced-motion: reduce) { .voto-barra-fill { transition: none; } }
 
 /* Dinero — pasos del caso SENASA: tocar para abrir */
