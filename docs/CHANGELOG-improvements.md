@@ -32,3 +32,4 @@ Una línea por ciclo de mejora.
 - 2026-06-08 — Accesibilidad: las tarjetas de provincia ahora se pueden abrir con el teclado (Enter o espacio) y tienen etiqueta para lectores de pantalla.
 - 2026-06-08 — Accesibilidad: las tarjetas de tema (Leyes) se abren con teclado (Enter/espacio) y avisan su estado (aria-expanded) a lectores de pantalla.
 - 2026-06-08 — Accesibilidad: cada ley se abre con teclado (Enter/espacio) y avisa su estado; completa el acceso por teclado en toda la app.
+- 2026-06-08 — Honestidad: el pie de página ahora cita ambas fuentes (Senado y Cámara de Diputados), ya que los diputados vienen de la Cámara.
