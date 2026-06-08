@@ -40,3 +40,4 @@ Una línea por ciclo de mejora.
 - 2026-06-08 — Alcance/SEO: se agregaron robots.txt y sitemap.xml para que los buscadores encuentren e indexen el sitio.
 - 2026-06-08 — UX: se agregó una página 404 amable en español (con botón al inicio) en vez de la pantalla genérica de error.
 - 2026-06-08 — Reach: se agregó un manifest (PWA) para que la gente pueda "agregar a la pantalla de inicio" con nombre e ícono propios.
+- 2026-06-08 — Participación: en provincias sin alcaldes, la nota ahora invita a la gente a aportar el dato por el canal real (issues).

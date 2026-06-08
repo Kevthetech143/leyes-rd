@@ -301,7 +301,12 @@ function renderProvincias(data: ProvinciasData): void {
       });
       // Honest note when this province's mayors aren't loaded yet.
       if (!grupos["alcalde"]) {
-        perfil.append(el("p", "nota-fuente", "Alcaldes: aún por añadir. Estamos completando esta provincia con datos oficiales confirmados."));
+        perfil.append(el(
+          "p",
+          "nota-fuente",
+          "Alcaldes: aún por añadir. Estamos completando esta provincia con datos oficiales. " +
+          "¿Conoces a tu alcalde? <a href=\"https://github.com/Kevthetech143/leyes-rd/issues/new\" target=\"_blank\" rel=\"noopener\">Ayúdanos a completarlo</a>."
+        ));
       }
       perfil.scrollIntoView({ behavior: "smooth", block: "nearest" });
     });
