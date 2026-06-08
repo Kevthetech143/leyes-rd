@@ -23,3 +23,4 @@ Una línea por ciclo de mejora.
 - 2026-06-07 — Provincias: la ficha agrupa por cargo (Senador, Diputados, Gobernador, Alcaldes) con subtítulos, para listas largas más fáciles de leer.
 - 2026-06-07 — Leyes: cada ley muestra una flechita (▸/▾) para indicar que se puede tocar y abrir.
 - 2026-06-07 — Leyes: las tarjetas de tema muestran una flecha que gira al abrir, para que se vea que se pueden desplegar.
+- 2026-06-07 — Rediseño Canva-style fusionado a la versión en vivo (pantalla de inicio + identidad de color por sección + interacciones táctiles). Cron reactivado.
