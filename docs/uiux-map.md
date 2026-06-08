@@ -32,7 +32,10 @@ Estructura común a todas las vistas:
 - Estado: limpio.
 
 ## Dinero (naranja)
-- Pasos numerados del flujo del dinero público (Congreso → Tesorería → SIGEF → ...).
+- Pasos numerados del flujo general del dinero público (Congreso → Tesorería → SIGEF → ...).
+- Caja "punto débil" (roja) + nota de fuente del flujo general.
+- Estudio de caso "desfalco del SENASA" (añadido 2026-06-08): cabecera con cifra, cadena paso a paso con el paso 1 en verde y los pasos 2–6 en rojo con etiqueta "Aquí se rompió", caja roja "la grieta de fondo", caja verde "¿Cómo se evita?", y nota de fuente del caso (Operación Cobra/PEPCA).
+- La tarjeta de Inicio "Dinero" anuncia "con un caso real".
 - Estado: limpio.
 
 ## Pendientes UX detectados

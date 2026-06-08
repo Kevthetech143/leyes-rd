@@ -54,3 +54,4 @@ Una línea por ciclo de mejora.
 - 2026-06-08 — sin cambios — verificados en vivo los acordeones (nativos, accesibles por teclado, con flecha abrir/cerrar) y la sección Dinero (su "punto débil" ya coincide con la causa real verificada del caso SENASA). Sitio pulido. Caso SENASA listo para añadir a Dinero pendiente del OK de Kelvin.
 - 2026-06-08 — Dinero: añadido caso real "desfalco del SENASA" como estudio de caso — cadena simple paso a paso marcando en rojo dónde se rompió, la grieta de fondo, cómo se evita, y fuente (Operación Cobra/PEPCA). Aprobado por Kelvin.
 - 2026-06-08 — Inicio: la tarjeta de "Dinero" ahora dice "con un caso real" para atraer a la gente al estudio de caso del SENASA.
+- 2026-06-08 — mantenimiento: actualizado docs/uiux-map.md para reflejar el estudio de caso del SENASA en la vista Dinero (mapa de diseño al día).
