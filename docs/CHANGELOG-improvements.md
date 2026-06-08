@@ -46,3 +46,4 @@ Una línea por ciclo de mejora.
 - 2026-06-08 — Wording: la descripción de Provincias ahora aclara quién hace leyes (senador/diputados) y quién gobierna lo local (gobernador/alcaldes).
 - 2026-06-08 — sin cambios — el sitio está pulido en texto, UI, accesibilidad, compartir y SEO; forzar más cambios pequeños sería recargarlo. Lo único con valor real pendiente es completar alcaldes (requiere navegador, fuentes hoy caídas).
 - 2026-06-08 — sin cambios — sin mejoras pequeñas que valga la pena añadir sin recargar el sitio; el pendiente real (alcaldes) necesita el navegador y fuentes que hoy no responden.
+- 2026-06-08 — sin cambios — tercer ciclo sin mejora pequeña que valga la pena; el sitio llegó a un buen punto. Lo pendiente real (alcaldes) requiere navegador. Recomiendo pausar el cron hasta tener datos nuevos.
