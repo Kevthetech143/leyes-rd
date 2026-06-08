@@ -43,3 +43,4 @@ Una línea por ciclo de mejora.
 - 2026-06-08 — Participación: en provincias sin alcaldes, la nota ahora invita a la gente a aportar el dato por el canal real (issues).
 - 2026-06-08 — sin cambios — probé las fuentes oficiales de alcaldes (JCE/elecciones) y no responden desde aquí; el dato real falta pero no se puede traer este ciclo sin el navegador, y las mejoras pequeñas ya están cubiertas.
 - 2026-06-08 — Accesibilidad/UX: la tecla Escape ahora cierra la ficha de provincia abierta.
+- 2026-06-08 — Wording: la descripción de Provincias ahora aclara quién hace leyes (senador/diputados) y quién gobierna lo local (gobernador/alcaldes).
