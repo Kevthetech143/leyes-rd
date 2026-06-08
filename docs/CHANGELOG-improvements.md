@@ -50,3 +50,4 @@ Una línea por ciclo de mejora.
 - 2026-06-08 — distribución: añadido distribucion.md con posts listos (corto/WhatsApp/largo), registro de aprobación y huecos de canal (X/IG/FB sin login) + pasos de contador GoatCounter. Publicación real pendiente de que Kelvin indique la cuenta.
 - 2026-06-08 — UX Provincias: quitada la pista duplicada (decía dos veces "toca una provincia"); call-to-action movido a una sola línea. Añadido docs/uiux-map.md con el mapa de diseño móvil de las 5 vistas.
 - 2026-06-08 — distribución: añadida imagen de vista previa (og.png 1200×630, con la marca del sitio) y etiquetas og:image/twitter para que al compartir en WhatsApp y Facebook salga una tarjeta con imagen, no solo texto.
+- 2026-06-08 — sin cambios — revisado en vivo el perfil de provincia (arriba y abajo) en móvil; el nombre largo del senador se ve completo (falsa alarma de truncado). Vistas limpias. Lo pendiente real (cuenta para publicar y contador) depende de Kelvin.
