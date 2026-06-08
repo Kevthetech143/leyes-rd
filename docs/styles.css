@@ -4,7 +4,7 @@
   --crema: #fff8ef;
   --tinta: #1c2230;
   --verde: #1f9d57;
-  --gris: #6b7280;
+  --gris: #565e6e;
   --tarjeta: #ffffff;
   --sombra: 0 4px 14px rgba(0,0,0,.08);
   --radio: 18px;
@@ -156,7 +156,7 @@ main { max-width: 720px; margin: 0 auto; padding: 0 14px 40px; }
   color: #14407a; padding: 10px 14px; border-radius: 12px;
   font-size: .9rem; margin: 14px 0; text-align: center;
 }
-.foot-fuente { font-size: .75rem; color: #9aa1ac; margin-top: 6px; }
+.foot-fuente { font-size: .75rem; color: #6b7280; margin-top: 6px; }
 
 /* Transparencia explainer */
 .transp {
@@ -219,7 +219,7 @@ main { max-width: 720px; margin: 0 auto; padding: 0 14px 40px; }
   padding: 2px 8px; border-radius: 999px; margin-top: 6px;
 }
 .estado-aprobada { background: #e3f7ec; color: var(--verde); }
-.estado-votando  { background: #fff1d6; color: #b5740a; }
+.estado-votando  { background: #fff1d6; color: #8a5800; }
 .estado-rechazada{ background: #fde3e1; color: var(--rojo); }
 .ley-detalle { margin-top: 12px; display: none; }
 .ley.open .ley-detalle { display: block; }
@@ -322,7 +322,7 @@ main { max-width: 720px; margin: 0 auto; padding: 0 14px 40px; }
 }
 .asist-estado-presente { color: var(--verde); font-weight: 700; }
 .asist-estado-ausente { color: var(--gris); font-weight: 700; }
-.asist-estado-excusado { color: #b5740a; font-weight: 700; }
+.asist-estado-excusado { color: #8a5800; font-weight: 700; }
 
 /* Dinero — flujo visual */
 .flujo-graf { display: flex; flex-direction: column; align-items: stretch; gap: 0; }
@@ -401,6 +401,16 @@ main { max-width: 720px; margin: 0 auto; padding: 0 14px 40px; }
 .arreglo b { display: block; margin-bottom: 6px; }
 .arreglo ul { margin: 0; padding-left: 18px; }
 .arreglo li { margin: 3px 0; font-size: .92rem; }
+.sec-mapa .prov-card:focus-visible { outline: 3px solid var(--mapa); outline-offset: 2px; }
+.caso-salto {
+  display: inline-block; margin: 4px 0 14px;
+  color: var(--dinero); font-weight: 800; font-size: .95rem; text-decoration: none;
+}
+.aviso-legal {
+  background: #eef3ff; border: 1px solid #c3d2f5; border-radius: 14px;
+  padding: 14px 16px; margin-bottom: 14px; color: #1e3a8a; font-size: .95rem;
+}
+.aviso-legal b { display: block; margin-bottom: 4px; }
 
 /* Playful, tactile interactions (Canva-style feel) */
 .tab, .prov-card, .sector, .sesion, .paso, .transp, .perfil-cerrar, .home-card {

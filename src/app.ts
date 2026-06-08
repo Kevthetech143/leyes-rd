@@ -308,7 +308,7 @@ function renderProvincias(data: ProvinciasData): void {
           "¿Conoces a tu alcalde? <a href=\"https://github.com/Kevthetech143/leyes-rd/issues/new\" target=\"_blank\" rel=\"noopener\">Ayúdanos a completarlo</a>."
         ));
       }
-      perfil.scrollIntoView({ behavior: "smooth", block: "nearest" });
+      perfil.scrollIntoView({ behavior: "smooth", block: "start" });
     });
     grid.append(c);
   });

@@ -56,3 +56,4 @@ Una línea por ciclo de mejora.
 - 2026-06-08 — Inicio: la tarjeta de "Dinero" ahora dice "con un caso real" para atraer a la gente al estudio de caso del SENASA.
 - 2026-06-08 — mantenimiento: actualizado docs/uiux-map.md para reflejar el estudio de caso del SENASA en la vista Dinero (mapa de diseño al día).
 - 2026-06-08 — distribución: creada imagen para compartir del caso SENASA (docs/share-senasa.png, 1080×1080, cifra real y fuente) + textos de post (WhatsApp/Facebook) en distribucion.md. Lista para publicar cuando Kelvin dé una cuenta.
+- 2026-06-08 — UX (panel de 7 críticos): caso SENASA replanteado como ACUSACIÓN no condena (caja legal antes del paso 1, pasos atribuidos a la Fiscalía, cifra "según el Ministerio Público", encuadre neutral de partido); promesa de Inicio ampliada a todo el sitio; contraste de texto gris/ámbar subido a WCAG; foco visible en tarjetas de provincia; enlace "ir al caso real" en Dinero; perfil hace scroll a su título.
