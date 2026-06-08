@@ -117,6 +117,42 @@ function iniciales(nombre) {
     const ini = (((_a = palabras[0]) === null || _a === void 0 ? void 0 : _a[0]) || "") + (((_b = palabras[1]) === null || _b === void 0 ? void 0 : _b[0]) || "");
     return ini.toUpperCase() || "·";
 }
+const ORDEN_GRUPOS = ["senador", "diputad", "gobernador", "alcalde", "director", "regidor", "otros"];
+const ETIQUETA_GRUPO = {
+    senador: "Senador/a",
+    diputad: "Diputados/as",
+    gobernador: "Gobernador/a",
+    alcalde: "Alcaldes/sas",
+    director: "Directores/as de distrito",
+    regidor: "Regidores/as",
+    otros: "Otros",
+};
+function grupoDeCargo(cargo) {
+    const c = cargo.toLowerCase();
+    return ORDEN_GRUPOS.find((k) => k !== "otros" && c.startsWith(k)) || "otros";
+}
+function renderLider(l) {
+    const block = el("div", "lider");
+    const cab = el("div", "lider-cab");
+    cab.append(el("span", "avatar", iniciales(l.nombre)));
+    const ident = el("div", "lider-ident");
+    ident.append(el("p", "lider-nombre", "<b>" + l.nombre + "</b><span class='partido-chip'>" + l.partido + "</span>"));
+    ident.append(el("p", "lider-cargo", l.cargo));
+    cab.append(ident);
+    block.append(cab);
+    if (esElecto(l.cargo)) {
+        block.append(el("p", "lider-dato", "🗓️ En el cargo: 2024–2028 (elegido por voto)"));
+    }
+    const fn = funcionDeCargo(l.cargo);
+    if (fn)
+        block.append(el("p", "lider-funcion", fn));
+    if (l.resumen)
+        block.append(el("p", null, l.resumen));
+    if (esLegislador(l.cargo)) {
+        block.append(el("p", "lider-cargo", "Registro de votos: " + l.registro));
+    }
+    return block;
+}
 function renderProvincias(data) {
     const grid = el("div", "prov-grid");
     const perfil = byId("perfilProvincia");
@@ -136,29 +172,20 @@ function renderProvincias(data) {
             });
             perfil.append(cerrar);
             perfil.append(el("h3", null, prov.nombre));
+            // Group the officials by role so a long list (e.g. 43 deputies) stays scannable.
+            const grupos = {};
             prov.lideres.forEach((l) => {
-                const block = el("div", "lider");
-                // Header: initials avatar + name + party
-                const cab = el("div", "lider-cab");
-                cab.append(el("span", "avatar", iniciales(l.nombre)));
-                const ident = el("div", "lider-ident");
-                ident.append(el("p", "lider-nombre", "<b>" + l.nombre + "</b><span class='partido-chip'>" + l.partido + "</span>"));
-                ident.append(el("p", "lider-cargo", l.cargo));
-                cab.append(ident);
-                block.append(cab);
-                // Term: only for elected posts (we know the 2024-2028 term); not for appointed governors
-                if (esElecto(l.cargo)) {
-                    block.append(el("p", "lider-dato", "🗓️ En el cargo: 2024–2028 (elegido por voto)"));
-                }
-                const fn = funcionDeCargo(l.cargo);
-                if (fn)
-                    block.append(el("p", "lider-funcion", fn));
-                if (l.resumen)
-                    block.append(el("p", null, l.resumen));
-                if (esLegislador(l.cargo)) {
-                    block.append(el("p", "lider-cargo", "Registro de votos: " + l.registro));
-                }
-                perfil.append(block);
+                const k = grupoDeCargo(l.cargo);
+                (grupos[k] = grupos[k] || []).push(l);
+            });
+            ORDEN_GRUPOS.forEach((k) => {
+                const arr = grupos[k];
+                if (!arr || !arr.length)
+                    return;
+                const etq = ETIQUETA_GRUPO[k] || "Otros";
+                const titulo = arr.length > 1 ? etq + " (" + arr.length + ")" : etq;
+                perfil.append(el("h4", "grupo-titulo", titulo));
+                arr.forEach((l) => perfil.append(renderLider(l)));
             });
             perfil.scrollIntoView({ behavior: "smooth", block: "nearest" });
         });
