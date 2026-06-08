@@ -169,6 +169,16 @@ main { max-width: 720px; margin: 0 auto; padding: 0 14px 40px; }
 .lider { border-top: 1px solid #eef0f4; padding: 12px 0; }
 .lider:first-of-type { border-top: none; }
 .lider-cargo { color: var(--gris); font-size: .9rem; }
+.lider-cab { display: flex; align-items: center; gap: 12px; }
+.avatar {
+  flex: none; width: 44px; height: 44px; border-radius: 50%;
+  background: linear-gradient(135deg, var(--azul), #3b6ef0); color: #fff;
+  display: flex; align-items: center; justify-content: center;
+  font-weight: 800; font-size: 1rem;
+}
+.lider-ident { display: flex; flex-direction: column; }
+.lider-nombre { margin: 0; }
+.lider-dato { margin: 8px 0 0; font-size: .88rem; color: var(--tinta); }
 .lider-funcion { color: #14407a; background: #eef4ff; border-radius: 10px; padding: 8px 10px; font-size: .88rem; line-height: 1.5; margin: 6px 0; }
 .partido-chip {
   display:inline-block; font-size:.75rem; font-weight:700;

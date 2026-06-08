@@ -18,3 +18,4 @@ Una línea por ciclo de mejora.
 - 2026-06-07 — UI/UX: la barra de pestañas ahora se acomoda en dos filas en pantallas pequeñas (con 4 secciones) en vez de apretarse.
 - 2026-06-07 — Se actualizaron las descripciones (buscadores y al compartir) para incluir la nueva sección de Dinero.
 - 2026-06-07 — Wording: el mensaje de error al cargar datos ahora es claro para cualquiera ("Revisa tu conexión y vuelve a intentar") en vez de jerga técnica.
+- 2026-06-07 — Provincias: ficha de cada persona mejorada (avatar con iniciales, nombre y partido arriba, y "En el cargo: 2024-2028" para los electos).

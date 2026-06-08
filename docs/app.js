@@ -106,6 +106,17 @@ function esLegislador(cargo) {
     const c = cargo.toLowerCase();
     return c.startsWith("senador") || c.startsWith("diputad");
 }
+function esElecto(cargo) {
+    const c = cargo.toLowerCase();
+    return c.startsWith("senador") || c.startsWith("diputad") || c.startsWith("alcalde")
+        || c.startsWith("alcaldesa") || c.startsWith("regidor") || c.startsWith("director");
+}
+function iniciales(nombre) {
+    var _a, _b;
+    const palabras = nombre.trim().split(/\s+/).filter((w) => w.length > 2);
+    const ini = (((_a = palabras[0]) === null || _a === void 0 ? void 0 : _a[0]) || "") + (((_b = palabras[1]) === null || _b === void 0 ? void 0 : _b[0]) || "");
+    return ini.toUpperCase() || "·";
+}
 function renderProvincias(data) {
     const grid = el("div", "prov-grid");
     const perfil = byId("perfilProvincia");
@@ -126,8 +137,18 @@ function renderProvincias(data) {
             perfil.append(el("h3", null, prov.nombre));
             prov.lideres.forEach((l) => {
                 const block = el("div", "lider");
-                block.append(el("p", null, "<b>" + l.nombre + "</b><span class='partido-chip'>" + l.partido + "</span>"));
-                block.append(el("p", "lider-cargo", l.cargo));
+                // Header: initials avatar + name + party
+                const cab = el("div", "lider-cab");
+                cab.append(el("span", "avatar", iniciales(l.nombre)));
+                const ident = el("div", "lider-ident");
+                ident.append(el("p", "lider-nombre", "<b>" + l.nombre + "</b><span class='partido-chip'>" + l.partido + "</span>"));
+                ident.append(el("p", "lider-cargo", l.cargo));
+                cab.append(ident);
+                block.append(cab);
+                // Term: only for elected posts (we know the 2024-2028 term); not for appointed governors
+                if (esElecto(l.cargo)) {
+                    block.append(el("p", "lider-dato", "🗓️ En el cargo: 2024–2028 (elegido por voto)"));
+                }
                 const fn = funcionDeCargo(l.cargo);
                 if (fn)
                     block.append(el("p", "lider-funcion", fn));
