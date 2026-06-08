@@ -221,6 +221,10 @@ function renderProvincias(data) {
                 perfil.append(el("h4", "grupo-titulo", titulo));
                 arr.forEach((l) => perfil.append(renderLider(l)));
             });
+            // Honest note when this province's mayors aren't loaded yet.
+            if (!grupos["alcalde"]) {
+                perfil.append(el("p", "nota-fuente", "Alcaldes: aún por añadir. Estamos completando esta provincia con datos oficiales confirmados."));
+            }
             perfil.scrollIntoView({ behavior: "smooth", block: "nearest" });
         });
         grid.append(c);
