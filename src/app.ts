@@ -339,7 +339,7 @@ function renderSesiones(data: SesionesData): void {
       const icono = aprob ? "✅ " : "•&nbsp;";
       meta.append(
         el("span", "v-iniciativa", "Iniciativa " + v.iniciativa),
-        el("span", "v-conteo", v.a_favor + " a favor de " + v.presentes + " presentes"),
+        el("span", "v-conteo", v.a_favor + " de " + v.presentes + " presentes votaron a favor"),
         el("span", aprob ? "v-resultado" : "v-resultado v-resultado-neutral", icono + v.resultado)
       );
       row.append(meta);

@@ -28,3 +28,4 @@ Una línea por ciclo de mejora.
 - 2026-06-07 — Participación: se agregó "Compartir" y "Reportar o aportar" en el pie de página, para alcanzarlo desde cualquier sección.
 - 2026-06-07 — Educativo: nuevo explicador plegable "¿Cómo se hace una ley?" con los pasos del proceso legislativo (factual, sin saturar).
 - 2026-06-07 — Limpieza: se quitó una línea de instrucción repetida en Leyes (ya estaba en el recuadro "¿Cómo funciona?") para dejar la sección más limpia.
+- 2026-06-07 — Sesiones: conteo de votos más claro ("25 de 27 presentes votaron a favor" en vez de "25 a favor de 27 presentes").
