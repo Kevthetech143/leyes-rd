@@ -38,3 +38,4 @@ Una línea por ciclo de mejora.
 - 2026-06-08 — SEO: se agregó enlace canónico al sitio real, para que los buscadores no confundan la copia de vista previa con el sitio oficial.
 - 2026-06-08 — sin cambios — las mejoras pequeñas (texto, UI, accesibilidad, compartir, SEO) ya están cubiertas; lo siguiente con valor real es completar los ~140 alcaldes faltantes, que es una extracción dedicada (depende de que la JCE vuelva), no un cambio pequeño.
 - 2026-06-08 — Alcance/SEO: se agregaron robots.txt y sitemap.xml para que los buscadores encuentren e indexen el sitio.
+- 2026-06-08 — UX: se agregó una página 404 amable en español (con botón al inicio) en vez de la pantalla genérica de error.
