@@ -385,23 +385,50 @@ function renderSesiones(data: SesionesData): void {
   });
 }
 
-/* ---------- Tabs ---------- */
+/* ---------- Navegación ---------- */
+// Every view id, keyed by the data-view / data-goto name.
+const VISTAS: Record<string, string> = {
+  home: "view-home",
+  leyes: "view-leyes",
+  mapa: "view-mapa",
+  sesiones: "view-sesiones",
+  dinero: "view-dinero",
+};
+
+function mostrarVista(view: string): void {
+  // Show only the requested section, hide the rest.
+  Object.keys(VISTAS).forEach((k) => {
+    byId(VISTAS[k]).classList.toggle("hidden", k !== view);
+  });
+  // Sync the tab bar state (highlight + aria).
+  document.querySelectorAll<HTMLButtonElement>(".tab").forEach((t) => {
+    const activo = t.dataset.view === view;
+    t.classList.toggle("active", activo);
+    t.setAttribute("aria-selected", activo ? "true" : "false");
+  });
+  // Bring the new section into view on small screens.
+  window.scrollTo({ top: 0, behavior: "auto" });
+}
+
 function setupTabs(): void {
   document.querySelectorAll<HTMLButtonElement>(".tab").forEach((tab) => {
     tab.addEventListener("click", () => {
-      document.querySelectorAll(".tab").forEach((t) => {
-        t.classList.remove("active");
-        t.setAttribute("aria-selected", "false");
-      });
-      tab.classList.add("active");
-      tab.setAttribute("aria-selected", "true");
       const view = tab.dataset.view;
-      byId("view-leyes").classList.toggle("hidden", view !== "leyes");
-      byId("view-mapa").classList.toggle("hidden", view !== "mapa");
-      byId("view-sesiones").classList.toggle("hidden", view !== "sesiones");
-      byId("view-dinero").classList.toggle("hidden", view !== "dinero");
+      if (view) mostrarVista(view);
     });
   });
+
+  // Big home cards jump straight into a section.
+  document.querySelectorAll<HTMLButtonElement>(".home-card").forEach((card) => {
+    card.addEventListener("click", () => {
+      const dest = card.dataset.goto;
+      if (dest) mostrarVista(dest);
+    });
+  });
+
+  // Tapping the site title returns home.
+  const homeLink = document.getElementById("homeLink");
+  if (homeLink) homeLink.addEventListener("click", () => mostrarVista("home"));
 }
 
 async function init(): Promise<void> {
