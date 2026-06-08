@@ -164,6 +164,16 @@ function renderProvincias(data) {
         c.append(el("span", "prov-nombre", prov.nombre));
         const n = prov.lideres.length;
         c.append(el("span", "prov-count", n + (n === 1 ? " cargo" : " cargos")));
+        // Keyboard accessible: behave like a button.
+        c.setAttribute("role", "button");
+        c.tabIndex = 0;
+        c.setAttribute("aria-label", "Ver " + prov.nombre);
+        c.addEventListener("keydown", (e) => {
+            if (e.key === "Enter" || e.key === " ") {
+                e.preventDefault();
+                c.click();
+            }
+        });
         c.addEventListener("click", () => {
             perfil.classList.remove("hidden");
             perfil.innerHTML = "";
