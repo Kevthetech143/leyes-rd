@@ -244,6 +244,7 @@ function setupTabs() {
             byId("view-leyes").classList.toggle("hidden", view !== "leyes");
             byId("view-mapa").classList.toggle("hidden", view !== "mapa");
             byId("view-sesiones").classList.toggle("hidden", view !== "sesiones");
+            byId("view-dinero").classList.toggle("hidden", view !== "dinero");
         });
     });
 }

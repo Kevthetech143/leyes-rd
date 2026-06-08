@@ -219,4 +219,27 @@ main { max-width: 720px; margin: 0 auto; padding: 0 14px 40px; }
 .asist-estado-ausente { color: var(--gris); font-weight: 700; }
 .asist-estado-excusado { color: #b5740a; font-weight: 700; }
 
+/* Dinero — flujo visual */
+.flujo-graf { display: flex; flex-direction: column; align-items: stretch; gap: 0; }
+.paso {
+  display: flex; align-items: center; gap: 12px;
+  background: var(--tarjeta); border-radius: 14px; box-shadow: var(--sombra);
+  padding: 14px 16px; border-left: 6px solid var(--azul);
+}
+.paso-num {
+  flex: none; width: 26px; height: 26px; border-radius: 50%;
+  background: var(--azul); color: #fff; font-weight: 800; font-size: .9rem;
+  display: flex; align-items: center; justify-content: center;
+}
+.paso-emoji { font-size: 1.7rem; flex: none; }
+.paso-txt { display: flex; flex-direction: column; }
+.paso-txt b { font-size: 1rem; }
+.paso-txt span { color: var(--gris); font-size: .9rem; }
+.flecha { text-align: center; color: var(--azul); font-size: 1.4rem; line-height: 1.1; margin: 2px 0; }
+.punto-debil {
+  background: #fde7e4; border: 1px solid #f6b8af; border-radius: 14px;
+  padding: 14px 16px; margin: 16px 0 6px; color: #7a1f15;
+}
+.punto-debil p { margin: 6px 0 0; }
+
 .foot { text-align: center; color: var(--gris); padding: 20px; font-size: .85rem; }
