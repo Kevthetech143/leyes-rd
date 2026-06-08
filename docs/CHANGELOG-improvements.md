@@ -13,3 +13,4 @@ Una línea por ciclo de mejora.
 - 2026-06-07 — Se agregaron etiquetas para compartir (Open Graph/Twitter y color de barra) para que el enlace muestre título y descripción al compartirlo.
 - 2026-06-07 — Accesibilidad: las pestañas ahora tienen roles y estado (aria-selected) para lectores de pantalla.
 - 2026-06-07 — Sesiones: se muestra la fecha de la última sesión publicada para saber qué tan al día están los datos.
+- 2026-06-07 — Educativo: se agregó un explicador plegable "¿Cómo se mueve el dinero público?" (paso a paso, sin saturar el sitio).
