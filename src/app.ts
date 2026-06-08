@@ -173,9 +173,17 @@ function renderLey(ley: Ley): HTMLElement {
   }
 
   wrap.append(det);
+  // Keyboard accessible: behave like an expandable button.
+  wrap.setAttribute("role", "button");
+  wrap.tabIndex = 0;
+  wrap.setAttribute("aria-expanded", "false");
   wrap.addEventListener("click", (e: Event) => {
     e.stopPropagation();
-    wrap.classList.toggle("open");
+    const abierto = wrap.classList.toggle("open");
+    wrap.setAttribute("aria-expanded", String(abierto));
+  });
+  wrap.addEventListener("keydown", (e: KeyboardEvent) => {
+    if (e.key === "Enter" || e.key === " ") { e.preventDefault(); wrap.click(); }
   });
   return wrap;
 }

@@ -90,9 +90,20 @@ function renderLey(ley) {
         det.append(el("p", "nota-fuente", "Voto de cada legislador: el Senado aún no lo hace público."));
     }
     wrap.append(det);
+    // Keyboard accessible: behave like an expandable button.
+    wrap.setAttribute("role", "button");
+    wrap.tabIndex = 0;
+    wrap.setAttribute("aria-expanded", "false");
     wrap.addEventListener("click", (e) => {
         e.stopPropagation();
-        wrap.classList.toggle("open");
+        const abierto = wrap.classList.toggle("open");
+        wrap.setAttribute("aria-expanded", String(abierto));
+    });
+    wrap.addEventListener("keydown", (e) => {
+        if (e.key === "Enter" || e.key === " ") {
+            e.preventDefault();
+            wrap.click();
+        }
     });
     return wrap;
 }
