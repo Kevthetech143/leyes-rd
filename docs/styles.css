@@ -43,15 +43,15 @@ body {
 .topbar .sub { margin: 8px 0 0; opacity: .95; font-size: 1rem; }
 
 .tabs {
-  display: flex; gap: 8px; justify-content: center;
+  display: flex; gap: 8px; justify-content: center; flex-wrap: wrap;
   padding: 14px; position: sticky; top: 0;
   background: var(--crema); z-index: 5;
 }
 .tab {
   border: none; cursor: pointer;
   background: #fff; color: var(--tinta);
-  padding: 12px 18px; border-radius: 999px;
-  font-size: 1rem; font-weight: 600; box-shadow: var(--sombra);
+  padding: 12px 16px; border-radius: 999px;
+  font-size: .98rem; font-weight: 600; box-shadow: var(--sombra);
 }
 .tab.active { background: var(--azul); color: #fff; }
 
