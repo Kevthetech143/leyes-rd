@@ -52,5 +52,18 @@ En la página encuentras:
 Gratis. Sin registro. Para compartir.
 https://kevthetech143.github.io/leyes-rd/
 
+## Posts del caso SENASA (con imagen lista: docs/share-senasa.png — 1080×1080)
+
+### WhatsApp / corto
+🔎 Caso real: el desfalco del SENASA — más de RD$15,000 millones del dinero de la salud.
+¿Dónde se rompió la cadena? Te lo explico fácil, paso a paso.
+https://kevthetech143.github.io/leyes-rd/ (pestaña "Dinero")
+
+### Facebook / largo
+El SENASA es el seguro de salud del Estado, para 7.5 millones de personas. Se perdieron más de RD$15,000 millones.
+En Política Sencilla RD lo explicamos paso a paso: dónde se rompió la cadena del dinero y cómo se evita. Sin palabras difíciles, gratis.
+👉 https://kevthetech143.github.io/leyes-rd/
+(Adjuntar imagen: share-senasa.png)
+
 ## Registro de publicaciones (fecha — canal — enlace)
 - (vacío — ninguna publicación real todavía)
