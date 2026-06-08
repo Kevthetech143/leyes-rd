@@ -278,6 +278,17 @@ function renderSesiones(data) {
             const icono = aprob ? "✅ " : "•&nbsp;";
             meta.append(el("span", "v-iniciativa", "Iniciativa " + v.iniciativa), el("span", "v-conteo", v.a_favor + " de " + v.presentes + " presentes votaron a favor"), el("span", aprob ? "v-resultado" : "v-resultado v-resultado-neutral", icono + v.resultado));
             row.append(meta);
+            // Proportion bar: turns "X de Y" into a felt amount. Grey = simply "did not vote in favor",
+            // never shown as a vote against (the Senate does not publish per-person votes).
+            const pct = v.presentes > 0 ? Math.round((v.a_favor / v.presentes) * 100) : 0;
+            const barra = el("div", "voto-barra");
+            barra.setAttribute("role", "img");
+            barra.setAttribute("aria-label", v.a_favor + " de " + v.presentes + " presentes votaron a favor");
+            barra.setAttribute("title", "Gris: no votaron a favor");
+            const fill = el("span", "voto-barra-fill");
+            fill.style.width = pct + "%";
+            barra.append(fill);
+            row.append(barra);
             vlist.append(row);
         });
         card.append(vlist);
@@ -408,6 +419,57 @@ function setupCompartir() {
         });
     }
 }
+/* ---------- Inicio: cifras reales vivas ---------- */
+// Prints one real count per home card, computed from the data already loaded.
+// Numbers only — never invented; if data is missing the line stays empty.
+function llenarCifrasHome(leyes, prov, ses) {
+    const setC = (k, t) => {
+        const e = document.querySelector('[data-cifra="' + k + '"]');
+        if (e)
+            e.textContent = t;
+    };
+    const totalLeyes = leyes.sectores.reduce((n, s) => n + s.leyes.length, 0);
+    setC("leyes", totalLeyes + " leyes en " + leyes.sectores.length + " temas");
+    const cargos = prov.provincias.reduce((n, p) => n + p.lideres.length, 0);
+    setC("provincias", prov.provincias.length + " provincias · " + cargos + " cargos");
+    if (ses.sesiones.length) {
+        const ult = ses.sesiones.map((s) => s.fecha).sort().slice(-1)[0];
+        setC("sesiones", "Última sesión: " + fechaLarga(ult));
+    }
+}
+/* ---------- Dinero: cada paso del caso SENASA se abre al tocarlo ---------- */
+// Turns the hardcoded case steps into tap-to-reveal, reusing the accordion idiom.
+// Scoped to #caso-senasa so the general money flow stays as-is.
+function setupCasoAccordion() {
+    const caso = document.getElementById("caso-senasa");
+    if (!caso)
+        return;
+    caso.querySelectorAll(".flujo-graf .paso").forEach((paso) => {
+        const txt = paso.querySelector(".paso-txt");
+        if (!txt)
+            return;
+        const detalles = Array.from(txt.querySelectorAll(":scope > span"))
+            .filter((s) => !s.classList.contains("roto-tag"));
+        if (!detalles.length)
+            return;
+        detalles.forEach((d) => d.classList.add("paso-detalle"));
+        paso.classList.add("paso-colapsable");
+        paso.setAttribute("role", "button");
+        paso.tabIndex = 0;
+        paso.setAttribute("aria-expanded", "false");
+        const toggle = () => {
+            const abierto = paso.classList.toggle("paso-abierto");
+            paso.setAttribute("aria-expanded", String(abierto));
+        };
+        paso.addEventListener("click", toggle);
+        paso.addEventListener("keydown", (e) => {
+            if (e.key === "Enter" || e.key === " ") {
+                e.preventDefault();
+                toggle();
+            }
+        });
+    });
+}
 function setupEscape() {
     document.addEventListener("keydown", (e) => {
         if (e.key !== "Escape")
@@ -432,6 +494,8 @@ async function init() {
         renderLeyes(leyes);
         renderProvincias(provincias);
         renderSesiones(sesiones);
+        llenarCifrasHome(leyes, provincias, sesiones);
+        setupCasoAccordion();
     }
     catch (err) {
         const main = document.querySelector("main");

@@ -412,6 +412,25 @@ main { max-width: 720px; margin: 0 auto; padding: 0 14px 40px; }
 }
 .aviso-legal b { display: block; margin-bottom: 4px; }
 
+/* Inicio — cifra real viva en cada tarjeta */
+.home-card-cifra { font-size: .8rem; font-weight: 800; margin: 2px 0 0; }
+.card-leyes .home-card-cifra { color: var(--leyes); }
+.card-mapa .home-card-cifra { color: var(--mapa); }
+.card-sesiones .home-card-cifra { color: var(--sesiones); }
+.card-dinero .home-card-cifra { color: var(--dinero); }
+
+/* Sesiones — barra de proporción de votos */
+.voto-barra { height: 8px; background: #e7e2d8; border-radius: 999px; overflow: hidden; margin-top: 8px; }
+.voto-barra-fill { display: block; height: 100%; background: #1f9d57; border-radius: 999px; transition: width .6s ease; }
+@media (prefers-reduced-motion: reduce) { .voto-barra-fill { transition: none; } }
+
+/* Dinero — pasos del caso SENASA: tocar para abrir */
+.paso-colapsable { cursor: pointer; }
+.paso-colapsable .paso-detalle { display: none; }
+.paso-colapsable.paso-abierto .paso-detalle { display: block; }
+.paso-colapsable .paso-txt b::after { content: " ▸"; color: var(--gris); font-weight: 400; }
+.paso-colapsable.paso-abierto .paso-txt b::after { content: " ▾"; }
+
 /* Playful, tactile interactions (Canva-style feel) */
 .tab, .prov-card, .sector, .sesion, .paso, .transp, .perfil-cerrar, .home-card {
   transition: transform .12s ease, box-shadow .15s ease, background .15s ease;
