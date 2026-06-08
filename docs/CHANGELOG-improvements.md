@@ -26,3 +26,4 @@ Una línea por ciclo de mejora.
 - 2026-06-07 — Rediseño Canva-style fusionado a la versión en vivo (pantalla de inicio + identidad de color por sección + interacciones táctiles). Cron reactivado.
 - 2026-06-07 — Participación: se agregaron botones reales para Compartir, WhatsApp, Copiar enlace y Reportar/aportar (a GitHub issues), en la pantalla de inicio.
 - 2026-06-07 — Participación: se agregó "Compartir" y "Reportar o aportar" en el pie de página, para alcanzarlo desde cualquier sección.
+- 2026-06-07 — Educativo: nuevo explicador plegable "¿Cómo se hace una ley?" con los pasos del proceso legislativo (factual, sin saturar).
