@@ -150,6 +150,11 @@ main { max-width: 720px; margin: 0 auto; padding: 0 14px 40px; }
   background: var(--tarjeta); border-radius: var(--radio);
   box-shadow: var(--sombra); padding: 18px; margin-top: 16px;
 }
+.perfil-cerrar {
+  float: right; border: none; cursor: pointer; background: #f0f1f5; color: var(--tinta);
+  font-weight: 700; font-size: .82rem; padding: 6px 12px; border-radius: 999px;
+}
+.perfil-cerrar:hover { background: #e3e6ee; }
 .perfil h3 { margin: 0 0 4px; }
 .lider { border-top: 1px solid #eef0f4; padding: 12px 0; }
 .lider:first-of-type { border-top: none; }

@@ -205,6 +205,12 @@ function renderProvincias(data: ProvinciasData): void {
     c.addEventListener("click", () => {
       perfil.classList.remove("hidden");
       perfil.innerHTML = "";
+      const cerrar = el("button", "perfil-cerrar", "✕ Cerrar");
+      cerrar.addEventListener("click", () => {
+        perfil.classList.add("hidden");
+        perfil.innerHTML = "";
+      });
+      perfil.append(cerrar);
       perfil.append(el("h3", null, prov.nombre));
       prov.lideres.forEach((l) => {
         const block = el("div", "lider");

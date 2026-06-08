@@ -7,3 +7,4 @@ Una línea por ciclo de mejora.
 - 2026-06-07 — Sesiones: el check verde ya solo aparece en votos aprobados; los resultados "No indicado" salen en gris neutro (sin marca falsa).
 - 2026-06-07 — Se agregó un ícono de pestaña (favicon con la bandera dominicana) para que el sitio se reconozca en el navegador.
 - 2026-06-07 — Provincias: cada tarjeta ahora muestra cuántos cargos tiene (senador, diputados, gobernador, alcaldes) para saber qué hay dentro antes de tocar.
+- 2026-06-07 — Provincias: se agregó un botón "Cerrar" en la ficha de cada provincia para ocultarla fácil.
