@@ -53,3 +53,4 @@ Una línea por ciclo de mejora.
 - 2026-06-08 — sin cambios — revisado en vivo el perfil de provincia (arriba y abajo) en móvil; el nombre largo del senador se ve completo (falsa alarma de truncado). Vistas limpias. Lo pendiente real (cuenta para publicar y contador) depende de Kelvin.
 - 2026-06-08 — sin cambios — verificados en vivo los acordeones (nativos, accesibles por teclado, con flecha abrir/cerrar) y la sección Dinero (su "punto débil" ya coincide con la causa real verificada del caso SENASA). Sitio pulido. Caso SENASA listo para añadir a Dinero pendiente del OK de Kelvin.
 - 2026-06-08 — Dinero: añadido caso real "desfalco del SENASA" como estudio de caso — cadena simple paso a paso marcando en rojo dónde se rompió, la grieta de fondo, cómo se evita, y fuente (Operación Cobra/PEPCA). Aprobado por Kelvin.
+- 2026-06-08 — Inicio: la tarjeta de "Dinero" ahora dice "con un caso real" para atraer a la gente al estudio de caso del SENASA.
