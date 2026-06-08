@@ -87,6 +87,14 @@ main { max-width: 720px; margin: 0 auto; padding: 0 14px 40px; }
 .transp-body li { margin-bottom: 8px; }
 .transp-pie { margin-top: 10px; color: var(--gris); font-style: italic; }
 
+/* Leyenda de estados */
+.leyenda {
+  display: flex; flex-direction: column; gap: 8px;
+  background: #fff; border: 1px solid #e6e9ef; border-radius: 14px;
+  box-shadow: var(--sombra); padding: 12px 14px; margin: 0 0 14px; font-size: .9rem;
+}
+.leyenda-item { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; }
+
 /* Sectores */
 .sector {
   background: var(--tarjeta); border-radius: var(--radio);
