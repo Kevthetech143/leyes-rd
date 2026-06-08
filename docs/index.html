@@ -22,26 +22,65 @@
 </head>
 <body>
   <header class="topbar">
-    <h1>🇩🇴 Política Sencilla RD</h1>
+    <button class="topbar-home" id="homeLink" aria-label="Ir al inicio">
+      <h1>🇩🇴 Política Sencilla RD</h1>
+    </button>
     <p class="sub">Las leyes del país, explicadas claro y simple. Ordenadas por tema.</p>
   </header>
 
   <nav class="tabs" role="tablist" aria-label="Secciones">
-    <button class="tab active" data-view="leyes" role="tab" aria-selected="true">📜 Leyes</button>
+    <button class="tab active" data-view="home" role="tab" aria-selected="true">🏠 Inicio</button>
+    <button class="tab" data-view="leyes" role="tab" aria-selected="false">📜 Leyes</button>
     <button class="tab" data-view="mapa" role="tab" aria-selected="false">🗺️ Provincias</button>
     <button class="tab" data-view="sesiones" role="tab" aria-selected="false">🏛️ Sesiones</button>
     <button class="tab" data-view="dinero" role="tab" aria-selected="false">💰 Dinero</button>
   </nav>
 
   <main>
-    <!-- Source/honesty note: real Senate data; per-legislator votes not yet public -->
-    <div id="fuenteBanner" class="info-banner">
-      ℹ️ Datos reales del <b>Senado de la República Dominicana</b>. El voto de cada legislador todavía no es público.
-    </div>
+    <section id="view-home" class="view">
+      <div class="hero">
+        <p class="hero-kicker">Bienvenido</p>
+        <h2 class="hero-titulo">La política dominicana, fácil de entender</h2>
+        <p class="hero-sub">Toca una tarjeta para empezar. Todo con datos reales del Senado y simple para cualquiera.</p>
+      </div>
 
-    <section id="view-leyes" class="view">
+      <div class="home-grid">
+        <button class="home-card card-leyes" data-goto="leyes">
+          <span class="home-emoji">📜</span>
+          <span class="home-card-titulo">Leyes</span>
+          <span class="home-card-desc">Qué se propone y se aprueba, por tema.</span>
+          <span class="home-card-go">Explorar ▸</span>
+        </button>
+        <button class="home-card card-mapa" data-goto="mapa">
+          <span class="home-emoji">🗺️</span>
+          <span class="home-card-titulo">Provincias</span>
+          <span class="home-card-desc">Quién manda en cada provincia.</span>
+          <span class="home-card-go">Explorar ▸</span>
+        </button>
+        <button class="home-card card-sesiones" data-goto="sesiones">
+          <span class="home-emoji">🏛️</span>
+          <span class="home-card-titulo">Sesiones</span>
+          <span class="home-card-desc">Qué votó el Senado y quién asistió.</span>
+          <span class="home-card-go">Explorar ▸</span>
+        </button>
+        <button class="home-card card-dinero" data-goto="dinero">
+          <span class="home-emoji">💰</span>
+          <span class="home-card-titulo">Dinero</span>
+          <span class="home-card-desc">Cómo viaja el dinero público.</span>
+          <span class="home-card-go">Explorar ▸</span>
+        </button>
+      </div>
+
+      <p class="home-nota">ℹ️ Datos reales del <b>Senado de la República Dominicana</b>. Gratis y sin palabras difíciles.</p>
+    </section>
+
+    <section id="view-leyes" class="view hidden sec-leyes">
       <h2 class="seccion-titulo">📜 Las Leyes</h2>
       <p class="seccion-desc">Lo que se propone y se aprueba en el país, contado fácil y ordenado por tema.</p>
+      <!-- Source/honesty note: real Senate data; per-legislator votes not yet public -->
+      <div id="fuenteBanner" class="info-banner">
+        ℹ️ Datos reales del <b>Senado de la República Dominicana</b>. El voto de cada legislador todavía no es público.
+      </div>
       <div class="como">
         <b>¿Cómo funciona?</b> Las leyes están ordenadas por <b>tema</b>, no por números.
         Toca un tema, luego una ley, y verás <b>qué dice</b> y <b>en qué estado va</b>.
@@ -71,7 +110,7 @@
       <div id="sectores"></div>
     </section>
 
-    <section id="view-mapa" class="view hidden">
+    <section id="view-mapa" class="view hidden sec-mapa">
       <h2 class="seccion-titulo">🗺️ Las Provincias</h2>
       <p class="seccion-desc">Quién manda en cada provincia: tu senador, tus diputados, el gobernador y los alcaldes. Toca uno para ver qué hace.</p>
       <p class="hint">Toca una provincia para ver a sus representantes.</p>
@@ -79,7 +118,7 @@
       <div id="perfilProvincia" class="perfil hidden"></div>
     </section>
 
-    <section id="view-sesiones" class="view hidden">
+    <section id="view-sesiones" class="view hidden sec-sesiones">
       <h2 class="seccion-titulo">🏛️ Las Sesiones</h2>
       <p class="seccion-desc">Las reuniones del Senado: qué votaron ese día, cuántos dijeron que sí, y quién asistió.</p>
       <div class="como">
@@ -89,7 +128,7 @@
       <div id="sesiones"></div>
     </section>
 
-    <section id="view-dinero" class="view hidden">
+    <section id="view-dinero" class="view hidden sec-dinero">
       <h2 class="seccion-titulo">💰 El Dinero</h2>
       <p class="seccion-desc">Cómo viaja el dinero público, paso a paso — y dónde se suele perder.</p>
 

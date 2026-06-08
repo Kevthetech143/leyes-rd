@@ -8,6 +8,16 @@
   --tarjeta: #ffffff;
   --sombra: 0 4px 14px rgba(0,0,0,.08);
   --radio: 18px;
+
+  /* Per-section accent colors — one distinct, friendly hue per area */
+  --leyes:    #6d28d9;   /* morado — leyes */
+  --leyes-bg: #f3eefe;
+  --mapa:     #0e9488;   /* verde-azulado — provincias */
+  --mapa-bg:  #e4f6f3;
+  --sesiones: #1a4ed8;   /* azul — sesiones */
+  --sesiones-bg: #eaf0ff;
+  --dinero:   #c2410c;   /* naranja — dinero */
+  --dinero-bg: #fdeede;
 }
 
 * { box-sizing: border-box; }
@@ -36,6 +46,11 @@ body {
   text-align: center;
 }
 .topbar h1 { margin: 0; font-size: 1.8rem; }
+.topbar-home {
+  background: none; border: none; padding: 0; margin: 0; cursor: pointer;
+  color: inherit; font: inherit; display: inline-block;
+}
+.topbar-home:focus-visible { outline: 3px solid #fff; outline-offset: 4px; border-radius: 10px; }
 .topbar .tag {
   background: var(--rojo); color:#fff; font-size: .8rem;
   padding: 2px 10px; border-radius: 999px; vertical-align: middle;
@@ -54,10 +69,66 @@ body {
   font-size: .98rem; font-weight: 600; box-shadow: var(--sombra);
 }
 .tab.active { background: var(--azul); color: #fff; }
+.tab[data-view="leyes"].active    { background: var(--leyes); }
+.tab[data-view="mapa"].active     { background: var(--mapa); }
+.tab[data-view="sesiones"].active { background: var(--sesiones); }
+.tab[data-view="dinero"].active   { background: var(--dinero); }
+.tab[data-view="home"].active     { background: var(--tinta); }
+.tab:focus-visible { outline: 3px solid var(--azul); outline-offset: 2px; }
 
 main { max-width: 720px; margin: 0 auto; padding: 0 14px 40px; }
 .hint { color: var(--gris); text-align: center; margin: 6px 0 16px; }
 .hidden { display: none !important; }
+
+/* ---------- Home / Hero ---------- */
+.hero { text-align: center; padding: 26px 8px 6px; }
+.hero-kicker {
+  display: inline-block; margin: 0 0 8px; font-weight: 800; font-size: .78rem;
+  letter-spacing: .12em; text-transform: uppercase; color: var(--leyes);
+  background: var(--leyes-bg); padding: 4px 12px; border-radius: 999px;
+}
+.hero-titulo { margin: 0 0 8px; font-size: 1.7rem; font-weight: 800; line-height: 1.2; }
+.hero-sub { margin: 0 auto; max-width: 460px; color: #44506a; font-size: 1.02rem; }
+
+.home-grid {
+  display: grid; grid-template-columns: repeat(2, 1fr); gap: 14px; margin: 22px 0 16px;
+}
+.home-card {
+  display: flex; flex-direction: column; align-items: flex-start; gap: 4px;
+  text-align: left; cursor: pointer; border: none; font: inherit; color: var(--tinta);
+  background: var(--tarjeta); border-radius: 20px; padding: 18px 16px 16px;
+  box-shadow: var(--sombra); position: relative; overflow: hidden;
+  border-top: 6px solid var(--azul); min-height: 150px;
+}
+.home-card .home-emoji {
+  font-size: 2.2rem; line-height: 1; margin-bottom: 6px;
+  width: 56px; height: 56px; border-radius: 16px;
+  display: flex; align-items: center; justify-content: center;
+}
+.home-card-titulo { font-size: 1.25rem; font-weight: 800; }
+.home-card-desc { font-size: .9rem; color: #44506a; flex: 1; }
+.home-card-go { font-size: .85rem; font-weight: 800; margin-top: 8px; }
+
+.card-leyes    { border-top-color: var(--leyes); }
+.card-leyes    .home-emoji { background: var(--leyes-bg); }
+.card-leyes    .home-card-go { color: var(--leyes); }
+.card-mapa     { border-top-color: var(--mapa); }
+.card-mapa     .home-emoji { background: var(--mapa-bg); }
+.card-mapa     .home-card-go { color: var(--mapa); }
+.card-sesiones { border-top-color: var(--sesiones); }
+.card-sesiones .home-emoji { background: var(--sesiones-bg); }
+.card-sesiones .home-card-go { color: var(--sesiones); }
+.card-dinero   { border-top-color: var(--dinero); }
+.card-dinero   .home-emoji { background: var(--dinero-bg); }
+.card-dinero   .home-card-go { color: var(--dinero); }
+
+.home-nota {
+  text-align: center; color: #14407a; background: #eaf4ff; border: 1px solid #cfe4ff;
+  border-radius: 12px; padding: 10px 14px; font-size: .9rem; margin: 8px 0 0;
+}
+@media (max-width: 380px) {
+  .home-grid { grid-template-columns: 1fr; }
+}
 
 .como {
   background: #eef2ff; border: 1px solid #dbe3ff; color: #1c2a5e;
@@ -259,17 +330,46 @@ main { max-width: 720px; margin: 0 auto; padding: 0 14px 40px; }
 }
 .punto-debil p { margin: 6px 0 0; }
 
+/* ---------- Per-section accents (distinct identity per tab) ---------- */
+.sec-leyes    .seccion-titulo { color: var(--leyes); }
+.sec-mapa     .seccion-titulo { color: var(--mapa); }
+.sec-sesiones .seccion-titulo { color: var(--sesiones); }
+.sec-dinero   .seccion-titulo { color: var(--dinero); }
+
+/* Leyes — morado accent */
+.sec-leyes .sector-count { background: var(--leyes-bg); color: var(--leyes); }
+.sec-leyes .ley-detalle h4 { color: var(--leyes); }
+.sec-leyes .sector { border-left: 6px solid var(--leyes); }
+
+/* Provincias — teal accent */
+.sec-mapa .prov-count { background: var(--mapa-bg); color: var(--mapa); }
+.sec-mapa .prov-card:hover { outline-color: var(--mapa); }
+.sec-mapa .avatar { background: linear-gradient(135deg, var(--mapa), #2bb5a6); }
+.sec-mapa .grupo-titulo { color: var(--mapa); border-bottom-color: var(--mapa-bg); }
+.sec-mapa .lider-funcion { color: #0a5b53; background: var(--mapa-bg); }
+.sec-mapa .partido-chip { background: var(--mapa-bg); color: var(--mapa); }
+
+/* Dinero — naranja accent */
+.sec-dinero .paso { border-left-color: var(--dinero); }
+.sec-dinero .paso-num { background: var(--dinero); }
+.sec-dinero .flecha { color: var(--dinero); }
+
 /* Playful, tactile interactions (Canva-style feel) */
-.tab, .prov-card, .sector, .sesion, .paso, .transp, .perfil-cerrar {
+.tab, .prov-card, .sector, .sesion, .paso, .transp, .perfil-cerrar, .home-card {
   transition: transform .12s ease, box-shadow .15s ease, background .15s ease;
 }
 .tab:hover, .prov-card:hover { transform: translateY(-2px); box-shadow: 0 8px 20px rgba(26,78,216,.18); }
+.home-card:hover { transform: translateY(-4px); box-shadow: 0 14px 30px rgba(0,0,0,.14); }
+.home-card:active { transform: scale(.97); }
+.home-card:focus-visible { outline: 3px solid var(--azul); outline-offset: 3px; }
 .tab:active, .prov-card:active, .sector-head:active, .perfil-cerrar:active { transform: scale(.97); }
+.view { animation: vista-entra .22s ease; }
 .ley-detalle, .transp-body, .asistencia-body { animation: aparece .18s ease; }
 @keyframes aparece { from { opacity: 0; transform: translateY(-4px); } to { opacity: 1; transform: none; } }
+@keyframes vista-entra { from { opacity: 0; transform: translateY(6px); } to { opacity: 1; transform: none; } }
 @media (prefers-reduced-motion: reduce) {
-  .tab, .prov-card, .sector, .sesion, .paso, .transp, .perfil-cerrar { transition: none; }
-  .ley-detalle, .transp-body, .asistencia-body { animation: none; }
+  .tab, .prov-card, .sector, .sesion, .paso, .transp, .perfil-cerrar, .home-card { transition: none; }
+  .ley-detalle, .transp-body, .asistencia-body, .view { animation: none; }
 }
 
 .foot { text-align: center; color: var(--gris); padding: 20px; font-size: .85rem; }
