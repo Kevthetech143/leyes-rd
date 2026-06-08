@@ -122,10 +122,18 @@ function renderLeyes(data: LeyesData): void {
 
     sec.leyes.forEach((ley) => body.append(renderLey(ley)));
 
+    // Keyboard accessible: behave like an expandable button.
+    head.setAttribute("role", "button");
+    head.tabIndex = 0;
+    head.setAttribute("aria-expanded", "false");
     head.addEventListener("click", () => {
       const abierto = body.style.display !== "none";
       body.style.display = abierto ? "none" : "block";
       card.classList.toggle("open", !abierto);
+      head.setAttribute("aria-expanded", String(!abierto));
+    });
+    head.addEventListener("keydown", (e: KeyboardEvent) => {
+      if (e.key === "Enter" || e.key === " ") { e.preventDefault(); head.click(); }
     });
 
     card.append(head, body);

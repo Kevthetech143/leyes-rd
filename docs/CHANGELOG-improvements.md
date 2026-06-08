@@ -30,3 +30,4 @@ Una línea por ciclo de mejora.
 - 2026-06-07 — Limpieza: se quitó una línea de instrucción repetida en Leyes (ya estaba en el recuadro "¿Cómo funciona?") para dejar la sección más limpia.
 - 2026-06-07 — Sesiones: conteo de votos más claro ("25 de 27 presentes votaron a favor" en vez de "25 a favor de 27 presentes").
 - 2026-06-08 — Accesibilidad: las tarjetas de provincia ahora se pueden abrir con el teclado (Enter o espacio) y tienen etiqueta para lectores de pantalla.
+- 2026-06-08 — Accesibilidad: las tarjetas de tema (Leyes) se abren con teclado (Enter/espacio) y avisan su estado (aria-expanded) a lectores de pantalla.
