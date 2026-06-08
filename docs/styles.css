@@ -112,6 +112,9 @@ main { max-width: 720px; margin: 0 auto; padding: 0 14px 40px; }
   background: #eef2ff; color: var(--azul);
   padding: 2px 10px; border-radius: 999px; font-size: .85rem; font-weight: 700;
 }
+.sector-chev { color: var(--gris); font-size: 1.1rem; flex: none; }
+.sector.open .sector-chev { transform: rotate(90deg); }
+.sector-chev { transition: transform .15s ease; }
 .sector-body { padding: 0 18px 8px; }
 
 /* Ley */

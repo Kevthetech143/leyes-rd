@@ -114,7 +114,8 @@ function renderLeyes(data: LeyesData): void {
     head.append(
       el("span", "sector-emoji", sec.emoji),
       el("h3", "sector-title", sec.nombre),
-      el("span", "sector-count", sec.leyes.length + (sec.leyes.length === 1 ? " ley" : " leyes"))
+      el("span", "sector-count", sec.leyes.length + (sec.leyes.length === 1 ? " ley" : " leyes")),
+      el("span", "sector-chev", "▸")
     );
     const body = el("div", "sector-body");
     body.style.display = "none";
@@ -122,7 +123,9 @@ function renderLeyes(data: LeyesData): void {
     sec.leyes.forEach((ley) => body.append(renderLey(ley)));
 
     head.addEventListener("click", () => {
-      body.style.display = body.style.display === "none" ? "block" : "none";
+      const abierto = body.style.display !== "none";
+      body.style.display = abierto ? "none" : "block";
+      card.classList.toggle("open", !abierto);
     });
 
     card.append(head, body);
