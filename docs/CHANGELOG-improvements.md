@@ -9,3 +9,4 @@ Una línea por ciclo de mejora.
 - 2026-06-07 — Provincias: cada tarjeta ahora muestra cuántos cargos tiene (senador, diputados, gobernador, alcaldes) para saber qué hay dentro antes de tocar.
 - 2026-06-07 — Provincias: se agregó un botón "Cerrar" en la ficha de cada provincia para ocultarla fácil.
 - 2026-06-07 — Leyes: se agregó una leyenda que explica en palabras simples qué significa Aprobada, En votación y Rechazada.
+- 2026-06-07 — Leyes: el contador de cada tema ahora dice "N leyes" en vez de solo el número, igual que en Provincias.

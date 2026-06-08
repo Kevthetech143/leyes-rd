@@ -114,7 +114,7 @@ function renderLeyes(data: LeyesData): void {
     head.append(
       el("span", "sector-emoji", sec.emoji),
       el("h3", "sector-title", sec.nombre),
-      el("span", "sector-count", String(sec.leyes.length))
+      el("span", "sector-count", sec.leyes.length + (sec.leyes.length === 1 ? " ley" : " leyes"))
     );
     const body = el("div", "sector-body");
     body.style.display = "none";
