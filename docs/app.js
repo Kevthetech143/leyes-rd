@@ -408,9 +408,21 @@ function setupCompartir() {
         });
     }
 }
+function setupEscape() {
+    document.addEventListener("keydown", (e) => {
+        if (e.key !== "Escape")
+            return;
+        const p = document.getElementById("perfilProvincia");
+        if (p && !p.classList.contains("hidden")) {
+            p.classList.add("hidden");
+            p.innerHTML = "";
+        }
+    });
+}
 async function init() {
     setupTabs();
     setupCompartir();
+    setupEscape();
     try {
         const [leyes, provincias, sesiones] = await Promise.all([
             cargar("data/leyes.json"),

@@ -500,9 +500,21 @@ function setupCompartir(): void {
   }
 }
 
+function setupEscape(): void {
+  document.addEventListener("keydown", (e: KeyboardEvent) => {
+    if (e.key !== "Escape") return;
+    const p = document.getElementById("perfilProvincia");
+    if (p && !p.classList.contains("hidden")) {
+      p.classList.add("hidden");
+      p.innerHTML = "";
+    }
+  });
+}
+
 async function init(): Promise<void> {
   setupTabs();
   setupCompartir();
+  setupEscape();
   try {
     const [leyes, provincias, sesiones] = await Promise.all([
       cargar<LeyesData>("data/leyes.json"),
