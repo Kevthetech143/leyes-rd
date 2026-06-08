@@ -256,4 +256,17 @@ main { max-width: 720px; margin: 0 auto; padding: 0 14px 40px; }
 }
 .punto-debil p { margin: 6px 0 0; }
 
+/* Playful, tactile interactions (Canva-style feel) */
+.tab, .prov-card, .sector, .sesion, .paso, .transp, .perfil-cerrar {
+  transition: transform .12s ease, box-shadow .15s ease, background .15s ease;
+}
+.tab:hover, .prov-card:hover { transform: translateY(-2px); box-shadow: 0 8px 20px rgba(26,78,216,.18); }
+.tab:active, .prov-card:active, .sector-head:active, .perfil-cerrar:active { transform: scale(.97); }
+.ley-detalle, .transp-body, .asistencia-body { animation: aparece .18s ease; }
+@keyframes aparece { from { opacity: 0; transform: translateY(-4px); } to { opacity: 1; transform: none; } }
+@media (prefers-reduced-motion: reduce) {
+  .tab, .prov-card, .sector, .sesion, .paso, .transp, .perfil-cerrar { transition: none; }
+  .ley-detalle, .transp-body, .asistencia-body { animation: none; }
+}
+
 .foot { text-align: center; color: var(--gris); padding: 20px; font-size: .85rem; }
