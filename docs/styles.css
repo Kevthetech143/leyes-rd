@@ -390,3 +390,9 @@ main { max-width: 720px; margin: 0 auto; padding: 0 14px 40px; }
 }
 
 .foot { text-align: center; color: var(--gris); padding: 20px; font-size: .85rem; }
+.foot-acciones { display: flex; gap: 10px; justify-content: center; flex-wrap: wrap; margin: 0 0 10px; }
+.foot-link {
+  border: 1px solid #d7dbe4; background: #fff; color: var(--azul); cursor: pointer;
+  font: inherit; font-weight: 700; font-size: .85rem; padding: 7px 14px; border-radius: 999px; text-decoration: none;
+}
+.foot-link:active { transform: scale(.97); }

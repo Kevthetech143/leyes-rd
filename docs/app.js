@@ -360,6 +360,16 @@ function setupCompartir() {
     const cb = document.getElementById("copyBtn");
     if (cb)
         cb.addEventListener("click", () => copiarEnlace(url, cb));
+    const fs = document.getElementById("footShare");
+    if (fs) {
+        fs.addEventListener("click", () => {
+            const nav = navigator;
+            if (nav.share)
+                nav.share({ title: titulo, text: texto, url }).catch(() => { });
+            else
+                copiarEnlace(url, fs);
+        });
+    }
 }
 async function init() {
     setupTabs();
