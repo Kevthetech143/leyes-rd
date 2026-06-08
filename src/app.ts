@@ -207,7 +207,8 @@ function renderProvincias(data: ProvinciasData): void {
   const grid = el("div", "prov-grid");
   const perfil = byId("perfilProvincia");
 
-  data.provincias.forEach((prov) => {
+  const ordenadas = [...data.provincias].sort((a, b) => a.nombre.localeCompare(b.nombre, "es"));
+  ordenadas.forEach((prov) => {
     const c = el("div", "prov-card");
     c.append(el("span", "prov-nombre", prov.nombre));
     const n = prov.lideres.length;
