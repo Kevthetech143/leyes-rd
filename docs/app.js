@@ -263,7 +263,7 @@ async function init() {
     catch (err) {
         const main = document.querySelector("main");
         if (main) {
-            main.append(el("p", "hint", "No se pudieron cargar los datos. Abre el sitio con un servidor web (no como archivo)."));
+            main.append(el("p", "hint", "No pudimos cargar la información. Revisa tu conexión y vuelve a intentar."));
         }
         console.error(err);
     }
