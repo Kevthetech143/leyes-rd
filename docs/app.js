@@ -229,8 +229,12 @@ function renderSesiones(data) {
 function setupTabs() {
     document.querySelectorAll(".tab").forEach((tab) => {
         tab.addEventListener("click", () => {
-            document.querySelectorAll(".tab").forEach((t) => t.classList.remove("active"));
+            document.querySelectorAll(".tab").forEach((t) => {
+                t.classList.remove("active");
+                t.setAttribute("aria-selected", "false");
+            });
             tab.classList.add("active");
+            tab.setAttribute("aria-selected", "true");
             const view = tab.dataset.view;
             byId("view-leyes").classList.toggle("hidden", view !== "leyes");
             byId("view-mapa").classList.toggle("hidden", view !== "mapa");

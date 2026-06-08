@@ -26,10 +26,10 @@
     <p class="sub">Las leyes del país, explicadas claro y simple. Ordenadas por tema.</p>
   </header>
 
-  <nav class="tabs">
-    <button class="tab active" data-view="leyes">📜 Leyes</button>
-    <button class="tab" data-view="mapa">🗺️ Provincias</button>
-    <button class="tab" data-view="sesiones">🏛️ Sesiones</button>
+  <nav class="tabs" role="tablist" aria-label="Secciones">
+    <button class="tab active" data-view="leyes" role="tab" aria-selected="true">📜 Leyes</button>
+    <button class="tab" data-view="mapa" role="tab" aria-selected="false">🗺️ Provincias</button>
+    <button class="tab" data-view="sesiones" role="tab" aria-selected="false">🏛️ Sesiones</button>
   </nav>
 
   <main>
