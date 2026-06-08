@@ -170,6 +170,11 @@ const estadoAsist = {
 function renderSesiones(data) {
     const cont = byId("sesiones");
     cont.innerHTML = "";
+    if (data.sesiones.length) {
+        const fechas = data.sesiones.map((s) => s.fecha).sort();
+        const ultima = fechas[fechas.length - 1];
+        cont.append(el("p", "nota-fuente", "Última sesión publicada: " + fechaLarga(ultima) + "."));
+    }
     data.sesiones.forEach((ses) => {
         const card = el("div", "sesion");
         const head = el("div", "sesion-head");
