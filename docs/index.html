@@ -143,6 +143,11 @@
         </div>
       </details>
 
+      <div class="buscador">
+        <span class="buscador-icono" aria-hidden="true">🔎</span>
+        <input id="buscarLey" class="buscador-input" type="search" placeholder="Busca un tema o una ley (salud, luz…)" aria-label="Buscar un tema o una ley" autocomplete="off" />
+      </div>
+      <p id="leyNoResultado" class="hint hidden">No encontramos nada con esa palabra. Prueba otra.</p>
       <div id="sectores"></div>
     </section>
 
@@ -150,6 +155,11 @@
       <h2 class="seccion-titulo">🗺️ Las Provincias</h2>
       <p class="seccion-desc">Quién representa a cada provincia: el senador y los diputados (hacen las leyes) y el gobernador y los alcaldes (gobiernan lo local).</p>
       <p class="hint">Toca una provincia para ver a su gente.</p>
+      <div class="buscador">
+        <span class="buscador-icono" aria-hidden="true">🔎</span>
+        <input id="buscarProvincia" class="buscador-input" type="search" placeholder="Busca tu provincia…" aria-label="Buscar tu provincia" autocomplete="off" />
+      </div>
+      <p id="provNoResultado" class="hint hidden">No encontramos esa provincia. Revisa cómo se escribe.</p>
       <div id="provincias"></div>
       <div id="perfilProvincia" class="perfil hidden"></div>
     </section>

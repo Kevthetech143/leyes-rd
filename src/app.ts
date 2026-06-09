@@ -428,6 +428,53 @@ function renderSesiones(data: SesionesData): void {
   });
 }
 
+/* ---------- Buscadores (search) ---------- */
+// Accent-insensitive, lowercase match so "san cristobal" finds "San Cristóbal".
+function normaliza(s: string): string {
+  return s.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase().trim();
+}
+
+// Live filter of province cards by name.
+function setupBuscadorProvincias(): void {
+  const inp = document.getElementById("buscarProvincia") as HTMLInputElement | null;
+  if (!inp) return;
+  const aviso = document.getElementById("provNoResultado");
+  inp.addEventListener("input", () => {
+    const q = normaliza(inp.value);
+    let visibles = 0;
+    document.querySelectorAll<HTMLElement>("#provincias .prov-card").forEach((c) => {
+      const nom = normaliza(c.querySelector(".prov-nombre")?.textContent || "");
+      const match = !q || nom.includes(q);
+      c.classList.toggle("hidden", !match);
+      if (match) visibles++;
+    });
+    if (aviso) aviso.classList.toggle("hidden", !(q && visibles === 0));
+  });
+}
+
+// Live filter of law sectors by topic or law title; opens matching sectors.
+function setupBuscadorLeyes(): void {
+  const inp = document.getElementById("buscarLey") as HTMLInputElement | null;
+  if (!inp) return;
+  const aviso = document.getElementById("leyNoResultado");
+  inp.addEventListener("input", () => {
+    const q = normaliza(inp.value);
+    let visibles = 0;
+    document.querySelectorAll<HTMLElement>("#sectores .sector").forEach((sec) => {
+      const match = !q || normaliza(sec.textContent || "").includes(q);
+      sec.classList.toggle("hidden", !match);
+      const body = sec.querySelector<HTMLElement>(".sector-body");
+      const head = sec.querySelector(".sector-head");
+      const abrir = Boolean(q && match);
+      if (body) body.style.display = abrir ? "block" : "none";
+      sec.classList.toggle("open", abrir);
+      head?.setAttribute("aria-expanded", String(abrir));
+      if (match) visibles++;
+    });
+    if (aviso) aviso.classList.toggle("hidden", !(q && visibles === 0));
+  });
+}
+
 /* ---------- Navegación ---------- */
 // Every view id, keyed by the data-view / data-goto name.
 const VISTAS: Record<string, string> = {
@@ -583,6 +630,8 @@ async function init(): Promise<void> {
     renderSesiones(sesiones);
     llenarCifrasHome(leyes, provincias, sesiones);
     setupCasoAccordion();
+    setupBuscadorProvincias();
+    setupBuscadorLeyes();
   } catch (err) {
     const main = document.querySelector("main");
     if (main) {

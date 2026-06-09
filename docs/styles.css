@@ -429,6 +429,21 @@ main { max-width: 720px; margin: 0 auto; padding: 0 14px 40px; }
 }
 .aviso-legal b { display: block; margin-bottom: 4px; }
 
+/* Buscador (search box) — big, friendly, easy to tap */
+.buscador {
+  display: flex; align-items: center; gap: 10px;
+  background: #fff; border: 2px solid #e7e2d8; border-radius: 999px;
+  padding: 12px 18px; margin: 6px 0 14px; box-shadow: var(--sombra);
+}
+.buscador-icono { font-size: 1.2rem; flex: none; }
+.buscador-input {
+  flex: 1; min-width: 0; border: none; outline: none; background: transparent;
+  font: inherit; font-size: 1.05rem; color: var(--tinta);
+}
+.buscador-input::placeholder { color: var(--gris); }
+.sec-leyes .buscador:focus-within { border-color: var(--leyes); }
+.sec-mapa  .buscador:focus-within { border-color: var(--mapa); }
+
 /* Inicio — cifra real viva en cada tarjeta */
 .home-card-cifra {
   font-size: .78rem; font-weight: 800; margin: 4px 0 0;
