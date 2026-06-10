@@ -420,7 +420,12 @@
      "nombre": "Carolina Mejía",
      "partido": "PRM",
      "resumen": "Alcalde/sa de Distrito Nacional (2024-2028).",
-     "registro": "No disponible todavía"
+     "registro": "No disponible todavía",
+     "sueldo": {
+      "monto": "RD$265,000",
+      "mes": "enero 2026",
+      "fuente": "nómina de empleados fijos del Ayuntamiento del Distrito Nacional (SISMAP)"
+     }
     }
    ]
   },
@@ -981,7 +986,12 @@
      "nombre": "Alexis (Alex) Díaz",
      "partido": "PRM",
      "resumen": "Alcalde/sa de San Francisco de Macorís (2024-2028).",
-     "registro": "No disponible todavía"
+     "registro": "No disponible todavía",
+     "sueldo": {
+      "monto": "RD$165,459",
+      "mes": "junio 2025",
+      "fuente": "nómina del Ayuntamiento de San Francisco de Macorís (SISMAP)"
+     }
     }
    ]
   },
@@ -4036,7 +4046,12 @@
      "nombre": "Ulises Rodríguez",
      "partido": "PRM",
      "resumen": "Alcalde/sa de Santiago de los Caballeros (2024-2028).",
-     "registro": "No disponible todavía"
+     "registro": "No disponible todavía",
+     "sueldo": {
+      "monto": "RD$265,000",
+      "mes": "enero 2026",
+      "fuente": "nómina administrativa del Ayuntamiento de Santiago (SISMAP)"
+     }
     }
    ]
   },
@@ -5073,7 +5088,12 @@
      "nombre": "Francisco Peña",
      "partido": "PRM",
      "resumen": "Alcalde/sa de Santo Domingo Oeste (2024-2028).",
-     "registro": "No disponible todavía"
+     "registro": "No disponible todavía",
+     "sueldo": {
+      "monto": "RD$340,000",
+      "mes": "mayo 2026",
+      "fuente": "nómina de personal fijo del Ayuntamiento de Santo Domingo Oeste"
+     }
     },
     {
      "cargo": "Alcalde/sa de Los Alcarrizos",

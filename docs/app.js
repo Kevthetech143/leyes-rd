@@ -221,8 +221,10 @@ function renderLider(l) {
         block.append(el("p", "lider-dato", "📜 Ha propuesto o copropuesto <b>" + n + "</b> " +
             (n === 1 ? "iniciativa" : "iniciativas") + " en este período."));
     }
-    // Lane 4: base monthly salary, per role, from the public payroll.
-    const sueldo = sueldoDeCargo(l.cargo);
+    // Lane 4: base monthly salary, from the public payroll. Senators, deputies
+    // and governors share a role-wide rate (sueldoDeCargo); mayors each have their
+    // own amount read from their own ayuntamiento's nómina (l.sueldo).
+    const sueldo = sueldoDeCargo(l.cargo) || l.sueldo || null;
     if (sueldo) {
         block.append(el("p", "lider-dato", "💰 Sueldo: <b>" + sueldo.monto + " al mes</b>, según la " + sueldo.fuente +
             " de " + sueldo.mes + ". Lo pagan los impuestos de todos."));
@@ -234,7 +236,12 @@ function renderLider(l) {
         block.append(el("p", "nota-fuente", "El gobernador no hace leyes ni vota en el Congreso, por eso no tiene asistencia ni iniciativas. Lo nombra la Presidencia, y su sueldo sale en la nómina del Ministerio de Interior y Policía."));
     }
     else if (cargoLower.startsWith("alcalde")) {
-        block.append(el("p", "nota-fuente", "El alcalde trabaja en el ayuntamiento, no en el Congreso, por eso no tiene asistencia ni iniciativas de leyes. Su sueldo lo publica cada ayuntamiento; estamos reuniendo esas nóminas."));
+        // When we already show this mayor's salary (from their ayuntamiento's own
+        // nómina), drop the "estamos reuniendo" promise and just explain the role.
+        const nota = l.sueldo
+            ? "El alcalde trabaja en el ayuntamiento, no en el Congreso, por eso no tiene asistencia ni iniciativas de leyes. Su sueldo sale en la nómina de su propio ayuntamiento."
+            : "El alcalde trabaja en el ayuntamiento, no en el Congreso, por eso no tiene asistencia ni iniciativas de leyes. Su sueldo lo publica cada ayuntamiento; aún estamos reuniendo esas nóminas.";
+        block.append(el("p", "nota-fuente", nota));
     }
     if (esLegislador(l.cargo)) {
         block.append(el("p", "lider-cargo", "Registro de votos: " + l.registro));
