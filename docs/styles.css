@@ -503,14 +503,36 @@ main { max-width: 720px; margin: 0 auto; padding: 0 14px 40px; }
   background: #e7f6ee; border-radius: 8px; padding: 4px 10px;
 }
 
-/* ¿Cuánto es esa cifra? scale card */
+/* ¿Cuánto es esa cifra? scale card — now a tap-to-open fold so the long
+   bullet explainer doesn't stretch the page; the headline stays visible. */
 .cuanto-es {
   background: #fff; border: 1px solid #f0c489; border-radius: 12px;
   padding: 10px 14px; margin-top: 12px; color: var(--tinta);
 }
-.cuanto-es b { display: block; margin-bottom: 4px; color: #9a3b00; }
-.cuanto-es ul { margin: 0; padding-left: 18px; }
+.cuanto-es > summary {
+  cursor: pointer; list-style: none; display: block;
+  font-weight: 700; color: #9a3b00;
+}
+.cuanto-es > summary::-webkit-details-marker { display: none; }
+.cuanto-es > summary::after { content: "▸"; float: right; color: var(--gris); font-weight: 700; }
+.cuanto-es[open] > summary::after { content: "▾"; }
+.cuanto-es ul { margin: 8px 0 0; padding-left: 18px; }
 .cuanto-es li { margin: 3px 0; font-size: .9rem; }
+
+/* Source notes folded behind a short tap, so the long official-source
+   paragraph doesn't dominate the page. Phrasing inside is unchanged. */
+.fuente-fold {
+  background: #fff; border: 1px solid #e6e9ef; border-radius: 12px;
+  margin: 12px 0 6px; overflow: hidden;
+}
+.fuente-fold > summary {
+  cursor: pointer; list-style: none; padding: 10px 14px;
+  font-weight: 700; font-size: .85rem; color: var(--gris);
+}
+.fuente-fold > summary::-webkit-details-marker { display: none; }
+.fuente-fold > summary::after { content: "▸"; float: right; }
+.fuente-fold[open] > summary::after { content: "▾"; }
+.fuente-fold .nota-fuente { margin: 0; padding: 0 14px 12px; }
 
 /* 🩺 ¿Cómo está el bolsillo del país? — financial health of the country */
 .salud-pais {
