@@ -1,0 +1,5033 @@
+{
+ "_fuente": "Relacion de Candidatos Electos en las Elecciones Ordinarias Generales Municipales del 18 de febrero de 2024, Junta Central Electoral (JCE), descargada de https://elecciones2024.jce.gob.do/municipales",
+ "_cargo": "REGIDOR (electos), suplentes excluidos",
+ "_partido_columna": "ORGANIZACION POLITICA (partido/alianza ganadora)",
+ "_total_regidores": 1161,
+ "_provincias": 32,
+ "provincias": {
+  "DISTRITO NACIONAL": {
+   "DISTRITO NACIONAL": [
+    {
+     "nombre": "Eliazar Bladimir Reynoso Medrano",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Maria Laura Baez Gracesqui",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Juan Miguel Lopez Franco",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Rafael Eduardo Gutierrez Fondeur",
+     "partido": "FP"
+    },
+    {
+     "nombre": "Youany Antonio Moya Mejia",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Ariel Ernesto Gutierrez Santana",
+     "partido": "PLD"
+    },
+    {
+     "nombre": "Danilo Sanchez Morillo",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "America Muñoz Arias",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Giancarlo Aramis Vega Paulino",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Nerys Mercedes Martinez Ureña",
+     "partido": "FP"
+    },
+    {
+     "nombre": "Edickson Herrera Silvestre",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Jorge Juan Feliz Pacheco",
+     "partido": "PLD"
+    },
+    {
+     "nombre": "Maria del Carmen Reynoso Sanchez",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Argelys Jimenez Bierd",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Dewar Crousett Rojas",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Nicolas Valdez Valdez",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Jairo Doñe de la Cruz",
+     "partido": "FP"
+    },
+    {
+     "nombre": "Felix Perdomo Figueroa",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Domingo Antonio Corniel Sosa",
+     "partido": "PLD"
+    },
+    {
+     "nombre": "Edgar Ernesto Javier Montes de Oca",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Felix Mateo Lugo",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Shade Medina Genao",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Manuel Hilario Garcia del Rosario",
+     "partido": "FP"
+    },
+    {
+     "nombre": "Junior Mariolanda Castillo Mena",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Leonor Altagracia Lantigua de Fernandez",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Aneury Ramirez Henriquez",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Franklin Rumualdo Ferreras Encarnacion",
+     "partido": "PLD"
+    },
+    {
+     "nombre": "Ricardo Cuello Santiago",
+     "partido": "FP"
+    },
+    {
+     "nombre": "Yovanny Soto Jimenez",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Jose Eddy Otaño Benitez",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Jose Alberto Gomez Paulino",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Alfredo Louis Joseph",
+     "partido": "PLD"
+    },
+    {
+     "nombre": "Marino Morel Santana",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Nicolas Acosta Paredes",
+     "partido": "FP"
+    },
+    {
+     "nombre": "Hensy Jaime Peña",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Julio Cesar Martinez Gonzalez",
+     "partido": "PRSC"
+    },
+    {
+     "nombre": "Mariana Jacqueline Beltre",
+     "partido": "PRM"
+    }
+   ]
+  },
+  "ESPAILLAT": {
+   "JAMAO AL NORTE": [
+    {
+     "nombre": "Yhonni Alfredo Marte Sanchez",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Oscar Eduardo Peña Almonte",
+     "partido": "PLD"
+    },
+    {
+     "nombre": "Rosa Elena Nuñez Polanco",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Radhames de Jesus Fernandez Tavares",
+     "partido": "PLD"
+    },
+    {
+     "nombre": "Chabely Peña Peña",
+     "partido": "PRM"
+    }
+   ],
+   "SAN VICTOR": [
+    {
+     "nombre": "Robin Alberto Lantigua Lantigua",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Mayolin Isabel Marcelino Castillo",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Ileana Ovalles Valentin",
+     "partido": "PLD"
+    },
+    {
+     "nombre": "Miguel Angel Trinidad Peralta",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Crescencia Ysabel Olivares Holguin de Sosa",
+     "partido": "PRM"
+    }
+   ],
+   "MOCA": [
+    {
+     "nombre": "Josue Apolinar Figueroa Lizardo",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Omar Miguel Hernandez Michel",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Janler Emmanuel Perez Murray",
+     "partido": "PLD"
+    },
+    {
+     "nombre": "Luis Gabriel Rivas Jimenez",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Ramon Serafin Arroyo Cabrera",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Alvyn Regino Garcia Ovalles",
+     "partido": "FP"
+    },
+    {
+     "nombre": "Idelkys Maria Felix Jimenez",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Guillermo Francisco Ferreiras Almonte",
+     "partido": "PLD"
+    },
+    {
+     "nombre": "Ysidora de Leon Lopez",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Selso Antonio Dilone Nuñez",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Daysi Victoria Hilario Acosta",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Miguel Angel Zapata Lopez",
+     "partido": "PLD"
+    },
+    {
+     "nombre": "Adolfo Manuel Alvarez Paulino",
+     "partido": "FP"
+    }
+   ],
+   "GASPAR HERNANDEZ": [
+    {
+     "nombre": "Danny Brito Lopez",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Angelo Gonzalez Calcaño",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Gershwing O´Darby Juma Garcia",
+     "partido": "PLD"
+    },
+    {
+     "nombre": "Luis Manuel Hidalgo Reinoso",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Ynmaculada Antonia Hidalgo Parra",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Delvis Jeovanny Balbuena Flete",
+     "partido": "PLD"
+    },
+    {
+     "nombre": "Rafael Suero Peguero",
+     "partido": "FP"
+    }
+   ],
+   "CAYETANO GERMOSEN": [
+    {
+     "nombre": "Jose Francisco del Carmen Lopez Burgos",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Jose Joaquin Mendez Henriquez",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Vicente Holguin Nuñez",
+     "partido": "FP"
+    },
+    {
+     "nombre": "Jose Ramon Paulino",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Bernarda Dolores Carpio Castillo",
+     "partido": "PLD"
+    }
+   ]
+  },
+  "HATO MAYOR": {
+   "EL VALLE": [
+    {
+     "nombre": "Jose Altagracia Aquino Javier",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Randi de Jesus Lopez Lopez",
+     "partido": "PLD"
+    },
+    {
+     "nombre": "Carlos Sanchez",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Aury Moralez de la Rosa",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Santa Nuñez Mejia",
+     "partido": "PLD"
+    }
+   ],
+   "HATO MAYOR": [
+    {
+     "nombre": "Fausto Castillo Paredes",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Alberto Reyes Valdez",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Edison Jona Rivera Sosa",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Adriel Emilio Alburquerque Sanchez",
+     "partido": "PLD"
+    },
+    {
+     "nombre": "Yisell Vilorio Herrera",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Pedro Felipe Peguero Tiburcio",
+     "partido": "FP"
+    },
+    {
+     "nombre": "Mike Edwin Maldonado Pacheco",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Rosa Maria Salas Peguero",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Luilly Paola Balbuena Polanco",
+     "partido": "PLD"
+    }
+   ],
+   "SABANA DE LA MAR": [
+    {
+     "nombre": "Santa Francisca Gonzalez",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Brian Pimentel Sanchez",
+     "partido": "PLD"
+    },
+    {
+     "nombre": "Mercedes Antonia Javier Demorizi",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Fausto Payano",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Clara Tiburcio Jimenez",
+     "partido": "PLD"
+    }
+   ]
+  },
+  "INDEPENDENCIA": {
+   "MELLA": [
+    {
+     "nombre": "Juan Mercedes Urbaez",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Cheifi Marmolejos",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Riquer Julian Perez Mancebo",
+     "partido": "PLD"
+    },
+    {
+     "nombre": "Ana Mercedes Vargas Rocha",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Cesar Dario Perez Algarroba",
+     "partido": "FP"
+    }
+   ],
+   "CRISTOBAL": [
+    {
+     "nombre": "San Juaquin Plata Medina",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Carolina Ramirez Peña",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Eliazar Matos Medina",
+     "partido": "PPP"
+    },
+    {
+     "nombre": "Wilman Cuevas Plata",
+     "partido": "PLD"
+    },
+    {
+     "nombre": "Simon Cuevas Matos",
+     "partido": "PRM"
+    }
+   ],
+   "DUVERGE": [
+    {
+     "nombre": "Ervio Hipolito Garcia",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Yoan Patricio Yera Adames",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Bartolo Perez Peña",
+     "partido": "PLD"
+    },
+    {
+     "nombre": "Alexander Ledesma Moquete",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Dionicio Amauris Perez Sena",
+     "partido": "FP"
+    }
+   ],
+   "LA DESCUBIERTA": [
+    {
+     "nombre": "Esperanza Benitez Mendez",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Manuel Adonis Ferreras Benitez",
+     "partido": "PPC"
+    },
+    {
+     "nombre": "Angel Miguel Tejeda Cuevas",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Leonefi Raine Medina Medina",
+     "partido": "PPC"
+    },
+    {
+     "nombre": "Edison Rafael Medina Perez",
+     "partido": "PRSC"
+    }
+   ],
+   "JIMANI": [
+    {
+     "nombre": "Wilber Eduardo Matos Diaz",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Lidia Jeanny Moquete Perez",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Jose Novas Novas",
+     "partido": "PLD"
+    },
+    {
+     "nombre": "Jose Ericardo Matos Matos",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Yenni Tomasa Mendez Perez",
+     "partido": "PRM"
+    }
+   ],
+   "POSTRER RIO": [
+    {
+     "nombre": "Eris Sierra Trinidad",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Katherine Alexandra Carvajal Batista",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Vileika Mabel Carvajal Recio",
+     "partido": "PLD"
+    },
+    {
+     "nombre": "Jose Mercedes Perez Florian",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Mauricio Carvajal Batista",
+     "partido": "FP"
+    }
+   ]
+  },
+  "LA ROMANA": {
+   "GUAYMATE": [
+    {
+     "nombre": "Juan Anibal de la Cruz Rijo",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Maikel Ruben Florentino Sanchez",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Ariel Herrera Abreu",
+     "partido": "FP"
+    },
+    {
+     "nombre": "Elias Jose Santana",
+     "partido": "PRD"
+    },
+    {
+     "nombre": "Yira Alejandra Mogacif Rodriguez",
+     "partido": "PRM"
+    }
+   ],
+   "LA ROMANA": [
+    {
+     "nombre": "Trina Miralba Angomas Rodriguez",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Oliva Tejeda Montilla",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Osvaldo Cruz Baez",
+     "partido": "PRSC"
+    },
+    {
+     "nombre": "Federico Antonio Hernani Guerrero Benitez",
+     "partido": "FP"
+    },
+    {
+     "nombre": "Alfonso Jaquez Palacio",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Orfelina Valdez Diaz",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Victor Gabriel Mercedes",
+     "partido": "PLD"
+    },
+    {
+     "nombre": "Cruz Johanna Batista Soliman",
+     "partido": "PRSC"
+    },
+    {
+     "nombre": "Ulises Aquino Franco",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Esperanza Concepcion Guzman",
+     "partido": "FP"
+    },
+    {
+     "nombre": "Sonia Miguelina Mota",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Juan Carlos Mora Peguero",
+     "partido": "PRD"
+    },
+    {
+     "nombre": "Michael Ferreyra Berroa",
+     "partido": "PRSC"
+    }
+   ],
+   "VILLA HERMOSA": [
+    {
+     "nombre": "Rafaela Lopez Rondon",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Daniel Polanco Jiminian",
+     "partido": "PLD"
+    },
+    {
+     "nombre": "Leonardo Mercedes Martinez",
+     "partido": "FP"
+    },
+    {
+     "nombre": "Vanessa Margarita Lama Tolentino",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Jose Dolores Valdez Guerrero",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Braulio Mejia Morales",
+     "partido": "PRSC"
+    },
+    {
+     "nombre": "Raul Omar del Rosario Batista",
+     "partido": "PLD"
+    },
+    {
+     "nombre": "Mizael Santana Cedeño",
+     "partido": "FP"
+    },
+    {
+     "nombre": "Nelson Quevedo Valdez",
+     "partido": "PRM"
+    }
+   ]
+  },
+  "LA VEGA": {
+   "JIMA ABAJO": [
+    {
+     "nombre": "Berma Jorge Nuñez",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Felipe Ynoa Aracena",
+     "partido": "PLD"
+    },
+    {
+     "nombre": "Rafael Antonio Cabrera Tavarez",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Salvador Sandoval Tavarez",
+     "partido": "PLD"
+    },
+    {
+     "nombre": "Pascual Nuñez Reyes",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Winston Rafael Monegro Mejia",
+     "partido": "PLD"
+    },
+    {
+     "nombre": "Joseito Flores Paula",
+     "partido": "FP"
+    }
+   ],
+   "LA VEGA": [
+    {
+     "nombre": "Arcedo Bautista Mota",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Lourdes Clarisa Angeles Marmolejos de Diaz",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Maria Magdalena Rosario Cabrera",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Julian Javier Reyes Mota",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Jeaysson Leandro Perez Batista",
+     "partido": "FP"
+    },
+    {
+     "nombre": "Raymond Nuñez Gil",
+     "partido": "PLD"
+    },
+    {
+     "nombre": "Esteban de Jesus Garcia Morel",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Maritza Reyes Pichardo",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Jose de la Cruz Vargas",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Amado Gomez Caceres",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Fernando Sanchez Rosario",
+     "partido": "FP"
+    },
+    {
+     "nombre": "Jose Antonio Gonzalez Hernandez",
+     "partido": "PLD"
+    },
+    {
+     "nombre": "Jose Luis Contreras Ruiz",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Nelson Rafael Cosme Galan",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Luz del Alba Luciano Marmolejos",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Johanne Altagracia de Moya Pou",
+     "partido": "PRM"
+    }
+   ],
+   "JARABACOA": [
+    {
+     "nombre": "Emilio Ricardo Abreu Peralta",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Adrian Ulloa Torres",
+     "partido": "PLD"
+    },
+    {
+     "nombre": "Roberto Ureña",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Domingo Alfredo Abreu",
+     "partido": "FP"
+    },
+    {
+     "nombre": "Jose Merilio Tavarez Peñalo",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Rafael Antonio Peralta Sanchez",
+     "partido": "PLD"
+    },
+    {
+     "nombre": "Anny Leydi Trinidad Sanchez",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Dayamo Victoriano Ramirez",
+     "partido": "PLD"
+    },
+    {
+     "nombre": "Melvin Jose Arias Abreu",
+     "partido": "PRM"
+    }
+   ],
+   "CONSTANZA": [
+    {
+     "nombre": "Elias Candelario Candelario",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Jose Alberto Victoriano Rosa",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Juan Pablo Moreno Montero",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Jhoscarlos Gilberto Suriel Maria",
+     "partido": "PLD"
+    },
+    {
+     "nombre": "Victor Manuel Abreu Flores",
+     "partido": "FP"
+    },
+    {
+     "nombre": "Nancy Suriel Garcia",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Eugenia Paulina Hernandez Almonte",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Maximo Santos Reyes",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Carlos Manuel Quezada Payano",
+     "partido": "PLD"
+    }
+   ]
+  },
+  "MARIA TRINIDAD SANCHEZ": {
+   "EL FACTOR": [
+    {
+     "nombre": "Berlyn Jose Geraldino Paredes",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Diosendy Mariel Goris Paulino",
+     "partido": "PLD"
+    },
+    {
+     "nombre": "Luis Ramon Gonzalez Rodriguez",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Wilman Albert Castillo Tejada",
+     "partido": "PLD"
+    },
+    {
+     "nombre": "Zeneida de Jesus Fermin",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Elizabeth Paulino Corniel",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Francisco Antonio Burgo Bonilla",
+     "partido": "PLD"
+    }
+   ],
+   "CABRERA": [
+    {
+     "nombre": "Oscar Eduardo Ruiz D´Raben",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Luis Guillermo Gonzalez Baez",
+     "partido": "PLD"
+    },
+    {
+     "nombre": "Claritza Suero",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Lewis Jacobo Mendez Echavarria",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Jacobo Martinez Zapete",
+     "partido": "PLD"
+    },
+    {
+     "nombre": "Zacarias Arias Mercedes",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Narciso Cruz Santiago",
+     "partido": "PRM"
+    }
+   ],
+   "NAGUA": [
+    {
+     "nombre": "Luis Miguel Gonzalez",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Kishira Jandy Batista Taveras",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Samuel Jaquez Santos",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Jose Luis de la Cruz Santana",
+     "partido": "FP"
+    },
+    {
+     "nombre": "Noe Jimenez Maria",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Juana Cabrera",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Orlando Polanco de Aza",
+     "partido": "PLD"
+    },
+    {
+     "nombre": "Juan Martinez",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Ely Medrano Gomez",
+     "partido": "PRM"
+    }
+   ],
+   "RIO SAN JUAN": [
+    {
+     "nombre": "Felix Ruben Santos",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Francisco Generoso Mora Balbuena",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Jose Miguel Balbuena de la Cruz",
+     "partido": "FP"
+    },
+    {
+     "nombre": "Dabel Emilio Reyes Adames",
+     "partido": "PPP"
+    },
+    {
+     "nombre": "Joan Miguel Tejada Tineo",
+     "partido": "PLD"
+    }
+   ]
+  },
+  "MONSEÑOR NOUEL": {
+   "MAIMON": [
+    {
+     "nombre": "Benito Cesar Vasquez Aquino",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Yudelka Maria Rodriguez Molina",
+     "partido": "PRSC"
+    },
+    {
+     "nombre": "Marino Esteban Abreu Rosa",
+     "partido": "FP"
+    },
+    {
+     "nombre": "Fernando Antonio Fernandez Mateo",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Elsa Maria de Leon Joaquin",
+     "partido": "PLD"
+    }
+   ],
+   "PIEDRA BLANCA": [
+    {
+     "nombre": "Martin Montaño Mercedes",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Pedro Rodriguez Rodriguez",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Jose Antonio Hiciano Herrera",
+     "partido": "PLD"
+    },
+    {
+     "nombre": "Fermin Martinez Nuñez",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Alexander Radovich Olivo Hernandez",
+     "partido": "FP"
+    }
+   ],
+   "BONAO": [
+    {
+     "nombre": "Socrates Odalix Gonzalez",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Freddy Raphael Amadis Susana",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Jose Francisco Moreta Perez",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Carlos Enmanuel Olivo de la Rosa",
+     "partido": "FP"
+    },
+    {
+     "nombre": "Martin Soriano Matias",
+     "partido": "PLD"
+    },
+    {
+     "nombre": "Confesora Marte Pichardo",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "George Ruiz Payano",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Ariel Antonio Betances Jimenez",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Leonardo Javier Liz Gomez",
+     "partido": "FP"
+    },
+    {
+     "nombre": "Juan Carlos Liriano Peralta",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Giovanny Rodriguez Diaz",
+     "partido": "PLD"
+    },
+    {
+     "nombre": "Richard Ramirez Tejeda",
+     "partido": "PPG"
+    },
+    {
+     "nombre": "Rosa Elena Batista Nuñez de de la Cruz",
+     "partido": "PRM"
+    }
+   ]
+  },
+  "MONTE CRISTI": {
+   "CASTAÑUELAS": [
+    {
+     "nombre": "Arlinston Muñoz Genao",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Dianney Antonio Quiñonez Rodriguez",
+     "partido": "PLD"
+    },
+    {
+     "nombre": "Facundo Vasquez",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Carlos Rafael Sosa Pichardo",
+     "partido": "PLD"
+    },
+    {
+     "nombre": "Maria Isabel Baez Castillo",
+     "partido": "PRM"
+    }
+   ],
+   "LAS MATAS DE SANTA CRUZ": [
+    {
+     "nombre": "Juan Jose Peña",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Silvano Mauricio Estevez Morrobel",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Leoncio Rivas Gomez",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Juan Carlos Acosta Portorreal",
+     "partido": "PLD"
+    },
+    {
+     "nombre": "Rafael Antonio Gomez Plasencio",
+     "partido": "FP"
+    }
+   ],
+   "MONTECRISTI": [
+    {
+     "nombre": "Nelson Rafael Santos",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Dayan Mishael Mendez Cabreja",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Wendis Victoria Almonte Reyes",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Yvelisse Lucia Fermin Cruz",
+     "partido": "FP"
+    },
+    {
+     "nombre": "Nelson Omarlin Tatis Minaya",
+     "partido": "PLD"
+    },
+    {
+     "nombre": "Cornelio Gonzalez Reyes",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Pedro Francisco Peña Jimenez",
+     "partido": "PRD"
+    }
+   ],
+   "GUAYUBIN": [
+    {
+     "nombre": "Jose Evangelista Mena Martinez",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Jorge Luis Chavez Valerio",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Manuel de Jesus Salce Valerio",
+     "partido": "PLD"
+    },
+    {
+     "nombre": "Auila Yaneris Breton Pacheco",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Jose Miguel Lopez Mora",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Yaniris Mercedes Ortiz Quiñonez",
+     "partido": "FP"
+    },
+    {
+     "nombre": "Jose Gaspar Rodriguez Garcia",
+     "partido": "PRM"
+    }
+   ],
+   "VILLA VASQUEZ": [
+    {
+     "nombre": "Pedro Antonio Ortega Santana",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Kelvin Antonio Villalona Reyes",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Bladimir Izquierdo",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Daquelin Manuela Castro Lora",
+     "partido": "PLD"
+    },
+    {
+     "nombre": "Elba Cruz Castillo",
+     "partido": "PRM"
+    }
+   ],
+   "PEPILLO SALCEDO": [
+    {
+     "nombre": "Julio de la Rosa Hernandez Fermin",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Yadori Daniel Hernandez Escoto",
+     "partido": "PLD"
+    },
+    {
+     "nombre": "Manardi Antonio Almonte Diaz",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Juan Jose Sosa Rodriguez",
+     "partido": "PLD"
+    },
+    {
+     "nombre": "Leudys Leonardo Tineo Ulloa",
+     "partido": "PRM"
+    }
+   ]
+  },
+  "MONTE PLATA": {
+   "PERALVILLO": [
+    {
+     "nombre": "Lucilo Mueses Capellan",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Pablo Bautista Moreno",
+     "partido": "FP"
+    },
+    {
+     "nombre": "Hector Lujary Sanchez de la Cruz",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Benito Erismel Bautista Moreno",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Clara Elena Hernandez Mueses",
+     "partido": "FP"
+    }
+   ],
+   "BAYAGUANA": [
+    {
+     "nombre": "Jhohan Amauris Marte",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Juan Caonabo Hubiere Rosendo",
+     "partido": "PLD"
+    },
+    {
+     "nombre": "Miguel Dario Reynoso Castillo",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Modesto Carreras Javier",
+     "partido": "PLD"
+    },
+    {
+     "nombre": "Rosa Isabel Javier Peralta",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Mario Wenceslao Mateo Sosa",
+     "partido": "FP"
+    },
+    {
+     "nombre": "Mircio Antonio Leguizamon Lugo",
+     "partido": "PLD"
+    }
+   ],
+   "YAMASA": [
+    {
+     "nombre": "Raul Rosario Hernandez",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Johanna de la Cruz Rodriguez",
+     "partido": "PLD"
+    },
+    {
+     "nombre": "Gregorio de los Santos de la Cruz",
+     "partido": "FP"
+    },
+    {
+     "nombre": "Yovanny Heredia Reyes",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Roberto Peralta Acosta",
+     "partido": "PLD"
+    },
+    {
+     "nombre": "Jose Ariel Acosta Paulino",
+     "partido": "FP"
+    },
+    {
+     "nombre": "Idelfonso de Jesus de los Santos",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Balerio Perez de Jesus",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Cristian Manuel de Leon Bautista",
+     "partido": "PLD"
+    }
+   ],
+   "MONTE PLATA": [
+    {
+     "nombre": "Daniel Gonzalez de la Rosa",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Hector Luis Mejia",
+     "partido": "PLD"
+    },
+    {
+     "nombre": "Victoria Santos Hernandez",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Miguel Enrique Reynoso Figueroa",
+     "partido": "FP"
+    },
+    {
+     "nombre": "Wandi Fabian Mota",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Basilio de la Cruz Burgos",
+     "partido": "PLD"
+    }
+   ],
+   "SABANA GRANDE DE BOYA": [
+    {
+     "nombre": "Juan Francisco Olivo Ramirez",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Martina Abreu Paulino",
+     "partido": "PLD"
+    },
+    {
+     "nombre": "Roberto Heredia Fulgencio",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Yuberkys Holguin Suarez",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Miguel Angel Vasquez Javier",
+     "partido": "PLD"
+    },
+    {
+     "nombre": "Jose Gregorio Vasquez Concepcion",
+     "partido": "FP"
+    },
+    {
+     "nombre": "Osvaldo Santana Castillo",
+     "partido": "PRM"
+    }
+   ]
+  },
+  "PEDERNALES": {
+   "PEDERNALES": [
+    {
+     "nombre": "Wilkin Alexander Perdomo Perez",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Benito Matos Taveras",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Altagracia Elizabeth Medrano Sena",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Cristina Yanilys Pula Batista",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Yersiman Alfredo Perez Medrano",
+     "partido": "PLD"
+    }
+   ],
+   "OVIEDO": [
+    {
+     "nombre": "Dioselina Garo Perez",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Andres David Carmona Cuevas",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "David Consepcion de la Cruz Perez",
+     "partido": "PLD"
+    },
+    {
+     "nombre": "Deulis Medina Diaz",
+     "partido": "FP"
+    },
+    {
+     "nombre": "Alfonso Diaz Espinosa",
+     "partido": "PRM"
+    }
+   ]
+  },
+  "LA ALTAGRACIA": {
+   "HIGUEY": [
+    {
+     "nombre": "Leydon Rafael Beltre Rodriguez",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Rafael Josias Castillo de Morla",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Juan Francisco Dalmasi Perez",
+     "partido": "PLR"
+    },
+    {
+     "nombre": "Alexander Mercedes Hidalgo",
+     "partido": "PLD"
+    },
+    {
+     "nombre": "Arlyn Yamell Martinez Morla",
+     "partido": "FP"
+    },
+    {
+     "nombre": "Erick Santo de la Rosa Pichardo",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Yafreisy Magdaly Guerrero Pilier",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Willy Manuel Zorrilla Dominguez",
+     "partido": "PRSC"
+    },
+    {
+     "nombre": "Luz Mireya Cedano Martinez",
+     "partido": "PLR"
+    },
+    {
+     "nombre": "Jefferson Castillo",
+     "partido": "PLD"
+    },
+    {
+     "nombre": "Noemi Delgado Ruiz",
+     "partido": "PPP"
+    },
+    {
+     "nombre": "Santos Laureano de Gracia",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Ramon Emilio Berbere Reyes",
+     "partido": "DXC"
+    }
+   ],
+   "SAN RAFAEL DEL YUMA": [
+    {
+     "nombre": "Luis Arturo Nuñez Castillo",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Santos Benjamin del Rosario Rondon",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Michele Estil Yan",
+     "partido": "PLD"
+    },
+    {
+     "nombre": "Alejandro Rondon Rosario",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Digna Medina Rodriguez",
+     "partido": "PRM"
+    }
+   ]
+  },
+  "PERAVIA": {
+   "MATANZAS": [
+    {
+     "nombre": "Jonathan Peguero Arias",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Domingo Diaz Encarnacion",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Vianelo Feliz Presinal",
+     "partido": "PLD"
+    },
+    {
+     "nombre": "Elizabeth Bautista Soto",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Yunior Alexis Melo Ortiz",
+     "partido": "PRM"
+    }
+   ],
+   "BANI": [
+    {
+     "nombre": "Miguel Esnaides Baez Guerrero",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Carlos Antonio Nicholls Nuñez",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Osvaldo Leonidas Diaz Aristy",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Yngrid Carolina Diaz",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Judy Darianny Peguero Ortiz",
+     "partido": "FP"
+    },
+    {
+     "nombre": "Andrie Steban Suazo Luna",
+     "partido": "PLD"
+    },
+    {
+     "nombre": "Yudys Rosanna Mejia Baez",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Eddy Cervante Peña Tejeda",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Freddy Rafael de los Santos Tejeda",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Leurin Yonelis Arias Medina",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Jose Antonio Encarnacion de los Santos",
+     "partido": "FP"
+    },
+    {
+     "nombre": "Johanna Mayelin Herrera Bautista",
+     "partido": "PLD"
+    },
+    {
+     "nombre": "Melquis Elizer Castillo Tejeda",
+     "partido": "PRM"
+    }
+   ],
+   "NIZAO": [
+    {
+     "nombre": "Demetrio Paulino Tolentino",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Oriana Mercedes Quintin Reyes",
+     "partido": "PLD"
+    },
+    {
+     "nombre": "Carlos Paulino Valdez",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Naydeny Paola Valdez Made",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Daniela Alexandra Dipre Paulino",
+     "partido": "PLD"
+    }
+   ]
+  },
+  "PUERTO PLATA": {
+   "LOS HIDALGOS": [
+    {
+     "nombre": "Jose Miguel de Leon Crespo",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Jhoanny Estela Curiel Hernandez",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Julio Cesar Acosta Nuñez",
+     "partido": "PLD"
+    },
+    {
+     "nombre": "Hector Minaya Nuñez",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Ederlin Lizbeth Martinez Francisco",
+     "partido": "FP"
+    }
+   ],
+   "GUANANICO": [
+    {
+     "nombre": "Patricio Mercado",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Lenny Yodel Francisco Ulloa",
+     "partido": "PLD"
+    },
+    {
+     "nombre": "Demetrio Ulloa Lagua",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Yohanny Ulloa Castillo",
+     "partido": "PLD"
+    },
+    {
+     "nombre": "Juanibel Francisco Ulloa",
+     "partido": "PRM"
+    }
+   ],
+   "VILLA ISABELA": [
+    {
+     "nombre": "Joel Perez Devora",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Carlos Jose Cabrera Diaz",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Aguedo Castillo Gonzalez",
+     "partido": "PLD"
+    },
+    {
+     "nombre": "Susana Ulloa Ulloa",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Carlos Luis Cabrera",
+     "partido": "FP"
+    }
+   ],
+   "VILLA MONTELLANO": [
+    {
+     "nombre": "Dolores Lantigua",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Bolivar Arturo Reyes Leyba",
+     "partido": "PLD"
+    },
+    {
+     "nombre": "Samuel Valdez",
+     "partido": "FP"
+    },
+    {
+     "nombre": "Omar Gonzalez Ciriaco",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Eladio Tineo Rodriguez",
+     "partido": "PLD"
+    }
+   ],
+   "PUERTO PLATA": [
+    {
+     "nombre": "Frank Melo",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Alfred Henriquez Cid",
+     "partido": "PLD"
+    },
+    {
+     "nombre": "Emanuel Alberto Brito Gomez",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Edgar Pichardo Vasquez",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Romerson Antonio Cid Martinez",
+     "partido": "PLD"
+    },
+    {
+     "nombre": "Jeremias Ureña Cid",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Amado Maireny Castillo Oviedo",
+     "partido": "FP"
+    },
+    {
+     "nombre": "Jonas Eliseo Fernandez Polanco",
+     "partido": "PLD"
+    },
+    {
+     "nombre": "Danny Benjamin Garcia Hernandez",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Matildes Carrasco Bonilla",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Enyel Joaquin Mata Reyes",
+     "partido": "PLD"
+    },
+    {
+     "nombre": "Roque Alberto de Leon Cruz",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Yesenia Reynoso Familia",
+     "partido": "PRM"
+    }
+   ],
+   "IMBERT": [
+    {
+     "nombre": "Elvis Alberto Arias Mercedes",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Jose Almonte Lopez",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Jose Adonis de la Cruz",
+     "partido": "PLD"
+    },
+    {
+     "nombre": "Osvaldo Youlin Cruz Cruz",
+     "partido": "FP"
+    },
+    {
+     "nombre": "Juan Andres Nuñez Lopez",
+     "partido": "PRM"
+    }
+   ],
+   "ALTAMIRA": [
+    {
+     "nombre": "Rafael Aridio Garcia Peña",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Wilfredo Cesar Silverio",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Feliciano Martinez Diaz",
+     "partido": "PLD"
+    },
+    {
+     "nombre": "Maria Altagracia Alvarez Payero",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Alexis Antonio Polanco Bonilla",
+     "partido": "PRM"
+    }
+   ],
+   "LUPERON": [
+    {
+     "nombre": "Teudis Luis Batista Villaman",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Estervina Argentina Felipe Echavarria",
+     "partido": "PLD"
+    },
+    {
+     "nombre": "Evelio Tavarez Cruz",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Hermenegildo Santos",
+     "partido": "PRM"
+    }
+   ],
+   "SOSUA": [
+    {
+     "nombre": "Cristina Alexandra Sanchez",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Chissell Altagracia Hernandez Reyes de Merette",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Oscar Luis Gomez Salazar",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Fausto Santos de la Cruz",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Wellington Padilla Molina",
+     "partido": "PLD"
+    },
+    {
+     "nombre": "Francisco Alberto Martinez",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Rafael Almonte Sanchez",
+     "partido": "FP"
+    }
+   ]
+  },
+  "HERMANAS MIRABAL": {
+   "VILLA TAPIA": [
+    {
+     "nombre": "William Serafin Baez Zorrilla",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Penelope Charlestier Marte",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Lidia Puricelys Mena Toribio",
+     "partido": "FP"
+    },
+    {
+     "nombre": "Tomas Henriquez Santos",
+     "partido": "PLD"
+    },
+    {
+     "nombre": "Jose Orlando Polanco Toribio",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Juan Alexis Martinez Pichardo",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Gregorio Manuel Baez Sanchez",
+     "partido": "FP"
+    }
+   ],
+   "SALCEDO": [
+    {
+     "nombre": "Roman Antonio Valentin Almanzar",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Yina Altagracia Pantaleon Frias",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Hector Jose Ramon Hernandez de la Cruz",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Jordi Bautista Rojas Hernandez",
+     "partido": "FP"
+    },
+    {
+     "nombre": "Rafael Liriano Tavares",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Jose Alexander Perez de la Cruz",
+     "partido": "PLD"
+    },
+    {
+     "nombre": "Javier Esteban Payan Arroyo",
+     "partido": "PRM"
+    }
+   ],
+   "TENARES": [
+    {
+     "nombre": "Francisco Antonio Gonzalez Beato",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Ely Manuel Gabin Camilo",
+     "partido": "FP"
+    },
+    {
+     "nombre": "Jefry Junior Brito Lopez",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Enmanuel Antonio Hernandez Sanchez",
+     "partido": "FP"
+    },
+    {
+     "nombre": "Luis Ramon Paulino Tejada",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Gumersindo José Contreras Taveras",
+     "partido": "FP"
+    },
+    {
+     "nombre": "Marleny Rafaelina Cruz Santos",
+     "partido": "PRM"
+    }
+   ]
+  },
+  "SAMANA": {
+   "LAS TERRENAS": [
+    {
+     "nombre": "Wanifer Mercedes Diaz Encarnacion",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Gleni Matias Rivera",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Anibal Jose Abreu Suriel",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Yamil Adames Lora",
+     "partido": "PLD"
+    },
+    {
+     "nombre": "Jepchte Castillo Crisostomo",
+     "partido": "PRM"
+    }
+   ],
+   "SAMANA": [
+    {
+     "nombre": "Juan Carela Willmore",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Rafael Johnson Vilorio",
+     "partido": "PLD"
+    },
+    {
+     "nombre": "Francisco Rodriguez Maldonado",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Franklin Ernesto Acosta Moya",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Ariel Baez Custodio",
+     "partido": "FP"
+    },
+    {
+     "nombre": "Celeste Eusebio Reyes",
+     "partido": "PLD"
+    },
+    {
+     "nombre": "Miguel Antonio Taveras Hiciano",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Toñita Pool Reyes",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Adan Emilio Bodden Morales",
+     "partido": "PLD"
+    }
+   ],
+   "SANCHEZ": [
+    {
+     "nombre": "Samuel Diaz Garcia",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Mario Ramon Olivo Cheriz",
+     "partido": "PLD"
+    },
+    {
+     "nombre": "Antony Esteban Rosario Amparo",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Ramon Gonzalez Ramirez",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Vicente Anastacio Garcia Bruno",
+     "partido": "PLD"
+    },
+    {
+     "nombre": "Francisco Alberto Perez Heredia",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Juan Carlos Medina Osorio",
+     "partido": "FP"
+    }
+   ]
+  },
+  "SAN CRISTOBAL": {
+   "CAMBITA GARABITOS": [
+    {
+     "nombre": "Robersy Leonaldo Ortiz Garabitos",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Jorge Luis de la Rosa Villar",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Yeuddy Milciades Acevedo Hernandez",
+     "partido": "PLD"
+    },
+    {
+     "nombre": "Rafael Vega Batista",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Carmen Lidia Lorenzo Andujar",
+     "partido": "FP"
+    },
+    {
+     "nombre": "Elizabeth Robles Toledo",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Wilsandia Agramonte Amador",
+     "partido": "PRM"
+    }
+   ],
+   "LOS CACAOS": [
+    {
+     "nombre": "Wilson Garabitos Rosario",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Eglis Flores Ramirez Brito",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Maria Yaquira Lara Gross",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Juan de la Cruz Arias Cabrera",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Oscar Robles Alcantara",
+     "partido": "FP"
+    }
+   ],
+   "SAN GREGORIO DE NIGUA": [
+    {
+     "nombre": "Domingo Antonio Pula Reinoso",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Aristofanes Aristides Rosario Escaño",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Ariel Heredia Celedonio",
+     "partido": "PLD"
+    },
+    {
+     "nombre": "Angel Maria Alvarez Peguero",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Manuel Antonio Peña Suero",
+     "partido": "FP"
+    },
+    {
+     "nombre": "Maritza Serrano del Rosario",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Yahaira de la Cruz Ramirez",
+     "partido": "PRM"
+    }
+   ],
+   "SAN CRISTOBAL": [
+    {
+     "nombre": "Olga Lidia Decena Monero",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Felito Tejeda Pineda",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Juan Jimenez Sierra",
+     "partido": "PLD"
+    },
+    {
+     "nombre": "Evelyn Yordania Ciprian Adames",
+     "partido": "FP"
+    },
+    {
+     "nombre": "Mateo Rondon Rijo",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Arcadio Humberto Rosario Javier",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Franquelis Tiburcio Corporan",
+     "partido": "PLD"
+    },
+    {
+     "nombre": "Joel Cuevas Vizcaino",
+     "partido": "FP"
+    },
+    {
+     "nombre": "Eddy Bienvenido Nova Valenzuela",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Manuel Emilio Ramirez Fernandez",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Luis Julio Contreras Galvan",
+     "partido": "PLD"
+    },
+    {
+     "nombre": "Maria Altagracia Cuevas Perez de Fulgencio",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Arelis Andujar Garcia",
+     "partido": "FP"
+    },
+    {
+     "nombre": "Noe Eliezer Arias Cuevas",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Andres Corporan Perez",
+     "partido": "PLD"
+    },
+    {
+     "nombre": "Julio Alexander Villa Guillen",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Samuel Leandro Corporan Adames",
+     "partido": "FP"
+    }
+   ],
+   "VILLA ALTAGRACIA": [
+    {
+     "nombre": "Julian Reyes Santos",
+     "partido": "PLD"
+    },
+    {
+     "nombre": "Hector Dario Nolasco Tolentino",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Alberto Gil Montas",
+     "partido": "PLD"
+    },
+    {
+     "nombre": "Jose Heriberto Santana de la Rosa",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Wester Abelardo Adames Lugo",
+     "partido": "FP"
+    },
+    {
+     "nombre": "Juan Manuel Reyes Nuñez",
+     "partido": "PLD"
+    },
+    {
+     "nombre": "Rafael Missael Esquea Heredia",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Juan Antonio Emiliano Severino",
+     "partido": "PLD"
+    },
+    {
+     "nombre": "Melvin Raul Castro Garcia",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Rodolfo Montilla Rodriguez",
+     "partido": "PLD"
+    },
+    {
+     "nombre": "Damian Frias Martinez",
+     "partido": "FP"
+    }
+   ],
+   "YAGUATE": [
+    {
+     "nombre": "Sugehidy Altagracia Guzman Ramirez",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Junior Alexander Franco Placencio",
+     "partido": "PLD"
+    },
+    {
+     "nombre": "Shirlie Claudine Soto Luciano",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Mizquea Vizcaino Aybar",
+     "partido": "PLD"
+    },
+    {
+     "nombre": "Justo German Rodriguez Rodriguez",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Justo Mejia de la Rosa",
+     "partido": "PLD"
+    },
+    {
+     "nombre": "Willy Valdez Mariñez",
+     "partido": "PRM"
+    }
+   ],
+   "SABANA GRANDE DE PALENQUE": [
+    {
+     "nombre": "Julio Cesar Perdomo Valdez",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Jairo Antonio Baez Baez",
+     "partido": "PLD"
+    },
+    {
+     "nombre": "Lissette Anyely Baez Perez",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Clery Uribe Tena",
+     "partido": "PLD"
+    },
+    {
+     "nombre": "Jose Andres Paulino Gonzalez",
+     "partido": "PRM"
+    }
+   ],
+   "BAJOS DE HAINA": [
+    {
+     "nombre": "Elixandro Piron Piña",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Sonia Sanchez Morillo",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Jose Leonidas Rafael Fabian Lluberes",
+     "partido": "FP"
+    },
+    {
+     "nombre": "Mauricio Montero de los Santos",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Francisco Antonio Morillo Lorenzo",
+     "partido": "PLD"
+    },
+    {
+     "nombre": "Jorge Alexander Sanchez Beato",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Antonio Encarnacion Vargas",
+     "partido": "FP"
+    },
+    {
+     "nombre": "Constantino Silfa Benavides",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Jose Miguel Arias Tejeda",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Jenifer Romero",
+     "partido": "FP"
+    },
+    {
+     "nombre": "Jose Dolores Santana Vasquez",
+     "partido": "PLD"
+    }
+   ]
+  },
+  "SAN JUAN": {
+   "VALLEJUELO": [
+    {
+     "nombre": "Luis Manuel Martinez Meran",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Yolvin Encarnacion Alcantara",
+     "partido": "PLD"
+    },
+    {
+     "nombre": "Diego Mateo Amancio",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Prieto de Oleo Feliz",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Carlos Morales Mateo Encarnacion",
+     "partido": "PLD"
+    }
+   ],
+   "BOHECHIO": [
+    {
+     "nombre": "Willian Castillo Valdez",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Melbin Cuello Garcia",
+     "partido": "PLD"
+    },
+    {
+     "nombre": "Ioskar Antonio de Leon Comas",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Angel Antonio Suzaña de Leon",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Mateo Castillo Galvan",
+     "partido": "PLD"
+    }
+   ],
+   "LAS MATAS DE FARFAN": [
+    {
+     "nombre": "Ramon Ernesto Beltre Moreta",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Pedro Julio de Oleo Medina",
+     "partido": "PLD"
+    },
+    {
+     "nombre": "Pedro Martin Pineda Sanchez",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Victor Mercedes de Oleo de los Santos",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Johanny Made Aquino",
+     "partido": "PLD"
+    },
+    {
+     "nombre": "Melvin Ortiz Ramirez",
+     "partido": "FP"
+    },
+    {
+     "nombre": "Rosa Jimenez Martinez",
+     "partido": "PRM"
+    }
+   ],
+   "SAN JUAN DE LA MAGUANA": [
+    {
+     "nombre": "Wascar Odalis Montero Meran",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Franklin Manuel Cruz Romero",
+     "partido": "PLD"
+    },
+    {
+     "nombre": "Hanssel Sanchez Sanchez",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Gabriel Antonio Nuñez Sanchez",
+     "partido": "FP"
+    },
+    {
+     "nombre": "Francisco Antonio de Leon Alcantara",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Enmanuel Tomas Figuereo Reyes",
+     "partido": "PLD"
+    },
+    {
+     "nombre": "Yuliana del Carmen Viñas Mercedes",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Oscar Casilla Quevedo",
+     "partido": "FP"
+    },
+    {
+     "nombre": "Jose Dolores Bugue Pinales",
+     "partido": "PLD"
+    },
+    {
+     "nombre": "Ricardo Enrique Gomez Herrera",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Judy Lucia Valdez Valdez",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Jose Frank Piña Montero",
+     "partido": "PLD"
+    },
+    {
+     "nombre": "Sandy Alberto Mendez Reyes",
+     "partido": "FP"
+    }
+   ],
+   "JUAN DE HERRERA": [
+    {
+     "nombre": "Cesar Amador Ramirez",
+     "partido": "PLD"
+    },
+    {
+     "nombre": "Jose Nelson Valenzuela de los Santos",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Angel Wirquin Segura",
+     "partido": "PLD"
+    },
+    {
+     "nombre": "Carlos Abreu Castillo",
+     "partido": "FP"
+    },
+    {
+     "nombre": "Hayalivis Pimentel Baez",
+     "partido": "PRM"
+    }
+   ],
+   "EL CERCADO": [
+    {
+     "nombre": "Lenin Daciel Jimenez Hernandez",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Marileny Montero Ramirez",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Estefany Veriguete Rodriguez",
+     "partido": "PLD"
+    },
+    {
+     "nombre": "Yaquelin de Oleo Morillo",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Ercides Amador Vargas",
+     "partido": "PRM"
+    }
+   ]
+  },
+  "SAN PEDRO DE MACORIS": {
+   "CONSUELO": [
+    {
+     "nombre": "Manuel Sinais Santana Ramirez",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Juan Alejandro Tolentino Almonte",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Juan Polanco Carrasco",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Cruz Maria Jimenez de la Cruz",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Yeury Alexander Bazan Vasquez",
+     "partido": "PLD"
+    },
+    {
+     "nombre": "Rosalba Vasquez Belen",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Martin Daniel Vasquez Polanco",
+     "partido": "FP"
+    }
+   ],
+   "QUISQUEYA": [
+    {
+     "nombre": "Tania Ybelice Santos Aleman",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Artajelis Lluberes Chiringa",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Nixon Yordan Vigo de Luna",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Luis Manuel Mota Ferrer",
+     "partido": "PLD"
+    },
+    {
+     "nombre": "Yohandry Estiward Marmolejos Gomez",
+     "partido": "FP"
+    }
+   ],
+   "SAN PEDRO DE MACORIS": [
+    {
+     "nombre": "Francisco Antonio Frias Romero",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Luisa Pierret Yan de Fusten",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Fabio Alberto Silvestre Vasquez",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Martire Encarnacion Paulino",
+     "partido": "PLD"
+    },
+    {
+     "nombre": "Mabel Naomi Ortiz Santana",
+     "partido": "FP"
+    },
+    {
+     "nombre": "Santa Rodriguez",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Luis Milciades de la Cruz Medina",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Saeddy Isabel Calcaño Sanchez",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Felipe de los Santos Guerrero",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Ramona Dolores Polanco Feliciano",
+     "partido": "PLD"
+    },
+    {
+     "nombre": "Santo Faustino Jimenez Echavarria",
+     "partido": "FP"
+    },
+    {
+     "nombre": "Rafael Andradi Reinoso Cabrera",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Martires Trinidad Trinidad",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Dauris Martinez Pardilla",
+     "partido": "PRD"
+    },
+    {
+     "nombre": "Israel Rolando Madrigal Fox",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Walky Cuevas Charles",
+     "partido": "BIS"
+    },
+    {
+     "nombre": "Juana Santana Santana",
+     "partido": "PRM"
+    }
+   ],
+   "LOS LLANOS": [
+    {
+     "nombre": "Juan Kerlin Jabalera Tavarez",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Francisco Alberto Castro Natera",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Ambioris Manuel Mella Martinez",
+     "partido": "PLD"
+    },
+    {
+     "nombre": "Dionicio Espinosa Castro",
+     "partido": "PRSC"
+    },
+    {
+     "nombre": "Eli Saul Alvarez Rodriguez",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Juan Soriano Rincon",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Socrates Danilo Polanco Sosa",
+     "partido": "PLD"
+    }
+   ],
+   "RAMON SANTANA": [
+    {
+     "nombre": "Rosangela Morton Antuan",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Felipa Virginia Reyna Guerrero",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Harle Williams Nuñez Maldonado",
+     "partido": "FP"
+    },
+    {
+     "nombre": "Gil Manuel Paulino Sanchez",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Jose Antonio de los Santos Gonzalez",
+     "partido": "PLD"
+    }
+   ],
+   "GUAYACANES": [
+    {
+     "nombre": "Adri Gabriel Fonfrias",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Juan Carlos Garcia Diaz",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "John Hazim Brugal",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Katherine Calzado Paulino",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Kaira Cecilia Vizcaino Cabrera",
+     "partido": "PLD"
+    }
+   ]
+  },
+  "SANCHEZ RAMIREZ": {
+   "VILLA LA MATA": [
+    {
+     "nombre": "Wander Gomera Hernandez",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Evelin Altagracia Diaz Perez",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Noelvin Alvarez Acosta",
+     "partido": "PLD"
+    },
+    {
+     "nombre": "Sophy Altagracia Manzueta",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Vicente Antonio Herrera Regalado",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Jose del Carmen Acosta Faria",
+     "partido": "FP"
+    },
+    {
+     "nombre": "Luis Manuel Romero Garabito",
+     "partido": "PRM"
+    }
+   ],
+   "COTUI": [
+    {
+     "nombre": "Mario Melvin Peralta Morillo",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Jaime Vasquez Vasquez",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Jose Miguel Gil Hernandez",
+     "partido": "FP"
+    },
+    {
+     "nombre": "Laura Maria Severino Pimentel",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Argenys Rosario Heredia",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Gustavo Leonel Vicioso Cepeda",
+     "partido": "FP"
+    },
+    {
+     "nombre": "Alcibiades Antonio Burgos Cabral",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Persio Antonio Sanchez Fernandez",
+     "partido": "PLD"
+    },
+    {
+     "nombre": "Gewil Elias Acosta Jimenez",
+     "partido": "PRM"
+    }
+   ],
+   "CEVICOS": [
+    {
+     "nombre": "Isaac Cleto Castaño",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Yulianny Maria Rodriguez Ramirez",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Isy Maria Peña Polanco",
+     "partido": "FP"
+    },
+    {
+     "nombre": "Santiago Adon Rosario",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Nancy Maria Jimenez de la Rosa",
+     "partido": "PLD"
+    }
+   ],
+   "FANTINO": [
+    {
+     "nombre": "Andrison Espinal Ramos",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Pedro Alnurfo de Jesus Vasquez",
+     "partido": "PLD"
+    },
+    {
+     "nombre": "Maximo Larides Campos Rosario",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Arnulfo Raul Polanco Fabian",
+     "partido": "FP"
+    },
+    {
+     "nombre": "Wilman Javier Perez",
+     "partido": "PRM"
+    }
+   ]
+  },
+  "SANTIAGO": {
+   "SABANA IGLESIA": [
+    {
+     "nombre": "Andres Mane de la Rosa",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Mariano de Jesus Franco Fernandez",
+     "partido": "PLD"
+    },
+    {
+     "nombre": "Santiago Felipe Rodriguez",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Lleny Altagracia Vargas Plasencia",
+     "partido": "FP"
+    },
+    {
+     "nombre": "Maria Antonia Hernandez Nuñez",
+     "partido": "PRM"
+    }
+   ],
+   "BAITOA": [
+    {
+     "nombre": "Joel Gutierrez Rosario",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Senia Altagracia Beato Santana",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Edwin Antonio Cruz Jimenez",
+     "partido": "PLD"
+    },
+    {
+     "nombre": "Mateo Agapito Acosta Rodriguez",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Glenys Batista Sandobal",
+     "partido": "PRD"
+    }
+   ],
+   "SANTIAGO DE LOS CABALLEROS": [
+    {
+     "nombre": "Francisco Alberto Veras Lopez",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Odalys de Jesus Tejada Tejada",
+     "partido": "PLD"
+    },
+    {
+     "nombre": "Jose Luis Marine Plasencia",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Oscar Federico Reyes Tavarez",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Belgica Altagracia Espaillat Almonte",
+     "partido": "PLD"
+    },
+    {
+     "nombre": "Jose Mariano Paulino Fernandez",
+     "partido": "FP"
+    },
+    {
+     "nombre": "Frank Carlos Medina Perez",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Moises Danilo Moronta Diaz",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Disneiry Masiel Betances Diaz",
+     "partido": "DXC"
+    },
+    {
+     "nombre": "Robinson Guillermo Cabrera Torres",
+     "partido": "PLD"
+    },
+    {
+     "nombre": "Marino Antonio Colon Torres",
+     "partido": "PRSC"
+    },
+    {
+     "nombre": "Beatriz Gonell Regalado",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Esmeily Daniel Espinal Dominguez",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Juan Antonio Gomez Jimenez",
+     "partido": "PLD"
+    },
+    {
+     "nombre": "Massiel Amelia Nuñez Martinez",
+     "partido": "FP"
+    },
+    {
+     "nombre": "Franco Nuñez Francisco",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Alfonso Duran Escolastico",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Albani Jose Almonte Rosario",
+     "partido": "PLD"
+    },
+    {
+     "nombre": "Amarilis del Carmen Baret Martinez",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Alberto Jose Hernandez Reinoso",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Ambioris Antonio Gonzalez Paniagua",
+     "partido": "PLD"
+    },
+    {
+     "nombre": "Carlos Raul Dominguez Ventura",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Hector Miguel Concepcion",
+     "partido": "PLD"
+    },
+    {
+     "nombre": "Edinson Tavera Mercado",
+     "partido": "PRSC"
+    },
+    {
+     "nombre": "Ambiorix de Jesus Reyes Rodriguez",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Luis Antonio Cabrera Hernandez",
+     "partido": "FP"
+    },
+    {
+     "nombre": "Yuderka Mercedes Castellanos Reyes",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Chanell Victoria Almonte Genao",
+     "partido": "PLD"
+    },
+    {
+     "nombre": "Cholo D´Oleo D´Oleo",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Venecia Geraldine Morales Quiñones",
+     "partido": "PLD"
+    },
+    {
+     "nombre": "Maria Magdalena Rodriguez Paulino",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Ana Lucia Rosario Garcia",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Leticia Cruz Hernandez de Pimentel",
+     "partido": "FP"
+    },
+    {
+     "nombre": "Engerls Lorenzo de Jesus Alvarez",
+     "partido": "PLD"
+    },
+    {
+     "nombre": "Edwin Aureliano Nuñez Mendez",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Leonardo de Jesus Vasquez Garcia",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Jose Francisco Nuñez de Leon",
+     "partido": "PLD"
+    },
+    {
+     "nombre": "Carlos Dario Cabrera Siri",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Alexander Germoso Almonte",
+     "partido": "PRSC"
+    },
+    {
+     "nombre": "Antonio Vasquez Brito",
+     "partido": "FP"
+    },
+    {
+     "nombre": "Vicente Diaz",
+     "partido": "PRM"
+    }
+   ],
+   "TAMBORIL": [
+    {
+     "nombre": "Jose Luis Quezada",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Jose Gregorio Tejada Perez",
+     "partido": "PLD"
+    },
+    {
+     "nombre": "Gilberto Antonio Ramirez Rodriguez",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Gregorio Salvador Lopez Alcantara",
+     "partido": "PLD"
+    },
+    {
+     "nombre": "Ariel de Leon",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Ana Elisa Vasquez Monsanto",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Nelson Martin Lajara Rodriguez",
+     "partido": "PLD"
+    },
+    {
+     "nombre": "Ernesto Sandino Compres",
+     "partido": "PPP"
+    },
+    {
+     "nombre": "Fredy de Jesus Rodriguez Bonilla",
+     "partido": "ALPAIS"
+    }
+   ],
+   "JANICO": [
+    {
+     "nombre": "Felipe Estanislao Marine",
+     "partido": "PLD"
+    },
+    {
+     "nombre": "Ramphy Raphael Rodriguez Martinez",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Yeudis Batista Pichardo",
+     "partido": "PJS"
+    },
+    {
+     "nombre": "Daury de Jesus Salcedo Collado",
+     "partido": "PLD"
+    },
+    {
+     "nombre": "Nelson Antonio Ferreira Ynfante",
+     "partido": "PRM"
+    }
+   ],
+   "PUÑAL": [
+    {
+     "nombre": "Aneudy Fortuna Calderon Infante",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Leonisia Victoria Ramos Peña",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Jose Rafael Vicente Estrella",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Daniel Rafael Alonzo Garcia",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Raminier de Jesus Fernandez Alvarez",
+     "partido": "FP"
+    },
+    {
+     "nombre": "Janso Javier Santiago Gomez",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Madelyn Muñoz Guzman",
+     "partido": "PRM"
+    }
+   ],
+   "SAN JOSE DE LAS MATAS": [
+    {
+     "nombre": "Brayan Enmanuel Collado Garcia",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Glenys Rodriguez Peña",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Jhoandri Meliton Salcedo Cepin",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Dulce Maria Espinal Tavares",
+     "partido": "DXC"
+    },
+    {
+     "nombre": "Pablo Yowel Rodriguez Aracena",
+     "partido": "PLD"
+    },
+    {
+     "nombre": "Juan de la Cruz Santelises Dilone",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Jose Luis Espinal Peña",
+     "partido": "FP"
+    }
+   ],
+   "VILLA GONZALEZ": [
+    {
+     "nombre": "Valeriana Mercedes Alvarez",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Jose Odanis Ramos Cabrera",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Fernando Miguel Hernandez Peña",
+     "partido": "PLD"
+    },
+    {
+     "nombre": "Jose Manuel de Dios Marte",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Manuel Eduardo Torres",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Francisco Alejandro Diaz Santos",
+     "partido": "FP"
+    },
+    {
+     "nombre": "Indira Nathalie Mera Milian",
+     "partido": "PRM"
+    }
+   ],
+   "LICEY AL MEDIO": [
+    {
+     "nombre": "Pierylin Errante Parrino Taveras",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Jose Duran Lopez",
+     "partido": "PLD"
+    },
+    {
+     "nombre": "Nilson Peralta",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Jose Luis Rodriguez Vasquez",
+     "partido": "PLD"
+    },
+    {
+     "nombre": "Estalyn Santiago Osorio",
+     "partido": "FP"
+    },
+    {
+     "nombre": "Jose Alberto Gil Paulino",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Antonio Miguel Angel Rojas Perez",
+     "partido": "PLD"
+    }
+   ],
+   "VILLA BISONO -NAVARRETE-": [
+    {
+     "nombre": "Ana Arelys Cabrera Peña",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Julio Jan Carlo Peralta Tejada",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Joseph Konstantin Molina Genao",
+     "partido": "PLD"
+    },
+    {
+     "nombre": "Juan Osvaldo Montan Toribio",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Anthony Alexander Gonzalez Mezon",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Erinzon Eduardo Ortiz Cabrera",
+     "partido": "PLD"
+    },
+    {
+     "nombre": "Jose Antonio Polanco Beltre",
+     "partido": "PRM"
+    }
+   ]
+  },
+  "SANTIAGO RODRIGUEZ": {
+   "VILLA LOS ALMACIGOS": [
+    {
+     "nombre": "Juan Francisco Jaquez Cabrera",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Franklin Yoheliz Jaquez Toribio",
+     "partido": "PLD"
+    },
+    {
+     "nombre": "Ysmael Tejada de la Rosa",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Yubelky Grullon Ramos",
+     "partido": "PLD"
+    },
+    {
+     "nombre": "Jose Antonio Fortuna Alejo",
+     "partido": "PRM"
+    }
+   ],
+   "MONCION": [
+    {
+     "nombre": "Luis Leandro Almonte Perez",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Marino Mauricio Reyes Rodriguez",
+     "partido": "PLD"
+    },
+    {
+     "nombre": "Juana Antonia Espinal Espinal",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Ralvin Agustin Vargas Guzman",
+     "partido": "PLD"
+    },
+    {
+     "nombre": "Rafael Alejandro Sime Tejada",
+     "partido": "PRM"
+    }
+   ],
+   "SAN IGNACIO DE SABANETA": [
+    {
+     "nombre": "Irvin Antonio Vargas Thomas",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Fulvio Eligio Rodriguez Almonte",
+     "partido": "PLD"
+    },
+    {
+     "nombre": "Fernando Dominguez Zapata",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Miguel Candelario Roman Aleman",
+     "partido": "FP"
+    },
+    {
+     "nombre": "Yoerlin Adrian Abreu Torres",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Hector Antonio Collado",
+     "partido": "PLD"
+    },
+    {
+     "nombre": "Jose Orlando Almonte Martinez",
+     "partido": "PRM"
+    }
+   ]
+  },
+  "AZUA": {
+   "AZUA": [
+    {
+     "nombre": "Jose Manuel Ramirez Pujols",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Euris Staling Matos Soriano",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Carlos Humberto Sanchez Agramonte",
+     "partido": "FP"
+    },
+    {
+     "nombre": "Juan Edilio Ramirez Navarro",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Jhonatan Jose Jorge Matos",
+     "partido": "PLD"
+    },
+    {
+     "nombre": "Bartolina Gonzalez Ramirez",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Rafael Arturo Silfa Matos",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Rafael Antonio Lara Lebron",
+     "partido": "FP"
+    },
+    {
+     "nombre": "Fannis Laurence Perez Matos",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Rafael Antonio Corcino Ruiz",
+     "partido": "PLD"
+    },
+    {
+     "nombre": "Sterling Federico Quezada Melo",
+     "partido": "PRM"
+    }
+   ],
+   "GUAYABAL": [
+    {
+     "nombre": "Vicente Peña Corcino",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Miguel del Jesus Alcantara Pujols",
+     "partido": "PLD"
+    },
+    {
+     "nombre": "Maria Antonia Casado Morillo",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Salvador Familia Morillo",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Cesar Lebron Diaz",
+     "partido": "PLD"
+    }
+   ],
+   "PERALTA": [
+    {
+     "nombre": "Luis Antonio Martinez Diaz",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Rosa Idaliza Rosso Baez",
+     "partido": "FP"
+    },
+    {
+     "nombre": "Andrea Luisa Valdez Mateo",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Awilda Magdalena Ramirez Perez",
+     "partido": "PLD"
+    },
+    {
+     "nombre": "Rosanna Elizabet Bonilla Filpo",
+     "partido": "PRM"
+    }
+   ],
+   "SABANA YEGUA": [
+    {
+     "nombre": "Luis Mercedes Alcantara Sanchez",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Randy de Leon Mejia",
+     "partido": "PLD"
+    },
+    {
+     "nombre": "Wirkyns Encarnacion Duran",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Angela Elizabeth Martinez Diaz",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Juan Carlos Garabito Sanchez",
+     "partido": "PLD"
+    }
+   ],
+   "LAS YAYAS DE VIAJAMA": [
+    {
+     "nombre": "Augusto Rafael Mendez Mejia",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Henry Emilio Ramirez de los Santos",
+     "partido": "PLD"
+    },
+    {
+     "nombre": "Nairoby Uribe Veloz",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Janer Ramirez Beltre",
+     "partido": "PLD"
+    },
+    {
+     "nombre": "Andrea Yluminada Beltre Ogando",
+     "partido": "PRM"
+    }
+   ],
+   "TABARA ARRIBA": [
+    {
+     "nombre": "Yhan Carlos Ortiz Peguero",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Carlos Manuel Montes de Oca",
+     "partido": "PLD"
+    },
+    {
+     "nombre": "Manuel Diaz Peña",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Franklin Rafael de los Santos",
+     "partido": "PLD"
+    },
+    {
+     "nombre": "Candida Rosa Pujols Ramirez",
+     "partido": "PRM"
+    }
+   ],
+   "ESTEBANIA": [
+    {
+     "nombre": "Edgar Stiven Matos Matos",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Johennis Nuñez Tejeda",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Yunior Ayeurys Sanchez Melo",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Julio Alberto Mejia Heredia",
+     "partido": "PLD"
+    },
+    {
+     "nombre": "Laura Mercedes Matos Olivo",
+     "partido": "PRM"
+    }
+   ],
+   "LAS CHARCAS": [
+    {
+     "nombre": "Williams Radhames Tejeda Diaz",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Kelvin Alberto Soler Gonzalez",
+     "partido": "PLD"
+    },
+    {
+     "nombre": "Willys Ney Gonzalez Gonzalez",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Yorbin Jose Sanchez Guillen",
+     "partido": "PLD"
+    },
+    {
+     "nombre": "Stiven Abel Baez Terrero",
+     "partido": "FP"
+    }
+   ],
+   "PUEBLO VIEJO": [
+    {
+     "nombre": "Deybi Santana Montilla",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Ramon Mendez Lemos",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Haris Vargas",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Lorenzo Sisa",
+     "partido": "PLD"
+    },
+    {
+     "nombre": "Jaqueline Mendez Mejia",
+     "partido": "PRM"
+    }
+   ],
+   "PADRE LAS CASAS": [
+    {
+     "nombre": "Sandy Baez Mendez",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Edymil Alcantara",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Tirso Antonio Beltre Ramirez",
+     "partido": "PLD"
+    },
+    {
+     "nombre": "Natanael Valenzuela Oviedo",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Silverio Ramirez Vicente",
+     "partido": "FP"
+    }
+   ]
+  },
+  "VALVERDE": {
+   "ESPERANZA": [
+    {
+     "nombre": "Joel Andres Mendoza Perez",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Wildamy Gabriel Quiñones Moreta",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Patricia Jamil Arias Santos",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Maria Elena Perez Nuñez",
+     "partido": "PLD"
+    },
+    {
+     "nombre": "Confesor Contreras Alcantara",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Esmarlin Rodriguez Ulloa",
+     "partido": "FP"
+    },
+    {
+     "nombre": "Julio Tavarez Alvarez",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Maria Altagracia Garcia Torres",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Jose Alejandro Valdez Molina",
+     "partido": "PLD"
+    }
+   ],
+   "MAO": [
+    {
+     "nombre": "Jose Miguel Peñalo Santana",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Wilson Rafael Estevez Tavarez",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Ana Confesora Fortuna",
+     "partido": "PLD"
+    },
+    {
+     "nombre": "Dolores Ananhi Rodriguez Contrera",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Juan Luis Gomez Familia",
+     "partido": "FP"
+    },
+    {
+     "nombre": "Nestor Antonio Duran Rodriguez",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Jose Luis Rodriguez Contreras",
+     "partido": "PVD"
+    },
+    {
+     "nombre": "Julio Wascar Garcia Rodriguez",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Diony Miguel Gomez Collado",
+     "partido": "PLD"
+    }
+   ],
+   "LAGUNA SALADA": [
+    {
+     "nombre": "Luis Carlos Acosta Garcia",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Quirino Alfredo Rosario Acosta",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Manuel de Jesus Peña Ureña",
+     "partido": "PLD"
+    },
+    {
+     "nombre": "Victor de Jesus Acosta",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Maria Luisa Perez Novo",
+     "partido": "PRM"
+    }
+   ]
+  },
+  "SAN JOSE DE OCOA": {
+   "SAN JOSE DE OCOA": [
+    {
+     "nombre": "Marcos Luis Baez",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Sandra Margarita Encarnacion Paniagua",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Luisa Theanys Feliz Ortiz",
+     "partido": "FP"
+    },
+    {
+     "nombre": "Juan Antonio Tejeda Perez",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Melido Alexandro Alcantara Peguero",
+     "partido": "PLD"
+    },
+    {
+     "nombre": "Luis Manuel Lluberes Encarnacion",
+     "partido": "PPP"
+    },
+    {
+     "nombre": "Betania de Jesus de los Santos Soto Lluberes",
+     "partido": "PRM"
+    }
+   ],
+   "SABANA LARGA": [
+    {
+     "nombre": "Marlon Oreste Catalina Sanchez",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Tomas Antonio Lluverez Troncoso",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Luis Bautista Tejeda Castillo",
+     "partido": "PLD"
+    },
+    {
+     "nombre": "Dan Jhons Mejia Taveras",
+     "partido": "FP"
+    },
+    {
+     "nombre": "Jose Altagracia Ortiz Lorenzo",
+     "partido": "PRM"
+    }
+   ],
+   "RANCHO ARRIBA": [
+    {
+     "nombre": "Isidro Roque",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Juan Antonio Troncoso Fernandez",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Yulissa Elizabeth Tejeda Olaverria",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Jose Hipolito de la Rosa de la Cruz",
+     "partido": "FP"
+    },
+    {
+     "nombre": "Victor Suarez Henriquez",
+     "partido": "PRM"
+    }
+   ]
+  },
+  "SANTO DOMINGO": {
+   "SANTO DOMINGO ESTE": [
+    {
+     "nombre": "Miguel Fortuna Martinez",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Enmanuel Feliz Duran",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Juan Arturo Santos Cruz",
+     "partido": "PLD"
+    },
+    {
+     "nombre": "Aileen Nicole Decamps Perallon",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Jose Luis Flores Reyes",
+     "partido": "FP"
+    },
+    {
+     "nombre": "Jose Guillermo Morrobel",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Isabel Maria Perez Ruiz",
+     "partido": "PLD"
+    },
+    {
+     "nombre": "Fior D´Aliza Arias Fernandez",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Juan Francisco Rosa Cabral",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Rafaela Anibelka Rodriguez Rodriguez",
+     "partido": "FP"
+    },
+    {
+     "nombre": "Crismely Yohanna Pinales Minyety",
+     "partido": "PLD"
+    },
+    {
+     "nombre": "Manuel Ramon Fernandez Peralta",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Angel Luis Abreu",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Juan de la Cruz Calderon Sanchez",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Ocram Leinad Caminero Santana",
+     "partido": "PLD"
+    },
+    {
+     "nombre": "Eduvigen Rosario Gonzalez",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Walkiria Koreane Medina Pichardo",
+     "partido": "FP"
+    },
+    {
+     "nombre": "Dario Batista Encarnacion",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Miguel Angel Rosario Perez",
+     "partido": "PLD"
+    },
+    {
+     "nombre": "Jose Antonio Ramirez Polanco",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Vandana Meenakshi Doekhi Ramirez",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Gelson Antigua Rivera",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Antonio Feliz Feliz",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Manuel Villanueva Solorin",
+     "partido": "PLD"
+    },
+    {
+     "nombre": "Jehimy Esthefany Nuñez Perez",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Monserrat del Carmen Calderon Peralta",
+     "partido": "FP"
+    },
+    {
+     "nombre": "Jose Manuel del Rosario",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Yamil Fortuna Rodriguez",
+     "partido": "PLD"
+    },
+    {
+     "nombre": "Eligio Rodriguez Rodriguez",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Ana Johanny Duran Rosario",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Francisco Terrero Cedano",
+     "partido": "FP"
+    },
+    {
+     "nombre": "Wander Garcia Volquez",
+     "partido": "PLD"
+    },
+    {
+     "nombre": "Estela Garcia Santana",
+     "partido": "PRM"
+    }
+   ],
+   "SANTO DOMINGO OESTE": [
+    {
+     "nombre": "Jose Radhames Gonzalez Cabrera",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Yassiel Diaz Lizardo",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Pedro Antonio Batista Dominguez",
+     "partido": "FP"
+    },
+    {
+     "nombre": "Arlette del Carmen Almonte Angeles",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Michael Manuel Matos Montero",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Eudy Rodolfo Gonzalez Puello",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Adhamilka Miguelina Espinal Toribio",
+     "partido": "FP"
+    },
+    {
+     "nombre": "Ruben Wagner Aybar del Rosario",
+     "partido": "PLD"
+    },
+    {
+     "nombre": "Eddy Lopez Toribio",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Susi de la Cruz",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Ysidro Antonio Acosta Mora",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Jorge Luis Perez Baez",
+     "partido": "FP"
+    },
+    {
+     "nombre": "Luis Ernesto Diaz Filpo",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Joan Manuel Herrera Martinez",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Virginia del Carmen Jaquez",
+     "partido": "PRM"
+    }
+   ],
+   "SANTO DOMINGO NORTE": [
+    {
+     "nombre": "Alberto Leonidas Tejeda",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Oscar Ramirez Abreu",
+     "partido": "FP"
+    },
+    {
+     "nombre": "Edward Martin Rosario Diaz",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Ramon Antonio Martinez Jaquez",
+     "partido": "PLD"
+    },
+    {
+     "nombre": "Adalgisa Nuñez Fernandez",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Vicente Berihuete Rosario",
+     "partido": "FP"
+    },
+    {
+     "nombre": "Luis Manuel Reyes Camacho",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Bernys Rafael Mambru Tavares",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Leonardo Aquino Gil",
+     "partido": "PLD"
+    },
+    {
+     "nombre": "Jose Miguel Brand",
+     "partido": "FP"
+    },
+    {
+     "nombre": "Flavia Caristina Brazoban Martinez",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Milagros Cuevas Peña",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Alfredo Henriquez Asencio",
+     "partido": "FP"
+    },
+    {
+     "nombre": "Manuel Antonio Jimenez Jimenez",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Santana Manzueta Gil",
+     "partido": "PLD"
+    },
+    {
+     "nombre": "Milagros Altagracia Paradas",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Ramon Aversio Altagracia Beras",
+     "partido": "FP"
+    }
+   ],
+   "BOCA CHICA": [
+    {
+     "nombre": "Enrique Felix Guzman de Leon",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Wilmer Santos",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Francisco Zapata",
+     "partido": "PLD"
+    },
+    {
+     "nombre": "Juan Francisco Peralta Medina",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Luis Carlos Madera Vargas",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Elvin Fernando Natera Garcia",
+     "partido": "FP"
+    },
+    {
+     "nombre": "Argenys Junior Tejeda Feliz",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Jose Daniel Feliz Brito",
+     "partido": "PLD"
+    },
+    {
+     "nombre": "Carolina Alburquerque Soriano",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Danilo Barcelo Sama",
+     "partido": "PRD"
+    },
+    {
+     "nombre": "Belqui Perez Santana",
+     "partido": "PRM"
+    }
+   ],
+   "SAN ANTONIO DE GUERRA": [
+    {
+     "nombre": "Felix Vartazar Reyes Santana",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Harold Maireni Castro Martinez",
+     "partido": "FP"
+    },
+    {
+     "nombre": "Leida Alina Hernandez Concepcion",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Luis Anibal Familia Reyes",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Cristian Raul Flores Batista",
+     "partido": "FP"
+    },
+    {
+     "nombre": "Maria Luisa Pichardo Catalino",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Juan Noel Soriano Mercedes",
+     "partido": "PLD"
+    }
+   ],
+   "PEDRO BRAND": [
+    {
+     "nombre": "Roberto Carlos de Jesus de los Santos",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Enmanuel Galvez Castillo",
+     "partido": "FP"
+    },
+    {
+     "nombre": "Juan Jose Mercedes Bautista",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Feliberto Navarro Sosa",
+     "partido": "FP"
+    },
+    {
+     "nombre": "Gary Andres Mariñez Ramirez",
+     "partido": "PLD"
+    },
+    {
+     "nombre": "Wilson Mendoza de Leon",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Ramon Dolores de la Cruz",
+     "partido": "PUN"
+    }
+   ],
+   "LOS ALCARRIZOS": [
+    {
+     "nombre": "Victor Alfredo Jimenez",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Primitivo Nuñez Cuevas",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "David Medrano Miosonet",
+     "partido": "FP"
+    },
+    {
+     "nombre": "Joan Alexis Angeles",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Angel Enriquez Medina Montero",
+     "partido": "PRSC"
+    },
+    {
+     "nombre": "Danisa Maria Bierd Valenzuela",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Milton Jose Vargas",
+     "partido": "PLD"
+    },
+    {
+     "nombre": "Jenderson Anderson Medina",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Manuel Ferreira Lazala",
+     "partido": "FP"
+    },
+    {
+     "nombre": "Pablo Jose Perez Gil",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Rafael Antonio Hernandez Cabrera",
+     "partido": "PRSC"
+    },
+    {
+     "nombre": "Josue Bello de los Santos",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Brandolf Joaquin Guzman Chavez",
+     "partido": "PRD"
+    },
+    {
+     "nombre": "Benjamin Diaz Benitez",
+     "partido": "FP"
+    },
+    {
+     "nombre": "Anilda Altagracia Quezada Rosario",
+     "partido": "PRM"
+    }
+   ]
+  },
+  "BAHORUCO": {
+   "LOS RIOS": [
+    {
+     "nombre": "Martines Sena Perez",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Wagner Ariosto Perez Matos",
+     "partido": "FP"
+    },
+    {
+     "nombre": "Jarlin Daniel Diaz Mendez",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Laudris Lituania Sena Ferreras",
+     "partido": "PLD"
+    },
+    {
+     "nombre": "Martires Raquel Segura Matos",
+     "partido": "PRM"
+    }
+   ],
+   "GALVAN": [
+    {
+     "nombre": "Manauris Cuevas Escalante",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Deilin Nicolas Luciano Novas",
+     "partido": "PLD"
+    },
+    {
+     "nombre": "Willys Radhames Flores Cuevas",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Griselis Diaz Vasquez",
+     "partido": "PLD"
+    },
+    {
+     "nombre": "Antonio Novas Florian",
+     "partido": "PRM"
+    }
+   ],
+   "NEYBA": [
+    {
+     "nombre": "Arcenio Garcia Polanco",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Ottoniel de Leon Vargas",
+     "partido": "PLD"
+    },
+    {
+     "nombre": "Scarling Yarisa Colon Novas",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Wilson Rafael Sanchez Feliz",
+     "partido": "PLD"
+    },
+    {
+     "nombre": "Wilson Diaz del Valle",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Ruben Dario Casanova Encarnacion",
+     "partido": "PLD"
+    },
+    {
+     "nombre": "Fernando Herasme Cuevas",
+     "partido": "PRM"
+    }
+   ],
+   "TAMAYO": [
+    {
+     "nombre": "Newman Bartolome Nuñez Vargas",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Miguel Radame Alcantara Santana",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Jairo de Jesus Cuevas Jimenez",
+     "partido": "PLD"
+    },
+    {
+     "nombre": "Florentina Medina Luciano",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Ana Nelis Espejo Heredia",
+     "partido": "PRM"
+    }
+   ],
+   "VILLA JARAGUA": [
+    {
+     "nombre": "Eduard Antonio Batista Medina",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Diorvin Peña Ferreras",
+     "partido": "FP"
+    },
+    {
+     "nombre": "Cirilo Santana Ferreras",
+     "partido": "PLD"
+    },
+    {
+     "nombre": "Maximo Manuel Trinidad Batista",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Orbis Moreilis Matos Cuevas",
+     "partido": "PRM"
+    }
+   ]
+  },
+  "BARAHONA": {
+   "POLO": [
+    {
+     "nombre": "Grabiel Alfonso Feliz Reyes",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Lusila Bienvenida Montero Cuevas",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Cesar Augusto Morales Yapul",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Nelson Medina Batista",
+     "partido": "FP"
+    },
+    {
+     "nombre": "Ronny Cuevas Peña",
+     "partido": "PRM"
+    }
+   ],
+   "EL PEÑON": [
+    {
+     "nombre": "Jairon Peña Segura",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Paterson Yosiris Espinosa Espinosa",
+     "partido": "PLD"
+    },
+    {
+     "nombre": "Edward Joari Lopez Tavarez",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Jose del Carmen Feliz Segura",
+     "partido": "PPP"
+    },
+    {
+     "nombre": "Mildred Beatriz Segura Ferreras",
+     "partido": "PRM"
+    }
+   ],
+   "FUNDACION": [
+    {
+     "nombre": "Carlos Daniel Batista Peña",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Jose Luis Espinosa Segura",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Bernardino Batista Feliz",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Hainel David Baez",
+     "partido": "PQDC"
+    },
+    {
+     "nombre": "Joselania Alcantara",
+     "partido": "PRM"
+    }
+   ],
+   "LAS SALINAS": [
+    {
+     "nombre": "William Ariel Matos Cuevas",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Sandys Yazmel Santana Rodriguez",
+     "partido": "PLD"
+    },
+    {
+     "nombre": "Yesenia Feliz Decena",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Pedro Arturo Rojas Terrero",
+     "partido": "PLD"
+    },
+    {
+     "nombre": "Genara Ferreras Ogando",
+     "partido": "PRM"
+    }
+   ],
+   "LA CIENAGA": [
+    {
+     "nombre": "Marcio Feliz Ferreras",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Michael Moreta Reyes",
+     "partido": "PLD"
+    },
+    {
+     "nombre": "Janeuris Feliz Gomez",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Jose Antonio Melo Betances",
+     "partido": "FP"
+    },
+    {
+     "nombre": "Yoldany Guevara Feliz",
+     "partido": "PRM"
+    }
+   ],
+   "JAQUIMEYES": [
+    {
+     "nombre": "Ana Josefina Matos Matos",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Wilson Alexander de la Cruz",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Luz Nellys Figuereo Castillo",
+     "partido": "PPP"
+    },
+    {
+     "nombre": "Kelvin Segura Lopez",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Yudy Frailis Matos Cabrera",
+     "partido": "FP"
+    }
+   ],
+   "BARAHONA": [
+    {
+     "nombre": "Ricardo Dominici Feliz",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Julio Ernesto Samboy Jimenez",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Bernardino Feliz Feliz",
+     "partido": "FP"
+    },
+    {
+     "nombre": "Frank Figueroa Feliz",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Marcel Miguel Almonte Suero",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Toidy Gustavo Perez de la Cruz",
+     "partido": "PLD"
+    },
+    {
+     "nombre": "Willy Alejandro Deño Suero",
+     "partido": "FP"
+    },
+    {
+     "nombre": "Rafaela Feliz Medina",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Rodolfo Gomez",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Danisa Espinosa Matos",
+     "partido": "PRD"
+    },
+    {
+     "nombre": "Liseydy Baez Perez",
+     "partido": "FP"
+    }
+   ],
+   "CABRAL": [
+    {
+     "nombre": "Hungria Feliz Alcantara",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Edinson Miguel Medina",
+     "partido": "PLD"
+    },
+    {
+     "nombre": "Wilson Feliz Feliz",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Fredys Manuel Feliz Feliz",
+     "partido": "FP"
+    },
+    {
+     "nombre": "Severo Urbaez Cristo",
+     "partido": "PRM"
+    }
+   ],
+   "ENRIQUILLO": [
+    {
+     "nombre": "Maximo Gomez Cayo",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Jehisa Madeline Mella Montero",
+     "partido": "FP"
+    },
+    {
+     "nombre": "Alfredo Feliz Gomez",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Santiago Segura Garo",
+     "partido": "PLD"
+    },
+    {
+     "nombre": "Kader Francisco Perez Santana",
+     "partido": "PPP"
+    }
+   ],
+   "VICENTE NOBLE": [
+    {
+     "nombre": "Maxima Braudilia Cuevas Garcia de Torres",
+     "partido": "PLD"
+    },
+    {
+     "nombre": "Alexander Garcia Ramirez",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Joangel Caraballo Rodriguez",
+     "partido": "PLD"
+    },
+    {
+     "nombre": "Ruben Andres Gonzalez Feliz",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Mario Yeser Garcia Gonzalez",
+     "partido": "FP"
+    }
+   ],
+   "PARAISO": [
+    {
+     "nombre": "Maximo David Feliz Perez",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Fredy de la Paz Feliz",
+     "partido": "PLD"
+    },
+    {
+     "nombre": "Carlos Moises Matos Carrasco",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Luis Aneurys Castillo Carrasco",
+     "partido": "PLD"
+    },
+    {
+     "nombre": "Gedalia Carrasco Mateo",
+     "partido": "PRM"
+    }
+   ]
+  },
+  "DAJABON": {
+   "PARTIDO": [
+    {
+     "nombre": "Luis Manuel Martinez Rodriguez",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Carlos Enrique Bueno Tejada",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Juana Elizabeth Jimenez Reyes",
+     "partido": "PLD"
+    },
+    {
+     "nombre": "Luis Enrique Gomez de la Rosa",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Ramon Dario Tapia Martinez",
+     "partido": "FP"
+    }
+   ],
+   "EL PINO": [
+    {
+     "nombre": "Pablo Aridelson de la Rosa Rodriguez",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Luis Miguel Perez Rodriguez",
+     "partido": "PLD"
+    },
+    {
+     "nombre": "Olivo Rafael Rumaldo Peralta",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Berquin Holguin",
+     "partido": "PLD"
+    },
+    {
+     "nombre": "Evelyn Rumaldo Sosa",
+     "partido": "PRM"
+    }
+   ],
+   "RESTAURACION": [
+    {
+     "nombre": "Martin Jimenez Contreras",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Maytte Alexandra Amarante Ogando",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Llesenia Nazaret Batista Perez",
+     "partido": "PLD"
+    },
+    {
+     "nombre": "Bernardo Tapia Alvarez",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Luis Ney Restituyo Minaya",
+     "partido": "FP"
+    }
+   ],
+   "DAJABON": [
+    {
+     "nombre": "Gibelys Dominga Colon Beltres",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Alexander Bisono Garcia",
+     "partido": "PLD"
+    },
+    {
+     "nombre": "Joohnatan Miguel Villanueva Taveras",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Manuel Sosa",
+     "partido": "PLD"
+    },
+    {
+     "nombre": "Ramon Alexander Rodriguez Helena",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Julio Alberto Dominguez Fernandez",
+     "partido": "FP"
+    },
+    {
+     "nombre": "Pedro Moncion Fernandez",
+     "partido": "PRM"
+    }
+   ],
+   "LOMA DE CABRERA": [
+    {
+     "nombre": "Cristian Manuel Taveras Ureña",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Rosa Maria Rodriguez Lecler",
+     "partido": "PLD"
+    },
+    {
+     "nombre": "Felix Manuel Placencio Rodriguez",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Simeon Andujar Estevez",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Alfakeni Elisabeth Peña Valerio",
+     "partido": "PLD"
+    }
+   ]
+  },
+  "DUARTE": {
+   "ARENOSO": [
+    {
+     "nombre": "Stanley Hatuey Thomas Brito",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Miguel Gomez",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Felix Rosario",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Candida Almonte Gonzalez",
+     "partido": "FP"
+    },
+    {
+     "nombre": "Maria Virginia Valdez Sanchez",
+     "partido": "PRM"
+    }
+   ],
+   "LAS GUARANAS": [
+    {
+     "nombre": "Wendy Danilsa Marte Mayi",
+     "partido": "FP"
+    },
+    {
+     "nombre": "Melba Francisca Peguero Payano",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Juan Pablo Antonio Rosario",
+     "partido": "FP"
+    },
+    {
+     "nombre": "Florencio Hernandez",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Katy Altagracia Rodriguez de la Cruz",
+     "partido": "PLD"
+    }
+   ],
+   "SAN FRANCISCO DE MACORIS": [
+    {
+     "nombre": "Luis Gabriel Ventura Regalado",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Anthony Abimael Acevedo Flores",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Victor Ernesto Abreu Hernandez",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Jesus Manuel Flores Burgos",
+     "partido": "PLD"
+    },
+    {
+     "nombre": "Rafael Diaz",
+     "partido": "FP"
+    },
+    {
+     "nombre": "Maria de los Santos Then Arias",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Luciano Casimiro Brito Hernandez",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Alexander Meyreles Faña",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Fermin Sanchez Salcedo",
+     "partido": "PLD"
+    },
+    {
+     "nombre": "Jose Miguel Gil Payano",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Havril Antonio Brito",
+     "partido": "FP"
+    },
+    {
+     "nombre": "Cristian Alexander Tejada Joaquin",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Hoblin Acosta Duarte",
+     "partido": "PRD"
+    }
+   ],
+   "PIMENTEL": [
+    {
+     "nombre": "Joselina Genao Torres",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Felix Emmanuel Suarez Cabral",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Rayter Alexander Perdomo Perez",
+     "partido": "FP"
+    },
+    {
+     "nombre": "Robert Berges Rodriguez",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Carlos Luis Montero Gomez",
+     "partido": "PRM"
+    }
+   ],
+   "VILLA RIVA": [
+    {
+     "nombre": "Hector German Gonzalez Jimenez",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Jesus Ureña Paredes",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Alfredo de Jesus Leon Mena",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Maria del Socorro Mercedes Mercedes",
+     "partido": "FP"
+    },
+    {
+     "nombre": "Magiel Yluminada Antigua Cepeda de Ventura",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Aldarjicia Milagro Mercedes Rodriguez de Jose",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Francisco Alfredo Perez Guzman",
+     "partido": "PRM"
+    }
+   ],
+   "CASTILLO": [
+    {
+     "nombre": "Pedro Jose Frias Santos",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Yeyri Mariela Rondon Crousset",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Wilson Radhames Rojas Bruno",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Franly Yomirdy Frias Frias",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Jose Dolores Perez Morales",
+     "partido": "FP"
+    }
+   ],
+   "EUGENIO MARIA DE HOSTOS": [
+    {
+     "nombre": "Heriberto Antigua Cleto",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Ruddy Rosa Caceres",
+     "partido": "PLD"
+    },
+    {
+     "nombre": "Alejandro Javier Encarnacion",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Walkiria Ortega Rodriguez",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Edy Skarlin Cordero Marte",
+     "partido": "PLD"
+    }
+   ]
+  },
+  "EL SEIBO": {
+   "EL SEIBO": [
+    {
+     "nombre": "Miguel Alexander Abad de Peña",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Rodney Estiwal Jimenez Herrera",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Cristian Mercedes Mercedes",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Marina Canela de Paula",
+     "partido": "PLD"
+    },
+    {
+     "nombre": "Juan Gabriel Devora Casanova",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Hamlet Severino Ventura",
+     "partido": "FP"
+    },
+    {
+     "nombre": "Mirian Cristina Arredondo Romano",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Dinorah Altagracia Garcia Acosta",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Daniel Mercedes Mejia",
+     "partido": "PRM"
+    }
+   ],
+   "MICHES": [
+    {
+     "nombre": "Carmen Antonia Rosario",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Danis Williams Severino Naranjo",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Yumsy Pimentel Leonardo",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Miledys Peralta Fernandez",
+     "partido": "PLD"
+    },
+    {
+     "nombre": "Catalina Sebera Moya Encarnacion",
+     "partido": "PRM"
+    }
+   ]
+  },
+  "ELIAS PIÑA": {
+   "EL LLANO": [
+    {
+     "nombre": "Mario Nilo Fortuna Benitez",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Marino Encarnacion de la Rosa",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Erdlin Garibardi Bautista Baez",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Jorlly Hernandez Mateo",
+     "partido": "FP"
+    },
+    {
+     "nombre": "Francisco Alberto Diaz Perez",
+     "partido": "PLD"
+    }
+   ],
+   "JUAN SANTIAGO": [
+    {
+     "nombre": "Rosilenny Montero Montero",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Adorfina Bocio Montero",
+     "partido": "PLD"
+    },
+    {
+     "nombre": "Erasmo Montero Montero",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Ramon Ramirez Montero",
+     "partido": "PLD"
+    },
+    {
+     "nombre": "Joel Rosario",
+     "partido": "PRM"
+    }
+   ],
+   "BANICA": [
+    {
+     "nombre": "Leonora Oviedo de los Santos",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Omar Guzman Rodriguez",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Manuel de Jesus (Hijo) Hernandez Alcantara",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Francisco Alberto Valenzuela Rivera",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Waleska Banniris Alcantara de la Rosa",
+     "partido": "PRM"
+    }
+   ],
+   "COMENDADOR": [
+    {
+     "nombre": "Eurys Emmanuel Paniagua Castillo",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Gilberto Diaz Cabral",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Alexander Rosario de los Santos",
+     "partido": "PLD"
+    },
+    {
+     "nombre": "Leody Miqueas Peralta Adames",
+     "partido": "FP"
+    },
+    {
+     "nombre": "Marisa Alcantara y Alcantara",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Quelys Vladimir Rodriguez Lerbours",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Bonely Diaz Adames",
+     "partido": "PLD"
+    }
+   ],
+   "PEDRO SANTANA": [
+    {
+     "nombre": "Lillian Eduvirges Contreras Alcantara",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Manuel Andres Contreras Perez",
+     "partido": "PLD"
+    },
+    {
+     "nombre": "Wilson Antonio Mateo Sosa",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Santo Ramirez Contreras",
+     "partido": "PLD"
+    },
+    {
+     "nombre": "Luis Rafael Medina Bautista",
+     "partido": "FP"
+    }
+   ],
+   "HONDO VALLE": [
+    {
+     "nombre": "Mervin Encarnacion Vallejo",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Carlos Lisandres Vicente de Oleo",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Jorge Maria Encarnacion Encarnacion",
+     "partido": "FP"
+    },
+    {
+     "nombre": "Carmela Guzman Encarnacion",
+     "partido": "PRM"
+    },
+    {
+     "nombre": "Seneido Encarnacion Encarnacion",
+     "partido": "PRM"
+    }
+   ]
+  }
+ }
+}
