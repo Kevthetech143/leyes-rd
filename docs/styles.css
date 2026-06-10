@@ -191,6 +191,16 @@ main { max-width: 720px; margin: 0 auto; padding: 0 14px 40px; }
 }
 .leyenda-item { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; }
 
+/* Leyes intro — source note + how-to + legend grouped into one tight box so
+   the law sectors aren't pushed down by three stacked explainer boxes. */
+.leyes-intro { padding: 14px; }
+.leyes-intro-comofunciona { margin: 0 0 10px; }
+.leyes-intro .leyenda {
+  box-shadow: none; border-color: #d6deff; background: #f7f9ff;
+  margin: 0 0 10px; padding: 10px 12px;
+}
+.leyes-intro-fuente { margin: 0; font-size: .85rem; color: #2c3a6e; }
+
 /* Sectores */
 .sector {
   background: var(--tarjeta); border-radius: var(--radio);

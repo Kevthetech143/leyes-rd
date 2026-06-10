@@ -140,19 +140,16 @@
     <section id="view-leyes" class="view hidden sec-leyes">
       <h2 class="seccion-titulo">📜 Las Leyes</h2>
       <p class="seccion-desc">Lo que se propone y se aprueba en el país, contado fácil y ordenado por tema.</p>
-      <!-- Source/honesty note: real Senate data; per-legislator votes not yet public -->
-      <div id="fuenteBanner" class="info-banner">
-        ℹ️ Datos reales del <b>Senado de la República Dominicana</b> (recogidos en junio de 2026). El voto de cada legislador todavía no es público.
-      </div>
-      <div class="como">
-        <b>¿Cómo funciona?</b> Las leyes están ordenadas por <b>tema</b>, no por números.
-        Toca un tema, luego una ley, y verás <b>qué dice</b> y <b>en qué estado va</b>.
-      </div>
-
-      <div class="leyenda">
-        <span class="leyenda-item"><span class="ley-estado estado-aprobada">✅ Aprobada</span> ya es ley o el Senado la aprobó.</span>
-        <span class="leyenda-item"><span class="ley-estado estado-votando">🗳️ En votación</span> todavía se está decidiendo.</span>
-        <span class="leyenda-item"><span class="ley-estado estado-rechazada">❌ Rechazada</span> se cayó o fue archivada.</span>
+      <!-- Source/honesty note + how-to + state legend, grouped into one tight
+           intro box so the law sectors aren't pushed down by three stacked boxes. -->
+      <div class="como leyes-intro">
+        <p class="leyes-intro-comofunciona"><b>¿Cómo funciona?</b> Las leyes están ordenadas por <b>tema</b>, no por números. Toca un tema, luego una ley, y verás <b>qué dice</b> y <b>en qué estado va</b>.</p>
+        <div class="leyenda">
+          <span class="leyenda-item"><span class="ley-estado estado-aprobada">✅ Aprobada</span> ya es ley o el Senado la aprobó.</span>
+          <span class="leyenda-item"><span class="ley-estado estado-votando">🗳️ En votación</span> todavía se está decidiendo.</span>
+          <span class="leyenda-item"><span class="ley-estado estado-rechazada">❌ Rechazada</span> se cayó o fue archivada.</span>
+        </div>
+        <p id="fuenteBanner" class="leyes-intro-fuente">ℹ️ Datos reales del <b>Senado de la República Dominicana</b> (recogidos en junio de 2026). El voto de cada legislador todavía no es público.</p>
       </div>
 
       <details class="transp">
