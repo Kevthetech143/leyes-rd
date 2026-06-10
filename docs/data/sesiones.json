@@ -1,450 +1,504 @@
 {
-  "_nota": "Resultados de sesiones del Senado (actas oficiales, senadord.gob.do). Solo totales y asistencia; el voto por senador no es público. \"Ausentes\" lista a los senadores que presentaron excusa segun el acta; el total de presentes no se indica como cifra en el acta narrativa.",
-  "sesiones": [
+ "_nota": "Resultados de sesiones del Senado (actas oficiales, senadord.gob.do). Solo totales y asistencia; el voto por senador no es público. \"Ausentes\" lista a los senadores que presentaron excusa segun el acta; el total de presentes no se indica como cifra en el acta narrativa.",
+ "sesiones": [
+  {
+   "acta": "0106",
+   "fecha": "2026-04-15",
+   "votaciones": [
     {
-      "acta": "0106",
-      "fecha": "2026-04-15",
-      "votaciones": [
-        {
-          "iniciativa": "00636-2025",
-          "titulo": "Proyecto de ley que crea el sistema nacional de cuidados",
-          "a_favor": 21,
-          "presentes": 25,
-          "resultado": "Aprobado en primera discusión"
-        },
-        {
-          "iniciativa": "01182-2025",
-          "titulo": "Proyecto de ley que designa con el nombre de Vicente Sánchez Baret, el centro cívico provincial para oficinas gubernamentales de la provincia Sánchez Ramírez",
-          "a_favor": 24,
-          "presentes": 26,
-          "resultado": "Aprobado en primera discusión"
-        },
-        {
-          "iniciativa": "01417-2026",
-          "titulo": "Proyecto de ley orgánica que modifica el artículo 12 de la Ley núm. 5-13, del 15 de enero de 2013, sobre discapacidad en la República Dominicana. Deroga la Ley núm. 42-00, de fecha 29 de junio de 2000",
-          "a_favor": 24,
-          "presentes": 25,
-          "resultado": "Aprobado en primera discusión"
-        },
-        {
-          "iniciativa": "01280-2026",
-          "titulo": "Proyecto de ley que modifica el artículo 13 de la Ley núm. 118-21, del 31 de mayo del 2021, sobre terminación de obras viales, escuelas, hospitales y presas que se encuentran suspendidas, modificada por la Ley núm. 83-24, del 13 de diciembre del 2024",
-          "a_favor": 24,
-          "presentes": 25,
-          "resultado": "Aprobado en primera discusión"
-        },
-        {
-          "iniciativa": "01450-2026",
-          "titulo": "Proyecto de ley que modifica los artículos 7 y 10 y deroga el artículo 17 de la Ley núm.70, del 17 de diciembre de 1970, sobre Autoridad Portuaria",
-          "a_favor": 23,
-          "presentes": 24,
-          "resultado": "Aprobado en segunda discusión"
-        },
-        {
-          "iniciativa": "01438-2026",
-          "titulo": "Proyecto de ley que dispone la implementación de detectores de metales en instituciones públicas y privadas de la República Dominicana",
-          "a_favor": 23,
-          "presentes": 24,
-          "resultado": "Aprobado en segunda discusión"
-        },
-        {
-          "iniciativa": "01449-2026",
-          "titulo": "Proyecto de ley que libera de impuesto de importación a las cámaras digitales utilizadas en los sistemas de seguridad",
-          "a_favor": 26,
-          "presentes": 26,
-          "resultado": "Aprobado a unanimidad en segunda discusión con modificación"
-        },
-        {
-          "iniciativa": "01045-2025",
-          "titulo": "Título modificado: Resolución que reconoce a Octavio Antonio Estévez Acosta, “Camboy Estévez”, por su trayectoria y legado artístico de más de 60 años y por ser un referente de la música romántica dominicana",
-          "a_favor": 25,
-          "presentes": 26,
-          "resultado": "Aprobado a unanimidad en única discusión"
-        },
-        {
-          "iniciativa": "01080-2025",
-          "titulo": "Resolución que reconoce al señor Rafael Leónidas Pérez Pérez, por su reconocida trayectoria y aportes como médico, abogado, historiador, escritor, poeta, conferencista, politólogo y militar",
-          "a_favor": 26,
-          "presentes": 26,
-          "resultado": "Aprobado a unanimidad en única discusión"
-        },
-        {
-          "iniciativa": "01108-2025",
-          "titulo": "Título modificado: Resolución que solicita al director ejecutivo del Servicio Nacional de Salud (SNS), Julio César Landrón, la intervención de Unidad de Atención Primaria (UNAP), de la sección de Santa Ana, municipio Villa Tapia, provincia Hermanas Mirabal",
-          "a_favor": 26,
-          "presentes": 26,
-          "resultado": "Aprobado a unanimidad en única discusión"
-        },
-        {
-          "iniciativa": "01165-2025",
-          "titulo": "Título modificado: Resolución que solicita al director ejecutivo del Servicio Nacional de Salud (SNS), doctor Julio César Landrón de la Rosa, la instalación de un Centro de Rehabilitación en la provincia de Elías Piña. 26 votos a favor, 26 S E N A D O REPÚBLICA DOMINICANA Acta núm. 0106, del miércoles 15 de abril de 2026, pág. núm. 76 de 84 Av. Enrique Jiménez Moya Esq. Juan de Dios Ventura Simó, Centro de los Héroes de Constanza, Maimón y Estero Hondo, Santo Domingo de Guzmán, Distrito Nacional, República Dominicana. Departamento Elaboración de Actas. Tel.: 809-532-5561, ext. 5100. senadores presentes para esta votación. Aprobado a unanimidad enúnica discusión. Votación adjunta al acta. 10.8.5 Iniciativa: 01494-2026-PLO-SE Resolución que declara regocijo senatorial, con motivo de la celebración de la Primera Feria Regional del Libro y la Cultura Cibao 2026, que se realizará entre el 19 y el 26 de abril de 2026. Proponentes: Daniel Enrique de Jesús Rivera Reyes; Ricardo De Los Santos Polanco; María Mercedes Ortiz Diloné; Carlos Manuel Gómez Ureña; Manuel María Rodríguez Ortega; Ramón Rogelio Genao Durán; Alexis Victoria Yeb; Bernardo Alemán Rodríguez; Franklin Martín Romero Morillo; Odalis Rafael Rodríguez Rodríguez; Héctor Elpidio Acosta Restituyo; Ginnette Bournigal de Jiménez; Casimiro Antonio Marte Familia. Depositada el 24/03/2026. Senador presidente: Sometemos a votación la Iniciativa núm. 01494-2026 enúnica discusión. A votación. Votación electrónica 025. Sometida a votación la I niciativa núm. 01494-2026, Resolución que declara regocijo senatorial, con motivo de la celebración de la Primera Feria Regional del Libro y la Cultura Cibao 2026, que se realizará entre el 19 y el 26 de abril de 2026",
-          "a_favor": 24,
-          "presentes": 26,
-          "resultado": "Aprobado en única discusión"
-        },
-        {
-          "iniciativa": "01499-2026",
-          "titulo": "Resolución que reconoce al señor Juan José de la Esperanza Colón Rodríguez “Juan Colón” por su destacada trayectoria de más de sesenta años y sus aportes a la música, al arte y a la cultura dominicana",
-          "a_favor": 27,
-          "presentes": 27,
-          "resultado": "Aprobado a unanimidad en única discusión"
-        },
-        {
-          "iniciativa": "01460-2026",
-          "titulo": "Ratificación del nombramiento diplomático de la señora Yolanda S E N A D O REPÚBLICA DOMINICANA Acta núm. 0106, del miércoles 15 de abril de 2026, pág. núm. 78 de 84 Av. Enrique Jiménez Moya Esq. Juan de Dios Ventura Simó, Centro de los Héroes de Constanza, Maimón y Estero Hondo, Santo Domingo de Guzmán, Distrito Nacional, República Dominicana. Departamento Elaboración de Actas. Tel.: 809-532-5561, ext. 5100. Alexandra de Fátima Victoria Álvarez, como embajadora extraordinaria y plenipotenciaria (concurrente), de la República Dominicana ante la Mancomunidad de Dominica, con sede en Antigua y Barbuda. Dispuesto mediante el artículo 2, del Decreto núm. 140-26, del 3 de marzo de 2026",
-          "a_favor": 25,
-          "presentes": 27,
-          "resultado": "Aprobado en única discusión"
-        },
-        {
-          "iniciativa": "01461-2026",
-          "titulo": "Ratificación del nombramiento diplomático de la señora Yolanda Alexandra de Fátima Victoria Álvarez, como embajadora extraordinaria y plenipotenciaria (concurrente), de la República Dominicana en San Cristóbal y Nieves, con sede en Antigua y Barbuda. Dispuesto mediante el artículo 3, del Decreto núm. 140-26, del 3 de marzo de 2026",
-          "a_favor": 25,
-          "presentes": 27,
-          "resultado": "Aprobado en única discusión"
-        },
-        {
-          "iniciativa": "01465-2026",
-          "titulo": "Ratificación del nombramiento diplomático del señor Francisco Manuel Comprés Hernández, como embajador extraordinario y plenipotenciario, concurrente, de la República Dominicana en la República de Maldivas, con sede en la República de la India, dispuesto mediante el artículo 4 del Decreto núm. 140-26, del 3 de marzo de 2026",
-          "a_favor": 25,
-          "presentes": 27,
-          "resultado": "Aprobado en única discusión"
-        },
-        {
-          "iniciativa": "01466-2026",
-          "titulo": "Ratificación del nombramiento diplomático de la señora Nancy Patricia Franjul Pérez, como embajadora, representante permanente, de la República Dominicana ante la Autoridad Internacional de los Fondos Marinos, dispuesto mediante el artículo 1 del Decreto núm. 68 –26, del 6 de febrero de 2026",
-          "a_favor": 26,
-          "presentes": 27,
-          "resultado": "Aprobado en única discusión"
-        },
-        {
-          "iniciativa": "01326-2026",
-          "titulo": "Resolución que solicita al ministro de Educación, Luis Miguel De Camps García-Mella, y al Consejo Nacional S E N A D O REPÚBLICA DOMINICANA Acta núm. 0106, del miércoles 15 de abril de 2026, pág. núm. 81 de 84 Av. Enrique Jiménez Moya Esq. Juan de Dios Ventura Simó, Centro de los Héroes de Constanza, Maimón y Estero Hondo, Santo Domingo de Guzmán, Distrito Nacional, República Dominicana. Departamento Elaboración de Actas. Tel.: 809-532-5561, ext. 5100. de Educación, la implementación, en el sistema educativo dominicano de programas y contenidos sobre educación política",
-          "a_favor": 23,
-          "presentes": 27,
-          "resultado": "Aprobado en única discusión"
-        }
-      ],
-      "asistencia": {
-        "presentes": null,
-        "ausentes": 5,
-        "detalle": [
-          {
-            "nombre": "Rafael Barón Duluc Rijo",
-            "estado": "excusado"
-          },
-          {
-            "nombre": "Bernardo Alemán Rodríguez",
-            "estado": "excusado"
-          },
-          {
-            "nombre": "Félix Ramón Bautista Rosario",
-            "estado": "excusado"
-          },
-          {
-            "nombre": "Héctor Elpidio Acosta Restituyo",
-            "estado": "excusado"
-          },
-          {
-            "nombre": "Ginnette Altagracia Bournigal Socías de Jiménez",
-            "estado": "excusado"
-          }
-        ]
-      }
+     "iniciativa": "00636-2025",
+     "titulo": "Proyecto de ley que crea el sistema nacional de cuidados",
+     "a_favor": 21,
+     "presentes": 25,
+     "resultado": "Aprobado en primera discusión",
+     "titulo_facil": "Crear un sistema nacional para cuidar a niños, envejecientes y personas con discapacidad"
     },
     {
-      "acta": "0105",
-      "fecha": "2026-03-24",
-      "votaciones": [
-        {
-          "iniciativa": "01450-2026",
-          "titulo": "Proyecto de ley que modifica los artículos 7 y 10 y deroga el artículo 17 de la Ley núm.70, del 17 de diciembre de 1970, sobre Autoridad Portuaria",
-          "a_favor": 29,
-          "presentes": 29,
-          "resultado": "Aprobada a unanimidad en primera discusión"
-        },
-        {
-          "iniciativa": "01449-2026",
-          "titulo": "Proyecto de ley que libera de impuesto de importación a las cámaras digitales utilizadas en los sistemas de seguridad",
-          "a_favor": 28,
-          "presentes": 29,
-          "resultado": "Aprobada en primera discusión"
-        },
-        {
-          "iniciativa": "01434-2026",
-          "titulo": "Proyecto de ley que declara el 6 de agosto de cada año como “Día nacional del atletismo",
-          "a_favor": 27,
-          "presentes": 29,
-          "resultado": "Aprobada en segunda discusión"
-        },
-        {
-          "iniciativa": "01365-2026",
-          "titulo": "Proyecto de ley que crea el Sistema Nacional de Registro de Ácido Desoxirribonucleico (ADN)",
-          "a_favor": 25,
-          "presentes": 29,
-          "resultado": "Aprobada en segunda discusión"
-        },
-        {
-          "iniciativa": "01368-2026",
-          "titulo": "Proyecto de ley que crea el Parque Nacional Loma Miranda",
-          "a_favor": 29,
-          "presentes": 29,
-          "resultado": "Aprobada a unanimidad en segunda discusión"
-        },
-        {
-          "iniciativa": "01330-2026",
-          "titulo": "Proyecto de ley para el fomento, desarrollo y competitividad de la artesanía",
-          "a_favor": 25,
-          "presentes": 28,
-          "resultado": "Aprobada en segunda discusión"
-        },
-        {
-          "iniciativa": "01360-2026",
-          "titulo": "Proyecto de ley que declara monumentos arquitectónicos varias iglesias de nuestro país y modifica la ley núm.492 del 27 de octubre de 1969, que declara ciudad colonial de Santo Domingo de Guzmán, la zona declarada por Decreto núm.1650 del 13 de septiembre de 1967",
-          "a_favor": 27,
-          "presentes": 28,
-          "resultado": "Aprobada en segunda discusión"
-        },
-        {
-          "iniciativa": "00899-2025",
-          "titulo": "Resolución que reconoce al señor Iván Ruiz, por su destacada trayectoria en la televisión nacional y su contribución al desarrollo de los medios de comunicación en la República Dominicana",
-          "a_favor": 26,
-          "presentes": 28,
-          "resultado": "No indicado"
-        },
-        {
-          "iniciativa": "00913-2025",
-          "titulo": "Título modificado: Resolución que solicita al ministro de Energía y Minas, Joel Adrián Santos Echavarría, la renovación de la electrificación de los barrios que integran el poblado del Valle, provincia de Hato Mayor",
-          "a_favor": 27,
-          "presentes": 28,
-          "resultado": "No indicado"
-        },
-        {
-          "iniciativa": "00928-2025",
-          "titulo": "Resolución que reconoce a José Alberto Justiniano Andújar Ramírez, por sus cincuenta años de trayectoria artística",
-          "a_favor": 25,
-          "presentes": 28,
-          "resultado": "No indicado"
-        },
-        {
-          "iniciativa": "01088-2025",
-          "titulo": "Resolución que reconoce al señor Luis Menieur, por su destacada trayectoria, sus aportes en la industria de la moda y el modelaje, y su compromiso social en la República Dominicana",
-          "a_favor": 28,
-          "presentes": 28,
-          "resultado": "No indicado"
-        },
-        {
-          "iniciativa": "01150-2025",
-          "titulo": "Título modificado: Resolución que solicita al director ejecutivo del Servicio Nacional de Salud (SNS), Julio César Landrón de la Rosa, la instalación de un Centro de Primer Nivel de Atención (CPN), en el paraje Los Higos, sección Palo Quemado, municipio de Santiago, provincia de Santiago",
-          "a_favor": 28,
-          "presentes": 28,
-          "resultado": "Aprobada unanimidad en única discusión"
-        },
-        {
-          "iniciativa": "01199-2025",
-          "titulo": "Título modificado: Resolución que felicita a la ciudad de Salcedo, por haber cumplido 145 años de fundación",
-          "a_favor": 25,
-          "presentes": 28,
-          "resultado": "Aprobada en única discusión"
-        },
-        {
-          "iniciativa": "00117-2024",
-          "titulo": "Resolución que reconoce a Ángela Hernández Núñez por su valiosa contribución a la literatura y la poesía dominicanas, y por su compromiso con la defensa de los derechos humanos y la equidad social. 27 votos a favor, 28 S E N A D O REPÚBLICA DOMINICANA Acta núm. 00105, del martes 24 de marzo de 2026, pág. núm. 74 de 81 Av. Enrique Jiménez Moya Esq. Juan de Dios Ventura Simó, Centro de los Héroes de Constanza, Maimón y Estero Hondo, Santo Domingo de Guzmán, Distrito Nacional, República Dominicana. Departamento Elaboración de Actas. Tel.: 809-532-5561, ext. 5100. senadores presentes para esta votación. Aprobada enúnica discusión. Votación adjunta al acta. 10.8.9 Iniciativa: 01260-2025-SLO-SE Título modificado: Resolución que solicita al director ejecutivo del Servicio Nacional de Salud (SNS), doctor Julio César Landrón de la Rosa, la instalación de un Centro de Primer Nivel de Atención (CPN) en la comunidad de Buenos Aires, ubicada en el municipio de Neiba, provincia de Bahoruco. Proponente: Andrés Guillermo Lama Pérez. Depositada el 10/12/2025. Tomada en consideración el 16/12/2025. Enviada a comisión el 16/12/2025. en agenda el 18/3/2026. Informe leído con modificaciones el 18/3/2026. Senador presidente: Sometida a votación enúnica discusión la Iniciativa núm. 01260-2025. Votación electrónica 0 30. Sometida a votación la Iniciativa núm. 01260-2025, Título modificado: Resolución que solicita al director ejecutivo del Servicio Nacional de Salud (SNS), doctor Julio César Landrón de la Rosa, la instalación de un Centro de Primer Nivel de Atención (CPN) en la comunidad de Buenos Aires, ubicada en el municipio de Neiba, provincia de Bahoruco",
-          "a_favor": 28,
-          "presentes": 28,
-          "resultado": "No indicado"
-        },
-        {
-          "iniciativa": "01462-2026",
-          "titulo": "Ratificación del nombramiento diplomático del señor Reinaldo Rafael Espinal, como embajador extraordinario y plenipotenciario concurrente de la República Dominicana ante el Reino de Cambodia, con sede en la Republica socialista de Vietnam, mediante el artículo 5 del decreto núm.140-2026, del 3 de marzo de 2026",
-          "a_favor": 28,
-          "presentes": 28,
-          "resultado": "No indicado"
-        },
-        {
-          "iniciativa": "01463-2026",
-          "titulo": "Ratificación del nombramiento diplomático del señor Rafael Antonio S E N A D O REPÚBLICA DOMINICANA Acta núm. 00105, del martes 24 de marzo de 2026, pág. núm. 76 de 81 Av. Enrique Jiménez Moya Esq. Juan de Dios Ventura Simó, Centro de los Héroes de Constanza, Maimón y Estero Hondo, Santo Domingo de Guzmán, Distrito Nacional, República Dominicana. Departamento Elaboración de Actas. Tel.: 809-532-5561, ext. 5100. Lantigua Ciriaco, como embajador extraordinario y plenipotenciario concurrente, de la República Dominicana en la República de San Marino, con sede en la República Italiana, dispuesto mediante el artículo 6 del decreto núm. 140-26, del 3 de marzo de 2026",
-          "a_favor": 27,
-          "presentes": 28,
-          "resultado": "No indicado"
-        },
-        {
-          "iniciativa": "01464-2026",
-          "titulo": "Ratificación de nombramiento diplomático del señor Renso Antonio Herrera Franco, como embajador extraordinario y plenipotenciario concurrente, de la República Dominicana en la República democrática Federal de Etiopía, con sede en los Emiratos Árabes Unidos, dispuesto mediante el artículo 1 del decreto núm. 54–226, del21 de enero de 2026",
-          "a_favor": 28,
-          "presentes": 28,
-          "resultado": "Aprobada a unanimidad en única discusión"
-        },
-        {
-          "iniciativa": "01459-2026",
-          "titulo": "Ratificación del nombramiento diplomático del señor Francisco Manuel Comprés Hernández, como embajador extraordinario y plenipotenciario, concurrente de la República Dominicana en la República Democrática Socialista de Sri Lank, con sede en la República de la India, dispuesto mediante el artículo 1 del decreto núm. 140-26, del 3 de marzo de 2026",
-          "a_favor": 28,
-          "presentes": 28,
-          "resultado": "Aprobada a unanimidad en única discusión"
-        },
-        {
-          "iniciativa": "01468-2026",
-          "titulo": "Resolución que solicita al presidente de la República Luis Rodolfo Abinader Corona, la construcción de un nuevo palacio de la Policía, en la provincia de Montecristi con sede en el municipio Cabecera de San Fernando de Montecristi Rep. Dom",
-          "a_favor": 27,
-          "presentes": 28,
-          "resultado": "Aprobado en única discusión"
-        }
-      ],
-      "asistencia": {
-        "presentes": null,
-        "ausentes": 0,
-        "detalle": []
-      }
+     "iniciativa": "01182-2025",
+     "titulo": "Proyecto de ley que designa con el nombre de Vicente Sánchez Baret, el centro cívico provincial para oficinas gubernamentales de la provincia Sánchez Ramírez",
+     "a_favor": 24,
+     "presentes": 26,
+     "resultado": "Aprobado en primera discusión",
+     "titulo_facil": "Ponerle el nombre 'Vicente Sánchez Baret' al centro de oficinas públicas de Sánchez Ramírez"
     },
     {
-      "acta": "0104",
-      "fecha": "2026-03-18",
-      "votaciones": [
-        {
-          "iniciativa": "01291-2026",
-          "titulo": "Proyecto de ley de eficiencia energética",
-          "a_favor": 22,
-          "presentes": 24,
-          "resultado": "Aprobado en primera discusión"
-        },
-        {
-          "iniciativa": "01434-2026",
-          "titulo": "Proyecto de ley que declara el 6 de agosto de cada año como “Dia Nacional del Atletismo”",
-          "a_favor": 22,
-          "presentes": 24,
-          "resultado": "Aprobado en primera discusión"
-        },
-        {
-          "iniciativa": "01423-2026",
-          "titulo": "Proyecto de ley que regula el embargo retentivo en la República Dominicana",
-          "a_favor": 24,
-          "presentes": 24,
-          "resultado": "Aprobado a unanimidad en primera discusión"
-        },
-        {
-          "iniciativa": "01365-2026",
-          "titulo": "Proyecto de ley que crea el sistema nacional de registro de Ácido Desoxirribonucleico (ADN)",
-          "a_favor": 24,
-          "presentes": 25,
-          "resultado": "Aprobado en primera discusión"
-        },
-        {
-          "iniciativa": "01368-2026",
-          "titulo": "Proyecto de ley que crea el Parque Nacional Loma Miranda",
-          "a_favor": 23,
-          "presentes": 25,
-          "resultado": "Aprobado en primera discusión"
-        },
-        {
-          "iniciativa": "01330-2026",
-          "titulo": "Proyecto de ley para el fomento, desarrollo y competitividad de la artesanía",
-          "a_favor": 23,
-          "presentes": 25,
-          "resultado": "Aprobado en primera discusión"
-        },
-        {
-          "iniciativa": "01360-2026",
-          "titulo": "Proyecto de ley S E N A D O REPÚBLICA DOMINICANA Acta núm. 0104, del miércoles 18 de marzo de 2026, pág. núm. 74 de 97 Av. Enrique Jiménez Moya Esq. Juan de Dios Ventura Simó, Centro de los Héroes de Constanza, Maimón y Estero Hondo, Santo Domingo de Guzmán, Distrito Nacional, República Dominicana. Departamento Elaboración de Actas. Tel.: 809-532-5561, ext. 5100. que declara monumentos arquitectónicos varias iglesias de nuestro país y modifica la Ley núm. 492 del 27 de octubre de 1969, que declara Ciudad Colonial de Santo Domingo de Guzmán, la zona declarada por Decreto núm. 1650 del 13 de septiembre de 1967",
-          "a_favor": 26,
-          "presentes": 26,
-          "resultado": "Aprobado a unanimidad en primera discusión"
-        },
-        {
-          "iniciativa": "01187-2025",
-          "titulo": "Título modificado: Ley que modifica los artículos 5, 12 y 14 de la Ley núm. 339-22, que habilita y regula el uso de medios digitales para los procesos judiciales y procedimientos administrativos del Poder Judicial",
-          "a_favor": 23,
-          "presentes": 26,
-          "resultado": "Aprobado en segunda discusión"
-        },
-        {
-          "iniciativa": "01404-2026",
-          "titulo": "Proyecto de ley que crea el colegio de contadores públicos autorizados de la República Dominicana",
-          "a_favor": 23,
-          "presentes": 26,
-          "resultado": "Aprobado en segunda discusión"
-        },
-        {
-          "iniciativa": "01295-2026",
-          "titulo": "Proyecto de ley que establece los actos correspondientes a los Poderes Ejecutivo y Legislativo a ser publicados en la Gaceta Oficial",
-          "a_favor": 24,
-          "presentes": 26,
-          "resultado": "Aprobado en segunda discusión"
-        },
-        {
-          "iniciativa": "01310-2026",
-          "titulo": "Proyecto de ley que modifica los artículos 14 y 21, de la Ley núm.631-16, del 2 de agosto de 2016, para el Control y Regulación de Armas, Municiones y Materiales Relacionados",
-          "a_favor": 25,
-          "presentes": 26,
-          "resultado": "Aprobado en segunda discusión"
-        },
-        {
-          "iniciativa": "01332-2026",
-          "titulo": "Proyecto de ley que designa con el nombre de “Profesor Elpidio Encarnación” la pista de atletismo ubicada en el complejo deportivo de la provincia La Romana",
-          "a_favor": 25,
-          "presentes": 26,
-          "resultado": "Aprobado en segunda discusión"
-        },
-        {
-          "iniciativa": "01311-2026",
-          "titulo": "Proyecto de ley que ordena la colocación del valor energético de los alimentos en restaurantes y otros lugares de expendio",
-          "a_favor": 24,
-          "presentes": 26,
-          "resultado": "Aprobado en segunda discusión"
-        },
-        {
-          "iniciativa": "01357-2026",
-          "titulo": "Proyecto de ley que declara La Procesión de la Divina Pastora como Patrimonio Cultural Inmaterial de la Nación Dominicana y La Iglesia Divina Pastora como Patrimonio Monumental",
-          "a_favor": 24,
-          "presentes": 26,
-          "resultado": "Aprobado en segunda discusión"
-        },
-        {
-          "iniciativa": "01337-2026",
-          "titulo": "Proyecto de ley que declara Patrimonio Cultural Inmaterial de la Nación Dominicana La Hermandad de los Toreros de la Virgen de La Altagracia. 25 votos S E N A D O REPÚBLICA DOMINICANA Acta núm. 0104, del miércoles 18 de marzo de 2026, pág. núm. 89 de 97 Av. Enrique Jiménez Moya Esq. Juan de Dios Ventura Simó, Centro de los Héroes de Constanza, Maimón y Estero Hondo, Santo Domingo de Guzmán, Distrito Nacional, República Dominicana. Departamento Elaboración de Actas. Tel.: 809-532-5561, ext. 5100. a favor, 26 senadores presentes para esta votación. Aprobado en segunda discusión. Votación adjunta al acta. Senador presidente: Aprobado en segunda discusión. 10.8 Iniciativas paraúnica discusión siguiendo el orden de precedencia en cuanto a la entrega de informes Senador presidente: No teniendo más iniciativas para segunda discusión, tenemos tres iniciativas (que fueron leíd osíntegramente sus informes) paraúnica discusión; vamos a someter la liberación de lectura de estas tres iniciativas, que son la 01469-2026, la 00837-2025 y la 01412-2026. A votación la liberación de lectura. Votación electrónica 0 24. Sometida a votación la propuesta del senador presidente, Ricardo De Los Santos Polanco, para liberar de lectura las siguientes Iniciativas: 01469-2026, Resolución que dispone la posposición del traslado del Pleno del Senado de la República a la ciudad de Santiago de los Caballeros, del 30 de marzo de 2026 al 30 de marzo de 2027, con motivo de la conmemoración de La Batalla de Santiago; 00837-2025, Resolución que solicita al ministro de Educación, Luis Miguel De Camps García- Mella, la instalación de aulas móviles de educación en el municipio de Las Terrenas, provincia de Samaná; 01412-2026, Adenda núm. 3 al contrato de Fideicomiso del Fondo Nacional de la Vivienda (FONVIVIENDA), suscrita entre el Estado Dominicano, debidamente representado, y la S E N A D O REPÚBLICA DOMINICANA Acta núm. 0104, del miércoles 18 de marzo de 2026, pág. núm. 90 de 97 Av. Enrique Jiménez Moya Esq. Juan de Dios Ventura Simó, Centro de los Héroes de Constanza, Maimón y Estero Hondo, Santo Domingo de Guzmán, Distrito Nacional, República Dominicana. Departamento Elaboración de Actas. Tel.: 809-532-5561, ext. 5100. Fiduciaria Reservas, S. A",
-          "a_favor": 25,
-          "presentes": 26,
-          "resultado": "Aprobada"
-        },
-        {
-          "iniciativa": "01469-2026",
-          "titulo": "Resolución que dispone la posposición del traslado del Pleno del Senado de la República a la ciudad de Santiago de los Caballeros, del 30 de marzo de 2026 al 30 de marzo de 2027, con motivo de la conmemoración de La Batalla de Santiago",
-          "a_favor": 25,
-          "presentes": 26,
-          "resultado": "Aprobado en única discusión"
-        },
-        {
-          "iniciativa": "00837-2025",
-          "titulo": "Resolución que solicita al ministro de Educación, Luis Miguel de Camps García -Mella, la instalación de aulas móviles de educación en el municipio de Las Terrenas, provincia de Samaná",
-          "a_favor": 25,
-          "presentes": 26,
-          "resultado": "Aprobado en única discusión"
-        },
-        {
-          "iniciativa": "01412-2026",
-          "titulo": "Adenda núm. 3 al contrato de Fideicomiso del Fondo Nacional de la Vivienda (FONVIVIENDA), suscrita entre el Estado Dominicano, debidamente representado, y la Fiduciaria Reservas, S.A",
-          "a_favor": 22,
-          "presentes": 26,
-          "resultado": "Aprobado en única discusión"
-        }
-      ],
-      "asistencia": {
-        "presentes": null,
-        "ausentes": 3,
-        "detalle": [
-          {
-            "nombre": "Héctor Elpidio Acosta Restituyo",
-            "estado": "excusado"
-          },
-          {
-            "nombre": "Secundino Velázquez Pimentel",
-            "estado": "excusado"
-          },
-          {
-            "nombre": "Pedro Antonio Tineo Núñez",
-            "estado": "excusado"
-          }
-        ]
-      }
+     "iniciativa": "01417-2026",
+     "titulo": "Proyecto de ley orgánica que modifica el artículo 12 de la Ley núm. 5-13, del 15 de enero de 2013, sobre discapacidad en la República Dominicana. Deroga la Ley núm. 42-00, de fecha 29 de junio de 2000",
+     "a_favor": 24,
+     "presentes": 25,
+     "resultado": "Aprobado en primera discusión",
+     "titulo_facil": "Actualizar la ley sobre discapacidad"
+    },
+    {
+     "iniciativa": "01280-2026",
+     "titulo": "Proyecto de ley que modifica el artículo 13 de la Ley núm. 118-21, del 31 de mayo del 2021, sobre terminación de obras viales, escuelas, hospitales y presas que se encuentran suspendidas, modificada por la Ley núm. 83-24, del 13 de diciembre del 2024",
+     "a_favor": 24,
+     "presentes": 25,
+     "resultado": "Aprobado en primera discusión",
+     "titulo_facil": "Ajustar la ley para terminar obras paradas: escuelas, hospitales, carreteras y presas"
+    },
+    {
+     "iniciativa": "01450-2026",
+     "titulo": "Proyecto de ley que modifica los artículos 7 y 10 y deroga el artículo 17 de la Ley núm.70, del 17 de diciembre de 1970, sobre Autoridad Portuaria",
+     "a_favor": 23,
+     "presentes": 24,
+     "resultado": "Aprobado en segunda discusión",
+     "titulo_facil": "Cambiar las reglas de la Autoridad de los Puertos"
+    },
+    {
+     "iniciativa": "01438-2026",
+     "titulo": "Proyecto de ley que dispone la implementación de detectores de metales en instituciones públicas y privadas de la República Dominicana",
+     "a_favor": 23,
+     "presentes": 24,
+     "resultado": "Aprobado en segunda discusión",
+     "titulo_facil": "Poner detectores de metales en instituciones públicas y privadas"
+    },
+    {
+     "iniciativa": "01449-2026",
+     "titulo": "Proyecto de ley que libera de impuesto de importación a las cámaras digitales utilizadas en los sistemas de seguridad",
+     "a_favor": 26,
+     "presentes": 26,
+     "resultado": "Aprobado a unanimidad en segunda discusión con modificación",
+     "titulo_facil": "Quitar el impuesto de importación a las cámaras de seguridad"
+    },
+    {
+     "iniciativa": "01045-2025",
+     "titulo": "Título modificado: Resolución que reconoce a Octavio Antonio Estévez Acosta, “Camboy Estévez”, por su trayectoria y legado artístico de más de 60 años y por ser un referente de la música romántica dominicana",
+     "a_favor": 25,
+     "presentes": 26,
+     "resultado": "Aprobado a unanimidad en única discusión",
+     "titulo_facil": "Homenaje al artista Camboy Estévez"
+    },
+    {
+     "iniciativa": "01080-2025",
+     "titulo": "Resolución que reconoce al señor Rafael Leónidas Pérez Pérez, por su reconocida trayectoria y aportes como médico, abogado, historiador, escritor, poeta, conferencista, politólogo y militar",
+     "a_favor": 26,
+     "presentes": 26,
+     "resultado": "Aprobado a unanimidad en única discusión",
+     "titulo_facil": "Homenaje al médico y escritor Rafael Leónidas Pérez"
+    },
+    {
+     "iniciativa": "01108-2025",
+     "titulo": "Título modificado: Resolución que solicita al director ejecutivo del Servicio Nacional de Salud (SNS), Julio César Landrón, la intervención de Unidad de Atención Primaria (UNAP), de la sección de Santa Ana, municipio Villa Tapia, provincia Hermanas Mirabal",
+     "a_favor": 26,
+     "presentes": 26,
+     "resultado": "Aprobado a unanimidad en única discusión",
+     "titulo_facil": "Pedir al Servicio Nacional de Salud que intervenga una unidad médica"
+    },
+    {
+     "iniciativa": "01165-2025",
+     "titulo": "Título modificado: Resolución que solicita al director ejecutivo del Servicio Nacional de Salud (SNS), doctor Julio César Landrón de la Rosa, la instalación de un Centro de Rehabilitación en la provincia de Elías Piña. 26 votos a favor, 26 S E N A D O REPÚBLICA DOMINICANA Acta núm. 0106, del miércoles 15 de abril de 2026, pág. núm. 76 de 84 Av. Enrique Jiménez Moya Esq. Juan de Dios Ventura Simó, Centro de los Héroes de Constanza, Maimón y Estero Hondo, Santo Domingo de Guzmán, Distrito Nacional, República Dominicana. Departamento Elaboración de Actas. Tel.: 809-532-5561, ext. 5100. senadores presentes para esta votación. Aprobado a unanimidad enúnica discusión. Votación adjunta al acta. 10.8.5 Iniciativa: 01494-2026-PLO-SE Resolución que declara regocijo senatorial, con motivo de la celebración de la Primera Feria Regional del Libro y la Cultura Cibao 2026, que se realizará entre el 19 y el 26 de abril de 2026. Proponentes: Daniel Enrique de Jesús Rivera Reyes; Ricardo De Los Santos Polanco; María Mercedes Ortiz Diloné; Carlos Manuel Gómez Ureña; Manuel María Rodríguez Ortega; Ramón Rogelio Genao Durán; Alexis Victoria Yeb; Bernardo Alemán Rodríguez; Franklin Martín Romero Morillo; Odalis Rafael Rodríguez Rodríguez; Héctor Elpidio Acosta Restituyo; Ginnette Bournigal de Jiménez; Casimiro Antonio Marte Familia. Depositada el 24/03/2026. Senador presidente: Sometemos a votación la Iniciativa núm. 01494-2026 enúnica discusión. A votación. Votación electrónica 025. Sometida a votación la I niciativa núm. 01494-2026, Resolución que declara regocijo senatorial, con motivo de la celebración de la Primera Feria Regional del Libro y la Cultura Cibao 2026, que se realizará entre el 19 y el 26 de abril de 2026",
+     "a_favor": 24,
+     "presentes": 26,
+     "resultado": "Aprobado en única discusión",
+     "titulo_facil": "Pedir al Servicio Nacional de Salud la instalación de un centro médico"
+    },
+    {
+     "iniciativa": "01499-2026",
+     "titulo": "Resolución que reconoce al señor Juan José de la Esperanza Colón Rodríguez “Juan Colón” por su destacada trayectoria de más de sesenta años y sus aportes a la música, al arte y a la cultura dominicana",
+     "a_favor": 27,
+     "presentes": 27,
+     "resultado": "Aprobado a unanimidad en única discusión",
+     "titulo_facil": "Homenaje al músico Juan Colón"
+    },
+    {
+     "iniciativa": "01460-2026",
+     "titulo": "Ratificación del nombramiento diplomático de la señora Yolanda S E N A D O REPÚBLICA DOMINICANA Acta núm. 0106, del miércoles 15 de abril de 2026, pág. núm. 78 de 84 Av. Enrique Jiménez Moya Esq. Juan de Dios Ventura Simó, Centro de los Héroes de Constanza, Maimón y Estero Hondo, Santo Domingo de Guzmán, Distrito Nacional, República Dominicana. Departamento Elaboración de Actas. Tel.: 809-532-5561, ext. 5100. Alexandra de Fátima Victoria Álvarez, como embajadora extraordinaria y plenipotenciaria (concurrente), de la República Dominicana ante la Mancomunidad de Dominica, con sede en Antigua y Barbuda. Dispuesto mediante el artículo 2, del Decreto núm. 140-26, del 3 de marzo de 2026",
+     "a_favor": 25,
+     "presentes": 27,
+     "resultado": "Aprobado en única discusión",
+     "titulo_facil": "Confirmar a una embajadora del país"
+    },
+    {
+     "iniciativa": "01461-2026",
+     "titulo": "Ratificación del nombramiento diplomático de la señora Yolanda Alexandra de Fátima Victoria Álvarez, como embajadora extraordinaria y plenipotenciaria (concurrente), de la República Dominicana en San Cristóbal y Nieves, con sede en Antigua y Barbuda. Dispuesto mediante el artículo 3, del Decreto núm. 140-26, del 3 de marzo de 2026",
+     "a_favor": 25,
+     "presentes": 27,
+     "resultado": "Aprobado en única discusión",
+     "titulo_facil": "Confirmar a la embajadora Yolanda Álvarez"
+    },
+    {
+     "iniciativa": "01465-2026",
+     "titulo": "Ratificación del nombramiento diplomático del señor Francisco Manuel Comprés Hernández, como embajador extraordinario y plenipotenciario, concurrente, de la República Dominicana en la República de Maldivas, con sede en la República de la India, dispuesto mediante el artículo 4 del Decreto núm. 140-26, del 3 de marzo de 2026",
+     "a_favor": 25,
+     "presentes": 27,
+     "resultado": "Aprobado en única discusión",
+     "titulo_facil": "Confirmar al embajador Francisco Comprés"
+    },
+    {
+     "iniciativa": "01466-2026",
+     "titulo": "Ratificación del nombramiento diplomático de la señora Nancy Patricia Franjul Pérez, como embajadora, representante permanente, de la República Dominicana ante la Autoridad Internacional de los Fondos Marinos, dispuesto mediante el artículo 1 del Decreto núm. 68 –26, del 6 de febrero de 2026",
+     "a_favor": 26,
+     "presentes": 27,
+     "resultado": "Aprobado en única discusión",
+     "titulo_facil": "Confirmar a la embajadora Nancy Franjul"
+    },
+    {
+     "iniciativa": "01326-2026",
+     "titulo": "Resolución que solicita al ministro de Educación, Luis Miguel De Camps García-Mella, y al Consejo Nacional S E N A D O REPÚBLICA DOMINICANA Acta núm. 0106, del miércoles 15 de abril de 2026, pág. núm. 81 de 84 Av. Enrique Jiménez Moya Esq. Juan de Dios Ventura Simó, Centro de los Héroes de Constanza, Maimón y Estero Hondo, Santo Domingo de Guzmán, Distrito Nacional, República Dominicana. Departamento Elaboración de Actas. Tel.: 809-532-5561, ext. 5100. de Educación, la implementación, en el sistema educativo dominicano de programas y contenidos sobre educación política",
+     "a_favor": 23,
+     "presentes": 27,
+     "resultado": "Aprobado en única discusión",
+     "titulo_facil": "Petición al Ministerio de Educación"
     }
-  ]
+   ],
+   "asistencia": {
+    "presentes": null,
+    "ausentes": 5,
+    "detalle": [
+     {
+      "nombre": "Rafael Barón Duluc Rijo",
+      "estado": "excusado"
+     },
+     {
+      "nombre": "Bernardo Alemán Rodríguez",
+      "estado": "excusado"
+     },
+     {
+      "nombre": "Félix Ramón Bautista Rosario",
+      "estado": "excusado"
+     },
+     {
+      "nombre": "Héctor Elpidio Acosta Restituyo",
+      "estado": "excusado"
+     },
+     {
+      "nombre": "Ginnette Altagracia Bournigal Socías de Jiménez",
+      "estado": "excusado"
+     }
+    ]
+   }
+  },
+  {
+   "acta": "0105",
+   "fecha": "2026-03-24",
+   "votaciones": [
+    {
+     "iniciativa": "01450-2026",
+     "titulo": "Proyecto de ley que modifica los artículos 7 y 10 y deroga el artículo 17 de la Ley núm.70, del 17 de diciembre de 1970, sobre Autoridad Portuaria",
+     "a_favor": 29,
+     "presentes": 29,
+     "resultado": "Aprobada a unanimidad en primera discusión",
+     "titulo_facil": "Cambiar las reglas de la Autoridad de los Puertos"
+    },
+    {
+     "iniciativa": "01449-2026",
+     "titulo": "Proyecto de ley que libera de impuesto de importación a las cámaras digitales utilizadas en los sistemas de seguridad",
+     "a_favor": 28,
+     "presentes": 29,
+     "resultado": "Aprobada en primera discusión",
+     "titulo_facil": "Quitar el impuesto de importación a las cámaras de seguridad"
+    },
+    {
+     "iniciativa": "01434-2026",
+     "titulo": "Proyecto de ley que declara el 6 de agosto de cada año como “Día nacional del atletismo",
+     "a_favor": 27,
+     "presentes": 29,
+     "resultado": "Aprobada en segunda discusión",
+     "titulo_facil": "Declarar el 6 de agosto como Día Nacional del Atletismo"
+    },
+    {
+     "iniciativa": "01365-2026",
+     "titulo": "Proyecto de ley que crea el Sistema Nacional de Registro de Ácido Desoxirribonucleico (ADN)",
+     "a_favor": 25,
+     "presentes": 29,
+     "resultado": "Aprobada en segunda discusión",
+     "titulo_facil": "Crear un registro nacional de ADN"
+    },
+    {
+     "iniciativa": "01368-2026",
+     "titulo": "Proyecto de ley que crea el Parque Nacional Loma Miranda",
+     "a_favor": 29,
+     "presentes": 29,
+     "resultado": "Aprobada a unanimidad en segunda discusión",
+     "titulo_facil": "Crear el Parque Nacional Loma Miranda"
+    },
+    {
+     "iniciativa": "01330-2026",
+     "titulo": "Proyecto de ley para el fomento, desarrollo y competitividad de la artesanía",
+     "a_favor": 25,
+     "presentes": 28,
+     "resultado": "Aprobada en segunda discusión",
+     "titulo_facil": "Apoyar y desarrollar la artesanía dominicana"
+    },
+    {
+     "iniciativa": "01360-2026",
+     "titulo": "Proyecto de ley que declara monumentos arquitectónicos varias iglesias de nuestro país y modifica la ley núm.492 del 27 de octubre de 1969, que declara ciudad colonial de Santo Domingo de Guzmán, la zona declarada por Decreto núm.1650 del 13 de septiembre de 1967",
+     "a_favor": 27,
+     "presentes": 28,
+     "resultado": "Aprobada en segunda discusión",
+     "titulo_facil": "Declarar varias iglesias del país como monumentos"
+    },
+    {
+     "iniciativa": "00899-2025",
+     "titulo": "Resolución que reconoce al señor Iván Ruiz, por su destacada trayectoria en la televisión nacional y su contribución al desarrollo de los medios de comunicación en la República Dominicana",
+     "a_favor": 26,
+     "presentes": 28,
+     "resultado": "No indicado",
+     "titulo_facil": "Homenaje al comunicador Iván Ruiz"
+    },
+    {
+     "iniciativa": "00913-2025",
+     "titulo": "Título modificado: Resolución que solicita al ministro de Energía y Minas, Joel Adrián Santos Echavarría, la renovación de la electrificación de los barrios que integran el poblado del Valle, provincia de Hato Mayor",
+     "a_favor": 27,
+     "presentes": 28,
+     "resultado": "No indicado",
+     "titulo_facil": "Pedir renovar la electricidad de varios barrios"
+    },
+    {
+     "iniciativa": "00928-2025",
+     "titulo": "Resolución que reconoce a José Alberto Justiniano Andújar Ramírez, por sus cincuenta años de trayectoria artística",
+     "a_favor": 25,
+     "presentes": 28,
+     "resultado": "No indicado",
+     "titulo_facil": "Homenaje al artista José Andújar por sus 50 años de carrera"
+    },
+    {
+     "iniciativa": "01088-2025",
+     "titulo": "Resolución que reconoce al señor Luis Menieur, por su destacada trayectoria, sus aportes en la industria de la moda y el modelaje, y su compromiso social en la República Dominicana",
+     "a_favor": 28,
+     "presentes": 28,
+     "resultado": "No indicado",
+     "titulo_facil": "Homenaje a Luis Menieur, figura de la moda"
+    },
+    {
+     "iniciativa": "01150-2025",
+     "titulo": "Título modificado: Resolución que solicita al director ejecutivo del Servicio Nacional de Salud (SNS), Julio César Landrón de la Rosa, la instalación de un Centro de Primer Nivel de Atención (CPN), en el paraje Los Higos, sección Palo Quemado, municipio de Santiago, provincia de Santiago",
+     "a_favor": 28,
+     "presentes": 28,
+     "resultado": "Aprobada unanimidad en única discusión",
+     "titulo_facil": "Pedir al Servicio Nacional de Salud la instalación de un centro médico"
+    },
+    {
+     "iniciativa": "01199-2025",
+     "titulo": "Título modificado: Resolución que felicita a la ciudad de Salcedo, por haber cumplido 145 años de fundación",
+     "a_favor": 25,
+     "presentes": 28,
+     "resultado": "Aprobada en única discusión",
+     "titulo_facil": "Felicitar a la ciudad de Salcedo por sus 145 años"
+    },
+    {
+     "iniciativa": "00117-2024",
+     "titulo": "Resolución que reconoce a Ángela Hernández Núñez por su valiosa contribución a la literatura y la poesía dominicanas, y por su compromiso con la defensa de los derechos humanos y la equidad social. 27 votos a favor, 28 S E N A D O REPÚBLICA DOMINICANA Acta núm. 00105, del martes 24 de marzo de 2026, pág. núm. 74 de 81 Av. Enrique Jiménez Moya Esq. Juan de Dios Ventura Simó, Centro de los Héroes de Constanza, Maimón y Estero Hondo, Santo Domingo de Guzmán, Distrito Nacional, República Dominicana. Departamento Elaboración de Actas. Tel.: 809-532-5561, ext. 5100. senadores presentes para esta votación. Aprobada enúnica discusión. Votación adjunta al acta. 10.8.9 Iniciativa: 01260-2025-SLO-SE Título modificado: Resolución que solicita al director ejecutivo del Servicio Nacional de Salud (SNS), doctor Julio César Landrón de la Rosa, la instalación de un Centro de Primer Nivel de Atención (CPN) en la comunidad de Buenos Aires, ubicada en el municipio de Neiba, provincia de Bahoruco. Proponente: Andrés Guillermo Lama Pérez. Depositada el 10/12/2025. Tomada en consideración el 16/12/2025. Enviada a comisión el 16/12/2025. en agenda el 18/3/2026. Informe leído con modificaciones el 18/3/2026. Senador presidente: Sometida a votación enúnica discusión la Iniciativa núm. 01260-2025. Votación electrónica 0 30. Sometida a votación la Iniciativa núm. 01260-2025, Título modificado: Resolución que solicita al director ejecutivo del Servicio Nacional de Salud (SNS), doctor Julio César Landrón de la Rosa, la instalación de un Centro de Primer Nivel de Atención (CPN) en la comunidad de Buenos Aires, ubicada en el municipio de Neiba, provincia de Bahoruco",
+     "a_favor": 28,
+     "presentes": 28,
+     "resultado": "No indicado",
+     "titulo_facil": "Homenaje a la escritora Ángela Hernández"
+    },
+    {
+     "iniciativa": "01462-2026",
+     "titulo": "Ratificación del nombramiento diplomático del señor Reinaldo Rafael Espinal, como embajador extraordinario y plenipotenciario concurrente de la República Dominicana ante el Reino de Cambodia, con sede en la Republica socialista de Vietnam, mediante el artículo 5 del decreto núm.140-2026, del 3 de marzo de 2026",
+     "a_favor": 28,
+     "presentes": 28,
+     "resultado": "No indicado",
+     "titulo_facil": "Confirmar al embajador Reinaldo Espinal"
+    },
+    {
+     "iniciativa": "01463-2026",
+     "titulo": "Ratificación del nombramiento diplomático del señor Rafael Antonio S E N A D O REPÚBLICA DOMINICANA Acta núm. 00105, del martes 24 de marzo de 2026, pág. núm. 76 de 81 Av. Enrique Jiménez Moya Esq. Juan de Dios Ventura Simó, Centro de los Héroes de Constanza, Maimón y Estero Hondo, Santo Domingo de Guzmán, Distrito Nacional, República Dominicana. Departamento Elaboración de Actas. Tel.: 809-532-5561, ext. 5100. Lantigua Ciriaco, como embajador extraordinario y plenipotenciario concurrente, de la República Dominicana en la República de San Marino, con sede en la República Italiana, dispuesto mediante el artículo 6 del decreto núm. 140-26, del 3 de marzo de 2026",
+     "a_favor": 27,
+     "presentes": 28,
+     "resultado": "No indicado",
+     "titulo_facil": "Confirmar a un embajador del país"
+    },
+    {
+     "iniciativa": "01464-2026",
+     "titulo": "Ratificación de nombramiento diplomático del señor Renso Antonio Herrera Franco, como embajador extraordinario y plenipotenciario concurrente, de la República Dominicana en la República democrática Federal de Etiopía, con sede en los Emiratos Árabes Unidos, dispuesto mediante el artículo 1 del decreto núm. 54–226, del21 de enero de 2026",
+     "a_favor": 28,
+     "presentes": 28,
+     "resultado": "Aprobada a unanimidad en única discusión",
+     "titulo_facil": "Confirmar al embajador Renso Herrera"
+    },
+    {
+     "iniciativa": "01459-2026",
+     "titulo": "Ratificación del nombramiento diplomático del señor Francisco Manuel Comprés Hernández, como embajador extraordinario y plenipotenciario, concurrente de la República Dominicana en la República Democrática Socialista de Sri Lank, con sede en la República de la India, dispuesto mediante el artículo 1 del decreto núm. 140-26, del 3 de marzo de 2026",
+     "a_favor": 28,
+     "presentes": 28,
+     "resultado": "Aprobada a unanimidad en única discusión",
+     "titulo_facil": "Confirmar al embajador Francisco Comprés"
+    },
+    {
+     "iniciativa": "01468-2026",
+     "titulo": "Resolución que solicita al presidente de la República Luis Rodolfo Abinader Corona, la construcción de un nuevo palacio de la Policía, en la provincia de Montecristi con sede en el municipio Cabecera de San Fernando de Montecristi Rep. Dom",
+     "a_favor": 27,
+     "presentes": 28,
+     "resultado": "Aprobado en única discusión",
+     "titulo_facil": "Pedir un nuevo palacio de la Policía en Montecristi"
+    }
+   ],
+   "asistencia": {
+    "presentes": null,
+    "ausentes": 0,
+    "detalle": []
+   }
+  },
+  {
+   "acta": "0104",
+   "fecha": "2026-03-18",
+   "votaciones": [
+    {
+     "iniciativa": "01291-2026",
+     "titulo": "Proyecto de ley de eficiencia energética",
+     "a_favor": 22,
+     "presentes": 24,
+     "resultado": "Aprobado en primera discusión",
+     "titulo_facil": "Ley para ahorrar energía (eficiencia energética)"
+    },
+    {
+     "iniciativa": "01434-2026",
+     "titulo": "Proyecto de ley que declara el 6 de agosto de cada año como “Dia Nacional del Atletismo”",
+     "a_favor": 22,
+     "presentes": 24,
+     "resultado": "Aprobado en primera discusión",
+     "titulo_facil": "Declarar el 6 de agosto como Día Nacional del Atletismo"
+    },
+    {
+     "iniciativa": "01423-2026",
+     "titulo": "Proyecto de ley que regula el embargo retentivo en la República Dominicana",
+     "a_favor": 24,
+     "presentes": 24,
+     "resultado": "Aprobado a unanimidad en primera discusión",
+     "titulo_facil": "Regular el embargo: cuándo pueden congelarte dinero por una deuda"
+    },
+    {
+     "iniciativa": "01365-2026",
+     "titulo": "Proyecto de ley que crea el sistema nacional de registro de Ácido Desoxirribonucleico (ADN)",
+     "a_favor": 24,
+     "presentes": 25,
+     "resultado": "Aprobado en primera discusión",
+     "titulo_facil": "Crear un registro nacional de ADN"
+    },
+    {
+     "iniciativa": "01368-2026",
+     "titulo": "Proyecto de ley que crea el Parque Nacional Loma Miranda",
+     "a_favor": 23,
+     "presentes": 25,
+     "resultado": "Aprobado en primera discusión",
+     "titulo_facil": "Crear el Parque Nacional Loma Miranda"
+    },
+    {
+     "iniciativa": "01330-2026",
+     "titulo": "Proyecto de ley para el fomento, desarrollo y competitividad de la artesanía",
+     "a_favor": 23,
+     "presentes": 25,
+     "resultado": "Aprobado en primera discusión",
+     "titulo_facil": "Apoyar y desarrollar la artesanía dominicana"
+    },
+    {
+     "iniciativa": "01360-2026",
+     "titulo": "Proyecto de ley S E N A D O REPÚBLICA DOMINICANA Acta núm. 0104, del miércoles 18 de marzo de 2026, pág. núm. 74 de 97 Av. Enrique Jiménez Moya Esq. Juan de Dios Ventura Simó, Centro de los Héroes de Constanza, Maimón y Estero Hondo, Santo Domingo de Guzmán, Distrito Nacional, República Dominicana. Departamento Elaboración de Actas. Tel.: 809-532-5561, ext. 5100. que declara monumentos arquitectónicos varias iglesias de nuestro país y modifica la Ley núm. 492 del 27 de octubre de 1969, que declara Ciudad Colonial de Santo Domingo de Guzmán, la zona declarada por Decreto núm. 1650 del 13 de septiembre de 1967",
+     "a_favor": 26,
+     "presentes": 26,
+     "resultado": "Aprobado a unanimidad en primera discusión",
+     "titulo_facil": "Declarar varias iglesias del país como monumentos"
+    },
+    {
+     "iniciativa": "01187-2025",
+     "titulo": "Título modificado: Ley que modifica los artículos 5, 12 y 14 de la Ley núm. 339-22, que habilita y regula el uso de medios digitales para los procesos judiciales y procedimientos administrativos del Poder Judicial",
+     "a_favor": 23,
+     "presentes": 26,
+     "resultado": "Aprobado en segunda discusión",
+     "titulo_facil": "Actualizar la ley de juicios por medios digitales"
+    },
+    {
+     "iniciativa": "01404-2026",
+     "titulo": "Proyecto de ley que crea el colegio de contadores públicos autorizados de la República Dominicana",
+     "a_favor": 23,
+     "presentes": 26,
+     "resultado": "Aprobado en segunda discusión",
+     "titulo_facil": "Crear el colegio de los contadores públicos"
+    },
+    {
+     "iniciativa": "01295-2026",
+     "titulo": "Proyecto de ley que establece los actos correspondientes a los Poderes Ejecutivo y Legislativo a ser publicados en la Gaceta Oficial",
+     "a_favor": 24,
+     "presentes": 26,
+     "resultado": "Aprobado en segunda discusión",
+     "titulo_facil": "Definir qué documentos del gobierno se publican en la Gaceta Oficial"
+    },
+    {
+     "iniciativa": "01310-2026",
+     "titulo": "Proyecto de ley que modifica los artículos 14 y 21, de la Ley núm.631-16, del 2 de agosto de 2016, para el Control y Regulación de Armas, Municiones y Materiales Relacionados",
+     "a_favor": 25,
+     "presentes": 26,
+     "resultado": "Aprobado en segunda discusión",
+     "titulo_facil": "Cambiar las reglas del control de armas y municiones"
+    },
+    {
+     "iniciativa": "01332-2026",
+     "titulo": "Proyecto de ley que designa con el nombre de “Profesor Elpidio Encarnación” la pista de atletismo ubicada en el complejo deportivo de la provincia La Romana",
+     "a_favor": 25,
+     "presentes": 26,
+     "resultado": "Aprobado en segunda discusión",
+     "titulo_facil": "Ponerle 'Profesor Elpidio Encarnación' a la pista de atletismo de La Romana"
+    },
+    {
+     "iniciativa": "01311-2026",
+     "titulo": "Proyecto de ley que ordena la colocación del valor energético de los alimentos en restaurantes y otros lugares de expendio",
+     "a_favor": 24,
+     "presentes": 26,
+     "resultado": "Aprobado en segunda discusión",
+     "titulo_facil": "Obligar a restaurantes a mostrar las calorías de la comida"
+    },
+    {
+     "iniciativa": "01357-2026",
+     "titulo": "Proyecto de ley que declara La Procesión de la Divina Pastora como Patrimonio Cultural Inmaterial de la Nación Dominicana y La Iglesia Divina Pastora como Patrimonio Monumental",
+     "a_favor": 24,
+     "presentes": 26,
+     "resultado": "Aprobado en segunda discusión",
+     "titulo_facil": "Declarar la Procesión de la Divina Pastora patrimonio cultural"
+    },
+    {
+     "iniciativa": "01337-2026",
+     "titulo": "Proyecto de ley que declara Patrimonio Cultural Inmaterial de la Nación Dominicana La Hermandad de los Toreros de la Virgen de La Altagracia. 25 votos S E N A D O REPÚBLICA DOMINICANA Acta núm. 0104, del miércoles 18 de marzo de 2026, pág. núm. 89 de 97 Av. Enrique Jiménez Moya Esq. Juan de Dios Ventura Simó, Centro de los Héroes de Constanza, Maimón y Estero Hondo, Santo Domingo de Guzmán, Distrito Nacional, República Dominicana. Departamento Elaboración de Actas. Tel.: 809-532-5561, ext. 5100. a favor, 26 senadores presentes para esta votación. Aprobado en segunda discusión. Votación adjunta al acta. Senador presidente: Aprobado en segunda discusión. 10.8 Iniciativas paraúnica discusión siguiendo el orden de precedencia en cuanto a la entrega de informes Senador presidente: No teniendo más iniciativas para segunda discusión, tenemos tres iniciativas (que fueron leíd osíntegramente sus informes) paraúnica discusión; vamos a someter la liberación de lectura de estas tres iniciativas, que son la 01469-2026, la 00837-2025 y la 01412-2026. A votación la liberación de lectura. Votación electrónica 0 24. Sometida a votación la propuesta del senador presidente, Ricardo De Los Santos Polanco, para liberar de lectura las siguientes Iniciativas: 01469-2026, Resolución que dispone la posposición del traslado del Pleno del Senado de la República a la ciudad de Santiago de los Caballeros, del 30 de marzo de 2026 al 30 de marzo de 2027, con motivo de la conmemoración de La Batalla de Santiago; 00837-2025, Resolución que solicita al ministro de Educación, Luis Miguel De Camps García- Mella, la instalación de aulas móviles de educación en el municipio de Las Terrenas, provincia de Samaná; 01412-2026, Adenda núm. 3 al contrato de Fideicomiso del Fondo Nacional de la Vivienda (FONVIVIENDA), suscrita entre el Estado Dominicano, debidamente representado, y la S E N A D O REPÚBLICA DOMINICANA Acta núm. 0104, del miércoles 18 de marzo de 2026, pág. núm. 90 de 97 Av. Enrique Jiménez Moya Esq. Juan de Dios Ventura Simó, Centro de los Héroes de Constanza, Maimón y Estero Hondo, Santo Domingo de Guzmán, Distrito Nacional, República Dominicana. Departamento Elaboración de Actas. Tel.: 809-532-5561, ext. 5100. Fiduciaria Reservas, S. A",
+     "a_favor": 25,
+     "presentes": 26,
+     "resultado": "Aprobada",
+     "titulo_facil": "Declarar patrimonio a la Hermandad de los Toreros de la Virgen de la Altagracia"
+    },
+    {
+     "iniciativa": "01469-2026",
+     "titulo": "Resolución que dispone la posposición del traslado del Pleno del Senado de la República a la ciudad de Santiago de los Caballeros, del 30 de marzo de 2026 al 30 de marzo de 2027, con motivo de la conmemoración de La Batalla de Santiago",
+     "a_favor": 25,
+     "presentes": 26,
+     "resultado": "Aprobado en única discusión",
+     "titulo_facil": "Mover la fecha de la sesión del Senado en Santiago"
+    },
+    {
+     "iniciativa": "00837-2025",
+     "titulo": "Resolución que solicita al ministro de Educación, Luis Miguel de Camps García -Mella, la instalación de aulas móviles de educación en el municipio de Las Terrenas, provincia de Samaná",
+     "a_favor": 25,
+     "presentes": 26,
+     "resultado": "Aprobado en única discusión",
+     "titulo_facil": "Pedir aulas móviles de educación para Las Terrenas"
+    },
+    {
+     "iniciativa": "01412-2026",
+     "titulo": "Adenda núm. 3 al contrato de Fideicomiso del Fondo Nacional de la Vivienda (FONVIVIENDA), suscrita entre el Estado Dominicano, debidamente representado, y la Fiduciaria Reservas, S.A",
+     "a_favor": 22,
+     "presentes": 26,
+     "resultado": "Aprobado en única discusión",
+     "titulo_facil": "Ajustar el contrato del fondo nacional de viviendas (FONVIVIENDA)"
+    }
+   ],
+   "asistencia": {
+    "presentes": null,
+    "ausentes": 3,
+    "detalle": [
+     {
+      "nombre": "Héctor Elpidio Acosta Restituyo",
+      "estado": "excusado"
+     },
+     {
+      "nombre": "Secundino Velázquez Pimentel",
+      "estado": "excusado"
+     },
+     {
+      "nombre": "Pedro Antonio Tineo Núñez",
+      "estado": "excusado"
+     }
+    ]
+   }
+  }
+ ]
 }

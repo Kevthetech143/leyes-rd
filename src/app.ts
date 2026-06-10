@@ -15,6 +15,7 @@ interface Ley {
   estado: Estado;
   que_es: string;
   por_que: string;
+  te_afecta?: string;
   votos?: VotoFila[];
 }
 
@@ -49,6 +50,7 @@ interface ProvinciasData {
 interface Votacion {
   iniciativa: string;
   titulo: string;
+  titulo_facil?: string;
   a_favor: number;
   presentes: number;
   resultado: string;
@@ -149,10 +151,15 @@ function renderLey(ley: Ley): HTMLElement {
   const det = el("div", "ley-detalle");
   det.append(el("h4", null, "¿Qué es?"), el("p", null, ley.que_es));
 
+  // One plain line: how this law touches daily life.
+  if (ley.te_afecta) {
+    det.append(el("h4", null, "¿Y a mí qué?"), el("p", "te-afecta", ley.te_afecta));
+  }
+
   // Only show a real reason; otherwise a quiet note (the Senate source rarely states the motive).
   const sinMotivo = !ley.por_que || /^razón no indicada/i.test(ley.por_que);
   if (sinMotivo) {
-    det.append(el("p", "nota-fuente", "Motivo: no publicado en la fuente oficial."));
+    det.append(el("p", "nota-fuente", "El Senado no publicó el motivo. Cuando lo publique, te lo contamos aquí."));
   } else {
     det.append(el("h4", null, "¿Por qué se propuso?"), el("p", null, ley.por_que));
   }
@@ -365,7 +372,13 @@ function renderSesiones(data: SesionesData): void {
     const vlist = el("div", "votaciones");
     ses.votaciones.forEach((v) => {
       const row = el("div", "votacion");
-      row.append(el("p", "votacion-titulo", v.titulo));
+      // Plain title first; the official legalese title stays available underneath, smaller.
+      if (v.titulo_facil) {
+        row.append(el("p", "votacion-titulo", v.titulo_facil));
+        row.append(el("p", "votacion-titulo-oficial", "Nombre oficial: " + v.titulo));
+      } else {
+        row.append(el("p", "votacion-titulo", v.titulo));
+      }
       const meta = el("div", "votacion-meta");
       const aprob = /^aprob/i.test(v.resultado);
       const icono = aprob ? "✅ " : "•&nbsp;";

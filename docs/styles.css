@@ -232,6 +232,10 @@ main { max-width: 720px; margin: 0 auto; padding: 0 14px 40px; }
 .ley-detalle h4 { margin: 12px 0 4px; font-size: .95rem; color: var(--azul); }
 .ley-detalle p { margin: 0; }
 .nota-fuente { margin-top: 10px; font-size: .85rem; color: var(--gris); font-style: italic; }
+.te-afecta {
+  background: #fff7e6; border-left: 4px solid #f5a623; border-radius: 8px;
+  padding: 8px 12px; font-size: .95rem;
+}
 
 /* Votos */
 .votos { margin-top: 8px; }
@@ -312,6 +316,7 @@ main { max-width: 720px; margin: 0 auto; padding: 0 14px 40px; }
 .votacion { border-top: 1px solid #eef0f4; padding: 12px 0; }
 .votacion:first-child { border-top: none; }
 .votacion-titulo { font-weight: 600; margin: 0 0 6px; font-size: .95rem; }
+.votacion-titulo-oficial { margin: -2px 0 8px; font-size: .78rem; color: var(--gris); }
 .votacion-meta { display: flex; flex-wrap: wrap; gap: 6px; }
 .votacion-meta span {
   font-size: .78rem; font-weight: 600; padding: 2px 8px; border-radius: 999px;
