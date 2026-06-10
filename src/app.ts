@@ -321,36 +321,43 @@ function renderLider(l: Lider): HTMLElement {
   if (fn) block.append(el("p", "lider-funcion", fn));
   if (l.resumen) block.append(el("p", null, l.resumen));
 
-  // --- Report-card lines. Each appears only when its data is present, so a
-  //     leader without data renders exactly as before. ---
+  // --- Report-card lines, regrouped into a compact chip row. Each stat shows a
+  //     short headline in the chip (emoji + number) and tucks its full sentence
+  //     behind a tap, reusing the native <details> fold idiom. A leader without
+  //     any data renders no chip row at all, exactly as before. ---
+  const chips = el("div", "lider-chips");
+
+  // Helper: one tappable stat chip. summary = short headline; body = full line.
+  const datoChip = (resumen: string, detalle: string): HTMLElement => {
+    const d = el("details", "dato-chip");
+    d.append(el("summary", "dato-chip-cab", resumen), el("p", "dato-chip-det", detalle));
+    return d;
+  };
 
   // Lane 1: plenary attendance.
   if (l.asistencia && l.asistencia.total > 0) {
     const a = l.asistencia;
-    block.append(el(
-      "p",
-      "lider-dato",
-      "📅 Asistencia: estuvo en <b>" + a.presentes + " de " + a.total +
+    chips.append(datoChip(
+      "📅 <b>" + a.presentes + "/" + a.total + "</b> sesiones",
+      "Asistencia: estuvo en <b>" + a.presentes + " de " + a.total +
       "</b> sesiones del Pleno (" + a.periodo + ")."
     ));
   }
 
   // Lane 2: committees the senator works in.
   if (l.comisiones && l.comisiones.length) {
-    block.append(el(
-      "p",
-      "lider-dato",
-      "🗂️ Trabaja en " + l.comisiones.length + " comisiones: " + l.comisiones.join(", ") + "."
+    chips.append(datoChip(
+      "🗂️ <b>" + l.comisiones.length + "</b> comisiones",
+      "Trabaja en " + l.comisiones.length + " comisiones: " + l.comisiones.join(", ") + "."
     ));
   }
 
   // Lane 3: bills proposed or co-proposed.
   if (typeof l.iniciativas_propuestas === "number") {
     const n = l.iniciativas_propuestas;
-    block.append(el(
-      "p",
-      "lider-dato",
-      "📜 Ha propuesto o copropuesto <b>" + n + "</b> " +
+    chips.append(datoChip(
+      "📜 <b>" + n + "</b> " + (n === 1 ? "iniciativa" : "iniciativas"),
+      "Ha propuesto o copropuesto <b>" + n + "</b> " +
       (n === 1 ? "iniciativa" : "iniciativas") + " en este período."
     ));
   }
@@ -360,13 +367,14 @@ function renderLider(l: Lider): HTMLElement {
   // own amount read from their own ayuntamiento's nómina (l.sueldo).
   const sueldo = sueldoDeCargo(l.cargo) || l.sueldo || null;
   if (sueldo) {
-    block.append(el(
-      "p",
-      "lider-dato",
-      "💰 Sueldo: <b>" + sueldo.monto + " al mes</b>, según la " + sueldo.fuente +
+    chips.append(datoChip(
+      "💰 <b>" + sueldo.monto + "</b> al mes",
+      "Sueldo: <b>" + sueldo.monto + " al mes</b>, según la " + sueldo.fuente +
       " de " + sueldo.mes + ". Lo pagan los impuestos de todos."
     ));
   }
+
+  if (chips.children.length) block.append(chips);
 
   // Honest note for roles that don't legislate: explain why there are no
   // attendance/bill stats instead of leaving the card looking unfinished.

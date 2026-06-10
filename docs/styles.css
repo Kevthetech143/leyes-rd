@@ -298,6 +298,29 @@ main { max-width: 720px; margin: 0 auto; padding: 0 14px 40px; }
 .lider-ident { display: flex; flex-direction: column; }
 .lider-nombre { margin: 0; }
 .lider-dato { margin: 8px 0 0; font-size: .88rem; color: var(--tinta); }
+
+/* Report-card stats as a compact, tappable chip row. Each chip shows a short
+   headline (emoji + number); tapping it reveals the full sentence underneath.
+   Reuses the native <details> fold idiom — keyboard-accessible by default. */
+.lider-chips {
+  display: flex; flex-wrap: wrap; gap: 8px; margin: 10px 0 2px;
+}
+.dato-chip {
+  flex: 0 1 auto; background: #eef2ff; border: 1px solid #dbe3ff;
+  border-radius: var(--radio-sm); overflow: hidden;
+}
+.dato-chip-cab {
+  cursor: pointer; list-style: none; padding: 6px 12px;
+  font-size: .82rem; font-weight: 700; color: var(--azul);
+  display: flex; align-items: center; gap: 6px; min-height: 32px;
+}
+.dato-chip-cab::-webkit-details-marker { display: none; }
+.dato-chip-cab::after { content: "▸"; color: var(--gris); font-weight: 700; margin-left: 2px; }
+.dato-chip[open] .dato-chip-cab::after { content: "▾"; }
+.dato-chip[open] { flex-basis: 100%; }
+.dato-chip-det {
+  margin: 0; padding: 0 12px 10px; font-size: .86rem; color: var(--tinta);
+}
 .lider-funcion { color: #14407a; background: #eef4ff; border-radius: 10px; padding: 8px 10px; font-size: .88rem; line-height: 1.5; margin: 6px 0; }
 .partido-chip {
   display:inline-block; font-size:.75rem; font-weight:700;
@@ -408,6 +431,8 @@ main { max-width: 720px; margin: 0 auto; padding: 0 14px 40px; }
 .sec-mapa .grupo-titulo { color: var(--mapa); border-bottom-color: var(--mapa-bg); }
 .sec-mapa .lider-funcion { color: #0a5b53; background: var(--mapa-bg); }
 .sec-mapa .partido-chip { background: var(--mapa-bg); color: var(--mapa); }
+.sec-mapa .dato-chip { background: var(--mapa-bg); border-color: #bfe7e1; }
+.sec-mapa .dato-chip-cab { color: #0a5b53; }
 
 /* Dinero — naranja accent */
 .sec-dinero .paso { border-left-color: var(--dinero); }
