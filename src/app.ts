@@ -479,6 +479,7 @@ function setupBuscadorLeyes(): void {
 // Every view id, keyed by the data-view / data-goto name.
 const VISTAS: Record<string, string> = {
   home: "view-home",
+  pais: "view-pais",
   leyes: "view-leyes",
   mapa: "view-mapa",
   sesiones: "view-sesiones",

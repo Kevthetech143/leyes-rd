@@ -444,6 +444,19 @@ main { max-width: 720px; margin: 0 auto; padding: 0 14px 40px; }
 .sec-leyes .buscador:focus-within { border-color: var(--leyes); }
 .sec-mapa  .buscador:focus-within { border-color: var(--mapa); }
 
+/* El país — overview section (flag-red accent) */
+.bloque-titulo { font-size: 1.2rem; font-weight: 800; margin: 24px 0 6px; color: var(--rojo); }
+.bloque-intro { margin: 0 0 12px; color: var(--gris); }
+.tab[data-view="pais"].active { background: var(--rojo); }
+.sec-pais .seccion-titulo { color: var(--rojo); }
+.sec-pais .paso { border-left-color: var(--rojo); }
+.sec-pais .paso-num { background: var(--rojo); }
+.sec-pais .flecha { color: var(--rojo); }
+.card-pais { border-top-color: var(--rojo); }
+.card-pais .home-emoji { background: #fde7e4; }
+.card-pais .home-card-go { color: var(--rojo); }
+.card-pais .home-card-cifra { color: var(--rojo); background: #fde7e4; }
+
 /* Inicio — cifra real viva en cada tarjeta */
 .home-card-cifra {
   font-size: .78rem; font-weight: 800; margin: 4px 0 0;

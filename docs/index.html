@@ -36,6 +36,7 @@
 
   <nav class="tabs" role="tablist" aria-label="Secciones">
     <button class="tab active" data-view="home" role="tab" aria-selected="true">🏠 Inicio</button>
+    <button class="tab" data-view="pais" role="tab" aria-selected="false">🇩🇴 El país</button>
     <button class="tab" data-view="leyes" role="tab" aria-selected="false">📜 Leyes</button>
     <button class="tab" data-view="mapa" role="tab" aria-selected="false">🗺️ Provincias</button>
     <button class="tab" data-view="sesiones" role="tab" aria-selected="false">🏛️ Sesiones</button>
@@ -51,6 +52,13 @@
       </div>
 
       <div class="home-grid">
+        <button class="home-card card-pais" data-goto="pais">
+          <span class="home-emoji">🇩🇴</span>
+          <span class="home-card-titulo">El país</span>
+          <span class="home-card-desc">Quién manda y cuándo votas.</span>
+          <span class="home-card-cifra">Próximas elecciones: 2028</span>
+          <span class="home-card-go">Explorar ▸</span>
+        </button>
         <button class="home-card card-leyes" data-goto="leyes">
           <span class="home-emoji">📜</span>
           <span class="home-card-titulo">Leyes</span>
@@ -93,6 +101,40 @@
       </div>
 
       <p class="home-nota">ℹ️ Datos reales del <b>Senado de la República Dominicana</b>. Gratis y sin palabras difíciles.</p>
+    </section>
+
+    <section id="view-pais" class="view hidden sec-pais">
+      <h2 class="seccion-titulo">🇩🇴 El país</h2>
+      <p class="seccion-desc">Quién manda en la República Dominicana, y cuándo y cómo votas tú.</p>
+
+      <h3 class="bloque-titulo">¿Quién manda?</h3>
+      <p class="bloque-intro">Todo empieza con tu voto. La gente elige a casi todos los que mandan:</p>
+      <div class="flujo-graf">
+        <div class="paso"><span class="paso-num">1</span><span class="paso-emoji">🗳️</span><div class="paso-txt"><b>El pueblo vota</b><span>Tú eliges a casi todos los que mandan.</span></div></div>
+        <div class="flecha">↓</div>
+        <div class="paso"><span class="paso-num">2</span><span class="paso-emoji">🏛️</span><div class="paso-txt"><b>El Presidente</b><span>Dirige el país día a día, con sus ministerios. Hoy es Luis Abinader (PRM), período 2024–2028, junto a la vicepresidenta Raquel Peña.</span></div></div>
+        <div class="flecha">↓</div>
+        <div class="paso"><span class="paso-num">3</span><span class="paso-emoji">⚖️</span><div class="paso-txt"><b>El Congreso</b><span>Hace las leyes. Son dos grupos: el Senado (32 personas) y la Cámara de Diputados (190). Los eliges por tu provincia.</span></div></div>
+        <div class="flecha">↓</div>
+        <div class="paso"><span class="paso-num">4</span><span class="paso-emoji">🏘️</span><div class="paso-txt"><b>Tu alcalde</b><span>Manda en tu pueblo: calles, basura, parques, agua. También lo eliges por voto.</span></div></div>
+        <div class="flecha">↓</div>
+        <div class="paso"><span class="paso-num">5</span><span class="paso-emoji">👨‍⚖️</span><div class="paso-txt"><b>Los jueces</b><span>Aplican la ley cuando hay un problema. A estos no los eliges por voto.</span></div></div>
+      </div>
+
+      <h3 class="bloque-titulo">¿Cuándo y cómo voto?</h3>
+      <div class="como">
+        <b>¿Cuándo?</b> Cada 4 años hay elecciones. Las próximas son en <b>2028</b>: en <b>febrero</b> votas por tu alcalde y regidores; en <b>mayo</b> por presidente, senadores y diputados.
+        <span class="nota-fuente">La JCE publica la fecha exacta cuando se acerca.</span>
+      </div>
+      <div class="arreglo">
+        <b>✅ ¿Cómo me preparo para votar?</b>
+        <ul>
+          <li>Ten tu <b>cédula</b> al día. No hay un registro aparte: al tener la cédula, ya estás en la lista para votar (el padrón).</li>
+          <li>Revisa que estás en la lista en <b>jce.gob.do</b>.</li>
+          <li>Si vives fuera del país, usa <b>confirmate.jce.gob.do</b>.</li>
+        </ul>
+      </div>
+      <p class="nota-fuente">Quien organiza las elecciones es la Junta Central Electoral (JCE). Datos: Presidencia de la República Dominicana y JCE, 2026.</p>
     </section>
 
     <section id="view-leyes" class="view hidden sec-leyes">
