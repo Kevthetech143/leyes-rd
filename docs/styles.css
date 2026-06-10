@@ -427,6 +427,48 @@ main { max-width: 720px; margin: 0 auto; padding: 0 14px 40px; }
 .arreglo b { display: block; margin-bottom: 6px; }
 .arreglo ul { margin: 0; padding-left: 18px; }
 .arreglo li { margin: 3px 0; font-size: .92rem; }
+
+/* Glosario: tap a dotted word, see its plain meaning */
+.palabra {
+  border-bottom: 2px dotted var(--dinero); cursor: pointer; font-weight: 700;
+}
+.palabra:hover, .palabra:focus-visible { background: #fff3d9; outline: none; }
+.palabra::after { content: attr(data-def); display: none; }
+.palabra.abierta::after {
+  display: block; background: #fff7e6; border: 1px solid #f5a623;
+  border-radius: 8px; padding: 6px 10px; margin: 6px 0 2px;
+  font-size: .85rem; font-weight: 400; color: var(--tinta); font-style: normal;
+}
+
+/* Sigue-el-peso example lines in the money flow */
+.ej-intro {
+  background: #e7f6ee; border: 1px solid #a8dcc0; border-radius: 12px;
+  padding: 8px 14px; font-size: .92rem; color: #0d5b38; font-weight: 600;
+  margin: 0 0 12px;
+}
+.paso-ej {
+  display: block; margin-top: 6px; font-size: .85rem; color: #0d5b38;
+  background: #e7f6ee; border-radius: 8px; padding: 4px 10px;
+}
+
+/* ¿Cuánto es esa cifra? scale card */
+.cuanto-es {
+  background: #fff; border: 1px solid #f0c489; border-radius: 12px;
+  padding: 10px 14px; margin-top: 12px; color: var(--tinta);
+}
+.cuanto-es b { display: block; margin-bottom: 4px; color: #9a3b00; }
+.cuanto-es ul { margin: 0; padding-left: 18px; }
+.cuanto-es li { margin: 3px 0; font-size: .9rem; }
+
+/* ¿Y tú qué puedes hacer? closing card */
+.tu-parte {
+  background: #eaf0ff; border: 1px solid #c3d2ff; border-radius: 14px;
+  padding: 14px 16px; margin: 14px 0 6px; color: #1c2a5e;
+}
+.tu-parte b { display: block; margin-bottom: 6px; }
+.tu-parte ul { margin: 0; padding-left: 18px; }
+.tu-parte li { margin: 3px 0; font-size: .92rem; }
+.tu-parte a { color: var(--azul); font-weight: 700; }
 .sec-mapa .prov-card:focus-visible { outline: 3px solid var(--mapa); outline-offset: 2px; }
 .caso-salto {
   display: inline-flex; align-items: center; gap: 6px; margin: 6px 0 14px;

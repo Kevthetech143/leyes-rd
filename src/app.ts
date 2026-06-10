@@ -626,6 +626,29 @@ function setupCasoAccordion(): void {
   });
 }
 
+/* ---------- Glosario: palabras difíciles se explican al tocarlas ---------- */
+// Any <span class="palabra" data-def="..."> shows its plain-Spanish meaning on tap.
+// stopPropagation so a word inside a collapsible step doesn't also toggle the step.
+function setupGlosario(): void {
+  document.querySelectorAll<HTMLElement>(".palabra").forEach((p) => {
+    p.tabIndex = 0;
+    p.setAttribute("role", "button");
+    const def = p.getAttribute("data-def") || "";
+    p.setAttribute("aria-label", (p.textContent || "") + ": " + def);
+    const toggle = (e: Event): void => {
+      e.stopPropagation();
+      document.querySelectorAll(".palabra.abierta").forEach((o) => {
+        if (o !== p) o.classList.remove("abierta");
+      });
+      p.classList.toggle("abierta");
+    };
+    p.addEventListener("click", toggle);
+    p.addEventListener("keydown", (e: KeyboardEvent) => {
+      if (e.key === "Enter" || e.key === " ") { e.preventDefault(); toggle(e); }
+    });
+  });
+}
+
 function setupEscape(): void {
   document.addEventListener("keydown", (e: KeyboardEvent) => {
     if (e.key !== "Escape") return;
@@ -641,6 +664,7 @@ async function init(): Promise<void> {
   setupTabs();
   setupCompartir();
   setupEscape();
+  setupGlosario();
   try {
     const [leyes, provincias, sesiones] = await Promise.all([
       cargar<LeyesData>("data/leyes.json"),

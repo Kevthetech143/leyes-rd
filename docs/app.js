@@ -539,6 +539,32 @@ function setupCasoAccordion() {
         });
     });
 }
+/* ---------- Glosario: palabras difíciles se explican al tocarlas ---------- */
+// Any <span class="palabra" data-def="..."> shows its plain-Spanish meaning on tap.
+// stopPropagation so a word inside a collapsible step doesn't also toggle the step.
+function setupGlosario() {
+    document.querySelectorAll(".palabra").forEach((p) => {
+        p.tabIndex = 0;
+        p.setAttribute("role", "button");
+        const def = p.getAttribute("data-def") || "";
+        p.setAttribute("aria-label", (p.textContent || "") + ": " + def);
+        const toggle = (e) => {
+            e.stopPropagation();
+            document.querySelectorAll(".palabra.abierta").forEach((o) => {
+                if (o !== p)
+                    o.classList.remove("abierta");
+            });
+            p.classList.toggle("abierta");
+        };
+        p.addEventListener("click", toggle);
+        p.addEventListener("keydown", (e) => {
+            if (e.key === "Enter" || e.key === " ") {
+                e.preventDefault();
+                toggle(e);
+            }
+        });
+    });
+}
 function setupEscape() {
     document.addEventListener("keydown", (e) => {
         if (e.key !== "Escape")
@@ -554,6 +580,7 @@ async function init() {
     setupTabs();
     setupCompartir();
     setupEscape();
+    setupGlosario();
     try {
         const [leyes, provincias, sesiones] = await Promise.all([
             cargar("data/leyes.json"),
