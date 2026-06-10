@@ -230,9 +230,6 @@ function renderLider(l) {
     else if (cargoLower.startsWith("alcalde")) {
         block.append(el("p", "nota-fuente", "El alcalde trabaja en el ayuntamiento, no en el Congreso, por eso no tiene asistencia ni iniciativas de leyes. Su sueldo lo publica cada ayuntamiento; estamos reuniendo esas nóminas."));
     }
-    else if (cargoLower.startsWith("diputad")) {
-        block.append(el("p", "nota-fuente", "Asistencia, comisiones e iniciativas de los diputados: la Cámara las publica distinto al Senado; estamos trabajando en traerlas."));
-    }
     if (esLegislador(l.cargo)) {
         block.append(el("p", "lider-cargo", "Registro de votos: " + l.registro));
     }

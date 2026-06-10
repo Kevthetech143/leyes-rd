@@ -33,126 +33,387 @@
      "nombre": "Alfredo Pacheco Osoria",
      "partido": "PRM",
      "resumen": "Representa a Distrito Nacional en la Cámara de Diputados.",
-     "registro": "No disponible todavía"
+     "registro": "No disponible todavía",
+     "comisiones": [
+      "Administración Interior",
+      "Comisión Coordinadora 2025-2026"
+     ],
+     "iniciativas_propuestas": 23,
+     "asistencia": {
+      "presentes": 161,
+      "total": 166,
+      "periodo": "agosto 2024 a junio 2026",
+      "fuente": "registro oficial de asistencia al Pleno de la Cámara de Diputados (SIL Ciudadano, diputadosrd.gob.do)"
+     }
     },
     {
      "cargo": "Diputado/a",
      "nombre": "Carlos Sánchez Quezada",
      "partido": "PRM",
      "resumen": "Representa a Distrito Nacional en la Cámara de Diputados.",
-     "registro": "No disponible todavía"
+     "registro": "No disponible todavía",
+     "comisiones": [
+      "00674-2025-PLO-SE Comisión bicameral designada para estudiar el proyecto de ley general de salud.",
+      "04691-2024-2028-CD proyecto de resolución de interpelación al señor Celso Marranzini",
+      "05218-2024-2028-CD Comisión especial designada para estudiar el proyecto de ley de amnistía para el registro de armas de fuego.",
+      "Administración Pública",
+      "Defensa",
+      "Interior y Policía",
+      "Medios de Comunicación",
+      "Ministerio Público"
+     ],
+     "iniciativas_propuestas": 30,
+     "asistencia": {
+      "presentes": 151,
+      "total": 166,
+      "periodo": "agosto 2024 a junio 2026",
+      "fuente": "registro oficial de asistencia al Pleno de la Cámara de Diputados (SIL Ciudadano, diputadosrd.gob.do)"
+     }
     },
     {
      "cargo": "Diputado/a",
      "nombre": "Charles Noel Mariotti Paz",
      "partido": "PLD",
      "resumen": "Representa a Distrito Nacional en la Cámara de Diputados.",
-     "registro": "No disponible todavía"
+     "registro": "No disponible todavía",
+     "comisiones": [
+      "03800-2024-2028-CD Comisión bicameral para el estudio de los proyectos de ley de Seguridad Social.",
+      "05218-2024-2028-CD Comisión especial designada para estudiar el proyecto de ley de amnistía para el registro de armas de fuego.",
+      "05368-2024-2028-CD Comisión especial designada para estudiar el Proyecto de ley que modifica la Ley núm.5-13 sobre Discapacidad en la República Dominicana.",
+      "Industria y Comercio",
+      "Juventud",
+      "Medios de Comunicación",
+      "Seguridad Social"
+     ],
+     "iniciativas_propuestas": 38,
+     "asistencia": {
+      "presentes": 158,
+      "total": 166,
+      "periodo": "agosto 2024 a junio 2026",
+      "fuente": "registro oficial de asistencia al Pleno de la Cámara de Diputados (SIL Ciudadano, diputadosrd.gob.do)"
+     }
     },
     {
      "cargo": "Diputado/a",
      "nombre": "Chavely Melina Sánchez Taveras",
      "partido": "PRM",
      "resumen": "Representa a Distrito Nacional en la Cámara de Diputados.",
-     "registro": "No disponible todavía"
+     "registro": "No disponible todavía",
+     "comisiones": [
+      "05137-2024-2028-CD y 05138-2024-2028-CD Comisión Especial designada para el estudio de los proyectos de ley para la superación y reinserción de los adolescentes.",
+      "Cultura",
+      "Juventud",
+      "Medios de Comunicación",
+      "Relaciones Exteriores y Cooperación Internacional"
+     ],
+     "iniciativas_propuestas": 41,
+     "asistencia": {
+      "presentes": 146,
+      "total": 166,
+      "periodo": "agosto 2024 a junio 2026",
+      "fuente": "registro oficial de asistencia al Pleno de la Cámara de Diputados (SIL Ciudadano, diputadosrd.gob.do)"
+     }
     },
     {
      "cargo": "Diputado/a",
      "nombre": "Eliazer Matos Féliz",
      "partido": "PRM",
      "resumen": "Representa a Distrito Nacional en la Cámara de Diputados.",
-     "registro": "No disponible todavía"
+     "registro": "No disponible todavía",
+     "comisiones": [
+      "Asuntos Municipales",
+      "Movilidad y Transporte",
+      "Trabajo"
+     ],
+     "iniciativas_propuestas": 28,
+     "asistencia": {
+      "presentes": 145,
+      "total": 166,
+      "periodo": "agosto 2024 a junio 2026",
+      "fuente": "registro oficial de asistencia al Pleno de la Cámara de Diputados (SIL Ciudadano, diputadosrd.gob.do)"
+     }
     },
     {
      "cargo": "Diputado/a",
      "nombre": "Fanny Selinés Méndez Simonó",
      "partido": "FP",
      "resumen": "Representa a Distrito Nacional en la Cámara de Diputados.",
-     "registro": "No disponible todavía"
+     "registro": "No disponible todavía",
+     "comisiones": [
+      "05137-2024-2028-CD y 05138-2024-2028-CD Comisión Especial designada para el estudio de los proyectos de ley para la superación y reinserción de los adolescentes.",
+      "Dominicanos en el Exterior",
+      "Medios de Comunicación",
+      "Modernización y Reforma",
+      "Turismo"
+     ],
+     "iniciativas_propuestas": 58,
+     "asistencia": {
+      "presentes": 151,
+      "total": 166,
+      "periodo": "agosto 2024 a junio 2026",
+      "fuente": "registro oficial de asistencia al Pleno de la Cámara de Diputados (SIL Ciudadano, diputadosrd.gob.do)"
+     }
     },
     {
      "cargo": "Diputado/a",
      "nombre": "Francisca Trinidad Jaque Aponte",
      "partido": "PRM",
      "resumen": "Representa a Distrito Nacional en la Cámara de Diputados.",
-     "registro": "No disponible todavía"
+     "registro": "No disponible todavía",
+     "comisiones": [
+      "03800-2024-2028-CD Comisión bicameral para el estudio de los proyectos de ley de Seguridad Social.",
+      "05274-2024-2028-CD Comisión Especial designada para el estudio del proyecto de ley que modifica los límites territoriales de Bonao, Juma-Bejucal y La Salvia-Los Quemados, provincia Monseñor Nouel.",
+      "05405-2024-2028-CD Comisión especial designada para el estudio del Proyecto de ley de los cuerpos de bomberos de la República Dominicana.",
+      "Asuntos Municipales",
+      "Educación Superior, Ciencia y Tecnología",
+      "Junta Central Electoral",
+      "Seguridad Social",
+      "Trabajo"
+     ],
+     "iniciativas_propuestas": 41,
+     "asistencia": {
+      "presentes": 153,
+      "total": 166,
+      "periodo": "agosto 2024 a junio 2026",
+      "fuente": "registro oficial de asistencia al Pleno de la Cámara de Diputados (SIL Ciudadano, diputadosrd.gob.do)"
+     }
     },
     {
      "cargo": "Diputado/a",
      "nombre": "Gustavo Antonio Sánchez García",
      "partido": "PLD",
      "resumen": "Representa a Distrito Nacional en la Cámara de Diputados.",
-     "registro": "No disponible todavía"
+     "registro": "No disponible todavía",
+     "comisiones": [
+      "Administración Interior",
+      "Comisión Coordinadora 2025-2026",
+      "Modernización y Reforma"
+     ],
+     "iniciativas_propuestas": 23,
+     "asistencia": {
+      "presentes": 152,
+      "total": 166,
+      "periodo": "agosto 2024 a junio 2026",
+      "fuente": "registro oficial de asistencia al Pleno de la Cámara de Diputados (SIL Ciudadano, diputadosrd.gob.do)"
+     }
     },
     {
      "cargo": "Diputado/a",
      "nombre": "José Manuel Caraballo Gómez",
      "partido": "PRM",
      "resumen": "Representa a Distrito Nacional en la Cámara de Diputados.",
-     "registro": "No disponible todavía"
+     "registro": "No disponible todavía",
+     "comisiones": [
+      "00674-2025-PLO-SE Comisión bicameral designada para estudiar el proyecto de ley general de salud.",
+      "05137-2024-2028-CD y 05138-2024-2028-CD Comisión Especial designada para el estudio de los proyectos de ley para la superación y reinserción de los adolescentes.",
+      "Desarrollo Humano",
+      "Inteligencia Artificial",
+      "Presupuesto, Patrimonio y Contabilidad",
+      "Tecnología de la Información y Comunicación"
+     ],
+     "iniciativas_propuestas": 25,
+     "asistencia": {
+      "presentes": 153,
+      "total": 166,
+      "periodo": "agosto 2024 a junio 2026",
+      "fuente": "registro oficial de asistencia al Pleno de la Cámara de Diputados (SIL Ciudadano, diputadosrd.gob.do)"
+     }
     },
     {
      "cargo": "Diputado/a",
      "nombre": "Liz Adriana Mieses Díaz",
      "partido": "PRM",
      "resumen": "Representa a Distrito Nacional en la Cámara de Diputados.",
-     "registro": "No disponible todavía"
+     "registro": "No disponible todavía",
+     "comisiones": [
+      "Cámara de Cuentas",
+      "Deportes y Recreación",
+      "Desarrollo Humano",
+      "Medio Ambiente y Recursos Naturales",
+      "Relaciones Exteriores y Cooperación Internacional"
+     ],
+     "iniciativas_propuestas": 34,
+     "asistencia": {
+      "presentes": 149,
+      "total": 166,
+      "periodo": "agosto 2024 a junio 2026",
+      "fuente": "registro oficial de asistencia al Pleno de la Cámara de Diputados (SIL Ciudadano, diputadosrd.gob.do)"
+     }
     },
     {
      "cargo": "Diputado/a",
      "nombre": "Manuel de Jesús Núñez Guerrero",
      "partido": "PRM",
      "resumen": "Representa a Distrito Nacional en la Cámara de Diputados.",
-     "registro": "No disponible todavía"
+     "registro": "No disponible todavía",
+     "comisiones": [
+      "Asuntos Municipales",
+      "Comisión bicameral designada para estudiar los Actos del Poder Ejecutivo",
+      "Contratos",
+      "Desarrollo Humano",
+      "Interior y Policía",
+      "Junta Central Electoral",
+      "Presidencia de la República",
+      "Tecnología de la Información y Comunicación"
+     ],
+     "iniciativas_propuestas": 26,
+     "asistencia": {
+      "presentes": 153,
+      "total": 166,
+      "periodo": "agosto 2024 a junio 2026",
+      "fuente": "registro oficial de asistencia al Pleno de la Cámara de Diputados (SIL Ciudadano, diputadosrd.gob.do)"
+     }
     },
     {
      "cargo": "Diputado/a",
      "nombre": "Maribel Altagracia Almánzar de Ogando",
      "partido": "PRM",
      "resumen": "Representa a Distrito Nacional en la Cámara de Diputados.",
-     "registro": "No disponible todavía"
+     "registro": "No disponible todavía",
+     "comisiones": [
+      "04711-2024-2028-CD Comisión especial que estudia el proyecto de ley que regula la libertad religiosa de conciencia y de cultos",
+      "05368-2024-2028-CD Comisión especial designada para estudiar el Proyecto de ley que modifica la Ley núm.5-13 sobre Discapacidad en la República Dominicana.",
+      "Asuntos de Equidad de Género",
+      "Comisión bicameral designada para estudiar los Actos del Poder Ejecutivo",
+      "Cultura",
+      "Derechos Humanos",
+      "Educación Superior, Ciencia y Tecnología",
+      "Familia"
+     ],
+     "iniciativas_propuestas": 43,
+     "asistencia": {
+      "presentes": 161,
+      "total": 166,
+      "periodo": "agosto 2024 a junio 2026",
+      "fuente": "registro oficial de asistencia al Pleno de la Cámara de Diputados (SIL Ciudadano, diputadosrd.gob.do)"
+     }
     },
     {
      "cargo": "Diputado/a",
      "nombre": "Rafael Aníbal Díaz Rodríguez",
      "partido": "PRM",
      "resumen": "Representa a Distrito Nacional en la Cámara de Diputados.",
-     "registro": "No disponible todavía"
+     "registro": "No disponible todavía",
+     "comisiones": [
+      "Medios de Comunicación",
+      "Turismo",
+      "Ética"
+     ],
+     "iniciativas_propuestas": 35,
+     "asistencia": {
+      "presentes": 154,
+      "total": 166,
+      "periodo": "agosto 2024 a junio 2026",
+      "fuente": "registro oficial de asistencia al Pleno de la Cámara de Diputados (SIL Ciudadano, diputadosrd.gob.do)"
+     }
     },
     {
      "cargo": "Diputado/a",
      "nombre": "Rafael Tobías Crespo Pérez",
      "partido": "FP",
      "resumen": "Representa a Distrito Nacional en la Cámara de Diputados.",
-     "registro": "No disponible todavía"
+     "registro": "No disponible todavía",
+     "comisiones": [
+      "Comisión bicameral designada para estudiar los Actos del Poder Ejecutivo",
+      "Contratos",
+      "Movilidad y Transporte",
+      "Tecnología de la Información y Comunicación"
+     ],
+     "iniciativas_propuestas": 63,
+     "asistencia": {
+      "presentes": 154,
+      "total": 166,
+      "periodo": "agosto 2024 a junio 2026",
+      "fuente": "registro oficial de asistencia al Pleno de la Cámara de Diputados (SIL Ciudadano, diputadosrd.gob.do)"
+     }
     },
     {
      "cargo": "Diputado/a",
      "nombre": "Ramón Antonio Bueno Patiño",
      "partido": "PRM",
      "resumen": "Representa a Distrito Nacional en la Cámara de Diputados.",
-     "registro": "No disponible todavía"
+     "registro": "No disponible todavía",
+     "comisiones": [
+      "00674-2025-PLO-SE Comisión bicameral designada para estudiar el proyecto de ley general de salud.",
+      "04691-2024-2028-CD proyecto de resolución de interpelación al señor Celso Marranzini",
+      "05199-2024-2028-CD Comisión Especial designada para el estudio del proyecto de ley que autoriza el pago de deuda por obras ejecutadas sin contrato formal.",
+      "05650-2024-2028-CD Comisión Especial proyecto de ley que modifica el artículo 13 de la Ley núm. 118-21, del 31 de mayo de 2021, sobre terminación de obras viales, escuelas, hospitales y presas que se encuentran suspendidas.",
+      "Defensa",
+      "Defensor del Pueblo",
+      "Interior y Policía",
+      "Modernización y Reforma",
+      "Salud"
+     ],
+     "iniciativas_propuestas": 27,
+     "asistencia": {
+      "presentes": 154,
+      "total": 166,
+      "periodo": "agosto 2024 a junio 2026",
+      "fuente": "registro oficial de asistencia al Pleno de la Cámara de Diputados (SIL Ciudadano, diputadosrd.gob.do)"
+     }
     },
     {
      "cargo": "Diputado/a",
      "nombre": "Sergio Moya de la Cruz",
      "partido": "PRM",
      "resumen": "Representa a Distrito Nacional en la Cámara de Diputados.",
-     "registro": "No disponible todavía"
+     "registro": "No disponible todavía",
+     "comisiones": [
+      "Hacienda",
+      "Industria y Comercio",
+      "Modernización y Reforma"
+     ],
+     "iniciativas_propuestas": 10,
+     "asistencia": {
+      "presentes": 127,
+      "total": 166,
+      "periodo": "agosto 2024 a junio 2026",
+      "fuente": "registro oficial de asistencia al Pleno de la Cámara de Diputados (SIL Ciudadano, diputadosrd.gob.do)"
+     }
     },
     {
      "cargo": "Diputado/a",
      "nombre": "Vicente Arturo Sánchez Henríquez",
      "partido": "PRM",
      "resumen": "Representa a Distrito Nacional en la Cámara de Diputados.",
-     "registro": "No disponible todavía"
+     "registro": "No disponible todavía",
+     "comisiones": [
+      "05218-2024-2028-CD Comisión especial designada para estudiar el proyecto de ley de amnistía para el registro de armas de fuego.",
+      "Inteligencia Artificial",
+      "Juventud",
+      "Relaciones Exteriores y Cooperación Internacional",
+      "Tecnología de la Información y Comunicación"
+     ],
+     "iniciativas_propuestas": 36,
+     "asistencia": {
+      "presentes": 149,
+      "total": 166,
+      "periodo": "agosto 2024 a junio 2026",
+      "fuente": "registro oficial de asistencia al Pleno de la Cámara de Diputados (SIL Ciudadano, diputadosrd.gob.do)"
+     }
     },
     {
      "cargo": "Diputado/a",
      "nombre": "Yuderka Yvelisse de la Rosa Guerrero",
      "partido": "FP",
      "resumen": "Representa a Distrito Nacional en la Cámara de Diputados.",
-     "registro": "No disponible todavía"
+     "registro": "No disponible todavía",
+     "comisiones": [
+      "05199-2024-2028-CD Comisión Especial designada para el estudio del proyecto de ley que autoriza el pago de deuda por obras ejecutadas sin contrato formal.",
+      "05368-2024-2028-CD Comisión especial designada para estudiar el Proyecto de ley que modifica la Ley núm.5-13 sobre Discapacidad en la República Dominicana.",
+      "Cámara de Cuentas",
+      "Economía, Planificación y Desarrollo",
+      "Familia",
+      "Presidencia de la República",
+      "Ética"
+     ],
+     "iniciativas_propuestas": 34,
+     "asistencia": {
+      "presentes": 152,
+      "total": 166,
+      "periodo": "agosto 2024 a junio 2026",
+      "fuente": "registro oficial de asistencia al Pleno de la Cámara de Diputados (SIL Ciudadano, diputadosrd.gob.do)"
+     }
     },
     {
      "cargo": "Alcalde/sa de Distrito Nacional",
@@ -195,28 +456,87 @@
      "nombre": "Ángela Maruja Gregorina Pérez Díaz",
      "partido": "PRM",
      "resumen": "Representa a Azua en la Cámara de Diputados.",
-     "registro": "No disponible todavía"
+     "registro": "No disponible todavía",
+     "comisiones": [
+      "05405-2024-2028-CD Comisión especial designada para el estudio del Proyecto de ley de los cuerpos de bomberos de la República Dominicana.",
+      "Administración de Deuda Pública y Activos Financieros",
+      "Cultura",
+      "Medios de Comunicación",
+      "Presupuesto, Patrimonio y Contabilidad",
+      "Reconocimientos"
+     ],
+     "iniciativas_propuestas": 64,
+     "asistencia": {
+      "presentes": 153,
+      "total": 166,
+      "periodo": "agosto 2024 a junio 2026",
+      "fuente": "registro oficial de asistencia al Pleno de la Cámara de Diputados (SIL Ciudadano, diputadosrd.gob.do)"
+     }
     },
     {
      "cargo": "Diputado/a",
      "nombre": "Brenda Mercedes Ogando Campos",
      "partido": "PRM",
      "resumen": "Representa a Azua en la Cámara de Diputados.",
-     "registro": "No disponible todavía"
+     "registro": "No disponible todavía",
+     "comisiones": [
+      "05218-2024-2028-CD Comisión especial designada para estudiar el proyecto de ley de amnistía para el registro de armas de fuego.",
+      "Asuntos de Equidad de Género",
+      "Defensor del Pueblo",
+      "Educación Superior, Ciencia y Tecnología",
+      "Juventud",
+      "Movilidad y Transporte"
+     ],
+     "iniciativas_propuestas": 60,
+     "asistencia": {
+      "presentes": 147,
+      "total": 166,
+      "periodo": "agosto 2024 a junio 2026",
+      "fuente": "registro oficial de asistencia al Pleno de la Cámara de Diputados (SIL Ciudadano, diputadosrd.gob.do)"
+     }
     },
     {
      "cargo": "Diputado/a",
      "nombre": "Julio César Beltré Méndez",
      "partido": "PRM",
      "resumen": "Representa a Azua en la Cámara de Diputados.",
-     "registro": "No disponible todavía"
+     "registro": "No disponible todavía",
+     "comisiones": [
+      "04711-2024-2028-CD Comisión especial que estudia el proyecto de ley que regula la libertad religiosa de conciencia y de cultos",
+      "Administración Pública",
+      "Administración de Deuda Pública y Activos Financieros",
+      "Contratos",
+      "Dominicanos en el Exterior",
+      "Reconocimientos"
+     ],
+     "iniciativas_propuestas": 62,
+     "asistencia": {
+      "presentes": 148,
+      "total": 166,
+      "periodo": "agosto 2024 a junio 2026",
+      "fuente": "registro oficial de asistencia al Pleno de la Cámara de Diputados (SIL Ciudadano, diputadosrd.gob.do)"
+     }
     },
     {
      "cargo": "Diputado/a",
      "nombre": "Nurca Nieves Luciano Jiménez de Galván",
      "partido": "FP",
      "resumen": "Representa a Azua en la Cámara de Diputados.",
-     "registro": "No disponible todavía"
+     "registro": "No disponible todavía",
+     "comisiones": [
+      "05274-2024-2028-CD Comisión Especial designada para el estudio del proyecto de ley que modifica los límites territoriales de Bonao, Juma-Bejucal y La Salvia-Los Quemados, provincia Monseñor Nouel.",
+      "Defensor del Pueblo",
+      "Educación Superior, Ciencia y Tecnología",
+      "Energía",
+      "Vivienda, Hábitat y Edificaciones"
+     ],
+     "iniciativas_propuestas": 51,
+     "asistencia": {
+      "presentes": 161,
+      "total": 166,
+      "periodo": "agosto 2024 a junio 2026",
+      "fuente": "registro oficial de asistencia al Pleno de la Cámara de Diputados (SIL Ciudadano, diputadosrd.gob.do)"
+     }
     },
     {
      "cargo": "Gobernador/a",
@@ -266,14 +586,45 @@
      "nombre": "Juan Bolívar Cuevas Davis",
      "partido": "PRM",
      "resumen": "Representa a Bahoruco en la Cámara de Diputados.",
-     "registro": "No disponible todavía"
+     "registro": "No disponible todavía",
+     "comisiones": [
+      "03800-2024-2028-CD Comisión bicameral para el estudio de los proyectos de ley de Seguridad Social.",
+      "05368-2024-2028-CD Comisión especial designada para estudiar el Proyecto de ley que modifica la Ley núm.5-13 sobre Discapacidad en la República Dominicana.",
+      "Asuntos Cooperativos",
+      "Asuntos Fronterizos",
+      "Defensor del Pueblo",
+      "Salud",
+      "Seguridad Social"
+     ],
+     "iniciativas_propuestas": 66,
+     "asistencia": {
+      "presentes": 161,
+      "total": 166,
+      "periodo": "agosto 2024 a junio 2026",
+      "fuente": "registro oficial de asistencia al Pleno de la Cámara de Diputados (SIL Ciudadano, diputadosrd.gob.do)"
+     }
     },
     {
      "cargo": "Diputado/a",
      "nombre": "Olfanny Yuverka Méndez Matos",
      "partido": "PRM",
      "resumen": "Representa a Bahoruco en la Cámara de Diputados.",
-     "registro": "No disponible todavía"
+     "registro": "No disponible todavía",
+     "comisiones": [
+      "03800-2024-2028-CD Comisión bicameral para el estudio de los proyectos de ley de Seguridad Social.",
+      "Defensa",
+      "Deportes y Recreación",
+      "Desarrollo Humano",
+      "Juventud",
+      "Seguridad Social"
+     ],
+     "iniciativas_propuestas": 53,
+     "asistencia": {
+      "presentes": 136,
+      "total": 166,
+      "periodo": "agosto 2024 a junio 2026",
+      "fuente": "registro oficial de asistencia al Pleno de la Cámara de Diputados (SIL Ciudadano, diputadosrd.gob.do)"
+     }
     },
     {
      "cargo": "Gobernador/a",
@@ -323,21 +674,64 @@
      "nombre": "Aquiles Leonel Ledesma Alcántara",
      "partido": "PRM",
      "resumen": "Representa a Barahona en la Cámara de Diputados.",
-     "registro": "No disponible todavía"
+     "registro": "No disponible todavía",
+     "comisiones": [
+      "00674-2025-PLO-SE Comisión bicameral designada para estudiar el proyecto de ley general de salud.",
+      "Administración de Deuda Pública y Activos Financieros",
+      "Asuntos Migratorios",
+      "Reconocimientos"
+     ],
+     "iniciativas_propuestas": 9,
+     "asistencia": {
+      "presentes": 132,
+      "total": 166,
+      "periodo": "agosto 2024 a junio 2026",
+      "fuente": "registro oficial de asistencia al Pleno de la Cámara de Diputados (SIL Ciudadano, diputadosrd.gob.do)"
+     }
     },
     {
      "cargo": "Diputado/a",
      "nombre": "José del Carmen Montero Arias",
      "partido": "PRM",
      "resumen": "Representa a Barahona en la Cámara de Diputados.",
-     "registro": "No disponible todavía"
+     "registro": "No disponible todavía",
+     "comisiones": [
+      "05274-2024-2028-CD Comisión Especial designada para el estudio del proyecto de ley que modifica los límites territoriales de Bonao, Juma-Bejucal y La Salvia-Los Quemados, provincia Monseñor Nouel.",
+      "05405-2024-2028-CD Comisión especial designada para el estudio del Proyecto de ley de los cuerpos de bomberos de la República Dominicana.",
+      "Asuntos Mineros",
+      "Comisión bicameral designada para estudiar los Actos del Poder Ejecutivo",
+      "Obras Públicas y Comunicaciones",
+      "Presidencia de la República",
+      "Recursos Hídricos"
+     ],
+     "iniciativas_propuestas": 35,
+     "asistencia": {
+      "presentes": 158,
+      "total": 166,
+      "periodo": "agosto 2024 a junio 2026",
+      "fuente": "registro oficial de asistencia al Pleno de la Cámara de Diputados (SIL Ciudadano, diputadosrd.gob.do)"
+     }
     },
     {
      "cargo": "Diputado/a",
      "nombre": "Sara Penélope Féliz Díaz",
      "partido": "PRM",
      "resumen": "Representa a Barahona en la Cámara de Diputados.",
-     "registro": "No disponible todavía"
+     "registro": "No disponible todavía",
+     "comisiones": [
+      "Administración Pública",
+      "Ciberseguridad",
+      "Industria y Comercio",
+      "Mipymes",
+      "Turismo"
+     ],
+     "iniciativas_propuestas": 50,
+     "asistencia": {
+      "presentes": 146,
+      "total": 166,
+      "periodo": "agosto 2024 a junio 2026",
+      "fuente": "registro oficial de asistencia al Pleno de la Cámara de Diputados (SIL Ciudadano, diputadosrd.gob.do)"
+     }
     },
     {
      "cargo": "Gobernador/a",
@@ -387,14 +781,45 @@
      "nombre": "Adelso de Jesús Ruben Contreras",
      "partido": "PRM",
      "resumen": "Representa a Dajabón en la Cámara de Diputados.",
-     "registro": "No disponible todavía"
+     "registro": "No disponible todavía",
+     "comisiones": [
+      "03313-2024-2028-CD Comisión especial PR investigación abandono La Cruz de Manzanillo.",
+      "Agricultura",
+      "Asuntos Fronterizos",
+      "Ciberseguridad",
+      "Educación Superior, Ciencia y Tecnología",
+      "Recursos Hídricos"
+     ],
+     "iniciativas_propuestas": 42,
+     "asistencia": {
+      "presentes": 142,
+      "total": 166,
+      "periodo": "agosto 2024 a junio 2026",
+      "fuente": "registro oficial de asistencia al Pleno de la Cámara de Diputados (SIL Ciudadano, diputadosrd.gob.do)"
+     }
     },
     {
      "cargo": "Diputado/a",
      "nombre": "Daritza Felicidad Zapata Díaz",
      "partido": "PRM",
      "resumen": "Representa a Dajabón en la Cámara de Diputados.",
-     "registro": "No disponible todavía"
+     "registro": "No disponible todavía",
+     "comisiones": [
+      "05199-2024-2028-CD Comisión Especial designada para el estudio del proyecto de ley que autoriza el pago de deuda por obras ejecutadas sin contrato formal.",
+      "05650-2024-2028-CD Comisión Especial proyecto de ley que modifica el artículo 13 de la Ley núm. 118-21, del 31 de mayo de 2021, sobre terminación de obras viales, escuelas, hospitales y presas que se encuentran suspendidas.",
+      "Asuntos Fronterizos",
+      "Asuntos Migratorios",
+      "Industria y Comercio",
+      "Juventud",
+      "Obras Públicas y Comunicaciones"
+     ],
+     "iniciativas_propuestas": 38,
+     "asistencia": {
+      "presentes": 126,
+      "total": 166,
+      "periodo": "agosto 2024 a junio 2026",
+      "fuente": "registro oficial de asistencia al Pleno de la Cámara de Diputados (SIL Ciudadano, diputadosrd.gob.do)"
+     }
     },
     {
      "cargo": "Gobernador/a",
@@ -445,35 +870,104 @@
      "nombre": "Dorina Yajaira Rodríguez Salazar",
      "partido": "PRM",
      "resumen": "Representa a Duarte en la Cámara de Diputados.",
-     "registro": "No disponible todavía"
+     "registro": "No disponible todavía",
+     "comisiones": [
+      "03465-2024-2028-CD Comisión Especial para estudiar el proyecto de resolución que solicita investigar la construcción de un acueducto para Haina dentro de un polideportivo.",
+      "05405-2024-2028-CD Comisión especial designada para el estudio del Proyecto de ley de los cuerpos de bomberos de la República Dominicana.",
+      "Asuntos Cooperativos",
+      "Asuntos Mineros",
+      "Ciberseguridad",
+      "Defensor del Pueblo",
+      "Desarrollo Humano",
+      "Hacienda"
+     ],
+     "iniciativas_propuestas": 37,
+     "asistencia": {
+      "presentes": 161,
+      "total": 166,
+      "periodo": "agosto 2024 a junio 2026",
+      "fuente": "registro oficial de asistencia al Pleno de la Cámara de Diputados (SIL Ciudadano, diputadosrd.gob.do)"
+     }
     },
     {
      "cargo": "Diputado/a",
      "nombre": "Jeovanny Ventura Rivera",
      "partido": "PRM",
      "resumen": "Representa a Duarte en la Cámara de Diputados.",
-     "registro": "No disponible todavía"
+     "registro": "No disponible todavía",
+     "comisiones": [
+      "03313-2024-2028-CD Comisión especial PR investigación abandono La Cruz de Manzanillo.",
+      "Asuntos Migratorios",
+      "Asuntos Municipales",
+      "Asuntos de Equidad de Género",
+      "Dominicanos en el Exterior"
+     ],
+     "iniciativas_propuestas": 51,
+     "asistencia": {
+      "presentes": 159,
+      "total": 166,
+      "periodo": "agosto 2024 a junio 2026",
+      "fuente": "registro oficial de asistencia al Pleno de la Cámara de Diputados (SIL Ciudadano, diputadosrd.gob.do)"
+     }
     },
     {
      "cargo": "Diputado/a",
      "nombre": "José Luis Rodríguez Hiciano",
      "partido": "PRM",
      "resumen": "Representa a Duarte en la Cámara de Diputados.",
-     "registro": "No disponible todavía"
+     "registro": "No disponible todavía",
+     "comisiones": [
+      "Defensor del Pueblo",
+      "Economía, Planificación y Desarrollo"
+     ],
+     "iniciativas_propuestas": 30,
+     "asistencia": {
+      "presentes": 157,
+      "total": 166,
+      "periodo": "agosto 2024 a junio 2026",
+      "fuente": "registro oficial de asistencia al Pleno de la Cámara de Diputados (SIL Ciudadano, diputadosrd.gob.do)"
+     }
     },
     {
      "cargo": "Diputado/a",
      "nombre": "Luis Tomás Marte Santos",
      "partido": "PRM",
      "resumen": "Representa a Duarte en la Cámara de Diputados.",
-     "registro": "No disponible todavía"
+     "registro": "No disponible todavía",
+     "comisiones": [
+      "Administración Pública",
+      "Asuntos Mineros",
+      "Inteligencia Artificial",
+      "Recursos Hídricos"
+     ],
+     "iniciativas_propuestas": 15,
+     "asistencia": {
+      "presentes": 161,
+      "total": 166,
+      "periodo": "agosto 2024 a junio 2026",
+      "fuente": "registro oficial de asistencia al Pleno de la Cámara de Diputados (SIL Ciudadano, diputadosrd.gob.do)"
+     }
     },
     {
      "cargo": "Diputado/a",
      "nombre": "Nicolás Hidalgo Almánzar",
      "partido": "PRM",
      "resumen": "Representa a Duarte en la Cámara de Diputados.",
-     "registro": "No disponible todavía"
+     "registro": "No disponible todavía",
+     "comisiones": [
+      "05405-2024-2028-CD Comisión especial designada para el estudio del Proyecto de ley de los cuerpos de bomberos de la República Dominicana.",
+      "Asuntos Cooperativos",
+      "Educación Superior, Ciencia y Tecnología",
+      "Junta Central Electoral",
+      "Mipymes"
+     ],
+     "iniciativas_propuestas": 37,
+     "asistencia": {
+      "presentes": 150,
+      "total": 166,
+      "periodo": "agosto 2024 a junio 2026",
+      "fuente": "registro oficial de asistencia al Pleno de la Cámara de Diputados (SIL Ciudadano, diputadosrd.gob.do)"
+     }
     },
     {
      "cargo": "Gobernador/a",
@@ -523,14 +1017,42 @@
      "nombre": "Faustina Guerrero Cabrera",
      "partido": "PRM",
      "resumen": "Representa a El Seibo en la Cámara de Diputados.",
-     "registro": "No disponible todavía"
+     "registro": "No disponible todavía",
+     "comisiones": [
+      "03800-2024-2028-CD Comisión bicameral para el estudio de los proyectos de ley de Seguridad Social.",
+      "Asuntos Cooperativos",
+      "Asuntos Marítimos",
+      "Defensa",
+      "Obras Públicas y Comunicaciones",
+      "Seguridad Social"
+     ],
+     "iniciativas_propuestas": 43,
+     "asistencia": {
+      "presentes": 161,
+      "total": 166,
+      "periodo": "agosto 2024 a junio 2026",
+      "fuente": "registro oficial de asistencia al Pleno de la Cámara de Diputados (SIL Ciudadano, diputadosrd.gob.do)"
+     }
     },
     {
      "cargo": "Diputado/a",
      "nombre": "Valerio Leonardo Palacio",
      "partido": "PRM",
      "resumen": "Representa a El Seibo en la Cámara de Diputados.",
-     "registro": "No disponible todavía"
+     "registro": "No disponible todavía",
+     "comisiones": [
+      "Cultura",
+      "Deportes y Recreación",
+      "Movilidad y Transporte",
+      "Tecnología de la Información y Comunicación"
+     ],
+     "iniciativas_propuestas": 47,
+     "asistencia": {
+      "presentes": 154,
+      "total": 166,
+      "periodo": "agosto 2024 a junio 2026",
+      "fuente": "registro oficial de asistencia al Pleno de la Cámara de Diputados (SIL Ciudadano, diputadosrd.gob.do)"
+     }
     },
     {
      "cargo": "Gobernador/a",
@@ -580,14 +1102,44 @@
      "nombre": "Luis Enrique Castillo Ogando",
      "partido": "PRM",
      "resumen": "Representa a Elías Piña en la Cámara de Diputados.",
-     "registro": "No disponible todavía"
+     "registro": "No disponible todavía",
+     "comisiones": [
+      "05218-2024-2028-CD Comisión especial designada para estudiar el proyecto de ley de amnistía para el registro de armas de fuego.",
+      "Asuntos Fronterizos",
+      "Asuntos Mineros",
+      "Obras Públicas y Comunicaciones",
+      "Recursos Hídricos",
+      "Ética"
+     ],
+     "iniciativas_propuestas": 38,
+     "asistencia": {
+      "presentes": 154,
+      "total": 166,
+      "periodo": "agosto 2024 a junio 2026",
+      "fuente": "registro oficial de asistencia al Pleno de la Cámara de Diputados (SIL Ciudadano, diputadosrd.gob.do)"
+     }
     },
     {
      "cargo": "Diputado/a",
      "nombre": "Millys Johanna Martínez Morillo",
      "partido": "PRM",
      "resumen": "Representa a Elías Piña en la Cámara de Diputados.",
-     "registro": "No disponible todavía"
+     "registro": "No disponible todavía",
+     "comisiones": [
+      "00674-2025-PLO-SE Comisión bicameral designada para estudiar el proyecto de ley general de salud.",
+      "Asuntos Fronterizos",
+      "Asuntos Migratorios",
+      "Asuntos de Equidad de Género",
+      "Salud",
+      "Vivienda, Hábitat y Edificaciones"
+     ],
+     "iniciativas_propuestas": 58,
+     "asistencia": {
+      "presentes": 159,
+      "total": 166,
+      "periodo": "agosto 2024 a junio 2026",
+      "fuente": "registro oficial de asistencia al Pleno de la Cámara de Diputados (SIL Ciudadano, diputadosrd.gob.do)"
+     }
     },
     {
      "cargo": "Gobernador/a",
@@ -636,28 +1188,83 @@
      "nombre": "José Miguel Ferreiras Torres",
      "partido": "PRM",
      "resumen": "Representa a Espaillat en la Cámara de Diputados.",
-     "registro": "No disponible todavía"
+     "registro": "No disponible todavía",
+     "comisiones": [
+      "05218-2024-2028-CD Comisión especial designada para estudiar el proyecto de ley de amnistía para el registro de armas de fuego.",
+      "Cámara de Cuentas",
+      "Economía, Planificación y Desarrollo",
+      "Industria y Comercio",
+      "Ministerio Público"
+     ],
+     "iniciativas_propuestas": 38,
+     "asistencia": {
+      "presentes": 160,
+      "total": 166,
+      "periodo": "agosto 2024 a junio 2026",
+      "fuente": "registro oficial de asistencia al Pleno de la Cámara de Diputados (SIL Ciudadano, diputadosrd.gob.do)"
+     }
     },
     {
      "cargo": "Diputado/a",
      "nombre": "Marleni Altagracia Jiménez Muñoz",
      "partido": "PRM",
      "resumen": "Representa a Espaillat en la Cámara de Diputados.",
-     "registro": "No disponible todavía"
+     "registro": "No disponible todavía",
+     "comisiones": [
+      "Asuntos de Equidad de Género",
+      "Cultura",
+      "Desarrollo Humano",
+      "Energía",
+      "Familia"
+     ],
+     "iniciativas_propuestas": 39,
+     "asistencia": {
+      "presentes": 159,
+      "total": 166,
+      "periodo": "agosto 2024 a junio 2026",
+      "fuente": "registro oficial de asistencia al Pleno de la Cámara de Diputados (SIL Ciudadano, diputadosrd.gob.do)"
+     }
     },
     {
      "cargo": "Diputado/a",
      "nombre": "Robinson Antonio Santos Rodríguez",
      "partido": "PRM",
      "resumen": "Representa a Espaillat en la Cámara de Diputados.",
-     "registro": "No disponible todavía"
+     "registro": "No disponible todavía",
+     "comisiones": [
+      "Agricultura",
+      "Derechos Humanos",
+      "Economía, Planificación y Desarrollo",
+      "Ética"
+     ],
+     "iniciativas_propuestas": 25,
+     "asistencia": {
+      "presentes": 126,
+      "total": 166,
+      "periodo": "agosto 2024 a junio 2026",
+      "fuente": "registro oficial de asistencia al Pleno de la Cámara de Diputados (SIL Ciudadano, diputadosrd.gob.do)"
+     }
     },
     {
      "cargo": "Diputado/a",
      "nombre": "Shirley Antonia López Féliz",
      "partido": "PRM",
      "resumen": "Representa a Espaillat en la Cámara de Diputados.",
-     "registro": "No disponible todavía"
+     "registro": "No disponible todavía",
+     "comisiones": [
+      "03465-2024-2028-CD Comisión Especial para estudiar el proyecto de resolución que solicita investigar la construcción de un acueducto para Haina dentro de un polideportivo.",
+      "Administración Pública",
+      "Educación",
+      "Energía",
+      "Medio Ambiente y Recursos Naturales"
+     ],
+     "iniciativas_propuestas": 55,
+     "asistencia": {
+      "presentes": 158,
+      "total": 166,
+      "periodo": "agosto 2024 a junio 2026",
+      "fuente": "registro oficial de asistencia al Pleno de la Cámara de Diputados (SIL Ciudadano, diputadosrd.gob.do)"
+     }
     },
     {
      "cargo": "Gobernador/a",
@@ -708,14 +1315,42 @@
      "nombre": "Carmen Ligia Barceló González",
      "partido": "PRM",
      "resumen": "Representa a Hato Mayor en la Cámara de Diputados.",
-     "registro": "No disponible todavía"
+     "registro": "No disponible todavía",
+     "comisiones": [
+      "00674-2025-PLO-SE Comisión bicameral designada para estudiar el proyecto de ley general de salud.",
+      "05405-2024-2028-CD Comisión especial designada para el estudio del Proyecto de ley de los cuerpos de bomberos de la República Dominicana.",
+      "Hacienda",
+      "Presidencia de la República",
+      "Trabajo",
+      "Turismo"
+     ],
+     "iniciativas_propuestas": 86,
+     "asistencia": {
+      "presentes": 151,
+      "total": 166,
+      "periodo": "agosto 2024 a junio 2026",
+      "fuente": "registro oficial de asistencia al Pleno de la Cámara de Diputados (SIL Ciudadano, diputadosrd.gob.do)"
+     }
     },
     {
      "cargo": "Diputado/a",
      "nombre": "Héctor Fodil Rosa Mercedes",
      "partido": "PRM",
      "resumen": "Representa a Hato Mayor en la Cámara de Diputados.",
-     "registro": "No disponible todavía"
+     "registro": "No disponible todavía",
+     "comisiones": [
+      "Asuntos Marítimos",
+      "Desarrollo Humano",
+      "Medio Ambiente y Recursos Naturales",
+      "Presupuesto, Patrimonio y Contabilidad"
+     ],
+     "iniciativas_propuestas": 25,
+     "asistencia": {
+      "presentes": 164,
+      "total": 166,
+      "periodo": "agosto 2024 a junio 2026",
+      "fuente": "registro oficial de asistencia al Pleno de la Cámara de Diputados (SIL Ciudadano, diputadosrd.gob.do)"
+     }
     },
     {
      "cargo": "Gobernador/a",
@@ -765,14 +1400,42 @@
      "nombre": "Félix Santiago Hiciano Almánzar",
      "partido": "PRM",
      "resumen": "Representa a Hermanas Mirabal en la Cámara de Diputados.",
-     "registro": "No disponible todavía"
+     "registro": "No disponible todavía",
+     "comisiones": [
+      "Administración Interior",
+      "Cámara de Cuentas",
+      "Hacienda",
+      "Mipymes",
+      "Presidencia de la República"
+     ],
+     "iniciativas_propuestas": 113,
+     "asistencia": {
+      "presentes": 166,
+      "total": 166,
+      "periodo": "agosto 2024 a junio 2026",
+      "fuente": "registro oficial de asistencia al Pleno de la Cámara de Diputados (SIL Ciudadano, diputadosrd.gob.do)"
+     }
     },
     {
      "cargo": "Diputado/a",
      "nombre": "Lourdes de Jesús Vélez",
      "partido": "PRM",
      "resumen": "Representa a Hermanas Mirabal en la Cámara de Diputados.",
-     "registro": "No disponible todavía"
+     "registro": "No disponible todavía",
+     "comisiones": [
+      "Administración Pública",
+      "Asuntos Cooperativos",
+      "Asuntos de Equidad de Género",
+      "Modernización y Reforma",
+      "Presupuesto, Patrimonio y Contabilidad"
+     ],
+     "iniciativas_propuestas": 43,
+     "asistencia": {
+      "presentes": 163,
+      "total": 166,
+      "periodo": "agosto 2024 a junio 2026",
+      "fuente": "registro oficial de asistencia al Pleno de la Cámara de Diputados (SIL Ciudadano, diputadosrd.gob.do)"
+     }
     },
     {
      "cargo": "Gobernador/a",
@@ -823,14 +1486,42 @@
      "nombre": "Hermes Evangelina José Méndez de Méndez",
      "partido": "PRM",
      "resumen": "Representa a Independencia en la Cámara de Diputados.",
-     "registro": "No disponible todavía"
+     "registro": "No disponible todavía",
+     "comisiones": [
+      "03465-2024-2028-CD Comisión Especial para estudiar el proyecto de resolución que solicita investigar la construcción de un acueducto para Haina dentro de un polideportivo.",
+      "Asuntos Fronterizos",
+      "Asuntos Marítimos",
+      "Asuntos Migratorios",
+      "Economía, Planificación y Desarrollo",
+      "Mipymes"
+     ],
+     "iniciativas_propuestas": 41,
+     "asistencia": {
+      "presentes": 158,
+      "total": 166,
+      "periodo": "agosto 2024 a junio 2026",
+      "fuente": "registro oficial de asistencia al Pleno de la Cámara de Diputados (SIL Ciudadano, diputadosrd.gob.do)"
+     }
     },
     {
      "cargo": "Diputado/a",
      "nombre": "Llanelis Matos Cuevas",
      "partido": "PRM",
      "resumen": "Representa a Independencia en la Cámara de Diputados.",
-     "registro": "No disponible todavía"
+     "registro": "No disponible todavía",
+     "comisiones": [
+      "Asuntos Fronterizos",
+      "Asuntos Marítimos",
+      "Asuntos Migratorios",
+      "Asuntos Municipales"
+     ],
+     "iniciativas_propuestas": 29,
+     "asistencia": {
+      "presentes": 153,
+      "total": 166,
+      "periodo": "agosto 2024 a junio 2026",
+      "fuente": "registro oficial de asistencia al Pleno de la Cámara de Diputados (SIL Ciudadano, diputadosrd.gob.do)"
+     }
     },
     {
      "cargo": "Gobernador/a",
@@ -881,35 +1572,107 @@
      "nombre": "Ángel del Rosario Robles",
      "partido": "PRM",
      "resumen": "Representa a La Altagracia en la Cámara de Diputados.",
-     "registro": "No disponible todavía"
+     "registro": "No disponible todavía",
+     "comisiones": [
+      "04691-2024-2028-CD proyecto de resolución de interpelación al señor Celso Marranzini",
+      "05218-2024-2028-CD Comisión especial designada para estudiar el proyecto de ley de amnistía para el registro de armas de fuego.",
+      "Ciberseguridad",
+      "Junta Central Electoral",
+      "Ministerio Público",
+      "Obras Públicas y Comunicaciones",
+      "Trabajo"
+     ],
+     "iniciativas_propuestas": 40,
+     "asistencia": {
+      "presentes": 153,
+      "total": 166,
+      "periodo": "agosto 2024 a junio 2026",
+      "fuente": "registro oficial de asistencia al Pleno de la Cámara de Diputados (SIL Ciudadano, diputadosrd.gob.do)"
+     }
     },
     {
      "cargo": "Diputado/a",
      "nombre": "Carmen Aurelia de la Rosa Pérez",
      "partido": "PRM",
      "resumen": "Representa a La Altagracia en la Cámara de Diputados.",
-     "registro": "No disponible todavía"
+     "registro": "No disponible todavía",
+     "comisiones": [
+      "Asuntos Municipales",
+      "Ciberseguridad",
+      "Economía, Planificación y Desarrollo",
+      "Relaciones Exteriores y Cooperación Internacional",
+      "Turismo"
+     ],
+     "iniciativas_propuestas": 110,
+     "asistencia": {
+      "presentes": 158,
+      "total": 166,
+      "periodo": "agosto 2024 a junio 2026",
+      "fuente": "registro oficial de asistencia al Pleno de la Cámara de Diputados (SIL Ciudadano, diputadosrd.gob.do)"
+     }
     },
     {
      "cargo": "Diputado/a",
      "nombre": "Francisco Rodolfo Villegas Pérez",
      "partido": "PRM",
      "resumen": "Representa a La Altagracia en la Cámara de Diputados.",
-     "registro": "No disponible todavía"
+     "registro": "No disponible todavía",
+     "comisiones": [
+      "Asuntos Marítimos",
+      "Asuntos Migratorios",
+      "Turismo"
+     ],
+     "iniciativas_propuestas": 33,
+     "asistencia": {
+      "presentes": 143,
+      "total": 166,
+      "periodo": "agosto 2024 a junio 2026",
+      "fuente": "registro oficial de asistencia al Pleno de la Cámara de Diputados (SIL Ciudadano, diputadosrd.gob.do)"
+     }
     },
     {
      "cargo": "Diputado/a",
      "nombre": "Jorge Leonardo Tavárez Valdez",
      "partido": "FP",
      "resumen": "Representa a La Altagracia en la Cámara de Diputados.",
-     "registro": "No disponible todavía"
+     "registro": "No disponible todavía",
+     "comisiones": [
+      "05650-2024-2028-CD Comisión Especial proyecto de ley que modifica el artículo 13 de la Ley núm. 118-21, del 31 de mayo de 2021, sobre terminación de obras viales, escuelas, hospitales y presas que se encuentran suspendidas.",
+      "Cultura",
+      "Deportes y Recreación",
+      "Industria y Comercio",
+      "Justicia",
+      "Turismo"
+     ],
+     "iniciativas_propuestas": 90,
+     "asistencia": {
+      "presentes": 154,
+      "total": 166,
+      "periodo": "agosto 2024 a junio 2026",
+      "fuente": "registro oficial de asistencia al Pleno de la Cámara de Diputados (SIL Ciudadano, diputadosrd.gob.do)"
+     }
     },
     {
      "cargo": "Diputado/a",
      "nombre": "Onavel Andrés Aristy Cedeño",
      "partido": "PLR",
      "resumen": "Representa a La Altagracia en la Cámara de Diputados.",
-     "registro": "No disponible todavía"
+     "registro": "No disponible todavía",
+     "comisiones": [
+      "05137-2024-2028-CD y 05138-2024-2028-CD Comisión Especial designada para el estudio de los proyectos de ley para la superación y reinserción de los adolescentes.",
+      "Comisión bicameral designada para estudiar los Actos del Poder Ejecutivo",
+      "Cultura",
+      "Deportes y Recreación",
+      "Juventud",
+      "Mipymes"
+     ],
+     "iniciativas_propuestas": 63,
+     "asistencia": {
+      "presentes": 161,
+      "total": 166,
+      "periodo": "agosto 2024 a junio 2026",
+      "fuente": "registro oficial de asistencia al Pleno de la Cámara de Diputados (SIL Ciudadano, diputadosrd.gob.do)"
+     }
     },
     {
      "cargo": "Gobernador/a",
@@ -960,28 +1723,82 @@
      "nombre": "Carlos de Pérez Juan",
      "partido": "FP",
      "resumen": "Representa a La Romana en la Cámara de Diputados.",
-     "registro": "No disponible todavía"
+     "registro": "No disponible todavía",
+     "comisiones": [
+      "03313-2024-2028-CD Comisión especial PR investigación abandono La Cruz de Manzanillo.",
+      "05405-2024-2028-CD Comisión especial designada para el estudio del Proyecto de ley de los cuerpos de bomberos de la República Dominicana.",
+      "Asuntos Municipales",
+      "Defensor del Pueblo",
+      "Derechos Humanos",
+      "Junta Central Electoral",
+      "Justicia"
+     ],
+     "iniciativas_propuestas": 49,
+     "asistencia": {
+      "presentes": 145,
+      "total": 166,
+      "periodo": "agosto 2024 a junio 2026",
+      "fuente": "registro oficial de asistencia al Pleno de la Cámara de Diputados (SIL Ciudadano, diputadosrd.gob.do)"
+     }
     },
     {
      "cargo": "Diputado/a",
      "nombre": "Eugenio Cedeño Areché",
      "partido": "PRM",
      "resumen": "Representa a La Romana en la Cámara de Diputados.",
-     "registro": "No disponible todavía"
+     "registro": "No disponible todavía",
+     "comisiones": [
+      "Asuntos Marítimos",
+      "Justicia",
+      "Ministerio Público",
+      "Turismo"
+     ],
+     "iniciativas_propuestas": 41,
+     "asistencia": {
+      "presentes": 144,
+      "total": 166,
+      "periodo": "agosto 2024 a junio 2026",
+      "fuente": "registro oficial de asistencia al Pleno de la Cámara de Diputados (SIL Ciudadano, diputadosrd.gob.do)"
+     }
     },
     {
      "cargo": "Diputado/a",
      "nombre": "Jacqueline Fernández Brito",
      "partido": "PRM",
      "resumen": "Representa a La Romana en la Cámara de Diputados.",
-     "registro": "No disponible todavía"
+     "registro": "No disponible todavía",
+     "comisiones": [
+      "Modernización y Reforma",
+      "Presidencia de la República",
+      "Turismo"
+     ],
+     "iniciativas_propuestas": 44,
+     "asistencia": {
+      "presentes": 157,
+      "total": 166,
+      "periodo": "agosto 2024 a junio 2026",
+      "fuente": "registro oficial de asistencia al Pleno de la Cámara de Diputados (SIL Ciudadano, diputadosrd.gob.do)"
+     }
     },
     {
      "cargo": "Diputado/a",
      "nombre": "Wandy Modesto Batista Gómez",
      "partido": "PRM",
      "resumen": "Representa a La Romana en la Cámara de Diputados.",
-     "registro": "No disponible todavía"
+     "registro": "No disponible todavía",
+     "comisiones": [
+      "Defensor del Pueblo",
+      "Justicia",
+      "Ministerio Público",
+      "Ética"
+     ],
+     "iniciativas_propuestas": 18,
+     "asistencia": {
+      "presentes": 139,
+      "total": 166,
+      "periodo": "agosto 2024 a junio 2026",
+      "fuente": "registro oficial de asistencia al Pleno de la Cámara de Diputados (SIL Ciudadano, diputadosrd.gob.do)"
+     }
     },
     {
      "cargo": "Gobernador/a",
@@ -1033,49 +1850,155 @@
      "nombre": "Carolin Mercedes de la Cruz",
      "partido": "PRM",
      "resumen": "Representa a La Vega en la Cámara de Diputados.",
-     "registro": "No disponible todavía"
+     "registro": "No disponible todavía",
+     "comisiones": [
+      "05137-2024-2028-CD y 05138-2024-2028-CD Comisión Especial designada para el estudio de los proyectos de ley para la superación y reinserción de los adolescentes.",
+      "Cámara de Cuentas",
+      "Justicia",
+      "Juventud",
+      "Medios de Comunicación",
+      "Trabajo"
+     ],
+     "iniciativas_propuestas": 27,
+     "asistencia": {
+      "presentes": 141,
+      "total": 166,
+      "periodo": "agosto 2024 a junio 2026",
+      "fuente": "registro oficial de asistencia al Pleno de la Cámara de Diputados (SIL Ciudadano, diputadosrd.gob.do)"
+     }
     },
     {
      "cargo": "Diputado/a",
      "nombre": "Elpidio Infante Galán",
      "partido": "PRM",
      "resumen": "Representa a La Vega en la Cámara de Diputados.",
-     "registro": "No disponible todavía"
+     "registro": "No disponible todavía",
+     "comisiones": [
+      "03313-2024-2028-CD Comisión especial PR investigación abandono La Cruz de Manzanillo.",
+      "Medio Ambiente y Recursos Naturales",
+      "Mipymes",
+      "Vivienda, Hábitat y Edificaciones"
+     ],
+     "iniciativas_propuestas": 18,
+     "asistencia": {
+      "presentes": 150,
+      "total": 166,
+      "periodo": "agosto 2024 a junio 2026",
+      "fuente": "registro oficial de asistencia al Pleno de la Cámara de Diputados (SIL Ciudadano, diputadosrd.gob.do)"
+     }
     },
     {
      "cargo": "Diputado/a",
      "nombre": "Gabriela María Abreu Santos",
      "partido": "PRM",
      "resumen": "Representa a La Vega en la Cámara de Diputados.",
-     "registro": "No disponible todavía"
+     "registro": "No disponible todavía",
+     "comisiones": [
+      "05274-2024-2028-CD Comisión Especial designada para el estudio del proyecto de ley que modifica los límites territoriales de Bonao, Juma-Bejucal y La Salvia-Los Quemados, provincia Monseñor Nouel.",
+      "Industria y Comercio",
+      "Inteligencia Artificial",
+      "Juventud",
+      "Ministerio Público",
+      "Presidencia de la República",
+      "Presupuesto, Patrimonio y Contabilidad"
+     ],
+     "iniciativas_propuestas": 68,
+     "asistencia": {
+      "presentes": 159,
+      "total": 166,
+      "periodo": "agosto 2024 a junio 2026",
+      "fuente": "registro oficial de asistencia al Pleno de la Cámara de Diputados (SIL Ciudadano, diputadosrd.gob.do)"
+     }
     },
     {
      "cargo": "Diputado/a",
      "nombre": "Gilda Mercedes Moronta Guzmán",
      "partido": "FP",
      "resumen": "Representa a La Vega en la Cámara de Diputados.",
-     "registro": "No disponible todavía"
+     "registro": "No disponible todavía",
+     "comisiones": [
+      "00674-2025-PLO-SE Comisión bicameral designada para estudiar el proyecto de ley general de salud.",
+      "03313-2024-2028-CD Comisión especial PR investigación abandono La Cruz de Manzanillo.",
+      "05137-2024-2028-CD y 05138-2024-2028-CD Comisión Especial designada para el estudio de los proyectos de ley para la superación y reinserción de los adolescentes.",
+      "05368-2024-2028-CD Comisión especial designada para estudiar el Proyecto de ley que modifica la Ley núm.5-13 sobre Discapacidad en la República Dominicana.",
+      "Asuntos de Equidad de Género",
+      "Reconocimientos",
+      "Salud"
+     ],
+     "iniciativas_propuestas": 20,
+     "asistencia": {
+      "presentes": 145,
+      "total": 166,
+      "periodo": "agosto 2024 a junio 2026",
+      "fuente": "registro oficial de asistencia al Pleno de la Cámara de Diputados (SIL Ciudadano, diputadosrd.gob.do)"
+     }
     },
     {
      "cargo": "Diputado/a",
      "nombre": "José Luis Abreu Veloz",
      "partido": "PRM",
      "resumen": "Representa a La Vega en la Cámara de Diputados.",
-     "registro": "No disponible todavía"
+     "registro": "No disponible todavía",
+     "comisiones": [
+      "05368-2024-2028-CD Comisión especial designada para estudiar el Proyecto de ley que modifica la Ley núm.5-13 sobre Discapacidad en la República Dominicana.",
+      "05405-2024-2028-CD Comisión especial designada para el estudio del Proyecto de ley de los cuerpos de bomberos de la República Dominicana.",
+      "Agricultura",
+      "Asuntos Municipales",
+      "Deportes y Recreación",
+      "Industria y Comercio"
+     ],
+     "iniciativas_propuestas": 25,
+     "asistencia": {
+      "presentes": 164,
+      "total": 166,
+      "periodo": "agosto 2024 a junio 2026",
+      "fuente": "registro oficial de asistencia al Pleno de la Cámara de Diputados (SIL Ciudadano, diputadosrd.gob.do)"
+     }
     },
     {
      "cargo": "Diputado/a",
      "nombre": "Rogelio Alfonso Genao Lanza",
      "partido": "PRSC",
      "resumen": "Representa a La Vega en la Cámara de Diputados.",
-     "registro": "No disponible todavía"
+     "registro": "No disponible todavía",
+     "comisiones": [
+      "03800-2024-2028-CD Comisión bicameral para el estudio de los proyectos de ley de Seguridad Social.",
+      "05137-2024-2028-CD y 05138-2024-2028-CD Comisión Especial designada para el estudio de los proyectos de ley para la superación y reinserción de los adolescentes.",
+      "Comisión bicameral designada para estudiar los Actos del Poder Ejecutivo",
+      "Cámara de Cuentas",
+      "Industria y Comercio",
+      "Relaciones Exteriores y Cooperación Internacional",
+      "Seguridad Social"
+     ],
+     "iniciativas_propuestas": 28,
+     "asistencia": {
+      "presentes": 147,
+      "total": 166,
+      "periodo": "agosto 2024 a junio 2026",
+      "fuente": "registro oficial de asistencia al Pleno de la Cámara de Diputados (SIL Ciudadano, diputadosrd.gob.do)"
+     }
     },
     {
      "cargo": "Diputado/a",
      "nombre": "Vilma Hortencia Morillo Vásquez",
      "partido": "PRM",
      "resumen": "Representa a La Vega en la Cámara de Diputados.",
-     "registro": "No disponible todavía"
+     "registro": "No disponible todavía",
+     "comisiones": [
+      "04711-2024-2028-CD Comisión especial que estudia el proyecto de ley que regula la libertad religiosa de conciencia y de cultos",
+      "Defensor del Pueblo",
+      "Derechos Humanos",
+      "Economía, Planificación y Desarrollo",
+      "Junta Central Electoral",
+      "Presidencia de la República"
+     ],
+     "iniciativas_propuestas": 9,
+     "asistencia": {
+      "presentes": 42,
+      "total": 56,
+      "periodo": "agosto 2024 a junio 2026",
+      "fuente": "registro oficial de asistencia al Pleno de la Cámara de Diputados (SIL Ciudadano, diputadosrd.gob.do)"
+     }
     },
     {
      "cargo": "Gobernador/a",
@@ -1125,21 +2048,65 @@
      "nombre": "Jesús Stalin Vásquez Marte",
      "partido": "PRM",
      "resumen": "Representa a María Trinidad Sánchez en la Cámara de Diputados.",
-     "registro": "No disponible todavía"
+     "registro": "No disponible todavía",
+     "comisiones": [
+      "05218-2024-2028-CD Comisión especial designada para estudiar el proyecto de ley de amnistía para el registro de armas de fuego.",
+      "Administración Pública",
+      "Defensa",
+      "Inteligencia Artificial",
+      "Interior y Policía",
+      "Juventud"
+     ],
+     "iniciativas_propuestas": 48,
+     "asistencia": {
+      "presentes": 161,
+      "total": 166,
+      "periodo": "agosto 2024 a junio 2026",
+      "fuente": "registro oficial de asistencia al Pleno de la Cámara de Diputados (SIL Ciudadano, diputadosrd.gob.do)"
+     }
     },
     {
      "cargo": "Diputado/a",
      "nombre": "Jorge Hugo Cavoli Balbuena",
      "partido": "PRM",
      "resumen": "Representa a María Trinidad Sánchez en la Cámara de Diputados.",
-     "registro": "No disponible todavía"
+     "registro": "No disponible todavía",
+     "comisiones": [
+      "05274-2024-2028-CD Comisión Especial designada para el estudio del proyecto de ley que modifica los límites territoriales de Bonao, Juma-Bejucal y La Salvia-Los Quemados, provincia Monseñor Nouel.",
+      "Agricultura",
+      "Asuntos Marítimos",
+      "Cultura",
+      "Recursos Hídricos",
+      "Turismo"
+     ],
+     "iniciativas_propuestas": 51,
+     "asistencia": {
+      "presentes": 154,
+      "total": 166,
+      "periodo": "agosto 2024 a junio 2026",
+      "fuente": "registro oficial de asistencia al Pleno de la Cámara de Diputados (SIL Ciudadano, diputadosrd.gob.do)"
+     }
     },
     {
      "cargo": "Diputado/a",
      "nombre": "Sonia Núñez Espino",
      "partido": "PRM",
      "resumen": "Representa a María Trinidad Sánchez en la Cámara de Diputados.",
-     "registro": "No disponible todavía"
+     "registro": "No disponible todavía",
+     "comisiones": [
+      "Administración Pública",
+      "Asuntos Migratorios",
+      "Economía, Planificación y Desarrollo",
+      "Obras Públicas y Comunicaciones",
+      "Tecnología de la Información y Comunicación"
+     ],
+     "iniciativas_propuestas": 44,
+     "asistencia": {
+      "presentes": 164,
+      "total": 166,
+      "periodo": "agosto 2024 a junio 2026",
+      "fuente": "registro oficial de asistencia al Pleno de la Cámara de Diputados (SIL Ciudadano, diputadosrd.gob.do)"
+     }
     },
     {
      "cargo": "Gobernador/a",
@@ -1189,21 +2156,64 @@
      "nombre": "José Antonio Fabián Beltré",
      "partido": "FP",
      "resumen": "Representa a Monseñor Nouel en la Cámara de Diputados.",
-     "registro": "No disponible todavía"
+     "registro": "No disponible todavía",
+     "comisiones": [
+      "00674-2025-PLO-SE Comisión bicameral designada para estudiar el proyecto de ley general de salud.",
+      "03465-2024-2028-CD Comisión Especial para estudiar el proyecto de resolución que solicita investigar la construcción de un acueducto para Haina dentro de un polideportivo.",
+      "Asuntos Mineros",
+      "Derechos Humanos",
+      "Familia",
+      "Medio Ambiente y Recursos Naturales",
+      "Salud"
+     ],
+     "iniciativas_propuestas": 40,
+     "asistencia": {
+      "presentes": 152,
+      "total": 166,
+      "periodo": "agosto 2024 a junio 2026",
+      "fuente": "registro oficial de asistencia al Pleno de la Cámara de Diputados (SIL Ciudadano, diputadosrd.gob.do)"
+     }
     },
     {
      "cargo": "Diputado/a",
      "nombre": "Nolberto Ortiz de la Cruz",
      "partido": "PRM",
      "resumen": "Representa a Monseñor Nouel en la Cámara de Diputados.",
-     "registro": "No disponible todavía"
+     "registro": "No disponible todavía",
+     "comisiones": [
+      "Administración de Deuda Pública y Activos Financieros",
+      "Asuntos Cooperativos",
+      "Economía, Planificación y Desarrollo",
+      "Educación"
+     ],
+     "iniciativas_propuestas": 85,
+     "asistencia": {
+      "presentes": 153,
+      "total": 166,
+      "periodo": "agosto 2024 a junio 2026",
+      "fuente": "registro oficial de asistencia al Pleno de la Cámara de Diputados (SIL Ciudadano, diputadosrd.gob.do)"
+     }
     },
     {
      "cargo": "Diputado/a",
      "nombre": "Orlando Antonio Martínez Peña",
      "partido": "PRM",
      "resumen": "Representa a Monseñor Nouel en la Cámara de Diputados.",
-     "registro": "No disponible todavía"
+     "registro": "No disponible todavía",
+     "comisiones": [
+      "Cámara de Cuentas",
+      "Industria y Comercio",
+      "Mipymes",
+      "Modernización y Reforma",
+      "Presidencia de la República"
+     ],
+     "iniciativas_propuestas": 29,
+     "asistencia": {
+      "presentes": 98,
+      "total": 165,
+      "periodo": "agosto 2024 a junio 2026",
+      "fuente": "registro oficial de asistencia al Pleno de la Cámara de Diputados (SIL Ciudadano, diputadosrd.gob.do)"
+     }
     },
     {
      "cargo": "Gobernador/a",
@@ -1252,14 +2262,42 @@
      "nombre": "Johanny Margarita Martínez Gómez",
      "partido": "PRM",
      "resumen": "Representa a Monte Cristi en la Cámara de Diputados.",
-     "registro": "No disponible todavía"
+     "registro": "No disponible todavía",
+     "comisiones": [
+      "Agricultura",
+      "Asuntos Fronterizos",
+      "Defensor del Pueblo",
+      "Deportes y Recreación"
+     ],
+     "iniciativas_propuestas": 55,
+     "asistencia": {
+      "presentes": 157,
+      "total": 166,
+      "periodo": "agosto 2024 a junio 2026",
+      "fuente": "registro oficial de asistencia al Pleno de la Cámara de Diputados (SIL Ciudadano, diputadosrd.gob.do)"
+     }
     },
     {
      "cargo": "Diputado/a",
      "nombre": "Rosendy Joel Polanco Polanco",
      "partido": "PRM",
      "resumen": "Representa a Monte Cristi en la Cámara de Diputados.",
-     "registro": "No disponible todavía"
+     "registro": "No disponible todavía",
+     "comisiones": [
+      "03313-2024-2028-CD Comisión especial PR investigación abandono La Cruz de Manzanillo.",
+      "Agricultura",
+      "Asuntos Fronterizos",
+      "Asuntos Migratorios",
+      "Defensor del Pueblo",
+      "Justicia"
+     ],
+     "iniciativas_propuestas": 30,
+     "asistencia": {
+      "presentes": 158,
+      "total": 166,
+      "periodo": "agosto 2024 a junio 2026",
+      "fuente": "registro oficial de asistencia al Pleno de la Cámara de Diputados (SIL Ciudadano, diputadosrd.gob.do)"
+     }
     },
     {
      "cargo": "Gobernador/a",
@@ -1310,21 +2348,66 @@
      "nombre": "Jhonatan Rabel Contreras del Orbe",
      "partido": "PRM",
      "resumen": "Representa a Monte Plata en la Cámara de Diputados.",
-     "registro": "No disponible todavía"
+     "registro": "No disponible todavía",
+     "comisiones": [
+      "03465-2024-2028-CD Comisión Especial para estudiar el proyecto de resolución que solicita investigar la construcción de un acueducto para Haina dentro de un polideportivo.",
+      "05137-2024-2028-CD y 05138-2024-2028-CD Comisión Especial designada para el estudio de los proyectos de ley para la superación y reinserción de los adolescentes.",
+      "Ciberseguridad",
+      "Defensor del Pueblo",
+      "Deportes y Recreación",
+      "Educación"
+     ],
+     "iniciativas_propuestas": 29,
+     "asistencia": {
+      "presentes": 162,
+      "total": 166,
+      "periodo": "agosto 2024 a junio 2026",
+      "fuente": "registro oficial de asistencia al Pleno de la Cámara de Diputados (SIL Ciudadano, diputadosrd.gob.do)"
+     }
     },
     {
      "cargo": "Diputado/a",
      "nombre": "Oscar Adolfo Morel Figueroa",
      "partido": "PLD",
      "resumen": "Representa a Monte Plata en la Cámara de Diputados.",
-     "registro": "No disponible todavía"
+     "registro": "No disponible todavía",
+     "comisiones": [
+      "04691-2024-2028-CD proyecto de resolución de interpelación al señor Celso Marranzini",
+      "05199-2024-2028-CD Comisión Especial designada para el estudio del proyecto de ley que autoriza el pago de deuda por obras ejecutadas sin contrato formal.",
+      "05274-2024-2028-CD Comisión Especial designada para el estudio del proyecto de ley que modifica los límites territoriales de Bonao, Juma-Bejucal y La Salvia-Los Quemados, provincia Monseñor Nouel.",
+      "05650-2024-2028-CD Comisión Especial proyecto de ley que modifica el artículo 13 de la Ley núm. 118-21, del 31 de mayo de 2021, sobre terminación de obras viales, escuelas, hospitales y presas que se encuentran suspendidas.",
+      "Asuntos Mineros",
+      "Ciberseguridad",
+      "Energía",
+      "Inteligencia Artificial",
+      "Recursos Hídricos"
+     ],
+     "iniciativas_propuestas": 39,
+     "asistencia": {
+      "presentes": 156,
+      "total": 166,
+      "periodo": "agosto 2024 a junio 2026",
+      "fuente": "registro oficial de asistencia al Pleno de la Cámara de Diputados (SIL Ciudadano, diputadosrd.gob.do)"
+     }
     },
     {
      "cargo": "Diputado/a",
      "nombre": "Román de Jesús Vargas",
      "partido": "PRM",
      "resumen": "Representa a Monte Plata en la Cámara de Diputados.",
-     "registro": "No disponible todavía"
+     "registro": "No disponible todavía",
+     "comisiones": [
+      "Asuntos Municipales",
+      "Inteligencia Artificial",
+      "Medio Ambiente y Recursos Naturales"
+     ],
+     "iniciativas_propuestas": 68,
+     "asistencia": {
+      "presentes": 155,
+      "total": 166,
+      "periodo": "agosto 2024 a junio 2026",
+      "fuente": "registro oficial de asistencia al Pleno de la Cámara de Diputados (SIL Ciudadano, diputadosrd.gob.do)"
+     }
     },
     {
      "cargo": "Gobernador/a",
@@ -1375,14 +2458,40 @@
      "nombre": "Mery Antonia Mercado García de Contreras",
      "partido": "PRM",
      "resumen": "Representa a Pedernales en la Cámara de Diputados.",
-     "registro": "No disponible todavía"
+     "registro": "No disponible todavía",
+     "comisiones": [
+      "Administración de Deuda Pública y Activos Financieros",
+      "Asuntos Cooperativos",
+      "Asuntos Marítimos",
+      "Vivienda, Hábitat y Edificaciones"
+     ],
+     "iniciativas_propuestas": 44,
+     "asistencia": {
+      "presentes": 136,
+      "total": 166,
+      "periodo": "agosto 2024 a junio 2026",
+      "fuente": "registro oficial de asistencia al Pleno de la Cámara de Diputados (SIL Ciudadano, diputadosrd.gob.do)"
+     }
     },
     {
      "cargo": "Diputado/a",
      "nombre": "Rafael Antonio Pérez Gómez",
      "partido": "FP",
      "resumen": "Representa a Pedernales en la Cámara de Diputados.",
-     "registro": "No disponible todavía"
+     "registro": "No disponible todavía",
+     "comisiones": [
+      "05218-2024-2028-CD Comisión especial designada para estudiar el proyecto de ley de amnistía para el registro de armas de fuego.",
+      "Asuntos Fronterizos",
+      "Asuntos Marítimos",
+      "Reconocimientos"
+     ],
+     "iniciativas_propuestas": 54,
+     "asistencia": {
+      "presentes": 152,
+      "total": 166,
+      "periodo": "agosto 2024 a junio 2026",
+      "fuente": "registro oficial de asistencia al Pleno de la Cámara de Diputados (SIL Ciudadano, diputadosrd.gob.do)"
+     }
     },
     {
      "cargo": "Gobernador/a",
@@ -1430,21 +2539,63 @@
      "nombre": "Carmen Leida Escarfuller Morel de Melo",
      "partido": "PRM",
      "resumen": "Representa a Peravia en la Cámara de Diputados.",
-     "registro": "No disponible todavía"
+     "registro": "No disponible todavía",
+     "comisiones": [
+      "03313-2024-2028-CD Comisión especial PR investigación abandono La Cruz de Manzanillo.",
+      "Agricultura",
+      "Cultura",
+      "Presidencia de la República",
+      "Recursos Hídricos"
+     ],
+     "iniciativas_propuestas": 43,
+     "asistencia": {
+      "presentes": 163,
+      "total": 166,
+      "periodo": "agosto 2024 a junio 2026",
+      "fuente": "registro oficial de asistencia al Pleno de la Cámara de Diputados (SIL Ciudadano, diputadosrd.gob.do)"
+     }
     },
     {
      "cargo": "Diputado/a",
      "nombre": "Luis Alcides Báez",
      "partido": "PRM",
      "resumen": "Representa a Peravia en la Cámara de Diputados.",
-     "registro": "No disponible todavía"
+     "registro": "No disponible todavía",
+     "comisiones": [
+      "Administración Interior",
+      "Inteligencia Artificial",
+      "Interior y Policía",
+      "Justicia",
+      "Turismo"
+     ],
+     "iniciativas_propuestas": 36,
+     "asistencia": {
+      "presentes": 149,
+      "total": 166,
+      "periodo": "agosto 2024 a junio 2026",
+      "fuente": "registro oficial de asistencia al Pleno de la Cámara de Diputados (SIL Ciudadano, diputadosrd.gob.do)"
+     }
     },
     {
      "cargo": "Diputado/a",
      "nombre": "Willy Enrique Sánchez González",
      "partido": "PRM",
      "resumen": "Representa a Peravia en la Cámara de Diputados.",
-     "registro": "No disponible todavía"
+     "registro": "No disponible todavía",
+     "comisiones": [
+      "05199-2024-2028-CD Comisión Especial designada para el estudio del proyecto de ley que autoriza el pago de deuda por obras ejecutadas sin contrato formal.",
+      "05650-2024-2028-CD Comisión Especial proyecto de ley que modifica el artículo 13 de la Ley núm. 118-21, del 31 de mayo de 2021, sobre terminación de obras viales, escuelas, hospitales y presas que se encuentran suspendidas.",
+      "Cámara de Cuentas",
+      "Obras Públicas y Comunicaciones",
+      "Recursos Hídricos"
+     ],
+     "iniciativas_propuestas": 29,
+     "asistencia": {
+      "presentes": 146,
+      "total": 166,
+      "periodo": "agosto 2024 a junio 2026",
+      "fuente": "registro oficial de asistencia al Pleno de la Cámara de Diputados (SIL Ciudadano, diputadosrd.gob.do)"
+     }
     },
     {
      "cargo": "Gobernador/a",
@@ -1493,42 +2644,131 @@
      "nombre": "Fiordaliza Estévez Castillo",
      "partido": "PRSC",
      "resumen": "Representa a Puerto Plata en la Cámara de Diputados.",
-     "registro": "No disponible todavía"
+     "registro": "No disponible todavía",
+     "comisiones": [
+      "03465-2024-2028-CD Comisión Especial para estudiar el proyecto de resolución que solicita investigar la construcción de un acueducto para Haina dentro de un polideportivo.",
+      "04691-2024-2028-CD proyecto de resolución de interpelación al señor Celso Marranzini",
+      "05199-2024-2028-CD Comisión Especial designada para el estudio del proyecto de ley que autoriza el pago de deuda por obras ejecutadas sin contrato formal.",
+      "05650-2024-2028-CD Comisión Especial proyecto de ley que modifica el artículo 13 de la Ley núm. 118-21, del 31 de mayo de 2021, sobre terminación de obras viales, escuelas, hospitales y presas que se encuentran suspendidas.",
+      "Comisión Coordinadora 2025-2026",
+      "Contratos",
+      "Deportes y Recreación",
+      "Energía",
+      "Medio Ambiente y Recursos Naturales",
+      "Modernización y Reforma"
+     ],
+     "iniciativas_propuestas": 34,
+     "asistencia": {
+      "presentes": 154,
+      "total": 166,
+      "periodo": "agosto 2024 a junio 2026",
+      "fuente": "registro oficial de asistencia al Pleno de la Cámara de Diputados (SIL Ciudadano, diputadosrd.gob.do)"
+     }
     },
     {
      "cargo": "Diputado/a",
      "nombre": "Heidy María Musa Kunhardt",
      "partido": "PLD",
      "resumen": "Representa a Puerto Plata en la Cámara de Diputados.",
-     "registro": "No disponible todavía"
+     "registro": "No disponible todavía",
+     "comisiones": [
+      "05274-2024-2028-CD Comisión Especial designada para el estudio del proyecto de ley que modifica los límites territoriales de Bonao, Juma-Bejucal y La Salvia-Los Quemados, provincia Monseñor Nouel.",
+      "05368-2024-2028-CD Comisión especial designada para estudiar el Proyecto de ley que modifica la Ley núm.5-13 sobre Discapacidad en la República Dominicana.",
+      "Dominicanos en el Exterior",
+      "Juventud",
+      "Reconocimientos",
+      "Turismo"
+     ],
+     "iniciativas_propuestas": 25,
+     "asistencia": {
+      "presentes": 144,
+      "total": 166,
+      "periodo": "agosto 2024 a junio 2026",
+      "fuente": "registro oficial de asistencia al Pleno de la Cámara de Diputados (SIL Ciudadano, diputadosrd.gob.do)"
+     }
     },
     {
      "cargo": "Diputado/a",
      "nombre": "Jhonny de Jesús Medina Santos",
      "partido": "PRM",
      "resumen": "Representa a Puerto Plata en la Cámara de Diputados.",
-     "registro": "No disponible todavía"
+     "registro": "No disponible todavía",
+     "comisiones": [
+      "Asuntos Marítimos",
+      "Defensor del Pueblo",
+      "Salud",
+      "Vivienda, Hábitat y Edificaciones"
+     ],
+     "iniciativas_propuestas": 40,
+     "asistencia": {
+      "presentes": 152,
+      "total": 166,
+      "periodo": "agosto 2024 a junio 2026",
+      "fuente": "registro oficial de asistencia al Pleno de la Cámara de Diputados (SIL Ciudadano, diputadosrd.gob.do)"
+     }
     },
     {
      "cargo": "Diputado/a",
      "nombre": "Juan Agustín Medina Santos",
      "partido": "PRM",
      "resumen": "Representa a Puerto Plata en la Cámara de Diputados.",
-     "registro": "No disponible todavía"
+     "registro": "No disponible todavía",
+     "comisiones": [
+      "05274-2024-2028-CD Comisión Especial designada para el estudio del proyecto de ley que modifica los límites territoriales de Bonao, Juma-Bejucal y La Salvia-Los Quemados, provincia Monseñor Nouel.",
+      "Asuntos Municipales",
+      "Defensor del Pueblo",
+      "Medio Ambiente y Recursos Naturales"
+     ],
+     "iniciativas_propuestas": 92,
+     "asistencia": {
+      "presentes": 157,
+      "total": 166,
+      "periodo": "agosto 2024 a junio 2026",
+      "fuente": "registro oficial de asistencia al Pleno de la Cámara de Diputados (SIL Ciudadano, diputadosrd.gob.do)"
+     }
     },
     {
      "cargo": "Diputado/a",
      "nombre": "Julio Emil Durán Rodríguez",
      "partido": "PRM",
      "resumen": "Representa a Puerto Plata en la Cámara de Diputados.",
-     "registro": "No disponible todavía"
+     "registro": "No disponible todavía",
+     "comisiones": [
+      "Administración Interior",
+      "Comisión Coordinadora 2025-2026",
+      "Presidencia de la República",
+      "Presupuesto, Patrimonio y Contabilidad",
+      "Turismo"
+     ],
+     "iniciativas_propuestas": 22,
+     "asistencia": {
+      "presentes": 158,
+      "total": 166,
+      "periodo": "agosto 2024 a junio 2026",
+      "fuente": "registro oficial de asistencia al Pleno de la Cámara de Diputados (SIL Ciudadano, diputadosrd.gob.do)"
+     }
     },
     {
      "cargo": "Diputado/a",
      "nombre": "Lidia Esther Pérez de Taveras",
      "partido": "PRM",
      "resumen": "Representa a Puerto Plata en la Cámara de Diputados.",
-     "registro": "No disponible todavía"
+     "registro": "No disponible todavía",
+     "comisiones": [
+      "04711-2024-2028-CD Comisión especial que estudia el proyecto de ley que regula la libertad religiosa de conciencia y de cultos",
+      "Derechos Humanos",
+      "Desarrollo Humano",
+      "Familia",
+      "Salud",
+      "Ética"
+     ],
+     "iniciativas_propuestas": 55,
+     "asistencia": {
+      "presentes": 148,
+      "total": 166,
+      "periodo": "agosto 2024 a junio 2026",
+      "fuente": "registro oficial de asistencia al Pleno de la Cámara de Diputados (SIL Ciudadano, diputadosrd.gob.do)"
+     }
     },
     {
      "cargo": "Gobernador/a",
@@ -1578,14 +2818,42 @@
      "nombre": "Carmen Lidia Williams Benjamín",
      "partido": "PRM",
      "resumen": "Representa a Samaná en la Cámara de Diputados.",
-     "registro": "No disponible todavía"
+     "registro": "No disponible todavía",
+     "comisiones": [
+      "03313-2024-2028-CD Comisión especial PR investigación abandono La Cruz de Manzanillo.",
+      "03800-2024-2028-CD Comisión bicameral para el estudio de los proyectos de ley de Seguridad Social.",
+      "Administración de Deuda Pública y Activos Financieros",
+      "Ministerio Público",
+      "Seguridad Social",
+      "Turismo"
+     ],
+     "iniciativas_propuestas": 36,
+     "asistencia": {
+      "presentes": 144,
+      "total": 166,
+      "periodo": "agosto 2024 a junio 2026",
+      "fuente": "registro oficial de asistencia al Pleno de la Cámara de Diputados (SIL Ciudadano, diputadosrd.gob.do)"
+     }
     },
     {
      "cargo": "Diputado/a",
      "nombre": "Cecilio García Javier",
      "partido": "PRM",
      "resumen": "Representa a Samaná en la Cámara de Diputados.",
-     "registro": "No disponible todavía"
+     "registro": "No disponible todavía",
+     "comisiones": [
+      "Administración Pública",
+      "Asuntos Mineros",
+      "Contratos",
+      "Medio Ambiente y Recursos Naturales"
+     ],
+     "iniciativas_propuestas": 18,
+     "asistencia": {
+      "presentes": 157,
+      "total": 166,
+      "periodo": "agosto 2024 a junio 2026",
+      "fuente": "registro oficial de asistencia al Pleno de la Cámara de Diputados (SIL Ciudadano, diputadosrd.gob.do)"
+     }
     },
     {
      "cargo": "Gobernador/a",
@@ -1636,70 +2904,221 @@
      "nombre": "Ana Miledy Cuevas",
      "partido": "PRM",
      "resumen": "Representa a San Cristóbal en la Cámara de Diputados.",
-     "registro": "No disponible todavía"
+     "registro": "No disponible todavía",
+     "comisiones": [
+      "03465-2024-2028-CD Comisión Especial para estudiar el proyecto de resolución que solicita investigar la construcción de un acueducto para Haina dentro de un polideportivo.",
+      "Administración de Deuda Pública y Activos Financieros",
+      "Derechos Humanos",
+      "Salud",
+      "Trabajo"
+     ],
+     "iniciativas_propuestas": 32,
+     "asistencia": {
+      "presentes": 129,
+      "total": 166,
+      "periodo": "agosto 2024 a junio 2026",
+      "fuente": "registro oficial de asistencia al Pleno de la Cámara de Diputados (SIL Ciudadano, diputadosrd.gob.do)"
+     }
     },
     {
      "cargo": "Diputado/a",
      "nombre": "Antonio Brito Rodríguez",
      "partido": "FP",
      "resumen": "Representa a San Cristóbal en la Cámara de Diputados.",
-     "registro": "No disponible todavía"
+     "registro": "No disponible todavía",
+     "comisiones": [
+      "03465-2024-2028-CD Comisión Especial para estudiar el proyecto de resolución que solicita investigar la construcción de un acueducto para Haina dentro de un polideportivo.",
+      "Comisión bicameral designada para estudiar los Actos del Poder Ejecutivo",
+      "Industria y Comercio",
+      "Medios de Comunicación",
+      "Movilidad y Transporte",
+      "Obras Públicas y Comunicaciones"
+     ],
+     "iniciativas_propuestas": 57,
+     "asistencia": {
+      "presentes": 157,
+      "total": 166,
+      "periodo": "agosto 2024 a junio 2026",
+      "fuente": "registro oficial de asistencia al Pleno de la Cámara de Diputados (SIL Ciudadano, diputadosrd.gob.do)"
+     }
     },
     {
      "cargo": "Diputado/a",
      "nombre": "Francisco Javier Paulino",
      "partido": "PRM",
      "resumen": "Representa a San Cristóbal en la Cámara de Diputados.",
-     "registro": "No disponible todavía"
+     "registro": "No disponible todavía",
+     "comisiones": [
+      "Deportes y Recreación",
+      "Educación Superior, Ciencia y Tecnología",
+      "Hacienda"
+     ],
+     "iniciativas_propuestas": 20,
+     "asistencia": {
+      "presentes": 152,
+      "total": 166,
+      "periodo": "agosto 2024 a junio 2026",
+      "fuente": "registro oficial de asistencia al Pleno de la Cámara de Diputados (SIL Ciudadano, diputadosrd.gob.do)"
+     }
     },
     {
      "cargo": "Diputado/a",
      "nombre": "German Martínez Araujo",
      "partido": "FP",
      "resumen": "Representa a San Cristóbal en la Cámara de Diputados.",
-     "registro": "No disponible todavía"
+     "registro": "No disponible todavía",
+     "comisiones": [
+      "03465-2024-2028-CD Comisión Especial para estudiar el proyecto de resolución que solicita investigar la construcción de un acueducto para Haina dentro de un polideportivo.",
+      "05274-2024-2028-CD Comisión Especial designada para el estudio del proyecto de ley que modifica los límites territoriales de Bonao, Juma-Bejucal y La Salvia-Los Quemados, provincia Monseñor Nouel.",
+      "Asuntos Cooperativos",
+      "Ciberseguridad",
+      "Desarrollo Humano",
+      "Educación"
+     ],
+     "iniciativas_propuestas": 48,
+     "asistencia": {
+      "presentes": 156,
+      "total": 166,
+      "periodo": "agosto 2024 a junio 2026",
+      "fuente": "registro oficial de asistencia al Pleno de la Cámara de Diputados (SIL Ciudadano, diputadosrd.gob.do)"
+     }
     },
     {
      "cargo": "Diputado/a",
      "nombre": "Gregoria Monserrat Santana Silfa",
      "partido": "PRM",
      "resumen": "Representa a San Cristóbal en la Cámara de Diputados.",
-     "registro": "No disponible todavía"
+     "registro": "No disponible todavía",
+     "comisiones": [
+      "00674-2025-PLO-SE Comisión bicameral designada para estudiar el proyecto de ley general de salud.",
+      "03465-2024-2028-CD Comisión Especial para estudiar el proyecto de resolución que solicita investigar la construcción de un acueducto para Haina dentro de un polideportivo.",
+      "Asuntos de Equidad de Género",
+      "Educación",
+      "Familia",
+      "Inteligencia Artificial",
+      "Salud"
+     ],
+     "iniciativas_propuestas": 34,
+     "asistencia": {
+      "presentes": 152,
+      "total": 166,
+      "periodo": "agosto 2024 a junio 2026",
+      "fuente": "registro oficial de asistencia al Pleno de la Cámara de Diputados (SIL Ciudadano, diputadosrd.gob.do)"
+     }
     },
     {
      "cargo": "Diputado/a",
      "nombre": "Jacqueline Montero",
      "partido": "PRM",
      "resumen": "Representa a San Cristóbal en la Cámara de Diputados.",
-     "registro": "No disponible todavía"
+     "registro": "No disponible todavía",
+     "comisiones": [
+      "03465-2024-2028-CD Comisión Especial para estudiar el proyecto de resolución que solicita investigar la construcción de un acueducto para Haina dentro de un polideportivo.",
+      "Asuntos de Equidad de Género",
+      "Derechos Humanos",
+      "Presupuesto, Patrimonio y Contabilidad",
+      "Vivienda, Hábitat y Edificaciones"
+     ],
+     "iniciativas_propuestas": 52,
+     "asistencia": {
+      "presentes": 133,
+      "total": 166,
+      "periodo": "agosto 2024 a junio 2026",
+      "fuente": "registro oficial de asistencia al Pleno de la Cámara de Diputados (SIL Ciudadano, diputadosrd.gob.do)"
+     }
     },
     {
      "cargo": "Diputado/a",
      "nombre": "Margarita Tejeda de la Rosa",
      "partido": "PRM",
      "resumen": "Representa a San Cristóbal en la Cámara de Diputados.",
-     "registro": "No disponible todavía"
+     "registro": "No disponible todavía",
+     "comisiones": [
+      "00674-2025-PLO-SE Comisión bicameral designada para estudiar el proyecto de ley general de salud.",
+      "03465-2024-2028-CD Comisión Especial para estudiar el proyecto de resolución que solicita investigar la construcción de un acueducto para Haina dentro de un polideportivo.",
+      "03800-2024-2028-CD Comisión bicameral para el estudio de los proyectos de ley de Seguridad Social.",
+      "05368-2024-2028-CD Comisión especial designada para estudiar el Proyecto de ley que modifica la Ley núm.5-13 sobre Discapacidad en la República Dominicana.",
+      "Familia",
+      "Hacienda",
+      "Junta Central Electoral",
+      "Salud",
+      "Seguridad Social"
+     ],
+     "iniciativas_propuestas": 146,
+     "asistencia": {
+      "presentes": 163,
+      "total": 166,
+      "periodo": "agosto 2024 a junio 2026",
+      "fuente": "registro oficial de asistencia al Pleno de la Cámara de Diputados (SIL Ciudadano, diputadosrd.gob.do)"
+     }
     },
     {
      "cargo": "Diputado/a",
      "nombre": "Nelson Saulo Vega Báez",
      "partido": "PLD",
      "resumen": "Representa a San Cristóbal en la Cámara de Diputados.",
-     "registro": "No disponible todavía"
+     "registro": "No disponible todavía",
+     "comisiones": [
+      "05405-2024-2028-CD Comisión especial designada para el estudio del Proyecto de ley de los cuerpos de bomberos de la República Dominicana.",
+      "Economía, Planificación y Desarrollo",
+      "Inteligencia Artificial",
+      "Medio Ambiente y Recursos Naturales",
+      "Mipymes",
+      "Tecnología de la Información y Comunicación"
+     ],
+     "iniciativas_propuestas": 32,
+     "asistencia": {
+      "presentes": 139,
+      "total": 166,
+      "periodo": "agosto 2024 a junio 2026",
+      "fuente": "registro oficial de asistencia al Pleno de la Cámara de Diputados (SIL Ciudadano, diputadosrd.gob.do)"
+     }
     },
     {
      "cargo": "Diputado/a",
      "nombre": "Otoniel Tejeda Martínez",
      "partido": "PRM",
      "resumen": "Representa a San Cristóbal en la Cámara de Diputados.",
-     "registro": "No disponible todavía"
+     "registro": "No disponible todavía",
+     "comisiones": [
+      "03465-2024-2028-CD Comisión Especial para estudiar el proyecto de resolución que solicita investigar la construcción de un acueducto para Haina dentro de un polideportivo.",
+      "04711-2024-2028-CD Comisión especial que estudia el proyecto de ley que regula la libertad religiosa de conciencia y de cultos",
+      "05218-2024-2028-CD Comisión especial designada para estudiar el proyecto de ley de amnistía para el registro de armas de fuego.",
+      "Inteligencia Artificial",
+      "Juventud",
+      "Modernización y Reforma",
+      "Presupuesto, Patrimonio y Contabilidad"
+     ],
+     "iniciativas_propuestas": 48,
+     "asistencia": {
+      "presentes": 150,
+      "total": 166,
+      "periodo": "agosto 2024 a junio 2026",
+      "fuente": "registro oficial de asistencia al Pleno de la Cámara de Diputados (SIL Ciudadano, diputadosrd.gob.do)"
+     }
     },
     {
      "cargo": "Diputado/a",
      "nombre": "Ydenia Doñé Tiburcio",
      "partido": "PLD",
      "resumen": "Representa a San Cristóbal en la Cámara de Diputados.",
-     "registro": "No disponible todavía"
+     "registro": "No disponible todavía",
+     "comisiones": [
+      "03465-2024-2028-CD Comisión Especial para estudiar el proyecto de resolución que solicita investigar la construcción de un acueducto para Haina dentro de un polideportivo.",
+      "04711-2024-2028-CD Comisión especial que estudia el proyecto de ley que regula la libertad religiosa de conciencia y de cultos",
+      "05137-2024-2028-CD y 05138-2024-2028-CD Comisión Especial designada para el estudio de los proyectos de ley para la superación y reinserción de los adolescentes.",
+      "05368-2024-2028-CD Comisión especial designada para estudiar el Proyecto de ley que modifica la Ley núm.5-13 sobre Discapacidad en la República Dominicana.",
+      "Cámara de Cuentas",
+      "Educación",
+      "Hacienda"
+     ],
+     "iniciativas_propuestas": 84,
+     "asistencia": {
+      "presentes": 160,
+      "total": 166,
+      "periodo": "agosto 2024 a junio 2026",
+      "fuente": "registro oficial de asistencia al Pleno de la Cámara de Diputados (SIL Ciudadano, diputadosrd.gob.do)"
+     }
     },
     {
      "cargo": "Gobernador/a",
@@ -1749,14 +3168,42 @@
      "nombre": "Ángel María Sánchez Pujols",
      "partido": "PRM",
      "resumen": "Representa a San José de Ocoa en la Cámara de Diputados.",
-     "registro": "No disponible todavía"
+     "registro": "No disponible todavía",
+     "comisiones": [
+      "05405-2024-2028-CD Comisión especial designada para el estudio del Proyecto de ley de los cuerpos de bomberos de la República Dominicana.",
+      "Agricultura",
+      "Ciberseguridad",
+      "Interior y Policía"
+     ],
+     "iniciativas_propuestas": 25,
+     "asistencia": {
+      "presentes": 156,
+      "total": 166,
+      "periodo": "agosto 2024 a junio 2026",
+      "fuente": "registro oficial de asistencia al Pleno de la Cámara de Diputados (SIL Ciudadano, diputadosrd.gob.do)"
+     }
     },
     {
      "cargo": "Diputado/a",
      "nombre": "Elida Yalis Soto Mordán",
      "partido": "PRM",
      "resumen": "Representa a San José de Ocoa en la Cámara de Diputados.",
-     "registro": "No disponible todavía"
+     "registro": "No disponible todavía",
+     "comisiones": [
+      "05368-2024-2028-CD Comisión especial designada para estudiar el Proyecto de ley que modifica la Ley núm.5-13 sobre Discapacidad en la República Dominicana.",
+      "Agricultura",
+      "Asuntos Marítimos",
+      "Asuntos Mineros",
+      "Derechos Humanos",
+      "Vivienda, Hábitat y Edificaciones"
+     ],
+     "iniciativas_propuestas": 43,
+     "asistencia": {
+      "presentes": 155,
+      "total": 166,
+      "periodo": "agosto 2024 a junio 2026",
+      "fuente": "registro oficial de asistencia al Pleno de la Cámara de Diputados (SIL Ciudadano, diputadosrd.gob.do)"
+     }
     },
     {
      "cargo": "Gobernador/a",
@@ -1807,28 +3254,86 @@
      "nombre": "Carlos Morillo Valdez",
      "partido": "PRM",
      "resumen": "Representa a San Juan en la Cámara de Diputados.",
-     "registro": "No disponible todavía"
+     "registro": "No disponible todavía",
+     "comisiones": [
+      "05199-2024-2028-CD Comisión Especial designada para el estudio del proyecto de ley que autoriza el pago de deuda por obras ejecutadas sin contrato formal.",
+      "05650-2024-2028-CD Comisión Especial proyecto de ley que modifica el artículo 13 de la Ley núm. 118-21, del 31 de mayo de 2021, sobre terminación de obras viales, escuelas, hospitales y presas que se encuentran suspendidas.",
+      "Asuntos Fronterizos",
+      "Ciberseguridad",
+      "Mipymes",
+      "Recursos Hídricos"
+     ],
+     "iniciativas_propuestas": 23,
+     "asistencia": {
+      "presentes": 156,
+      "total": 166,
+      "periodo": "agosto 2024 a junio 2026",
+      "fuente": "registro oficial de asistencia al Pleno de la Cámara de Diputados (SIL Ciudadano, diputadosrd.gob.do)"
+     }
     },
     {
      "cargo": "Diputado/a",
      "nombre": "Elvira Corporán de los Santos de Lebrón",
      "partido": "PRM",
      "resumen": "Representa a San Juan en la Cámara de Diputados.",
-     "registro": "No disponible todavía"
+     "registro": "No disponible todavía",
+     "comisiones": [
+      "Asuntos de Equidad de Género",
+      "Educación",
+      "Educación Superior, Ciencia y Tecnología",
+      "Reconocimientos"
+     ],
+     "iniciativas_propuestas": 63,
+     "asistencia": {
+      "presentes": 162,
+      "total": 166,
+      "periodo": "agosto 2024 a junio 2026",
+      "fuente": "registro oficial de asistencia al Pleno de la Cámara de Diputados (SIL Ciudadano, diputadosrd.gob.do)"
+     }
     },
     {
      "cargo": "Diputado/a",
      "nombre": "Franklin Ramírez de los Santos",
      "partido": "PRM",
      "resumen": "Representa a San Juan en la Cámara de Diputados.",
-     "registro": "No disponible todavía"
+     "registro": "No disponible todavía",
+     "comisiones": [
+      "05274-2024-2028-CD Comisión Especial designada para el estudio del proyecto de ley que modifica los límites territoriales de Bonao, Juma-Bejucal y La Salvia-Los Quemados, provincia Monseñor Nouel.",
+      "Agricultura",
+      "Defensa",
+      "Industria y Comercio",
+      "Tecnología de la Información y Comunicación"
+     ],
+     "iniciativas_propuestas": 52,
+     "asistencia": {
+      "presentes": 151,
+      "total": 166,
+      "periodo": "agosto 2024 a junio 2026",
+      "fuente": "registro oficial de asistencia al Pleno de la Cámara de Diputados (SIL Ciudadano, diputadosrd.gob.do)"
+     }
     },
     {
      "cargo": "Diputado/a",
      "nombre": "Mélido Mercedes Castillo",
      "partido": "FP",
      "resumen": "Representa a San Juan en la Cámara de Diputados.",
-     "registro": "No disponible todavía"
+     "registro": "No disponible todavía",
+     "comisiones": [
+      "03313-2024-2028-CD Comisión especial PR investigación abandono La Cruz de Manzanillo.",
+      "05274-2024-2028-CD Comisión Especial designada para el estudio del proyecto de ley que modifica los límites territoriales de Bonao, Juma-Bejucal y La Salvia-Los Quemados, provincia Monseñor Nouel.",
+      "05405-2024-2028-CD Comisión especial designada para el estudio del Proyecto de ley de los cuerpos de bomberos de la República Dominicana.",
+      "Administración Interior",
+      "Agricultura",
+      "Ministerio Público",
+      "Trabajo"
+     ],
+     "iniciativas_propuestas": 112,
+     "asistencia": {
+      "presentes": 160,
+      "total": 166,
+      "periodo": "agosto 2024 a junio 2026",
+      "fuente": "registro oficial de asistencia al Pleno de la Cámara de Diputados (SIL Ciudadano, diputadosrd.gob.do)"
+     }
     },
     {
      "cargo": "Gobernador/a",
@@ -1879,35 +3384,105 @@
      "nombre": "Alcibíades Tavárez de la Cruz",
      "partido": "FP",
      "resumen": "Representa a San Pedro de Macorís en la Cámara de Diputados.",
-     "registro": "No disponible todavía"
+     "registro": "No disponible todavía",
+     "comisiones": [
+      "03800-2024-2028-CD Comisión bicameral para el estudio de los proyectos de ley de Seguridad Social.",
+      "Dominicanos en el Exterior",
+      "Economía, Planificación y Desarrollo",
+      "Junta Central Electoral",
+      "Presupuesto, Patrimonio y Contabilidad",
+      "Seguridad Social"
+     ],
+     "iniciativas_propuestas": 44,
+     "asistencia": {
+      "presentes": 158,
+      "total": 166,
+      "periodo": "agosto 2024 a junio 2026",
+      "fuente": "registro oficial de asistencia al Pleno de la Cámara de Diputados (SIL Ciudadano, diputadosrd.gob.do)"
+     }
     },
     {
      "cargo": "Diputado/a",
      "nombre": "Carlixta Carolina Paula de la Cruz",
      "partido": "PRM",
      "resumen": "Representa a San Pedro de Macorís en la Cámara de Diputados.",
-     "registro": "No disponible todavía"
+     "registro": "No disponible todavía",
+     "comisiones": [
+      "Energía",
+      "Familia",
+      "Presidencia de la República",
+      "Trabajo"
+     ],
+     "iniciativas_propuestas": 26,
+     "asistencia": {
+      "presentes": 53,
+      "total": 166,
+      "periodo": "agosto 2024 a junio 2026",
+      "fuente": "registro oficial de asistencia al Pleno de la Cámara de Diputados (SIL Ciudadano, diputadosrd.gob.do)"
+     }
     },
     {
      "cargo": "Diputado/a",
      "nombre": "Jacobo Ramos Crispín",
      "partido": "PRM",
      "resumen": "Representa a San Pedro de Macorís en la Cámara de Diputados.",
-     "registro": "No disponible todavía"
+     "registro": "No disponible todavía",
+     "comisiones": [
+      "Administración de Deuda Pública y Activos Financieros",
+      "Contratos",
+      "Movilidad y Transporte",
+      "Trabajo"
+     ],
+     "iniciativas_propuestas": 42,
+     "asistencia": {
+      "presentes": 103,
+      "total": 166,
+      "periodo": "agosto 2024 a junio 2026",
+      "fuente": "registro oficial de asistencia al Pleno de la Cámara de Diputados (SIL Ciudadano, diputadosrd.gob.do)"
+     }
     },
     {
      "cargo": "Diputado/a",
      "nombre": "Luis Gómez Benzo",
      "partido": "PRM",
      "resumen": "Representa a San Pedro de Macorís en la Cámara de Diputados.",
-     "registro": "No disponible todavía"
+     "registro": "No disponible todavía",
+     "comisiones": [
+      "05199-2024-2028-CD Comisión Especial designada para el estudio del proyecto de ley que autoriza el pago de deuda por obras ejecutadas sin contrato formal.",
+      "05650-2024-2028-CD Comisión Especial proyecto de ley que modifica el artículo 13 de la Ley núm. 118-21, del 31 de mayo de 2021, sobre terminación de obras viales, escuelas, hospitales y presas que se encuentran suspendidas.",
+      "Ciberseguridad",
+      "Justicia",
+      "Obras Públicas y Comunicaciones",
+      "Presupuesto, Patrimonio y Contabilidad"
+     ],
+     "iniciativas_propuestas": 75,
+     "asistencia": {
+      "presentes": 153,
+      "total": 166,
+      "periodo": "agosto 2024 a junio 2026",
+      "fuente": "registro oficial de asistencia al Pleno de la Cámara de Diputados (SIL Ciudadano, diputadosrd.gob.do)"
+     }
     },
     {
      "cargo": "Diputado/a",
      "nombre": "Miguel Arredondo Quezada",
      "partido": "PRM",
      "resumen": "Representa a San Pedro de Macorís en la Cámara de Diputados.",
-     "registro": "No disponible todavía"
+     "registro": "No disponible todavía",
+     "comisiones": [
+      "00674-2025-PLO-SE Comisión bicameral designada para estudiar el proyecto de ley general de salud.",
+      "Junta Central Electoral",
+      "Justicia",
+      "Ministerio Público",
+      "Movilidad y Transporte"
+     ],
+     "iniciativas_propuestas": 128,
+     "asistencia": {
+      "presentes": 162,
+      "total": 166,
+      "periodo": "agosto 2024 a junio 2026",
+      "fuente": "registro oficial de asistencia al Pleno de la Cámara de Diputados (SIL Ciudadano, diputadosrd.gob.do)"
+     }
     },
     {
      "cargo": "Gobernador/a",
@@ -1950,21 +3525,65 @@
      "nombre": "Caty Díaz Abreu",
      "partido": "PRM",
      "resumen": "Representa a Sánchez Ramírez en la Cámara de Diputados.",
-     "registro": "No disponible todavía"
+     "registro": "No disponible todavía",
+     "comisiones": [
+      "03313-2024-2028-CD Comisión especial PR investigación abandono La Cruz de Manzanillo.",
+      "05137-2024-2028-CD y 05138-2024-2028-CD Comisión Especial designada para el estudio de los proyectos de ley para la superación y reinserción de los adolescentes.",
+      "Administración Pública",
+      "Asuntos Mineros",
+      "Medio Ambiente y Recursos Naturales",
+      "Reconocimientos"
+     ],
+     "iniciativas_propuestas": 50,
+     "asistencia": {
+      "presentes": 154,
+      "total": 166,
+      "periodo": "agosto 2024 a junio 2026",
+      "fuente": "registro oficial de asistencia al Pleno de la Cámara de Diputados (SIL Ciudadano, diputadosrd.gob.do)"
+     }
     },
     {
      "cargo": "Diputado/a",
      "nombre": "José Alberto Jiménez Santos",
      "partido": "FP",
      "resumen": "Representa a Sánchez Ramírez en la Cámara de Diputados.",
-     "registro": "No disponible todavía"
+     "registro": "No disponible todavía",
+     "comisiones": [
+      "Asuntos Mineros",
+      "Junta Central Electoral",
+      "Justicia",
+      "Ministerio Público"
+     ],
+     "iniciativas_propuestas": 35,
+     "asistencia": {
+      "presentes": 163,
+      "total": 166,
+      "periodo": "agosto 2024 a junio 2026",
+      "fuente": "registro oficial de asistencia al Pleno de la Cámara de Diputados (SIL Ciudadano, diputadosrd.gob.do)"
+     }
     },
     {
      "cargo": "Diputado/a",
      "nombre": "Sadoky Duarte Suárez",
      "partido": "PRM",
      "resumen": "Representa a Sánchez Ramírez en la Cámara de Diputados.",
-     "registro": "No disponible todavía"
+     "registro": "No disponible todavía",
+     "comisiones": [
+      "05405-2024-2028-CD Comisión especial designada para el estudio del Proyecto de ley de los cuerpos de bomberos de la República Dominicana.",
+      "Asuntos Migratorios",
+      "Asuntos Mineros",
+      "Ciberseguridad",
+      "Interior y Policía",
+      "Justicia",
+      "Ministerio Público"
+     ],
+     "iniciativas_propuestas": 67,
+     "asistencia": {
+      "presentes": 160,
+      "total": 166,
+      "periodo": "agosto 2024 a junio 2026",
+      "fuente": "registro oficial de asistencia al Pleno de la Cámara de Diputados (SIL Ciudadano, diputadosrd.gob.do)"
+     }
     },
     {
      "cargo": "Gobernador/a",
@@ -2012,126 +3631,398 @@
      "nombre": "Brailyn Miguel Vargas Núñez",
      "partido": "PLD",
      "resumen": "Representa a Santiago en la Cámara de Diputados.",
-     "registro": "No disponible todavía"
+     "registro": "No disponible todavía",
+     "comisiones": [
+      "05137-2024-2028-CD y 05138-2024-2028-CD Comisión Especial designada para el estudio de los proyectos de ley para la superación y reinserción de los adolescentes.",
+      "Agricultura",
+      "Movilidad y Transporte",
+      "Obras Públicas y Comunicaciones",
+      "Relaciones Exteriores y Cooperación Internacional"
+     ],
+     "iniciativas_propuestas": 65,
+     "asistencia": {
+      "presentes": 151,
+      "total": 166,
+      "periodo": "agosto 2024 a junio 2026",
+      "fuente": "registro oficial de asistencia al Pleno de la Cámara de Diputados (SIL Ciudadano, diputadosrd.gob.do)"
+     }
     },
     {
      "cargo": "Diputado/a",
      "nombre": "Braulio de Jesús Espinal Tavárez",
      "partido": "DXC",
      "resumen": "Representa a Santiago en la Cámara de Diputados.",
-     "registro": "No disponible todavía"
+     "registro": "No disponible todavía",
+     "comisiones": [
+      "03313-2024-2028-CD Comisión especial PR investigación abandono La Cruz de Manzanillo.",
+      "04691-2024-2028-CD proyecto de resolución de interpelación al señor Celso Marranzini",
+      "04711-2024-2028-CD Comisión especial que estudia el proyecto de ley que regula la libertad religiosa de conciencia y de cultos",
+      "Administración de Deuda Pública y Activos Financieros",
+      "Comisión Coordinadora 2025-2026",
+      "Defensa",
+      "Inteligencia Artificial",
+      "Presidencia de la República"
+     ],
+     "iniciativas_propuestas": 58,
+     "asistencia": {
+      "presentes": 160,
+      "total": 166,
+      "periodo": "agosto 2024 a junio 2026",
+      "fuente": "registro oficial de asistencia al Pleno de la Cámara de Diputados (SIL Ciudadano, diputadosrd.gob.do)"
+     }
     },
     {
      "cargo": "Diputado/a",
      "nombre": "Deisy Emelda Díaz Salcedo",
      "partido": "PRM",
      "resumen": "Representa a Santiago en la Cámara de Diputados.",
-     "registro": "No disponible todavía"
+     "registro": "No disponible todavía",
+     "comisiones": [
+      "04691-2024-2028-CD proyecto de resolución de interpelación al señor Celso Marranzini",
+      "05274-2024-2028-CD Comisión Especial designada para el estudio del proyecto de ley que modifica los límites territoriales de Bonao, Juma-Bejucal y La Salvia-Los Quemados, provincia Monseñor Nouel.",
+      "05368-2024-2028-CD Comisión especial designada para estudiar el Proyecto de ley que modifica la Ley núm.5-13 sobre Discapacidad en la República Dominicana.",
+      "Asuntos Cooperativos",
+      "Asuntos Mineros",
+      "Educación",
+      "Educación Superior, Ciencia y Tecnología",
+      "Vivienda, Hábitat y Edificaciones"
+     ],
+     "iniciativas_propuestas": 48,
+     "asistencia": {
+      "presentes": 158,
+      "total": 166,
+      "periodo": "agosto 2024 a junio 2026",
+      "fuente": "registro oficial de asistencia al Pleno de la Cámara de Diputados (SIL Ciudadano, diputadosrd.gob.do)"
+     }
     },
     {
      "cargo": "Diputado/a",
      "nombre": "Dharuelly Leany D´Aza Caraballo",
      "partido": "PRM",
      "resumen": "Representa a Santiago en la Cámara de Diputados.",
-     "registro": "No disponible todavía"
+     "registro": "No disponible todavía",
+     "comisiones": [
+      "05199-2024-2028-CD Comisión Especial designada para el estudio del proyecto de ley que autoriza el pago de deuda por obras ejecutadas sin contrato formal.",
+      "05650-2024-2028-CD Comisión Especial proyecto de ley que modifica el artículo 13 de la Ley núm. 118-21, del 31 de mayo de 2021, sobre terminación de obras viales, escuelas, hospitales y presas que se encuentran suspendidas.",
+      "Administración Interior",
+      "Comisión Coordinadora 2025-2026",
+      "Juventud",
+      "Presidencia de la República",
+      "Relaciones Exteriores y Cooperación Internacional"
+     ],
+     "iniciativas_propuestas": 59,
+     "asistencia": {
+      "presentes": 156,
+      "total": 166,
+      "periodo": "agosto 2024 a junio 2026",
+      "fuente": "registro oficial de asistencia al Pleno de la Cámara de Diputados (SIL Ciudadano, diputadosrd.gob.do)"
+     }
     },
     {
      "cargo": "Diputado/a",
      "nombre": "Dilenia Altagracia Santos Muñoz",
      "partido": "PRM",
      "resumen": "Representa a Santiago en la Cámara de Diputados.",
-     "registro": "No disponible todavía"
+     "registro": "No disponible todavía",
+     "comisiones": [
+      "05199-2024-2028-CD Comisión Especial designada para el estudio del proyecto de ley que autoriza el pago de deuda por obras ejecutadas sin contrato formal.",
+      "05368-2024-2028-CD Comisión especial designada para estudiar el Proyecto de ley que modifica la Ley núm.5-13 sobre Discapacidad en la República Dominicana.",
+      "05650-2024-2028-CD Comisión Especial proyecto de ley que modifica el artículo 13 de la Ley núm. 118-21, del 31 de mayo de 2021, sobre terminación de obras viales, escuelas, hospitales y presas que se encuentran suspendidas.",
+      "Ciberseguridad",
+      "Industria y Comercio",
+      "Presupuesto, Patrimonio y Contabilidad",
+      "Reconocimientos",
+      "Relaciones Exteriores y Cooperación Internacional"
+     ],
+     "iniciativas_propuestas": 81,
+     "asistencia": {
+      "presentes": 165,
+      "total": 166,
+      "periodo": "agosto 2024 a junio 2026",
+      "fuente": "registro oficial de asistencia al Pleno de la Cámara de Diputados (SIL Ciudadano, diputadosrd.gob.do)"
+     }
     },
     {
      "cargo": "Diputado/a",
      "nombre": "Estamy Rafaela Colón Tatis",
      "partido": "PRM",
      "resumen": "Representa a Santiago en la Cámara de Diputados.",
-     "registro": "No disponible todavía"
+     "registro": "No disponible todavía",
+     "comisiones": [
+      "04691-2024-2028-CD proyecto de resolución de interpelación al señor Celso Marranzini",
+      "05218-2024-2028-CD Comisión especial designada para estudiar el proyecto de ley de amnistía para el registro de armas de fuego.",
+      "Asuntos de Equidad de Género",
+      "Presidencia de la República",
+      "Reconocimientos",
+      "Relaciones Exteriores y Cooperación Internacional",
+      "Tecnología de la Información y Comunicación"
+     ],
+     "iniciativas_propuestas": 47,
+     "asistencia": {
+      "presentes": 157,
+      "total": 166,
+      "periodo": "agosto 2024 a junio 2026",
+      "fuente": "registro oficial de asistencia al Pleno de la Cámara de Diputados (SIL Ciudadano, diputadosrd.gob.do)"
+     }
     },
     {
      "cargo": "Diputado/a",
      "nombre": "Félix Michell Rodríguez Morel",
      "partido": "FP",
      "resumen": "Representa a Santiago en la Cámara de Diputados.",
-     "registro": "No disponible todavía"
+     "registro": "No disponible todavía",
+     "comisiones": [
+      "Asuntos Cooperativos",
+      "Contratos",
+      "Hacienda"
+     ],
+     "iniciativas_propuestas": 32,
+     "asistencia": {
+      "presentes": 157,
+      "total": 166,
+      "periodo": "agosto 2024 a junio 2026",
+      "fuente": "registro oficial de asistencia al Pleno de la Cámara de Diputados (SIL Ciudadano, diputadosrd.gob.do)"
+     }
     },
     {
      "cargo": "Diputado/a",
      "nombre": "Francisco Alberto Díaz García",
      "partido": "PRM",
      "resumen": "Representa a Santiago en la Cámara de Diputados.",
-     "registro": "No disponible todavía"
+     "registro": "No disponible todavía",
+     "comisiones": [
+      "Salud"
+     ],
+     "iniciativas_propuestas": 26,
+     "asistencia": {
+      "presentes": 129,
+      "total": 166,
+      "periodo": "agosto 2024 a junio 2026",
+      "fuente": "registro oficial de asistencia al Pleno de la Cámara de Diputados (SIL Ciudadano, diputadosrd.gob.do)"
+     }
     },
     {
      "cargo": "Diputado/a",
      "nombre": "Gregorio Domínguez Domínguez",
      "partido": "PRM",
      "resumen": "Representa a Santiago en la Cámara de Diputados.",
-     "registro": "No disponible todavía"
+     "registro": "No disponible todavía",
+     "comisiones": [
+      "04691-2024-2028-CD proyecto de resolución de interpelación al señor Celso Marranzini",
+      "Asuntos Mineros",
+      "Hacienda",
+      "Recursos Hídricos",
+      "Trabajo"
+     ],
+     "iniciativas_propuestas": 58,
+     "asistencia": {
+      "presentes": 160,
+      "total": 166,
+      "periodo": "agosto 2024 a junio 2026",
+      "fuente": "registro oficial de asistencia al Pleno de la Cámara de Diputados (SIL Ciudadano, diputadosrd.gob.do)"
+     }
     },
     {
      "cargo": "Diputado/a",
      "nombre": "José David Báez Reinoso",
      "partido": "FP",
      "resumen": "Representa a Santiago en la Cámara de Diputados.",
-     "registro": "No disponible todavía"
+     "registro": "No disponible todavía",
+     "comisiones": [
+      "04691-2024-2028-CD proyecto de resolución de interpelación al señor Celso Marranzini",
+      "04711-2024-2028-CD Comisión especial que estudia el proyecto de ley que regula la libertad religiosa de conciencia y de cultos",
+      "Asuntos Fronterizos",
+      "Comisión bicameral designada para estudiar los Actos del Poder Ejecutivo",
+      "Educación",
+      "Educación Superior, Ciencia y Tecnología",
+      "Energía",
+      "Mipymes"
+     ],
+     "iniciativas_propuestas": 53,
+     "asistencia": {
+      "presentes": 160,
+      "total": 166,
+      "periodo": "agosto 2024 a junio 2026",
+      "fuente": "registro oficial de asistencia al Pleno de la Cámara de Diputados (SIL Ciudadano, diputadosrd.gob.do)"
+     }
     },
     {
      "cargo": "Diputado/a",
      "nombre": "Llaniris del Carmen Espinal Cabrera",
      "partido": "FP",
      "resumen": "Representa a Santiago en la Cámara de Diputados.",
-     "registro": "No disponible todavía"
+     "registro": "No disponible todavía",
+     "comisiones": [
+      "05137-2024-2028-CD y 05138-2024-2028-CD Comisión Especial designada para el estudio de los proyectos de ley para la superación y reinserción de los adolescentes.",
+      "05368-2024-2028-CD Comisión especial designada para estudiar el Proyecto de ley que modifica la Ley núm.5-13 sobre Discapacidad en la República Dominicana.",
+      "Asuntos de Equidad de Género",
+      "Educación",
+      "Medio Ambiente y Recursos Naturales",
+      "Ética"
+     ],
+     "iniciativas_propuestas": 87,
+     "asistencia": {
+      "presentes": 157,
+      "total": 166,
+      "periodo": "agosto 2024 a junio 2026",
+      "fuente": "registro oficial de asistencia al Pleno de la Cámara de Diputados (SIL Ciudadano, diputadosrd.gob.do)"
+     }
     },
     {
      "cargo": "Diputado/a",
      "nombre": "Luis René Fernández Tavárez",
      "partido": "PRM",
      "resumen": "Representa a Santiago en la Cámara de Diputados.",
-     "registro": "No disponible todavía"
+     "registro": "No disponible todavía",
+     "comisiones": [
+      "Administración Interior",
+      "Asuntos Cooperativos",
+      "Industria y Comercio",
+      "Presupuesto, Patrimonio y Contabilidad"
+     ],
+     "iniciativas_propuestas": 29,
+     "asistencia": {
+      "presentes": 138,
+      "total": 166,
+      "periodo": "agosto 2024 a junio 2026",
+      "fuente": "registro oficial de asistencia al Pleno de la Cámara de Diputados (SIL Ciudadano, diputadosrd.gob.do)"
+     }
     },
     {
      "cargo": "Diputado/a",
      "nombre": "Mateo Evangelista Espaillat Tavárez",
      "partido": "DXC",
      "resumen": "Representa a Santiago en la Cámara de Diputados.",
-     "registro": "No disponible todavía"
+     "registro": "No disponible todavía",
+     "comisiones": [
+      "05199-2024-2028-CD Comisión Especial designada para el estudio del proyecto de ley que autoriza el pago de deuda por obras ejecutadas sin contrato formal.",
+      "05650-2024-2028-CD Comisión Especial proyecto de ley que modifica el artículo 13 de la Ley núm. 118-21, del 31 de mayo de 2021, sobre terminación de obras viales, escuelas, hospitales y presas que se encuentran suspendidas.",
+      "Administración Interior",
+      "Administración de Deuda Pública y Activos Financieros",
+      "Asuntos Marítimos",
+      "Comisión bicameral designada para estudiar los Actos del Poder Ejecutivo",
+      "Derechos Humanos",
+      "Recursos Hídricos"
+     ],
+     "iniciativas_propuestas": 60,
+     "asistencia": {
+      "presentes": 159,
+      "total": 166,
+      "periodo": "agosto 2024 a junio 2026",
+      "fuente": "registro oficial de asistencia al Pleno de la Cámara de Diputados (SIL Ciudadano, diputadosrd.gob.do)"
+     }
     },
     {
      "cargo": "Diputado/a",
      "nombre": "Mirna Josefina López Francisco de Matos",
      "partido": "PRM",
      "resumen": "Representa a Santiago en la Cámara de Diputados.",
-     "registro": "No disponible todavía"
+     "registro": "No disponible todavía",
+     "comisiones": [
+      "00674-2025-PLO-SE Comisión bicameral designada para estudiar el proyecto de ley general de salud.",
+      "04711-2024-2028-CD Comisión especial que estudia el proyecto de ley que regula la libertad religiosa de conciencia y de cultos",
+      "05368-2024-2028-CD Comisión especial designada para estudiar el Proyecto de ley que modifica la Ley núm.5-13 sobre Discapacidad en la República Dominicana.",
+      "Economía, Planificación y Desarrollo",
+      "Educación Superior, Ciencia y Tecnología",
+      "Familia",
+      "Salud"
+     ],
+     "iniciativas_propuestas": 95,
+     "asistencia": {
+      "presentes": 144,
+      "total": 166,
+      "periodo": "agosto 2024 a junio 2026",
+      "fuente": "registro oficial de asistencia al Pleno de la Cámara de Diputados (SIL Ciudadano, diputadosrd.gob.do)"
+     }
     },
     {
      "cargo": "Diputado/a",
      "nombre": "Nelsa Shoraya Suárez Ariza",
      "partido": "PRM",
      "resumen": "Representa a Santiago en la Cámara de Diputados.",
-     "registro": "No disponible todavía"
+     "registro": "No disponible todavía",
+     "comisiones": [
+      "04691-2024-2028-CD proyecto de resolución de interpelación al señor Celso Marranzini",
+      "Deportes y Recreación",
+      "Derechos Humanos",
+      "Economía, Planificación y Desarrollo",
+      "Energía",
+      "Familia",
+      "Junta Central Electoral"
+     ],
+     "iniciativas_propuestas": 118,
+     "asistencia": {
+      "presentes": 131,
+      "total": 166,
+      "periodo": "agosto 2024 a junio 2026",
+      "fuente": "registro oficial de asistencia al Pleno de la Cámara de Diputados (SIL Ciudadano, diputadosrd.gob.do)"
+     }
     },
     {
      "cargo": "Diputado/a",
      "nombre": "Nelson Rafael Marmolejos Gil",
      "partido": "PRM",
      "resumen": "Representa a Santiago en la Cámara de Diputados.",
-     "registro": "No disponible todavía"
+     "registro": "No disponible todavía",
+     "comisiones": [
+      "04691-2024-2028-CD proyecto de resolución de interpelación al señor Celso Marranzini",
+      "Asuntos Migratorios",
+      "Defensa",
+      "Defensor del Pueblo",
+      "Interior y Policía",
+      "Relaciones Exteriores y Cooperación Internacional"
+     ],
+     "iniciativas_propuestas": 59,
+     "asistencia": {
+      "presentes": 161,
+      "total": 166,
+      "periodo": "agosto 2024 a junio 2026",
+      "fuente": "registro oficial de asistencia al Pleno de la Cámara de Diputados (SIL Ciudadano, diputadosrd.gob.do)"
+     }
     },
     {
      "cargo": "Diputado/a",
      "nombre": "Ramón Mayobanex Martínez Durán",
      "partido": "PLD",
      "resumen": "Representa a Santiago en la Cámara de Diputados.",
-     "registro": "No disponible todavía"
+     "registro": "No disponible todavía",
+     "comisiones": [
+      "03313-2024-2028-CD Comisión especial PR investigación abandono La Cruz de Manzanillo.",
+      "05199-2024-2028-CD Comisión Especial designada para el estudio del proyecto de ley que autoriza el pago de deuda por obras ejecutadas sin contrato formal.",
+      "05368-2024-2028-CD Comisión especial designada para estudiar el Proyecto de ley que modifica la Ley núm.5-13 sobre Discapacidad en la República Dominicana.",
+      "05650-2024-2028-CD Comisión Especial proyecto de ley que modifica el artículo 13 de la Ley núm. 118-21, del 31 de mayo de 2021, sobre terminación de obras viales, escuelas, hospitales y presas que se encuentran suspendidas.",
+      "Desarrollo Humano",
+      "Dominicanos en el Exterior",
+      "Justicia",
+      "Trabajo"
+     ],
+     "iniciativas_propuestas": 43,
+     "asistencia": {
+      "presentes": 142,
+      "total": 166,
+      "periodo": "agosto 2024 a junio 2026",
+      "fuente": "registro oficial de asistencia al Pleno de la Cámara de Diputados (SIL Ciudadano, diputadosrd.gob.do)"
+     }
     },
     {
      "cargo": "Diputado/a",
      "nombre": "Robinson de Jesús Díaz Mejía",
      "partido": "PRM",
      "resumen": "Representa a Santiago en la Cámara de Diputados.",
-     "registro": "No disponible todavía"
+     "registro": "No disponible todavía",
+     "comisiones": [
+      "Industria y Comercio",
+      "Interior y Policía",
+      "Medios de Comunicación",
+      "Tecnología de la Información y Comunicación"
+     ],
+     "iniciativas_propuestas": 28,
+     "asistencia": {
+      "presentes": 154,
+      "total": 166,
+      "periodo": "agosto 2024 a junio 2026",
+      "fuente": "registro oficial de asistencia al Pleno de la Cámara de Diputados (SIL Ciudadano, diputadosrd.gob.do)"
+     }
     },
     {
      "cargo": "Gobernador/a",
@@ -2181,14 +4072,40 @@
      "nombre": "Juana Ramona Castillo",
      "partido": "PRM",
      "resumen": "Representa a Santiago Rodríguez en la Cámara de Diputados.",
-     "registro": "No disponible todavía"
+     "registro": "No disponible todavía",
+     "comisiones": [
+      "Agricultura",
+      "Asuntos Fronterizos",
+      "Educación",
+      "Ética"
+     ],
+     "iniciativas_propuestas": 58,
+     "asistencia": {
+      "presentes": 153,
+      "total": 166,
+      "periodo": "agosto 2024 a junio 2026",
+      "fuente": "registro oficial de asistencia al Pleno de la Cámara de Diputados (SIL Ciudadano, diputadosrd.gob.do)"
+     }
     },
     {
      "cargo": "Diputado/a",
      "nombre": "Nicolás Tolentino López Mercado",
      "partido": "PRM",
      "resumen": "Representa a Santiago Rodríguez en la Cámara de Diputados.",
-     "registro": "No disponible todavía"
+     "registro": "No disponible todavía",
+     "comisiones": [
+      "03313-2024-2028-CD Comisión especial PR investigación abandono La Cruz de Manzanillo.",
+      "Defensa",
+      "Mipymes",
+      "Ética"
+     ],
+     "iniciativas_propuestas": 42,
+     "asistencia": {
+      "presentes": 164,
+      "total": 166,
+      "periodo": "agosto 2024 a junio 2026",
+      "fuente": "registro oficial de asistencia al Pleno de la Cámara de Diputados (SIL Ciudadano, diputadosrd.gob.do)"
+     }
     },
     {
      "cargo": "Gobernador/a",
@@ -2235,301 +4152,900 @@
      "nombre": "Abelardo Antonio Rutinel Arzeno",
      "partido": "PRM",
      "resumen": "Representa a Santo Domingo en la Cámara de Diputados.",
-     "registro": "No disponible todavía"
+     "registro": "No disponible todavía",
+     "comisiones": [
+      "Comisión bicameral designada para estudiar los Actos del Poder Ejecutivo",
+      "Deportes y Recreación",
+      "Energía",
+      "Hacienda",
+      "Inteligencia Artificial",
+      "Tecnología de la Información y Comunicación"
+     ],
+     "iniciativas_propuestas": 21,
+     "asistencia": {
+      "presentes": 161,
+      "total": 166,
+      "periodo": "agosto 2024 a junio 2026",
+      "fuente": "registro oficial de asistencia al Pleno de la Cámara de Diputados (SIL Ciudadano, diputadosrd.gob.do)"
+     }
     },
     {
      "cargo": "Diputado/a",
      "nombre": "Aldoneris Rafael Adón Duarte",
      "partido": "PRM",
      "resumen": "Representa a Santo Domingo en la Cámara de Diputados.",
-     "registro": "No disponible todavía"
+     "registro": "No disponible todavía",
+     "comisiones": [
+      "05274-2024-2028-CD Comisión Especial designada para el estudio del proyecto de ley que modifica los límites territoriales de Bonao, Juma-Bejucal y La Salvia-Los Quemados, provincia Monseñor Nouel.",
+      "Administración Interior",
+      "Contratos",
+      "Mipymes",
+      "Relaciones Exteriores y Cooperación Internacional"
+     ],
+     "iniciativas_propuestas": 24,
+     "asistencia": {
+      "presentes": 153,
+      "total": 166,
+      "periodo": "agosto 2024 a junio 2026",
+      "fuente": "registro oficial de asistencia al Pleno de la Cámara de Diputados (SIL Ciudadano, diputadosrd.gob.do)"
+     }
     },
     {
      "cargo": "Diputado/a",
      "nombre": "Alexander Javier Cuevas",
      "partido": "PRM",
      "resumen": "Representa a Santo Domingo en la Cámara de Diputados.",
-     "registro": "No disponible todavía"
+     "registro": "No disponible todavía",
+     "comisiones": [
+      "Administración Pública",
+      "Asuntos Municipales",
+      "Deportes y Recreación",
+      "Mipymes",
+      "Movilidad y Transporte"
+     ],
+     "iniciativas_propuestas": 46,
+     "asistencia": {
+      "presentes": 166,
+      "total": 166,
+      "periodo": "agosto 2024 a junio 2026",
+      "fuente": "registro oficial de asistencia al Pleno de la Cámara de Diputados (SIL Ciudadano, diputadosrd.gob.do)"
+     }
     },
     {
      "cargo": "Diputado/a",
      "nombre": "Altagracia de los Santos",
      "partido": "PRM",
      "resumen": "Representa a Santo Domingo en la Cámara de Diputados.",
-     "registro": "No disponible todavía"
+     "registro": "No disponible todavía",
+     "comisiones": [
+      "04711-2024-2028-CD Comisión especial que estudia el proyecto de ley que regula la libertad religiosa de conciencia y de cultos",
+      "Educación Superior, Ciencia y Tecnología",
+      "Energía",
+      "Familia",
+      "Reconocimientos"
+     ],
+     "iniciativas_propuestas": 48,
+     "asistencia": {
+      "presentes": 157,
+      "total": 166,
+      "periodo": "agosto 2024 a junio 2026",
+      "fuente": "registro oficial de asistencia al Pleno de la Cámara de Diputados (SIL Ciudadano, diputadosrd.gob.do)"
+     }
     },
     {
      "cargo": "Diputado/a",
      "nombre": "Amado Antonio Díaz Jiménez",
      "partido": "PRM",
      "resumen": "Representa a Santo Domingo en la Cámara de Diputados.",
-     "registro": "No disponible todavía"
+     "registro": "No disponible todavía",
+     "comisiones": [
+      "Administración Interior",
+      "Comisión Coordinadora 2025-2026",
+      "Modernización y Reforma"
+     ],
+     "iniciativas_propuestas": 48,
+     "asistencia": {
+      "presentes": 165,
+      "total": 166,
+      "periodo": "agosto 2024 a junio 2026",
+      "fuente": "registro oficial de asistencia al Pleno de la Cámara de Diputados (SIL Ciudadano, diputadosrd.gob.do)"
+     }
     },
     {
      "cargo": "Diputado/a",
      "nombre": "Ana Adalgiza del Carmen Abreu Polanco",
      "partido": "PRM",
      "resumen": "Representa a Santo Domingo en la Cámara de Diputados.",
-     "registro": "No disponible todavía"
+     "registro": "No disponible todavía",
+     "comisiones": [
+      "03800-2024-2028-CD Comisión bicameral para el estudio de los proyectos de ley de Seguridad Social.",
+      "Familia",
+      "Reconocimientos",
+      "Salud",
+      "Seguridad Social"
+     ],
+     "iniciativas_propuestas": 39,
+     "asistencia": {
+      "presentes": 157,
+      "total": 166,
+      "periodo": "agosto 2024 a junio 2026",
+      "fuente": "registro oficial de asistencia al Pleno de la Cámara de Diputados (SIL Ciudadano, diputadosrd.gob.do)"
+     }
     },
     {
      "cargo": "Diputado/a",
      "nombre": "Anny Veleissy Mambrú Rodríguez",
      "partido": "PRM",
      "resumen": "Representa a Santo Domingo en la Cámara de Diputados.",
-     "registro": "No disponible todavía"
+     "registro": "No disponible todavía",
+     "comisiones": [
+      "00674-2025-PLO-SE Comisión bicameral designada para estudiar el proyecto de ley general de salud.",
+      "05137-2024-2028-CD y 05138-2024-2028-CD Comisión Especial designada para el estudio de los proyectos de ley para la superación y reinserción de los adolescentes.",
+      "05368-2024-2028-CD Comisión especial designada para estudiar el Proyecto de ley que modifica la Ley núm.5-13 sobre Discapacidad en la República Dominicana.",
+      "Administración de Deuda Pública y Activos Financieros",
+      "Ciberseguridad",
+      "Salud"
+     ],
+     "iniciativas_propuestas": 36,
+     "asistencia": {
+      "presentes": 159,
+      "total": 166,
+      "periodo": "agosto 2024 a junio 2026",
+      "fuente": "registro oficial de asistencia al Pleno de la Cámara de Diputados (SIL Ciudadano, diputadosrd.gob.do)"
+     }
     },
     {
      "cargo": "Diputado/a",
      "nombre": "Bolívar Ernesto Valera Ariza",
      "partido": "PRM",
      "resumen": "Representa a Santo Domingo en la Cámara de Diputados.",
-     "registro": "No disponible todavía"
+     "registro": "No disponible todavía",
+     "comisiones": [
+      "Administración de Deuda Pública y Activos Financieros",
+      "Dominicanos en el Exterior",
+      "Familia",
+      "Medios de Comunicación"
+     ],
+     "iniciativas_propuestas": 40,
+     "asistencia": {
+      "presentes": 111,
+      "total": 166,
+      "periodo": "agosto 2024 a junio 2026",
+      "fuente": "registro oficial de asistencia al Pleno de la Cámara de Diputados (SIL Ciudadano, diputadosrd.gob.do)"
+     }
     },
     {
      "cargo": "Diputado/a",
      "nombre": "Carlos Alberto Pérez Hernández",
      "partido": "FP",
      "resumen": "Representa a Santo Domingo en la Cámara de Diputados.",
-     "registro": "No disponible todavía"
+     "registro": "No disponible todavía",
+     "comisiones": [
+      "Asuntos Municipales",
+      "Recursos Hídricos",
+      "Vivienda, Hábitat y Edificaciones"
+     ],
+     "iniciativas_propuestas": 68,
+     "asistencia": {
+      "presentes": 157,
+      "total": 166,
+      "periodo": "agosto 2024 a junio 2026",
+      "fuente": "registro oficial de asistencia al Pleno de la Cámara de Diputados (SIL Ciudadano, diputadosrd.gob.do)"
+     }
     },
     {
      "cargo": "Diputado/a",
      "nombre": "Carlos José Gil Rodríguez",
      "partido": "FP",
      "resumen": "Representa a Santo Domingo en la Cámara de Diputados.",
-     "registro": "No disponible todavía"
+     "registro": "No disponible todavía",
+     "comisiones": [
+      "Contratos",
+      "Ministerio Público",
+      "Movilidad y Transporte",
+      "Presupuesto, Patrimonio y Contabilidad"
+     ],
+     "iniciativas_propuestas": 22,
+     "asistencia": {
+      "presentes": 102,
+      "total": 166,
+      "periodo": "agosto 2024 a junio 2026",
+      "fuente": "registro oficial de asistencia al Pleno de la Cámara de Diputados (SIL Ciudadano, diputadosrd.gob.do)"
+     }
     },
     {
      "cargo": "Diputado/a",
      "nombre": "Damarys Vásquez Castillo",
      "partido": "PLD",
      "resumen": "Representa a Santo Domingo en la Cámara de Diputados.",
-     "registro": "No disponible todavía"
+     "registro": "No disponible todavía",
+     "comisiones": [
+      "00674-2025-PLO-SE Comisión bicameral designada para estudiar el proyecto de ley general de salud.",
+      "05274-2024-2028-CD Comisión Especial designada para el estudio del proyecto de ley que modifica los límites territoriales de Bonao, Juma-Bejucal y La Salvia-Los Quemados, provincia Monseñor Nouel.",
+      "05405-2024-2028-CD Comisión especial designada para el estudio del Proyecto de ley de los cuerpos de bomberos de la República Dominicana.",
+      "Asuntos de Equidad de Género",
+      "Familia",
+      "Salud"
+     ],
+     "iniciativas_propuestas": 49,
+     "asistencia": {
+      "presentes": 164,
+      "total": 166,
+      "periodo": "agosto 2024 a junio 2026",
+      "fuente": "registro oficial de asistencia al Pleno de la Cámara de Diputados (SIL Ciudadano, diputadosrd.gob.do)"
+     }
     },
     {
      "cargo": "Diputado/a",
      "nombre": "Dellys Dumidia Féliz Rodríguez",
      "partido": "PRM",
      "resumen": "Representa a Santo Domingo en la Cámara de Diputados.",
-     "registro": "No disponible todavía"
+     "registro": "No disponible todavía",
+     "comisiones": [
+      "03465-2024-2028-CD Comisión Especial para estudiar el proyecto de resolución que solicita investigar la construcción de un acueducto para Haina dentro de un polideportivo.",
+      "05218-2024-2028-CD Comisión especial designada para estudiar el proyecto de ley de amnistía para el registro de armas de fuego.",
+      "05274-2024-2028-CD Comisión Especial designada para el estudio del proyecto de ley que modifica los límites territoriales de Bonao, Juma-Bejucal y La Salvia-Los Quemados, provincia Monseñor Nouel.",
+      "Administración de Deuda Pública y Activos Financieros",
+      "Derechos Humanos",
+      "Desarrollo Humano",
+      "Hacienda",
+      "Presupuesto, Patrimonio y Contabilidad"
+     ],
+     "iniciativas_propuestas": 33,
+     "asistencia": {
+      "presentes": 137,
+      "total": 166,
+      "periodo": "agosto 2024 a junio 2026",
+      "fuente": "registro oficial de asistencia al Pleno de la Cámara de Diputados (SIL Ciudadano, diputadosrd.gob.do)"
+     }
     },
     {
      "cargo": "Diputado/a",
      "nombre": "Diómedes Omar Rojas",
      "partido": "PRM",
      "resumen": "Representa a Santo Domingo en la Cámara de Diputados.",
-     "registro": "No disponible todavía"
+     "registro": "No disponible todavía",
+     "comisiones": [
+      "00674-2025-PLO-SE Comisión bicameral designada para estudiar el proyecto de ley general de salud.",
+      "Cultura",
+      "Derechos Humanos",
+      "Desarrollo Humano",
+      "Salud"
+     ],
+     "iniciativas_propuestas": 53,
+     "asistencia": {
+      "presentes": 162,
+      "total": 166,
+      "periodo": "agosto 2024 a junio 2026",
+      "fuente": "registro oficial de asistencia al Pleno de la Cámara de Diputados (SIL Ciudadano, diputadosrd.gob.do)"
+     }
     },
     {
      "cargo": "Diputado/a",
      "nombre": "Domingo Eusebio de León Mascaró",
      "partido": "FP",
      "resumen": "Representa a Santo Domingo en la Cámara de Diputados.",
-     "registro": "No disponible todavía"
+     "registro": "No disponible todavía",
+     "comisiones": [
+      "Administración Pública",
+      "Defensa",
+      "Interior y Policía"
+     ],
+     "iniciativas_propuestas": 17,
+     "asistencia": {
+      "presentes": 102,
+      "total": 166,
+      "periodo": "agosto 2024 a junio 2026",
+      "fuente": "registro oficial de asistencia al Pleno de la Cámara de Diputados (SIL Ciudadano, diputadosrd.gob.do)"
+     }
     },
     {
      "cargo": "Diputado/a",
      "nombre": "Eduviges María Bautista Gomera",
      "partido": "PRM",
      "resumen": "Representa a Santo Domingo en la Cámara de Diputados.",
-     "registro": "No disponible todavía"
+     "registro": "No disponible todavía",
+     "comisiones": [
+      "Administración Interior",
+      "Asuntos de Equidad de Género",
+      "Comisión Coordinadora 2025-2026",
+      "Comisión bicameral designada para estudiar los Actos del Poder Ejecutivo",
+      "Industria y Comercio",
+      "Medio Ambiente y Recursos Naturales"
+     ],
+     "iniciativas_propuestas": 47,
+     "asistencia": {
+      "presentes": 157,
+      "total": 166,
+      "periodo": "agosto 2024 a junio 2026",
+      "fuente": "registro oficial de asistencia al Pleno de la Cámara de Diputados (SIL Ciudadano, diputadosrd.gob.do)"
+     }
     },
     {
      "cargo": "Diputado/a",
      "nombre": "Enriqueta Rojas Javier",
      "partido": "FP",
      "resumen": "Representa a Santo Domingo en la Cámara de Diputados.",
-     "registro": "No disponible todavía"
+     "registro": "No disponible todavía",
+     "comisiones": [
+      "Asuntos Marítimos",
+      "Contratos",
+      "Desarrollo Humano",
+      "Hacienda",
+      "Presupuesto, Patrimonio y Contabilidad"
+     ],
+     "iniciativas_propuestas": 38,
+     "asistencia": {
+      "presentes": 138,
+      "total": 166,
+      "periodo": "agosto 2024 a junio 2026",
+      "fuente": "registro oficial de asistencia al Pleno de la Cámara de Diputados (SIL Ciudadano, diputadosrd.gob.do)"
+     }
     },
     {
      "cargo": "Diputado/a",
      "nombre": "Eudy Maldonado de la Cruz",
      "partido": "FP",
      "resumen": "Representa a Santo Domingo en la Cámara de Diputados.",
-     "registro": "No disponible todavía"
+     "registro": "No disponible todavía",
+     "comisiones": [
+      "05218-2024-2028-CD Comisión especial designada para estudiar el proyecto de ley de amnistía para el registro de armas de fuego.",
+      "Ciberseguridad",
+      "Defensa",
+      "Juventud",
+      "Mipymes",
+      "Recursos Hídricos"
+     ],
+     "iniciativas_propuestas": 18,
+     "asistencia": {
+      "presentes": 145,
+      "total": 166,
+      "periodo": "agosto 2024 a junio 2026",
+      "fuente": "registro oficial de asistencia al Pleno de la Cámara de Diputados (SIL Ciudadano, diputadosrd.gob.do)"
+     }
     },
     {
      "cargo": "Diputado/a",
      "nombre": "Félix Manuel Encarnación Montero",
      "partido": "PRM",
      "resumen": "Representa a Santo Domingo en la Cámara de Diputados.",
-     "registro": "No disponible todavía"
+     "registro": "No disponible todavía",
+     "comisiones": [
+      "Asuntos Marítimos",
+      "Economía, Planificación y Desarrollo",
+      "Movilidad y Transporte",
+      "Obras Públicas y Comunicaciones"
+     ],
+     "iniciativas_propuestas": 17,
+     "asistencia": {
+      "presentes": 163,
+      "total": 166,
+      "periodo": "agosto 2024 a junio 2026",
+      "fuente": "registro oficial de asistencia al Pleno de la Cámara de Diputados (SIL Ciudadano, diputadosrd.gob.do)"
+     }
     },
     {
      "cargo": "Diputado/a",
      "nombre": "Franklin Martínez",
      "partido": "PLD",
      "resumen": "Representa a Santo Domingo en la Cámara de Diputados.",
-     "registro": "No disponible todavía"
+     "registro": "No disponible todavía",
+     "comisiones": [
+      "05218-2024-2028-CD Comisión especial designada para estudiar el proyecto de ley de amnistía para el registro de armas de fuego.",
+      "Deportes y Recreación",
+      "Interior y Policía",
+      "Relaciones Exteriores y Cooperación Internacional"
+     ],
+     "iniciativas_propuestas": 24,
+     "asistencia": {
+      "presentes": 148,
+      "total": 166,
+      "periodo": "agosto 2024 a junio 2026",
+      "fuente": "registro oficial de asistencia al Pleno de la Cámara de Diputados (SIL Ciudadano, diputadosrd.gob.do)"
+     }
     },
     {
      "cargo": "Diputado/a",
      "nombre": "Heriberto Aracena Montilla",
      "partido": "FP",
      "resumen": "Representa a Santo Domingo en la Cámara de Diputados.",
-     "registro": "No disponible todavía"
+     "registro": "No disponible todavía",
+     "comisiones": [
+      "05218-2024-2028-CD Comisión especial designada para estudiar el proyecto de ley de amnistía para el registro de armas de fuego.",
+      "Defensa",
+      "Deportes y Recreación",
+      "Interior y Policía",
+      "Modernización y Reforma",
+      "Movilidad y Transporte"
+     ],
+     "iniciativas_propuestas": 37,
+     "asistencia": {
+      "presentes": 164,
+      "total": 166,
+      "periodo": "agosto 2024 a junio 2026",
+      "fuente": "registro oficial de asistencia al Pleno de la Cámara de Diputados (SIL Ciudadano, diputadosrd.gob.do)"
+     }
     },
     {
      "cargo": "Diputado/a",
      "nombre": "Ignacio Aracena",
      "partido": "PRM",
      "resumen": "Representa a Santo Domingo en la Cámara de Diputados.",
-     "registro": "No disponible todavía"
+     "registro": "No disponible todavía",
+     "comisiones": [
+      "Interior y Policía",
+      "Medios de Comunicación",
+      "Relaciones Exteriores y Cooperación Internacional",
+      "Tecnología de la Información y Comunicación"
+     ],
+     "iniciativas_propuestas": 55,
+     "asistencia": {
+      "presentes": 147,
+      "total": 166,
+      "periodo": "agosto 2024 a junio 2026",
+      "fuente": "registro oficial de asistencia al Pleno de la Cámara de Diputados (SIL Ciudadano, diputadosrd.gob.do)"
+     }
     },
     {
      "cargo": "Diputado/a",
      "nombre": "Indhira Shary de Jesús de Morla",
      "partido": "PRM",
      "resumen": "Representa a Santo Domingo en la Cámara de Diputados.",
-     "registro": "No disponible todavía"
+     "registro": "No disponible todavía",
+     "comisiones": [
+      "Energía",
+      "Recursos Hídricos",
+      "Trabajo",
+      "Vivienda, Hábitat y Edificaciones"
+     ],
+     "iniciativas_propuestas": 32,
+     "asistencia": {
+      "presentes": 158,
+      "total": 166,
+      "periodo": "agosto 2024 a junio 2026",
+      "fuente": "registro oficial de asistencia al Pleno de la Cámara de Diputados (SIL Ciudadano, diputadosrd.gob.do)"
+     }
     },
     {
      "cargo": "Diputado/a",
      "nombre": "Jesús Manuel Sánchez Martínez",
      "partido": "PRM",
      "resumen": "Representa a Santo Domingo en la Cámara de Diputados.",
-     "registro": "No disponible todavía"
+     "registro": "No disponible todavía",
+     "comisiones": [
+      "Asuntos Municipales",
+      "Interior y Policía",
+      "Justicia",
+      "Medios de Comunicación",
+      "Ministerio Público"
+     ],
+     "iniciativas_propuestas": 38,
+     "asistencia": {
+      "presentes": 162,
+      "total": 166,
+      "periodo": "agosto 2024 a junio 2026",
+      "fuente": "registro oficial de asistencia al Pleno de la Cámara de Diputados (SIL Ciudadano, diputadosrd.gob.do)"
+     }
     },
     {
      "cargo": "Diputado/a",
      "nombre": "Jheyson Amir García Castillo",
      "partido": "PRM",
      "resumen": "Representa a Santo Domingo en la Cámara de Diputados.",
-     "registro": "No disponible todavía"
+     "registro": "No disponible todavía",
+     "comisiones": [
+      "Educación",
+      "Energía",
+      "Industria y Comercio",
+      "Obras Públicas y Comunicaciones",
+      "Tecnología de la Información y Comunicación"
+     ],
+     "iniciativas_propuestas": 47,
+     "asistencia": {
+      "presentes": 129,
+      "total": 166,
+      "periodo": "agosto 2024 a junio 2026",
+      "fuente": "registro oficial de asistencia al Pleno de la Cámara de Diputados (SIL Ciudadano, diputadosrd.gob.do)"
+     }
     },
     {
      "cargo": "Diputado/a",
      "nombre": "Jorge Frías",
      "partido": "PRM",
      "resumen": "Representa a Santo Domingo en la Cámara de Diputados.",
-     "registro": "No disponible todavía"
+     "registro": "No disponible todavía",
+     "comisiones": [
+      "04711-2024-2028-CD Comisión especial que estudia el proyecto de ley que regula la libertad religiosa de conciencia y de cultos",
+      "Comisión bicameral designada para estudiar los Actos del Poder Ejecutivo",
+      "Contratos",
+      "Hacienda"
+     ],
+     "iniciativas_propuestas": 13,
+     "asistencia": {
+      "presentes": 165,
+      "total": 166,
+      "periodo": "agosto 2024 a junio 2026",
+      "fuente": "registro oficial de asistencia al Pleno de la Cámara de Diputados (SIL Ciudadano, diputadosrd.gob.do)"
+     }
     },
     {
      "cargo": "Diputado/a",
      "nombre": "José Moisés Ortiz López",
      "partido": "PRM",
      "resumen": "Representa a Santo Domingo en la Cámara de Diputados.",
-     "registro": "No disponible todavía"
+     "registro": "No disponible todavía",
+     "comisiones": [
+      "Cámara de Cuentas",
+      "Medio Ambiente y Recursos Naturales",
+      "Movilidad y Transporte",
+      "Obras Públicas y Comunicaciones",
+      "Recursos Hídricos"
+     ],
+     "iniciativas_propuestas": 43,
+     "asistencia": {
+      "presentes": 162,
+      "total": 166,
+      "periodo": "agosto 2024 a junio 2026",
+      "fuente": "registro oficial de asistencia al Pleno de la Cámara de Diputados (SIL Ciudadano, diputadosrd.gob.do)"
+     }
     },
     {
      "cargo": "Diputado/a",
      "nombre": "Juan Carlos Echavarría Milané",
      "partido": "PLD",
      "resumen": "Representa a Santo Domingo en la Cámara de Diputados.",
-     "registro": "No disponible todavía"
+     "registro": "No disponible todavía",
+     "comisiones": [
+      "Contratos",
+      "Defensa",
+      "Vivienda, Hábitat y Edificaciones"
+     ],
+     "iniciativas_propuestas": 28,
+     "asistencia": {
+      "presentes": 142,
+      "total": 166,
+      "periodo": "agosto 2024 a junio 2026",
+      "fuente": "registro oficial de asistencia al Pleno de la Cámara de Diputados (SIL Ciudadano, diputadosrd.gob.do)"
+     }
     },
     {
      "cargo": "Diputado/a",
      "nombre": "Juan José Rojas Franco",
      "partido": "PRM",
      "resumen": "Representa a Santo Domingo en la Cámara de Diputados.",
-     "registro": "No disponible todavía"
+     "registro": "No disponible todavía",
+     "comisiones": [
+      "Comisión bicameral designada para estudiar los Actos del Poder Ejecutivo",
+      "Cámara de Cuentas",
+      "Defensa",
+      "Deportes y Recreación",
+      "Economía, Planificación y Desarrollo",
+      "Junta Central Electoral"
+     ],
+     "iniciativas_propuestas": 101,
+     "asistencia": {
+      "presentes": 151,
+      "total": 166,
+      "periodo": "agosto 2024 a junio 2026",
+      "fuente": "registro oficial de asistencia al Pleno de la Cámara de Diputados (SIL Ciudadano, diputadosrd.gob.do)"
+     }
     },
     {
      "cargo": "Diputado/a",
      "nombre": "Junior Muñoz Olivo",
      "partido": "PRM",
      "resumen": "Representa a Santo Domingo en la Cámara de Diputados.",
-     "registro": "No disponible todavía"
+     "registro": "No disponible todavía",
+     "comisiones": [
+      "Asuntos de Equidad de Género",
+      "Contratos",
+      "Presidencia de la República",
+      "Tecnología de la Información y Comunicación"
+     ],
+     "iniciativas_propuestas": 46,
+     "asistencia": {
+      "presentes": 166,
+      "total": 166,
+      "periodo": "agosto 2024 a junio 2026",
+      "fuente": "registro oficial de asistencia al Pleno de la Cámara de Diputados (SIL Ciudadano, diputadosrd.gob.do)"
+     }
     },
     {
      "cargo": "Diputado/a",
      "nombre": "Kinsberly Taveras Duarte",
      "partido": "PRM",
      "resumen": "Representa a Santo Domingo en la Cámara de Diputados.",
-     "registro": "No disponible todavía"
+     "registro": "No disponible todavía",
+     "comisiones": [
+      "04691-2024-2028-CD proyecto de resolución de interpelación al señor Celso Marranzini",
+      "Asuntos Mineros",
+      "Asuntos Municipales",
+      "Energía",
+      "Hacienda"
+     ],
+     "iniciativas_propuestas": 46,
+     "asistencia": {
+      "presentes": 127,
+      "total": 166,
+      "periodo": "agosto 2024 a junio 2026",
+      "fuente": "registro oficial de asistencia al Pleno de la Cámara de Diputados (SIL Ciudadano, diputadosrd.gob.do)"
+     }
     },
     {
      "cargo": "Diputado/a",
      "nombre": "Lucila Leonarda de León Martínez",
      "partido": "PRM",
      "resumen": "Representa a Santo Domingo en la Cámara de Diputados.",
-     "registro": "No disponible todavía"
+     "registro": "No disponible todavía",
+     "comisiones": [
+      "Comisión bicameral designada para estudiar los Actos del Poder Ejecutivo",
+      "Contratos",
+      "Derechos Humanos",
+      "Dominicanos en el Exterior",
+      "Ética"
+     ],
+     "iniciativas_propuestas": 43,
+     "asistencia": {
+      "presentes": 164,
+      "total": 166,
+      "periodo": "agosto 2024 a junio 2026",
+      "fuente": "registro oficial de asistencia al Pleno de la Cámara de Diputados (SIL Ciudadano, diputadosrd.gob.do)"
+     }
     },
     {
      "cargo": "Diputado/a",
      "nombre": "María Elisa Suárez Alcalá",
      "partido": "PRM",
      "resumen": "Representa a Santo Domingo en la Cámara de Diputados.",
-     "registro": "No disponible todavía"
+     "registro": "No disponible todavía",
+     "comisiones": [
+      "Cultura",
+      "Desarrollo Humano",
+      "Educación",
+      "Educación Superior, Ciencia y Tecnología"
+     ],
+     "iniciativas_propuestas": 56,
+     "asistencia": {
+      "presentes": 138,
+      "total": 166,
+      "periodo": "agosto 2024 a junio 2026",
+      "fuente": "registro oficial de asistencia al Pleno de la Cámara de Diputados (SIL Ciudadano, diputadosrd.gob.do)"
+     }
     },
     {
      "cargo": "Diputado/a",
      "nombre": "Melvin Alexis Lara Melo",
      "partido": "PRM",
      "resumen": "Representa a Santo Domingo en la Cámara de Diputados.",
-     "registro": "No disponible todavía"
+     "registro": "No disponible todavía",
+     "comisiones": [
+      "Asuntos Cooperativos",
+      "Defensa",
+      "Movilidad y Transporte",
+      "Ética"
+     ],
+     "iniciativas_propuestas": 46,
+     "asistencia": {
+      "presentes": 165,
+      "total": 166,
+      "periodo": "agosto 2024 a junio 2026",
+      "fuente": "registro oficial de asistencia al Pleno de la Cámara de Diputados (SIL Ciudadano, diputadosrd.gob.do)"
+     }
     },
     {
      "cargo": "Diputado/a",
      "nombre": "Miguel Alberto Bogaert Marra",
      "partido": "PRM",
      "resumen": "Representa a Santo Domingo en la Cámara de Diputados.",
-     "registro": "No disponible todavía"
+     "registro": "No disponible todavía",
+     "comisiones": [
+      "Asuntos Marítimos",
+      "Contratos",
+      "Obras Públicas y Comunicaciones",
+      "Reconocimientos"
+     ],
+     "iniciativas_propuestas": 35,
+     "asistencia": {
+      "presentes": 147,
+      "total": 166,
+      "periodo": "agosto 2024 a junio 2026",
+      "fuente": "registro oficial de asistencia al Pleno de la Cámara de Diputados (SIL Ciudadano, diputadosrd.gob.do)"
+     }
     },
     {
      "cargo": "Diputado/a",
      "nombre": "Miguel Eduardo Espinal Muñoz",
      "partido": "FP",
      "resumen": "Representa a Santo Domingo en la Cámara de Diputados.",
-     "registro": "No disponible todavía"
+     "registro": "No disponible todavía",
+     "comisiones": [
+      "04691-2024-2028-CD proyecto de resolución de interpelación al señor Celso Marranzini",
+      "05199-2024-2028-CD Comisión Especial designada para el estudio del proyecto de ley que autoriza el pago de deuda por obras ejecutadas sin contrato formal.",
+      "05650-2024-2028-CD Comisión Especial proyecto de ley que modifica el artículo 13 de la Ley núm. 118-21, del 31 de mayo de 2021, sobre terminación de obras viales, escuelas, hospitales y presas que se encuentran suspendidas.",
+      "Administración de Deuda Pública y Activos Financieros",
+      "Comisión bicameral designada para estudiar los Actos del Poder Ejecutivo",
+      "Cámara de Cuentas",
+      "Derechos Humanos",
+      "Obras Públicas y Comunicaciones"
+     ],
+     "iniciativas_propuestas": 10,
+     "asistencia": {
+      "presentes": 156,
+      "total": 166,
+      "periodo": "agosto 2024 a junio 2026",
+      "fuente": "registro oficial de asistencia al Pleno de la Cámara de Diputados (SIL Ciudadano, diputadosrd.gob.do)"
+     }
     },
     {
      "cargo": "Diputado/a",
      "nombre": "Patricia Alexandra Núñez Rivera",
      "partido": "PRM",
      "resumen": "Representa a Santo Domingo en la Cámara de Diputados.",
-     "registro": "No disponible todavía"
+     "registro": "No disponible todavía",
+     "comisiones": [
+      "03800-2024-2028-CD Comisión bicameral para el estudio de los proyectos de ley de Seguridad Social.",
+      "05137-2024-2028-CD y 05138-2024-2028-CD Comisión Especial designada para el estudio de los proyectos de ley para la superación y reinserción de los adolescentes.",
+      "Asuntos Mineros",
+      "Familia",
+      "Seguridad Social",
+      "Trabajo"
+     ],
+     "iniciativas_propuestas": 75,
+     "asistencia": {
+      "presentes": 157,
+      "total": 166,
+      "periodo": "agosto 2024 a junio 2026",
+      "fuente": "registro oficial de asistencia al Pleno de la Cámara de Diputados (SIL Ciudadano, diputadosrd.gob.do)"
+     }
     },
     {
      "cargo": "Diputado/a",
      "nombre": "Pedro Julio Alcántara",
      "partido": "PRM",
      "resumen": "Representa a Santo Domingo en la Cámara de Diputados.",
-     "registro": "No disponible todavía"
+     "registro": "No disponible todavía",
+     "comisiones": [
+      "03800-2024-2028-CD Comisión bicameral para el estudio de los proyectos de ley de Seguridad Social.",
+      "Cámara de Cuentas",
+      "Seguridad Social",
+      "Trabajo",
+      "Vivienda, Hábitat y Edificaciones"
+     ],
+     "iniciativas_propuestas": 23,
+     "asistencia": {
+      "presentes": 134,
+      "total": 166,
+      "periodo": "agosto 2024 a junio 2026",
+      "fuente": "registro oficial de asistencia al Pleno de la Cámara de Diputados (SIL Ciudadano, diputadosrd.gob.do)"
+     }
     },
     {
      "cargo": "Diputado/a",
      "nombre": "Rafael Augusto Castillo Casado",
      "partido": "FP",
      "resumen": "Representa a Santo Domingo en la Cámara de Diputados.",
-     "registro": "No disponible todavía"
+     "registro": "No disponible todavía",
+     "comisiones": [
+      "03800-2024-2028-CD Comisión bicameral para el estudio de los proyectos de ley de Seguridad Social.",
+      "05199-2024-2028-CD Comisión Especial designada para el estudio del proyecto de ley que autoriza el pago de deuda por obras ejecutadas sin contrato formal.",
+      "05650-2024-2028-CD Comisión Especial proyecto de ley que modifica el artículo 13 de la Ley núm. 118-21, del 31 de mayo de 2021, sobre terminación de obras viales, escuelas, hospitales y presas que se encuentran suspendidas.",
+      "Administración Interior",
+      "Comisión Coordinadora 2025-2026",
+      "Hacienda",
+      "Seguridad Social"
+     ],
+     "iniciativas_propuestas": 54,
+     "asistencia": {
+      "presentes": 150,
+      "total": 166,
+      "periodo": "agosto 2024 a junio 2026",
+      "fuente": "registro oficial de asistencia al Pleno de la Cámara de Diputados (SIL Ciudadano, diputadosrd.gob.do)"
+     }
     },
     {
      "cargo": "Diputado/a",
      "nombre": "Rafaela González González",
      "partido": "FP",
      "resumen": "Representa a Santo Domingo en la Cámara de Diputados.",
-     "registro": "No disponible todavía"
+     "registro": "No disponible todavía",
+     "comisiones": [
+      "04711-2024-2028-CD Comisión especial que estudia el proyecto de ley que regula la libertad religiosa de conciencia y de cultos",
+      "Administración Pública",
+      "Asuntos Migratorios",
+      "Educación Superior, Ciencia y Tecnología",
+      "Presidencia de la República",
+      "Trabajo"
+     ],
+     "iniciativas_propuestas": 58,
+     "asistencia": {
+      "presentes": 156,
+      "total": 166,
+      "periodo": "agosto 2024 a junio 2026",
+      "fuente": "registro oficial de asistencia al Pleno de la Cámara de Diputados (SIL Ciudadano, diputadosrd.gob.do)"
+     }
     },
     {
      "cargo": "Diputado/a",
      "nombre": "Tayluma Monserrat Calderón Fortuna",
      "partido": "FP",
      "resumen": "Representa a Santo Domingo en la Cámara de Diputados.",
-     "registro": "No disponible todavía"
+     "registro": "No disponible todavía",
+     "comisiones": [
+      "03800-2024-2028-CD Comisión bicameral para el estudio de los proyectos de ley de Seguridad Social.",
+      "05405-2024-2028-CD Comisión especial designada para el estudio del Proyecto de ley de los cuerpos de bomberos de la República Dominicana.",
+      "Asuntos Municipales",
+      "Inteligencia Artificial",
+      "Juventud",
+      "Relaciones Exteriores y Cooperación Internacional",
+      "Seguridad Social"
+     ],
+     "iniciativas_propuestas": 83,
+     "asistencia": {
+      "presentes": 155,
+      "total": 166,
+      "periodo": "agosto 2024 a junio 2026",
+      "fuente": "registro oficial de asistencia al Pleno de la Cámara de Diputados (SIL Ciudadano, diputadosrd.gob.do)"
+     }
     },
     {
      "cargo": "Diputado/a",
      "nombre": "Víctor Virgilio Jiménez",
      "partido": "FP",
      "resumen": "Representa a Santo Domingo en la Cámara de Diputados.",
-     "registro": "No disponible todavía"
+     "registro": "No disponible todavía",
+     "comisiones": [
+      "Agricultura",
+      "Familia"
+     ],
+     "iniciativas_propuestas": 9,
+     "asistencia": {
+      "presentes": 153,
+      "total": 166,
+      "periodo": "agosto 2024 a junio 2026",
+      "fuente": "registro oficial de asistencia al Pleno de la Cámara de Diputados (SIL Ciudadano, diputadosrd.gob.do)"
+     }
     },
     {
      "cargo": "Diputado/a",
      "nombre": "Yancarlos Simanca Ferreras",
      "partido": "PRM",
      "resumen": "Representa a Santo Domingo en la Cámara de Diputados.",
-     "registro": "No disponible todavía"
+     "registro": "No disponible todavía",
+     "comisiones": [
+      "Comisión bicameral designada para estudiar los Actos del Poder Ejecutivo",
+      "Cultura",
+      "Energía",
+      "Medio Ambiente y Recursos Naturales",
+      "Movilidad y Transporte"
+     ],
+     "iniciativas_propuestas": 40,
+     "asistencia": {
+      "presentes": 162,
+      "total": 166,
+      "periodo": "agosto 2024 a junio 2026",
+      "fuente": "registro oficial de asistencia al Pleno de la Cámara de Diputados (SIL Ciudadano, diputadosrd.gob.do)"
+     }
     },
     {
      "cargo": "Diputado/a",
      "nombre": "Ycelmary Brito O´Neal",
      "partido": "FP",
      "resumen": "Representa a Santo Domingo en la Cámara de Diputados.",
-     "registro": "No disponible todavía"
+     "registro": "No disponible todavía",
+     "comisiones": [
+      "00674-2025-PLO-SE Comisión bicameral designada para estudiar el proyecto de ley general de salud.",
+      "Asuntos Migratorios",
+      "Medios de Comunicación",
+      "Relaciones Exteriores y Cooperación Internacional",
+      "Turismo"
+     ],
+     "iniciativas_propuestas": 59,
+     "asistencia": {
+      "presentes": 154,
+      "total": 166,
+      "periodo": "agosto 2024 a junio 2026",
+      "fuente": "registro oficial de asistencia al Pleno de la Cámara de Diputados (SIL Ciudadano, diputadosrd.gob.do)"
+     }
     },
     {
      "cargo": "Gobernador/a",
@@ -2599,21 +5115,65 @@
      "nombre": "José Altagracia Valenzuela Arias",
      "partido": "PRM",
      "resumen": "Representa a Valverde en la Cámara de Diputados.",
-     "registro": "No disponible todavía"
+     "registro": "No disponible todavía",
+     "comisiones": [
+      "03313-2024-2028-CD Comisión especial PR investigación abandono La Cruz de Manzanillo.",
+      "Asuntos Fronterizos",
+      "Interior y Policía",
+      "Medios de Comunicación",
+      "Ministerio Público"
+     ],
+     "iniciativas_propuestas": 29,
+     "asistencia": {
+      "presentes": 157,
+      "total": 166,
+      "periodo": "agosto 2024 a junio 2026",
+      "fuente": "registro oficial de asistencia al Pleno de la Cámara de Diputados (SIL Ciudadano, diputadosrd.gob.do)"
+     }
     },
     {
      "cargo": "Diputado/a",
      "nombre": "María de los Ángeles Rodríguez Bonseñor",
      "partido": "PRM",
      "resumen": "Representa a Valverde en la Cámara de Diputados.",
-     "registro": "No disponible todavía"
+     "registro": "No disponible todavía",
+     "comisiones": [
+      "05137-2024-2028-CD y 05138-2024-2028-CD Comisión Especial designada para el estudio de los proyectos de ley para la superación y reinserción de los adolescentes.",
+      "Deportes y Recreación",
+      "Economía, Planificación y Desarrollo",
+      "Educación",
+      "Mipymes",
+      "Vivienda, Hábitat y Edificaciones"
+     ],
+     "iniciativas_propuestas": 53,
+     "asistencia": {
+      "presentes": 161,
+      "total": 166,
+      "periodo": "agosto 2024 a junio 2026",
+      "fuente": "registro oficial de asistencia al Pleno de la Cámara de Diputados (SIL Ciudadano, diputadosrd.gob.do)"
+     }
     },
     {
      "cargo": "Diputado/a",
      "nombre": "Rubén Darío Peñaló Torres",
      "partido": "PRM",
      "resumen": "Representa a Valverde en la Cámara de Diputados.",
-     "registro": "No disponible todavía"
+     "registro": "No disponible todavía",
+     "comisiones": [
+      "03313-2024-2028-CD Comisión especial PR investigación abandono La Cruz de Manzanillo.",
+      "Agricultura",
+      "Asuntos Fronterizos",
+      "Justicia",
+      "Ministerio Público",
+      "Modernización y Reforma"
+     ],
+     "iniciativas_propuestas": 21,
+     "asistencia": {
+      "presentes": 166,
+      "total": 166,
+      "periodo": "agosto 2024 a junio 2026",
+      "fuente": "registro oficial de asistencia al Pleno de la Cámara de Diputados (SIL Ciudadano, diputadosrd.gob.do)"
+     }
     },
     {
      "cargo": "Gobernador/a",

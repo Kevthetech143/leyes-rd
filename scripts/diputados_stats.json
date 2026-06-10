@@ -1,0 +1,4645 @@
+{
+ "_generated": "2026-06-10T11:22:42.025Z",
+ "_unmatched": [],
+ "diputados": {
+  "Alfredo Pacheco Osoria": {
+   "provincia": "Distrito Nacional",
+   "legisladorId": 3435,
+   "sil_nombre": "Alfredo Pacheco Osoria",
+   "sil_provincia": "Distrito Nacional",
+   "match_score": 1,
+   "comisiones": [
+    "Administración Interior",
+    "Comisión Coordinadora 2025-2026"
+   ],
+   "iniciativas_cd": 23,
+   "iniciativas_total_sil": 23,
+   "asistencia": {
+    "presentes": 161,
+    "total": 166,
+    "breakdown": {
+     "Presente": 151,
+     "Presente Incorporado": 10,
+     "Excusa": 5
+    }
+   }
+  },
+  "Carlos Sánchez Quezada": {
+   "provincia": "Distrito Nacional",
+   "legisladorId": 3486,
+   "sil_nombre": "Carlos Sánchez Quezada",
+   "sil_provincia": "Distrito Nacional",
+   "match_score": 1,
+   "comisiones": [
+    "00674-2025-PLO-SE Comisión bicameral designada para estudiar el proyecto de ley general de salud.",
+    "04691-2024-2028-CD proyecto de resolución de interpelación al señor Celso Marranzini",
+    "05218-2024-2028-CD Comisión especial designada para estudiar el proyecto de ley de amnistía para el registro de armas de fuego.",
+    "Administración Pública",
+    "Defensa",
+    "Interior y Policía",
+    "Medios de Comunicación",
+    "Ministerio Público"
+   ],
+   "iniciativas_cd": 30,
+   "iniciativas_total_sil": 30,
+   "asistencia": {
+    "presentes": 151,
+    "total": 166,
+    "breakdown": {
+     "Presente": 147,
+     "Presente Incorporado": 4,
+     "Excusa": 15
+    }
+   }
+  },
+  "Charles Noel Mariotti Paz": {
+   "provincia": "Distrito Nacional",
+   "legisladorId": 3614,
+   "sil_nombre": "Charles Noel Mariotti Paz",
+   "sil_provincia": "Distrito Nacional",
+   "match_score": 1,
+   "comisiones": [
+    "03800-2024-2028-CD Comisión bicameral para el estudio de los proyectos de ley de Seguridad Social.",
+    "05218-2024-2028-CD Comisión especial designada para estudiar el proyecto de ley de amnistía para el registro de armas de fuego.",
+    "05368-2024-2028-CD Comisión especial designada para estudiar el Proyecto de ley que modifica la Ley núm.5-13 sobre Discapacidad en la República Dominicana.",
+    "Industria y Comercio",
+    "Juventud",
+    "Medios de Comunicación",
+    "Seguridad Social"
+   ],
+   "iniciativas_cd": 38,
+   "iniciativas_total_sil": 38,
+   "asistencia": {
+    "presentes": 158,
+    "total": 166,
+    "breakdown": {
+     "Presente": 147,
+     "Presente Incorporado": 11,
+     "Excusa": 7,
+     "Ausente": 1
+    }
+   }
+  },
+  "Chavely Melina Sánchez Taveras": {
+   "provincia": "Distrito Nacional",
+   "legisladorId": 3660,
+   "sil_nombre": "Chavely Melina Sánchez Taveras",
+   "sil_provincia": "Distrito Nacional",
+   "match_score": 1,
+   "comisiones": [
+    "05137-2024-2028-CD y 05138-2024-2028-CD Comisión Especial designada para el estudio de los proyectos de ley para la superación y reinserción de los adolescentes.",
+    "Cultura",
+    "Juventud",
+    "Medios de Comunicación",
+    "Relaciones Exteriores y Cooperación Internacional"
+   ],
+   "iniciativas_cd": 41,
+   "iniciativas_total_sil": 41,
+   "asistencia": {
+    "presentes": 146,
+    "total": 166,
+    "breakdown": {
+     "Presente": 139,
+     "Presente Incorporado": 7,
+     "Excusa": 7,
+     "Licencia": 12,
+     "Ausente": 1
+    }
+   }
+  },
+  "Eliazer Matos Féliz": {
+   "provincia": "Distrito Nacional",
+   "legisladorId": 3548,
+   "sil_nombre": "Eliazer Matos Féliz",
+   "sil_provincia": "Distrito Nacional",
+   "match_score": 1,
+   "comisiones": [
+    "Asuntos Municipales",
+    "Movilidad y Transporte",
+    "Trabajo"
+   ],
+   "iniciativas_cd": 28,
+   "iniciativas_total_sil": 28,
+   "asistencia": {
+    "presentes": 145,
+    "total": 166,
+    "breakdown": {
+     "Presente": 103,
+     "Presente Incorporado": 42,
+     "Excusa": 19,
+     "Ausente": 1,
+     "Representación de la Cámara": 1
+    }
+   }
+  },
+  "Fanny Selinés Méndez Simonó": {
+   "provincia": "Distrito Nacional",
+   "legisladorId": 3665,
+   "sil_nombre": "Fanny Selinés Méndez Simonó",
+   "sil_provincia": "Distrito Nacional",
+   "match_score": 1,
+   "comisiones": [
+    "05137-2024-2028-CD y 05138-2024-2028-CD Comisión Especial designada para el estudio de los proyectos de ley para la superación y reinserción de los adolescentes.",
+    "Dominicanos en el Exterior",
+    "Medios de Comunicación",
+    "Modernización y Reforma",
+    "Turismo"
+   ],
+   "iniciativas_cd": 58,
+   "iniciativas_total_sil": 58,
+   "asistencia": {
+    "presentes": 151,
+    "total": 166,
+    "breakdown": {
+     "Presente": 132,
+     "Presente Incorporado": 19,
+     "Excusa": 11,
+     "Ausente": 4
+    }
+   }
+  },
+  "Francisca Trinidad Jaque Aponte": {
+   "provincia": "Distrito Nacional",
+   "legisladorId": 3691,
+   "sil_nombre": "Francisca Trinidad Jaque Aponte",
+   "sil_provincia": "Distrito Nacional",
+   "match_score": 1,
+   "comisiones": [
+    "03800-2024-2028-CD Comisión bicameral para el estudio de los proyectos de ley de Seguridad Social.",
+    "05274-2024-2028-CD Comisión Especial designada para el estudio del proyecto de ley que modifica los límites territoriales de Bonao, Juma-Bejucal y La Salvia-Los Quemados, provincia Monseñor Nouel.",
+    "05405-2024-2028-CD Comisión especial designada para el estudio del Proyecto de ley de los cuerpos de bomberos de la República Dominicana.",
+    "Asuntos Municipales",
+    "Educación Superior, Ciencia y Tecnología",
+    "Junta Central Electoral",
+    "Seguridad Social",
+    "Trabajo"
+   ],
+   "iniciativas_cd": 41,
+   "iniciativas_total_sil": 41,
+   "asistencia": {
+    "presentes": 153,
+    "total": 166,
+    "breakdown": {
+     "Presente": 153,
+     "Excusa": 13
+    }
+   }
+  },
+  "Gustavo Antonio Sánchez García": {
+   "provincia": "Distrito Nacional",
+   "legisladorId": 1611,
+   "sil_nombre": "Gustavo Antonio Sánchez García",
+   "sil_provincia": "Distrito Nacional",
+   "match_score": 1,
+   "comisiones": [
+    "Administración Interior",
+    "Comisión Coordinadora 2025-2026",
+    "Modernización y Reforma"
+   ],
+   "iniciativas_cd": 23,
+   "iniciativas_total_sil": 23,
+   "asistencia": {
+    "presentes": 152,
+    "total": 166,
+    "breakdown": {
+     "Presente": 140,
+     "Presente Incorporado": 12,
+     "Excusa": 11,
+     "Ausente": 3
+    }
+   }
+  },
+  "José Manuel Caraballo Gómez": {
+   "provincia": "Distrito Nacional",
+   "legisladorId": 3644,
+   "sil_nombre": "José Manuel Caraballo Gómez",
+   "sil_provincia": "Distrito Nacional",
+   "match_score": 1,
+   "comisiones": [
+    "00674-2025-PLO-SE Comisión bicameral designada para estudiar el proyecto de ley general de salud.",
+    "05137-2024-2028-CD y 05138-2024-2028-CD Comisión Especial designada para el estudio de los proyectos de ley para la superación y reinserción de los adolescentes.",
+    "Desarrollo Humano",
+    "Inteligencia Artificial",
+    "Presupuesto, Patrimonio y Contabilidad",
+    "Tecnología de la Información y Comunicación"
+   ],
+   "iniciativas_cd": 25,
+   "iniciativas_total_sil": 25,
+   "asistencia": {
+    "presentes": 153,
+    "total": 166,
+    "breakdown": {
+     "Presente": 152,
+     "Excusa": 13,
+     "Presente Incorporado": 1
+    }
+   }
+  },
+  "Liz Adriana Mieses Díaz": {
+   "provincia": "Distrito Nacional",
+   "legisladorId": 3646,
+   "sil_nombre": "Liz Adriana Mieses Díaz",
+   "sil_provincia": "Distrito Nacional",
+   "match_score": 1,
+   "comisiones": [
+    "Cámara de Cuentas",
+    "Deportes y Recreación",
+    "Desarrollo Humano",
+    "Medio Ambiente y Recursos Naturales",
+    "Relaciones Exteriores y Cooperación Internacional"
+   ],
+   "iniciativas_cd": 34,
+   "iniciativas_total_sil": 34,
+   "asistencia": {
+    "presentes": 149,
+    "total": 166,
+    "breakdown": {
+     "Presente": 147,
+     "Excusa": 12,
+     "Ausente": 5,
+     "Presente Incorporado": 2
+    }
+   }
+  },
+  "Manuel de Jesús Núñez Guerrero": {
+   "provincia": "Distrito Nacional",
+   "legisladorId": 3648,
+   "sil_nombre": "Manuel de Jesús Núñez Guerrero",
+   "sil_provincia": "Distrito Nacional",
+   "match_score": 1,
+   "comisiones": [
+    "Asuntos Municipales",
+    "Comisión bicameral designada para estudiar los Actos del Poder Ejecutivo",
+    "Contratos",
+    "Desarrollo Humano",
+    "Interior y Policía",
+    "Junta Central Electoral",
+    "Presidencia de la República",
+    "Tecnología de la Información y Comunicación"
+   ],
+   "iniciativas_cd": 26,
+   "iniciativas_total_sil": 26,
+   "asistencia": {
+    "presentes": 153,
+    "total": 166,
+    "breakdown": {
+     "Presente": 146,
+     "Presente Incorporado": 7,
+     "Excusa": 12,
+     "Ausente": 1
+    }
+   }
+  },
+  "Maribel Altagracia Almánzar de Ogando": {
+   "provincia": "Distrito Nacional",
+   "legisladorId": 3631,
+   "sil_nombre": "Maribel Altagracia Almánzar de Ogando",
+   "sil_provincia": "Distrito Nacional",
+   "match_score": 1,
+   "comisiones": [
+    "04711-2024-2028-CD Comisión especial que estudia el proyecto de ley que regula la libertad religiosa de conciencia y de cultos",
+    "05368-2024-2028-CD Comisión especial designada para estudiar el Proyecto de ley que modifica la Ley núm.5-13 sobre Discapacidad en la República Dominicana.",
+    "Asuntos de Equidad de Género",
+    "Comisión bicameral designada para estudiar los Actos del Poder Ejecutivo",
+    "Cultura",
+    "Derechos Humanos",
+    "Educación Superior, Ciencia y Tecnología",
+    "Familia"
+   ],
+   "iniciativas_cd": 43,
+   "iniciativas_total_sil": 43,
+   "asistencia": {
+    "presentes": 161,
+    "total": 166,
+    "breakdown": {
+     "Presente": 159,
+     "Presente Incorporado": 2,
+     "Excusa": 5
+    }
+   }
+  },
+  "Rafael Aníbal Díaz Rodríguez": {
+   "provincia": "Distrito Nacional",
+   "legisladorId": 3538,
+   "sil_nombre": "Rafael Aníbal Díaz Rodríguez",
+   "sil_provincia": "Distrito Nacional",
+   "match_score": 1,
+   "comisiones": [
+    "Medios de Comunicación",
+    "Turismo",
+    "Ética"
+   ],
+   "iniciativas_cd": 35,
+   "iniciativas_total_sil": 35,
+   "asistencia": {
+    "presentes": 154,
+    "total": 166,
+    "breakdown": {
+     "Presente": 111,
+     "Presente Incorporado": 43,
+     "Excusa": 7,
+     "Ausente": 5
+    }
+   }
+  },
+  "Rafael Tobías Crespo Pérez": {
+   "provincia": "Distrito Nacional",
+   "legisladorId": 2784,
+   "sil_nombre": "Rafael Tobías Crespo Pérez",
+   "sil_provincia": "Distrito Nacional",
+   "match_score": 1,
+   "comisiones": [
+    "Comisión bicameral designada para estudiar los Actos del Poder Ejecutivo",
+    "Contratos",
+    "Movilidad y Transporte",
+    "Tecnología de la Información y Comunicación"
+   ],
+   "iniciativas_cd": 63,
+   "iniciativas_total_sil": 63,
+   "asistencia": {
+    "presentes": 154,
+    "total": 166,
+    "breakdown": {
+     "Presente": 126,
+     "Excusa": 10,
+     "Presente Incorporado": 28,
+     "Ausente": 2
+    }
+   }
+  },
+  "Ramón Antonio Bueno Patiño": {
+   "provincia": "Distrito Nacional",
+   "legisladorId": 1509,
+   "sil_nombre": "Ramón Antonio Bueno Patiño",
+   "sil_provincia": "Distrito Nacional",
+   "match_score": 1,
+   "comisiones": [
+    "00674-2025-PLO-SE Comisión bicameral designada para estudiar el proyecto de ley general de salud.",
+    "04691-2024-2028-CD proyecto de resolución de interpelación al señor Celso Marranzini",
+    "05199-2024-2028-CD Comisión Especial designada para el estudio del proyecto de ley que autoriza el pago de deuda por obras ejecutadas sin contrato formal.",
+    "05650-2024-2028-CD Comisión Especial proyecto de ley que modifica el artículo 13 de la Ley núm. 118-21, del 31 de mayo de 2021, sobre terminación de obras viales, escuelas, hospitales y presas que se encuentran suspendidas.",
+    "Defensa",
+    "Defensor del Pueblo",
+    "Interior y Policía",
+    "Modernización y Reforma",
+    "Salud"
+   ],
+   "iniciativas_cd": 27,
+   "iniciativas_total_sil": 27,
+   "asistencia": {
+    "presentes": 154,
+    "total": 166,
+    "breakdown": {
+     "Presente": 150,
+     "Presente Incorporado": 4,
+     "Excusa": 12
+    }
+   }
+  },
+  "Sergio Moya de la Cruz": {
+   "provincia": "Distrito Nacional",
+   "legisladorId": 3430,
+   "sil_nombre": "Sergio Moya de la Cruz",
+   "sil_provincia": "Distrito Nacional",
+   "match_score": 1,
+   "comisiones": [
+    "Hacienda",
+    "Industria y Comercio",
+    "Modernización y Reforma"
+   ],
+   "iniciativas_cd": 10,
+   "iniciativas_total_sil": 10,
+   "asistencia": {
+    "presentes": 127,
+    "total": 166,
+    "breakdown": {
+     "Ausente": 12,
+     "Presente": 104,
+     "Presente Incorporado": 23,
+     "Excusa": 27
+    }
+   }
+  },
+  "Vicente Arturo Sánchez Henríquez": {
+   "provincia": "Distrito Nacional",
+   "legisladorId": 3652,
+   "sil_nombre": "Vicente Arturo Sánchez Henríquez",
+   "sil_provincia": "Distrito Nacional",
+   "match_score": 1,
+   "comisiones": [
+    "05218-2024-2028-CD Comisión especial designada para estudiar el proyecto de ley de amnistía para el registro de armas de fuego.",
+    "Inteligencia Artificial",
+    "Juventud",
+    "Relaciones Exteriores y Cooperación Internacional",
+    "Tecnología de la Información y Comunicación"
+   ],
+   "iniciativas_cd": 36,
+   "iniciativas_total_sil": 36,
+   "asistencia": {
+    "presentes": 149,
+    "total": 166,
+    "breakdown": {
+     "Presente": 131,
+     "Presente Incorporado": 18,
+     "Excusa": 10,
+     "Ausente": 7
+    }
+   }
+  },
+  "Yuderka Yvelisse de la Rosa Guerrero": {
+   "provincia": "Distrito Nacional",
+   "legisladorId": 1528,
+   "sil_nombre": "Yuderka Yvelisse de la Rosa Guerrero",
+   "sil_provincia": "Distrito Nacional",
+   "match_score": 1,
+   "comisiones": [
+    "05199-2024-2028-CD Comisión Especial designada para el estudio del proyecto de ley que autoriza el pago de deuda por obras ejecutadas sin contrato formal.",
+    "05368-2024-2028-CD Comisión especial designada para estudiar el Proyecto de ley que modifica la Ley núm.5-13 sobre Discapacidad en la República Dominicana.",
+    "Cámara de Cuentas",
+    "Economía, Planificación y Desarrollo",
+    "Familia",
+    "Presidencia de la República",
+    "Ética"
+   ],
+   "iniciativas_cd": 34,
+   "iniciativas_total_sil": 34,
+   "asistencia": {
+    "presentes": 152,
+    "total": 166,
+    "breakdown": {
+     "Presente": 113,
+     "Presente Incorporado": 39,
+     "Excusa": 11,
+     "Ausente": 3
+    }
+   }
+  },
+  "Ángela Maruja Gregorina Pérez Díaz": {
+   "provincia": "Azua",
+   "legisladorId": 3700,
+   "sil_nombre": "Ángela Maruja Gregorina Pérez Díaz",
+   "sil_provincia": "Azua",
+   "match_score": 1,
+   "comisiones": [
+    "05405-2024-2028-CD Comisión especial designada para el estudio del Proyecto de ley de los cuerpos de bomberos de la República Dominicana.",
+    "Administración de Deuda Pública y Activos Financieros",
+    "Cultura",
+    "Medios de Comunicación",
+    "Presupuesto, Patrimonio y Contabilidad",
+    "Reconocimientos"
+   ],
+   "iniciativas_cd": 64,
+   "iniciativas_total_sil": 64,
+   "asistencia": {
+    "presentes": 153,
+    "total": 166,
+    "breakdown": {
+     "Presente": 147,
+     "Presente Incorporado": 6,
+     "Excusa": 13
+    }
+   }
+  },
+  "Brenda Mercedes Ogando Campos": {
+   "provincia": "Azua",
+   "legisladorId": 3512,
+   "sil_nombre": "Brenda Mercedes Ogando Campos",
+   "sil_provincia": "Azua",
+   "match_score": 1,
+   "comisiones": [
+    "05218-2024-2028-CD Comisión especial designada para estudiar el proyecto de ley de amnistía para el registro de armas de fuego.",
+    "Asuntos de Equidad de Género",
+    "Defensor del Pueblo",
+    "Educación Superior, Ciencia y Tecnología",
+    "Juventud",
+    "Movilidad y Transporte"
+   ],
+   "iniciativas_cd": 60,
+   "iniciativas_total_sil": 60,
+   "asistencia": {
+    "presentes": 147,
+    "total": 166,
+    "breakdown": {
+     "Presente": 146,
+     "Excusa": 18,
+     "Representación de la Cámara": 1,
+     "Presente Incorporado": 1
+    }
+   }
+  },
+  "Julio César Beltré Méndez": {
+   "provincia": "Azua",
+   "legisladorId": 3699,
+   "sil_nombre": "Julio César Beltré Méndez",
+   "sil_provincia": "Azua",
+   "match_score": 1,
+   "comisiones": [
+    "04711-2024-2028-CD Comisión especial que estudia el proyecto de ley que regula la libertad religiosa de conciencia y de cultos",
+    "Administración Pública",
+    "Administración de Deuda Pública y Activos Financieros",
+    "Contratos",
+    "Dominicanos en el Exterior",
+    "Reconocimientos"
+   ],
+   "iniciativas_cd": 62,
+   "iniciativas_total_sil": 62,
+   "asistencia": {
+    "presentes": 148,
+    "total": 166,
+    "breakdown": {
+     "Presente": 144,
+     "Excusa": 10,
+     "Presente Incorporado": 4,
+     "Ausente": 4,
+     "Licencia": 4
+    }
+   }
+  },
+  "Nurca Nieves Luciano Jiménez de Galván": {
+   "provincia": "Azua",
+   "legisladorId": 3635,
+   "sil_nombre": "Nurca Nieves Luciano Jiménez de Galván",
+   "sil_provincia": "Azua",
+   "match_score": 1,
+   "comisiones": [
+    "05274-2024-2028-CD Comisión Especial designada para el estudio del proyecto de ley que modifica los límites territoriales de Bonao, Juma-Bejucal y La Salvia-Los Quemados, provincia Monseñor Nouel.",
+    "Defensor del Pueblo",
+    "Educación Superior, Ciencia y Tecnología",
+    "Energía",
+    "Vivienda, Hábitat y Edificaciones"
+   ],
+   "iniciativas_cd": 51,
+   "iniciativas_total_sil": 51,
+   "asistencia": {
+    "presentes": 161,
+    "total": 166,
+    "breakdown": {
+     "Presente": 152,
+     "Excusa": 4,
+     "Presente Incorporado": 9,
+     "Ausente": 1
+    }
+   }
+  },
+  "Juan Bolívar Cuevas Davis": {
+   "provincia": "Bahoruco",
+   "legisladorId": 3674,
+   "sil_nombre": "Juan Bolívar Cuevas Davis",
+   "sil_provincia": "Bahoruco",
+   "match_score": 1,
+   "comisiones": [
+    "03800-2024-2028-CD Comisión bicameral para el estudio de los proyectos de ley de Seguridad Social.",
+    "05368-2024-2028-CD Comisión especial designada para estudiar el Proyecto de ley que modifica la Ley núm.5-13 sobre Discapacidad en la República Dominicana.",
+    "Asuntos Cooperativos",
+    "Asuntos Fronterizos",
+    "Defensor del Pueblo",
+    "Salud",
+    "Seguridad Social"
+   ],
+   "iniciativas_cd": 66,
+   "iniciativas_total_sil": 66,
+   "asistencia": {
+    "presentes": 161,
+    "total": 166,
+    "breakdown": {
+     "Presente": 160,
+     "Excusa": 3,
+     "Ausente": 2,
+     "Presente Incorporado": 1
+    }
+   }
+  },
+  "Olfanny Yuverka Méndez Matos": {
+   "provincia": "Bahoruco",
+   "legisladorId": 3535,
+   "sil_nombre": "Olfanny Yuverka Méndez Matos",
+   "sil_provincia": "Bahoruco",
+   "match_score": 1,
+   "comisiones": [
+    "03800-2024-2028-CD Comisión bicameral para el estudio de los proyectos de ley de Seguridad Social.",
+    "Defensa",
+    "Deportes y Recreación",
+    "Desarrollo Humano",
+    "Juventud",
+    "Seguridad Social"
+   ],
+   "iniciativas_cd": 53,
+   "iniciativas_total_sil": 53,
+   "asistencia": {
+    "presentes": 136,
+    "total": 166,
+    "breakdown": {
+     "Presente": 115,
+     "Presente Incorporado": 21,
+     "Excusa": 30
+    }
+   }
+  },
+  "Aquiles Leonel Ledesma Alcántara": {
+   "provincia": "Barahona",
+   "legisladorId": 1432,
+   "sil_nombre": "Aquiles Leonel Ledesma Alcántara",
+   "sil_provincia": "Barahona",
+   "match_score": 1,
+   "comisiones": [
+    "00674-2025-PLO-SE Comisión bicameral designada para estudiar el proyecto de ley general de salud.",
+    "Administración de Deuda Pública y Activos Financieros",
+    "Asuntos Migratorios",
+    "Reconocimientos"
+   ],
+   "iniciativas_cd": 9,
+   "iniciativas_total_sil": 9,
+   "asistencia": {
+    "presentes": 132,
+    "total": 166,
+    "breakdown": {
+     "Ausente": 4,
+     "Excusa": 30,
+     "Presente": 125,
+     "Presente Incorporado": 7
+    }
+   }
+  },
+  "José del Carmen Montero Arias": {
+   "provincia": "Barahona",
+   "legisladorId": 3626,
+   "sil_nombre": "José del Carmen Montero Arias",
+   "sil_provincia": "Barahona",
+   "match_score": 1,
+   "comisiones": [
+    "05274-2024-2028-CD Comisión Especial designada para el estudio del proyecto de ley que modifica los límites territoriales de Bonao, Juma-Bejucal y La Salvia-Los Quemados, provincia Monseñor Nouel.",
+    "05405-2024-2028-CD Comisión especial designada para el estudio del Proyecto de ley de los cuerpos de bomberos de la República Dominicana.",
+    "Asuntos Mineros",
+    "Comisión bicameral designada para estudiar los Actos del Poder Ejecutivo",
+    "Obras Públicas y Comunicaciones",
+    "Presidencia de la República",
+    "Recursos Hídricos"
+   ],
+   "iniciativas_cd": 35,
+   "iniciativas_total_sil": 35,
+   "asistencia": {
+    "presentes": 158,
+    "total": 166,
+    "breakdown": {
+     "Presente": 149,
+     "Excusa": 7,
+     "Presente Incorporado": 9,
+     "Ausente": 1
+    }
+   }
+  },
+  "Sara Penélope Féliz Díaz": {
+   "provincia": "Barahona",
+   "legisladorId": 3650,
+   "sil_nombre": "Sara Penélope Féliz Díaz",
+   "sil_provincia": "Barahona",
+   "match_score": 1,
+   "comisiones": [
+    "Administración Pública",
+    "Ciberseguridad",
+    "Industria y Comercio",
+    "Mipymes",
+    "Turismo"
+   ],
+   "iniciativas_cd": 50,
+   "iniciativas_total_sil": 50,
+   "asistencia": {
+    "presentes": 146,
+    "total": 166,
+    "breakdown": {
+     "Presente": 139,
+     "Presente Incorporado": 7,
+     "Excusa": 15,
+     "Ausente": 5
+    }
+   }
+  },
+  "Adelso de Jesús Ruben Contreras": {
+   "provincia": "Dajabón",
+   "legisladorId": 3654,
+   "sil_nombre": "Adelso de Jesús Ruben Contreras",
+   "sil_provincia": "Dajabón",
+   "match_score": 1,
+   "comisiones": [
+    "03313-2024-2028-CD Comisión especial PR investigación abandono La Cruz de Manzanillo.",
+    "Agricultura",
+    "Asuntos Fronterizos",
+    "Ciberseguridad",
+    "Educación Superior, Ciencia y Tecnología",
+    "Recursos Hídricos"
+   ],
+   "iniciativas_cd": 42,
+   "iniciativas_total_sil": 42,
+   "asistencia": {
+    "presentes": 142,
+    "total": 166,
+    "breakdown": {
+     "Presente": 126,
+     "Presente Incorporado": 16,
+     "Excusa": 21,
+     "Ausente": 3
+    }
+   }
+  },
+  "Daritza Felicidad Zapata Díaz": {
+   "provincia": "Dajabón",
+   "legisladorId": 3617,
+   "sil_nombre": "Daritza Felicidad Zapata Díaz",
+   "sil_provincia": "Dajabón",
+   "match_score": 1,
+   "comisiones": [
+    "05199-2024-2028-CD Comisión Especial designada para el estudio del proyecto de ley que autoriza el pago de deuda por obras ejecutadas sin contrato formal.",
+    "05650-2024-2028-CD Comisión Especial proyecto de ley que modifica el artículo 13 de la Ley núm. 118-21, del 31 de mayo de 2021, sobre terminación de obras viales, escuelas, hospitales y presas que se encuentran suspendidas.",
+    "Asuntos Fronterizos",
+    "Asuntos Migratorios",
+    "Industria y Comercio",
+    "Juventud",
+    "Obras Públicas y Comunicaciones"
+   ],
+   "iniciativas_cd": 38,
+   "iniciativas_total_sil": 38,
+   "asistencia": {
+    "presentes": 126,
+    "total": 166,
+    "breakdown": {
+     "Presente Incorporado": 25,
+     "Excusa": 15,
+     "Presente": 101,
+     "Ausente": 4,
+     "Licencia": 21
+    }
+   }
+  },
+  "Dorina Yajaira Rodríguez Salazar": {
+   "provincia": "Duarte",
+   "legisladorId": 3605,
+   "sil_nombre": "Dorina Yajaira Rodríguez Salazar",
+   "sil_provincia": "Duarte",
+   "match_score": 1,
+   "comisiones": [
+    "03465-2024-2028-CD Comisión Especial para estudiar el proyecto de resolución que solicita investigar la construcción de un acueducto para Haina dentro de un polideportivo.",
+    "05405-2024-2028-CD Comisión especial designada para el estudio del Proyecto de ley de los cuerpos de bomberos de la República Dominicana.",
+    "Asuntos Cooperativos",
+    "Asuntos Mineros",
+    "Ciberseguridad",
+    "Defensor del Pueblo",
+    "Desarrollo Humano",
+    "Hacienda"
+   ],
+   "iniciativas_cd": 37,
+   "iniciativas_total_sil": 37,
+   "asistencia": {
+    "presentes": 161,
+    "total": 166,
+    "breakdown": {
+     "Presente": 148,
+     "Presente Incorporado": 13,
+     "Excusa": 4,
+     "Ausente": 1
+    }
+   }
+  },
+  "Jeovanny Ventura Rivera": {
+   "provincia": "Duarte",
+   "legisladorId": 3670,
+   "sil_nombre": "Jeovanny Ventura Rivera",
+   "sil_provincia": "Duarte",
+   "match_score": 1,
+   "comisiones": [
+    "03313-2024-2028-CD Comisión especial PR investigación abandono La Cruz de Manzanillo.",
+    "Asuntos Migratorios",
+    "Asuntos Municipales",
+    "Asuntos de Equidad de Género",
+    "Dominicanos en el Exterior"
+   ],
+   "iniciativas_cd": 51,
+   "iniciativas_total_sil": 51,
+   "asistencia": {
+    "presentes": 159,
+    "total": 166,
+    "breakdown": {
+     "Presente": 157,
+     "Presente Incorporado": 2,
+     "Excusa": 7
+    }
+   }
+  },
+  "José Luis Rodríguez Hiciano": {
+   "provincia": "Duarte",
+   "legisladorId": 3386,
+   "sil_nombre": "José Luis Rodríguez Hiciano",
+   "sil_provincia": "Duarte",
+   "match_score": 1,
+   "comisiones": [
+    "Defensor del Pueblo",
+    "Economía, Planificación y Desarrollo"
+   ],
+   "iniciativas_cd": 30,
+   "iniciativas_total_sil": 30,
+   "asistencia": {
+    "presentes": 157,
+    "total": 166,
+    "breakdown": {
+     "Presente": 127,
+     "Presente Incorporado": 30,
+     "Excusa": 5,
+     "Ausente": 4
+    }
+   }
+  },
+  "Luis Tomás Marte Santos": {
+   "provincia": "Duarte",
+   "legisladorId": 3647,
+   "sil_nombre": "Luis Tomás Marte Santos",
+   "sil_provincia": "Duarte",
+   "match_score": 1,
+   "comisiones": [
+    "Administración Pública",
+    "Asuntos Mineros",
+    "Inteligencia Artificial",
+    "Recursos Hídricos"
+   ],
+   "iniciativas_cd": 15,
+   "iniciativas_total_sil": 15,
+   "asistencia": {
+    "presentes": 161,
+    "total": 166,
+    "breakdown": {
+     "Presente": 158,
+     "Excusa": 2,
+     "Presente Incorporado": 3,
+     "Ausente": 3
+    }
+   }
+  },
+  "Nicolás Hidalgo Almánzar": {
+   "provincia": "Duarte",
+   "legisladorId": 3503,
+   "sil_nombre": "Nicolás Hidalgo Almánzar",
+   "sil_provincia": "Duarte",
+   "match_score": 1,
+   "comisiones": [
+    "05405-2024-2028-CD Comisión especial designada para el estudio del Proyecto de ley de los cuerpos de bomberos de la República Dominicana.",
+    "Asuntos Cooperativos",
+    "Educación Superior, Ciencia y Tecnología",
+    "Junta Central Electoral",
+    "Mipymes"
+   ],
+   "iniciativas_cd": 37,
+   "iniciativas_total_sil": 37,
+   "asistencia": {
+    "presentes": 150,
+    "total": 166,
+    "breakdown": {
+     "Presente": 148,
+     "Excusa": 14,
+     "Presente Incorporado": 2,
+     "Ausente": 2
+    }
+   }
+  },
+  "Faustina Guerrero Cabrera": {
+   "provincia": "El Seibo",
+   "legisladorId": 3490,
+   "sil_nombre": "Faustina Guerrero Cabrera",
+   "sil_provincia": "El Seibo",
+   "match_score": 1,
+   "comisiones": [
+    "03800-2024-2028-CD Comisión bicameral para el estudio de los proyectos de ley de Seguridad Social.",
+    "Asuntos Cooperativos",
+    "Asuntos Marítimos",
+    "Defensa",
+    "Obras Públicas y Comunicaciones",
+    "Seguridad Social"
+   ],
+   "iniciativas_cd": 43,
+   "iniciativas_total_sil": 43,
+   "asistencia": {
+    "presentes": 161,
+    "total": 166,
+    "breakdown": {
+     "Presente": 156,
+     "Presente Incorporado": 5,
+     "Excusa": 5
+    }
+   }
+  },
+  "Valerio Leonardo Palacio": {
+   "provincia": "El Seibo",
+   "legisladorId": 3651,
+   "sil_nombre": "Valerio Leonardo Palacio",
+   "sil_provincia": "El Seibo",
+   "match_score": 1,
+   "comisiones": [
+    "Cultura",
+    "Deportes y Recreación",
+    "Movilidad y Transporte",
+    "Tecnología de la Información y Comunicación"
+   ],
+   "iniciativas_cd": 47,
+   "iniciativas_total_sil": 47,
+   "asistencia": {
+    "presentes": 154,
+    "total": 166,
+    "breakdown": {
+     "Presente": 152,
+     "Excusa": 10,
+     "Ausente": 2,
+     "Presente Incorporado": 2
+    }
+   }
+  },
+  "Luis Enrique Castillo Ogando": {
+   "provincia": "Elías Piña",
+   "legisladorId": 2779,
+   "sil_nombre": "Luis Enrique Castillo Ogando",
+   "sil_provincia": "Elías Piña",
+   "match_score": 1,
+   "comisiones": [
+    "05218-2024-2028-CD Comisión especial designada para estudiar el proyecto de ley de amnistía para el registro de armas de fuego.",
+    "Asuntos Fronterizos",
+    "Asuntos Mineros",
+    "Obras Públicas y Comunicaciones",
+    "Recursos Hídricos",
+    "Ética"
+   ],
+   "iniciativas_cd": 38,
+   "iniciativas_total_sil": 38,
+   "asistencia": {
+    "presentes": 154,
+    "total": 166,
+    "breakdown": {
+     "Presente": 146,
+     "Presente Incorporado": 8,
+     "Excusa": 8,
+     "Ausente": 4
+    }
+   }
+  },
+  "Millys Johanna Martínez Morillo": {
+   "provincia": "Elías Piña",
+   "legisladorId": 3633,
+   "sil_nombre": "Millys Johanna Martínez Morillo",
+   "sil_provincia": "Elías Piña",
+   "match_score": 1,
+   "comisiones": [
+    "00674-2025-PLO-SE Comisión bicameral designada para estudiar el proyecto de ley general de salud.",
+    "Asuntos Fronterizos",
+    "Asuntos Migratorios",
+    "Asuntos de Equidad de Género",
+    "Salud",
+    "Vivienda, Hábitat y Edificaciones"
+   ],
+   "iniciativas_cd": 58,
+   "iniciativas_total_sil": 58,
+   "asistencia": {
+    "presentes": 159,
+    "total": 166,
+    "breakdown": {
+     "Presente": 157,
+     "Presente Incorporado": 2,
+     "Excusa": 7
+    }
+   }
+  },
+  "José Miguel Ferreiras Torres": {
+   "provincia": "Espaillat",
+   "legisladorId": 3526,
+   "sil_nombre": "José Miguel Ferreiras Torres",
+   "sil_provincia": "Espaillat",
+   "match_score": 1,
+   "comisiones": [
+    "05218-2024-2028-CD Comisión especial designada para estudiar el proyecto de ley de amnistía para el registro de armas de fuego.",
+    "Cámara de Cuentas",
+    "Economía, Planificación y Desarrollo",
+    "Industria y Comercio",
+    "Ministerio Público"
+   ],
+   "iniciativas_cd": 38,
+   "iniciativas_total_sil": 38,
+   "asistencia": {
+    "presentes": 160,
+    "total": 166,
+    "breakdown": {
+     "Presente": 155,
+     "Presente Incorporado": 5,
+     "Excusa": 6
+    }
+   }
+  },
+  "Marleni Altagracia Jiménez Muñoz": {
+   "provincia": "Espaillat",
+   "legisladorId": 3641,
+   "sil_nombre": "Marleni Altagracia Jiménez Muñoz",
+   "sil_provincia": "Espaillat",
+   "match_score": 1,
+   "comisiones": [
+    "Asuntos de Equidad de Género",
+    "Cultura",
+    "Desarrollo Humano",
+    "Energía",
+    "Familia"
+   ],
+   "iniciativas_cd": 39,
+   "iniciativas_total_sil": 39,
+   "asistencia": {
+    "presentes": 159,
+    "total": 166,
+    "breakdown": {
+     "Presente": 155,
+     "Presente Incorporado": 4,
+     "Excusa": 7
+    }
+   }
+  },
+  "Robinson Antonio Santos Rodríguez": {
+   "provincia": "Espaillat",
+   "legisladorId": 3639,
+   "sil_nombre": "Robinson Antonio Santos Rodríguez",
+   "sil_provincia": "Espaillat",
+   "match_score": 1,
+   "comisiones": [
+    "Agricultura",
+    "Derechos Humanos",
+    "Economía, Planificación y Desarrollo",
+    "Ética"
+   ],
+   "iniciativas_cd": 25,
+   "iniciativas_total_sil": 25,
+   "asistencia": {
+    "presentes": 126,
+    "total": 166,
+    "breakdown": {
+     "Presente Incorporado": 26,
+     "Excusa": 40,
+     "Presente": 100
+    }
+   }
+  },
+  "Shirley Antonia López Féliz": {
+   "provincia": "Espaillat",
+   "legisladorId": 3707,
+   "sil_nombre": "Shirley Antonia López Féliz",
+   "sil_provincia": "Espaillat",
+   "match_score": 1,
+   "comisiones": [
+    "03465-2024-2028-CD Comisión Especial para estudiar el proyecto de resolución que solicita investigar la construcción de un acueducto para Haina dentro de un polideportivo.",
+    "Administración Pública",
+    "Educación",
+    "Energía",
+    "Medio Ambiente y Recursos Naturales"
+   ],
+   "iniciativas_cd": 55,
+   "iniciativas_total_sil": 55,
+   "asistencia": {
+    "presentes": 158,
+    "total": 166,
+    "breakdown": {
+     "Presente": 157,
+     "Excusa": 8,
+     "Presente Incorporado": 1
+    }
+   }
+  },
+  "Carmen Ligia Barceló González": {
+   "provincia": "Hato Mayor",
+   "legisladorId": 3705,
+   "sil_nombre": "Carmen Ligia Barceló González",
+   "sil_provincia": "Hato Mayor",
+   "match_score": 1,
+   "comisiones": [
+    "00674-2025-PLO-SE Comisión bicameral designada para estudiar el proyecto de ley general de salud.",
+    "05405-2024-2028-CD Comisión especial designada para el estudio del Proyecto de ley de los cuerpos de bomberos de la República Dominicana.",
+    "Hacienda",
+    "Presidencia de la República",
+    "Trabajo",
+    "Turismo"
+   ],
+   "iniciativas_cd": 86,
+   "iniciativas_total_sil": 86,
+   "asistencia": {
+    "presentes": 151,
+    "total": 166,
+    "breakdown": {
+     "Excusa": 15,
+     "Presente": 146,
+     "Presente Incorporado": 5
+    }
+   }
+  },
+  "Héctor Fodil Rosa Mercedes": {
+   "provincia": "Hato Mayor",
+   "legisladorId": 3694,
+   "sil_nombre": "Héctor Fodil Rosa Mercedes",
+   "sil_provincia": "Hato Mayor",
+   "match_score": 1,
+   "comisiones": [
+    "Asuntos Marítimos",
+    "Desarrollo Humano",
+    "Medio Ambiente y Recursos Naturales",
+    "Presupuesto, Patrimonio y Contabilidad"
+   ],
+   "iniciativas_cd": 25,
+   "iniciativas_total_sil": 25,
+   "asistencia": {
+    "presentes": 164,
+    "total": 166,
+    "breakdown": {
+     "Presente": 164,
+     "Excusa": 2
+    }
+   }
+  },
+  "Félix Santiago Hiciano Almánzar": {
+   "provincia": "Hermanas Mirabal",
+   "legisladorId": 3520,
+   "sil_nombre": "Félix Santiago Hiciano Almánzar",
+   "sil_provincia": "Hermanas Mirabal",
+   "match_score": 1,
+   "comisiones": [
+    "Administración Interior",
+    "Cámara de Cuentas",
+    "Hacienda",
+    "Mipymes",
+    "Presidencia de la República"
+   ],
+   "iniciativas_cd": 113,
+   "iniciativas_total_sil": 113,
+   "asistencia": {
+    "presentes": 166,
+    "total": 166,
+    "breakdown": {
+     "Presente": 164,
+     "Presente Incorporado": 2
+    }
+   }
+  },
+  "Lourdes de Jesús Vélez": {
+   "provincia": "Hermanas Mirabal",
+   "legisladorId": 3676,
+   "sil_nombre": "Lourdes de Jesús Vélez",
+   "sil_provincia": "Hermanas Mirabal",
+   "match_score": 1,
+   "comisiones": [
+    "Administración Pública",
+    "Asuntos Cooperativos",
+    "Asuntos de Equidad de Género",
+    "Modernización y Reforma",
+    "Presupuesto, Patrimonio y Contabilidad"
+   ],
+   "iniciativas_cd": 43,
+   "iniciativas_total_sil": 43,
+   "asistencia": {
+    "presentes": 163,
+    "total": 166,
+    "breakdown": {
+     "Presente": 159,
+     "Presente Incorporado": 4,
+     "Excusa": 3
+    }
+   }
+  },
+  "Hermes Evangelina José Méndez de Méndez": {
+   "provincia": "Independencia",
+   "legisladorId": 3667,
+   "sil_nombre": "Hermes Evangelina José Méndez de Méndez",
+   "sil_provincia": "Independencia",
+   "match_score": 1,
+   "comisiones": [
+    "03465-2024-2028-CD Comisión Especial para estudiar el proyecto de resolución que solicita investigar la construcción de un acueducto para Haina dentro de un polideportivo.",
+    "Asuntos Fronterizos",
+    "Asuntos Marítimos",
+    "Asuntos Migratorios",
+    "Economía, Planificación y Desarrollo",
+    "Mipymes"
+   ],
+   "iniciativas_cd": 41,
+   "iniciativas_total_sil": 41,
+   "asistencia": {
+    "presentes": 158,
+    "total": 166,
+    "breakdown": {
+     "Presente": 156,
+     "Excusa": 7,
+     "Presente Incorporado": 2,
+     "Ausente": 1
+    }
+   }
+  },
+  "Llanelis Matos Cuevas": {
+   "provincia": "Independencia",
+   "legisladorId": 3470,
+   "sil_nombre": "Llanelis Matos Cuevas",
+   "sil_provincia": "Independencia",
+   "match_score": 1,
+   "comisiones": [
+    "Asuntos Fronterizos",
+    "Asuntos Marítimos",
+    "Asuntos Migratorios",
+    "Asuntos Municipales"
+   ],
+   "iniciativas_cd": 29,
+   "iniciativas_total_sil": 29,
+   "asistencia": {
+    "presentes": 153,
+    "total": 166,
+    "breakdown": {
+     "Presente": 138,
+     "Presente Incorporado": 15,
+     "Ausente": 9,
+     "Excusa": 4
+    }
+   }
+  },
+  "Ángel del Rosario Robles": {
+   "provincia": "La Altagracia",
+   "legisladorId": 3701,
+   "sil_nombre": "Ángel del Rosario Robles",
+   "sil_provincia": "La Altagracia",
+   "match_score": 1,
+   "comisiones": [
+    "04691-2024-2028-CD proyecto de resolución de interpelación al señor Celso Marranzini",
+    "05218-2024-2028-CD Comisión especial designada para estudiar el proyecto de ley de amnistía para el registro de armas de fuego.",
+    "Ciberseguridad",
+    "Junta Central Electoral",
+    "Ministerio Público",
+    "Obras Públicas y Comunicaciones",
+    "Trabajo"
+   ],
+   "iniciativas_cd": 40,
+   "iniciativas_total_sil": 40,
+   "asistencia": {
+    "presentes": 153,
+    "total": 166,
+    "breakdown": {
+     "Presente": 153,
+     "Excusa": 13
+    }
+   }
+  },
+  "Carmen Aurelia de la Rosa Pérez": {
+   "provincia": "La Altagracia",
+   "legisladorId": 3656,
+   "sil_nombre": "Carmen Aurelia de la Rosa Pérez",
+   "sil_provincia": "La Altagracia",
+   "match_score": 1,
+   "comisiones": [
+    "Asuntos Municipales",
+    "Ciberseguridad",
+    "Economía, Planificación y Desarrollo",
+    "Relaciones Exteriores y Cooperación Internacional",
+    "Turismo"
+   ],
+   "iniciativas_cd": 110,
+   "iniciativas_total_sil": 110,
+   "asistencia": {
+    "presentes": 158,
+    "total": 166,
+    "breakdown": {
+     "Presente": 156,
+     "Presente Incorporado": 2,
+     "Excusa": 6,
+     "Ausente": 2
+    }
+   }
+  },
+  "Francisco Rodolfo Villegas Pérez": {
+   "provincia": "La Altagracia",
+   "legisladorId": 3491,
+   "sil_nombre": "Francisco Rodolfo Villegas Pérez",
+   "sil_provincia": "La Altagracia",
+   "match_score": 1,
+   "comisiones": [
+    "Asuntos Marítimos",
+    "Asuntos Migratorios",
+    "Turismo"
+   ],
+   "iniciativas_cd": 33,
+   "iniciativas_total_sil": 33,
+   "asistencia": {
+    "presentes": 143,
+    "total": 166,
+    "breakdown": {
+     "Presente": 130,
+     "Ausente": 3,
+     "Presente Incorporado": 13,
+     "Excusa": 20
+    }
+   }
+  },
+  "Jorge Leonardo Tavárez Valdez": {
+   "provincia": "La Altagracia",
+   "legisladorId": 3623,
+   "sil_nombre": "Jorge Leonardo Tavárez Valdez",
+   "sil_provincia": "La Altagracia",
+   "match_score": 1,
+   "comisiones": [
+    "05650-2024-2028-CD Comisión Especial proyecto de ley que modifica el artículo 13 de la Ley núm. 118-21, del 31 de mayo de 2021, sobre terminación de obras viales, escuelas, hospitales y presas que se encuentran suspendidas.",
+    "Cultura",
+    "Deportes y Recreación",
+    "Industria y Comercio",
+    "Justicia",
+    "Turismo"
+   ],
+   "iniciativas_cd": 90,
+   "iniciativas_total_sil": 90,
+   "asistencia": {
+    "presentes": 154,
+    "total": 166,
+    "breakdown": {
+     "Presente": 150,
+     "Excusa": 11,
+     "Presente Incorporado": 4,
+     "Ausente": 1
+    }
+   }
+  },
+  "Onavel Andrés Aristy Cedeño": {
+   "provincia": "La Altagracia",
+   "legisladorId": 3636,
+   "sil_nombre": "Onavel Andrés Aristy Cedeño",
+   "sil_provincia": "La Altagracia",
+   "match_score": 1,
+   "comisiones": [
+    "05137-2024-2028-CD y 05138-2024-2028-CD Comisión Especial designada para el estudio de los proyectos de ley para la superación y reinserción de los adolescentes.",
+    "Comisión bicameral designada para estudiar los Actos del Poder Ejecutivo",
+    "Cultura",
+    "Deportes y Recreación",
+    "Juventud",
+    "Mipymes"
+   ],
+   "iniciativas_cd": 63,
+   "iniciativas_total_sil": 63,
+   "asistencia": {
+    "presentes": 161,
+    "total": 166,
+    "breakdown": {
+     "Presente": 160,
+     "Excusa": 5,
+     "Presente Incorporado": 1
+    }
+   }
+  },
+  "Carlos de Pérez Juan": {
+   "provincia": "La Romana",
+   "legisladorId": 3613,
+   "sil_nombre": "Carlos de Pérez Juan",
+   "sil_provincia": "La Romana",
+   "match_score": 1,
+   "comisiones": [
+    "03313-2024-2028-CD Comisión especial PR investigación abandono La Cruz de Manzanillo.",
+    "05405-2024-2028-CD Comisión especial designada para el estudio del Proyecto de ley de los cuerpos de bomberos de la República Dominicana.",
+    "Asuntos Municipales",
+    "Defensor del Pueblo",
+    "Derechos Humanos",
+    "Junta Central Electoral",
+    "Justicia"
+   ],
+   "iniciativas_cd": 49,
+   "iniciativas_total_sil": 49,
+   "asistencia": {
+    "presentes": 145,
+    "total": 166,
+    "breakdown": {
+     "Presente": 124,
+     "Presente Incorporado": 21,
+     "Excusa": 19,
+     "Representación de la Cámara": 1,
+     "Ausente": 1
+    }
+   }
+  },
+  "Eugenio Cedeño Areché": {
+   "provincia": "La Romana",
+   "legisladorId": 1454,
+   "sil_nombre": "Eugenio Cedeño Areché",
+   "sil_provincia": "La Romana",
+   "match_score": 1,
+   "comisiones": [
+    "Asuntos Marítimos",
+    "Justicia",
+    "Ministerio Público",
+    "Turismo"
+   ],
+   "iniciativas_cd": 41,
+   "iniciativas_total_sil": 41,
+   "asistencia": {
+    "presentes": 144,
+    "total": 166,
+    "breakdown": {
+     "Excusa": 17,
+     "Presente": 135,
+     "Presente Incorporado": 9,
+     "Ausente": 4,
+     "Representación de la Cámara": 1
+    }
+   }
+  },
+  "Jacqueline Fernández Brito": {
+   "provincia": "La Romana",
+   "legisladorId": 3669,
+   "sil_nombre": "Jacqueline Fernández Brito",
+   "sil_provincia": "La Romana",
+   "match_score": 1,
+   "comisiones": [
+    "Modernización y Reforma",
+    "Presidencia de la República",
+    "Turismo"
+   ],
+   "iniciativas_cd": 44,
+   "iniciativas_total_sil": 44,
+   "asistencia": {
+    "presentes": 157,
+    "total": 166,
+    "breakdown": {
+     "Presente": 152,
+     "Excusa": 7,
+     "Presente Incorporado": 5,
+     "Ausente": 2
+    }
+   }
+  },
+  "Wandy Modesto Batista Gómez": {
+   "provincia": "La Romana",
+   "legisladorId": 3363,
+   "sil_nombre": "Wandy Modesto Batista Gómez",
+   "sil_provincia": "La Romana",
+   "match_score": 1,
+   "comisiones": [
+    "Defensor del Pueblo",
+    "Justicia",
+    "Ministerio Público",
+    "Ética"
+   ],
+   "iniciativas_cd": 18,
+   "iniciativas_total_sil": 18,
+   "asistencia": {
+    "presentes": 139,
+    "total": 166,
+    "breakdown": {
+     "Excusa": 19,
+     "Presente": 117,
+     "Ausente": 7,
+     "Presente Incorporado": 22,
+     "Representación de la Cámara": 1
+    }
+   }
+  },
+  "Carolin Mercedes de la Cruz": {
+   "provincia": "La Vega",
+   "legisladorId": 3658,
+   "sil_nombre": "Carolin Mercedes de la Cruz",
+   "sil_provincia": "La Vega",
+   "match_score": 1,
+   "comisiones": [
+    "05137-2024-2028-CD y 05138-2024-2028-CD Comisión Especial designada para el estudio de los proyectos de ley para la superación y reinserción de los adolescentes.",
+    "Cámara de Cuentas",
+    "Justicia",
+    "Juventud",
+    "Medios de Comunicación",
+    "Trabajo"
+   ],
+   "iniciativas_cd": 27,
+   "iniciativas_total_sil": 27,
+   "asistencia": {
+    "presentes": 141,
+    "total": 166,
+    "breakdown": {
+     "Presente": 136,
+     "Presente Incorporado": 5,
+     "Excusa": 18,
+     "Representación de la Cámara": 1,
+     "Licencia": 4,
+     "Ausente": 2
+    }
+   }
+  },
+  "Elpidio Infante Galán": {
+   "provincia": "La Vega",
+   "legisladorId": 3663,
+   "sil_nombre": "Elpidio Infante Galán",
+   "sil_provincia": "La Vega",
+   "match_score": 1,
+   "comisiones": [
+    "03313-2024-2028-CD Comisión especial PR investigación abandono La Cruz de Manzanillo.",
+    "Medio Ambiente y Recursos Naturales",
+    "Mipymes",
+    "Vivienda, Hábitat y Edificaciones"
+   ],
+   "iniciativas_cd": 18,
+   "iniciativas_total_sil": 18,
+   "asistencia": {
+    "presentes": 150,
+    "total": 166,
+    "breakdown": {
+     "Excusa": 14,
+     "Presente": 145,
+     "Presente Incorporado": 5,
+     "Ausente": 2
+    }
+   }
+  },
+  "Gabriela María Abreu Santos": {
+   "provincia": "La Vega",
+   "legisladorId": 3692,
+   "sil_nombre": "Gabriela María Abreu Santos",
+   "sil_provincia": "La Vega",
+   "match_score": 1,
+   "comisiones": [
+    "05274-2024-2028-CD Comisión Especial designada para el estudio del proyecto de ley que modifica los límites territoriales de Bonao, Juma-Bejucal y La Salvia-Los Quemados, provincia Monseñor Nouel.",
+    "Industria y Comercio",
+    "Inteligencia Artificial",
+    "Juventud",
+    "Ministerio Público",
+    "Presidencia de la República",
+    "Presupuesto, Patrimonio y Contabilidad"
+   ],
+   "iniciativas_cd": 68,
+   "iniciativas_total_sil": 68,
+   "asistencia": {
+    "presentes": 159,
+    "total": 166,
+    "breakdown": {
+     "Presente": 155,
+     "Excusa": 6,
+     "Presente Incorporado": 4,
+     "Ausente": 1
+    }
+   }
+  },
+  "Gilda Mercedes Moronta Guzmán": {
+   "provincia": "La Vega",
+   "legisladorId": 1587,
+   "sil_nombre": "Gilda Mercedes Moronta Guzmán",
+   "sil_provincia": "La Vega",
+   "match_score": 1,
+   "comisiones": [
+    "00674-2025-PLO-SE Comisión bicameral designada para estudiar el proyecto de ley general de salud.",
+    "03313-2024-2028-CD Comisión especial PR investigación abandono La Cruz de Manzanillo.",
+    "05137-2024-2028-CD y 05138-2024-2028-CD Comisión Especial designada para el estudio de los proyectos de ley para la superación y reinserción de los adolescentes.",
+    "05368-2024-2028-CD Comisión especial designada para estudiar el Proyecto de ley que modifica la Ley núm.5-13 sobre Discapacidad en la República Dominicana.",
+    "Asuntos de Equidad de Género",
+    "Reconocimientos",
+    "Salud"
+   ],
+   "iniciativas_cd": 20,
+   "iniciativas_total_sil": 20,
+   "asistencia": {
+    "presentes": 145,
+    "total": 166,
+    "breakdown": {
+     "Presente": 137,
+     "Presente Incorporado": 8,
+     "Excusa": 20,
+     "Ausente": 1
+    }
+   }
+  },
+  "José Luis Abreu Veloz": {
+   "provincia": "La Vega",
+   "legisladorId": 3627,
+   "sil_nombre": "José Luis Abreu Veloz",
+   "sil_provincia": "La Vega",
+   "match_score": 1,
+   "comisiones": [
+    "05368-2024-2028-CD Comisión especial designada para estudiar el Proyecto de ley que modifica la Ley núm.5-13 sobre Discapacidad en la República Dominicana.",
+    "05405-2024-2028-CD Comisión especial designada para el estudio del Proyecto de ley de los cuerpos de bomberos de la República Dominicana.",
+    "Agricultura",
+    "Asuntos Municipales",
+    "Deportes y Recreación",
+    "Industria y Comercio"
+   ],
+   "iniciativas_cd": 25,
+   "iniciativas_total_sil": 25,
+   "asistencia": {
+    "presentes": 164,
+    "total": 166,
+    "breakdown": {
+     "Presente": 159,
+     "Presente Incorporado": 5,
+     "Excusa": 2
+    }
+   }
+  },
+  "Rogelio Alfonso Genao Lanza": {
+   "provincia": "La Vega",
+   "legisladorId": 3376,
+   "sil_nombre": "Rogelio Alfonso Genao Lanza",
+   "sil_provincia": "La Vega",
+   "match_score": 1,
+   "comisiones": [
+    "03800-2024-2028-CD Comisión bicameral para el estudio de los proyectos de ley de Seguridad Social.",
+    "05137-2024-2028-CD y 05138-2024-2028-CD Comisión Especial designada para el estudio de los proyectos de ley para la superación y reinserción de los adolescentes.",
+    "Comisión bicameral designada para estudiar los Actos del Poder Ejecutivo",
+    "Cámara de Cuentas",
+    "Industria y Comercio",
+    "Relaciones Exteriores y Cooperación Internacional",
+    "Seguridad Social"
+   ],
+   "iniciativas_cd": 28,
+   "iniciativas_total_sil": 28,
+   "asistencia": {
+    "presentes": 147,
+    "total": 166,
+    "breakdown": {
+     "Presente": 134,
+     "Presente Incorporado": 13,
+     "Excusa": 19
+    }
+   }
+  },
+  "Vilma Hortencia Morillo Vásquez": {
+   "provincia": "La Vega",
+   "legisladorId": 3743,
+   "sil_nombre": "Vilma Hortencia Morillo Vásquez",
+   "sil_provincia": "La Vega",
+   "match_score": 1,
+   "comisiones": [
+    "04711-2024-2028-CD Comisión especial que estudia el proyecto de ley que regula la libertad religiosa de conciencia y de cultos",
+    "Defensor del Pueblo",
+    "Derechos Humanos",
+    "Economía, Planificación y Desarrollo",
+    "Junta Central Electoral",
+    "Presidencia de la República"
+   ],
+   "iniciativas_cd": 9,
+   "iniciativas_total_sil": 9,
+   "asistencia": {
+    "presentes": 42,
+    "total": 56,
+    "breakdown": {
+     "Presente": 41,
+     "Excusa": 14,
+     "Presente Incorporado": 1
+    }
+   }
+  },
+  "Jesús Stalin Vásquez Marte": {
+   "provincia": "María Trinidad Sánchez",
+   "legisladorId": 3622,
+   "sil_nombre": "Jesús Stalin Vásquez Marte",
+   "sil_provincia": "María Trinidad Sánchez",
+   "match_score": 1,
+   "comisiones": [
+    "05218-2024-2028-CD Comisión especial designada para estudiar el proyecto de ley de amnistía para el registro de armas de fuego.",
+    "Administración Pública",
+    "Defensa",
+    "Inteligencia Artificial",
+    "Interior y Policía",
+    "Juventud"
+   ],
+   "iniciativas_cd": 48,
+   "iniciativas_total_sil": 48,
+   "asistencia": {
+    "presentes": 161,
+    "total": 166,
+    "breakdown": {
+     "Presente": 158,
+     "Excusa": 5,
+     "Presente Incorporado": 3
+    }
+   }
+  },
+  "Jorge Hugo Cavoli Balbuena": {
+   "provincia": "María Trinidad Sánchez",
+   "legisladorId": 3496,
+   "sil_nombre": "Jorge Hugo Cavoli Balbuena",
+   "sil_provincia": "María Trinidad Sánchez",
+   "match_score": 1,
+   "comisiones": [
+    "05274-2024-2028-CD Comisión Especial designada para el estudio del proyecto de ley que modifica los límites territoriales de Bonao, Juma-Bejucal y La Salvia-Los Quemados, provincia Monseñor Nouel.",
+    "Agricultura",
+    "Asuntos Marítimos",
+    "Cultura",
+    "Recursos Hídricos",
+    "Turismo"
+   ],
+   "iniciativas_cd": 51,
+   "iniciativas_total_sil": 51,
+   "asistencia": {
+    "presentes": 154,
+    "total": 166,
+    "breakdown": {
+     "Presente": 135,
+     "Presente Incorporado": 19,
+     "Excusa": 12
+    }
+   }
+  },
+  "Sonia Núñez Espino": {
+   "provincia": "María Trinidad Sánchez",
+   "legisladorId": 3708,
+   "sil_nombre": "Sonia Núñez Espino",
+   "sil_provincia": "María Trinidad Sánchez",
+   "match_score": 1,
+   "comisiones": [
+    "Administración Pública",
+    "Asuntos Migratorios",
+    "Economía, Planificación y Desarrollo",
+    "Obras Públicas y Comunicaciones",
+    "Tecnología de la Información y Comunicación"
+   ],
+   "iniciativas_cd": 44,
+   "iniciativas_total_sil": 44,
+   "asistencia": {
+    "presentes": 164,
+    "total": 166,
+    "breakdown": {
+     "Presente": 161,
+     "Presente Incorporado": 3,
+     "Excusa": 1,
+     "Ausente": 1
+    }
+   }
+  },
+  "José Antonio Fabián Beltré": {
+   "provincia": "Monseñor Nouel",
+   "legisladorId": 1468,
+   "sil_nombre": "José Antonio Fabián Beltré",
+   "sil_provincia": "Monseñor Nouel",
+   "match_score": 1,
+   "comisiones": [
+    "00674-2025-PLO-SE Comisión bicameral designada para estudiar el proyecto de ley general de salud.",
+    "03465-2024-2028-CD Comisión Especial para estudiar el proyecto de resolución que solicita investigar la construcción de un acueducto para Haina dentro de un polideportivo.",
+    "Asuntos Mineros",
+    "Derechos Humanos",
+    "Familia",
+    "Medio Ambiente y Recursos Naturales",
+    "Salud"
+   ],
+   "iniciativas_cd": 40,
+   "iniciativas_total_sil": 40,
+   "asistencia": {
+    "presentes": 152,
+    "total": 166,
+    "breakdown": {
+     "Presente": 150,
+     "Excusa": 10,
+     "Ausente": 4,
+     "Presente Incorporado": 2
+    }
+   }
+  },
+  "Nolberto Ortiz de la Cruz": {
+   "provincia": "Monseñor Nouel",
+   "legisladorId": 3505,
+   "sil_nombre": "Nolberto Ortiz de la Cruz",
+   "sil_provincia": "Monseñor Nouel",
+   "match_score": 1,
+   "comisiones": [
+    "Administración de Deuda Pública y Activos Financieros",
+    "Asuntos Cooperativos",
+    "Economía, Planificación y Desarrollo",
+    "Educación"
+   ],
+   "iniciativas_cd": 85,
+   "iniciativas_total_sil": 85,
+   "asistencia": {
+    "presentes": 153,
+    "total": 166,
+    "breakdown": {
+     "Presente": 127,
+     "Presente Incorporado": 26,
+     "Excusa": 9,
+     "Ausente": 4
+    }
+   }
+  },
+  "Orlando Antonio Martínez Peña": {
+   "provincia": "Monseñor Nouel",
+   "legisladorId": 3420,
+   "sil_nombre": "Orlando Antonio Martínez Peña",
+   "sil_provincia": "Monseñor Nouel",
+   "match_score": 1,
+   "comisiones": [
+    "Cámara de Cuentas",
+    "Industria y Comercio",
+    "Mipymes",
+    "Modernización y Reforma",
+    "Presidencia de la República"
+   ],
+   "iniciativas_cd": 29,
+   "iniciativas_total_sil": 29,
+   "asistencia": {
+    "presentes": 98,
+    "total": 165,
+    "breakdown": {
+     "Presente": 58,
+     "Presente Incorporado": 40,
+     "Excusa": 24,
+     "Ausente": 38,
+     "Licencia": 5
+    }
+   }
+  },
+  "Johanny Margarita Martínez Gómez": {
+   "provincia": "Monte Cristi",
+   "legisladorId": 3673,
+   "sil_nombre": "Johanny Margarita Martínez Gómez",
+   "sil_provincia": "Montecristi",
+   "match_score": 1,
+   "comisiones": [
+    "Agricultura",
+    "Asuntos Fronterizos",
+    "Defensor del Pueblo",
+    "Deportes y Recreación"
+   ],
+   "iniciativas_cd": 55,
+   "iniciativas_total_sil": 55,
+   "asistencia": {
+    "presentes": 157,
+    "total": 166,
+    "breakdown": {
+     "Presente": 152,
+     "Presente Incorporado": 5,
+     "Excusa": 4,
+     "Licencia": 5
+    }
+   }
+  },
+  "Rosendy Joel Polanco Polanco": {
+   "provincia": "Monte Cristi",
+   "legisladorId": 3482,
+   "sil_nombre": "Rosendy Joel Polanco Polanco",
+   "sil_provincia": "Montecristi",
+   "match_score": 1,
+   "comisiones": [
+    "03313-2024-2028-CD Comisión especial PR investigación abandono La Cruz de Manzanillo.",
+    "Agricultura",
+    "Asuntos Fronterizos",
+    "Asuntos Migratorios",
+    "Defensor del Pueblo",
+    "Justicia"
+   ],
+   "iniciativas_cd": 30,
+   "iniciativas_total_sil": 30,
+   "asistencia": {
+    "presentes": 158,
+    "total": 166,
+    "breakdown": {
+     "Presente": 152,
+     "Presente Incorporado": 6,
+     "Ausente": 2,
+     "Excusa": 6
+    }
+   }
+  },
+  "Jhonatan Rabel Contreras del Orbe": {
+   "provincia": "Monte Plata",
+   "legisladorId": 3672,
+   "sil_nombre": "Jhonatan Rabel Contreras del Orbe",
+   "sil_provincia": "Monte Plata ",
+   "match_score": 1,
+   "comisiones": [
+    "03465-2024-2028-CD Comisión Especial para estudiar el proyecto de resolución que solicita investigar la construcción de un acueducto para Haina dentro de un polideportivo.",
+    "05137-2024-2028-CD y 05138-2024-2028-CD Comisión Especial designada para el estudio de los proyectos de ley para la superación y reinserción de los adolescentes.",
+    "Ciberseguridad",
+    "Defensor del Pueblo",
+    "Deportes y Recreación",
+    "Educación"
+   ],
+   "iniciativas_cd": 29,
+   "iniciativas_total_sil": 29,
+   "asistencia": {
+    "presentes": 162,
+    "total": 166,
+    "breakdown": {
+     "Presente": 157,
+     "Presente Incorporado": 5,
+     "Excusa": 3,
+     "Ausente": 1
+    }
+   }
+  },
+  "Oscar Adolfo Morel Figueroa": {
+   "provincia": "Monte Plata",
+   "legisladorId": 3649,
+   "sil_nombre": "Oscar Adolfo Morel Figueroa",
+   "sil_provincia": "Monte Plata ",
+   "match_score": 1,
+   "comisiones": [
+    "04691-2024-2028-CD proyecto de resolución de interpelación al señor Celso Marranzini",
+    "05199-2024-2028-CD Comisión Especial designada para el estudio del proyecto de ley que autoriza el pago de deuda por obras ejecutadas sin contrato formal.",
+    "05274-2024-2028-CD Comisión Especial designada para el estudio del proyecto de ley que modifica los límites territoriales de Bonao, Juma-Bejucal y La Salvia-Los Quemados, provincia Monseñor Nouel.",
+    "05650-2024-2028-CD Comisión Especial proyecto de ley que modifica el artículo 13 de la Ley núm. 118-21, del 31 de mayo de 2021, sobre terminación de obras viales, escuelas, hospitales y presas que se encuentran suspendidas.",
+    "Asuntos Mineros",
+    "Ciberseguridad",
+    "Energía",
+    "Inteligencia Artificial",
+    "Recursos Hídricos"
+   ],
+   "iniciativas_cd": 39,
+   "iniciativas_total_sil": 39,
+   "asistencia": {
+    "presentes": 156,
+    "total": 166,
+    "breakdown": {
+     "Presente": 144,
+     "Presente Incorporado": 12,
+     "Excusa": 6,
+     "Ausente": 4
+    }
+   }
+  },
+  "Román de Jesús Vargas": {
+   "provincia": "Monte Plata",
+   "legisladorId": 3541,
+   "sil_nombre": "Román de Jesús Vargas",
+   "sil_provincia": "Monte Plata ",
+   "match_score": 1,
+   "comisiones": [
+    "Asuntos Municipales",
+    "Inteligencia Artificial",
+    "Medio Ambiente y Recursos Naturales"
+   ],
+   "iniciativas_cd": 68,
+   "iniciativas_total_sil": 68,
+   "asistencia": {
+    "presentes": 155,
+    "total": 166,
+    "breakdown": {
+     "Presente": 139,
+     "Presente Incorporado": 16,
+     "Excusa": 11
+    }
+   }
+  },
+  "Mery Antonia Mercado García de Contreras": {
+   "provincia": "Pedernales",
+   "legisladorId": 3677,
+   "sil_nombre": "Mery Antonia Mercado García de Contreras",
+   "sil_provincia": "Pedernales",
+   "match_score": 1,
+   "comisiones": [
+    "Administración de Deuda Pública y Activos Financieros",
+    "Asuntos Cooperativos",
+    "Asuntos Marítimos",
+    "Vivienda, Hábitat y Edificaciones"
+   ],
+   "iniciativas_cd": 44,
+   "iniciativas_total_sil": 44,
+   "asistencia": {
+    "presentes": 136,
+    "total": 166,
+    "breakdown": {
+     "Presente": 136,
+     "Licencia": 9,
+     "Excusa": 21
+    }
+   }
+  },
+  "Rafael Antonio Pérez Gómez": {
+   "provincia": "Pedernales",
+   "legisladorId": 3637,
+   "sil_nombre": "Rafael Antonio Pérez Gómez",
+   "sil_provincia": "Pedernales",
+   "match_score": 1,
+   "comisiones": [
+    "05218-2024-2028-CD Comisión especial designada para estudiar el proyecto de ley de amnistía para el registro de armas de fuego.",
+    "Asuntos Fronterizos",
+    "Asuntos Marítimos",
+    "Reconocimientos"
+   ],
+   "iniciativas_cd": 54,
+   "iniciativas_total_sil": 54,
+   "asistencia": {
+    "presentes": 152,
+    "total": 166,
+    "breakdown": {
+     "Presente": 151,
+     "Excusa": 12,
+     "Ausente": 2,
+     "Presente Incorporado": 1
+    }
+   }
+  },
+  "Carmen Leida Escarfuller Morel de Melo": {
+   "provincia": "Peravia",
+   "legisladorId": 3686,
+   "sil_nombre": "Carmen Leida Escarfuller Morel de Melo",
+   "sil_provincia": "Peravia",
+   "match_score": 1,
+   "comisiones": [
+    "03313-2024-2028-CD Comisión especial PR investigación abandono La Cruz de Manzanillo.",
+    "Agricultura",
+    "Cultura",
+    "Presidencia de la República",
+    "Recursos Hídricos"
+   ],
+   "iniciativas_cd": 43,
+   "iniciativas_total_sil": 43,
+   "asistencia": {
+    "presentes": 163,
+    "total": 166,
+    "breakdown": {
+     "Presente": 162,
+     "Presente Incorporado": 1,
+     "Excusa": 3
+    }
+   }
+  },
+  "Luis Alcides Báez": {
+   "provincia": "Peravia",
+   "legisladorId": 3500,
+   "sil_nombre": "Luis Alcides Báez",
+   "sil_provincia": "Peravia",
+   "match_score": 1,
+   "comisiones": [
+    "Administración Interior",
+    "Inteligencia Artificial",
+    "Interior y Policía",
+    "Justicia",
+    "Turismo"
+   ],
+   "iniciativas_cd": 36,
+   "iniciativas_total_sil": 36,
+   "asistencia": {
+    "presentes": 149,
+    "total": 166,
+    "breakdown": {
+     "Presente": 139,
+     "Excusa": 16,
+     "Presente Incorporado": 10,
+     "Ausente": 1
+    }
+   }
+  },
+  "Willy Enrique Sánchez González": {
+   "provincia": "Peravia",
+   "legisladorId": 3709,
+   "sil_nombre": "Willy Enrique Sánchez González",
+   "sil_provincia": "Peravia",
+   "match_score": 1,
+   "comisiones": [
+    "05199-2024-2028-CD Comisión Especial designada para el estudio del proyecto de ley que autoriza el pago de deuda por obras ejecutadas sin contrato formal.",
+    "05650-2024-2028-CD Comisión Especial proyecto de ley que modifica el artículo 13 de la Ley núm. 118-21, del 31 de mayo de 2021, sobre terminación de obras viales, escuelas, hospitales y presas que se encuentran suspendidas.",
+    "Cámara de Cuentas",
+    "Obras Públicas y Comunicaciones",
+    "Recursos Hídricos"
+   ],
+   "iniciativas_cd": 29,
+   "iniciativas_total_sil": 29,
+   "asistencia": {
+    "presentes": 146,
+    "total": 166,
+    "breakdown": {
+     "Excusa": 19,
+     "Presente": 128,
+     "Presente Incorporado": 18,
+     "Ausente": 1
+    }
+   }
+  },
+  "Fiordaliza Estévez Castillo": {
+   "provincia": "Puerto Plata",
+   "legisladorId": 3666,
+   "sil_nombre": "Fiordaliza Estévez Castillo",
+   "sil_provincia": "Puerto Plata",
+   "match_score": 1,
+   "comisiones": [
+    "03465-2024-2028-CD Comisión Especial para estudiar el proyecto de resolución que solicita investigar la construcción de un acueducto para Haina dentro de un polideportivo.",
+    "04691-2024-2028-CD proyecto de resolución de interpelación al señor Celso Marranzini",
+    "05199-2024-2028-CD Comisión Especial designada para el estudio del proyecto de ley que autoriza el pago de deuda por obras ejecutadas sin contrato formal.",
+    "05650-2024-2028-CD Comisión Especial proyecto de ley que modifica el artículo 13 de la Ley núm. 118-21, del 31 de mayo de 2021, sobre terminación de obras viales, escuelas, hospitales y presas que se encuentran suspendidas.",
+    "Comisión Coordinadora 2025-2026",
+    "Contratos",
+    "Deportes y Recreación",
+    "Energía",
+    "Medio Ambiente y Recursos Naturales",
+    "Modernización y Reforma"
+   ],
+   "iniciativas_cd": 34,
+   "iniciativas_total_sil": 34,
+   "asistencia": {
+    "presentes": 154,
+    "total": 166,
+    "breakdown": {
+     "Presente": 143,
+     "Presente Incorporado": 11,
+     "Excusa": 11,
+     "Ausente": 1
+    }
+   }
+  },
+  "Heidy María Musa Kunhardt": {
+   "provincia": "Puerto Plata",
+   "legisladorId": 3695,
+   "sil_nombre": "Heidy María Musa Kunhardt",
+   "sil_provincia": "Puerto Plata",
+   "match_score": 1,
+   "comisiones": [
+    "05274-2024-2028-CD Comisión Especial designada para el estudio del proyecto de ley que modifica los límites territoriales de Bonao, Juma-Bejucal y La Salvia-Los Quemados, provincia Monseñor Nouel.",
+    "05368-2024-2028-CD Comisión especial designada para estudiar el Proyecto de ley que modifica la Ley núm.5-13 sobre Discapacidad en la República Dominicana.",
+    "Dominicanos en el Exterior",
+    "Juventud",
+    "Reconocimientos",
+    "Turismo"
+   ],
+   "iniciativas_cd": 25,
+   "iniciativas_total_sil": 25,
+   "asistencia": {
+    "presentes": 144,
+    "total": 166,
+    "breakdown": {
+     "Presente": 128,
+     "Presente Incorporado": 16,
+     "Excusa": 17,
+     "Ausente": 5
+    }
+   }
+  },
+  "Jhonny de Jesús Medina Santos": {
+   "provincia": "Puerto Plata",
+   "legisladorId": 3553,
+   "sil_nombre": "Jhonny de Jesús Medina Santos",
+   "sil_provincia": "Puerto Plata",
+   "match_score": 1,
+   "comisiones": [
+    "Asuntos Marítimos",
+    "Defensor del Pueblo",
+    "Salud",
+    "Vivienda, Hábitat y Edificaciones"
+   ],
+   "iniciativas_cd": 40,
+   "iniciativas_total_sil": 40,
+   "asistencia": {
+    "presentes": 152,
+    "total": 166,
+    "breakdown": {
+     "Excusa": 14,
+     "Presente": 142,
+     "Presente Incorporado": 10
+    }
+   }
+  },
+  "Juan Agustín Medina Santos": {
+   "provincia": "Puerto Plata",
+   "legisladorId": 3425,
+   "sil_nombre": "Juan Agustín Medina Santos",
+   "sil_provincia": "Puerto Plata",
+   "match_score": 1,
+   "comisiones": [
+    "05274-2024-2028-CD Comisión Especial designada para el estudio del proyecto de ley que modifica los límites territoriales de Bonao, Juma-Bejucal y La Salvia-Los Quemados, provincia Monseñor Nouel.",
+    "Asuntos Municipales",
+    "Defensor del Pueblo",
+    "Medio Ambiente y Recursos Naturales"
+   ],
+   "iniciativas_cd": 92,
+   "iniciativas_total_sil": 92,
+   "asistencia": {
+    "presentes": 157,
+    "total": 166,
+    "breakdown": {
+     "Presente": 156,
+     "Excusa": 9,
+     "Presente Incorporado": 1
+    }
+   }
+  },
+  "Julio Emil Durán Rodríguez": {
+   "provincia": "Puerto Plata",
+   "legisladorId": 3528,
+   "sil_nombre": "Julio Emil Durán Rodríguez",
+   "sil_provincia": "Puerto Plata",
+   "match_score": 1,
+   "comisiones": [
+    "Administración Interior",
+    "Comisión Coordinadora 2025-2026",
+    "Presidencia de la República",
+    "Presupuesto, Patrimonio y Contabilidad",
+    "Turismo"
+   ],
+   "iniciativas_cd": 22,
+   "iniciativas_total_sil": 22,
+   "asistencia": {
+    "presentes": 158,
+    "total": 166,
+    "breakdown": {
+     "Presente": 155,
+     "Presente Incorporado": 3,
+     "Excusa": 8
+    }
+   }
+  },
+  "Lidia Esther Pérez de Taveras": {
+   "provincia": "Puerto Plata",
+   "legisladorId": 3645,
+   "sil_nombre": "Lidia Esther Pérez de Taveras",
+   "sil_provincia": "Puerto Plata",
+   "match_score": 1,
+   "comisiones": [
+    "04711-2024-2028-CD Comisión especial que estudia el proyecto de ley que regula la libertad religiosa de conciencia y de cultos",
+    "Derechos Humanos",
+    "Desarrollo Humano",
+    "Familia",
+    "Salud",
+    "Ética"
+   ],
+   "iniciativas_cd": 55,
+   "iniciativas_total_sil": 55,
+   "asistencia": {
+    "presentes": 148,
+    "total": 166,
+    "breakdown": {
+     "Presente": 144,
+     "Excusa": 17,
+     "Presente Incorporado": 4,
+     "Ausente": 1
+    }
+   }
+  },
+  "Carmen Lidia Williams Benjamín": {
+   "provincia": "Samaná",
+   "legisladorId": 3657,
+   "sil_nombre": "Carmen Lidia Williams Benjamín",
+   "sil_provincia": "Samaná",
+   "match_score": 1,
+   "comisiones": [
+    "03313-2024-2028-CD Comisión especial PR investigación abandono La Cruz de Manzanillo.",
+    "03800-2024-2028-CD Comisión bicameral para el estudio de los proyectos de ley de Seguridad Social.",
+    "Administración de Deuda Pública y Activos Financieros",
+    "Ministerio Público",
+    "Seguridad Social",
+    "Turismo"
+   ],
+   "iniciativas_cd": 36,
+   "iniciativas_total_sil": 36,
+   "asistencia": {
+    "presentes": 144,
+    "total": 166,
+    "breakdown": {
+     "Ausente": 8,
+     "Presente": 124,
+     "Presente Incorporado": 20,
+     "Excusa": 11,
+     "Licencia": 3
+    }
+   }
+  },
+  "Cecilio García Javier": {
+   "provincia": "Samaná",
+   "legisladorId": 3659,
+   "sil_nombre": "Cecilio García Javier",
+   "sil_provincia": "Samaná",
+   "match_score": 1,
+   "comisiones": [
+    "Administración Pública",
+    "Asuntos Mineros",
+    "Contratos",
+    "Medio Ambiente y Recursos Naturales"
+   ],
+   "iniciativas_cd": 18,
+   "iniciativas_total_sil": 18,
+   "asistencia": {
+    "presentes": 157,
+    "total": 166,
+    "breakdown": {
+     "Presente": 148,
+     "Excusa": 7,
+     "Presente Incorporado": 9,
+     "Ausente": 2
+    }
+   }
+  },
+  "Ana Miledy Cuevas": {
+   "provincia": "San Cristóbal",
+   "legisladorId": 2785,
+   "sil_nombre": "Ana Miledy Cuevas",
+   "sil_provincia": "San Cristóbal",
+   "match_score": 1,
+   "comisiones": [
+    "03465-2024-2028-CD Comisión Especial para estudiar el proyecto de resolución que solicita investigar la construcción de un acueducto para Haina dentro de un polideportivo.",
+    "Administración de Deuda Pública y Activos Financieros",
+    "Derechos Humanos",
+    "Salud",
+    "Trabajo"
+   ],
+   "iniciativas_cd": 32,
+   "iniciativas_total_sil": 32,
+   "asistencia": {
+    "presentes": 129,
+    "total": 166,
+    "breakdown": {
+     "Presente": 118,
+     "Presente Incorporado": 11,
+     "Excusa": 37
+    }
+   }
+  },
+  "Antonio Brito Rodríguez": {
+   "provincia": "San Cristóbal",
+   "legisladorId": 3702,
+   "sil_nombre": "Antonio Brito Rodríguez",
+   "sil_provincia": "San Cristóbal",
+   "match_score": 1,
+   "comisiones": [
+    "03465-2024-2028-CD Comisión Especial para estudiar el proyecto de resolución que solicita investigar la construcción de un acueducto para Haina dentro de un polideportivo.",
+    "Comisión bicameral designada para estudiar los Actos del Poder Ejecutivo",
+    "Industria y Comercio",
+    "Medios de Comunicación",
+    "Movilidad y Transporte",
+    "Obras Públicas y Comunicaciones"
+   ],
+   "iniciativas_cd": 57,
+   "iniciativas_total_sil": 57,
+   "asistencia": {
+    "presentes": 157,
+    "total": 166,
+    "breakdown": {
+     "Presente": 155,
+     "Presente Incorporado": 2,
+     "Excusa": 8,
+     "Ausente": 1
+    }
+   }
+  },
+  "Francisco Javier Paulino": {
+   "provincia": "San Cristóbal",
+   "legisladorId": 3436,
+   "sil_nombre": "Francisco Javier Paulino",
+   "sil_provincia": "San Cristóbal",
+   "match_score": 1,
+   "comisiones": [
+    "Deportes y Recreación",
+    "Educación Superior, Ciencia y Tecnología",
+    "Hacienda"
+   ],
+   "iniciativas_cd": 20,
+   "iniciativas_total_sil": 20,
+   "asistencia": {
+    "presentes": 152,
+    "total": 166,
+    "breakdown": {
+     "Presente": 151,
+     "Excusa": 6,
+     "Ausente": 1,
+     "Presente Incorporado": 1,
+     "Licencia": 7
+    }
+   }
+  },
+  "German Martínez Araujo": {
+   "provincia": "San Cristóbal",
+   "legisladorId": 3693,
+   "sil_nombre": "German Martínez Araujo",
+   "sil_provincia": "San Cristóbal",
+   "match_score": 1,
+   "comisiones": [
+    "03465-2024-2028-CD Comisión Especial para estudiar el proyecto de resolución que solicita investigar la construcción de un acueducto para Haina dentro de un polideportivo.",
+    "05274-2024-2028-CD Comisión Especial designada para el estudio del proyecto de ley que modifica los límites territoriales de Bonao, Juma-Bejucal y La Salvia-Los Quemados, provincia Monseñor Nouel.",
+    "Asuntos Cooperativos",
+    "Ciberseguridad",
+    "Desarrollo Humano",
+    "Educación"
+   ],
+   "iniciativas_cd": 48,
+   "iniciativas_total_sil": 48,
+   "asistencia": {
+    "presentes": 156,
+    "total": 166,
+    "breakdown": {
+     "Presente": 154,
+     "Presente Incorporado": 2,
+     "Excusa": 9,
+     "Ausente": 1
+    }
+   }
+  },
+  "Gregoria Monserrat Santana Silfa": {
+   "provincia": "San Cristóbal",
+   "legisladorId": 3620,
+   "sil_nombre": "Gregoria Monserrat Santana Silfa",
+   "sil_provincia": "San Cristóbal",
+   "match_score": 1,
+   "comisiones": [
+    "00674-2025-PLO-SE Comisión bicameral designada para estudiar el proyecto de ley general de salud.",
+    "03465-2024-2028-CD Comisión Especial para estudiar el proyecto de resolución que solicita investigar la construcción de un acueducto para Haina dentro de un polideportivo.",
+    "Asuntos de Equidad de Género",
+    "Educación",
+    "Familia",
+    "Inteligencia Artificial",
+    "Salud"
+   ],
+   "iniciativas_cd": 34,
+   "iniciativas_total_sil": 34,
+   "asistencia": {
+    "presentes": 152,
+    "total": 166,
+    "breakdown": {
+     "Presente": 148,
+     "Presente Incorporado": 4,
+     "Excusa": 14
+    }
+   }
+  },
+  "Jacqueline Montero": {
+   "provincia": "San Cristóbal",
+   "legisladorId": 3429,
+   "sil_nombre": "Jacqueline Montero",
+   "sil_provincia": "San Cristóbal",
+   "match_score": 1,
+   "comisiones": [
+    "03465-2024-2028-CD Comisión Especial para estudiar el proyecto de resolución que solicita investigar la construcción de un acueducto para Haina dentro de un polideportivo.",
+    "Asuntos de Equidad de Género",
+    "Derechos Humanos",
+    "Presupuesto, Patrimonio y Contabilidad",
+    "Vivienda, Hábitat y Edificaciones"
+   ],
+   "iniciativas_cd": 52,
+   "iniciativas_total_sil": 52,
+   "asistencia": {
+    "presentes": 133,
+    "total": 166,
+    "breakdown": {
+     "Presente": 131,
+     "Excusa": 31,
+     "Presente Incorporado": 2,
+     "Ausente": 2
+    }
+   }
+  },
+  "Margarita Tejeda de la Rosa": {
+   "provincia": "San Cristóbal",
+   "legisladorId": 3530,
+   "sil_nombre": "Margarita Tejeda de la Rosa",
+   "sil_provincia": "San Cristóbal",
+   "match_score": 1,
+   "comisiones": [
+    "00674-2025-PLO-SE Comisión bicameral designada para estudiar el proyecto de ley general de salud.",
+    "03465-2024-2028-CD Comisión Especial para estudiar el proyecto de resolución que solicita investigar la construcción de un acueducto para Haina dentro de un polideportivo.",
+    "03800-2024-2028-CD Comisión bicameral para el estudio de los proyectos de ley de Seguridad Social.",
+    "05368-2024-2028-CD Comisión especial designada para estudiar el Proyecto de ley que modifica la Ley núm.5-13 sobre Discapacidad en la República Dominicana.",
+    "Familia",
+    "Hacienda",
+    "Junta Central Electoral",
+    "Salud",
+    "Seguridad Social"
+   ],
+   "iniciativas_cd": 146,
+   "iniciativas_total_sil": 146,
+   "asistencia": {
+    "presentes": 163,
+    "total": 166,
+    "breakdown": {
+     "Presente": 162,
+     "Excusa": 3,
+     "Presente Incorporado": 1
+    }
+   }
+  },
+  "Nelson Saulo Vega Báez": {
+   "provincia": "San Cristóbal",
+   "legisladorId": 3678,
+   "sil_nombre": "Nelson Saulo Vega Báez",
+   "sil_provincia": "San Cristóbal",
+   "match_score": 1,
+   "comisiones": [
+    "05405-2024-2028-CD Comisión especial designada para el estudio del Proyecto de ley de los cuerpos de bomberos de la República Dominicana.",
+    "Economía, Planificación y Desarrollo",
+    "Inteligencia Artificial",
+    "Medio Ambiente y Recursos Naturales",
+    "Mipymes",
+    "Tecnología de la Información y Comunicación"
+   ],
+   "iniciativas_cd": 32,
+   "iniciativas_total_sil": 32,
+   "asistencia": {
+    "presentes": 139,
+    "total": 166,
+    "breakdown": {
+     "Presente": 137,
+     "Excusa": 18,
+     "Licencia": 7,
+     "Presente Incorporado": 2,
+     "Ausente": 2
+    }
+   }
+  },
+  "Otoniel Tejeda Martínez": {
+   "provincia": "San Cristóbal",
+   "legisladorId": 3477,
+   "sil_nombre": "Otoniel Tejeda Martínez",
+   "sil_provincia": "San Cristóbal",
+   "match_score": 1,
+   "comisiones": [
+    "03465-2024-2028-CD Comisión Especial para estudiar el proyecto de resolución que solicita investigar la construcción de un acueducto para Haina dentro de un polideportivo.",
+    "04711-2024-2028-CD Comisión especial que estudia el proyecto de ley que regula la libertad religiosa de conciencia y de cultos",
+    "05218-2024-2028-CD Comisión especial designada para estudiar el proyecto de ley de amnistía para el registro de armas de fuego.",
+    "Inteligencia Artificial",
+    "Juventud",
+    "Modernización y Reforma",
+    "Presupuesto, Patrimonio y Contabilidad"
+   ],
+   "iniciativas_cd": 48,
+   "iniciativas_total_sil": 48,
+   "asistencia": {
+    "presentes": 150,
+    "total": 166,
+    "breakdown": {
+     "Presente": 124,
+     "Excusa": 10,
+     "Presente Incorporado": 26,
+     "Ausente": 6
+    }
+   }
+  },
+  "Ydenia Doñé Tiburcio": {
+   "provincia": "San Cristóbal",
+   "legisladorId": 1559,
+   "sil_nombre": "Ydenia Doñé Tiburcio",
+   "sil_provincia": "San Cristóbal",
+   "match_score": 1,
+   "comisiones": [
+    "03465-2024-2028-CD Comisión Especial para estudiar el proyecto de resolución que solicita investigar la construcción de un acueducto para Haina dentro de un polideportivo.",
+    "04711-2024-2028-CD Comisión especial que estudia el proyecto de ley que regula la libertad religiosa de conciencia y de cultos",
+    "05137-2024-2028-CD y 05138-2024-2028-CD Comisión Especial designada para el estudio de los proyectos de ley para la superación y reinserción de los adolescentes.",
+    "05368-2024-2028-CD Comisión especial designada para estudiar el Proyecto de ley que modifica la Ley núm.5-13 sobre Discapacidad en la República Dominicana.",
+    "Cámara de Cuentas",
+    "Educación",
+    "Hacienda"
+   ],
+   "iniciativas_cd": 84,
+   "iniciativas_total_sil": 84,
+   "asistencia": {
+    "presentes": 160,
+    "total": 166,
+    "breakdown": {
+     "Presente": 157,
+     "Excusa": 5,
+     "Presente Incorporado": 3,
+     "Ausente": 1
+    }
+   }
+  },
+  "Ángel María Sánchez Pujols": {
+   "provincia": "San José de Ocoa",
+   "legisladorId": 3612,
+   "sil_nombre": "Ángel María Sánchez Pujols",
+   "sil_provincia": "San José de Ocoa",
+   "match_score": 1,
+   "comisiones": [
+    "05405-2024-2028-CD Comisión especial designada para el estudio del Proyecto de ley de los cuerpos de bomberos de la República Dominicana.",
+    "Agricultura",
+    "Ciberseguridad",
+    "Interior y Policía"
+   ],
+   "iniciativas_cd": 25,
+   "iniciativas_total_sil": 25,
+   "asistencia": {
+    "presentes": 156,
+    "total": 166,
+    "breakdown": {
+     "Presente": 153,
+     "Excusa": 10,
+     "Presente Incorporado": 3
+    }
+   }
+  },
+  "Elida Yalis Soto Mordán": {
+   "provincia": "San José de Ocoa",
+   "legisladorId": 3618,
+   "sil_nombre": "Elida Yalis Soto Mordán",
+   "sil_provincia": "San José de Ocoa",
+   "match_score": 1,
+   "comisiones": [
+    "05368-2024-2028-CD Comisión especial designada para estudiar el Proyecto de ley que modifica la Ley núm.5-13 sobre Discapacidad en la República Dominicana.",
+    "Agricultura",
+    "Asuntos Marítimos",
+    "Asuntos Mineros",
+    "Derechos Humanos",
+    "Vivienda, Hábitat y Edificaciones"
+   ],
+   "iniciativas_cd": 43,
+   "iniciativas_total_sil": 43,
+   "asistencia": {
+    "presentes": 155,
+    "total": 166,
+    "breakdown": {
+     "Presente": 153,
+     "Presente Incorporado": 2,
+     "Excusa": 11
+    }
+   }
+  },
+  "Carlos Morillo Valdez": {
+   "provincia": "San Juan",
+   "legisladorId": 3685,
+   "sil_nombre": "Carlos Morillo Valdez",
+   "sil_provincia": "San Juan",
+   "match_score": 1,
+   "comisiones": [
+    "05199-2024-2028-CD Comisión Especial designada para el estudio del proyecto de ley que autoriza el pago de deuda por obras ejecutadas sin contrato formal.",
+    "05650-2024-2028-CD Comisión Especial proyecto de ley que modifica el artículo 13 de la Ley núm. 118-21, del 31 de mayo de 2021, sobre terminación de obras viales, escuelas, hospitales y presas que se encuentran suspendidas.",
+    "Asuntos Fronterizos",
+    "Ciberseguridad",
+    "Mipymes",
+    "Recursos Hídricos"
+   ],
+   "iniciativas_cd": 23,
+   "iniciativas_total_sil": 23,
+   "asistencia": {
+    "presentes": 156,
+    "total": 166,
+    "breakdown": {
+     "Excusa": 7,
+     "Presente": 154,
+     "Presente Incorporado": 2,
+     "Ausente": 3
+    }
+   }
+  },
+  "Elvira Corporán de los Santos de Lebrón": {
+   "provincia": "San Juan",
+   "legisladorId": 3664,
+   "sil_nombre": "Elvira Corporán de los Santos de Lebrón",
+   "sil_provincia": "San Juan",
+   "match_score": 1,
+   "comisiones": [
+    "Asuntos de Equidad de Género",
+    "Educación",
+    "Educación Superior, Ciencia y Tecnología",
+    "Reconocimientos"
+   ],
+   "iniciativas_cd": 63,
+   "iniciativas_total_sil": 63,
+   "asistencia": {
+    "presentes": 162,
+    "total": 166,
+    "breakdown": {
+     "Presente": 161,
+     "Presente Incorporado": 1,
+     "Excusa": 3,
+     "Ausente": 1
+    }
+   }
+  },
+  "Franklin Ramírez de los Santos": {
+   "provincia": "San Juan",
+   "legisladorId": 3461,
+   "sil_nombre": "Franklin Ramírez de los Santos",
+   "sil_provincia": "San Juan",
+   "match_score": 1,
+   "comisiones": [
+    "05274-2024-2028-CD Comisión Especial designada para el estudio del proyecto de ley que modifica los límites territoriales de Bonao, Juma-Bejucal y La Salvia-Los Quemados, provincia Monseñor Nouel.",
+    "Agricultura",
+    "Defensa",
+    "Industria y Comercio",
+    "Tecnología de la Información y Comunicación"
+   ],
+   "iniciativas_cd": 52,
+   "iniciativas_total_sil": 52,
+   "asistencia": {
+    "presentes": 151,
+    "total": 166,
+    "breakdown": {
+     "Presente": 138,
+     "Presente Incorporado": 13,
+     "Excusa": 11,
+     "Ausente": 4
+    }
+   }
+  },
+  "Mélido Mercedes Castillo": {
+   "provincia": "San Juan",
+   "legisladorId": 3502,
+   "sil_nombre": "Mélido Mercedes Castillo",
+   "sil_provincia": "San Juan",
+   "match_score": 1,
+   "comisiones": [
+    "03313-2024-2028-CD Comisión especial PR investigación abandono La Cruz de Manzanillo.",
+    "05274-2024-2028-CD Comisión Especial designada para el estudio del proyecto de ley que modifica los límites territoriales de Bonao, Juma-Bejucal y La Salvia-Los Quemados, provincia Monseñor Nouel.",
+    "05405-2024-2028-CD Comisión especial designada para el estudio del Proyecto de ley de los cuerpos de bomberos de la República Dominicana.",
+    "Administración Interior",
+    "Agricultura",
+    "Ministerio Público",
+    "Trabajo"
+   ],
+   "iniciativas_cd": 112,
+   "iniciativas_total_sil": 112,
+   "asistencia": {
+    "presentes": 160,
+    "total": 166,
+    "breakdown": {
+     "Presente": 155,
+     "Presente Incorporado": 5,
+     "Excusa": 5,
+     "Ausente": 1
+    }
+   }
+  },
+  "Alcibíades Tavárez de la Cruz": {
+   "provincia": "San Pedro de Macorís",
+   "legisladorId": 3642,
+   "sil_nombre": "Alcibíades Tavárez de la Cruz",
+   "sil_provincia": "San Pedro de Macorís",
+   "match_score": 1,
+   "comisiones": [
+    "03800-2024-2028-CD Comisión bicameral para el estudio de los proyectos de ley de Seguridad Social.",
+    "Dominicanos en el Exterior",
+    "Economía, Planificación y Desarrollo",
+    "Junta Central Electoral",
+    "Presupuesto, Patrimonio y Contabilidad",
+    "Seguridad Social"
+   ],
+   "iniciativas_cd": 44,
+   "iniciativas_total_sil": 44,
+   "asistencia": {
+    "presentes": 158,
+    "total": 166,
+    "breakdown": {
+     "Presente": 157,
+     "Excusa": 7,
+     "Presente Incorporado": 1,
+     "Ausente": 1
+    }
+   }
+  },
+  "Carlixta Carolina Paula de la Cruz": {
+   "provincia": "San Pedro de Macorís",
+   "legisladorId": 3545,
+   "sil_nombre": "Carlixta Carolina Paula de la Cruz",
+   "sil_provincia": "San Pedro de Macorís",
+   "match_score": 1,
+   "comisiones": [
+    "Energía",
+    "Familia",
+    "Presidencia de la República",
+    "Trabajo"
+   ],
+   "iniciativas_cd": 26,
+   "iniciativas_total_sil": 26,
+   "asistencia": {
+    "presentes": 53,
+    "total": 166,
+    "breakdown": {
+     "Presente": 40,
+     "Presente Incorporado": 13,
+     "Excusa": 112,
+     "Ausente": 1
+    }
+   }
+  },
+  "Jacobo Ramos Crispín": {
+   "provincia": "San Pedro de Macorís",
+   "legisladorId": 3668,
+   "sil_nombre": "Jacobo Ramos Crispín",
+   "sil_provincia": "San Pedro de Macorís",
+   "match_score": 1,
+   "comisiones": [
+    "Administración de Deuda Pública y Activos Financieros",
+    "Contratos",
+    "Movilidad y Transporte",
+    "Trabajo"
+   ],
+   "iniciativas_cd": 42,
+   "iniciativas_total_sil": 42,
+   "asistencia": {
+    "presentes": 103,
+    "total": 166,
+    "breakdown": {
+     "Excusa": 62,
+     "Presente": 102,
+     "Presente Incorporado": 1,
+     "Ausente": 1
+    }
+   }
+  },
+  "Luis Gómez Benzo": {
+   "provincia": "San Pedro de Macorís",
+   "legisladorId": 3603,
+   "sil_nombre": "Luis Gómez Benzo",
+   "sil_provincia": "San Pedro de Macorís",
+   "match_score": 1,
+   "comisiones": [
+    "05199-2024-2028-CD Comisión Especial designada para el estudio del proyecto de ley que autoriza el pago de deuda por obras ejecutadas sin contrato formal.",
+    "05650-2024-2028-CD Comisión Especial proyecto de ley que modifica el artículo 13 de la Ley núm. 118-21, del 31 de mayo de 2021, sobre terminación de obras viales, escuelas, hospitales y presas que se encuentran suspendidas.",
+    "Ciberseguridad",
+    "Justicia",
+    "Obras Públicas y Comunicaciones",
+    "Presupuesto, Patrimonio y Contabilidad"
+   ],
+   "iniciativas_cd": 75,
+   "iniciativas_total_sil": 75,
+   "asistencia": {
+    "presentes": 153,
+    "total": 166,
+    "breakdown": {
+     "Presente": 142,
+     "Presente Incorporado": 11,
+     "Excusa": 8,
+     "Ausente": 1,
+     "Licencia": 4
+    }
+   }
+  },
+  "Miguel Arredondo Quezada": {
+   "provincia": "San Pedro de Macorís",
+   "legisladorId": 3632,
+   "sil_nombre": "Miguel Arredondo Quezada",
+   "sil_provincia": "San Pedro de Macorís",
+   "match_score": 1,
+   "comisiones": [
+    "00674-2025-PLO-SE Comisión bicameral designada para estudiar el proyecto de ley general de salud.",
+    "Junta Central Electoral",
+    "Justicia",
+    "Ministerio Público",
+    "Movilidad y Transporte"
+   ],
+   "iniciativas_cd": 128,
+   "iniciativas_total_sil": 128,
+   "asistencia": {
+    "presentes": 162,
+    "total": 166,
+    "breakdown": {
+     "Presente": 146,
+     "Presente Incorporado": 16,
+     "Excusa": 4
+    }
+   }
+  },
+  "Caty Díaz Abreu": {
+   "provincia": "Sánchez Ramírez",
+   "legisladorId": 3706,
+   "sil_nombre": "Caty Díaz Abreu",
+   "sil_provincia": "Sánchez Ramírez",
+   "match_score": 1,
+   "comisiones": [
+    "03313-2024-2028-CD Comisión especial PR investigación abandono La Cruz de Manzanillo.",
+    "05137-2024-2028-CD y 05138-2024-2028-CD Comisión Especial designada para el estudio de los proyectos de ley para la superación y reinserción de los adolescentes.",
+    "Administración Pública",
+    "Asuntos Mineros",
+    "Medio Ambiente y Recursos Naturales",
+    "Reconocimientos"
+   ],
+   "iniciativas_cd": 50,
+   "iniciativas_total_sil": 50,
+   "asistencia": {
+    "presentes": 154,
+    "total": 166,
+    "breakdown": {
+     "Presente": 149,
+     "Presente Incorporado": 5,
+     "Excusa": 9,
+     "Ausente": 3
+    }
+   }
+  },
+  "José Alberto Jiménez Santos": {
+   "provincia": "Sánchez Ramírez",
+   "legisladorId": 3696,
+   "sil_nombre": "José Alberto Jiménez Santos",
+   "sil_provincia": "Sánchez Ramírez",
+   "match_score": 1,
+   "comisiones": [
+    "Asuntos Mineros",
+    "Junta Central Electoral",
+    "Justicia",
+    "Ministerio Público"
+   ],
+   "iniciativas_cd": 35,
+   "iniciativas_total_sil": 35,
+   "asistencia": {
+    "presentes": 163,
+    "total": 166,
+    "breakdown": {
+     "Presente": 160,
+     "Presente Incorporado": 3,
+     "Excusa": 1,
+     "Ausente": 2
+    }
+   }
+  },
+  "Sadoky Duarte Suárez": {
+   "provincia": "Sánchez Ramírez",
+   "legisladorId": 3510,
+   "sil_nombre": "Sadoky Duarte Suárez",
+   "sil_provincia": "Sánchez Ramírez",
+   "match_score": 1,
+   "comisiones": [
+    "05405-2024-2028-CD Comisión especial designada para el estudio del Proyecto de ley de los cuerpos de bomberos de la República Dominicana.",
+    "Asuntos Migratorios",
+    "Asuntos Mineros",
+    "Ciberseguridad",
+    "Interior y Policía",
+    "Justicia",
+    "Ministerio Público"
+   ],
+   "iniciativas_cd": 67,
+   "iniciativas_total_sil": 67,
+   "asistencia": {
+    "presentes": 160,
+    "total": 166,
+    "breakdown": {
+     "Presente": 132,
+     "Ausente": 3,
+     "Presente Incorporado": 28,
+     "Excusa": 3
+    }
+   }
+  },
+  "Brailyn Miguel Vargas Núñez": {
+   "provincia": "Santiago",
+   "legisladorId": 3703,
+   "sil_nombre": "Brailyn Miguel Vargas Núñez",
+   "sil_provincia": "Santiago",
+   "match_score": 1,
+   "comisiones": [
+    "05137-2024-2028-CD y 05138-2024-2028-CD Comisión Especial designada para el estudio de los proyectos de ley para la superación y reinserción de los adolescentes.",
+    "Agricultura",
+    "Movilidad y Transporte",
+    "Obras Públicas y Comunicaciones",
+    "Relaciones Exteriores y Cooperación Internacional"
+   ],
+   "iniciativas_cd": 65,
+   "iniciativas_total_sil": 65,
+   "asistencia": {
+    "presentes": 151,
+    "total": 166,
+    "breakdown": {
+     "Presente": 146,
+     "Excusa": 14,
+     "Presente Incorporado": 5,
+     "Ausente": 1
+    }
+   }
+  },
+  "Braulio de Jesús Espinal Tavárez": {
+   "provincia": "Santiago",
+   "legisladorId": 3452,
+   "sil_nombre": "Braulio de Jesús Espinal Tavárez",
+   "sil_provincia": "Santiago",
+   "match_score": 1,
+   "comisiones": [
+    "03313-2024-2028-CD Comisión especial PR investigación abandono La Cruz de Manzanillo.",
+    "04691-2024-2028-CD proyecto de resolución de interpelación al señor Celso Marranzini",
+    "04711-2024-2028-CD Comisión especial que estudia el proyecto de ley que regula la libertad religiosa de conciencia y de cultos",
+    "Administración de Deuda Pública y Activos Financieros",
+    "Comisión Coordinadora 2025-2026",
+    "Defensa",
+    "Inteligencia Artificial",
+    "Presidencia de la República"
+   ],
+   "iniciativas_cd": 58,
+   "iniciativas_total_sil": 58,
+   "asistencia": {
+    "presentes": 160,
+    "total": 166,
+    "breakdown": {
+     "Presente": 157,
+     "Presente Incorporado": 3,
+     "Excusa": 6
+    }
+   }
+  },
+  "Deisy Emelda Díaz Salcedo": {
+   "provincia": "Santiago",
+   "legisladorId": 3687,
+   "sil_nombre": "Deisy Emelda Díaz Salcedo",
+   "sil_provincia": "Santiago",
+   "match_score": 1,
+   "comisiones": [
+    "04691-2024-2028-CD proyecto de resolución de interpelación al señor Celso Marranzini",
+    "05274-2024-2028-CD Comisión Especial designada para el estudio del proyecto de ley que modifica los límites territoriales de Bonao, Juma-Bejucal y La Salvia-Los Quemados, provincia Monseñor Nouel.",
+    "05368-2024-2028-CD Comisión especial designada para estudiar el Proyecto de ley que modifica la Ley núm.5-13 sobre Discapacidad en la República Dominicana.",
+    "Asuntos Cooperativos",
+    "Asuntos Mineros",
+    "Educación",
+    "Educación Superior, Ciencia y Tecnología",
+    "Vivienda, Hábitat y Edificaciones"
+   ],
+   "iniciativas_cd": 48,
+   "iniciativas_total_sil": 48,
+   "asistencia": {
+    "presentes": 158,
+    "total": 166,
+    "breakdown": {
+     "Presente": 158,
+     "Excusa": 8
+    }
+   }
+  },
+  "Dharuelly Leany D´Aza Caraballo": {
+   "provincia": "Santiago",
+   "legisladorId": 3661,
+   "sil_nombre": "Dharuelly Leany D´Aza Caraballo",
+   "sil_provincia": "Santiago",
+   "match_score": 1,
+   "comisiones": [
+    "05199-2024-2028-CD Comisión Especial designada para el estudio del proyecto de ley que autoriza el pago de deuda por obras ejecutadas sin contrato formal.",
+    "05650-2024-2028-CD Comisión Especial proyecto de ley que modifica el artículo 13 de la Ley núm. 118-21, del 31 de mayo de 2021, sobre terminación de obras viales, escuelas, hospitales y presas que se encuentran suspendidas.",
+    "Administración Interior",
+    "Comisión Coordinadora 2025-2026",
+    "Juventud",
+    "Presidencia de la República",
+    "Relaciones Exteriores y Cooperación Internacional"
+   ],
+   "iniciativas_cd": 59,
+   "iniciativas_total_sil": 59,
+   "asistencia": {
+    "presentes": 156,
+    "total": 166,
+    "breakdown": {
+     "Presente": 154,
+     "Excusa": 10,
+     "Presente Incorporado": 2
+    }
+   }
+  },
+  "Dilenia Altagracia Santos Muñoz": {
+   "provincia": "Santiago",
+   "legisladorId": 3662,
+   "sil_nombre": "Dilenia Altagracia Santos Muñoz",
+   "sil_provincia": "Santiago",
+   "match_score": 1,
+   "comisiones": [
+    "05199-2024-2028-CD Comisión Especial designada para el estudio del proyecto de ley que autoriza el pago de deuda por obras ejecutadas sin contrato formal.",
+    "05368-2024-2028-CD Comisión especial designada para estudiar el Proyecto de ley que modifica la Ley núm.5-13 sobre Discapacidad en la República Dominicana.",
+    "05650-2024-2028-CD Comisión Especial proyecto de ley que modifica el artículo 13 de la Ley núm. 118-21, del 31 de mayo de 2021, sobre terminación de obras viales, escuelas, hospitales y presas que se encuentran suspendidas.",
+    "Ciberseguridad",
+    "Industria y Comercio",
+    "Presupuesto, Patrimonio y Contabilidad",
+    "Reconocimientos",
+    "Relaciones Exteriores y Cooperación Internacional"
+   ],
+   "iniciativas_cd": 81,
+   "iniciativas_total_sil": 81,
+   "asistencia": {
+    "presentes": 165,
+    "total": 166,
+    "breakdown": {
+     "Presente": 165,
+     "Excusa": 1
+    }
+   }
+  },
+  "Estamy Rafaela Colón Tatis": {
+   "provincia": "Santiago",
+   "legisladorId": 3608,
+   "sil_nombre": "Estamy Rafaela Colón Tatis",
+   "sil_provincia": "Santiago",
+   "match_score": 1,
+   "comisiones": [
+    "04691-2024-2028-CD proyecto de resolución de interpelación al señor Celso Marranzini",
+    "05218-2024-2028-CD Comisión especial designada para estudiar el proyecto de ley de amnistía para el registro de armas de fuego.",
+    "Asuntos de Equidad de Género",
+    "Presidencia de la República",
+    "Reconocimientos",
+    "Relaciones Exteriores y Cooperación Internacional",
+    "Tecnología de la Información y Comunicación"
+   ],
+   "iniciativas_cd": 47,
+   "iniciativas_total_sil": 47,
+   "asistencia": {
+    "presentes": 157,
+    "total": 166,
+    "breakdown": {
+     "Presente": 156,
+     "Excusa": 8,
+     "Presente Incorporado": 1,
+     "Ausente": 1
+    }
+   }
+  },
+  "Félix Michell Rodríguez Morel": {
+   "provincia": "Santiago",
+   "legisladorId": 3519,
+   "sil_nombre": "Félix Michell Rodríguez Morel",
+   "sil_provincia": "Santiago",
+   "match_score": 1,
+   "comisiones": [
+    "Asuntos Cooperativos",
+    "Contratos",
+    "Hacienda"
+   ],
+   "iniciativas_cd": 32,
+   "iniciativas_total_sil": 32,
+   "asistencia": {
+    "presentes": 157,
+    "total": 166,
+    "breakdown": {
+     "Presente": 145,
+     "Presente Incorporado": 12,
+     "Excusa": 6,
+     "Ausente": 3
+    }
+   }
+  },
+  "Francisco Alberto Díaz García": {
+   "provincia": "Santiago",
+   "legisladorId": 3521,
+   "sil_nombre": "Francisco Alberto Díaz García",
+   "sil_provincia": "Santiago",
+   "match_score": 1,
+   "comisiones": [
+    "Salud"
+   ],
+   "iniciativas_cd": 26,
+   "iniciativas_total_sil": 26,
+   "asistencia": {
+    "presentes": 129,
+    "total": 166,
+    "breakdown": {
+     "Presente": 129,
+     "Excusa": 35,
+     "Ausente": 2
+    }
+   }
+  },
+  "Gregorio Domínguez Domínguez": {
+   "provincia": "Santiago",
+   "legisladorId": 3463,
+   "sil_nombre": "Gregorio Domínguez Domínguez",
+   "sil_provincia": "Santiago",
+   "match_score": 1,
+   "comisiones": [
+    "04691-2024-2028-CD proyecto de resolución de interpelación al señor Celso Marranzini",
+    "Asuntos Mineros",
+    "Hacienda",
+    "Recursos Hídricos",
+    "Trabajo"
+   ],
+   "iniciativas_cd": 58,
+   "iniciativas_total_sil": 58,
+   "asistencia": {
+    "presentes": 160,
+    "total": 166,
+    "breakdown": {
+     "Presente": 155,
+     "Excusa": 4,
+     "Presente Incorporado": 5,
+     "Ausente": 2
+    }
+   }
+  },
+  "José David Báez Reinoso": {
+   "provincia": "Santiago",
+   "legisladorId": 3625,
+   "sil_nombre": "José David Báez Reinoso",
+   "sil_provincia": "Santiago",
+   "match_score": 1,
+   "comisiones": [
+    "04691-2024-2028-CD proyecto de resolución de interpelación al señor Celso Marranzini",
+    "04711-2024-2028-CD Comisión especial que estudia el proyecto de ley que regula la libertad religiosa de conciencia y de cultos",
+    "Asuntos Fronterizos",
+    "Comisión bicameral designada para estudiar los Actos del Poder Ejecutivo",
+    "Educación",
+    "Educación Superior, Ciencia y Tecnología",
+    "Energía",
+    "Mipymes"
+   ],
+   "iniciativas_cd": 53,
+   "iniciativas_total_sil": 53,
+   "asistencia": {
+    "presentes": 160,
+    "total": 166,
+    "breakdown": {
+     "Presente": 157,
+     "Presente Incorporado": 3,
+     "Excusa": 4,
+     "Ausente": 2
+    }
+   }
+  },
+  "Llaniris del Carmen Espinal Cabrera": {
+   "provincia": "Santiago",
+   "legisladorId": 3675,
+   "sil_nombre": "Llaniris del Carmen Espinal Cabrera",
+   "sil_provincia": "Santiago",
+   "match_score": 1,
+   "comisiones": [
+    "05137-2024-2028-CD y 05138-2024-2028-CD Comisión Especial designada para el estudio de los proyectos de ley para la superación y reinserción de los adolescentes.",
+    "05368-2024-2028-CD Comisión especial designada para estudiar el Proyecto de ley que modifica la Ley núm.5-13 sobre Discapacidad en la República Dominicana.",
+    "Asuntos de Equidad de Género",
+    "Educación",
+    "Medio Ambiente y Recursos Naturales",
+    "Ética"
+   ],
+   "iniciativas_cd": 87,
+   "iniciativas_total_sil": 87,
+   "asistencia": {
+    "presentes": 157,
+    "total": 166,
+    "breakdown": {
+     "Presente": 151,
+     "Presente Incorporado": 6,
+     "Excusa": 6,
+     "Ausente": 3
+    }
+   }
+  },
+  "Luis René Fernández Tavárez": {
+   "provincia": "Santiago",
+   "legisladorId": 3471,
+   "sil_nombre": "Luis René Fernández Tavárez",
+   "sil_provincia": "Santiago",
+   "match_score": 1,
+   "comisiones": [
+    "Administración Interior",
+    "Asuntos Cooperativos",
+    "Industria y Comercio",
+    "Presupuesto, Patrimonio y Contabilidad"
+   ],
+   "iniciativas_cd": 29,
+   "iniciativas_total_sil": 29,
+   "asistencia": {
+    "presentes": 138,
+    "total": 166,
+    "breakdown": {
+     "Excusa": 19,
+     "Presente": 110,
+     "Presente Incorporado": 28,
+     "Ausente": 9
+    }
+   }
+  },
+  "Mateo Evangelista Espaillat Tavárez": {
+   "provincia": "Santiago",
+   "legisladorId": 3501,
+   "sil_nombre": "Mateo Evangelista Espaillat Tavárez",
+   "sil_provincia": "Santiago",
+   "match_score": 1,
+   "comisiones": [
+    "05199-2024-2028-CD Comisión Especial designada para el estudio del proyecto de ley que autoriza el pago de deuda por obras ejecutadas sin contrato formal.",
+    "05650-2024-2028-CD Comisión Especial proyecto de ley que modifica el artículo 13 de la Ley núm. 118-21, del 31 de mayo de 2021, sobre terminación de obras viales, escuelas, hospitales y presas que se encuentran suspendidas.",
+    "Administración Interior",
+    "Administración de Deuda Pública y Activos Financieros",
+    "Asuntos Marítimos",
+    "Comisión bicameral designada para estudiar los Actos del Poder Ejecutivo",
+    "Derechos Humanos",
+    "Recursos Hídricos"
+   ],
+   "iniciativas_cd": 60,
+   "iniciativas_total_sil": 60,
+   "asistencia": {
+    "presentes": 159,
+    "total": 166,
+    "breakdown": {
+     "Licencia": 6,
+     "Presente": 148,
+     "Presente Incorporado": 11,
+     "Excusa": 1
+    }
+   }
+  },
+  "Mirna Josefina López Francisco de Matos": {
+   "provincia": "Santiago",
+   "legisladorId": 3634,
+   "sil_nombre": "Mirna Josefina López Francisco de Matos",
+   "sil_provincia": "Santiago",
+   "match_score": 1,
+   "comisiones": [
+    "00674-2025-PLO-SE Comisión bicameral designada para estudiar el proyecto de ley general de salud.",
+    "04711-2024-2028-CD Comisión especial que estudia el proyecto de ley que regula la libertad religiosa de conciencia y de cultos",
+    "05368-2024-2028-CD Comisión especial designada para estudiar el Proyecto de ley que modifica la Ley núm.5-13 sobre Discapacidad en la República Dominicana.",
+    "Economía, Planificación y Desarrollo",
+    "Educación Superior, Ciencia y Tecnología",
+    "Familia",
+    "Salud"
+   ],
+   "iniciativas_cd": 95,
+   "iniciativas_total_sil": 95,
+   "asistencia": {
+    "presentes": 144,
+    "total": 166,
+    "breakdown": {
+     "Excusa": 20,
+     "Presente": 143,
+     "Presente Incorporado": 1,
+     "Ausente": 2
+    }
+   }
+  },
+  "Nelsa Shoraya Suárez Ariza": {
+   "provincia": "Santiago",
+   "legisladorId": 3532,
+   "sil_nombre": "Nelsa Shoraya Suárez Ariza",
+   "sil_provincia": "Santiago",
+   "match_score": 1,
+   "comisiones": [
+    "04691-2024-2028-CD proyecto de resolución de interpelación al señor Celso Marranzini",
+    "Deportes y Recreación",
+    "Derechos Humanos",
+    "Economía, Planificación y Desarrollo",
+    "Energía",
+    "Familia",
+    "Junta Central Electoral"
+   ],
+   "iniciativas_cd": 118,
+   "iniciativas_total_sil": 118,
+   "asistencia": {
+    "presentes": 131,
+    "total": 166,
+    "breakdown": {
+     "Presente": 111,
+     "Excusa": 35,
+     "Presente Incorporado": 20
+    }
+   }
+  },
+  "Nelson Rafael Marmolejos Gil": {
+   "provincia": "Santiago",
+   "legisladorId": 3533,
+   "sil_nombre": "Nelson Rafael Marmolejos Gil",
+   "sil_provincia": "Santiago",
+   "match_score": 1,
+   "comisiones": [
+    "04691-2024-2028-CD proyecto de resolución de interpelación al señor Celso Marranzini",
+    "Asuntos Migratorios",
+    "Defensa",
+    "Defensor del Pueblo",
+    "Interior y Policía",
+    "Relaciones Exteriores y Cooperación Internacional"
+   ],
+   "iniciativas_cd": 59,
+   "iniciativas_total_sil": 59,
+   "asistencia": {
+    "presentes": 161,
+    "total": 166,
+    "breakdown": {
+     "Presente": 155,
+     "Excusa": 5,
+     "Presente Incorporado": 6
+    }
+   }
+  },
+  "Ramón Mayobanex Martínez Durán": {
+   "provincia": "Santiago",
+   "legisladorId": 3540,
+   "sil_nombre": "Ramón Mayobanex Martínez Durán",
+   "sil_provincia": "Santiago",
+   "match_score": 1,
+   "comisiones": [
+    "03313-2024-2028-CD Comisión especial PR investigación abandono La Cruz de Manzanillo.",
+    "05199-2024-2028-CD Comisión Especial designada para el estudio del proyecto de ley que autoriza el pago de deuda por obras ejecutadas sin contrato formal.",
+    "05368-2024-2028-CD Comisión especial designada para estudiar el Proyecto de ley que modifica la Ley núm.5-13 sobre Discapacidad en la República Dominicana.",
+    "05650-2024-2028-CD Comisión Especial proyecto de ley que modifica el artículo 13 de la Ley núm. 118-21, del 31 de mayo de 2021, sobre terminación de obras viales, escuelas, hospitales y presas que se encuentran suspendidas.",
+    "Desarrollo Humano",
+    "Dominicanos en el Exterior",
+    "Justicia",
+    "Trabajo"
+   ],
+   "iniciativas_cd": 43,
+   "iniciativas_total_sil": 43,
+   "asistencia": {
+    "presentes": 142,
+    "total": 166,
+    "breakdown": {
+     "Presente": 126,
+     "Excusa": 19,
+     "Presente Incorporado": 16,
+     "Ausente": 4,
+     "Representación de la Cámara": 1
+    }
+   }
+  },
+  "Robinson de Jesús Díaz Mejía": {
+   "provincia": "Santiago",
+   "legisladorId": 3396,
+   "sil_nombre": "Robinson de Jesús Díaz Mejía",
+   "sil_provincia": "Santiago",
+   "match_score": 1,
+   "comisiones": [
+    "Industria y Comercio",
+    "Interior y Policía",
+    "Medios de Comunicación",
+    "Tecnología de la Información y Comunicación"
+   ],
+   "iniciativas_cd": 28,
+   "iniciativas_total_sil": 28,
+   "asistencia": {
+    "presentes": 154,
+    "total": 166,
+    "breakdown": {
+     "Presente": 143,
+     "Excusa": 9,
+     "Presente Incorporado": 11,
+     "Ausente": 3
+    }
+   }
+  },
+  "Juana Ramona Castillo": {
+   "provincia": "Santiago Rodríguez",
+   "legisladorId": 3698,
+   "sil_nombre": "Juana Ramona Castillo",
+   "sil_provincia": "Santiago Rodríguez",
+   "match_score": 1,
+   "comisiones": [
+    "Agricultura",
+    "Asuntos Fronterizos",
+    "Educación",
+    "Ética"
+   ],
+   "iniciativas_cd": 58,
+   "iniciativas_total_sil": 58,
+   "asistencia": {
+    "presentes": 153,
+    "total": 166,
+    "breakdown": {
+     "Presente": 147,
+     "Presente Incorporado": 6,
+     "Excusa": 13
+    }
+   }
+  },
+  "Nicolás Tolentino López Mercado": {
+   "provincia": "Santiago Rodríguez",
+   "legisladorId": 3411,
+   "sil_nombre": "Nicolás Tolentino López Mercado",
+   "sil_provincia": "Santiago Rodríguez",
+   "match_score": 1,
+   "comisiones": [
+    "03313-2024-2028-CD Comisión especial PR investigación abandono La Cruz de Manzanillo.",
+    "Defensa",
+    "Mipymes",
+    "Ética"
+   ],
+   "iniciativas_cd": 42,
+   "iniciativas_total_sil": 42,
+   "asistencia": {
+    "presentes": 164,
+    "total": 166,
+    "breakdown": {
+     "Presente": 162,
+     "Excusa": 2,
+     "Presente Incorporado": 2
+    }
+   }
+  },
+  "Abelardo Antonio Rutinel Arzeno": {
+   "provincia": "Santo Domingo",
+   "legisladorId": 3680,
+   "sil_nombre": "Abelardo Antonio Rutinel Arzeno",
+   "sil_provincia": "Santo Domingo",
+   "match_score": 1,
+   "comisiones": [
+    "Comisión bicameral designada para estudiar los Actos del Poder Ejecutivo",
+    "Deportes y Recreación",
+    "Energía",
+    "Hacienda",
+    "Inteligencia Artificial",
+    "Tecnología de la Información y Comunicación"
+   ],
+   "iniciativas_cd": 21,
+   "iniciativas_total_sil": 21,
+   "asistencia": {
+    "presentes": 161,
+    "total": 166,
+    "breakdown": {
+     "Excusa": 5,
+     "Presente Incorporado": 9,
+     "Presente": 152
+    }
+   }
+  },
+  "Aldoneris Rafael Adón Duarte": {
+   "provincia": "Santo Domingo",
+   "legisladorId": 3643,
+   "sil_nombre": "Aldoneris Rafael Adón Duarte",
+   "sil_provincia": "Santo Domingo",
+   "match_score": 1,
+   "comisiones": [
+    "05274-2024-2028-CD Comisión Especial designada para el estudio del proyecto de ley que modifica los límites territoriales de Bonao, Juma-Bejucal y La Salvia-Los Quemados, provincia Monseñor Nouel.",
+    "Administración Interior",
+    "Contratos",
+    "Mipymes",
+    "Relaciones Exteriores y Cooperación Internacional"
+   ],
+   "iniciativas_cd": 24,
+   "iniciativas_total_sil": 24,
+   "asistencia": {
+    "presentes": 153,
+    "total": 166,
+    "breakdown": {
+     "Presente": 130,
+     "Presente Incorporado": 23,
+     "Excusa": 13
+    }
+   }
+  },
+  "Alexander Javier Cuevas": {
+   "provincia": "Santo Domingo",
+   "legisladorId": 3565,
+   "sil_nombre": "Alexander Javier Cuevas",
+   "sil_provincia": "Santo Domingo",
+   "match_score": 1,
+   "comisiones": [
+    "Administración Pública",
+    "Asuntos Municipales",
+    "Deportes y Recreación",
+    "Mipymes",
+    "Movilidad y Transporte"
+   ],
+   "iniciativas_cd": 46,
+   "iniciativas_total_sil": 46,
+   "asistencia": {
+    "presentes": 166,
+    "total": 166,
+    "breakdown": {
+     "Presente": 161,
+     "Presente Incorporado": 5
+    }
+   }
+  },
+  "Altagracia de los Santos": {
+   "provincia": "Santo Domingo",
+   "legisladorId": 3640,
+   "sil_nombre": "Altagracia de los Santos",
+   "sil_provincia": "Santo Domingo",
+   "match_score": 1,
+   "comisiones": [
+    "04711-2024-2028-CD Comisión especial que estudia el proyecto de ley que regula la libertad religiosa de conciencia y de cultos",
+    "Educación Superior, Ciencia y Tecnología",
+    "Energía",
+    "Familia",
+    "Reconocimientos"
+   ],
+   "iniciativas_cd": 48,
+   "iniciativas_total_sil": 48,
+   "asistencia": {
+    "presentes": 157,
+    "total": 166,
+    "breakdown": {
+     "Presente": 154,
+     "Excusa": 9,
+     "Presente Incorporado": 3
+    }
+   }
+  },
+  "Amado Antonio Díaz Jiménez": {
+   "provincia": "Santo Domingo",
+   "legisladorId": 3395,
+   "sil_nombre": "Amado Antonio Díaz Jiménez",
+   "sil_provincia": "Santo Domingo",
+   "match_score": 1,
+   "comisiones": [
+    "Administración Interior",
+    "Comisión Coordinadora 2025-2026",
+    "Modernización y Reforma"
+   ],
+   "iniciativas_cd": 48,
+   "iniciativas_total_sil": 48,
+   "asistencia": {
+    "presentes": 165,
+    "total": 166,
+    "breakdown": {
+     "Presente": 165,
+     "Excusa": 1
+    }
+   }
+  },
+  "Ana Adalgiza del Carmen Abreu Polanco": {
+   "provincia": "Santo Domingo",
+   "legisladorId": 3358,
+   "sil_nombre": "Ana Adalgiza del Carmen Abreu Polanco",
+   "sil_provincia": "Santo Domingo",
+   "match_score": 1,
+   "comisiones": [
+    "03800-2024-2028-CD Comisión bicameral para el estudio de los proyectos de ley de Seguridad Social.",
+    "Familia",
+    "Reconocimientos",
+    "Salud",
+    "Seguridad Social"
+   ],
+   "iniciativas_cd": 39,
+   "iniciativas_total_sil": 39,
+   "asistencia": {
+    "presentes": 157,
+    "total": 166,
+    "breakdown": {
+     "Presente": 145,
+     "Excusa": 9,
+     "Presente Incorporado": 12
+    }
+   }
+  },
+  "Anny Veleissy Mambrú Rodríguez": {
+   "provincia": "Santo Domingo",
+   "legisladorId": 3655,
+   "sil_nombre": "Anny Veleissy Mambrú Rodríguez",
+   "sil_provincia": "Santo Domingo",
+   "match_score": 1,
+   "comisiones": [
+    "00674-2025-PLO-SE Comisión bicameral designada para estudiar el proyecto de ley general de salud.",
+    "05137-2024-2028-CD y 05138-2024-2028-CD Comisión Especial designada para el estudio de los proyectos de ley para la superación y reinserción de los adolescentes.",
+    "05368-2024-2028-CD Comisión especial designada para estudiar el Proyecto de ley que modifica la Ley núm.5-13 sobre Discapacidad en la República Dominicana.",
+    "Administración de Deuda Pública y Activos Financieros",
+    "Ciberseguridad",
+    "Salud"
+   ],
+   "iniciativas_cd": 36,
+   "iniciativas_total_sil": 36,
+   "asistencia": {
+    "presentes": 159,
+    "total": 166,
+    "breakdown": {
+     "Presente": 153,
+     "Presente Incorporado": 6,
+     "Excusa": 7
+    }
+   }
+  },
+  "Bolívar Ernesto Valera Ariza": {
+   "provincia": "Santo Domingo",
+   "legisladorId": 3546,
+   "sil_nombre": "Bolívar Ernesto Valera Ariza",
+   "sil_provincia": "Santo Domingo",
+   "match_score": 1,
+   "comisiones": [
+    "Administración de Deuda Pública y Activos Financieros",
+    "Dominicanos en el Exterior",
+    "Familia",
+    "Medios de Comunicación"
+   ],
+   "iniciativas_cd": 40,
+   "iniciativas_total_sil": 40,
+   "asistencia": {
+    "presentes": 111,
+    "total": 166,
+    "breakdown": {
+     "Presente": 93,
+     "Presente Incorporado": 18,
+     "Excusa": 49,
+     "Ausente": 6
+    }
+   }
+  },
+  "Carlos Alberto Pérez Hernández": {
+   "provincia": "Santo Domingo",
+   "legisladorId": 3704,
+   "sil_nombre": "Carlos Alberto Pérez Hernández",
+   "sil_provincia": "Santo Domingo",
+   "match_score": 1,
+   "comisiones": [
+    "Asuntos Municipales",
+    "Recursos Hídricos",
+    "Vivienda, Hábitat y Edificaciones"
+   ],
+   "iniciativas_cd": 68,
+   "iniciativas_total_sil": 68,
+   "asistencia": {
+    "presentes": 157,
+    "total": 166,
+    "breakdown": {
+     "Presente": 155,
+     "Excusa": 7,
+     "Presente Incorporado": 2,
+     "Ausente": 2
+    }
+   }
+  },
+  "Carlos José Gil Rodríguez": {
+   "provincia": "Santo Domingo",
+   "legisladorId": 3455,
+   "sil_nombre": "Carlos José Gil Rodríguez",
+   "sil_provincia": "Santo Domingo",
+   "match_score": 1,
+   "comisiones": [
+    "Contratos",
+    "Ministerio Público",
+    "Movilidad y Transporte",
+    "Presupuesto, Patrimonio y Contabilidad"
+   ],
+   "iniciativas_cd": 22,
+   "iniciativas_total_sil": 22,
+   "asistencia": {
+    "presentes": 102,
+    "total": 166,
+    "breakdown": {
+     "Ausente": 31,
+     "Presente Incorporado": 26,
+     "Excusa": 25,
+     "Presente": 76,
+     "Licencia": 8
+    }
+   }
+  },
+  "Damarys Vásquez Castillo": {
+   "provincia": "Santo Domingo",
+   "legisladorId": 3426,
+   "sil_nombre": "Damarys Vásquez Castillo",
+   "sil_provincia": "Santo Domingo",
+   "match_score": 1,
+   "comisiones": [
+    "00674-2025-PLO-SE Comisión bicameral designada para estudiar el proyecto de ley general de salud.",
+    "05274-2024-2028-CD Comisión Especial designada para el estudio del proyecto de ley que modifica los límites territoriales de Bonao, Juma-Bejucal y La Salvia-Los Quemados, provincia Monseñor Nouel.",
+    "05405-2024-2028-CD Comisión especial designada para el estudio del Proyecto de ley de los cuerpos de bomberos de la República Dominicana.",
+    "Asuntos de Equidad de Género",
+    "Familia",
+    "Salud"
+   ],
+   "iniciativas_cd": 49,
+   "iniciativas_total_sil": 49,
+   "asistencia": {
+    "presentes": 164,
+    "total": 166,
+    "breakdown": {
+     "Presente": 161,
+     "Presente Incorporado": 3,
+     "Representación de la Cámara": 1,
+     "Ausente": 1
+    }
+   }
+  },
+  "Dellys Dumidia Féliz Rodríguez": {
+   "provincia": "Santo Domingo",
+   "legisladorId": 3688,
+   "sil_nombre": "Dellys Dumidia Féliz Rodríguez",
+   "sil_provincia": "Santo Domingo",
+   "match_score": 1,
+   "comisiones": [
+    "03465-2024-2028-CD Comisión Especial para estudiar el proyecto de resolución que solicita investigar la construcción de un acueducto para Haina dentro de un polideportivo.",
+    "05218-2024-2028-CD Comisión especial designada para estudiar el proyecto de ley de amnistía para el registro de armas de fuego.",
+    "05274-2024-2028-CD Comisión Especial designada para el estudio del proyecto de ley que modifica los límites territoriales de Bonao, Juma-Bejucal y La Salvia-Los Quemados, provincia Monseñor Nouel.",
+    "Administración de Deuda Pública y Activos Financieros",
+    "Derechos Humanos",
+    "Desarrollo Humano",
+    "Hacienda",
+    "Presupuesto, Patrimonio y Contabilidad"
+   ],
+   "iniciativas_cd": 33,
+   "iniciativas_total_sil": 33,
+   "asistencia": {
+    "presentes": 137,
+    "total": 166,
+    "breakdown": {
+     "Excusa": 22,
+     "Presente": 122,
+     "Presente Incorporado": 15,
+     "Ausente": 7
+    }
+   }
+  },
+  "Diómedes Omar Rojas": {
+   "provincia": "Santo Domingo",
+   "legisladorId": 3518,
+   "sil_nombre": "Diómedes Omar Rojas",
+   "sil_provincia": "Santo Domingo",
+   "match_score": 1,
+   "comisiones": [
+    "00674-2025-PLO-SE Comisión bicameral designada para estudiar el proyecto de ley general de salud.",
+    "Cultura",
+    "Derechos Humanos",
+    "Desarrollo Humano",
+    "Salud"
+   ],
+   "iniciativas_cd": 53,
+   "iniciativas_total_sil": 53,
+   "asistencia": {
+    "presentes": 162,
+    "total": 166,
+    "breakdown": {
+     "Presente": 161,
+     "Excusa": 4,
+     "Presente Incorporado": 1
+    }
+   }
+  },
+  "Domingo Eusebio de León Mascaró": {
+   "provincia": "Santo Domingo",
+   "legisladorId": 3389,
+   "sil_nombre": "Domingo Eusebio de León Mascaró",
+   "sil_provincia": "Santo Domingo",
+   "match_score": 1,
+   "comisiones": [
+    "Administración Pública",
+    "Defensa",
+    "Interior y Policía"
+   ],
+   "iniciativas_cd": 17,
+   "iniciativas_total_sil": 17,
+   "asistencia": {
+    "presentes": 102,
+    "total": 166,
+    "breakdown": {
+     "Excusa": 56,
+     "Presente": 86,
+     "Presente Incorporado": 16,
+     "Ausente": 8
+    }
+   }
+  },
+  "Eduviges María Bautista Gomera": {
+   "provincia": "Santo Domingo",
+   "legisladorId": 3487,
+   "sil_nombre": "Eduviges María Bautista Gomera",
+   "sil_provincia": "Santo Domingo",
+   "match_score": 1,
+   "comisiones": [
+    "Administración Interior",
+    "Asuntos de Equidad de Género",
+    "Comisión Coordinadora 2025-2026",
+    "Comisión bicameral designada para estudiar los Actos del Poder Ejecutivo",
+    "Industria y Comercio",
+    "Medio Ambiente y Recursos Naturales"
+   ],
+   "iniciativas_cd": 47,
+   "iniciativas_total_sil": 47,
+   "asistencia": {
+    "presentes": 157,
+    "total": 166,
+    "breakdown": {
+     "Presente": 153,
+     "Presente Incorporado": 4,
+     "Excusa": 9
+    }
+   }
+  },
+  "Enriqueta Rojas Javier": {
+   "provincia": "Santo Domingo",
+   "legisladorId": 3489,
+   "sil_nombre": "Enriqueta Rojas Javier",
+   "sil_provincia": "Santo Domingo",
+   "match_score": 1,
+   "comisiones": [
+    "Asuntos Marítimos",
+    "Contratos",
+    "Desarrollo Humano",
+    "Hacienda",
+    "Presupuesto, Patrimonio y Contabilidad"
+   ],
+   "iniciativas_cd": 38,
+   "iniciativas_total_sil": 38,
+   "asistencia": {
+    "presentes": 138,
+    "total": 166,
+    "breakdown": {
+     "Presente": 112,
+     "Presente Incorporado": 26,
+     "Excusa": 22,
+     "Ausente": 6
+    }
+   }
+  },
+  "Eudy Maldonado de la Cruz": {
+   "provincia": "Santo Domingo",
+   "legisladorId": 3619,
+   "sil_nombre": "Eudy Maldonado de la Cruz",
+   "sil_provincia": "Santo Domingo",
+   "match_score": 1,
+   "comisiones": [
+    "05218-2024-2028-CD Comisión especial designada para estudiar el proyecto de ley de amnistía para el registro de armas de fuego.",
+    "Ciberseguridad",
+    "Defensa",
+    "Juventud",
+    "Mipymes",
+    "Recursos Hídricos"
+   ],
+   "iniciativas_cd": 18,
+   "iniciativas_total_sil": 18,
+   "asistencia": {
+    "presentes": 145,
+    "total": 166,
+    "breakdown": {
+     "Presente": 139,
+     "Excusa": 11,
+     "Ausente": 10,
+     "Presente Incorporado": 6
+    }
+   }
+  },
+  "Félix Manuel Encarnación Montero": {
+   "provincia": "Santo Domingo",
+   "legisladorId": 3690,
+   "sil_nombre": "Félix Manuel Encarnación Montero",
+   "sil_provincia": "Santo Domingo",
+   "match_score": 1,
+   "comisiones": [
+    "Asuntos Marítimos",
+    "Economía, Planificación y Desarrollo",
+    "Movilidad y Transporte",
+    "Obras Públicas y Comunicaciones"
+   ],
+   "iniciativas_cd": 17,
+   "iniciativas_total_sil": 17,
+   "asistencia": {
+    "presentes": 163,
+    "total": 166,
+    "breakdown": {
+     "Presente Incorporado": 9,
+     "Excusa": 1,
+     "Presente": 154,
+     "Ausente": 2
+    }
+   }
+  },
+  "Franklin Martínez": {
+   "provincia": "Santo Domingo",
+   "legisladorId": 3492,
+   "sil_nombre": "Franklin Martínez",
+   "sil_provincia": "Santo Domingo",
+   "match_score": 1,
+   "comisiones": [
+    "05218-2024-2028-CD Comisión especial designada para estudiar el proyecto de ley de amnistía para el registro de armas de fuego.",
+    "Deportes y Recreación",
+    "Interior y Policía",
+    "Relaciones Exteriores y Cooperación Internacional"
+   ],
+   "iniciativas_cd": 24,
+   "iniciativas_total_sil": 24,
+   "asistencia": {
+    "presentes": 148,
+    "total": 166,
+    "breakdown": {
+     "Presente": 134,
+     "Presente Incorporado": 14,
+     "Excusa": 2,
+     "Ausente": 16
+    }
+   }
+  },
+  "Heriberto Aracena Montilla": {
+   "provincia": "Santo Domingo",
+   "legisladorId": 3464,
+   "sil_nombre": "Heriberto Aracena Montilla",
+   "sil_provincia": "Santo Domingo",
+   "match_score": 1,
+   "comisiones": [
+    "05218-2024-2028-CD Comisión especial designada para estudiar el proyecto de ley de amnistía para el registro de armas de fuego.",
+    "Defensa",
+    "Deportes y Recreación",
+    "Interior y Policía",
+    "Modernización y Reforma",
+    "Movilidad y Transporte"
+   ],
+   "iniciativas_cd": 37,
+   "iniciativas_total_sil": 37,
+   "asistencia": {
+    "presentes": 164,
+    "total": 166,
+    "breakdown": {
+     "Presente": 148,
+     "Presente Incorporado": 16,
+     "Excusa": 1,
+     "Ausente": 1
+    }
+   }
+  },
+  "Ignacio Aracena": {
+   "provincia": "Santo Domingo",
+   "legisladorId": 3465,
+   "sil_nombre": "Ignacio Aracena",
+   "sil_provincia": "Santo Domingo",
+   "match_score": 1,
+   "comisiones": [
+    "Interior y Policía",
+    "Medios de Comunicación",
+    "Relaciones Exteriores y Cooperación Internacional",
+    "Tecnología de la Información y Comunicación"
+   ],
+   "iniciativas_cd": 55,
+   "iniciativas_total_sil": 55,
+   "asistencia": {
+    "presentes": 147,
+    "total": 166,
+    "breakdown": {
+     "Presente": 141,
+     "Presente Incorporado": 6,
+     "Excusa": 15,
+     "Ausente": 4
+    }
+   }
+  },
+  "Indhira Shary de Jesús de Morla": {
+   "provincia": "Santo Domingo",
+   "legisladorId": 3621,
+   "sil_nombre": "Indhira Shary de Jesús de Morla",
+   "sil_provincia": "Santo Domingo",
+   "match_score": 1,
+   "comisiones": [
+    "Energía",
+    "Recursos Hídricos",
+    "Trabajo",
+    "Vivienda, Hábitat y Edificaciones"
+   ],
+   "iniciativas_cd": 32,
+   "iniciativas_total_sil": 32,
+   "asistencia": {
+    "presentes": 158,
+    "total": 166,
+    "breakdown": {
+     "Presente": 143,
+     "Presente Incorporado": 15,
+     "Excusa": 8
+    }
+   }
+  },
+  "Jesús Manuel Sánchez Martínez": {
+   "provincia": "Santo Domingo",
+   "legisladorId": 3467,
+   "sil_nombre": "Jesús Manuel Sánchez Martínez",
+   "sil_provincia": "Santo Domingo",
+   "match_score": 1,
+   "comisiones": [
+    "Asuntos Municipales",
+    "Interior y Policía",
+    "Justicia",
+    "Medios de Comunicación",
+    "Ministerio Público"
+   ],
+   "iniciativas_cd": 38,
+   "iniciativas_total_sil": 38,
+   "asistencia": {
+    "presentes": 162,
+    "total": 166,
+    "breakdown": {
+     "Presente": 154,
+     "Presente Incorporado": 8,
+     "Representación de la Cámara": 1,
+     "Excusa": 3
+    }
+   }
+  },
+  "Jheyson Amir García Castillo": {
+   "provincia": "Santo Domingo",
+   "legisladorId": 3671,
+   "sil_nombre": "Jheyson Amir García Castillo",
+   "sil_provincia": "Santo Domingo",
+   "match_score": 1,
+   "comisiones": [
+    "Educación",
+    "Energía",
+    "Industria y Comercio",
+    "Obras Públicas y Comunicaciones",
+    "Tecnología de la Información y Comunicación"
+   ],
+   "iniciativas_cd": 47,
+   "iniciativas_total_sil": 47,
+   "asistencia": {
+    "presentes": 129,
+    "total": 166,
+    "breakdown": {
+     "Presente": 106,
+     "Presente Incorporado": 23,
+     "Excusa": 25,
+     "Ausente": 12
+    }
+   }
+  },
+  "Jorge Frías": {
+   "provincia": "Santo Domingo",
+   "legisladorId": 1466,
+   "sil_nombre": "Jorge Frías",
+   "sil_provincia": "Santo Domingo",
+   "match_score": 1,
+   "comisiones": [
+    "04711-2024-2028-CD Comisión especial que estudia el proyecto de ley que regula la libertad religiosa de conciencia y de cultos",
+    "Comisión bicameral designada para estudiar los Actos del Poder Ejecutivo",
+    "Contratos",
+    "Hacienda"
+   ],
+   "iniciativas_cd": 13,
+   "iniciativas_total_sil": 13,
+   "asistencia": {
+    "presentes": 165,
+    "total": 166,
+    "breakdown": {
+     "Presente": 165,
+     "Excusa": 1
+    }
+   }
+  },
+  "José Moisés Ortiz López": {
+   "provincia": "Santo Domingo",
+   "legisladorId": 3527,
+   "sil_nombre": "José Moisés Ortiz López",
+   "sil_provincia": "Santo Domingo",
+   "match_score": 1,
+   "comisiones": [
+    "Cámara de Cuentas",
+    "Medio Ambiente y Recursos Naturales",
+    "Movilidad y Transporte",
+    "Obras Públicas y Comunicaciones",
+    "Recursos Hídricos"
+   ],
+   "iniciativas_cd": 43,
+   "iniciativas_total_sil": 43,
+   "asistencia": {
+    "presentes": 162,
+    "total": 166,
+    "breakdown": {
+     "Presente": 161,
+     "Presente Incorporado": 1,
+     "Ausente": 3,
+     "Excusa": 1
+    }
+   }
+  },
+  "Juan Carlos Echavarría Milané": {
+   "provincia": "Santo Domingo",
+   "legisladorId": 3499,
+   "sil_nombre": "Juan Carlos Echavarría Milané",
+   "sil_provincia": "Santo Domingo",
+   "match_score": 1,
+   "comisiones": [
+    "Contratos",
+    "Defensa",
+    "Vivienda, Hábitat y Edificaciones"
+   ],
+   "iniciativas_cd": 28,
+   "iniciativas_total_sil": 28,
+   "asistencia": {
+    "presentes": 142,
+    "total": 166,
+    "breakdown": {
+     "Excusa": 22,
+     "Presente Incorporado": 18,
+     "Presente": 124,
+     "Ausente": 2
+    }
+   }
+  },
+  "Juan José Rojas Franco": {
+   "provincia": "Santo Domingo",
+   "legisladorId": 3558,
+   "sil_nombre": "Juan José Rojas Franco",
+   "sil_provincia": "Santo Domingo",
+   "match_score": 1,
+   "comisiones": [
+    "Comisión bicameral designada para estudiar los Actos del Poder Ejecutivo",
+    "Cámara de Cuentas",
+    "Defensa",
+    "Deportes y Recreación",
+    "Economía, Planificación y Desarrollo",
+    "Junta Central Electoral"
+   ],
+   "iniciativas_cd": 101,
+   "iniciativas_total_sil": 101,
+   "asistencia": {
+    "presentes": 151,
+    "total": 166,
+    "breakdown": {
+     "Presente": 147,
+     "Presente Incorporado": 4,
+     "Excusa": 15
+    }
+   }
+  },
+  "Junior Muñoz Olivo": {
+   "provincia": "Santo Domingo",
+   "legisladorId": 3628,
+   "sil_nombre": "Junior Muñoz Olivo",
+   "sil_provincia": "Santo Domingo",
+   "match_score": 1,
+   "comisiones": [
+    "Asuntos de Equidad de Género",
+    "Contratos",
+    "Presidencia de la República",
+    "Tecnología de la Información y Comunicación"
+   ],
+   "iniciativas_cd": 46,
+   "iniciativas_total_sil": 46,
+   "asistencia": {
+    "presentes": 166,
+    "total": 166,
+    "breakdown": {
+     "Presente": 158,
+     "Presente Incorporado": 8
+    }
+   }
+  },
+  "Kinsberly Taveras Duarte": {
+   "provincia": "Santo Domingo",
+   "legisladorId": 3629,
+   "sil_nombre": "Kinsberly Taveras Duarte",
+   "sil_provincia": "Santo Domingo",
+   "match_score": 1,
+   "comisiones": [
+    "04691-2024-2028-CD proyecto de resolución de interpelación al señor Celso Marranzini",
+    "Asuntos Mineros",
+    "Asuntos Municipales",
+    "Energía",
+    "Hacienda"
+   ],
+   "iniciativas_cd": 46,
+   "iniciativas_total_sil": 46,
+   "asistencia": {
+    "presentes": 127,
+    "total": 166,
+    "breakdown": {
+     "Presente": 100,
+     "Presente Incorporado": 27,
+     "Excusa": 30,
+     "Ausente": 9
+    }
+   }
+  },
+  "Lucila Leonarda de León Martínez": {
+   "provincia": "Santo Domingo",
+   "legisladorId": 1555,
+   "sil_nombre": "Lucila Leonarda de León Martínez",
+   "sil_provincia": "Santo Domingo",
+   "match_score": 1,
+   "comisiones": [
+    "Comisión bicameral designada para estudiar los Actos del Poder Ejecutivo",
+    "Contratos",
+    "Derechos Humanos",
+    "Dominicanos en el Exterior",
+    "Ética"
+   ],
+   "iniciativas_cd": 43,
+   "iniciativas_total_sil": 43,
+   "asistencia": {
+    "presentes": 164,
+    "total": 166,
+    "breakdown": {
+     "Presente": 162,
+     "Excusa": 2,
+     "Presente Incorporado": 2
+    }
+   }
+  },
+  "María Elisa Suárez Alcalá": {
+   "provincia": "Santo Domingo",
+   "legisladorId": 3531,
+   "sil_nombre": "María Elisa Suárez Alcalá",
+   "sil_provincia": "Santo Domingo",
+   "match_score": 1,
+   "comisiones": [
+    "Cultura",
+    "Desarrollo Humano",
+    "Educación",
+    "Educación Superior, Ciencia y Tecnología"
+   ],
+   "iniciativas_cd": 56,
+   "iniciativas_total_sil": 56,
+   "asistencia": {
+    "presentes": 138,
+    "total": 166,
+    "breakdown": {
+     "Presente": 130,
+     "Presente Incorporado": 8,
+     "Ausente": 7,
+     "Excusa": 21
+    }
+   }
+  },
+  "Melvin Alexis Lara Melo": {
+   "provincia": "Santo Domingo",
+   "legisladorId": 3407,
+   "sil_nombre": "Melvin Alexis Lara Melo",
+   "sil_provincia": "Santo Domingo",
+   "match_score": 1,
+   "comisiones": [
+    "Asuntos Cooperativos",
+    "Defensa",
+    "Movilidad y Transporte",
+    "Ética"
+   ],
+   "iniciativas_cd": 46,
+   "iniciativas_total_sil": 46,
+   "asistencia": {
+    "presentes": 165,
+    "total": 166,
+    "breakdown": {
+     "Presente": 115,
+     "Presente Incorporado": 50,
+     "Ausente": 1
+    }
+   }
+  },
+  "Miguel Alberto Bogaert Marra": {
+   "provincia": "Santo Domingo",
+   "legisladorId": 3472,
+   "sil_nombre": "Miguel Alberto Bogaert Marra",
+   "sil_provincia": "Santo Domingo",
+   "match_score": 1,
+   "comisiones": [
+    "Asuntos Marítimos",
+    "Contratos",
+    "Obras Públicas y Comunicaciones",
+    "Reconocimientos"
+   ],
+   "iniciativas_cd": 35,
+   "iniciativas_total_sil": 35,
+   "asistencia": {
+    "presentes": 147,
+    "total": 166,
+    "breakdown": {
+     "Excusa": 11,
+     "Presente": 142,
+     "Presente Incorporado": 5,
+     "Ausente": 8
+    }
+   }
+  },
+  "Miguel Eduardo Espinal Muñoz": {
+   "provincia": "Santo Domingo",
+   "legisladorId": 2791,
+   "sil_nombre": "Miguel Eduardo Espinal Muñoz",
+   "sil_provincia": "Santo Domingo",
+   "match_score": 1,
+   "comisiones": [
+    "04691-2024-2028-CD proyecto de resolución de interpelación al señor Celso Marranzini",
+    "05199-2024-2028-CD Comisión Especial designada para el estudio del proyecto de ley que autoriza el pago de deuda por obras ejecutadas sin contrato formal.",
+    "05650-2024-2028-CD Comisión Especial proyecto de ley que modifica el artículo 13 de la Ley núm. 118-21, del 31 de mayo de 2021, sobre terminación de obras viales, escuelas, hospitales y presas que se encuentran suspendidas.",
+    "Administración de Deuda Pública y Activos Financieros",
+    "Comisión bicameral designada para estudiar los Actos del Poder Ejecutivo",
+    "Cámara de Cuentas",
+    "Derechos Humanos",
+    "Obras Públicas y Comunicaciones"
+   ],
+   "iniciativas_cd": 10,
+   "iniciativas_total_sil": 10,
+   "asistencia": {
+    "presentes": 156,
+    "total": 166,
+    "breakdown": {
+     "Presente": 140,
+     "Presente Incorporado": 16,
+     "Excusa": 9,
+     "Ausente": 1
+    }
+   }
+  },
+  "Patricia Alexandra Núñez Rivera": {
+   "provincia": "Santo Domingo",
+   "legisladorId": 3679,
+   "sil_nombre": "Patricia Alexandra Núñez Rivera",
+   "sil_provincia": "Santo Domingo",
+   "match_score": 1,
+   "comisiones": [
+    "03800-2024-2028-CD Comisión bicameral para el estudio de los proyectos de ley de Seguridad Social.",
+    "05137-2024-2028-CD y 05138-2024-2028-CD Comisión Especial designada para el estudio de los proyectos de ley para la superación y reinserción de los adolescentes.",
+    "Asuntos Mineros",
+    "Familia",
+    "Seguridad Social",
+    "Trabajo"
+   ],
+   "iniciativas_cd": 75,
+   "iniciativas_total_sil": 75,
+   "asistencia": {
+    "presentes": 157,
+    "total": 166,
+    "breakdown": {
+     "Presente": 148,
+     "Presente Incorporado": 9,
+     "Excusa": 8,
+     "Ausente": 1
+    }
+   }
+  },
+  "Pedro Julio Alcántara": {
+   "provincia": "Santo Domingo",
+   "legisladorId": 3507,
+   "sil_nombre": "Pedro Julio Alcántara",
+   "sil_provincia": "Santo Domingo",
+   "match_score": 1,
+   "comisiones": [
+    "03800-2024-2028-CD Comisión bicameral para el estudio de los proyectos de ley de Seguridad Social.",
+    "Cámara de Cuentas",
+    "Seguridad Social",
+    "Trabajo",
+    "Vivienda, Hábitat y Edificaciones"
+   ],
+   "iniciativas_cd": 23,
+   "iniciativas_total_sil": 23,
+   "asistencia": {
+    "presentes": 134,
+    "total": 166,
+    "breakdown": {
+     "Presente": 131,
+     "Ausente": 4,
+     "Excusa": 28,
+     "Presente Incorporado": 3
+    }
+   }
+  },
+  "Rafael Augusto Castillo Casado": {
+   "provincia": "Santo Domingo",
+   "legisladorId": 3479,
+   "sil_nombre": "Rafael Augusto Castillo Casado",
+   "sil_provincia": "Santo Domingo",
+   "match_score": 1,
+   "comisiones": [
+    "03800-2024-2028-CD Comisión bicameral para el estudio de los proyectos de ley de Seguridad Social.",
+    "05199-2024-2028-CD Comisión Especial designada para el estudio del proyecto de ley que autoriza el pago de deuda por obras ejecutadas sin contrato formal.",
+    "05650-2024-2028-CD Comisión Especial proyecto de ley que modifica el artículo 13 de la Ley núm. 118-21, del 31 de mayo de 2021, sobre terminación de obras viales, escuelas, hospitales y presas que se encuentran suspendidas.",
+    "Administración Interior",
+    "Comisión Coordinadora 2025-2026",
+    "Hacienda",
+    "Seguridad Social"
+   ],
+   "iniciativas_cd": 54,
+   "iniciativas_total_sil": 54,
+   "asistencia": {
+    "presentes": 150,
+    "total": 166,
+    "breakdown": {
+     "Presente": 141,
+     "Presente Incorporado": 9,
+     "Excusa": 15,
+     "Ausente": 1
+    }
+   }
+  },
+  "Rafaela González González": {
+   "provincia": "Santo Domingo",
+   "legisladorId": 3681,
+   "sil_nombre": "Rafaela González González",
+   "sil_provincia": "Santo Domingo",
+   "match_score": 1,
+   "comisiones": [
+    "04711-2024-2028-CD Comisión especial que estudia el proyecto de ley que regula la libertad religiosa de conciencia y de cultos",
+    "Administración Pública",
+    "Asuntos Migratorios",
+    "Educación Superior, Ciencia y Tecnología",
+    "Presidencia de la República",
+    "Trabajo"
+   ],
+   "iniciativas_cd": 58,
+   "iniciativas_total_sil": 58,
+   "asistencia": {
+    "presentes": 156,
+    "total": 166,
+    "breakdown": {
+     "Presente": 155,
+     "Excusa": 6,
+     "Presente Incorporado": 1,
+     "Licencia": 3,
+     "Ausente": 1
+    }
+   }
+  },
+  "Tayluma Monserrat Calderón Fortuna": {
+   "provincia": "Santo Domingo",
+   "legisladorId": 3682,
+   "sil_nombre": "Tayluma Monserrat Calderón Fortuna",
+   "sil_provincia": "Santo Domingo",
+   "match_score": 1,
+   "comisiones": [
+    "03800-2024-2028-CD Comisión bicameral para el estudio de los proyectos de ley de Seguridad Social.",
+    "05405-2024-2028-CD Comisión especial designada para el estudio del Proyecto de ley de los cuerpos de bomberos de la República Dominicana.",
+    "Asuntos Municipales",
+    "Inteligencia Artificial",
+    "Juventud",
+    "Relaciones Exteriores y Cooperación Internacional",
+    "Seguridad Social"
+   ],
+   "iniciativas_cd": 83,
+   "iniciativas_total_sil": 83,
+   "asistencia": {
+    "presentes": 155,
+    "total": 166,
+    "breakdown": {
+     "Presente": 129,
+     "Presente Incorporado": 26,
+     "Excusa": 8,
+     "Ausente": 3
+    }
+   }
+  },
+  "Víctor Virgilio Jiménez": {
+   "provincia": "Santo Domingo",
+   "legisladorId": 3683,
+   "sil_nombre": "Víctor Virgilio Jiménez",
+   "sil_provincia": "Santo Domingo",
+   "match_score": 1,
+   "comisiones": [
+    "Agricultura",
+    "Familia"
+   ],
+   "iniciativas_cd": 9,
+   "iniciativas_total_sil": 9,
+   "asistencia": {
+    "presentes": 153,
+    "total": 166,
+    "breakdown": {
+     "Presente": 145,
+     "Presente Incorporado": 8,
+     "Excusa": 9,
+     "Ausente": 4
+    }
+   }
+  },
+  "Yancarlos Simanca Ferreras": {
+   "provincia": "Santo Domingo",
+   "legisladorId": 3653,
+   "sil_nombre": "Yancarlos Simanca Ferreras",
+   "sil_provincia": "Santo Domingo",
+   "match_score": 1,
+   "comisiones": [
+    "Comisión bicameral designada para estudiar los Actos del Poder Ejecutivo",
+    "Cultura",
+    "Energía",
+    "Medio Ambiente y Recursos Naturales",
+    "Movilidad y Transporte"
+   ],
+   "iniciativas_cd": 40,
+   "iniciativas_total_sil": 40,
+   "asistencia": {
+    "presentes": 162,
+    "total": 166,
+    "breakdown": {
+     "Presente": 156,
+     "Presente Incorporado": 6,
+     "Ausente": 1,
+     "Excusa": 3
+    }
+   }
+  },
+  "Ycelmary Brito O´Neal": {
+   "provincia": "Santo Domingo",
+   "legisladorId": 3564,
+   "sil_nombre": "Ycelmary Brito O´Neal",
+   "sil_provincia": "Santo Domingo",
+   "match_score": 1,
+   "comisiones": [
+    "00674-2025-PLO-SE Comisión bicameral designada para estudiar el proyecto de ley general de salud.",
+    "Asuntos Migratorios",
+    "Medios de Comunicación",
+    "Relaciones Exteriores y Cooperación Internacional",
+    "Turismo"
+   ],
+   "iniciativas_cd": 59,
+   "iniciativas_total_sil": 59,
+   "asistencia": {
+    "presentes": 154,
+    "total": 166,
+    "breakdown": {
+     "Presente": 120,
+     "Presente Incorporado": 34,
+     "Excusa": 11,
+     "Ausente": 1
+    }
+   }
+  },
+  "José Altagracia Valenzuela Arias": {
+   "provincia": "Valverde",
+   "legisladorId": 3697,
+   "sil_nombre": "José Altagracia Valenzuela Arias",
+   "sil_provincia": "Valverde",
+   "match_score": 1,
+   "comisiones": [
+    "03313-2024-2028-CD Comisión especial PR investigación abandono La Cruz de Manzanillo.",
+    "Asuntos Fronterizos",
+    "Interior y Policía",
+    "Medios de Comunicación",
+    "Ministerio Público"
+   ],
+   "iniciativas_cd": 29,
+   "iniciativas_total_sil": 29,
+   "asistencia": {
+    "presentes": 157,
+    "total": 166,
+    "breakdown": {
+     "Presente": 156,
+     "Excusa": 9,
+     "Presente Incorporado": 1
+    }
+   }
+  },
+  "María de los Ángeles Rodríguez Bonseñor": {
+   "provincia": "Valverde",
+   "legisladorId": 3630,
+   "sil_nombre": "María de los Ángeles Rodríguez Bonseñor",
+   "sil_provincia": "Valverde",
+   "match_score": 1,
+   "comisiones": [
+    "05137-2024-2028-CD y 05138-2024-2028-CD Comisión Especial designada para el estudio de los proyectos de ley para la superación y reinserción de los adolescentes.",
+    "Deportes y Recreación",
+    "Economía, Planificación y Desarrollo",
+    "Educación",
+    "Mipymes",
+    "Vivienda, Hábitat y Edificaciones"
+   ],
+   "iniciativas_cd": 53,
+   "iniciativas_total_sil": 53,
+   "asistencia": {
+    "presentes": 161,
+    "total": 166,
+    "breakdown": {
+     "Presente": 160,
+     "Presente Incorporado": 1,
+     "Ausente": 1,
+     "Excusa": 3,
+     "Representación de la Cámara": 1
+    }
+   }
+  },
+  "Rubén Darío Peñaló Torres": {
+   "provincia": "Valverde",
+   "legisladorId": 1514,
+   "sil_nombre": "Rubén Darío Peñaló Torres",
+   "sil_provincia": "Valverde",
+   "match_score": 1,
+   "comisiones": [
+    "03313-2024-2028-CD Comisión especial PR investigación abandono La Cruz de Manzanillo.",
+    "Agricultura",
+    "Asuntos Fronterizos",
+    "Justicia",
+    "Ministerio Público",
+    "Modernización y Reforma"
+   ],
+   "iniciativas_cd": 21,
+   "iniciativas_total_sil": 21,
+   "asistencia": {
+    "presentes": 166,
+    "total": 166,
+    "breakdown": {
+     "Presente": 165,
+     "Presente Incorporado": 1
+    }
+   }
+  }
+ }
+}
