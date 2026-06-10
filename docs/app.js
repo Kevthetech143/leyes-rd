@@ -158,6 +158,12 @@ function sueldoDeCargo(cargo) {
             mes: "mayo 2026",
             fuente: "nómina de la Cámara de Diputados",
         };
+    if (c.startsWith("gobernador"))
+        return {
+            monto: "RD$150,000",
+            mes: "abril 2026",
+            fuente: "nómina de personal fijo del Ministerio de Interior y Policía",
+        };
     return null;
 }
 function iniciales(nombre) {
@@ -225,7 +231,7 @@ function renderLider(l) {
     // attendance/bill stats instead of leaving the card looking unfinished.
     const cargoLower = l.cargo.toLowerCase();
     if (cargoLower.startsWith("gobernador")) {
-        block.append(el("p", "nota-fuente", "El gobernador no hace leyes ni vota en el Congreso, por eso no tiene asistencia ni iniciativas. Su sueldo no sale en una nómina central pública; estamos buscando la oficial."));
+        block.append(el("p", "nota-fuente", "El gobernador no hace leyes ni vota en el Congreso, por eso no tiene asistencia ni iniciativas. Lo nombra la Presidencia, y su sueldo sale en la nómina del Ministerio de Interior y Policía."));
     }
     else if (cargoLower.startsWith("alcalde")) {
         block.append(el("p", "nota-fuente", "El alcalde trabaja en el ayuntamiento, no en el Congreso, por eso no tiene asistencia ni iniciativas de leyes. Su sueldo lo publica cada ayuntamiento; estamos reuniendo esas nóminas."));

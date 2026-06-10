@@ -249,6 +249,9 @@ function esElecto(cargo: string): boolean {
 // (nómina) — not a guess. Senators: Senate nómina de sueldos fijos, abril 2026
 // (transparencia.senadord.gob.do), RD$320,000. Deputies: Cámara nómina de mayo
 // 2026 (camaradediputados.gob.do), RD$320,000 gross. Same base for both roles.
+// Governors: MIP nómina de personal fijo de abril 2026 — the 31 provincial
+// governors all appear with the cargo GOBERNADOR/GOBERNADOR CIVIL at exactly
+// RD$150,000 gross (uniform, verified row by row in the official spreadsheet).
 // Side benefits are NOT included — only the base salary on the nómina.
 interface SueldoRol {
   monto: string;
@@ -268,6 +271,12 @@ function sueldoDeCargo(cargo: string): SueldoRol | null {
       monto: "RD$320,000",
       mes: "mayo 2026",
       fuente: "nómina de la Cámara de Diputados",
+    };
+  if (c.startsWith("gobernador"))
+    return {
+      monto: "RD$150,000",
+      mes: "abril 2026",
+      fuente: "nómina de personal fijo del Ministerio de Interior y Policía",
     };
   return null;
 }
@@ -359,7 +368,7 @@ function renderLider(l: Lider): HTMLElement {
   const cargoLower = l.cargo.toLowerCase();
   if (cargoLower.startsWith("gobernador")) {
     block.append(el("p", "nota-fuente",
-      "El gobernador no hace leyes ni vota en el Congreso, por eso no tiene asistencia ni iniciativas. Su sueldo no sale en una nómina central pública; estamos buscando la oficial."));
+      "El gobernador no hace leyes ni vota en el Congreso, por eso no tiene asistencia ni iniciativas. Lo nombra la Presidencia, y su sueldo sale en la nómina del Ministerio de Interior y Policía."));
   } else if (cargoLower.startsWith("alcalde")) {
     block.append(el("p", "nota-fuente",
       "El alcalde trabaja en el ayuntamiento, no en el Congreso, por eso no tiene asistencia ni iniciativas de leyes. Su sueldo lo publica cada ayuntamiento; estamos reuniendo esas nóminas."));
