@@ -51,6 +51,18 @@
         <p class="hero-sub">Aquí ves quién te representa, qué leyes se hacen y a dónde va el dinero del país. Sin enredos. Toca una tarjeta para empezar.</p>
       </div>
 
+      <!-- Hero "¿Sabías que...?" — rotating facts pulled from our real data.
+           One fact at a time, one button that jumps to its section. Auto-rotates
+           gently; pausable; respects prefers-reduced-motion (no auto-rotate). -->
+      <section id="sabias" class="sabias" aria-roledescription="carrusel" aria-label="¿Sabías que...?">
+        <div class="sabias-cab">
+          <span class="sabias-kicker">🤔 ¿Sabías que…?</span>
+          <button id="sabiasPausa" class="sabias-pausa" type="button" aria-label="Pausar el cambio automático" aria-pressed="false">⏸️</button>
+        </div>
+        <div id="sabiasViva" class="sabias-viva" aria-live="polite"></div>
+        <div id="sabiasPuntos" class="sabias-puntos" role="tablist" aria-label="Elegir dato"></div>
+      </section>
+
       <div class="home-grid">
         <button class="home-card card-pais" data-goto="pais">
           <span class="home-emoji">🇩🇴</span>

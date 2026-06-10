@@ -96,6 +96,66 @@ main { max-width: 720px; margin: 0 auto; padding: 0 14px 40px; }
 .hero-titulo { margin: 0 0 8px; font-size: 1.7rem; font-weight: 800; line-height: 1.2; }
 .hero-sub { margin: 0 auto; max-width: 460px; color: #44506a; font-size: 1.02rem; }
 
+/* ---------- Hero "¿Sabías que...?" carousel ---------- */
+/* One real fact at a time, one button into its section. Reuses card shadow,
+   radius and the per-section accent colors. Auto-rotate is JS; reduced-motion
+   is respected in JS (no timer) — the dots and arrows still work by tap. */
+.sabias {
+  background: var(--tarjeta); border-radius: var(--radio-lg); box-shadow: var(--sombra);
+  padding: 14px 16px 12px; margin: 18px 0 6px;
+  border-top: 6px solid var(--sesiones);
+}
+.sabias-cab {
+  display: flex; align-items: center; justify-content: space-between; gap: 8px;
+}
+.sabias-kicker {
+  font-weight: 800; font-size: .82rem; letter-spacing: .04em;
+  text-transform: uppercase; color: var(--sesiones);
+}
+.sabias-pausa {
+  border: none; cursor: pointer; background: var(--sesiones-bg); color: var(--sesiones);
+  font: inherit; font-size: 1rem; line-height: 1; width: 36px; height: 36px;
+  border-radius: 999px; display: flex; align-items: center; justify-content: center;
+}
+.sabias-pausa:active { transform: scale(.94); }
+.sabias-pausa:focus-visible { outline: 3px solid var(--sesiones); outline-offset: 2px; }
+.sabias-viva { min-height: 116px; }
+.sabias-dato { animation: aparece .22s ease; }
+.sabias-texto { margin: 8px 0 12px; font-size: 1.08rem; font-weight: 700; color: var(--tinta); line-height: 1.4; }
+.sabias-texto b { font-weight: 800; }
+.sabias-btn {
+  display: inline-flex; align-items: center; gap: 6px; min-height: 40px;
+  border: none; cursor: pointer; font: inherit; font-weight: 800; font-size: .92rem;
+  padding: 8px 16px; border-radius: 999px; color: #fff; background: var(--sesiones);
+  text-decoration: none;
+}
+.sabias-btn:active { transform: scale(.97); }
+.sabias-btn:focus-visible { outline: 3px solid var(--tinta); outline-offset: 2px; }
+.sabias-puntos {
+  display: flex; gap: 8px; justify-content: center; margin-top: 4px; flex-wrap: wrap;
+}
+.sabias-punto {
+  width: 12px; height: 12px; padding: 0; border-radius: 50%; cursor: pointer;
+  border: 2px solid var(--sesiones); background: transparent;
+}
+.sabias-punto[aria-selected="true"] { background: var(--sesiones); }
+.sabias-punto:focus-visible { outline: 3px solid var(--sesiones); outline-offset: 2px; }
+/* Each fact carries its section's accent so the color teaches where it leads. */
+.sabias.acc-dinero   { border-top-color: var(--dinero); }
+.sabias.acc-dinero   .sabias-kicker, .sabias.acc-dinero .sabias-pausa { color: var(--dinero); }
+.sabias.acc-dinero   .sabias-pausa { background: var(--dinero-bg); }
+.sabias.acc-dinero   .sabias-btn { background: var(--dinero); }
+.sabias.acc-dinero   .sabias-punto { border-color: var(--dinero); }
+.sabias.acc-dinero   .sabias-punto[aria-selected="true"] { background: var(--dinero); }
+.sabias.acc-leyes    { border-top-color: var(--leyes); }
+.sabias.acc-leyes    .sabias-kicker, .sabias.acc-leyes .sabias-pausa { color: var(--leyes); }
+.sabias.acc-leyes    .sabias-pausa { background: var(--leyes-bg); }
+.sabias.acc-leyes    .sabias-btn { background: var(--leyes); }
+.sabias.acc-leyes    .sabias-punto { border-color: var(--leyes); }
+.sabias.acc-leyes    .sabias-punto[aria-selected="true"] { background: var(--leyes); }
+.sabias.acc-sesiones { border-top-color: var(--sesiones); }
+@media (prefers-reduced-motion: reduce) { .sabias-dato { animation: none; } }
+
 .home-grid {
   display: grid; grid-template-columns: repeat(2, 1fr); gap: 14px; margin: 22px 0 16px;
 }

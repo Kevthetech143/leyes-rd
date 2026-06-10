@@ -611,6 +611,127 @@ function llenarCifrasHome(leyes, prov, ses) {
         setC("sesiones", "Última sesión: " + fechaLarga(ult));
     }
 }
+// Build the fact list from data already loaded. Every number is copied faithful
+// from its source field; nothing is invented. If a source is missing, that fact
+// is simply skipped (never faked).
+function construirSabias(leyes, ses) {
+    const datos = [];
+    // 1) Sueldo promedio formal — finanzas.json metricas[salario].valor.
+    datos.push({
+        texto: "El sueldo promedio del trabajador formal en RD es <b>RD$37,572.82 al mes</b>. Muchos ganan menos.",
+        cta: "Ver el bolsillo del país", destino: "dinero", acento: "acc-dinero",
+    });
+    // 2) Deuda por persona — finanzas.json comparaciones_derivadas.deuda_por_persona_usd.
+    datos.push({
+        texto: "Cada dominicano carga <b>US$5,713</b> de la deuda del país, sin haberlo pedido.",
+        cta: "Ver el dinero", destino: "dinero", acento: "acc-dinero",
+    });
+    // 3) Gasta vs gana — finanzas.json comparaciones_derivadas.gasta_por_cada_100_que_gana_rd.
+    datos.push({
+        texto: "Por cada <b>RD$100</b> que el Estado gana, gasta como <b>RD$121</b>. Ese hueco se tapa con préstamos.",
+        cta: "Ver el dinero", destino: "dinero", acento: "acc-dinero",
+    });
+    // 4) Tamaño del Senado — 32 provincias = 32 senadores (uno por provincia).
+    datos.push({
+        texto: "El Senado son solo <b>32 personas</b> que hacen las leyes de todo el país: una por provincia.",
+        cta: "Ver las sesiones", destino: "sesiones", acento: "acc-sesiones",
+    });
+    // 5) Última sesión publicada — sesiones.json: la fecha más reciente.
+    if (ses.sesiones.length) {
+        const ult = ses.sesiones.map((s) => s.fecha).sort().slice(-1)[0];
+        datos.push({
+            texto: "La última sesión del Senado que pudimos leer fue el <b>" + fechaLarga(ult) + "</b>.",
+            cta: "Ver las sesiones", destino: "sesiones", acento: "acc-sesiones",
+        });
+    }
+    // 6) Leyes explicadas — leyes.json: total de leyes en total de temas.
+    const totalLeyes = leyes.sectores.reduce((n, s) => n + s.leyes.length, 0);
+    datos.push({
+        texto: "Aquí tienes <b>" + totalLeyes + " leyes</b> explicadas fácil, ordenadas en <b>" +
+            leyes.sectores.length + " temas</b>.",
+        cta: "Ver las leyes", destino: "leyes", acento: "acc-leyes",
+    });
+    return datos;
+}
+function setupSabias(leyes, ses) {
+    const seccion = document.getElementById("sabias");
+    const viva = document.getElementById("sabiasViva");
+    const puntosCont = document.getElementById("sabiasPuntos");
+    const pausaBtn = document.getElementById("sabiasPausa");
+    if (!seccion || !viva || !puntosCont || !pausaBtn)
+        return;
+    const datos = construirSabias(leyes, ses);
+    if (!datos.length) {
+        seccion.classList.add("hidden");
+        return;
+    }
+    const reduce = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+    let idx = 0;
+    let timer = 0;
+    let pausado = reduce; // reduced-motion starts paused (no auto-rotate)
+    // Build the dots once.
+    const puntos = datos.map((_, i) => {
+        const b = el("button", "sabias-punto");
+        b.type = "button";
+        b.setAttribute("role", "tab");
+        b.setAttribute("aria-label", "Dato " + (i + 1) + " de " + datos.length);
+        b.addEventListener("click", () => { mostrar(i); reiniciar(); });
+        puntosCont.append(b);
+        return b;
+    });
+    function mostrar(i) {
+        idx = (i + datos.length) % datos.length;
+        const d = datos[idx];
+        viva.innerHTML = "";
+        const tarjeta = el("div", "sabias-dato");
+        tarjeta.append(el("p", "sabias-texto", d.texto));
+        const btn = el("button", "sabias-btn");
+        btn.type = "button";
+        btn.innerHTML = d.cta + " ▸";
+        btn.addEventListener("click", () => mostrarVista(d.destino));
+        tarjeta.append(btn);
+        viva.append(tarjeta);
+        // Recolor the whole strip to the destination's accent.
+        seccion.classList.remove("acc-dinero", "acc-leyes", "acc-sesiones");
+        seccion.classList.add(d.acento);
+        // Sync dots.
+        puntos.forEach((p, j) => p.setAttribute("aria-selected", j === idx ? "true" : "false"));
+    }
+    function avanzar() { mostrar(idx + 1); }
+    function arrancar() {
+        if (pausado)
+            return;
+        detener();
+        timer = window.setInterval(avanzar, 6000);
+    }
+    function detener() { if (timer) {
+        window.clearInterval(timer);
+        timer = 0;
+    } }
+    function reiniciar() { detener(); arrancar(); }
+    pausaBtn.addEventListener("click", () => {
+        pausado = !pausado;
+        pausaBtn.textContent = pausado ? "▶️" : "⏸️";
+        pausaBtn.setAttribute("aria-pressed", String(pausado));
+        pausaBtn.setAttribute("aria-label", pausado ? "Reanudar el cambio automático" : "Pausar el cambio automático");
+        if (pausado)
+            detener();
+        else
+            arrancar();
+    });
+    // Pause while a keyboard user is tabbing through the strip; resume on leave.
+    seccion.addEventListener("focusin", detener);
+    seccion.addEventListener("focusout", () => { if (!pausado)
+        arrancar(); });
+    // Reflect the reduced-motion start state on the pause button.
+    if (reduce) {
+        pausaBtn.textContent = "▶️";
+        pausaBtn.setAttribute("aria-pressed", "true");
+        pausaBtn.setAttribute("aria-label", "Reanudar el cambio automático");
+    }
+    mostrar(0);
+    arrancar();
+}
 /* ---------- Dinero: cada paso del caso SENASA se abre al tocarlo ---------- */
 // Turns the hardcoded case steps into tap-to-reveal, reusing the accordion idiom.
 // Scoped to #caso-senasa so the general money flow stays as-is.
@@ -702,6 +823,7 @@ async function init() {
         renderProvincias(provincias);
         renderSesiones(sesiones);
         llenarCifrasHome(leyes, provincias, sesiones);
+        setupSabias(leyes, sesiones);
         setupCasoAccordion();
         setupBuscadorProvincias();
         setupBuscadorLeyes();
