@@ -500,6 +500,23 @@ main { max-width: 720px; margin: 0 auto; padding: 0 14px 40px; }
 }
 .punto-debil p { margin: 6px 0 0; }
 
+/* ---------- Sub-encabezado de bloque (estilo DGCP: una idea por pantalla) ---------- */
+/* Names each idea inside a long section and gives it air, so two unrelated
+   blocks don't read as glued. Numbered badge + title + one-line lead-in. */
+.sub-seccion {
+  display: flex; align-items: flex-start; gap: 12px;
+  margin: 34px 0 14px; padding-top: 18px; border-top: 2px solid #f0e6d8;
+}
+.sub-seccion:first-of-type { border-top: none; padding-top: 0; }
+.sub-seccion-num {
+  flex: none; width: 32px; height: 32px; border-radius: 50%;
+  display: flex; align-items: center; justify-content: center;
+  font-weight: 800; font-size: 1rem; color: #fff; background: var(--dinero);
+}
+.sub-seccion-txt { flex: 1; }
+.sub-seccion-titulo { margin: 0 0 2px; font-size: 1.2rem; font-weight: 800; color: var(--dinero); line-height: 1.25; }
+.sub-seccion-desc { margin: 0; color: #7a3a12; font-size: .94rem; }
+
 /* ---------- Flujo secuencial: intro "En 30 segundos" + footer "¿Y ahora qué?" ---------- */
 /* Beat 1 — a 30-second essence card at the very top of each section. Beat 3 —
    a footer card that hands the reader to the next section in the chain with one
