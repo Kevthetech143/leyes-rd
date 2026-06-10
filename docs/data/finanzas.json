@@ -1,0 +1,101 @@
+{
+  "_nota": "Salud financiera del país — cada número viene de una fuente oficial verificada el 2026-06-10. NO inventar ni actualizar de memoria. Las comparaciones por persona se derivan SOLO de estos números y de la población oficial del censo.",
+  "actualizado": "2026-06-10",
+  "poblacion": {
+    "habitantes": 10773983,
+    "fuente": "Oficina Nacional de Estadística (ONE), X Censo Nacional de Población y Vivienda 2022, Informe General",
+    "url": "https://www.one.gob.do/datos-y-estadisticas/temas/censos/poblacion-y-vivienda/2022/",
+    "periodo": "Censo 2022 (cifra definitiva)"
+  },
+  "metricas": [
+    {
+      "id": "pib",
+      "titulo": "Lo que produce el país en un año (PIB)",
+      "valor": "Cerca de RD$8 billones",
+      "detalle": "El gobierno gastó RD$1.521 billones en 2025, igual al 19.1% del PIB; despejando, el PIB nominal de 2025 ronda los RD$8 billones (unos US$128 mil millones).",
+      "fuente": "Ministerio de Hacienda y Economía (cierre fiscal 2025) y Banco Central RD (PIB nominal)",
+      "url": "https://www.hacienda.gob.do/gobierno-dominicano-cierra-2025-con-un-gasto-de-capital-de-2-6-del-pib/",
+      "periodo": "Cierre 2025"
+    },
+    {
+      "id": "crecimiento",
+      "titulo": "Cuánto creció la economía",
+      "valor": "2.1%",
+      "detalle": "El PIB real creció 2.1% interanual acumulado en enero-diciembre 2025 (cifras preliminares).",
+      "fuente": "Banco Central RD — Resultados Preliminares de la Economía Dominicana, enero-diciembre 2025",
+      "url": "https://cdn.bancentral.gov.do/documents/publicaciones-economicas/resultados-preliminares-de-la-economia-dominicana/documents/infeco_preliminar2025-12.pdf",
+      "periodo": "Enero-diciembre 2025 (preliminar)"
+    },
+    {
+      "id": "ingresos",
+      "titulo": "Lo que el gobierno espera ganar (ingresos)",
+      "valor": "RD$1,342,258.2 millones",
+      "detalle": "Ingresos proyectados = 15.5% del PIB.",
+      "fuente": "DIGEPRES — Proyecto de Presupuesto General del Estado 2026",
+      "url": "https://www.digepres.gob.do/poder-ejecutivo-deposita-en-el-congreso-nacional-proyecto-de-ley-de-presupuesto-general-del-estado-2026/",
+      "periodo": "Presupuesto 2026"
+    },
+    {
+      "id": "gastos",
+      "titulo": "Lo que el gobierno planea gastar (gastos)",
+      "valor": "RD$1,622,833.4 millones",
+      "detalle": "Gastos totales proyectados = 18.7% del PIB.",
+      "fuente": "DIGEPRES — Proyecto de Presupuesto General del Estado 2026",
+      "url": "https://www.digepres.gob.do/poder-ejecutivo-deposita-en-el-congreso-nacional-proyecto-de-ley-de-presupuesto-general-del-estado-2026/",
+      "periodo": "Presupuesto 2026"
+    },
+    {
+      "id": "deficit",
+      "titulo": "El hueco: gasta más de lo que gana (déficit)",
+      "valor": "RD$280,575.3 millones (3.2% del PIB)",
+      "detalle": "Diferencia entre gastos e ingresos del Presupuesto 2026. Por cada RD$100 que el Estado planea ganar, planea gastar unos RD$121. El hueco se cubre con deuda.",
+      "fuente": "DIGEPRES — Proyecto de Presupuesto General del Estado 2026",
+      "url": "https://www.digepres.gob.do/poder-ejecutivo-deposita-en-el-congreso-nacional-proyecto-de-ley-de-presupuesto-general-del-estado-2026/",
+      "periodo": "Presupuesto 2026"
+    },
+    {
+      "id": "deuda",
+      "titulo": "Lo que el país debe (deuda pública)",
+      "valor": "47.9% del PIB (US$61,549.9 millones)",
+      "detalle": "Deuda del Sector Público No Financiero (SPNF) al cierre de 2025. Es casi medio año de todo lo que el país produce.",
+      "fuente": "Ministerio de Hacienda y Economía / Dirección General de Crédito Público — cierre 2025",
+      "url": "https://www.hacienda.gob.do/gobierno-dominicano-cierra-2025-con-un-gasto-de-capital-de-2-6-del-pib/",
+      "periodo": "Cierre 2025 (SPNF)"
+    },
+    {
+      "id": "salario",
+      "titulo": "El sueldo promedio del trabajador formal",
+      "valor": "RD$37,572.82 al mes",
+      "detalle": "Salario promedio cotizable a la seguridad social (trabajadores formales registrados en la TSS). No incluye a quien trabaja informal.",
+      "fuente": "Tesorería de la Seguridad Social (TSS) — Boletín del Régimen Contributivo, junio 2025",
+      "url": "https://presidencia.gob.do/noticias/salario-promedio-de-cotizantes-en-la-seguridad-social-supera-los-rd-38000",
+      "periodo": "Junio 2025"
+    },
+    {
+      "id": "inflacion",
+      "titulo": "Cuánto subieron los precios (inflación)",
+      "valor": "5.35% en un año",
+      "detalle": "Inflación interanual de mayo 2025 a mayo 2026, medida por el IPC. En el mes de mayo 2026 los precios subieron 0.31%.",
+      "fuente": "Banco Central RD — IPC mayo 2026",
+      "url": "https://primicias.net/web/bcrd-informa-que-la-variacion-del-ipc-en-el-mes-de-mayo-fue-de-0-31/",
+      "periodo": "Mayo 2026 (interanual)"
+    },
+    {
+      "id": "desempleo",
+      "titulo": "Cuánta gente busca trabajo y no encuentra (desempleo)",
+      "valor": "5.0%",
+      "detalle": "Tasa de desocupación abierta (SU1) al cuarto trimestre de 2025.",
+      "fuente": "Banco Central RD — Encuesta Nacional Continua de Fuerza de Trabajo (ENCFT)",
+      "url": "https://es.tradingeconomics.com/dominican-republic/unemployment-rate",
+      "periodo": "Octubre-diciembre 2025"
+    }
+  ],
+  "comparaciones_derivadas": {
+    "_nota": "Calculadas solo con los números de arriba y la población oficial (10,773,983).",
+    "gasto_por_persona_rd": 150625,
+    "ingreso_por_persona_rd": 124583,
+    "deficit_por_persona_rd": 26042,
+    "deuda_por_persona_usd": 5713,
+    "gasta_por_cada_100_que_gana_rd": 121
+  }
+}

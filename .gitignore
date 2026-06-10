@@ -8,3 +8,4 @@ scripts/test_paging.js
 scripts/__pycache__/
 scripts/_gap_ids.json
 scripts/_gap_out.json
+.claude/
