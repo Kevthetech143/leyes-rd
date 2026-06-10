@@ -415,6 +415,16 @@ main { max-width: 720px; margin: 0 auto; padding: 0 14px 40px; }
   padding:2px 8px; border-radius:999px; background:#eef2ff; color:var(--azul);
   margin-left:6px;
 }
+/* Regidores (town-council) explainer list inside a province profile */
+.regidores-lista { margin-top: 10px; padding-top: 8px; border-top: 1px solid #dbe3ff; }
+.regidores-municipio {
+  margin: 0; font-size: .9rem; font-weight: 700; color: var(--azul);
+  cursor: pointer; list-style: none; padding: 4px 0;
+}
+.regidores-municipio::-webkit-details-marker { display: none; }
+.regidores-municipio::after { content: " ▸"; }
+.regidores-lista[open] .regidores-municipio::after { content: " ▾"; }
+.regidor-fila { margin: 4px 0; font-size: .9rem; }
 /* Sesiones */
 .sesion {
   background: var(--tarjeta); border-radius: var(--radio);

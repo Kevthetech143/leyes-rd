@@ -259,6 +259,48 @@ function renderLider(l) {
     }
     return block;
 }
+// "¿Y los regidores?" — a small explainer card in every province profile.
+// Explains, kid-simple, what a regidor is (the town council that approves the
+// mayor's budget and rules — los concejales del pueblo) and that each
+// municipality elects several. Shows the verified total ONLY when present in
+// the data; otherwise it stays a pure explainer with no invented number.
+// When verified names exist (regidores.lista), they render as a name+party list.
+function renderRegidoresCard(prov) {
+    const card = el("div", "como");
+    let html = "<b>🪑 ¿Y los regidores?</b> En cada ayuntamiento, además del alcalde, hay un grupo de " +
+        "<span class=\"palabra\" data-def=\"Los regidores son el grupo de personas, elegidas por voto, que forman el concejo del ayuntamiento. Aprueban el presupuesto del pueblo, dictan las normas locales y vigilan al alcalde. Son como los concejales del pueblo.\">regidores</span>: " +
+        "son los concejales del pueblo. Aprueban el presupuesto del municipio, dictan las normas locales y vigilan al alcalde. " +
+        "Cada municipio elige varios por voto, según cuánta gente vive en él.";
+    const r = prov.regidores;
+    if (r && typeof r.total === "number") {
+        html += "<br><br>En esta provincia hay <b>" + r.total + " regidores</b> en total" +
+            (r.fuente_total ? ", según " + r.fuente_total : "") + ".";
+    }
+    else {
+        html += "<br><br><span class=\"nota-fuente\">Cuántos hay en total en esta provincia: aún estamos confirmando la cifra con datos oficiales de la JCE.</span>";
+    }
+    card.innerHTML = html;
+    // Verified names per municipality, when we have them. A municipality's list
+    // folds behind a tap so a 30-name council doesn't flood the card.
+    if (r && r.municipios && r.municipios.length) {
+        r.municipios.forEach((m) => {
+            if (!m.lista || !m.lista.length)
+                return;
+            const det = el("details", "regidores-lista");
+            det.append(el("summary", "regidores-municipio", "🪑 Regidores de " + m.municipio + " (" + m.lista.length + ")"));
+            m.lista.forEach((rg) => {
+                const fila = el("p", "regidor-fila");
+                fila.innerHTML = rg.nombre + " <span class='partido-chip'>" + rg.partido + "</span>";
+                det.append(fila);
+            });
+            if (m.fuente_lista) {
+                det.append(el("p", "nota-fuente", "Fuente: " + m.fuente_lista + "."));
+            }
+            card.append(det);
+        });
+    }
+    return card;
+}
 function renderProvincias(data) {
     const grid = el("div", "prov-grid");
     const perfil = byId("perfilProvincia");
@@ -308,6 +350,10 @@ function renderProvincias(data) {
                 perfil.append(el("p", "nota-fuente", "Alcaldes: aún por añadir. Estamos completando esta provincia con datos oficiales. " +
                     "¿Conoces a tu alcalde? <a href=\"https://github.com/Kevthetech143/leyes-rd/issues/new\" target=\"_blank\" rel=\"noopener\">Ayúdanos a completarlo</a>."));
             }
+            // Always explain the town council (regidores) — feedback de un usuario real.
+            perfil.append(renderRegidoresCard(prov));
+            // The card just added a new .palabra word; wire tap-to-define on it.
+            setupGlosario();
             perfil.scrollIntoView({ behavior: "smooth", block: "start" });
         });
         grid.append(c);
