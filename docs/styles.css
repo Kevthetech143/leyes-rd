@@ -166,6 +166,24 @@ main { max-width: 720px; margin: 0 auto; padding: 0 14px 40px; }
   box-shadow: var(--sombra); position: relative; overflow: hidden;
   border-top: 6px solid var(--azul); min-height: 150px;
 }
+/* Suggested-order heading above the journey cards */
+.ruta-cab { text-align: center; margin: 24px 0 2px; }
+.ruta-titulo { margin: 0 0 4px; font-size: 1.3rem; font-weight: 800; }
+.ruta-sub { margin: 0 auto; max-width: 440px; color: #44506a; font-size: .92rem; }
+
+/* Step number badge — top-right of each journey card, in the card's accent. */
+.home-paso {
+  position: absolute; top: 12px; right: 12px;
+  width: 28px; height: 28px; border-radius: 50%;
+  display: flex; align-items: center; justify-content: center;
+  font-weight: 800; font-size: .95rem; color: #fff; background: var(--azul);
+}
+.card-pais     .home-paso { background: var(--rojo); }
+.card-leyes    .home-paso { background: var(--leyes); }
+.card-sesiones .home-paso { background: var(--sesiones); }
+.card-mapa     .home-paso { background: var(--mapa); }
+.card-dinero   .home-paso { background: var(--dinero); }
+
 .home-card .home-emoji {
   font-size: 2.2rem; line-height: 1; margin-bottom: 6px;
   width: 56px; height: 56px; border-radius: 16px;

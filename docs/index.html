@@ -63,36 +63,49 @@
         <div id="sabiasPuntos" class="sabias-puntos" role="tablist" aria-label="Elegir dato"></div>
       </section>
 
+      <!-- Suggested learning order — the home cards reframed as a journey, in the
+           chain order El país → Leyes → Sesiones → Provincias → Dinero. Each card
+           carries its step number so it reads as "first this, then this". -->
+      <div class="ruta-cab">
+        <h3 class="ruta-titulo">¿Qué quieres aprender hoy?</h3>
+        <p class="ruta-sub">Te sugerimos este orden. Pero puedes tocar cualquiera y empezar por donde quieras.</p>
+      </div>
+
       <div class="home-grid">
         <button class="home-card card-pais" data-goto="pais">
+          <span class="home-paso" aria-hidden="true">1</span>
           <span class="home-emoji">🇩🇴</span>
           <span class="home-card-titulo">El país</span>
           <span class="home-card-desc">Quién manda y cuándo votas.</span>
           <span class="home-card-cifra">Próximas elecciones: 2028</span>
-          <span class="home-card-go">Explorar ▸</span>
+          <span class="home-card-go">Empezar aquí ▸</span>
         </button>
         <button class="home-card card-leyes" data-goto="leyes">
+          <span class="home-paso" aria-hidden="true">2</span>
           <span class="home-emoji">📜</span>
           <span class="home-card-titulo">Leyes</span>
           <span class="home-card-desc">Qué se propone y se aprueba, por tema.</span>
           <span class="home-card-cifra" data-cifra="leyes"></span>
           <span class="home-card-go">Explorar ▸</span>
         </button>
-        <button class="home-card card-mapa" data-goto="mapa">
-          <span class="home-emoji">🗺️</span>
-          <span class="home-card-titulo">Provincias</span>
-          <span class="home-card-desc">Quién manda en cada provincia.</span>
-          <span class="home-card-cifra" data-cifra="provincias"></span>
-          <span class="home-card-go">Explorar ▸</span>
-        </button>
         <button class="home-card card-sesiones" data-goto="sesiones">
+          <span class="home-paso" aria-hidden="true">3</span>
           <span class="home-emoji">🏛️</span>
           <span class="home-card-titulo">Sesiones</span>
           <span class="home-card-desc">Qué votó el Senado y quién asistió.</span>
           <span class="home-card-cifra" data-cifra="sesiones"></span>
           <span class="home-card-go">Explorar ▸</span>
         </button>
+        <button class="home-card card-mapa" data-goto="mapa">
+          <span class="home-paso" aria-hidden="true">4</span>
+          <span class="home-emoji">🗺️</span>
+          <span class="home-card-titulo">Provincias</span>
+          <span class="home-card-desc">Quién manda en cada provincia.</span>
+          <span class="home-card-cifra" data-cifra="provincias"></span>
+          <span class="home-card-go">Explorar ▸</span>
+        </button>
         <button class="home-card card-dinero" data-goto="dinero">
+          <span class="home-paso" aria-hidden="true">5</span>
           <span class="home-emoji">💰</span>
           <span class="home-card-titulo">Dinero</span>
           <span class="home-card-desc">Cómo viaja el dinero público, con un caso real.</span>
