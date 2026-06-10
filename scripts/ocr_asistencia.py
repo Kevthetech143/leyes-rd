@@ -29,15 +29,29 @@ def tokens(name):
 
 SEN_TOKENS = {s["nombre"]: tokens(s["nombre"]) for s in SENATORS}
 
-def match_senator(line_norm):
+# A token is "distinctive" when it belongs to exactly one senator. Such a token
+# alone is a safe match even if OCR drops/changes other name parts (e.g. it reads
+# "GINETTE" for "Ginnette", leaving only the unique surname "BOURNIGAL").
+_TOKEN_OWNERS: dict[str, set[str]] = {}
+for _name, _toks in SEN_TOKENS.items():
+    for _t in _toks:
+        _TOKEN_OWNERS.setdefault(_t, set()).add(_name)
+UNIQUE_TOKENS = {t: list(owners)[0] for t, owners in _TOKEN_OWNERS.items() if len(owners) == 1}
+
+
+def match_senator(line_norm: str) -> str | None:
     best, best_score = None, 0
     for name, toks in SEN_TOKENS.items():
         if not toks:
             continue
         hits = sum(1 for t in toks if t in line_norm)
-        # require at least 2 token hits (or all tokens if only 2), to avoid
-        # false matches on a single common surname.
+        # Normally require 2 token hits to avoid false matches on a shared
+        # surname. But a single hit on a token unique to one senator is safe.
         need = 2 if len(toks) >= 2 else 1
+        if hits == 1 and need == 2:
+            only = [t for t in toks if t in line_norm][0]
+            if len(only) >= 5 and UNIQUE_TOKENS.get(only) == name:
+                need = 1
         if hits >= need and hits > best_score:
             best, best_score = name, hits
     return best

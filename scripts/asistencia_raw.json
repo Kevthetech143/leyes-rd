@@ -1,0 +1,871 @@
+{
+ "sessions_counted": 112,
+ "per_session": [
+  {
+   "fid": "56582",
+   "date": "2026-05-27",
+   "found": 32,
+   "counted": true
+  },
+  {
+   "fid": "56581",
+   "date": "2026-05-18",
+   "found": 32,
+   "counted": true
+  },
+  {
+   "fid": "56580",
+   "date": "2026-05-13",
+   "found": 32,
+   "counted": true
+  },
+  {
+   "fid": "56491",
+   "date": "2026-05-06",
+   "found": 32,
+   "counted": true
+  },
+  {
+   "fid": "56490",
+   "date": "2026-04-29",
+   "found": 32,
+   "counted": true
+  },
+  {
+   "fid": "56489",
+   "date": "2026-04-23",
+   "found": 32,
+   "counted": true
+  },
+  {
+   "fid": "56488",
+   "date": "2026-04-21",
+   "found": 32,
+   "counted": true
+  },
+  {
+   "fid": "56487",
+   "date": "2026-04-15",
+   "found": 32,
+   "counted": true
+  },
+  {
+   "fid": "56486",
+   "date": "2026-03-24",
+   "found": 32,
+   "counted": true
+  },
+  {
+   "fid": "56485",
+   "date": "2026-03-18",
+   "found": 32,
+   "counted": true
+  },
+  {
+   "fid": "56484",
+   "date": "2026-03-11",
+   "found": 32,
+   "counted": true
+  },
+  {
+   "fid": "56483",
+   "date": "2026-03-04",
+   "found": 32,
+   "counted": true
+  },
+  {
+   "fid": "56482",
+   "date": "2026-02-27",
+   "found": 32,
+   "counted": true
+  },
+  {
+   "fid": "56481",
+   "date": "2026-01-10",
+   "found": 32,
+   "counted": true
+  },
+  {
+   "fid": "56480",
+   "date": "2026-01-10",
+   "found": 32,
+   "counted": true
+  },
+  {
+   "fid": "56479",
+   "date": "2026-01-08",
+   "found": 32,
+   "counted": true
+  },
+  {
+   "fid": "56478",
+   "date": "2026-01-08",
+   "found": 32,
+   "counted": true
+  },
+  {
+   "fid": "56477",
+   "date": "2025-12-18",
+   "found": 32,
+   "counted": true
+  },
+  {
+   "fid": "56476",
+   "date": "2025-12-18",
+   "found": 32,
+   "counted": true
+  },
+  {
+   "fid": "56475",
+   "date": "2025-12-16",
+   "found": 32,
+   "counted": true
+  },
+  {
+   "fid": "56474",
+   "date": "2025-12-16",
+   "found": 32,
+   "counted": true
+  },
+  {
+   "fid": "56473",
+   "date": "2025-12-09",
+   "found": 32,
+   "counted": true
+  },
+  {
+   "fid": "56472",
+   "date": "2025-12-05",
+   "found": 32,
+   "counted": true
+  },
+  {
+   "fid": "56471",
+   "date": "2025-11-27",
+   "found": 32,
+   "counted": true
+  },
+  {
+   "fid": "56470",
+   "date": "2025-11-19",
+   "found": 32,
+   "counted": true
+  },
+  {
+   "fid": "56469",
+   "date": "2025-11-12",
+   "found": 32,
+   "counted": true
+  },
+  {
+   "fid": "56468",
+   "date": "2025-11-04",
+   "found": 32,
+   "counted": true
+  },
+  {
+   "fid": "56467",
+   "date": "2025-10-28",
+   "found": 32,
+   "counted": true
+  },
+  {
+   "fid": "56466",
+   "date": "2025-10-27",
+   "found": 32,
+   "counted": true
+  },
+  {
+   "fid": "56465",
+   "date": "2025-10-27",
+   "found": 32,
+   "counted": true
+  },
+  {
+   "fid": "56464",
+   "date": "2025-10-21",
+   "found": 32,
+   "counted": true
+  },
+  {
+   "fid": "56463",
+   "date": "2025-10-16",
+   "found": 32,
+   "counted": true
+  },
+  {
+   "fid": "56462",
+   "date": "2025-10-09",
+   "found": 32,
+   "counted": true
+  },
+  {
+   "fid": "56461",
+   "date": "2025-10-07",
+   "found": 32,
+   "counted": true
+  },
+  {
+   "fid": "53853",
+   "date": "2025-09-30",
+   "found": 32,
+   "counted": true
+  },
+  {
+   "fid": "53852",
+   "date": "2025-09-23",
+   "found": 32,
+   "counted": true
+  },
+  {
+   "fid": "53704",
+   "date": "2025-09-15",
+   "found": 32,
+   "counted": true
+  },
+  {
+   "fid": "53703",
+   "date": "2025-09-15",
+   "found": 32,
+   "counted": true
+  },
+  {
+   "fid": "53698",
+   "date": "2025-09-10",
+   "found": 32,
+   "counted": true
+  },
+  {
+   "fid": "53697",
+   "date": "2025-09-02",
+   "found": 32,
+   "counted": true
+  },
+  {
+   "fid": "53516",
+   "date": "2025-09-02",
+   "found": 32,
+   "counted": true
+  },
+  {
+   "fid": "53462",
+   "date": "2025-08-28",
+   "found": 32,
+   "counted": true
+  },
+  {
+   "fid": "53360",
+   "date": "2025-08-19",
+   "found": 32,
+   "counted": true
+  },
+  {
+   "fid": "53359",
+   "date": "2025-08-16",
+   "found": 32,
+   "counted": true
+  },
+  {
+   "fid": "53204",
+   "date": "2025-08-04",
+   "found": 32,
+   "counted": true
+  },
+  {
+   "fid": "53203",
+   "date": "2025-07-31",
+   "found": 32,
+   "counted": true
+  },
+  {
+   "fid": "53122",
+   "date": "2025-07-25",
+   "found": 32,
+   "counted": true
+  },
+  {
+   "fid": "53121",
+   "date": "2025-07-25",
+   "found": 32,
+   "counted": true
+  },
+  {
+   "fid": "53120",
+   "date": "2025-07-23",
+   "found": 32,
+   "counted": true
+  },
+  {
+   "fid": "53119",
+   "date": "2025-07-22",
+   "found": 32,
+   "counted": true
+  },
+  {
+   "fid": "53118",
+   "date": "2025-07-21",
+   "found": 32,
+   "counted": true
+  },
+  {
+   "fid": "53117",
+   "date": "2025-07-18",
+   "found": 32,
+   "counted": true
+  },
+  {
+   "fid": "53022",
+   "date": "2025-07-17",
+   "found": 32,
+   "counted": true
+  },
+  {
+   "fid": "52954",
+   "date": "2025-07-15",
+   "found": 32,
+   "counted": true
+  },
+  {
+   "fid": "52953",
+   "date": "2025-07-15",
+   "found": 32,
+   "counted": true
+  },
+  {
+   "fid": "52914",
+   "date": "2025-07-10",
+   "found": 32,
+   "counted": true
+  },
+  {
+   "fid": "52832",
+   "date": "2025-07-08",
+   "found": 32,
+   "counted": true
+  },
+  {
+   "fid": "52626",
+   "date": "2025-06-24",
+   "found": 32,
+   "counted": true
+  },
+  {
+   "fid": "52593",
+   "date": "2025-06-17",
+   "found": 32,
+   "counted": true
+  },
+  {
+   "fid": "52530",
+   "date": "2025-06-12",
+   "found": 32,
+   "counted": true
+  },
+  {
+   "fid": "52529",
+   "date": "2025-06-10",
+   "found": 32,
+   "counted": true
+  },
+  {
+   "fid": "52380",
+   "date": "2025-06-05",
+   "found": 32,
+   "counted": true
+  },
+  {
+   "fid": "52379",
+   "date": "2025-06-03",
+   "found": 32,
+   "counted": true
+  },
+  {
+   "fid": "52378",
+   "date": "2025-05-27",
+   "found": 32,
+   "counted": true
+  },
+  {
+   "fid": "52103",
+   "date": "2025-05-22",
+   "found": 32,
+   "counted": true
+  },
+  {
+   "fid": "52102",
+   "date": "2025-05-22",
+   "found": 32,
+   "counted": true
+  },
+  {
+   "fid": "52101",
+   "date": "2025-05-20",
+   "found": 31,
+   "counted": true
+  },
+  {
+   "fid": "51894",
+   "date": "2025-05-13",
+   "found": 32,
+   "counted": true
+  },
+  {
+   "fid": "51649",
+   "date": "2025-04-29",
+   "found": 32,
+   "counted": true
+  },
+  {
+   "fid": "51529",
+   "date": "2025-04-22",
+   "found": 32,
+   "counted": true
+  },
+  {
+   "fid": "51528",
+   "date": "2025-04-01",
+   "found": 32,
+   "counted": true
+  },
+  {
+   "fid": "51349",
+   "date": "2025-04-01",
+   "found": 32,
+   "counted": true
+  },
+  {
+   "fid": "51282",
+   "date": "2025-03-27",
+   "found": 32,
+   "counted": true
+  },
+  {
+   "fid": "51281",
+   "date": "2025-03-25",
+   "found": 32,
+   "counted": true
+  },
+  {
+   "fid": "51191",
+   "date": "2025-03-20",
+   "found": 32,
+   "counted": true
+  },
+  {
+   "fid": "51190",
+   "date": "2025-03-18",
+   "found": 32,
+   "counted": true
+  },
+  {
+   "fid": "51086",
+   "date": "2025-03-13",
+   "found": 32,
+   "counted": true
+  },
+  {
+   "fid": "51085",
+   "date": "2025-03-11",
+   "found": 32,
+   "counted": true
+  },
+  {
+   "fid": "50916",
+   "date": "2025-03-04",
+   "found": 32,
+   "counted": true
+  },
+  {
+   "fid": "50915",
+   "date": "2025-02-27",
+   "found": 32,
+   "counted": true
+  },
+  {
+   "fid": "50473",
+   "date": "2025-01-10",
+   "found": 32,
+   "counted": true
+  },
+  {
+   "fid": "50472",
+   "date": "2025-01-10",
+   "found": 32,
+   "counted": true
+  },
+  {
+   "fid": "50442",
+   "date": "2025-01-08",
+   "found": 32,
+   "counted": true
+  },
+  {
+   "fid": "50435",
+   "date": "2025-01-07",
+   "found": 32,
+   "counted": true
+  },
+  {
+   "fid": "50434",
+   "date": "2025-01-07",
+   "found": 32,
+   "counted": true
+  },
+  {
+   "fid": "50347",
+   "date": "2024-12-11",
+   "found": 32,
+   "counted": true
+  },
+  {
+   "fid": "50346",
+   "date": "2024-12-09",
+   "found": 32,
+   "counted": true
+  },
+  {
+   "fid": "50345",
+   "date": "2024-12-05",
+   "found": 32,
+   "counted": true
+  },
+  {
+   "fid": "50344",
+   "date": "2024-12-05",
+   "found": 32,
+   "counted": true
+  },
+  {
+   "fid": "50230",
+   "date": "2024-12-03",
+   "found": 32,
+   "counted": true
+  },
+  {
+   "fid": "50140",
+   "date": "2024-11-27",
+   "found": 32,
+   "counted": true
+  },
+  {
+   "fid": "50139",
+   "date": "2024-11-27",
+   "found": 32,
+   "counted": true
+  },
+  {
+   "fid": "49943",
+   "date": "2024-11-19",
+   "found": 32,
+   "counted": true
+  },
+  {
+   "fid": "49860",
+   "date": "2024-11-13",
+   "found": 32,
+   "counted": true
+  },
+  {
+   "fid": "49859",
+   "date": "2024-11-13",
+   "found": 32,
+   "counted": true
+  },
+  {
+   "fid": "49771",
+   "date": "2024-11-06",
+   "found": 32,
+   "counted": true
+  },
+  {
+   "fid": "49675",
+   "date": "2024-10-29",
+   "found": 32,
+   "counted": true
+  },
+  {
+   "fid": "49509",
+   "date": "2024-10-22",
+   "found": 32,
+   "counted": true
+  },
+  {
+   "fid": "49508",
+   "date": "2024-10-22",
+   "found": 32,
+   "counted": true
+  },
+  {
+   "fid": "49410",
+   "date": "2024-10-16",
+   "found": 32,
+   "counted": true
+  },
+  {
+   "fid": "49266",
+   "date": "2024-10-10",
+   "found": 32,
+   "counted": true
+  },
+  {
+   "fid": "49202",
+   "date": "2024-10-02",
+   "found": 32,
+   "counted": true
+  },
+  {
+   "fid": "49081",
+   "date": "2024-09-27",
+   "found": 32,
+   "counted": true
+  },
+  {
+   "fid": "49080",
+   "date": "2024-09-27",
+   "found": 32,
+   "counted": true
+  },
+  {
+   "fid": "49052",
+   "date": "2024-09-25",
+   "found": 32,
+   "counted": true
+  },
+  {
+   "fid": "49015",
+   "date": "2024-09-18",
+   "found": 32,
+   "counted": true
+  },
+  {
+   "fid": "48884",
+   "date": "2024-09-11",
+   "found": 32,
+   "counted": true
+  },
+  {
+   "fid": "48602",
+   "date": "2024-09-04",
+   "found": 32,
+   "counted": true
+  },
+  {
+   "fid": "48601",
+   "date": "2024-09-04",
+   "found": 32,
+   "counted": true
+  },
+  {
+   "fid": "48200",
+   "date": "2024-08-28",
+   "found": 32,
+   "counted": true
+  },
+  {
+   "fid": "48199",
+   "date": "2024-08-20",
+   "found": 32,
+   "counted": true
+  },
+  {
+   "fid": "48152",
+   "date": "2024-08-16",
+   "found": 32,
+   "counted": true
+  }
+ ],
+ "tally": {
+  "Omar Leonel Fernández Domínguez": {
+   "presente": 90,
+   "ausente": 0,
+   "excusado": 22,
+   "sin_dato": 0
+  },
+  "Lía Ynocencia Díaz Santana": {
+   "presente": 106,
+   "ausente": 0,
+   "excusado": 6,
+   "sin_dato": 0
+  },
+  "Andrés Guillermo Lama Pérez": {
+   "presente": 108,
+   "ausente": 0,
+   "excusado": 4,
+   "sin_dato": 0
+  },
+  "Moisés Ayala Pérez": {
+   "presente": 102,
+   "ausente": 0,
+   "excusado": 10,
+   "sin_dato": 0
+  },
+  "Manuel María Rodríguez Ortega": {
+   "presente": 89,
+   "ausente": 0,
+   "excusado": 23,
+   "sin_dato": 0
+  },
+  "Franklin Martín Romero Morillo": {
+   "presente": 89,
+   "ausente": 0,
+   "excusado": 23,
+   "sin_dato": 0
+  },
+  "Santiago José Zorrilla": {
+   "presente": 96,
+   "ausente": 0,
+   "excusado": 16,
+   "sin_dato": 0
+  },
+  "Jonhson Encarnación Díaz": {
+   "presente": 104,
+   "ausente": 0,
+   "excusado": 8,
+   "sin_dato": 0
+  },
+  "Carlos Manuel Gómez Ureña": {
+   "presente": 102,
+   "ausente": 0,
+   "excusado": 10,
+   "sin_dato": 0
+  },
+  "Cristóbal Venerado Castillo": {
+   "presente": 104,
+   "ausente": 0,
+   "excusado": 8,
+   "sin_dato": 0
+  },
+  "María Mercedes Ortiz Diloné": {
+   "presente": 109,
+   "ausente": 0,
+   "excusado": 3,
+   "sin_dato": 0
+  },
+  "Dagoberto Rodríguez Adames": {
+   "presente": 98,
+   "ausente": 0,
+   "excusado": 14,
+   "sin_dato": 0
+  },
+  "Rafael Barón Duluc Rijo": {
+   "presente": 86,
+   "ausente": 0,
+   "excusado": 26,
+   "sin_dato": 0
+  },
+  "Eduard Alexis Espiritusanto Castillo": {
+   "presente": 88,
+   "ausente": 0,
+   "excusado": 23,
+   "sin_dato": 1
+  },
+  "Ramón Rogelio Genao Durán": {
+   "presente": 100,
+   "ausente": 0,
+   "excusado": 12,
+   "sin_dato": 0
+  },
+  "Alexis Victoria Yeb": {
+   "presente": 83,
+   "ausente": 0,
+   "excusado": 29,
+   "sin_dato": 0
+  },
+  "Héctor E. Acosta": {
+   "presente": 24,
+   "ausente": 0,
+   "excusado": 88,
+   "sin_dato": 0
+  },
+  "Bernardo Alemán Rodríguez": {
+   "presente": 54,
+   "ausente": 0,
+   "excusado": 58,
+   "sin_dato": 0
+  },
+  "Pedro Antonio Tineo Núñez": {
+   "presente": 74,
+   "ausente": 0,
+   "excusado": 38,
+   "sin_dato": 0
+  },
+  "Secundino Velázquez Pimentel": {
+   "presente": 95,
+   "ausente": 0,
+   "excusado": 17,
+   "sin_dato": 0
+  },
+  "Julito Fulcar Encarnación": {
+   "presente": 102,
+   "ausente": 0,
+   "excusado": 10,
+   "sin_dato": 0
+  },
+  "Ginnette Altagracia Bournigal": {
+   "presente": 91,
+   "ausente": 0,
+   "excusado": 21,
+   "sin_dato": 0
+  },
+  "Pedro Catrain Bonilla": {
+   "presente": 90,
+   "ausente": 0,
+   "excusado": 22,
+   "sin_dato": 0
+  },
+  "Gustavo Lara Salazar": {
+   "presente": 90,
+   "ausente": 0,
+   "excusado": 22,
+   "sin_dato": 0
+  },
+  "Aneudy Ortiz Sajiun": {
+   "presente": 100,
+   "ausente": 0,
+   "excusado": 12,
+   "sin_dato": 0
+  },
+  "Félix Bautista Rosario": {
+   "presente": 70,
+   "ausente": 0,
+   "excusado": 42,
+   "sin_dato": 0
+  },
+  "Aracelis Villanueva": {
+   "presente": 98,
+   "ausente": 0,
+   "excusado": 14,
+   "sin_dato": 0
+  },
+  "Ricardo De Los Santos": {
+   "presente": 112,
+   "ausente": 0,
+   "excusado": 0,
+   "sin_dato": 0
+  },
+  "Daniel Enrique De Jesús Rivera Reyes": {
+   "presente": 103,
+   "ausente": 0,
+   "excusado": 9,
+   "sin_dato": 0
+  },
+  "Casimiro Antonio Marte Familia": {
+   "presente": 97,
+   "ausente": 0,
+   "excusado": 15,
+   "sin_dato": 0
+  },
+  "Antonio M. Taveras Guzmán": {
+   "presente": 87,
+   "ausente": 0,
+   "excusado": 25,
+   "sin_dato": 0
+  },
+  "Odalís Rafael Rodríguez Rodríguez": {
+   "presente": 97,
+   "ausente": 0,
+   "excusado": 15,
+   "sin_dato": 0
+  }
+ }
+}

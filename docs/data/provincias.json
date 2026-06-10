@@ -19,7 +19,13 @@
       "Relaciones Exteriores",
       "Seguridad Social, Trabajo y Pensiones",
       "Turismo"
-     ]
+     ],
+     "asistencia": {
+      "presentes": 90,
+      "total": 112,
+      "periodo": "agosto 2024 a mayo 2026",
+      "fuente": "hojas oficiales de asistencia del Senado (senadord.gob.do/asistencia-a-sesiones)"
+     }
     },
     {
      "cargo": "Diputado/a",
@@ -174,7 +180,13 @@
       "Relaciones Exteriores",
       "Salud Pública",
       "Seguridad Social, Trabajo y Pensiones"
-     ]
+     ],
+     "asistencia": {
+      "presentes": 106,
+      "total": 112,
+      "periodo": "agosto 2024 a mayo 2026",
+      "fuente": "hojas oficiales de asistencia del Senado (senadord.gob.do/asistencia-a-sesiones)"
+     }
     },
     {
      "cargo": "Diputado/a",
@@ -238,7 +250,13 @@
       "Presupuesto",
       "Salud Pública",
       "Transporte y Telecomunicaciones"
-     ]
+     ],
+     "asistencia": {
+      "presentes": 108,
+      "total": 112,
+      "periodo": "agosto 2024 a mayo 2026",
+      "fuente": "hojas oficiales de asistencia del Senado (senadord.gob.do/asistencia-a-sesiones)"
+     }
     },
     {
      "cargo": "Diputado/a",
@@ -288,7 +306,13 @@
       "Educación",
       "Interior, Policía y Seguridad Ciudadana",
       "Salud Pública"
-     ]
+     ],
+     "asistencia": {
+      "presentes": 102,
+      "total": 112,
+      "periodo": "agosto 2024 a mayo 2026",
+      "fuente": "hojas oficiales de asistencia del Senado (senadord.gob.do/asistencia-a-sesiones)"
+     }
     },
     {
      "cargo": "Diputado/a",
@@ -345,7 +369,13 @@
       "Juventud",
       "Obras Públicas",
       "Recursos Naturales y Medio Ambiente"
-     ]
+     ],
+     "asistencia": {
+      "presentes": 89,
+      "total": 112,
+      "periodo": "agosto 2024 a mayo 2026",
+      "fuente": "hojas oficiales de asistencia del Senado (senadord.gob.do/asistencia-a-sesiones)"
+     }
     },
     {
      "cargo": "Diputado/a",
@@ -396,7 +426,13 @@
       "Obras Públicas",
       "Seguimiento de la Agenda Parlamentaria",
       "Seguridad Social, Trabajo y Pensiones"
-     ]
+     ],
+     "asistencia": {
+      "presentes": 89,
+      "total": 112,
+      "periodo": "agosto 2024 a mayo 2026",
+      "fuente": "hojas oficiales de asistencia del Senado (senadord.gob.do/asistencia-a-sesiones)"
+     }
     },
     {
      "cargo": "Diputado/a",
@@ -467,7 +503,13 @@
       "Recursos Naturales y Medio Ambiente",
       "Relaciones Exteriores",
       "Turismo"
-     ]
+     ],
+     "asistencia": {
+      "presentes": 96,
+      "total": 112,
+      "periodo": "agosto 2024 a mayo 2026",
+      "fuente": "hojas oficiales de asistencia del Senado (senadord.gob.do/asistencia-a-sesiones)"
+     }
     },
     {
      "cargo": "Diputado/a",
@@ -517,7 +559,13 @@
       "Obras Públicas",
       "Salud Pública",
       "Seguridad Social, Trabajo y Pensiones"
-     ]
+     ],
+     "asistencia": {
+      "presentes": 104,
+      "total": 112,
+      "periodo": "agosto 2024 a mayo 2026",
+      "fuente": "hojas oficiales de asistencia del Senado (senadord.gob.do/asistencia-a-sesiones)"
+     }
     },
     {
      "cargo": "Diputado/a",
@@ -566,7 +614,13 @@
       "Relaciones Exteriores",
       "Seguimiento de la Agenda Parlamentaria",
       "Ética"
-     ]
+     ],
+     "asistencia": {
+      "presentes": 102,
+      "total": 112,
+      "periodo": "agosto 2024 a mayo 2026",
+      "fuente": "hojas oficiales de asistencia del Senado (senadord.gob.do/asistencia-a-sesiones)"
+     }
     },
     {
      "cargo": "Diputado/a",
@@ -631,7 +685,13 @@
       "Interior, Policía y Seguridad Ciudadana",
       "Modernización y Reforma",
       "Seguimiento de la Agenda Parlamentaria"
-     ]
+     ],
+     "asistencia": {
+      "presentes": 104,
+      "total": 112,
+      "periodo": "agosto 2024 a mayo 2026",
+      "fuente": "hojas oficiales de asistencia del Senado (senadord.gob.do/asistencia-a-sesiones)"
+     }
     },
     {
      "cargo": "Diputado/a",
@@ -681,7 +741,13 @@
       "Presupuesto",
       "Recursos Naturales y Medio Ambiente",
       "Relaciones Exteriores"
-     ]
+     ],
+     "asistencia": {
+      "presentes": 109,
+      "total": 112,
+      "periodo": "agosto 2024 a mayo 2026",
+      "fuente": "hojas oficiales de asistencia del Senado (senadord.gob.do/asistencia-a-sesiones)"
+     }
     },
     {
      "cargo": "Diputado/a",
@@ -732,7 +798,13 @@
       "Seguridad Social, Trabajo y Pensiones",
       "Transporte y Telecomunicaciones",
       "Ética"
-     ]
+     ],
+     "asistencia": {
+      "presentes": 98,
+      "total": 112,
+      "periodo": "agosto 2024 a mayo 2026",
+      "fuente": "hojas oficiales de asistencia del Senado (senadord.gob.do/asistencia-a-sesiones)"
+     }
     },
     {
      "cargo": "Diputado/a",
@@ -783,7 +855,13 @@
       "Justicia y Derechos Humanos",
       "Recursos Naturales y Medio Ambiente",
       "Turismo"
-     ]
+     ],
+     "asistencia": {
+      "presentes": 86,
+      "total": 112,
+      "periodo": "agosto 2024 a mayo 2026",
+      "fuente": "hojas oficiales de asistencia del Senado (senadord.gob.do/asistencia-a-sesiones)"
+     }
     },
     {
      "cargo": "Diputado/a",
@@ -855,7 +933,13 @@
       "Juventud",
       "Salud Pública",
       "Turismo"
-     ]
+     ],
+     "asistencia": {
+      "presentes": 88,
+      "total": 111,
+      "periodo": "agosto 2024 a mayo 2026",
+      "fuente": "hojas oficiales de asistencia del Senado (senadord.gob.do/asistencia-a-sesiones)"
+     }
     },
     {
      "cargo": "Diputado/a",
@@ -921,7 +1005,13 @@
       "Seguimiento de la Agenda Parlamentaria",
       "Transporte y Telecomunicaciones",
       "Turismo"
-     ]
+     ],
+     "asistencia": {
+      "presentes": 100,
+      "total": 112,
+      "periodo": "agosto 2024 a mayo 2026",
+      "fuente": "hojas oficiales de asistencia del Senado (senadord.gob.do/asistencia-a-sesiones)"
+     }
     },
     {
      "cargo": "Diputado/a",
@@ -1006,7 +1096,13 @@
       "Presupuesto",
       "Salud Pública",
       "Turismo"
-     ]
+     ],
+     "asistencia": {
+      "presentes": 83,
+      "total": 112,
+      "periodo": "agosto 2024 a mayo 2026",
+      "fuente": "hojas oficiales de asistencia del Senado (senadord.gob.do/asistencia-a-sesiones)"
+     }
     },
     {
      "cargo": "Diputado/a",
@@ -1063,7 +1159,13 @@
       "Modernización y Reforma",
       "Seguimiento de la Agenda Parlamentaria",
       "Transporte y Telecomunicaciones"
-     ]
+     ],
+     "asistencia": {
+      "presentes": 24,
+      "total": 112,
+      "periodo": "agosto 2024 a mayo 2026",
+      "fuente": "hojas oficiales de asistencia del Senado (senadord.gob.do/asistencia-a-sesiones)"
+     }
     },
     {
      "cargo": "Diputado/a",
@@ -1119,7 +1221,13 @@
       "Obras Públicas",
       "Presupuesto",
       "Transporte y Telecomunicaciones"
-     ]
+     ],
+     "asistencia": {
+      "presentes": 54,
+      "total": 112,
+      "periodo": "agosto 2024 a mayo 2026",
+      "fuente": "hojas oficiales de asistencia del Senado (senadord.gob.do/asistencia-a-sesiones)"
+     }
     },
     {
      "cargo": "Diputado/a",
@@ -1170,7 +1278,13 @@
       "Presupuesto",
       "Seguimiento de la Agenda Parlamentaria",
       "Transporte y Telecomunicaciones"
-     ]
+     ],
+     "asistencia": {
+      "presentes": 74,
+      "total": 112,
+      "periodo": "agosto 2024 a mayo 2026",
+      "fuente": "hojas oficiales de asistencia del Senado (senadord.gob.do/asistencia-a-sesiones)"
+     }
     },
     {
      "cargo": "Diputado/a",
@@ -1228,7 +1342,13 @@
       "Modernización y Reforma",
       "Transporte y Telecomunicaciones",
       "Turismo"
-     ]
+     ],
+     "asistencia": {
+      "presentes": 95,
+      "total": 112,
+      "periodo": "agosto 2024 a mayo 2026",
+      "fuente": "hojas oficiales de asistencia del Senado (senadord.gob.do/asistencia-a-sesiones)"
+     }
     },
     {
      "cargo": "Diputado/a",
@@ -1276,7 +1396,13 @@
       "Presupuesto",
       "Relaciones Exteriores",
       "Seguimiento de la Agenda Parlamentaria"
-     ]
+     ],
+     "asistencia": {
+      "presentes": 102,
+      "total": 112,
+      "periodo": "agosto 2024 a mayo 2026",
+      "fuente": "hojas oficiales de asistencia del Senado (senadord.gob.do/asistencia-a-sesiones)"
+     }
     },
     {
      "cargo": "Diputado/a",
@@ -1332,7 +1458,13 @@
       "Seguridad Social, Trabajo y Pensiones",
       "Turismo",
       "Ética"
-     ]
+     ],
+     "asistencia": {
+      "presentes": 91,
+      "total": 112,
+      "periodo": "agosto 2024 a mayo 2026",
+      "fuente": "hojas oficiales de asistencia del Senado (senadord.gob.do/asistencia-a-sesiones)"
+     }
     },
     {
      "cargo": "Diputado/a",
@@ -1410,7 +1542,13 @@
       "Recursos Naturales y Medio Ambiente",
       "Relaciones Exteriores",
       "Turismo"
-     ]
+     ],
+     "asistencia": {
+      "presentes": 90,
+      "total": 112,
+      "periodo": "agosto 2024 a mayo 2026",
+      "fuente": "hojas oficiales de asistencia del Senado (senadord.gob.do/asistencia-a-sesiones)"
+     }
     },
     {
      "cargo": "Diputado/a",
@@ -1461,7 +1599,13 @@
       "Juventud",
       "Relaciones Exteriores",
       "Seguridad Social, Trabajo y Pensiones"
-     ]
+     ],
+     "asistencia": {
+      "presentes": 90,
+      "total": 112,
+      "periodo": "agosto 2024 a mayo 2026",
+      "fuente": "hojas oficiales de asistencia del Senado (senadord.gob.do/asistencia-a-sesiones)"
+     }
     },
     {
      "cargo": "Diputado/a",
@@ -1567,7 +1711,13 @@
       "Interior, Policía y Seguridad Ciudadana",
       "Juventud",
       "Transporte y Telecomunicaciones"
-     ]
+     ],
+     "asistencia": {
+      "presentes": 100,
+      "total": 112,
+      "periodo": "agosto 2024 a mayo 2026",
+      "fuente": "hojas oficiales de asistencia del Senado (senadord.gob.do/asistencia-a-sesiones)"
+     }
     },
     {
      "cargo": "Diputado/a",
@@ -1618,7 +1768,13 @@
       "Obras Públicas",
       "Seguimiento de la Agenda Parlamentaria",
       "Seguridad Social, Trabajo y Pensiones"
-     ]
+     ],
+     "asistencia": {
+      "presentes": 70,
+      "total": 112,
+      "periodo": "agosto 2024 a mayo 2026",
+      "fuente": "hojas oficiales de asistencia del Senado (senadord.gob.do/asistencia-a-sesiones)"
+     }
     },
     {
      "cargo": "Diputado/a",
@@ -1683,7 +1839,13 @@
       "Justicia y Derechos Humanos",
       "Presupuesto",
       "Relaciones Exteriores"
-     ]
+     ],
+     "asistencia": {
+      "presentes": 98,
+      "total": 112,
+      "periodo": "agosto 2024 a mayo 2026",
+      "fuente": "hojas oficiales de asistencia del Senado (senadord.gob.do/asistencia-a-sesiones)"
+     }
     },
     {
      "cargo": "Diputado/a",
@@ -1747,7 +1909,13 @@
      "registro": "No disponible todavía",
      "comisiones": [
       "Administración Interior"
-     ]
+     ],
+     "asistencia": {
+      "presentes": 112,
+      "total": 112,
+      "periodo": "agosto 2024 a mayo 2026",
+      "fuente": "hojas oficiales de asistencia del Senado (senadord.gob.do/asistencia-a-sesiones)"
+     }
     },
     {
      "cargo": "Diputado/a",
@@ -1802,7 +1970,13 @@
       "Salud Pública",
       "Seguridad Social, Trabajo y Pensiones",
       "Ética"
-     ]
+     ],
+     "asistencia": {
+      "presentes": 103,
+      "total": 112,
+      "periodo": "agosto 2024 a mayo 2026",
+      "fuente": "hojas oficiales de asistencia del Senado (senadord.gob.do/asistencia-a-sesiones)"
+     }
     },
     {
      "cargo": "Diputado/a",
@@ -1964,7 +2138,13 @@
       "Recursos Naturales y Medio Ambiente",
       "Transporte y Telecomunicaciones",
       "Ética"
-     ]
+     ],
+     "asistencia": {
+      "presentes": 97,
+      "total": 112,
+      "periodo": "agosto 2024 a mayo 2026",
+      "fuente": "hojas oficiales de asistencia del Senado (senadord.gob.do/asistencia-a-sesiones)"
+     }
     },
     {
      "cargo": "Diputado/a",
@@ -2011,7 +2191,13 @@
       "Justicia y Derechos Humanos",
       "Recursos Naturales y Medio Ambiente",
       "Ética"
-     ]
+     ],
+     "asistencia": {
+      "presentes": 87,
+      "total": 112,
+      "periodo": "agosto 2024 a mayo 2026",
+      "fuente": "hojas oficiales de asistencia del Senado (senadord.gob.do/asistencia-a-sesiones)"
+     }
     },
     {
      "cargo": "Diputado/a",
@@ -2368,7 +2554,13 @@
       "Educación Superior, Ciencia y Tecnología",
       "Salud Pública",
       "Ética"
-     ]
+     ],
+     "asistencia": {
+      "presentes": 97,
+      "total": 112,
+      "periodo": "agosto 2024 a mayo 2026",
+      "fuente": "hojas oficiales de asistencia del Senado (senadord.gob.do/asistencia-a-sesiones)"
+     }
     },
     {
      "cargo": "Diputado/a",
