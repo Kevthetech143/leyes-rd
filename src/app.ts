@@ -781,7 +781,7 @@ function construirSabias(leyes: LeyesData, ses: SesionesData): SabiasDato[] {
 
   // 1) Sueldo promedio formal — finanzas.json metricas[salario].valor.
   datos.push({
-    texto: "El sueldo promedio del trabajador formal en RD es <b>RD$37,572.82 al mes</b>. Muchos ganan menos.",
+    texto: "El sueldo promedio del trabajador formal en RD es <b>RD$37,572.82 al mes</b>, según la seguridad social (junio 2025).",
     cta: "Ver el bolsillo del país", destino: "dinero", acento: "acc-dinero",
   });
 
