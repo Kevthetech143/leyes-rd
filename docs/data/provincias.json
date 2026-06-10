@@ -1,1978 +1,2097 @@
 {
-  "_nota": "Senadores y diputados reales del período 2024-2028, según el Senado y la Cámara de Diputados de la República Dominicana. Gobernadores/as civiles vigentes designados/as por decreto presidencial (Presidencia de la República) y alcaldes/as electos/as en las elecciones municipales del 18 de febrero de 2024 (2024-2028), según la Junta Central Electoral y fuentes oficiales. El voto por legislador no es público. La lista de alcaldes/as aún es parcial: solo se incluyen municipios confirmados en fuentes oficiales. Actualizado el 7 de junio de 2026.",
-  "provincias": [
+ "_nota": "Senadores y diputados reales del período 2024-2028, según el Senado y la Cámara de Diputados de la República Dominicana. Gobernadores/as civiles vigentes designados/as por decreto presidencial (Presidencia de la República) y alcaldes/as electos/as en las elecciones municipales del 18 de febrero de 2024 (2024-2028), según la Junta Central Electoral y fuentes oficiales. El voto por legislador no es público. La lista de alcaldes/as aún es parcial: solo se incluyen municipios confirmados en fuentes oficiales. Actualizado el 7 de junio de 2026.",
+ "provincias": [
+  {
+   "nombre": "Distrito Nacional",
+   "lideres": [
     {
-      "nombre": "Distrito Nacional",
-      "lideres": [
-        {
-          "cargo": "Senador/a",
-          "nombre": "Omar Leonel Fernández Domínguez",
-          "partido": "FP",
-          "resumen": "Representa a Distrito Nacional en el Senado.",
-          "registro": "No disponible todavía"
-        },
-        {
-          "cargo": "Diputado/a",
-          "nombre": "Alfredo Pacheco Osoria",
-          "partido": "PRM",
-          "resumen": "Representa a Distrito Nacional en la Cámara de Diputados.",
-          "registro": "No disponible todavía"
-        },
-        {
-          "cargo": "Diputado/a",
-          "nombre": "Carlos Sánchez Quezada",
-          "partido": "PRM",
-          "resumen": "Representa a Distrito Nacional en la Cámara de Diputados.",
-          "registro": "No disponible todavía"
-        },
-        {
-          "cargo": "Diputado/a",
-          "nombre": "Charles Noel Mariotti Paz",
-          "partido": "PLD",
-          "resumen": "Representa a Distrito Nacional en la Cámara de Diputados.",
-          "registro": "No disponible todavía"
-        },
-        {
-          "cargo": "Diputado/a",
-          "nombre": "Chavely Melina Sánchez Taveras",
-          "partido": "PRM",
-          "resumen": "Representa a Distrito Nacional en la Cámara de Diputados.",
-          "registro": "No disponible todavía"
-        },
-        {
-          "cargo": "Diputado/a",
-          "nombre": "Eliazer Matos Féliz",
-          "partido": "PRM",
-          "resumen": "Representa a Distrito Nacional en la Cámara de Diputados.",
-          "registro": "No disponible todavía"
-        },
-        {
-          "cargo": "Diputado/a",
-          "nombre": "Fanny Selinés Méndez Simonó",
-          "partido": "FP",
-          "resumen": "Representa a Distrito Nacional en la Cámara de Diputados.",
-          "registro": "No disponible todavía"
-        },
-        {
-          "cargo": "Diputado/a",
-          "nombre": "Francisca Trinidad Jaque Aponte",
-          "partido": "PRM",
-          "resumen": "Representa a Distrito Nacional en la Cámara de Diputados.",
-          "registro": "No disponible todavía"
-        },
-        {
-          "cargo": "Diputado/a",
-          "nombre": "Gustavo Antonio Sánchez García",
-          "partido": "PLD",
-          "resumen": "Representa a Distrito Nacional en la Cámara de Diputados.",
-          "registro": "No disponible todavía"
-        },
-        {
-          "cargo": "Diputado/a",
-          "nombre": "José Manuel Caraballo Gómez",
-          "partido": "PRM",
-          "resumen": "Representa a Distrito Nacional en la Cámara de Diputados.",
-          "registro": "No disponible todavía"
-        },
-        {
-          "cargo": "Diputado/a",
-          "nombre": "Liz Adriana Mieses Díaz",
-          "partido": "PRM",
-          "resumen": "Representa a Distrito Nacional en la Cámara de Diputados.",
-          "registro": "No disponible todavía"
-        },
-        {
-          "cargo": "Diputado/a",
-          "nombre": "Manuel de Jesús Núñez Guerrero",
-          "partido": "PRM",
-          "resumen": "Representa a Distrito Nacional en la Cámara de Diputados.",
-          "registro": "No disponible todavía"
-        },
-        {
-          "cargo": "Diputado/a",
-          "nombre": "Maribel Altagracia Almánzar de Ogando",
-          "partido": "PRM",
-          "resumen": "Representa a Distrito Nacional en la Cámara de Diputados.",
-          "registro": "No disponible todavía"
-        },
-        {
-          "cargo": "Diputado/a",
-          "nombre": "Rafael Aníbal Díaz Rodríguez",
-          "partido": "PRM",
-          "resumen": "Representa a Distrito Nacional en la Cámara de Diputados.",
-          "registro": "No disponible todavía"
-        },
-        {
-          "cargo": "Diputado/a",
-          "nombre": "Rafael Tobías Crespo Pérez",
-          "partido": "FP",
-          "resumen": "Representa a Distrito Nacional en la Cámara de Diputados.",
-          "registro": "No disponible todavía"
-        },
-        {
-          "cargo": "Diputado/a",
-          "nombre": "Ramón Antonio Bueno Patiño",
-          "partido": "PRM",
-          "resumen": "Representa a Distrito Nacional en la Cámara de Diputados.",
-          "registro": "No disponible todavía"
-        },
-        {
-          "cargo": "Diputado/a",
-          "nombre": "Sergio Moya de la Cruz",
-          "partido": "PRM",
-          "resumen": "Representa a Distrito Nacional en la Cámara de Diputados.",
-          "registro": "No disponible todavía"
-        },
-        {
-          "cargo": "Diputado/a",
-          "nombre": "Vicente Arturo Sánchez Henríquez",
-          "partido": "PRM",
-          "resumen": "Representa a Distrito Nacional en la Cámara de Diputados.",
-          "registro": "No disponible todavía"
-        },
-        {
-          "cargo": "Diputado/a",
-          "nombre": "Yuderka Yvelisse de la Rosa Guerrero",
-          "partido": "FP",
-          "resumen": "Representa a Distrito Nacional en la Cámara de Diputados.",
-          "registro": "No disponible todavía"
-        },
-        {
-          "cargo": "Alcalde/sa de Distrito Nacional",
-          "nombre": "Carolina Mejía",
-          "partido": "PRM",
-          "resumen": "Alcalde/sa de Distrito Nacional (2024-2028).",
-          "registro": "No disponible todavía"
-        }
-      ]
+     "cargo": "Senador/a",
+     "nombre": "Omar Leonel Fernández Domínguez",
+     "partido": "FP",
+     "resumen": "Representa a Distrito Nacional en el Senado.",
+     "registro": "No disponible todavía"
     },
     {
-      "nombre": "Azua",
-      "lideres": [
-        {
-          "cargo": "Senador/a",
-          "nombre": "Lía Ynocencia Díaz Santana",
-          "partido": "PRM",
-          "resumen": "Representa a Azua en el Senado.",
-          "registro": "No disponible todavía"
-        },
-        {
-          "cargo": "Diputado/a",
-          "nombre": "Ángela Maruja Gregorina Pérez Díaz",
-          "partido": "PRM",
-          "resumen": "Representa a Azua en la Cámara de Diputados.",
-          "registro": "No disponible todavía"
-        },
-        {
-          "cargo": "Diputado/a",
-          "nombre": "Brenda Mercedes Ogando Campos",
-          "partido": "PRM",
-          "resumen": "Representa a Azua en la Cámara de Diputados.",
-          "registro": "No disponible todavía"
-        },
-        {
-          "cargo": "Diputado/a",
-          "nombre": "Julio César Beltré Méndez",
-          "partido": "PRM",
-          "resumen": "Representa a Azua en la Cámara de Diputados.",
-          "registro": "No disponible todavía"
-        },
-        {
-          "cargo": "Diputado/a",
-          "nombre": "Nurca Nieves Luciano Jiménez de Galván",
-          "partido": "FP",
-          "resumen": "Representa a Azua en la Cámara de Diputados.",
-          "registro": "No disponible todavía"
-        },
-        {
-          "cargo": "Gobernador/a",
-          "nombre": "María Minerva Navarro",
-          "partido": "—",
-          "resumen": "Gobernador/a civil de Azua, designado/a por la Presidencia.",
-          "registro": "No disponible todavía"
-        },
-        {
-          "cargo": "Alcalde/sa de Azua",
-          "nombre": "Rafael Antonio Hidalgo Fernández",
-          "partido": "PJS",
-          "resumen": "Alcalde/sa de Azua (2024-2028).",
-          "registro": "No disponible todavía"
-        }
-      ]
+     "cargo": "Diputado/a",
+     "nombre": "Alfredo Pacheco Osoria",
+     "partido": "PRM",
+     "resumen": "Representa a Distrito Nacional en la Cámara de Diputados.",
+     "registro": "No disponible todavía"
     },
     {
-      "nombre": "Bahoruco",
-      "lideres": [
-        {
-          "cargo": "Senador/a",
-          "nombre": "Andrés Guillermo Lama Pérez",
-          "partido": "PRM",
-          "resumen": "Representa a Bahoruco en el Senado.",
-          "registro": "No disponible todavía"
-        },
-        {
-          "cargo": "Diputado/a",
-          "nombre": "Juan Bolívar Cuevas Davis",
-          "partido": "PRM",
-          "resumen": "Representa a Bahoruco en la Cámara de Diputados.",
-          "registro": "No disponible todavía"
-        },
-        {
-          "cargo": "Diputado/a",
-          "nombre": "Olfanny Yuverka Méndez Matos",
-          "partido": "PRM",
-          "resumen": "Representa a Bahoruco en la Cámara de Diputados.",
-          "registro": "No disponible todavía"
-        },
-        {
-          "cargo": "Gobernador/a",
-          "nombre": "María Esther Díaz Medina",
-          "partido": "—",
-          "resumen": "Gobernador/a civil de Bahoruco, designado/a por la Presidencia.",
-          "registro": "No disponible todavía"
-        }
-      ]
+     "cargo": "Diputado/a",
+     "nombre": "Carlos Sánchez Quezada",
+     "partido": "PRM",
+     "resumen": "Representa a Distrito Nacional en la Cámara de Diputados.",
+     "registro": "No disponible todavía"
     },
     {
-      "nombre": "Barahona",
-      "lideres": [
-        {
-          "cargo": "Senador/a",
-          "nombre": "Moisés Ayala Pérez",
-          "partido": "PRM",
-          "resumen": "Representa a Barahona en el Senado.",
-          "registro": "No disponible todavía"
-        },
-        {
-          "cargo": "Diputado/a",
-          "nombre": "Aquiles Leonel Ledesma Alcántara",
-          "partido": "PRM",
-          "resumen": "Representa a Barahona en la Cámara de Diputados.",
-          "registro": "No disponible todavía"
-        },
-        {
-          "cargo": "Diputado/a",
-          "nombre": "José del Carmen Montero Arias",
-          "partido": "PRM",
-          "resumen": "Representa a Barahona en la Cámara de Diputados.",
-          "registro": "No disponible todavía"
-        },
-        {
-          "cargo": "Diputado/a",
-          "nombre": "Sara Penélope Féliz Díaz",
-          "partido": "PRM",
-          "resumen": "Representa a Barahona en la Cámara de Diputados.",
-          "registro": "No disponible todavía"
-        },
-        {
-          "cargo": "Gobernador/a",
-          "nombre": "Oneida Catalina Féliz Medina",
-          "partido": "—",
-          "resumen": "Gobernador/a civil de Barahona, designado/a por la Presidencia.",
-          "registro": "No disponible todavía"
-        },
-        {
-          "cargo": "Alcalde/sa de Barahona",
-          "nombre": "Milton Fernández de la Cruz",
-          "partido": "PRM",
-          "resumen": "Alcalde/sa de Barahona (2024-2028).",
-          "registro": "No disponible todavía"
-        }
-      ]
+     "cargo": "Diputado/a",
+     "nombre": "Charles Noel Mariotti Paz",
+     "partido": "PLD",
+     "resumen": "Representa a Distrito Nacional en la Cámara de Diputados.",
+     "registro": "No disponible todavía"
     },
     {
-      "nombre": "Dajabón",
-      "lideres": [
-        {
-          "cargo": "Senador/a",
-          "nombre": "Manuel María Rodríguez Ortega",
-          "partido": "PRM",
-          "resumen": "Representa a Dajabón en el Senado.",
-          "registro": "No disponible todavía"
-        },
-        {
-          "cargo": "Diputado/a",
-          "nombre": "Adelso de Jesús Ruben Contreras",
-          "partido": "PRM",
-          "resumen": "Representa a Dajabón en la Cámara de Diputados.",
-          "registro": "No disponible todavía"
-        },
-        {
-          "cargo": "Diputado/a",
-          "nombre": "Daritza Felicidad Zapata Díaz",
-          "partido": "PRM",
-          "resumen": "Representa a Dajabón en la Cámara de Diputados.",
-          "registro": "No disponible todavía"
-        },
-        {
-          "cargo": "Gobernador/a",
-          "nombre": "Severina Gil Carreras",
-          "partido": "—",
-          "resumen": "Gobernador/a civil de Dajabón, designado/a por la Presidencia.",
-          "registro": "No disponible todavía"
-        }
-      ]
+     "cargo": "Diputado/a",
+     "nombre": "Chavely Melina Sánchez Taveras",
+     "partido": "PRM",
+     "resumen": "Representa a Distrito Nacional en la Cámara de Diputados.",
+     "registro": "No disponible todavía"
     },
     {
-      "nombre": "Duarte",
-      "lideres": [
-        {
-          "cargo": "Senador/a",
-          "nombre": "Franklin Martín Romero Morillo",
-          "partido": "PRM",
-          "resumen": "Representa a Duarte en el Senado.",
-          "registro": "No disponible todavía"
-        },
-        {
-          "cargo": "Diputado/a",
-          "nombre": "Dorina Yajaira Rodríguez Salazar",
-          "partido": "PRM",
-          "resumen": "Representa a Duarte en la Cámara de Diputados.",
-          "registro": "No disponible todavía"
-        },
-        {
-          "cargo": "Diputado/a",
-          "nombre": "Jeovanny Ventura Rivera",
-          "partido": "PRM",
-          "resumen": "Representa a Duarte en la Cámara de Diputados.",
-          "registro": "No disponible todavía"
-        },
-        {
-          "cargo": "Diputado/a",
-          "nombre": "José Luis Rodríguez Hiciano",
-          "partido": "PRM",
-          "resumen": "Representa a Duarte en la Cámara de Diputados.",
-          "registro": "No disponible todavía"
-        },
-        {
-          "cargo": "Diputado/a",
-          "nombre": "Luis Tomás Marte Santos",
-          "partido": "PRM",
-          "resumen": "Representa a Duarte en la Cámara de Diputados.",
-          "registro": "No disponible todavía"
-        },
-        {
-          "cargo": "Diputado/a",
-          "nombre": "Nicolás Hidalgo Almánzar",
-          "partido": "PRM",
-          "resumen": "Representa a Duarte en la Cámara de Diputados.",
-          "registro": "No disponible todavía"
-        },
-        {
-          "cargo": "Gobernador/a",
-          "nombre": "Ana Xiomara Cortés Martes",
-          "partido": "—",
-          "resumen": "Gobernador/a civil de Duarte, designado/a por la Presidencia.",
-          "registro": "No disponible todavía"
-        },
-        {
-          "cargo": "Alcalde/sa de San Francisco de Macorís",
-          "nombre": "Alexis (Alex) Díaz",
-          "partido": "PRM",
-          "resumen": "Alcalde/sa de San Francisco de Macorís (2024-2028).",
-          "registro": "No disponible todavía"
-        }
-      ]
+     "cargo": "Diputado/a",
+     "nombre": "Eliazer Matos Féliz",
+     "partido": "PRM",
+     "resumen": "Representa a Distrito Nacional en la Cámara de Diputados.",
+     "registro": "No disponible todavía"
     },
     {
-      "nombre": "El Seibo",
-      "lideres": [
-        {
-          "cargo": "Senador/a",
-          "nombre": "Santiago José Zorrilla",
-          "partido": "PRM",
-          "resumen": "Representa a El Seibo en el Senado.",
-          "registro": "No disponible todavía"
-        },
-        {
-          "cargo": "Diputado/a",
-          "nombre": "Faustina Guerrero Cabrera",
-          "partido": "PRM",
-          "resumen": "Representa a El Seibo en la Cámara de Diputados.",
-          "registro": "No disponible todavía"
-        },
-        {
-          "cargo": "Diputado/a",
-          "nombre": "Valerio Leonardo Palacio",
-          "partido": "PRM",
-          "resumen": "Representa a El Seibo en la Cámara de Diputados.",
-          "registro": "No disponible todavía"
-        },
-        {
-          "cargo": "Gobernador/a",
-          "nombre": "Magaly Tabar De Goico",
-          "partido": "—",
-          "resumen": "Gobernador/a civil de El Seibo, designado/a por la Presidencia.",
-          "registro": "No disponible todavía"
-        }
-      ]
+     "cargo": "Diputado/a",
+     "nombre": "Fanny Selinés Méndez Simonó",
+     "partido": "FP",
+     "resumen": "Representa a Distrito Nacional en la Cámara de Diputados.",
+     "registro": "No disponible todavía"
     },
     {
-      "nombre": "Elías Piña",
-      "lideres": [
-        {
-          "cargo": "Senador/a",
-          "nombre": "Jonhson Encarnación Díaz",
-          "partido": "PRM",
-          "resumen": "Representa a Elías Piña en el Senado.",
-          "registro": "No disponible todavía"
-        },
-        {
-          "cargo": "Diputado/a",
-          "nombre": "Luis Enrique Castillo Ogando",
-          "partido": "PRM",
-          "resumen": "Representa a Elías Piña en la Cámara de Diputados.",
-          "registro": "No disponible todavía"
-        },
-        {
-          "cargo": "Diputado/a",
-          "nombre": "Millys Johanna Martínez Morillo",
-          "partido": "PRM",
-          "resumen": "Representa a Elías Piña en la Cámara de Diputados.",
-          "registro": "No disponible todavía"
-        },
-        {
-          "cargo": "Gobernador/a",
-          "nombre": "Migdaly Antonia de los Santos Jiménez",
-          "partido": "—",
-          "resumen": "Gobernador/a civil de Elías Piña, designado/a por la Presidencia.",
-          "registro": "No disponible todavía"
-        }
-      ]
+     "cargo": "Diputado/a",
+     "nombre": "Francisca Trinidad Jaque Aponte",
+     "partido": "PRM",
+     "resumen": "Representa a Distrito Nacional en la Cámara de Diputados.",
+     "registro": "No disponible todavía"
     },
     {
-      "nombre": "Espaillat",
-      "lideres": [
-        {
-          "cargo": "Senador/a",
-          "nombre": "Carlos Manuel Gómez Ureña",
-          "partido": "PRM",
-          "resumen": "Representa a Espaillat en el Senado.",
-          "registro": "No disponible todavía"
-        },
-        {
-          "cargo": "Diputado/a",
-          "nombre": "José Miguel Ferreiras Torres",
-          "partido": "PRM",
-          "resumen": "Representa a Espaillat en la Cámara de Diputados.",
-          "registro": "No disponible todavía"
-        },
-        {
-          "cargo": "Diputado/a",
-          "nombre": "Marleni Altagracia Jiménez Muñoz",
-          "partido": "PRM",
-          "resumen": "Representa a Espaillat en la Cámara de Diputados.",
-          "registro": "No disponible todavía"
-        },
-        {
-          "cargo": "Diputado/a",
-          "nombre": "Robinson Antonio Santos Rodríguez",
-          "partido": "PRM",
-          "resumen": "Representa a Espaillat en la Cámara de Diputados.",
-          "registro": "No disponible todavía"
-        },
-        {
-          "cargo": "Diputado/a",
-          "nombre": "Shirley Antonia López Féliz",
-          "partido": "PRM",
-          "resumen": "Representa a Espaillat en la Cámara de Diputados.",
-          "registro": "No disponible todavía"
-        },
-        {
-          "cargo": "Gobernador/a",
-          "nombre": "Patricia María Muñoz Salcedo",
-          "partido": "—",
-          "resumen": "Gobernador/a civil de Espaillat, designado/a por la Presidencia.",
-          "registro": "No disponible todavía"
-        }
-      ]
+     "cargo": "Diputado/a",
+     "nombre": "Gustavo Antonio Sánchez García",
+     "partido": "PLD",
+     "resumen": "Representa a Distrito Nacional en la Cámara de Diputados.",
+     "registro": "No disponible todavía"
     },
     {
-      "nombre": "Hato Mayor",
-      "lideres": [
-        {
-          "cargo": "Senador/a",
-          "nombre": "Cristóbal Venerado Castillo",
-          "partido": "PRM",
-          "resumen": "Representa a Hato Mayor en el Senado.",
-          "registro": "No disponible todavía"
-        },
-        {
-          "cargo": "Diputado/a",
-          "nombre": "Carmen Ligia Barceló González",
-          "partido": "PRM",
-          "resumen": "Representa a Hato Mayor en la Cámara de Diputados.",
-          "registro": "No disponible todavía"
-        },
-        {
-          "cargo": "Diputado/a",
-          "nombre": "Héctor Fodil Rosa Mercedes",
-          "partido": "PRM",
-          "resumen": "Representa a Hato Mayor en la Cámara de Diputados.",
-          "registro": "No disponible todavía"
-        },
-        {
-          "cargo": "Gobernador/a",
-          "nombre": "Maribel Guadalupe Simón Vargas de Reyes",
-          "partido": "—",
-          "resumen": "Gobernador/a civil de Hato Mayor, designado/a por la Presidencia.",
-          "registro": "No disponible todavía"
-        }
-      ]
+     "cargo": "Diputado/a",
+     "nombre": "José Manuel Caraballo Gómez",
+     "partido": "PRM",
+     "resumen": "Representa a Distrito Nacional en la Cámara de Diputados.",
+     "registro": "No disponible todavía"
     },
     {
-      "nombre": "Hermanas Mirabal",
-      "lideres": [
-        {
-          "cargo": "Senador/a",
-          "nombre": "María Mercedes Ortiz Diloné",
-          "partido": "PRM",
-          "resumen": "Representa a Hermanas Mirabal en el Senado.",
-          "registro": "No disponible todavía"
-        },
-        {
-          "cargo": "Diputado/a",
-          "nombre": "Félix Santiago Hiciano Almánzar",
-          "partido": "PRM",
-          "resumen": "Representa a Hermanas Mirabal en la Cámara de Diputados.",
-          "registro": "No disponible todavía"
-        },
-        {
-          "cargo": "Diputado/a",
-          "nombre": "Lourdes de Jesús Vélez",
-          "partido": "PRM",
-          "resumen": "Representa a Hermanas Mirabal en la Cámara de Diputados.",
-          "registro": "No disponible todavía"
-        },
-        {
-          "cargo": "Gobernador/a",
-          "nombre": "Lisette Nicasio de Adames",
-          "partido": "—",
-          "resumen": "Gobernador/a civil de Hermanas Mirabal, designado/a por la Presidencia.",
-          "registro": "No disponible todavía"
-        }
-      ]
+     "cargo": "Diputado/a",
+     "nombre": "Liz Adriana Mieses Díaz",
+     "partido": "PRM",
+     "resumen": "Representa a Distrito Nacional en la Cámara de Diputados.",
+     "registro": "No disponible todavía"
     },
     {
-      "nombre": "Independencia",
-      "lideres": [
-        {
-          "cargo": "Senador/a",
-          "nombre": "Dagoberto Rodríguez Adames",
-          "partido": "PRM",
-          "resumen": "Representa a Independencia en el Senado.",
-          "registro": "No disponible todavía"
-        },
-        {
-          "cargo": "Diputado/a",
-          "nombre": "Hermes Evangelina José Méndez de Méndez",
-          "partido": "PRM",
-          "resumen": "Representa a Independencia en la Cámara de Diputados.",
-          "registro": "No disponible todavía"
-        },
-        {
-          "cargo": "Diputado/a",
-          "nombre": "Llanelis Matos Cuevas",
-          "partido": "PRM",
-          "resumen": "Representa a Independencia en la Cámara de Diputados.",
-          "registro": "No disponible todavía"
-        },
-        {
-          "cargo": "Gobernador/a",
-          "nombre": "Mercedes Novas Novas",
-          "partido": "—",
-          "resumen": "Gobernador/a civil de Independencia, designado/a por la Presidencia.",
-          "registro": "No disponible todavía"
-        }
-      ]
+     "cargo": "Diputado/a",
+     "nombre": "Manuel de Jesús Núñez Guerrero",
+     "partido": "PRM",
+     "resumen": "Representa a Distrito Nacional en la Cámara de Diputados.",
+     "registro": "No disponible todavía"
     },
     {
-      "nombre": "La Altagracia",
-      "lideres": [
-        {
-          "cargo": "Senador/a",
-          "nombre": "Rafael Barón Duluc Rijo",
-          "partido": "PRM",
-          "resumen": "Representa a La Altagracia en el Senado.",
-          "registro": "No disponible todavía"
-        },
-        {
-          "cargo": "Diputado/a",
-          "nombre": "Ángel del Rosario Robles",
-          "partido": "PRM",
-          "resumen": "Representa a La Altagracia en la Cámara de Diputados.",
-          "registro": "No disponible todavía"
-        },
-        {
-          "cargo": "Diputado/a",
-          "nombre": "Carmen Aurelia de la Rosa Pérez",
-          "partido": "PRM",
-          "resumen": "Representa a La Altagracia en la Cámara de Diputados.",
-          "registro": "No disponible todavía"
-        },
-        {
-          "cargo": "Diputado/a",
-          "nombre": "Francisco Rodolfo Villegas Pérez",
-          "partido": "PRM",
-          "resumen": "Representa a La Altagracia en la Cámara de Diputados.",
-          "registro": "No disponible todavía"
-        },
-        {
-          "cargo": "Diputado/a",
-          "nombre": "Jorge Leonardo Tavárez Valdez",
-          "partido": "FP",
-          "resumen": "Representa a La Altagracia en la Cámara de Diputados.",
-          "registro": "No disponible todavía"
-        },
-        {
-          "cargo": "Diputado/a",
-          "nombre": "Onavel Andrés Aristy Cedeño",
-          "partido": "PLR",
-          "resumen": "Representa a La Altagracia en la Cámara de Diputados.",
-          "registro": "No disponible todavía"
-        },
-        {
-          "cargo": "Gobernador/a",
-          "nombre": "Daysi Francisca de Oleo R. de Bastardo",
-          "partido": "—",
-          "resumen": "Gobernador/a civil de La Altagracia, designado/a por la Presidencia.",
-          "registro": "No disponible todavía"
-        },
-        {
-          "cargo": "Alcalde/sa de Salvaleón de Higüey",
-          "nombre": "Karina Aristy",
-          "partido": "PLR",
-          "resumen": "Alcalde/sa de Salvaleón de Higüey (2024-2028).",
-          "registro": "No disponible todavía"
-        }
-      ]
+     "cargo": "Diputado/a",
+     "nombre": "Maribel Altagracia Almánzar de Ogando",
+     "partido": "PRM",
+     "resumen": "Representa a Distrito Nacional en la Cámara de Diputados.",
+     "registro": "No disponible todavía"
     },
     {
-      "nombre": "La Romana",
-      "lideres": [
-        {
-          "cargo": "Senador/a",
-          "nombre": "Eduard Alexis Espiritusanto Castillo",
-          "partido": "FP",
-          "resumen": "Representa a La Romana en el Senado.",
-          "registro": "No disponible todavía"
-        },
-        {
-          "cargo": "Diputado/a",
-          "nombre": "Carlos de Pérez Juan",
-          "partido": "FP",
-          "resumen": "Representa a La Romana en la Cámara de Diputados.",
-          "registro": "No disponible todavía"
-        },
-        {
-          "cargo": "Diputado/a",
-          "nombre": "Eugenio Cedeño Areché",
-          "partido": "PRM",
-          "resumen": "Representa a La Romana en la Cámara de Diputados.",
-          "registro": "No disponible todavía"
-        },
-        {
-          "cargo": "Diputado/a",
-          "nombre": "Jacqueline Fernández Brito",
-          "partido": "PRM",
-          "resumen": "Representa a La Romana en la Cámara de Diputados.",
-          "registro": "No disponible todavía"
-        },
-        {
-          "cargo": "Diputado/a",
-          "nombre": "Wandy Modesto Batista Gómez",
-          "partido": "PRM",
-          "resumen": "Representa a La Romana en la Cámara de Diputados.",
-          "registro": "No disponible todavía"
-        },
-        {
-          "cargo": "Gobernador/a",
-          "nombre": "Ivelisse Mercedes Méndez",
-          "partido": "—",
-          "resumen": "Gobernador/a civil de La Romana, designado/a por la Presidencia.",
-          "registro": "No disponible todavía"
-        }
-      ]
+     "cargo": "Diputado/a",
+     "nombre": "Rafael Aníbal Díaz Rodríguez",
+     "partido": "PRM",
+     "resumen": "Representa a Distrito Nacional en la Cámara de Diputados.",
+     "registro": "No disponible todavía"
     },
     {
-      "nombre": "La Vega",
-      "lideres": [
-        {
-          "cargo": "Senador/a",
-          "nombre": "Ramón Rogelio Genao Durán",
-          "partido": "PRSC",
-          "resumen": "Representa a La Vega en el Senado.",
-          "registro": "No disponible todavía"
-        },
-        {
-          "cargo": "Diputado/a",
-          "nombre": "Carolin Mercedes de la Cruz",
-          "partido": "PRM",
-          "resumen": "Representa a La Vega en la Cámara de Diputados.",
-          "registro": "No disponible todavía"
-        },
-        {
-          "cargo": "Diputado/a",
-          "nombre": "Elpidio Infante Galán",
-          "partido": "PRM",
-          "resumen": "Representa a La Vega en la Cámara de Diputados.",
-          "registro": "No disponible todavía"
-        },
-        {
-          "cargo": "Diputado/a",
-          "nombre": "Gabriela María Abreu Santos",
-          "partido": "PRM",
-          "resumen": "Representa a La Vega en la Cámara de Diputados.",
-          "registro": "No disponible todavía"
-        },
-        {
-          "cargo": "Diputado/a",
-          "nombre": "Gilda Mercedes Moronta Guzmán",
-          "partido": "FP",
-          "resumen": "Representa a La Vega en la Cámara de Diputados.",
-          "registro": "No disponible todavía"
-        },
-        {
-          "cargo": "Diputado/a",
-          "nombre": "José Luis Abreu Veloz",
-          "partido": "PRM",
-          "resumen": "Representa a La Vega en la Cámara de Diputados.",
-          "registro": "No disponible todavía"
-        },
-        {
-          "cargo": "Diputado/a",
-          "nombre": "Rogelio Alfonso Genao Lanza",
-          "partido": "PRSC",
-          "resumen": "Representa a La Vega en la Cámara de Diputados.",
-          "registro": "No disponible todavía"
-        },
-        {
-          "cargo": "Diputado/a",
-          "nombre": "Vilma Hortencia Morillo Vásquez",
-          "partido": "PRM",
-          "resumen": "Representa a La Vega en la Cámara de Diputados.",
-          "registro": "No disponible todavía"
-        },
-        {
-          "cargo": "Gobernador/a",
-          "nombre": "Luisa Altagracia Jiménez Cabreja",
-          "partido": "—",
-          "resumen": "Gobernador/a civil de La Vega, designado/a por la Presidencia.",
-          "registro": "No disponible todavía"
-        },
-        {
-          "cargo": "Alcalde/sa de La Vega",
-          "nombre": "Kelvin Cruz",
-          "partido": "PRM",
-          "resumen": "Alcalde/sa de La Vega (2024-2028).",
-          "registro": "No disponible todavía"
-        }
-      ]
+     "cargo": "Diputado/a",
+     "nombre": "Rafael Tobías Crespo Pérez",
+     "partido": "FP",
+     "resumen": "Representa a Distrito Nacional en la Cámara de Diputados.",
+     "registro": "No disponible todavía"
     },
     {
-      "nombre": "María Trinidad Sánchez",
-      "lideres": [
-        {
-          "cargo": "Senador/a",
-          "nombre": "Alexis Victoria Yeb",
-          "partido": "PRM",
-          "resumen": "Representa a María Trinidad Sánchez en el Senado.",
-          "registro": "No disponible todavía"
-        },
-        {
-          "cargo": "Diputado/a",
-          "nombre": "Jesús Stalin Vásquez Marte",
-          "partido": "PRM",
-          "resumen": "Representa a María Trinidad Sánchez en la Cámara de Diputados.",
-          "registro": "No disponible todavía"
-        },
-        {
-          "cargo": "Diputado/a",
-          "nombre": "Jorge Hugo Cavoli Balbuena",
-          "partido": "PRM",
-          "resumen": "Representa a María Trinidad Sánchez en la Cámara de Diputados.",
-          "registro": "No disponible todavía"
-        },
-        {
-          "cargo": "Diputado/a",
-          "nombre": "Sonia Núñez Espino",
-          "partido": "PRM",
-          "resumen": "Representa a María Trinidad Sánchez en la Cámara de Diputados.",
-          "registro": "No disponible todavía"
-        },
-        {
-          "cargo": "Gobernador/a",
-          "nombre": "María López Polanco",
-          "partido": "—",
-          "resumen": "Gobernador/a civil de María Trinidad Sánchez, designado/a por la Presidencia.",
-          "registro": "No disponible todavía"
-        }
-      ]
+     "cargo": "Diputado/a",
+     "nombre": "Ramón Antonio Bueno Patiño",
+     "partido": "PRM",
+     "resumen": "Representa a Distrito Nacional en la Cámara de Diputados.",
+     "registro": "No disponible todavía"
     },
     {
-      "nombre": "Monseñor Nouel",
-      "lideres": [
-        {
-          "cargo": "Senador/a",
-          "nombre": "Héctor E. Acosta",
-          "partido": "PRM",
-          "resumen": "Representa a Monseñor Nouel en el Senado.",
-          "registro": "No disponible todavía"
-        },
-        {
-          "cargo": "Diputado/a",
-          "nombre": "José Antonio Fabián Beltré",
-          "partido": "FP",
-          "resumen": "Representa a Monseñor Nouel en la Cámara de Diputados.",
-          "registro": "No disponible todavía"
-        },
-        {
-          "cargo": "Diputado/a",
-          "nombre": "Nolberto Ortiz de la Cruz",
-          "partido": "PRM",
-          "resumen": "Representa a Monseñor Nouel en la Cámara de Diputados.",
-          "registro": "No disponible todavía"
-        },
-        {
-          "cargo": "Diputado/a",
-          "nombre": "Orlando Antonio Martínez Peña",
-          "partido": "PRM",
-          "resumen": "Representa a Monseñor Nouel en la Cámara de Diputados.",
-          "registro": "No disponible todavía"
-        },
-        {
-          "cargo": "Gobernador/a",
-          "nombre": "Adela Tejada Gil",
-          "partido": "—",
-          "resumen": "Gobernador/a civil de Monseñor Nouel, designado/a por la Presidencia.",
-          "registro": "No disponible todavía"
-        },
-        {
-          "cargo": "Alcalde/sa de Bonao",
-          "nombre": "Eberto Núñez",
-          "partido": "PRM",
-          "resumen": "Alcalde/sa de Bonao (2024-2028).",
-          "registro": "No disponible todavía"
-        }
-      ]
+     "cargo": "Diputado/a",
+     "nombre": "Sergio Moya de la Cruz",
+     "partido": "PRM",
+     "resumen": "Representa a Distrito Nacional en la Cámara de Diputados.",
+     "registro": "No disponible todavía"
     },
     {
-      "nombre": "Monte Cristi",
-      "lideres": [
-        {
-          "cargo": "Senador/a",
-          "nombre": "Bernardo Alemán Rodríguez",
-          "partido": "PRM",
-          "resumen": "Representa a Monte Cristi en el Senado.",
-          "registro": "No disponible todavía"
-        },
-        {
-          "cargo": "Diputado/a",
-          "nombre": "Johanny Margarita Martínez Gómez",
-          "partido": "PRM",
-          "resumen": "Representa a Monte Cristi en la Cámara de Diputados.",
-          "registro": "No disponible todavía"
-        },
-        {
-          "cargo": "Diputado/a",
-          "nombre": "Rosendy Joel Polanco Polanco",
-          "partido": "PRM",
-          "resumen": "Representa a Monte Cristi en la Cámara de Diputados.",
-          "registro": "No disponible todavía"
-        },
-        {
-          "cargo": "Gobernador/a",
-          "nombre": "Leissa Virginia Cruz Polanco",
-          "partido": "—",
-          "resumen": "Gobernador/a civil de Monte Cristi, designado/a por la Presidencia.",
-          "registro": "No disponible todavía"
-        },
-        {
-          "cargo": "Alcalde/sa de San Fernando de Monte Cristi",
-          "nombre": "Rafael Jerez Castro",
-          "partido": "PRM",
-          "resumen": "Alcalde/sa de San Fernando de Monte Cristi (2024-2028).",
-          "registro": "No disponible todavía"
-        }
-      ]
+     "cargo": "Diputado/a",
+     "nombre": "Vicente Arturo Sánchez Henríquez",
+     "partido": "PRM",
+     "resumen": "Representa a Distrito Nacional en la Cámara de Diputados.",
+     "registro": "No disponible todavía"
     },
     {
-      "nombre": "Monte Plata",
-      "lideres": [
-        {
-          "cargo": "Senador/a",
-          "nombre": "Pedro Antonio Tineo Núñez",
-          "partido": "PRM",
-          "resumen": "Representa a Monte Plata en el Senado.",
-          "registro": "No disponible todavía"
-        },
-        {
-          "cargo": "Diputado/a",
-          "nombre": "Jhonatan Rabel Contreras del Orbe",
-          "partido": "PRM",
-          "resumen": "Representa a Monte Plata en la Cámara de Diputados.",
-          "registro": "No disponible todavía"
-        },
-        {
-          "cargo": "Diputado/a",
-          "nombre": "Oscar Adolfo Morel Figueroa",
-          "partido": "PLD",
-          "resumen": "Representa a Monte Plata en la Cámara de Diputados.",
-          "registro": "No disponible todavía"
-        },
-        {
-          "cargo": "Diputado/a",
-          "nombre": "Román de Jesús Vargas",
-          "partido": "PRM",
-          "resumen": "Representa a Monte Plata en la Cámara de Diputados.",
-          "registro": "No disponible todavía"
-        },
-        {
-          "cargo": "Gobernador/a",
-          "nombre": "Rafaela Gomera",
-          "partido": "—",
-          "resumen": "Gobernador/a civil de Monte Plata, designado/a por la Presidencia.",
-          "registro": "No disponible todavía"
-        }
-      ]
+     "cargo": "Diputado/a",
+     "nombre": "Yuderka Yvelisse de la Rosa Guerrero",
+     "partido": "FP",
+     "resumen": "Representa a Distrito Nacional en la Cámara de Diputados.",
+     "registro": "No disponible todavía"
     },
     {
-      "nombre": "Pedernales",
-      "lideres": [
-        {
-          "cargo": "Senador/a",
-          "nombre": "Secundino Velázquez Pimentel",
-          "partido": "PRM",
-          "resumen": "Representa a Pedernales en el Senado.",
-          "registro": "No disponible todavía"
-        },
-        {
-          "cargo": "Diputado/a",
-          "nombre": "Mery Antonia Mercado García de Contreras",
-          "partido": "PRM",
-          "resumen": "Representa a Pedernales en la Cámara de Diputados.",
-          "registro": "No disponible todavía"
-        },
-        {
-          "cargo": "Diputado/a",
-          "nombre": "Rafael Antonio Pérez Gómez",
-          "partido": "FP",
-          "resumen": "Representa a Pedernales en la Cámara de Diputados.",
-          "registro": "No disponible todavía"
-        },
-        {
-          "cargo": "Gobernador/a",
-          "nombre": "Edirda Yoalis de Óleo Peña",
-          "partido": "—",
-          "resumen": "Gobernador/a civil de Pedernales, designado/a por la Presidencia.",
-          "registro": "No disponible todavía"
-        }
-      ]
-    },
-    {
-      "nombre": "Peravia",
-      "lideres": [
-        {
-          "cargo": "Senador/a",
-          "nombre": "Julito Fulcar Encarnación",
-          "partido": "PRM",
-          "resumen": "Representa a Peravia en el Senado.",
-          "registro": "No disponible todavía"
-        },
-        {
-          "cargo": "Diputado/a",
-          "nombre": "Carmen Leida Escarfuller Morel de Melo",
-          "partido": "PRM",
-          "resumen": "Representa a Peravia en la Cámara de Diputados.",
-          "registro": "No disponible todavía"
-        },
-        {
-          "cargo": "Diputado/a",
-          "nombre": "Luis Alcides Báez",
-          "partido": "PRM",
-          "resumen": "Representa a Peravia en la Cámara de Diputados.",
-          "registro": "No disponible todavía"
-        },
-        {
-          "cargo": "Diputado/a",
-          "nombre": "Willy Enrique Sánchez González",
-          "partido": "PRM",
-          "resumen": "Representa a Peravia en la Cámara de Diputados.",
-          "registro": "No disponible todavía"
-        },
-        {
-          "cargo": "Gobernador/a",
-          "nombre": "Ángela Báez",
-          "partido": "—",
-          "resumen": "Gobernador/a civil de Peravia, designado/a por la Presidencia.",
-          "registro": "No disponible todavía"
-        }
-      ]
-    },
-    {
-      "nombre": "Puerto Plata",
-      "lideres": [
-        {
-          "cargo": "Senador/a",
-          "nombre": "Ginnette Altagracia Bournigal",
-          "partido": "PRM",
-          "resumen": "Representa a Puerto Plata en el Senado.",
-          "registro": "No disponible todavía"
-        },
-        {
-          "cargo": "Diputado/a",
-          "nombre": "Fiordaliza Estévez Castillo",
-          "partido": "PRSC",
-          "resumen": "Representa a Puerto Plata en la Cámara de Diputados.",
-          "registro": "No disponible todavía"
-        },
-        {
-          "cargo": "Diputado/a",
-          "nombre": "Heidy María Musa Kunhardt",
-          "partido": "PLD",
-          "resumen": "Representa a Puerto Plata en la Cámara de Diputados.",
-          "registro": "No disponible todavía"
-        },
-        {
-          "cargo": "Diputado/a",
-          "nombre": "Jhonny de Jesús Medina Santos",
-          "partido": "PRM",
-          "resumen": "Representa a Puerto Plata en la Cámara de Diputados.",
-          "registro": "No disponible todavía"
-        },
-        {
-          "cargo": "Diputado/a",
-          "nombre": "Juan Agustín Medina Santos",
-          "partido": "PRM",
-          "resumen": "Representa a Puerto Plata en la Cámara de Diputados.",
-          "registro": "No disponible todavía"
-        },
-        {
-          "cargo": "Diputado/a",
-          "nombre": "Julio Emil Durán Rodríguez",
-          "partido": "PRM",
-          "resumen": "Representa a Puerto Plata en la Cámara de Diputados.",
-          "registro": "No disponible todavía"
-        },
-        {
-          "cargo": "Diputado/a",
-          "nombre": "Lidia Esther Pérez de Taveras",
-          "partido": "PRM",
-          "resumen": "Representa a Puerto Plata en la Cámara de Diputados.",
-          "registro": "No disponible todavía"
-        },
-        {
-          "cargo": "Gobernador/a",
-          "nombre": "Claritza Rochtte",
-          "partido": "—",
-          "resumen": "Gobernador/a civil de Puerto Plata, designado/a por la Presidencia.",
-          "registro": "No disponible todavía"
-        }
-      ]
-    },
-    {
-      "nombre": "Samaná",
-      "lideres": [
-        {
-          "cargo": "Senador/a",
-          "nombre": "Pedro Catrain Bonilla",
-          "partido": "PRM",
-          "resumen": "Representa a Samaná en el Senado.",
-          "registro": "No disponible todavía"
-        },
-        {
-          "cargo": "Diputado/a",
-          "nombre": "Carmen Lidia Williams Benjamín",
-          "partido": "PRM",
-          "resumen": "Representa a Samaná en la Cámara de Diputados.",
-          "registro": "No disponible todavía"
-        },
-        {
-          "cargo": "Diputado/a",
-          "nombre": "Cecilio García Javier",
-          "partido": "PRM",
-          "resumen": "Representa a Samaná en la Cámara de Diputados.",
-          "registro": "No disponible todavía"
-        },
-        {
-          "cargo": "Gobernador/a",
-          "nombre": "Teodora Mullix Geraldino",
-          "partido": "—",
-          "resumen": "Gobernador/a civil de Samaná, designado/a por la Presidencia.",
-          "registro": "No disponible todavía"
-        }
-      ]
-    },
-    {
-      "nombre": "San Cristóbal",
-      "lideres": [
-        {
-          "cargo": "Senador/a",
-          "nombre": "Gustavo Lara Salazar",
-          "partido": "PRM",
-          "resumen": "Representa a San Cristóbal en el Senado.",
-          "registro": "No disponible todavía"
-        },
-        {
-          "cargo": "Diputado/a",
-          "nombre": "Ana Miledy Cuevas",
-          "partido": "PRM",
-          "resumen": "Representa a San Cristóbal en la Cámara de Diputados.",
-          "registro": "No disponible todavía"
-        },
-        {
-          "cargo": "Diputado/a",
-          "nombre": "Antonio Brito Rodríguez",
-          "partido": "FP",
-          "resumen": "Representa a San Cristóbal en la Cámara de Diputados.",
-          "registro": "No disponible todavía"
-        },
-        {
-          "cargo": "Diputado/a",
-          "nombre": "Francisco Javier Paulino",
-          "partido": "PRM",
-          "resumen": "Representa a San Cristóbal en la Cámara de Diputados.",
-          "registro": "No disponible todavía"
-        },
-        {
-          "cargo": "Diputado/a",
-          "nombre": "German Martínez Araujo",
-          "partido": "FP",
-          "resumen": "Representa a San Cristóbal en la Cámara de Diputados.",
-          "registro": "No disponible todavía"
-        },
-        {
-          "cargo": "Diputado/a",
-          "nombre": "Gregoria Monserrat Santana Silfa",
-          "partido": "PRM",
-          "resumen": "Representa a San Cristóbal en la Cámara de Diputados.",
-          "registro": "No disponible todavía"
-        },
-        {
-          "cargo": "Diputado/a",
-          "nombre": "Jacqueline Montero",
-          "partido": "PRM",
-          "resumen": "Representa a San Cristóbal en la Cámara de Diputados.",
-          "registro": "No disponible todavía"
-        },
-        {
-          "cargo": "Diputado/a",
-          "nombre": "Margarita Tejeda de la Rosa",
-          "partido": "PRM",
-          "resumen": "Representa a San Cristóbal en la Cámara de Diputados.",
-          "registro": "No disponible todavía"
-        },
-        {
-          "cargo": "Diputado/a",
-          "nombre": "Nelson Saulo Vega Báez",
-          "partido": "PLD",
-          "resumen": "Representa a San Cristóbal en la Cámara de Diputados.",
-          "registro": "No disponible todavía"
-        },
-        {
-          "cargo": "Diputado/a",
-          "nombre": "Otoniel Tejeda Martínez",
-          "partido": "PRM",
-          "resumen": "Representa a San Cristóbal en la Cámara de Diputados.",
-          "registro": "No disponible todavía"
-        },
-        {
-          "cargo": "Diputado/a",
-          "nombre": "Ydenia Doñé Tiburcio",
-          "partido": "PLD",
-          "resumen": "Representa a San Cristóbal en la Cámara de Diputados.",
-          "registro": "No disponible todavía"
-        },
-        {
-          "cargo": "Gobernador/a",
-          "nombre": "Pura Casilla",
-          "partido": "—",
-          "resumen": "Gobernador/a civil de San Cristóbal, designado/a por la Presidencia.",
-          "registro": "No disponible todavía"
-        },
-        {
-          "cargo": "Alcalde/sa de San Cristóbal",
-          "nombre": "Dionisio de la Rosa",
-          "partido": "PRM",
-          "resumen": "Alcalde/sa de San Cristóbal (2024-2028).",
-          "registro": "No disponible todavía"
-        }
-      ]
-    },
-    {
-      "nombre": "San José de Ocoa",
-      "lideres": [
-        {
-          "cargo": "Senador/a",
-          "nombre": "Aneudy Ortiz Sajiun",
-          "partido": "PRM",
-          "resumen": "Representa a San José de Ocoa en el Senado.",
-          "registro": "No disponible todavía"
-        },
-        {
-          "cargo": "Diputado/a",
-          "nombre": "Ángel María Sánchez Pujols",
-          "partido": "PRM",
-          "resumen": "Representa a San José de Ocoa en la Cámara de Diputados.",
-          "registro": "No disponible todavía"
-        },
-        {
-          "cargo": "Diputado/a",
-          "nombre": "Elida Yalis Soto Mordán",
-          "partido": "PRM",
-          "resumen": "Representa a San José de Ocoa en la Cámara de Diputados.",
-          "registro": "No disponible todavía"
-        },
-        {
-          "cargo": "Gobernador/a",
-          "nombre": "Josefa Oliva Castillo de Peralta",
-          "partido": "—",
-          "resumen": "Gobernador/a civil de San José de Ocoa, designado/a por la Presidencia.",
-          "registro": "No disponible todavía"
-        }
-      ]
-    },
-    {
-      "nombre": "San Juan",
-      "lideres": [
-        {
-          "cargo": "Senador/a",
-          "nombre": "Félix Bautista Rosario",
-          "partido": "FP",
-          "resumen": "Representa a San Juan en el Senado.",
-          "registro": "No disponible todavía"
-        },
-        {
-          "cargo": "Diputado/a",
-          "nombre": "Carlos Morillo Valdez",
-          "partido": "PRM",
-          "resumen": "Representa a San Juan en la Cámara de Diputados.",
-          "registro": "No disponible todavía"
-        },
-        {
-          "cargo": "Diputado/a",
-          "nombre": "Elvira Corporán de los Santos de Lebrón",
-          "partido": "PRM",
-          "resumen": "Representa a San Juan en la Cámara de Diputados.",
-          "registro": "No disponible todavía"
-        },
-        {
-          "cargo": "Diputado/a",
-          "nombre": "Franklin Ramírez de los Santos",
-          "partido": "PRM",
-          "resumen": "Representa a San Juan en la Cámara de Diputados.",
-          "registro": "No disponible todavía"
-        },
-        {
-          "cargo": "Diputado/a",
-          "nombre": "Mélido Mercedes Castillo",
-          "partido": "FP",
-          "resumen": "Representa a San Juan en la Cámara de Diputados.",
-          "registro": "No disponible todavía"
-        },
-        {
-          "cargo": "Gobernador/a",
-          "nombre": "Ana María Castillo Mateo",
-          "partido": "—",
-          "resumen": "Gobernador/a civil de San Juan, designado/a por la Presidencia.",
-          "registro": "No disponible todavía"
-        },
-        {
-          "cargo": "Alcalde/sa de San Juan de la Maguana",
-          "nombre": "Lenin de la Rosa",
-          "partido": "PLD",
-          "resumen": "Alcalde/sa de San Juan de la Maguana (2024-2028).",
-          "registro": "No disponible todavía"
-        }
-      ]
-    },
-    {
-      "nombre": "San Pedro de Macorís",
-      "lideres": [
-        {
-          "cargo": "Senador/a",
-          "nombre": "Aracelis Villanueva",
-          "partido": "PRM",
-          "resumen": "Representa a San Pedro de Macorís en el Senado.",
-          "registro": "No disponible todavía"
-        },
-        {
-          "cargo": "Diputado/a",
-          "nombre": "Alcibíades Tavárez de la Cruz",
-          "partido": "FP",
-          "resumen": "Representa a San Pedro de Macorís en la Cámara de Diputados.",
-          "registro": "No disponible todavía"
-        },
-        {
-          "cargo": "Diputado/a",
-          "nombre": "Carlixta Carolina Paula de la Cruz",
-          "partido": "PRM",
-          "resumen": "Representa a San Pedro de Macorís en la Cámara de Diputados.",
-          "registro": "No disponible todavía"
-        },
-        {
-          "cargo": "Diputado/a",
-          "nombre": "Jacobo Ramos Crispín",
-          "partido": "PRM",
-          "resumen": "Representa a San Pedro de Macorís en la Cámara de Diputados.",
-          "registro": "No disponible todavía"
-        },
-        {
-          "cargo": "Diputado/a",
-          "nombre": "Luis Gómez Benzo",
-          "partido": "PRM",
-          "resumen": "Representa a San Pedro de Macorís en la Cámara de Diputados.",
-          "registro": "No disponible todavía"
-        },
-        {
-          "cargo": "Diputado/a",
-          "nombre": "Miguel Arredondo Quezada",
-          "partido": "PRM",
-          "resumen": "Representa a San Pedro de Macorís en la Cámara de Diputados.",
-          "registro": "No disponible todavía"
-        },
-        {
-          "cargo": "Gobernador/a",
-          "nombre": "Yovanny Agustina Núñez de Tavárez",
-          "partido": "—",
-          "resumen": "Gobernador/a civil de San Pedro de Macorís, designado/a por la Presidencia.",
-          "registro": "No disponible todavía"
-        },
-        {
-          "cargo": "Alcalde/sa de San Pedro de Macorís",
-          "nombre": "Raymundo Ortiz",
-          "partido": "PRM",
-          "resumen": "Alcalde/sa de San Pedro de Macorís (2024-2028).",
-          "registro": "No disponible todavía"
-        }
-      ]
-    },
-    {
-      "nombre": "Sánchez Ramírez",
-      "lideres": [
-        {
-          "cargo": "Senador/a",
-          "nombre": "Ricardo De Los Santos",
-          "partido": "PRM",
-          "resumen": "Representa a Sánchez Ramírez en el Senado.",
-          "registro": "No disponible todavía"
-        },
-        {
-          "cargo": "Diputado/a",
-          "nombre": "Caty Díaz Abreu",
-          "partido": "PRM",
-          "resumen": "Representa a Sánchez Ramírez en la Cámara de Diputados.",
-          "registro": "No disponible todavía"
-        },
-        {
-          "cargo": "Diputado/a",
-          "nombre": "José Alberto Jiménez Santos",
-          "partido": "FP",
-          "resumen": "Representa a Sánchez Ramírez en la Cámara de Diputados.",
-          "registro": "No disponible todavía"
-        },
-        {
-          "cargo": "Diputado/a",
-          "nombre": "Sadoky Duarte Suárez",
-          "partido": "PRM",
-          "resumen": "Representa a Sánchez Ramírez en la Cámara de Diputados.",
-          "registro": "No disponible todavía"
-        },
-        {
-          "cargo": "Gobernador/a",
-          "nombre": "Cristiana Rodríguez",
-          "partido": "—",
-          "resumen": "Gobernador/a civil de Sánchez Ramírez, designado/a por la Presidencia.",
-          "registro": "No disponible todavía"
-        },
-        {
-          "cargo": "Alcalde/sa de Cotuí",
-          "nombre": "José Montilla de la Cruz",
-          "partido": "PRM",
-          "resumen": "Alcalde/sa de Cotuí (2024-2028).",
-          "registro": "No disponible todavía"
-        }
-      ]
-    },
-    {
-      "nombre": "Santiago",
-      "lideres": [
-        {
-          "cargo": "Senador/a",
-          "nombre": "Daniel Enrique De Jesús Rivera Reyes",
-          "partido": "PRM",
-          "resumen": "Representa a Santiago en el Senado.",
-          "registro": "No disponible todavía"
-        },
-        {
-          "cargo": "Diputado/a",
-          "nombre": "Brailyn Miguel Vargas Núñez",
-          "partido": "PLD",
-          "resumen": "Representa a Santiago en la Cámara de Diputados.",
-          "registro": "No disponible todavía"
-        },
-        {
-          "cargo": "Diputado/a",
-          "nombre": "Braulio de Jesús Espinal Tavárez",
-          "partido": "DXC",
-          "resumen": "Representa a Santiago en la Cámara de Diputados.",
-          "registro": "No disponible todavía"
-        },
-        {
-          "cargo": "Diputado/a",
-          "nombre": "Deisy Emelda Díaz Salcedo",
-          "partido": "PRM",
-          "resumen": "Representa a Santiago en la Cámara de Diputados.",
-          "registro": "No disponible todavía"
-        },
-        {
-          "cargo": "Diputado/a",
-          "nombre": "Dharuelly Leany D´Aza Caraballo",
-          "partido": "PRM",
-          "resumen": "Representa a Santiago en la Cámara de Diputados.",
-          "registro": "No disponible todavía"
-        },
-        {
-          "cargo": "Diputado/a",
-          "nombre": "Dilenia Altagracia Santos Muñoz",
-          "partido": "PRM",
-          "resumen": "Representa a Santiago en la Cámara de Diputados.",
-          "registro": "No disponible todavía"
-        },
-        {
-          "cargo": "Diputado/a",
-          "nombre": "Estamy Rafaela Colón Tatis",
-          "partido": "PRM",
-          "resumen": "Representa a Santiago en la Cámara de Diputados.",
-          "registro": "No disponible todavía"
-        },
-        {
-          "cargo": "Diputado/a",
-          "nombre": "Félix Michell Rodríguez Morel",
-          "partido": "FP",
-          "resumen": "Representa a Santiago en la Cámara de Diputados.",
-          "registro": "No disponible todavía"
-        },
-        {
-          "cargo": "Diputado/a",
-          "nombre": "Francisco Alberto Díaz García",
-          "partido": "PRM",
-          "resumen": "Representa a Santiago en la Cámara de Diputados.",
-          "registro": "No disponible todavía"
-        },
-        {
-          "cargo": "Diputado/a",
-          "nombre": "Gregorio Domínguez Domínguez",
-          "partido": "PRM",
-          "resumen": "Representa a Santiago en la Cámara de Diputados.",
-          "registro": "No disponible todavía"
-        },
-        {
-          "cargo": "Diputado/a",
-          "nombre": "José David Báez Reinoso",
-          "partido": "FP",
-          "resumen": "Representa a Santiago en la Cámara de Diputados.",
-          "registro": "No disponible todavía"
-        },
-        {
-          "cargo": "Diputado/a",
-          "nombre": "Llaniris del Carmen Espinal Cabrera",
-          "partido": "FP",
-          "resumen": "Representa a Santiago en la Cámara de Diputados.",
-          "registro": "No disponible todavía"
-        },
-        {
-          "cargo": "Diputado/a",
-          "nombre": "Luis René Fernández Tavárez",
-          "partido": "PRM",
-          "resumen": "Representa a Santiago en la Cámara de Diputados.",
-          "registro": "No disponible todavía"
-        },
-        {
-          "cargo": "Diputado/a",
-          "nombre": "Mateo Evangelista Espaillat Tavárez",
-          "partido": "DXC",
-          "resumen": "Representa a Santiago en la Cámara de Diputados.",
-          "registro": "No disponible todavía"
-        },
-        {
-          "cargo": "Diputado/a",
-          "nombre": "Mirna Josefina López Francisco de Matos",
-          "partido": "PRM",
-          "resumen": "Representa a Santiago en la Cámara de Diputados.",
-          "registro": "No disponible todavía"
-        },
-        {
-          "cargo": "Diputado/a",
-          "nombre": "Nelsa Shoraya Suárez Ariza",
-          "partido": "PRM",
-          "resumen": "Representa a Santiago en la Cámara de Diputados.",
-          "registro": "No disponible todavía"
-        },
-        {
-          "cargo": "Diputado/a",
-          "nombre": "Nelson Rafael Marmolejos Gil",
-          "partido": "PRM",
-          "resumen": "Representa a Santiago en la Cámara de Diputados.",
-          "registro": "No disponible todavía"
-        },
-        {
-          "cargo": "Diputado/a",
-          "nombre": "Ramón Mayobanex Martínez Durán",
-          "partido": "PLD",
-          "resumen": "Representa a Santiago en la Cámara de Diputados.",
-          "registro": "No disponible todavía"
-        },
-        {
-          "cargo": "Diputado/a",
-          "nombre": "Robinson de Jesús Díaz Mejía",
-          "partido": "PRM",
-          "resumen": "Representa a Santiago en la Cámara de Diputados.",
-          "registro": "No disponible todavía"
-        },
-        {
-          "cargo": "Gobernador/a",
-          "nombre": "Rosa Santos Méndez",
-          "partido": "—",
-          "resumen": "Gobernador/a civil de Santiago, designado/a por la Presidencia.",
-          "registro": "No disponible todavía"
-        },
-        {
-          "cargo": "Alcalde/sa de Santiago de los Caballeros",
-          "nombre": "Ulises Rodríguez",
-          "partido": "PRM",
-          "resumen": "Alcalde/sa de Santiago de los Caballeros (2024-2028).",
-          "registro": "No disponible todavía"
-        }
-      ]
-    },
-    {
-      "nombre": "Santiago Rodríguez",
-      "lideres": [
-        {
-          "cargo": "Senador/a",
-          "nombre": "Casimiro Antonio Marte Familia",
-          "partido": "PPG",
-          "resumen": "Representa a Santiago Rodríguez en el Senado.",
-          "registro": "No disponible todavía"
-        },
-        {
-          "cargo": "Diputado/a",
-          "nombre": "Juana Ramona Castillo",
-          "partido": "PRM",
-          "resumen": "Representa a Santiago Rodríguez en la Cámara de Diputados.",
-          "registro": "No disponible todavía"
-        },
-        {
-          "cargo": "Diputado/a",
-          "nombre": "Nicolás Tolentino López Mercado",
-          "partido": "PRM",
-          "resumen": "Representa a Santiago Rodríguez en la Cámara de Diputados.",
-          "registro": "No disponible todavía"
-        },
-        {
-          "cargo": "Gobernador/a",
-          "nombre": "Glehany Yafreysys Azcona Torres",
-          "partido": "—",
-          "resumen": "Gobernador/a civil de Santiago Rodríguez, designado/a por la Presidencia.",
-          "registro": "No disponible todavía"
-        }
-      ]
-    },
-    {
-      "nombre": "Santo Domingo",
-      "lideres": [
-        {
-          "cargo": "Senador/a",
-          "nombre": "Antonio M. Taveras Guzmán",
-          "partido": "PRM",
-          "resumen": "Representa a Santo Domingo en el Senado.",
-          "registro": "No disponible todavía"
-        },
-        {
-          "cargo": "Diputado/a",
-          "nombre": "Abelardo Antonio Rutinel Arzeno",
-          "partido": "PRM",
-          "resumen": "Representa a Santo Domingo en la Cámara de Diputados.",
-          "registro": "No disponible todavía"
-        },
-        {
-          "cargo": "Diputado/a",
-          "nombre": "Aldoneris Rafael Adón Duarte",
-          "partido": "PRM",
-          "resumen": "Representa a Santo Domingo en la Cámara de Diputados.",
-          "registro": "No disponible todavía"
-        },
-        {
-          "cargo": "Diputado/a",
-          "nombre": "Alexander Javier Cuevas",
-          "partido": "PRM",
-          "resumen": "Representa a Santo Domingo en la Cámara de Diputados.",
-          "registro": "No disponible todavía"
-        },
-        {
-          "cargo": "Diputado/a",
-          "nombre": "Altagracia de los Santos",
-          "partido": "PRM",
-          "resumen": "Representa a Santo Domingo en la Cámara de Diputados.",
-          "registro": "No disponible todavía"
-        },
-        {
-          "cargo": "Diputado/a",
-          "nombre": "Amado Antonio Díaz Jiménez",
-          "partido": "PRM",
-          "resumen": "Representa a Santo Domingo en la Cámara de Diputados.",
-          "registro": "No disponible todavía"
-        },
-        {
-          "cargo": "Diputado/a",
-          "nombre": "Ana Adalgiza del Carmen Abreu Polanco",
-          "partido": "PRM",
-          "resumen": "Representa a Santo Domingo en la Cámara de Diputados.",
-          "registro": "No disponible todavía"
-        },
-        {
-          "cargo": "Diputado/a",
-          "nombre": "Anny Veleissy Mambrú Rodríguez",
-          "partido": "PRM",
-          "resumen": "Representa a Santo Domingo en la Cámara de Diputados.",
-          "registro": "No disponible todavía"
-        },
-        {
-          "cargo": "Diputado/a",
-          "nombre": "Bolívar Ernesto Valera Ariza",
-          "partido": "PRM",
-          "resumen": "Representa a Santo Domingo en la Cámara de Diputados.",
-          "registro": "No disponible todavía"
-        },
-        {
-          "cargo": "Diputado/a",
-          "nombre": "Carlos Alberto Pérez Hernández",
-          "partido": "FP",
-          "resumen": "Representa a Santo Domingo en la Cámara de Diputados.",
-          "registro": "No disponible todavía"
-        },
-        {
-          "cargo": "Diputado/a",
-          "nombre": "Carlos José Gil Rodríguez",
-          "partido": "FP",
-          "resumen": "Representa a Santo Domingo en la Cámara de Diputados.",
-          "registro": "No disponible todavía"
-        },
-        {
-          "cargo": "Diputado/a",
-          "nombre": "Damarys Vásquez Castillo",
-          "partido": "PLD",
-          "resumen": "Representa a Santo Domingo en la Cámara de Diputados.",
-          "registro": "No disponible todavía"
-        },
-        {
-          "cargo": "Diputado/a",
-          "nombre": "Dellys Dumidia Féliz Rodríguez",
-          "partido": "PRM",
-          "resumen": "Representa a Santo Domingo en la Cámara de Diputados.",
-          "registro": "No disponible todavía"
-        },
-        {
-          "cargo": "Diputado/a",
-          "nombre": "Diómedes Omar Rojas",
-          "partido": "PRM",
-          "resumen": "Representa a Santo Domingo en la Cámara de Diputados.",
-          "registro": "No disponible todavía"
-        },
-        {
-          "cargo": "Diputado/a",
-          "nombre": "Domingo Eusebio de León Mascaró",
-          "partido": "FP",
-          "resumen": "Representa a Santo Domingo en la Cámara de Diputados.",
-          "registro": "No disponible todavía"
-        },
-        {
-          "cargo": "Diputado/a",
-          "nombre": "Eduviges María Bautista Gomera",
-          "partido": "PRM",
-          "resumen": "Representa a Santo Domingo en la Cámara de Diputados.",
-          "registro": "No disponible todavía"
-        },
-        {
-          "cargo": "Diputado/a",
-          "nombre": "Enriqueta Rojas Javier",
-          "partido": "FP",
-          "resumen": "Representa a Santo Domingo en la Cámara de Diputados.",
-          "registro": "No disponible todavía"
-        },
-        {
-          "cargo": "Diputado/a",
-          "nombre": "Eudy Maldonado de la Cruz",
-          "partido": "FP",
-          "resumen": "Representa a Santo Domingo en la Cámara de Diputados.",
-          "registro": "No disponible todavía"
-        },
-        {
-          "cargo": "Diputado/a",
-          "nombre": "Félix Manuel Encarnación Montero",
-          "partido": "PRM",
-          "resumen": "Representa a Santo Domingo en la Cámara de Diputados.",
-          "registro": "No disponible todavía"
-        },
-        {
-          "cargo": "Diputado/a",
-          "nombre": "Franklin Martínez",
-          "partido": "PLD",
-          "resumen": "Representa a Santo Domingo en la Cámara de Diputados.",
-          "registro": "No disponible todavía"
-        },
-        {
-          "cargo": "Diputado/a",
-          "nombre": "Heriberto Aracena Montilla",
-          "partido": "FP",
-          "resumen": "Representa a Santo Domingo en la Cámara de Diputados.",
-          "registro": "No disponible todavía"
-        },
-        {
-          "cargo": "Diputado/a",
-          "nombre": "Ignacio Aracena",
-          "partido": "PRM",
-          "resumen": "Representa a Santo Domingo en la Cámara de Diputados.",
-          "registro": "No disponible todavía"
-        },
-        {
-          "cargo": "Diputado/a",
-          "nombre": "Indhira Shary de Jesús de Morla",
-          "partido": "PRM",
-          "resumen": "Representa a Santo Domingo en la Cámara de Diputados.",
-          "registro": "No disponible todavía"
-        },
-        {
-          "cargo": "Diputado/a",
-          "nombre": "Jesús Manuel Sánchez Martínez",
-          "partido": "PRM",
-          "resumen": "Representa a Santo Domingo en la Cámara de Diputados.",
-          "registro": "No disponible todavía"
-        },
-        {
-          "cargo": "Diputado/a",
-          "nombre": "Jheyson Amir García Castillo",
-          "partido": "PRM",
-          "resumen": "Representa a Santo Domingo en la Cámara de Diputados.",
-          "registro": "No disponible todavía"
-        },
-        {
-          "cargo": "Diputado/a",
-          "nombre": "Jorge Frías",
-          "partido": "PRM",
-          "resumen": "Representa a Santo Domingo en la Cámara de Diputados.",
-          "registro": "No disponible todavía"
-        },
-        {
-          "cargo": "Diputado/a",
-          "nombre": "José Moisés Ortiz López",
-          "partido": "PRM",
-          "resumen": "Representa a Santo Domingo en la Cámara de Diputados.",
-          "registro": "No disponible todavía"
-        },
-        {
-          "cargo": "Diputado/a",
-          "nombre": "Juan Carlos Echavarría Milané",
-          "partido": "PLD",
-          "resumen": "Representa a Santo Domingo en la Cámara de Diputados.",
-          "registro": "No disponible todavía"
-        },
-        {
-          "cargo": "Diputado/a",
-          "nombre": "Juan José Rojas Franco",
-          "partido": "PRM",
-          "resumen": "Representa a Santo Domingo en la Cámara de Diputados.",
-          "registro": "No disponible todavía"
-        },
-        {
-          "cargo": "Diputado/a",
-          "nombre": "Junior Muñoz Olivo",
-          "partido": "PRM",
-          "resumen": "Representa a Santo Domingo en la Cámara de Diputados.",
-          "registro": "No disponible todavía"
-        },
-        {
-          "cargo": "Diputado/a",
-          "nombre": "Kinsberly Taveras Duarte",
-          "partido": "PRM",
-          "resumen": "Representa a Santo Domingo en la Cámara de Diputados.",
-          "registro": "No disponible todavía"
-        },
-        {
-          "cargo": "Diputado/a",
-          "nombre": "Lucila Leonarda de León Martínez",
-          "partido": "PRM",
-          "resumen": "Representa a Santo Domingo en la Cámara de Diputados.",
-          "registro": "No disponible todavía"
-        },
-        {
-          "cargo": "Diputado/a",
-          "nombre": "María Elisa Suárez Alcalá",
-          "partido": "PRM",
-          "resumen": "Representa a Santo Domingo en la Cámara de Diputados.",
-          "registro": "No disponible todavía"
-        },
-        {
-          "cargo": "Diputado/a",
-          "nombre": "Melvin Alexis Lara Melo",
-          "partido": "PRM",
-          "resumen": "Representa a Santo Domingo en la Cámara de Diputados.",
-          "registro": "No disponible todavía"
-        },
-        {
-          "cargo": "Diputado/a",
-          "nombre": "Miguel Alberto Bogaert Marra",
-          "partido": "PRM",
-          "resumen": "Representa a Santo Domingo en la Cámara de Diputados.",
-          "registro": "No disponible todavía"
-        },
-        {
-          "cargo": "Diputado/a",
-          "nombre": "Miguel Eduardo Espinal Muñoz",
-          "partido": "FP",
-          "resumen": "Representa a Santo Domingo en la Cámara de Diputados.",
-          "registro": "No disponible todavía"
-        },
-        {
-          "cargo": "Diputado/a",
-          "nombre": "Patricia Alexandra Núñez Rivera",
-          "partido": "PRM",
-          "resumen": "Representa a Santo Domingo en la Cámara de Diputados.",
-          "registro": "No disponible todavía"
-        },
-        {
-          "cargo": "Diputado/a",
-          "nombre": "Pedro Julio Alcántara",
-          "partido": "PRM",
-          "resumen": "Representa a Santo Domingo en la Cámara de Diputados.",
-          "registro": "No disponible todavía"
-        },
-        {
-          "cargo": "Diputado/a",
-          "nombre": "Rafael Augusto Castillo Casado",
-          "partido": "FP",
-          "resumen": "Representa a Santo Domingo en la Cámara de Diputados.",
-          "registro": "No disponible todavía"
-        },
-        {
-          "cargo": "Diputado/a",
-          "nombre": "Rafaela González González",
-          "partido": "FP",
-          "resumen": "Representa a Santo Domingo en la Cámara de Diputados.",
-          "registro": "No disponible todavía"
-        },
-        {
-          "cargo": "Diputado/a",
-          "nombre": "Tayluma Monserrat Calderón Fortuna",
-          "partido": "FP",
-          "resumen": "Representa a Santo Domingo en la Cámara de Diputados.",
-          "registro": "No disponible todavía"
-        },
-        {
-          "cargo": "Diputado/a",
-          "nombre": "Víctor Virgilio Jiménez",
-          "partido": "FP",
-          "resumen": "Representa a Santo Domingo en la Cámara de Diputados.",
-          "registro": "No disponible todavía"
-        },
-        {
-          "cargo": "Diputado/a",
-          "nombre": "Yancarlos Simanca Ferreras",
-          "partido": "PRM",
-          "resumen": "Representa a Santo Domingo en la Cámara de Diputados.",
-          "registro": "No disponible todavía"
-        },
-        {
-          "cargo": "Diputado/a",
-          "nombre": "Ycelmary Brito O´Neal",
-          "partido": "FP",
-          "resumen": "Representa a Santo Domingo en la Cámara de Diputados.",
-          "registro": "No disponible todavía"
-        },
-        {
-          "cargo": "Gobernador/a",
-          "nombre": "Lucrecia Santana Leyba",
-          "partido": "—",
-          "resumen": "Gobernador/a civil de Santo Domingo, designado/a por la Presidencia.",
-          "registro": "No disponible todavía"
-        },
-        {
-          "cargo": "Alcalde/sa de Santo Domingo Este",
-          "nombre": "Dío Astacio",
-          "partido": "PRM",
-          "resumen": "Alcalde/sa de Santo Domingo Este (2024-2028).",
-          "registro": "No disponible todavía"
-        },
-        {
-          "cargo": "Alcalde/sa de Santo Domingo Norte",
-          "nombre": "Betty Gerónimo",
-          "partido": "PRM",
-          "resumen": "Alcalde/sa de Santo Domingo Norte (2024-2028).",
-          "registro": "No disponible todavía"
-        },
-        {
-          "cargo": "Alcalde/sa de Santo Domingo Oeste",
-          "nombre": "Francisco Peña",
-          "partido": "PRM",
-          "resumen": "Alcalde/sa de Santo Domingo Oeste (2024-2028).",
-          "registro": "No disponible todavía"
-        },
-        {
-          "cargo": "Alcalde/sa de Los Alcarrizos",
-          "nombre": "Junior Santos",
-          "partido": "PRM",
-          "resumen": "Alcalde/sa de Los Alcarrizos (2024-2028).",
-          "registro": "No disponible todavía"
-        }
-      ]
-    },
-    {
-      "nombre": "Valverde",
-      "lideres": [
-        {
-          "cargo": "Senador/a",
-          "nombre": "Odalís Rafael Rodríguez Rodríguez",
-          "partido": "PRM",
-          "resumen": "Representa a Valverde en el Senado.",
-          "registro": "No disponible todavía"
-        },
-        {
-          "cargo": "Diputado/a",
-          "nombre": "José Altagracia Valenzuela Arias",
-          "partido": "PRM",
-          "resumen": "Representa a Valverde en la Cámara de Diputados.",
-          "registro": "No disponible todavía"
-        },
-        {
-          "cargo": "Diputado/a",
-          "nombre": "María de los Ángeles Rodríguez Bonseñor",
-          "partido": "PRM",
-          "resumen": "Representa a Valverde en la Cámara de Diputados.",
-          "registro": "No disponible todavía"
-        },
-        {
-          "cargo": "Diputado/a",
-          "nombre": "Rubén Darío Peñaló Torres",
-          "partido": "PRM",
-          "resumen": "Representa a Valverde en la Cámara de Diputados.",
-          "registro": "No disponible todavía"
-        },
-        {
-          "cargo": "Gobernador/a",
-          "nombre": "Marta de Jesús Collado Ozoria de López",
-          "partido": "—",
-          "resumen": "Gobernador/a civil de Valverde, designado/a por la Presidencia.",
-          "registro": "No disponible todavía"
-        },
-        {
-          "cargo": "Alcalde/sa de Mao",
-          "nombre": "Yohendi Jiménez",
-          "partido": "PRM",
-          "resumen": "Alcalde/sa de Mao (2024-2028).",
-          "registro": "No disponible todavía"
-        }
-      ]
+     "cargo": "Alcalde/sa de Distrito Nacional",
+     "nombre": "Carolina Mejía",
+     "partido": "PRM",
+     "resumen": "Alcalde/sa de Distrito Nacional (2024-2028).",
+     "registro": "No disponible todavía"
     }
-  ]
+   ]
+  },
+  {
+   "nombre": "Azua",
+   "lideres": [
+    {
+     "cargo": "Senador/a",
+     "nombre": "Lía Ynocencia Díaz Santana",
+     "partido": "PRM",
+     "resumen": "Representa a Azua en el Senado.",
+     "registro": "No disponible todavía"
+    },
+    {
+     "cargo": "Diputado/a",
+     "nombre": "Ángela Maruja Gregorina Pérez Díaz",
+     "partido": "PRM",
+     "resumen": "Representa a Azua en la Cámara de Diputados.",
+     "registro": "No disponible todavía"
+    },
+    {
+     "cargo": "Diputado/a",
+     "nombre": "Brenda Mercedes Ogando Campos",
+     "partido": "PRM",
+     "resumen": "Representa a Azua en la Cámara de Diputados.",
+     "registro": "No disponible todavía"
+    },
+    {
+     "cargo": "Diputado/a",
+     "nombre": "Julio César Beltré Méndez",
+     "partido": "PRM",
+     "resumen": "Representa a Azua en la Cámara de Diputados.",
+     "registro": "No disponible todavía"
+    },
+    {
+     "cargo": "Diputado/a",
+     "nombre": "Nurca Nieves Luciano Jiménez de Galván",
+     "partido": "FP",
+     "resumen": "Representa a Azua en la Cámara de Diputados.",
+     "registro": "No disponible todavía"
+    },
+    {
+     "cargo": "Gobernador/a",
+     "nombre": "María Minerva Navarro",
+     "partido": "—",
+     "resumen": "Gobernador/a civil de Azua, designado/a por la Presidencia.",
+     "registro": "No disponible todavía"
+    },
+    {
+     "cargo": "Alcalde/sa de Azua",
+     "nombre": "Rafael Antonio Hidalgo Fernández",
+     "partido": "PJS",
+     "resumen": "Alcalde/sa de Azua (2024-2028).",
+     "registro": "No disponible todavía"
+    }
+   ]
+  },
+  {
+   "nombre": "Bahoruco",
+   "lideres": [
+    {
+     "cargo": "Senador/a",
+     "nombre": "Andrés Guillermo Lama Pérez",
+     "partido": "PRM",
+     "resumen": "Representa a Bahoruco en el Senado.",
+     "registro": "No disponible todavía"
+    },
+    {
+     "cargo": "Diputado/a",
+     "nombre": "Juan Bolívar Cuevas Davis",
+     "partido": "PRM",
+     "resumen": "Representa a Bahoruco en la Cámara de Diputados.",
+     "registro": "No disponible todavía"
+    },
+    {
+     "cargo": "Diputado/a",
+     "nombre": "Olfanny Yuverka Méndez Matos",
+     "partido": "PRM",
+     "resumen": "Representa a Bahoruco en la Cámara de Diputados.",
+     "registro": "No disponible todavía"
+    },
+    {
+     "cargo": "Gobernador/a",
+     "nombre": "María Esther Díaz Medina",
+     "partido": "—",
+     "resumen": "Gobernador/a civil de Bahoruco, designado/a por la Presidencia.",
+     "registro": "No disponible todavía"
+    },
+    {
+     "cargo": "Alcalde/sa de Neiba",
+     "nombre": "Yadel Suberví Santana",
+     "partido": "PRM",
+     "resumen": "Alcalde/sa del municipio cabecera, Neiba (2024-2028).",
+     "registro": "No disponible todavía"
+    }
+   ]
+  },
+  {
+   "nombre": "Barahona",
+   "lideres": [
+    {
+     "cargo": "Senador/a",
+     "nombre": "Moisés Ayala Pérez",
+     "partido": "PRM",
+     "resumen": "Representa a Barahona en el Senado.",
+     "registro": "No disponible todavía"
+    },
+    {
+     "cargo": "Diputado/a",
+     "nombre": "Aquiles Leonel Ledesma Alcántara",
+     "partido": "PRM",
+     "resumen": "Representa a Barahona en la Cámara de Diputados.",
+     "registro": "No disponible todavía"
+    },
+    {
+     "cargo": "Diputado/a",
+     "nombre": "José del Carmen Montero Arias",
+     "partido": "PRM",
+     "resumen": "Representa a Barahona en la Cámara de Diputados.",
+     "registro": "No disponible todavía"
+    },
+    {
+     "cargo": "Diputado/a",
+     "nombre": "Sara Penélope Féliz Díaz",
+     "partido": "PRM",
+     "resumen": "Representa a Barahona en la Cámara de Diputados.",
+     "registro": "No disponible todavía"
+    },
+    {
+     "cargo": "Gobernador/a",
+     "nombre": "Oneida Catalina Féliz Medina",
+     "partido": "—",
+     "resumen": "Gobernador/a civil de Barahona, designado/a por la Presidencia.",
+     "registro": "No disponible todavía"
+    },
+    {
+     "cargo": "Alcalde/sa de Barahona",
+     "nombre": "Milton Fernández de la Cruz",
+     "partido": "PRM",
+     "resumen": "Alcalde/sa de Barahona (2024-2028).",
+     "registro": "No disponible todavía"
+    }
+   ]
+  },
+  {
+   "nombre": "Dajabón",
+   "lideres": [
+    {
+     "cargo": "Senador/a",
+     "nombre": "Manuel María Rodríguez Ortega",
+     "partido": "PRM",
+     "resumen": "Representa a Dajabón en el Senado.",
+     "registro": "No disponible todavía"
+    },
+    {
+     "cargo": "Diputado/a",
+     "nombre": "Adelso de Jesús Ruben Contreras",
+     "partido": "PRM",
+     "resumen": "Representa a Dajabón en la Cámara de Diputados.",
+     "registro": "No disponible todavía"
+    },
+    {
+     "cargo": "Diputado/a",
+     "nombre": "Daritza Felicidad Zapata Díaz",
+     "partido": "PRM",
+     "resumen": "Representa a Dajabón en la Cámara de Diputados.",
+     "registro": "No disponible todavía"
+    },
+    {
+     "cargo": "Gobernador/a",
+     "nombre": "Severina Gil Carreras",
+     "partido": "—",
+     "resumen": "Gobernador/a civil de Dajabón, designado/a por la Presidencia.",
+     "registro": "No disponible todavía"
+    },
+    {
+     "cargo": "Alcalde/sa de Dajabón",
+     "nombre": "Santiago Riverón",
+     "partido": "PRM",
+     "resumen": "Alcalde/sa del municipio cabecera, Dajabón (2024-2028).",
+     "registro": "No disponible todavía"
+    }
+   ]
+  },
+  {
+   "nombre": "Duarte",
+   "lideres": [
+    {
+     "cargo": "Senador/a",
+     "nombre": "Franklin Martín Romero Morillo",
+     "partido": "PRM",
+     "resumen": "Representa a Duarte en el Senado.",
+     "registro": "No disponible todavía"
+    },
+    {
+     "cargo": "Diputado/a",
+     "nombre": "Dorina Yajaira Rodríguez Salazar",
+     "partido": "PRM",
+     "resumen": "Representa a Duarte en la Cámara de Diputados.",
+     "registro": "No disponible todavía"
+    },
+    {
+     "cargo": "Diputado/a",
+     "nombre": "Jeovanny Ventura Rivera",
+     "partido": "PRM",
+     "resumen": "Representa a Duarte en la Cámara de Diputados.",
+     "registro": "No disponible todavía"
+    },
+    {
+     "cargo": "Diputado/a",
+     "nombre": "José Luis Rodríguez Hiciano",
+     "partido": "PRM",
+     "resumen": "Representa a Duarte en la Cámara de Diputados.",
+     "registro": "No disponible todavía"
+    },
+    {
+     "cargo": "Diputado/a",
+     "nombre": "Luis Tomás Marte Santos",
+     "partido": "PRM",
+     "resumen": "Representa a Duarte en la Cámara de Diputados.",
+     "registro": "No disponible todavía"
+    },
+    {
+     "cargo": "Diputado/a",
+     "nombre": "Nicolás Hidalgo Almánzar",
+     "partido": "PRM",
+     "resumen": "Representa a Duarte en la Cámara de Diputados.",
+     "registro": "No disponible todavía"
+    },
+    {
+     "cargo": "Gobernador/a",
+     "nombre": "Ana Xiomara Cortés Martes",
+     "partido": "—",
+     "resumen": "Gobernador/a civil de Duarte, designado/a por la Presidencia.",
+     "registro": "No disponible todavía"
+    },
+    {
+     "cargo": "Alcalde/sa de San Francisco de Macorís",
+     "nombre": "Alexis (Alex) Díaz",
+     "partido": "PRM",
+     "resumen": "Alcalde/sa de San Francisco de Macorís (2024-2028).",
+     "registro": "No disponible todavía"
+    }
+   ]
+  },
+  {
+   "nombre": "El Seibo",
+   "lideres": [
+    {
+     "cargo": "Senador/a",
+     "nombre": "Santiago José Zorrilla",
+     "partido": "PRM",
+     "resumen": "Representa a El Seibo en el Senado.",
+     "registro": "No disponible todavía"
+    },
+    {
+     "cargo": "Diputado/a",
+     "nombre": "Faustina Guerrero Cabrera",
+     "partido": "PRM",
+     "resumen": "Representa a El Seibo en la Cámara de Diputados.",
+     "registro": "No disponible todavía"
+    },
+    {
+     "cargo": "Diputado/a",
+     "nombre": "Valerio Leonardo Palacio",
+     "partido": "PRM",
+     "resumen": "Representa a El Seibo en la Cámara de Diputados.",
+     "registro": "No disponible todavía"
+    },
+    {
+     "cargo": "Gobernador/a",
+     "nombre": "Magaly Tabar De Goico",
+     "partido": "—",
+     "resumen": "Gobernador/a civil de El Seibo, designado/a por la Presidencia.",
+     "registro": "No disponible todavía"
+    },
+    {
+     "cargo": "Alcalde/sa de Santa Cruz de El Seibo",
+     "nombre": "Leo Francis Zorrilla Ramos",
+     "partido": "PRM",
+     "resumen": "Alcalde/sa del municipio cabecera, Santa Cruz de El Seibo (2024-2028).",
+     "registro": "No disponible todavía"
+    }
+   ]
+  },
+  {
+   "nombre": "Elías Piña",
+   "lideres": [
+    {
+     "cargo": "Senador/a",
+     "nombre": "Jonhson Encarnación Díaz",
+     "partido": "PRM",
+     "resumen": "Representa a Elías Piña en el Senado.",
+     "registro": "No disponible todavía"
+    },
+    {
+     "cargo": "Diputado/a",
+     "nombre": "Luis Enrique Castillo Ogando",
+     "partido": "PRM",
+     "resumen": "Representa a Elías Piña en la Cámara de Diputados.",
+     "registro": "No disponible todavía"
+    },
+    {
+     "cargo": "Diputado/a",
+     "nombre": "Millys Johanna Martínez Morillo",
+     "partido": "PRM",
+     "resumen": "Representa a Elías Piña en la Cámara de Diputados.",
+     "registro": "No disponible todavía"
+    },
+    {
+     "cargo": "Gobernador/a",
+     "nombre": "Migdaly Antonia de los Santos Jiménez",
+     "partido": "—",
+     "resumen": "Gobernador/a civil de Elías Piña, designado/a por la Presidencia.",
+     "registro": "No disponible todavía"
+    },
+    {
+     "cargo": "Alcalde/sa de Comendador",
+     "nombre": "Liriano Morillo Valdez",
+     "partido": "PRM",
+     "resumen": "Alcalde/sa del municipio cabecera, Comendador (2024-2028).",
+     "registro": "No disponible todavía"
+    }
+   ]
+  },
+  {
+   "nombre": "Espaillat",
+   "lideres": [
+    {
+     "cargo": "Senador/a",
+     "nombre": "Carlos Manuel Gómez Ureña",
+     "partido": "PRM",
+     "resumen": "Representa a Espaillat en el Senado.",
+     "registro": "No disponible todavía"
+    },
+    {
+     "cargo": "Diputado/a",
+     "nombre": "José Miguel Ferreiras Torres",
+     "partido": "PRM",
+     "resumen": "Representa a Espaillat en la Cámara de Diputados.",
+     "registro": "No disponible todavía"
+    },
+    {
+     "cargo": "Diputado/a",
+     "nombre": "Marleni Altagracia Jiménez Muñoz",
+     "partido": "PRM",
+     "resumen": "Representa a Espaillat en la Cámara de Diputados.",
+     "registro": "No disponible todavía"
+    },
+    {
+     "cargo": "Diputado/a",
+     "nombre": "Robinson Antonio Santos Rodríguez",
+     "partido": "PRM",
+     "resumen": "Representa a Espaillat en la Cámara de Diputados.",
+     "registro": "No disponible todavía"
+    },
+    {
+     "cargo": "Diputado/a",
+     "nombre": "Shirley Antonia López Féliz",
+     "partido": "PRM",
+     "resumen": "Representa a Espaillat en la Cámara de Diputados.",
+     "registro": "No disponible todavía"
+    },
+    {
+     "cargo": "Gobernador/a",
+     "nombre": "Patricia María Muñoz Salcedo",
+     "partido": "—",
+     "resumen": "Gobernador/a civil de Espaillat, designado/a por la Presidencia.",
+     "registro": "No disponible todavía"
+    },
+    {
+     "cargo": "Alcalde/sa de Moca",
+     "nombre": "Guarocuya Cabral Domínguez",
+     "partido": "PRM",
+     "resumen": "Alcalde/sa del municipio cabecera, Moca (2024-2028).",
+     "registro": "No disponible todavía"
+    }
+   ]
+  },
+  {
+   "nombre": "Hato Mayor",
+   "lideres": [
+    {
+     "cargo": "Senador/a",
+     "nombre": "Cristóbal Venerado Castillo",
+     "partido": "PRM",
+     "resumen": "Representa a Hato Mayor en el Senado.",
+     "registro": "No disponible todavía"
+    },
+    {
+     "cargo": "Diputado/a",
+     "nombre": "Carmen Ligia Barceló González",
+     "partido": "PRM",
+     "resumen": "Representa a Hato Mayor en la Cámara de Diputados.",
+     "registro": "No disponible todavía"
+    },
+    {
+     "cargo": "Diputado/a",
+     "nombre": "Héctor Fodil Rosa Mercedes",
+     "partido": "PRM",
+     "resumen": "Representa a Hato Mayor en la Cámara de Diputados.",
+     "registro": "No disponible todavía"
+    },
+    {
+     "cargo": "Gobernador/a",
+     "nombre": "Maribel Guadalupe Simón Vargas de Reyes",
+     "partido": "—",
+     "resumen": "Gobernador/a civil de Hato Mayor, designado/a por la Presidencia.",
+     "registro": "No disponible todavía"
+    },
+    {
+     "cargo": "Alcalde/sa de Hato Mayor del Rey",
+     "nombre": "Amado de la Cruz Tavera",
+     "partido": "PRM",
+     "resumen": "Alcalde/sa del municipio cabecera, Hato Mayor del Rey (2024-2028).",
+     "registro": "No disponible todavía"
+    }
+   ]
+  },
+  {
+   "nombre": "Hermanas Mirabal",
+   "lideres": [
+    {
+     "cargo": "Senador/a",
+     "nombre": "María Mercedes Ortiz Diloné",
+     "partido": "PRM",
+     "resumen": "Representa a Hermanas Mirabal en el Senado.",
+     "registro": "No disponible todavía"
+    },
+    {
+     "cargo": "Diputado/a",
+     "nombre": "Félix Santiago Hiciano Almánzar",
+     "partido": "PRM",
+     "resumen": "Representa a Hermanas Mirabal en la Cámara de Diputados.",
+     "registro": "No disponible todavía"
+    },
+    {
+     "cargo": "Diputado/a",
+     "nombre": "Lourdes de Jesús Vélez",
+     "partido": "PRM",
+     "resumen": "Representa a Hermanas Mirabal en la Cámara de Diputados.",
+     "registro": "No disponible todavía"
+    },
+    {
+     "cargo": "Gobernador/a",
+     "nombre": "Lisette Nicasio de Adames",
+     "partido": "—",
+     "resumen": "Gobernador/a civil de Hermanas Mirabal, designado/a por la Presidencia.",
+     "registro": "No disponible todavía"
+    },
+    {
+     "cargo": "Alcalde/sa de Salcedo",
+     "nombre": "Juan Ramón Hernández",
+     "partido": "PRM",
+     "resumen": "Alcalde/sa del municipio cabecera, Salcedo (2024-2028).",
+     "registro": "No disponible todavía"
+    }
+   ]
+  },
+  {
+   "nombre": "Independencia",
+   "lideres": [
+    {
+     "cargo": "Senador/a",
+     "nombre": "Dagoberto Rodríguez Adames",
+     "partido": "PRM",
+     "resumen": "Representa a Independencia en el Senado.",
+     "registro": "No disponible todavía"
+    },
+    {
+     "cargo": "Diputado/a",
+     "nombre": "Hermes Evangelina José Méndez de Méndez",
+     "partido": "PRM",
+     "resumen": "Representa a Independencia en la Cámara de Diputados.",
+     "registro": "No disponible todavía"
+    },
+    {
+     "cargo": "Diputado/a",
+     "nombre": "Llanelis Matos Cuevas",
+     "partido": "PRM",
+     "resumen": "Representa a Independencia en la Cámara de Diputados.",
+     "registro": "No disponible todavía"
+    },
+    {
+     "cargo": "Gobernador/a",
+     "nombre": "Mercedes Novas Novas",
+     "partido": "—",
+     "resumen": "Gobernador/a civil de Independencia, designado/a por la Presidencia.",
+     "registro": "No disponible todavía"
+    },
+    {
+     "cargo": "Alcalde/sa de Jimaní",
+     "nombre": "Laureano Santana Cuevas",
+     "partido": "PRM",
+     "resumen": "Alcalde/sa del municipio cabecera, Jimaní (2024-2028).",
+     "registro": "No disponible todavía"
+    }
+   ]
+  },
+  {
+   "nombre": "La Altagracia",
+   "lideres": [
+    {
+     "cargo": "Senador/a",
+     "nombre": "Rafael Barón Duluc Rijo",
+     "partido": "PRM",
+     "resumen": "Representa a La Altagracia en el Senado.",
+     "registro": "No disponible todavía"
+    },
+    {
+     "cargo": "Diputado/a",
+     "nombre": "Ángel del Rosario Robles",
+     "partido": "PRM",
+     "resumen": "Representa a La Altagracia en la Cámara de Diputados.",
+     "registro": "No disponible todavía"
+    },
+    {
+     "cargo": "Diputado/a",
+     "nombre": "Carmen Aurelia de la Rosa Pérez",
+     "partido": "PRM",
+     "resumen": "Representa a La Altagracia en la Cámara de Diputados.",
+     "registro": "No disponible todavía"
+    },
+    {
+     "cargo": "Diputado/a",
+     "nombre": "Francisco Rodolfo Villegas Pérez",
+     "partido": "PRM",
+     "resumen": "Representa a La Altagracia en la Cámara de Diputados.",
+     "registro": "No disponible todavía"
+    },
+    {
+     "cargo": "Diputado/a",
+     "nombre": "Jorge Leonardo Tavárez Valdez",
+     "partido": "FP",
+     "resumen": "Representa a La Altagracia en la Cámara de Diputados.",
+     "registro": "No disponible todavía"
+    },
+    {
+     "cargo": "Diputado/a",
+     "nombre": "Onavel Andrés Aristy Cedeño",
+     "partido": "PLR",
+     "resumen": "Representa a La Altagracia en la Cámara de Diputados.",
+     "registro": "No disponible todavía"
+    },
+    {
+     "cargo": "Gobernador/a",
+     "nombre": "Daysi Francisca de Oleo R. de Bastardo",
+     "partido": "—",
+     "resumen": "Gobernador/a civil de La Altagracia, designado/a por la Presidencia.",
+     "registro": "No disponible todavía"
+    },
+    {
+     "cargo": "Alcalde/sa de Salvaleón de Higüey",
+     "nombre": "Karina Aristy",
+     "partido": "PLR",
+     "resumen": "Alcalde/sa de Salvaleón de Higüey (2024-2028).",
+     "registro": "No disponible todavía"
+    }
+   ]
+  },
+  {
+   "nombre": "La Romana",
+   "lideres": [
+    {
+     "cargo": "Senador/a",
+     "nombre": "Eduard Alexis Espiritusanto Castillo",
+     "partido": "FP",
+     "resumen": "Representa a La Romana en el Senado.",
+     "registro": "No disponible todavía"
+    },
+    {
+     "cargo": "Diputado/a",
+     "nombre": "Carlos de Pérez Juan",
+     "partido": "FP",
+     "resumen": "Representa a La Romana en la Cámara de Diputados.",
+     "registro": "No disponible todavía"
+    },
+    {
+     "cargo": "Diputado/a",
+     "nombre": "Eugenio Cedeño Areché",
+     "partido": "PRM",
+     "resumen": "Representa a La Romana en la Cámara de Diputados.",
+     "registro": "No disponible todavía"
+    },
+    {
+     "cargo": "Diputado/a",
+     "nombre": "Jacqueline Fernández Brito",
+     "partido": "PRM",
+     "resumen": "Representa a La Romana en la Cámara de Diputados.",
+     "registro": "No disponible todavía"
+    },
+    {
+     "cargo": "Diputado/a",
+     "nombre": "Wandy Modesto Batista Gómez",
+     "partido": "PRM",
+     "resumen": "Representa a La Romana en la Cámara de Diputados.",
+     "registro": "No disponible todavía"
+    },
+    {
+     "cargo": "Gobernador/a",
+     "nombre": "Ivelisse Mercedes Méndez",
+     "partido": "—",
+     "resumen": "Gobernador/a civil de La Romana, designado/a por la Presidencia.",
+     "registro": "No disponible todavía"
+    },
+    {
+     "cargo": "Alcalde/sa de La Romana",
+     "nombre": "Eduardo Kery Metivier",
+     "partido": "PRM",
+     "resumen": "Alcalde/sa del municipio cabecera, La Romana (2024-2028).",
+     "registro": "No disponible todavía"
+    }
+   ]
+  },
+  {
+   "nombre": "La Vega",
+   "lideres": [
+    {
+     "cargo": "Senador/a",
+     "nombre": "Ramón Rogelio Genao Durán",
+     "partido": "PRSC",
+     "resumen": "Representa a La Vega en el Senado.",
+     "registro": "No disponible todavía"
+    },
+    {
+     "cargo": "Diputado/a",
+     "nombre": "Carolin Mercedes de la Cruz",
+     "partido": "PRM",
+     "resumen": "Representa a La Vega en la Cámara de Diputados.",
+     "registro": "No disponible todavía"
+    },
+    {
+     "cargo": "Diputado/a",
+     "nombre": "Elpidio Infante Galán",
+     "partido": "PRM",
+     "resumen": "Representa a La Vega en la Cámara de Diputados.",
+     "registro": "No disponible todavía"
+    },
+    {
+     "cargo": "Diputado/a",
+     "nombre": "Gabriela María Abreu Santos",
+     "partido": "PRM",
+     "resumen": "Representa a La Vega en la Cámara de Diputados.",
+     "registro": "No disponible todavía"
+    },
+    {
+     "cargo": "Diputado/a",
+     "nombre": "Gilda Mercedes Moronta Guzmán",
+     "partido": "FP",
+     "resumen": "Representa a La Vega en la Cámara de Diputados.",
+     "registro": "No disponible todavía"
+    },
+    {
+     "cargo": "Diputado/a",
+     "nombre": "José Luis Abreu Veloz",
+     "partido": "PRM",
+     "resumen": "Representa a La Vega en la Cámara de Diputados.",
+     "registro": "No disponible todavía"
+    },
+    {
+     "cargo": "Diputado/a",
+     "nombre": "Rogelio Alfonso Genao Lanza",
+     "partido": "PRSC",
+     "resumen": "Representa a La Vega en la Cámara de Diputados.",
+     "registro": "No disponible todavía"
+    },
+    {
+     "cargo": "Diputado/a",
+     "nombre": "Vilma Hortencia Morillo Vásquez",
+     "partido": "PRM",
+     "resumen": "Representa a La Vega en la Cámara de Diputados.",
+     "registro": "No disponible todavía"
+    },
+    {
+     "cargo": "Gobernador/a",
+     "nombre": "Luisa Altagracia Jiménez Cabreja",
+     "partido": "—",
+     "resumen": "Gobernador/a civil de La Vega, designado/a por la Presidencia.",
+     "registro": "No disponible todavía"
+    },
+    {
+     "cargo": "Alcalde/sa de La Vega",
+     "nombre": "Kelvin Cruz",
+     "partido": "PRM",
+     "resumen": "Alcalde/sa de La Vega (2024-2028).",
+     "registro": "No disponible todavía"
+    }
+   ]
+  },
+  {
+   "nombre": "María Trinidad Sánchez",
+   "lideres": [
+    {
+     "cargo": "Senador/a",
+     "nombre": "Alexis Victoria Yeb",
+     "partido": "PRM",
+     "resumen": "Representa a María Trinidad Sánchez en el Senado.",
+     "registro": "No disponible todavía"
+    },
+    {
+     "cargo": "Diputado/a",
+     "nombre": "Jesús Stalin Vásquez Marte",
+     "partido": "PRM",
+     "resumen": "Representa a María Trinidad Sánchez en la Cámara de Diputados.",
+     "registro": "No disponible todavía"
+    },
+    {
+     "cargo": "Diputado/a",
+     "nombre": "Jorge Hugo Cavoli Balbuena",
+     "partido": "PRM",
+     "resumen": "Representa a María Trinidad Sánchez en la Cámara de Diputados.",
+     "registro": "No disponible todavía"
+    },
+    {
+     "cargo": "Diputado/a",
+     "nombre": "Sonia Núñez Espino",
+     "partido": "PRM",
+     "resumen": "Representa a María Trinidad Sánchez en la Cámara de Diputados.",
+     "registro": "No disponible todavía"
+    },
+    {
+     "cargo": "Gobernador/a",
+     "nombre": "María López Polanco",
+     "partido": "—",
+     "resumen": "Gobernador/a civil de María Trinidad Sánchez, designado/a por la Presidencia.",
+     "registro": "No disponible todavía"
+    },
+    {
+     "cargo": "Alcalde/sa de Nagua",
+     "nombre": "Junior Peralta",
+     "partido": "PRM",
+     "resumen": "Alcalde/sa del municipio cabecera, Nagua (2024-2028).",
+     "registro": "No disponible todavía"
+    }
+   ]
+  },
+  {
+   "nombre": "Monseñor Nouel",
+   "lideres": [
+    {
+     "cargo": "Senador/a",
+     "nombre": "Héctor E. Acosta",
+     "partido": "PRM",
+     "resumen": "Representa a Monseñor Nouel en el Senado.",
+     "registro": "No disponible todavía"
+    },
+    {
+     "cargo": "Diputado/a",
+     "nombre": "José Antonio Fabián Beltré",
+     "partido": "FP",
+     "resumen": "Representa a Monseñor Nouel en la Cámara de Diputados.",
+     "registro": "No disponible todavía"
+    },
+    {
+     "cargo": "Diputado/a",
+     "nombre": "Nolberto Ortiz de la Cruz",
+     "partido": "PRM",
+     "resumen": "Representa a Monseñor Nouel en la Cámara de Diputados.",
+     "registro": "No disponible todavía"
+    },
+    {
+     "cargo": "Diputado/a",
+     "nombre": "Orlando Antonio Martínez Peña",
+     "partido": "PRM",
+     "resumen": "Representa a Monseñor Nouel en la Cámara de Diputados.",
+     "registro": "No disponible todavía"
+    },
+    {
+     "cargo": "Gobernador/a",
+     "nombre": "Adela Tejada Gil",
+     "partido": "—",
+     "resumen": "Gobernador/a civil de Monseñor Nouel, designado/a por la Presidencia.",
+     "registro": "No disponible todavía"
+    },
+    {
+     "cargo": "Alcalde/sa de Bonao",
+     "nombre": "Eberto Núñez",
+     "partido": "PRM",
+     "resumen": "Alcalde/sa de Bonao (2024-2028).",
+     "registro": "No disponible todavía"
+    }
+   ]
+  },
+  {
+   "nombre": "Monte Cristi",
+   "lideres": [
+    {
+     "cargo": "Senador/a",
+     "nombre": "Bernardo Alemán Rodríguez",
+     "partido": "PRM",
+     "resumen": "Representa a Monte Cristi en el Senado.",
+     "registro": "No disponible todavía"
+    },
+    {
+     "cargo": "Diputado/a",
+     "nombre": "Johanny Margarita Martínez Gómez",
+     "partido": "PRM",
+     "resumen": "Representa a Monte Cristi en la Cámara de Diputados.",
+     "registro": "No disponible todavía"
+    },
+    {
+     "cargo": "Diputado/a",
+     "nombre": "Rosendy Joel Polanco Polanco",
+     "partido": "PRM",
+     "resumen": "Representa a Monte Cristi en la Cámara de Diputados.",
+     "registro": "No disponible todavía"
+    },
+    {
+     "cargo": "Gobernador/a",
+     "nombre": "Leissa Virginia Cruz Polanco",
+     "partido": "—",
+     "resumen": "Gobernador/a civil de Monte Cristi, designado/a por la Presidencia.",
+     "registro": "No disponible todavía"
+    },
+    {
+     "cargo": "Alcalde/sa de San Fernando de Monte Cristi",
+     "nombre": "Rafael Jerez Castro",
+     "partido": "PRM",
+     "resumen": "Alcalde/sa de San Fernando de Monte Cristi (2024-2028).",
+     "registro": "No disponible todavía"
+    }
+   ]
+  },
+  {
+   "nombre": "Monte Plata",
+   "lideres": [
+    {
+     "cargo": "Senador/a",
+     "nombre": "Pedro Antonio Tineo Núñez",
+     "partido": "PRM",
+     "resumen": "Representa a Monte Plata en el Senado.",
+     "registro": "No disponible todavía"
+    },
+    {
+     "cargo": "Diputado/a",
+     "nombre": "Jhonatan Rabel Contreras del Orbe",
+     "partido": "PRM",
+     "resumen": "Representa a Monte Plata en la Cámara de Diputados.",
+     "registro": "No disponible todavía"
+    },
+    {
+     "cargo": "Diputado/a",
+     "nombre": "Oscar Adolfo Morel Figueroa",
+     "partido": "PLD",
+     "resumen": "Representa a Monte Plata en la Cámara de Diputados.",
+     "registro": "No disponible todavía"
+    },
+    {
+     "cargo": "Diputado/a",
+     "nombre": "Román de Jesús Vargas",
+     "partido": "PRM",
+     "resumen": "Representa a Monte Plata en la Cámara de Diputados.",
+     "registro": "No disponible todavía"
+    },
+    {
+     "cargo": "Gobernador/a",
+     "nombre": "Rafaela Gomera",
+     "partido": "—",
+     "resumen": "Gobernador/a civil de Monte Plata, designado/a por la Presidencia.",
+     "registro": "No disponible todavía"
+    },
+    {
+     "cargo": "Alcalde/sa de Monte Plata",
+     "nombre": "Héctor Figari",
+     "partido": "PLD",
+     "resumen": "Alcalde/sa del municipio cabecera, Monte Plata (2024-2028).",
+     "registro": "No disponible todavía"
+    }
+   ]
+  },
+  {
+   "nombre": "Pedernales",
+   "lideres": [
+    {
+     "cargo": "Senador/a",
+     "nombre": "Secundino Velázquez Pimentel",
+     "partido": "PRM",
+     "resumen": "Representa a Pedernales en el Senado.",
+     "registro": "No disponible todavía"
+    },
+    {
+     "cargo": "Diputado/a",
+     "nombre": "Mery Antonia Mercado García de Contreras",
+     "partido": "PRM",
+     "resumen": "Representa a Pedernales en la Cámara de Diputados.",
+     "registro": "No disponible todavía"
+    },
+    {
+     "cargo": "Diputado/a",
+     "nombre": "Rafael Antonio Pérez Gómez",
+     "partido": "FP",
+     "resumen": "Representa a Pedernales en la Cámara de Diputados.",
+     "registro": "No disponible todavía"
+    },
+    {
+     "cargo": "Gobernador/a",
+     "nombre": "Edirda Yoalis de Óleo Peña",
+     "partido": "—",
+     "resumen": "Gobernador/a civil de Pedernales, designado/a por la Presidencia.",
+     "registro": "No disponible todavía"
+    },
+    {
+     "cargo": "Alcalde/sa de Pedernales",
+     "nombre": "Alfredo Francés",
+     "partido": "PRM",
+     "resumen": "Alcalde/sa del municipio cabecera, Pedernales (2024-2028).",
+     "registro": "No disponible todavía"
+    }
+   ]
+  },
+  {
+   "nombre": "Peravia",
+   "lideres": [
+    {
+     "cargo": "Senador/a",
+     "nombre": "Julito Fulcar Encarnación",
+     "partido": "PRM",
+     "resumen": "Representa a Peravia en el Senado.",
+     "registro": "No disponible todavía"
+    },
+    {
+     "cargo": "Diputado/a",
+     "nombre": "Carmen Leida Escarfuller Morel de Melo",
+     "partido": "PRM",
+     "resumen": "Representa a Peravia en la Cámara de Diputados.",
+     "registro": "No disponible todavía"
+    },
+    {
+     "cargo": "Diputado/a",
+     "nombre": "Luis Alcides Báez",
+     "partido": "PRM",
+     "resumen": "Representa a Peravia en la Cámara de Diputados.",
+     "registro": "No disponible todavía"
+    },
+    {
+     "cargo": "Diputado/a",
+     "nombre": "Willy Enrique Sánchez González",
+     "partido": "PRM",
+     "resumen": "Representa a Peravia en la Cámara de Diputados.",
+     "registro": "No disponible todavía"
+    },
+    {
+     "cargo": "Gobernador/a",
+     "nombre": "Ángela Báez",
+     "partido": "—",
+     "resumen": "Gobernador/a civil de Peravia, designado/a por la Presidencia.",
+     "registro": "No disponible todavía"
+    },
+    {
+     "cargo": "Alcalde/sa de Baní",
+     "nombre": "Santo Ramírez",
+     "partido": "PRM",
+     "resumen": "Alcalde/sa del municipio cabecera, Baní (2024-2028).",
+     "registro": "No disponible todavía"
+    }
+   ]
+  },
+  {
+   "nombre": "Puerto Plata",
+   "lideres": [
+    {
+     "cargo": "Senador/a",
+     "nombre": "Ginnette Altagracia Bournigal",
+     "partido": "PRM",
+     "resumen": "Representa a Puerto Plata en el Senado.",
+     "registro": "No disponible todavía"
+    },
+    {
+     "cargo": "Diputado/a",
+     "nombre": "Fiordaliza Estévez Castillo",
+     "partido": "PRSC",
+     "resumen": "Representa a Puerto Plata en la Cámara de Diputados.",
+     "registro": "No disponible todavía"
+    },
+    {
+     "cargo": "Diputado/a",
+     "nombre": "Heidy María Musa Kunhardt",
+     "partido": "PLD",
+     "resumen": "Representa a Puerto Plata en la Cámara de Diputados.",
+     "registro": "No disponible todavía"
+    },
+    {
+     "cargo": "Diputado/a",
+     "nombre": "Jhonny de Jesús Medina Santos",
+     "partido": "PRM",
+     "resumen": "Representa a Puerto Plata en la Cámara de Diputados.",
+     "registro": "No disponible todavía"
+    },
+    {
+     "cargo": "Diputado/a",
+     "nombre": "Juan Agustín Medina Santos",
+     "partido": "PRM",
+     "resumen": "Representa a Puerto Plata en la Cámara de Diputados.",
+     "registro": "No disponible todavía"
+    },
+    {
+     "cargo": "Diputado/a",
+     "nombre": "Julio Emil Durán Rodríguez",
+     "partido": "PRM",
+     "resumen": "Representa a Puerto Plata en la Cámara de Diputados.",
+     "registro": "No disponible todavía"
+    },
+    {
+     "cargo": "Diputado/a",
+     "nombre": "Lidia Esther Pérez de Taveras",
+     "partido": "PRM",
+     "resumen": "Representa a Puerto Plata en la Cámara de Diputados.",
+     "registro": "No disponible todavía"
+    },
+    {
+     "cargo": "Gobernador/a",
+     "nombre": "Claritza Rochtte",
+     "partido": "—",
+     "resumen": "Gobernador/a civil de Puerto Plata, designado/a por la Presidencia.",
+     "registro": "No disponible todavía"
+    },
+    {
+     "cargo": "Alcalde/sa de San Felipe de Puerto Plata",
+     "nombre": "Diómedes Roque García Núñez (Roquelito)",
+     "partido": "PRM",
+     "resumen": "Alcalde/sa del municipio cabecera, San Felipe de Puerto Plata (2024-2028).",
+     "registro": "No disponible todavía"
+    }
+   ]
+  },
+  {
+   "nombre": "Samaná",
+   "lideres": [
+    {
+     "cargo": "Senador/a",
+     "nombre": "Pedro Catrain Bonilla",
+     "partido": "PRM",
+     "resumen": "Representa a Samaná en el Senado.",
+     "registro": "No disponible todavía"
+    },
+    {
+     "cargo": "Diputado/a",
+     "nombre": "Carmen Lidia Williams Benjamín",
+     "partido": "PRM",
+     "resumen": "Representa a Samaná en la Cámara de Diputados.",
+     "registro": "No disponible todavía"
+    },
+    {
+     "cargo": "Diputado/a",
+     "nombre": "Cecilio García Javier",
+     "partido": "PRM",
+     "resumen": "Representa a Samaná en la Cámara de Diputados.",
+     "registro": "No disponible todavía"
+    },
+    {
+     "cargo": "Gobernador/a",
+     "nombre": "Teodora Mullix Geraldino",
+     "partido": "—",
+     "resumen": "Gobernador/a civil de Samaná, designado/a por la Presidencia.",
+     "registro": "No disponible todavía"
+    },
+    {
+     "cargo": "Alcalde/sa de Santa Bárbara de Samaná",
+     "nombre": "Nelson Núñez",
+     "partido": "PRM",
+     "resumen": "Alcalde/sa del municipio cabecera, Santa Bárbara de Samaná (2024-2028).",
+     "registro": "No disponible todavía"
+    }
+   ]
+  },
+  {
+   "nombre": "San Cristóbal",
+   "lideres": [
+    {
+     "cargo": "Senador/a",
+     "nombre": "Gustavo Lara Salazar",
+     "partido": "PRM",
+     "resumen": "Representa a San Cristóbal en el Senado.",
+     "registro": "No disponible todavía"
+    },
+    {
+     "cargo": "Diputado/a",
+     "nombre": "Ana Miledy Cuevas",
+     "partido": "PRM",
+     "resumen": "Representa a San Cristóbal en la Cámara de Diputados.",
+     "registro": "No disponible todavía"
+    },
+    {
+     "cargo": "Diputado/a",
+     "nombre": "Antonio Brito Rodríguez",
+     "partido": "FP",
+     "resumen": "Representa a San Cristóbal en la Cámara de Diputados.",
+     "registro": "No disponible todavía"
+    },
+    {
+     "cargo": "Diputado/a",
+     "nombre": "Francisco Javier Paulino",
+     "partido": "PRM",
+     "resumen": "Representa a San Cristóbal en la Cámara de Diputados.",
+     "registro": "No disponible todavía"
+    },
+    {
+     "cargo": "Diputado/a",
+     "nombre": "German Martínez Araujo",
+     "partido": "FP",
+     "resumen": "Representa a San Cristóbal en la Cámara de Diputados.",
+     "registro": "No disponible todavía"
+    },
+    {
+     "cargo": "Diputado/a",
+     "nombre": "Gregoria Monserrat Santana Silfa",
+     "partido": "PRM",
+     "resumen": "Representa a San Cristóbal en la Cámara de Diputados.",
+     "registro": "No disponible todavía"
+    },
+    {
+     "cargo": "Diputado/a",
+     "nombre": "Jacqueline Montero",
+     "partido": "PRM",
+     "resumen": "Representa a San Cristóbal en la Cámara de Diputados.",
+     "registro": "No disponible todavía"
+    },
+    {
+     "cargo": "Diputado/a",
+     "nombre": "Margarita Tejeda de la Rosa",
+     "partido": "PRM",
+     "resumen": "Representa a San Cristóbal en la Cámara de Diputados.",
+     "registro": "No disponible todavía"
+    },
+    {
+     "cargo": "Diputado/a",
+     "nombre": "Nelson Saulo Vega Báez",
+     "partido": "PLD",
+     "resumen": "Representa a San Cristóbal en la Cámara de Diputados.",
+     "registro": "No disponible todavía"
+    },
+    {
+     "cargo": "Diputado/a",
+     "nombre": "Otoniel Tejeda Martínez",
+     "partido": "PRM",
+     "resumen": "Representa a San Cristóbal en la Cámara de Diputados.",
+     "registro": "No disponible todavía"
+    },
+    {
+     "cargo": "Diputado/a",
+     "nombre": "Ydenia Doñé Tiburcio",
+     "partido": "PLD",
+     "resumen": "Representa a San Cristóbal en la Cámara de Diputados.",
+     "registro": "No disponible todavía"
+    },
+    {
+     "cargo": "Gobernador/a",
+     "nombre": "Pura Casilla",
+     "partido": "—",
+     "resumen": "Gobernador/a civil de San Cristóbal, designado/a por la Presidencia.",
+     "registro": "No disponible todavía"
+    },
+    {
+     "cargo": "Alcalde/sa de San Cristóbal",
+     "nombre": "Dionisio de la Rosa",
+     "partido": "PRM",
+     "resumen": "Alcalde/sa de San Cristóbal (2024-2028).",
+     "registro": "No disponible todavía"
+    }
+   ]
+  },
+  {
+   "nombre": "San José de Ocoa",
+   "lideres": [
+    {
+     "cargo": "Senador/a",
+     "nombre": "Aneudy Ortiz Sajiun",
+     "partido": "PRM",
+     "resumen": "Representa a San José de Ocoa en el Senado.",
+     "registro": "No disponible todavía"
+    },
+    {
+     "cargo": "Diputado/a",
+     "nombre": "Ángel María Sánchez Pujols",
+     "partido": "PRM",
+     "resumen": "Representa a San José de Ocoa en la Cámara de Diputados.",
+     "registro": "No disponible todavía"
+    },
+    {
+     "cargo": "Diputado/a",
+     "nombre": "Elida Yalis Soto Mordán",
+     "partido": "PRM",
+     "resumen": "Representa a San José de Ocoa en la Cámara de Diputados.",
+     "registro": "No disponible todavía"
+    },
+    {
+     "cargo": "Gobernador/a",
+     "nombre": "Josefa Oliva Castillo de Peralta",
+     "partido": "—",
+     "resumen": "Gobernador/a civil de San José de Ocoa, designado/a por la Presidencia.",
+     "registro": "No disponible todavía"
+    },
+    {
+     "cargo": "Alcalde/sa de San José de Ocoa",
+     "nombre": "Fernando Castillo Casado",
+     "partido": "PRM",
+     "resumen": "Alcalde/sa del municipio cabecera, San José de Ocoa (2024-2028).",
+     "registro": "No disponible todavía"
+    }
+   ]
+  },
+  {
+   "nombre": "San Juan",
+   "lideres": [
+    {
+     "cargo": "Senador/a",
+     "nombre": "Félix Bautista Rosario",
+     "partido": "FP",
+     "resumen": "Representa a San Juan en el Senado.",
+     "registro": "No disponible todavía"
+    },
+    {
+     "cargo": "Diputado/a",
+     "nombre": "Carlos Morillo Valdez",
+     "partido": "PRM",
+     "resumen": "Representa a San Juan en la Cámara de Diputados.",
+     "registro": "No disponible todavía"
+    },
+    {
+     "cargo": "Diputado/a",
+     "nombre": "Elvira Corporán de los Santos de Lebrón",
+     "partido": "PRM",
+     "resumen": "Representa a San Juan en la Cámara de Diputados.",
+     "registro": "No disponible todavía"
+    },
+    {
+     "cargo": "Diputado/a",
+     "nombre": "Franklin Ramírez de los Santos",
+     "partido": "PRM",
+     "resumen": "Representa a San Juan en la Cámara de Diputados.",
+     "registro": "No disponible todavía"
+    },
+    {
+     "cargo": "Diputado/a",
+     "nombre": "Mélido Mercedes Castillo",
+     "partido": "FP",
+     "resumen": "Representa a San Juan en la Cámara de Diputados.",
+     "registro": "No disponible todavía"
+    },
+    {
+     "cargo": "Gobernador/a",
+     "nombre": "Ana María Castillo Mateo",
+     "partido": "—",
+     "resumen": "Gobernador/a civil de San Juan, designado/a por la Presidencia.",
+     "registro": "No disponible todavía"
+    },
+    {
+     "cargo": "Alcalde/sa de San Juan de la Maguana",
+     "nombre": "Lenin de la Rosa",
+     "partido": "PLD",
+     "resumen": "Alcalde/sa de San Juan de la Maguana (2024-2028).",
+     "registro": "No disponible todavía"
+    }
+   ]
+  },
+  {
+   "nombre": "San Pedro de Macorís",
+   "lideres": [
+    {
+     "cargo": "Senador/a",
+     "nombre": "Aracelis Villanueva",
+     "partido": "PRM",
+     "resumen": "Representa a San Pedro de Macorís en el Senado.",
+     "registro": "No disponible todavía"
+    },
+    {
+     "cargo": "Diputado/a",
+     "nombre": "Alcibíades Tavárez de la Cruz",
+     "partido": "FP",
+     "resumen": "Representa a San Pedro de Macorís en la Cámara de Diputados.",
+     "registro": "No disponible todavía"
+    },
+    {
+     "cargo": "Diputado/a",
+     "nombre": "Carlixta Carolina Paula de la Cruz",
+     "partido": "PRM",
+     "resumen": "Representa a San Pedro de Macorís en la Cámara de Diputados.",
+     "registro": "No disponible todavía"
+    },
+    {
+     "cargo": "Diputado/a",
+     "nombre": "Jacobo Ramos Crispín",
+     "partido": "PRM",
+     "resumen": "Representa a San Pedro de Macorís en la Cámara de Diputados.",
+     "registro": "No disponible todavía"
+    },
+    {
+     "cargo": "Diputado/a",
+     "nombre": "Luis Gómez Benzo",
+     "partido": "PRM",
+     "resumen": "Representa a San Pedro de Macorís en la Cámara de Diputados.",
+     "registro": "No disponible todavía"
+    },
+    {
+     "cargo": "Diputado/a",
+     "nombre": "Miguel Arredondo Quezada",
+     "partido": "PRM",
+     "resumen": "Representa a San Pedro de Macorís en la Cámara de Diputados.",
+     "registro": "No disponible todavía"
+    },
+    {
+     "cargo": "Gobernador/a",
+     "nombre": "Yovanny Agustina Núñez de Tavárez",
+     "partido": "—",
+     "resumen": "Gobernador/a civil de San Pedro de Macorís, designado/a por la Presidencia.",
+     "registro": "No disponible todavía"
+    },
+    {
+     "cargo": "Alcalde/sa de San Pedro de Macorís",
+     "nombre": "Raymundo Ortiz",
+     "partido": "PRM",
+     "resumen": "Alcalde/sa de San Pedro de Macorís (2024-2028).",
+     "registro": "No disponible todavía"
+    }
+   ]
+  },
+  {
+   "nombre": "Sánchez Ramírez",
+   "lideres": [
+    {
+     "cargo": "Senador/a",
+     "nombre": "Ricardo De Los Santos",
+     "partido": "PRM",
+     "resumen": "Representa a Sánchez Ramírez en el Senado.",
+     "registro": "No disponible todavía"
+    },
+    {
+     "cargo": "Diputado/a",
+     "nombre": "Caty Díaz Abreu",
+     "partido": "PRM",
+     "resumen": "Representa a Sánchez Ramírez en la Cámara de Diputados.",
+     "registro": "No disponible todavía"
+    },
+    {
+     "cargo": "Diputado/a",
+     "nombre": "José Alberto Jiménez Santos",
+     "partido": "FP",
+     "resumen": "Representa a Sánchez Ramírez en la Cámara de Diputados.",
+     "registro": "No disponible todavía"
+    },
+    {
+     "cargo": "Diputado/a",
+     "nombre": "Sadoky Duarte Suárez",
+     "partido": "PRM",
+     "resumen": "Representa a Sánchez Ramírez en la Cámara de Diputados.",
+     "registro": "No disponible todavía"
+    },
+    {
+     "cargo": "Gobernador/a",
+     "nombre": "Cristiana Rodríguez",
+     "partido": "—",
+     "resumen": "Gobernador/a civil de Sánchez Ramírez, designado/a por la Presidencia.",
+     "registro": "No disponible todavía"
+    },
+    {
+     "cargo": "Alcalde/sa de Cotuí",
+     "nombre": "José Montilla de la Cruz",
+     "partido": "PRM",
+     "resumen": "Alcalde/sa de Cotuí (2024-2028).",
+     "registro": "No disponible todavía"
+    }
+   ]
+  },
+  {
+   "nombre": "Santiago",
+   "lideres": [
+    {
+     "cargo": "Senador/a",
+     "nombre": "Daniel Enrique De Jesús Rivera Reyes",
+     "partido": "PRM",
+     "resumen": "Representa a Santiago en el Senado.",
+     "registro": "No disponible todavía"
+    },
+    {
+     "cargo": "Diputado/a",
+     "nombre": "Brailyn Miguel Vargas Núñez",
+     "partido": "PLD",
+     "resumen": "Representa a Santiago en la Cámara de Diputados.",
+     "registro": "No disponible todavía"
+    },
+    {
+     "cargo": "Diputado/a",
+     "nombre": "Braulio de Jesús Espinal Tavárez",
+     "partido": "DXC",
+     "resumen": "Representa a Santiago en la Cámara de Diputados.",
+     "registro": "No disponible todavía"
+    },
+    {
+     "cargo": "Diputado/a",
+     "nombre": "Deisy Emelda Díaz Salcedo",
+     "partido": "PRM",
+     "resumen": "Representa a Santiago en la Cámara de Diputados.",
+     "registro": "No disponible todavía"
+    },
+    {
+     "cargo": "Diputado/a",
+     "nombre": "Dharuelly Leany D´Aza Caraballo",
+     "partido": "PRM",
+     "resumen": "Representa a Santiago en la Cámara de Diputados.",
+     "registro": "No disponible todavía"
+    },
+    {
+     "cargo": "Diputado/a",
+     "nombre": "Dilenia Altagracia Santos Muñoz",
+     "partido": "PRM",
+     "resumen": "Representa a Santiago en la Cámara de Diputados.",
+     "registro": "No disponible todavía"
+    },
+    {
+     "cargo": "Diputado/a",
+     "nombre": "Estamy Rafaela Colón Tatis",
+     "partido": "PRM",
+     "resumen": "Representa a Santiago en la Cámara de Diputados.",
+     "registro": "No disponible todavía"
+    },
+    {
+     "cargo": "Diputado/a",
+     "nombre": "Félix Michell Rodríguez Morel",
+     "partido": "FP",
+     "resumen": "Representa a Santiago en la Cámara de Diputados.",
+     "registro": "No disponible todavía"
+    },
+    {
+     "cargo": "Diputado/a",
+     "nombre": "Francisco Alberto Díaz García",
+     "partido": "PRM",
+     "resumen": "Representa a Santiago en la Cámara de Diputados.",
+     "registro": "No disponible todavía"
+    },
+    {
+     "cargo": "Diputado/a",
+     "nombre": "Gregorio Domínguez Domínguez",
+     "partido": "PRM",
+     "resumen": "Representa a Santiago en la Cámara de Diputados.",
+     "registro": "No disponible todavía"
+    },
+    {
+     "cargo": "Diputado/a",
+     "nombre": "José David Báez Reinoso",
+     "partido": "FP",
+     "resumen": "Representa a Santiago en la Cámara de Diputados.",
+     "registro": "No disponible todavía"
+    },
+    {
+     "cargo": "Diputado/a",
+     "nombre": "Llaniris del Carmen Espinal Cabrera",
+     "partido": "FP",
+     "resumen": "Representa a Santiago en la Cámara de Diputados.",
+     "registro": "No disponible todavía"
+    },
+    {
+     "cargo": "Diputado/a",
+     "nombre": "Luis René Fernández Tavárez",
+     "partido": "PRM",
+     "resumen": "Representa a Santiago en la Cámara de Diputados.",
+     "registro": "No disponible todavía"
+    },
+    {
+     "cargo": "Diputado/a",
+     "nombre": "Mateo Evangelista Espaillat Tavárez",
+     "partido": "DXC",
+     "resumen": "Representa a Santiago en la Cámara de Diputados.",
+     "registro": "No disponible todavía"
+    },
+    {
+     "cargo": "Diputado/a",
+     "nombre": "Mirna Josefina López Francisco de Matos",
+     "partido": "PRM",
+     "resumen": "Representa a Santiago en la Cámara de Diputados.",
+     "registro": "No disponible todavía"
+    },
+    {
+     "cargo": "Diputado/a",
+     "nombre": "Nelsa Shoraya Suárez Ariza",
+     "partido": "PRM",
+     "resumen": "Representa a Santiago en la Cámara de Diputados.",
+     "registro": "No disponible todavía"
+    },
+    {
+     "cargo": "Diputado/a",
+     "nombre": "Nelson Rafael Marmolejos Gil",
+     "partido": "PRM",
+     "resumen": "Representa a Santiago en la Cámara de Diputados.",
+     "registro": "No disponible todavía"
+    },
+    {
+     "cargo": "Diputado/a",
+     "nombre": "Ramón Mayobanex Martínez Durán",
+     "partido": "PLD",
+     "resumen": "Representa a Santiago en la Cámara de Diputados.",
+     "registro": "No disponible todavía"
+    },
+    {
+     "cargo": "Diputado/a",
+     "nombre": "Robinson de Jesús Díaz Mejía",
+     "partido": "PRM",
+     "resumen": "Representa a Santiago en la Cámara de Diputados.",
+     "registro": "No disponible todavía"
+    },
+    {
+     "cargo": "Gobernador/a",
+     "nombre": "Rosa Santos Méndez",
+     "partido": "—",
+     "resumen": "Gobernador/a civil de Santiago, designado/a por la Presidencia.",
+     "registro": "No disponible todavía"
+    },
+    {
+     "cargo": "Alcalde/sa de Santiago de los Caballeros",
+     "nombre": "Ulises Rodríguez",
+     "partido": "PRM",
+     "resumen": "Alcalde/sa de Santiago de los Caballeros (2024-2028).",
+     "registro": "No disponible todavía"
+    }
+   ]
+  },
+  {
+   "nombre": "Santiago Rodríguez",
+   "lideres": [
+    {
+     "cargo": "Senador/a",
+     "nombre": "Casimiro Antonio Marte Familia",
+     "partido": "PPG",
+     "resumen": "Representa a Santiago Rodríguez en el Senado.",
+     "registro": "No disponible todavía"
+    },
+    {
+     "cargo": "Diputado/a",
+     "nombre": "Juana Ramona Castillo",
+     "partido": "PRM",
+     "resumen": "Representa a Santiago Rodríguez en la Cámara de Diputados.",
+     "registro": "No disponible todavía"
+    },
+    {
+     "cargo": "Diputado/a",
+     "nombre": "Nicolás Tolentino López Mercado",
+     "partido": "PRM",
+     "resumen": "Representa a Santiago Rodríguez en la Cámara de Diputados.",
+     "registro": "No disponible todavía"
+    },
+    {
+     "cargo": "Gobernador/a",
+     "nombre": "Glehany Yafreysys Azcona Torres",
+     "partido": "—",
+     "resumen": "Gobernador/a civil de Santiago Rodríguez, designado/a por la Presidencia.",
+     "registro": "No disponible todavía"
+    },
+    {
+     "cargo": "Alcalde/sa de San Ignacio de Sabaneta",
+     "nombre": "Félix Alberto Marte Bueno",
+     "partido": "PRM",
+     "resumen": "Alcalde/sa del municipio cabecera, San Ignacio de Sabaneta (2024-2028).",
+     "registro": "No disponible todavía"
+    }
+   ]
+  },
+  {
+   "nombre": "Santo Domingo",
+   "lideres": [
+    {
+     "cargo": "Senador/a",
+     "nombre": "Antonio M. Taveras Guzmán",
+     "partido": "PRM",
+     "resumen": "Representa a Santo Domingo en el Senado.",
+     "registro": "No disponible todavía"
+    },
+    {
+     "cargo": "Diputado/a",
+     "nombre": "Abelardo Antonio Rutinel Arzeno",
+     "partido": "PRM",
+     "resumen": "Representa a Santo Domingo en la Cámara de Diputados.",
+     "registro": "No disponible todavía"
+    },
+    {
+     "cargo": "Diputado/a",
+     "nombre": "Aldoneris Rafael Adón Duarte",
+     "partido": "PRM",
+     "resumen": "Representa a Santo Domingo en la Cámara de Diputados.",
+     "registro": "No disponible todavía"
+    },
+    {
+     "cargo": "Diputado/a",
+     "nombre": "Alexander Javier Cuevas",
+     "partido": "PRM",
+     "resumen": "Representa a Santo Domingo en la Cámara de Diputados.",
+     "registro": "No disponible todavía"
+    },
+    {
+     "cargo": "Diputado/a",
+     "nombre": "Altagracia de los Santos",
+     "partido": "PRM",
+     "resumen": "Representa a Santo Domingo en la Cámara de Diputados.",
+     "registro": "No disponible todavía"
+    },
+    {
+     "cargo": "Diputado/a",
+     "nombre": "Amado Antonio Díaz Jiménez",
+     "partido": "PRM",
+     "resumen": "Representa a Santo Domingo en la Cámara de Diputados.",
+     "registro": "No disponible todavía"
+    },
+    {
+     "cargo": "Diputado/a",
+     "nombre": "Ana Adalgiza del Carmen Abreu Polanco",
+     "partido": "PRM",
+     "resumen": "Representa a Santo Domingo en la Cámara de Diputados.",
+     "registro": "No disponible todavía"
+    },
+    {
+     "cargo": "Diputado/a",
+     "nombre": "Anny Veleissy Mambrú Rodríguez",
+     "partido": "PRM",
+     "resumen": "Representa a Santo Domingo en la Cámara de Diputados.",
+     "registro": "No disponible todavía"
+    },
+    {
+     "cargo": "Diputado/a",
+     "nombre": "Bolívar Ernesto Valera Ariza",
+     "partido": "PRM",
+     "resumen": "Representa a Santo Domingo en la Cámara de Diputados.",
+     "registro": "No disponible todavía"
+    },
+    {
+     "cargo": "Diputado/a",
+     "nombre": "Carlos Alberto Pérez Hernández",
+     "partido": "FP",
+     "resumen": "Representa a Santo Domingo en la Cámara de Diputados.",
+     "registro": "No disponible todavía"
+    },
+    {
+     "cargo": "Diputado/a",
+     "nombre": "Carlos José Gil Rodríguez",
+     "partido": "FP",
+     "resumen": "Representa a Santo Domingo en la Cámara de Diputados.",
+     "registro": "No disponible todavía"
+    },
+    {
+     "cargo": "Diputado/a",
+     "nombre": "Damarys Vásquez Castillo",
+     "partido": "PLD",
+     "resumen": "Representa a Santo Domingo en la Cámara de Diputados.",
+     "registro": "No disponible todavía"
+    },
+    {
+     "cargo": "Diputado/a",
+     "nombre": "Dellys Dumidia Féliz Rodríguez",
+     "partido": "PRM",
+     "resumen": "Representa a Santo Domingo en la Cámara de Diputados.",
+     "registro": "No disponible todavía"
+    },
+    {
+     "cargo": "Diputado/a",
+     "nombre": "Diómedes Omar Rojas",
+     "partido": "PRM",
+     "resumen": "Representa a Santo Domingo en la Cámara de Diputados.",
+     "registro": "No disponible todavía"
+    },
+    {
+     "cargo": "Diputado/a",
+     "nombre": "Domingo Eusebio de León Mascaró",
+     "partido": "FP",
+     "resumen": "Representa a Santo Domingo en la Cámara de Diputados.",
+     "registro": "No disponible todavía"
+    },
+    {
+     "cargo": "Diputado/a",
+     "nombre": "Eduviges María Bautista Gomera",
+     "partido": "PRM",
+     "resumen": "Representa a Santo Domingo en la Cámara de Diputados.",
+     "registro": "No disponible todavía"
+    },
+    {
+     "cargo": "Diputado/a",
+     "nombre": "Enriqueta Rojas Javier",
+     "partido": "FP",
+     "resumen": "Representa a Santo Domingo en la Cámara de Diputados.",
+     "registro": "No disponible todavía"
+    },
+    {
+     "cargo": "Diputado/a",
+     "nombre": "Eudy Maldonado de la Cruz",
+     "partido": "FP",
+     "resumen": "Representa a Santo Domingo en la Cámara de Diputados.",
+     "registro": "No disponible todavía"
+    },
+    {
+     "cargo": "Diputado/a",
+     "nombre": "Félix Manuel Encarnación Montero",
+     "partido": "PRM",
+     "resumen": "Representa a Santo Domingo en la Cámara de Diputados.",
+     "registro": "No disponible todavía"
+    },
+    {
+     "cargo": "Diputado/a",
+     "nombre": "Franklin Martínez",
+     "partido": "PLD",
+     "resumen": "Representa a Santo Domingo en la Cámara de Diputados.",
+     "registro": "No disponible todavía"
+    },
+    {
+     "cargo": "Diputado/a",
+     "nombre": "Heriberto Aracena Montilla",
+     "partido": "FP",
+     "resumen": "Representa a Santo Domingo en la Cámara de Diputados.",
+     "registro": "No disponible todavía"
+    },
+    {
+     "cargo": "Diputado/a",
+     "nombre": "Ignacio Aracena",
+     "partido": "PRM",
+     "resumen": "Representa a Santo Domingo en la Cámara de Diputados.",
+     "registro": "No disponible todavía"
+    },
+    {
+     "cargo": "Diputado/a",
+     "nombre": "Indhira Shary de Jesús de Morla",
+     "partido": "PRM",
+     "resumen": "Representa a Santo Domingo en la Cámara de Diputados.",
+     "registro": "No disponible todavía"
+    },
+    {
+     "cargo": "Diputado/a",
+     "nombre": "Jesús Manuel Sánchez Martínez",
+     "partido": "PRM",
+     "resumen": "Representa a Santo Domingo en la Cámara de Diputados.",
+     "registro": "No disponible todavía"
+    },
+    {
+     "cargo": "Diputado/a",
+     "nombre": "Jheyson Amir García Castillo",
+     "partido": "PRM",
+     "resumen": "Representa a Santo Domingo en la Cámara de Diputados.",
+     "registro": "No disponible todavía"
+    },
+    {
+     "cargo": "Diputado/a",
+     "nombre": "Jorge Frías",
+     "partido": "PRM",
+     "resumen": "Representa a Santo Domingo en la Cámara de Diputados.",
+     "registro": "No disponible todavía"
+    },
+    {
+     "cargo": "Diputado/a",
+     "nombre": "José Moisés Ortiz López",
+     "partido": "PRM",
+     "resumen": "Representa a Santo Domingo en la Cámara de Diputados.",
+     "registro": "No disponible todavía"
+    },
+    {
+     "cargo": "Diputado/a",
+     "nombre": "Juan Carlos Echavarría Milané",
+     "partido": "PLD",
+     "resumen": "Representa a Santo Domingo en la Cámara de Diputados.",
+     "registro": "No disponible todavía"
+    },
+    {
+     "cargo": "Diputado/a",
+     "nombre": "Juan José Rojas Franco",
+     "partido": "PRM",
+     "resumen": "Representa a Santo Domingo en la Cámara de Diputados.",
+     "registro": "No disponible todavía"
+    },
+    {
+     "cargo": "Diputado/a",
+     "nombre": "Junior Muñoz Olivo",
+     "partido": "PRM",
+     "resumen": "Representa a Santo Domingo en la Cámara de Diputados.",
+     "registro": "No disponible todavía"
+    },
+    {
+     "cargo": "Diputado/a",
+     "nombre": "Kinsberly Taveras Duarte",
+     "partido": "PRM",
+     "resumen": "Representa a Santo Domingo en la Cámara de Diputados.",
+     "registro": "No disponible todavía"
+    },
+    {
+     "cargo": "Diputado/a",
+     "nombre": "Lucila Leonarda de León Martínez",
+     "partido": "PRM",
+     "resumen": "Representa a Santo Domingo en la Cámara de Diputados.",
+     "registro": "No disponible todavía"
+    },
+    {
+     "cargo": "Diputado/a",
+     "nombre": "María Elisa Suárez Alcalá",
+     "partido": "PRM",
+     "resumen": "Representa a Santo Domingo en la Cámara de Diputados.",
+     "registro": "No disponible todavía"
+    },
+    {
+     "cargo": "Diputado/a",
+     "nombre": "Melvin Alexis Lara Melo",
+     "partido": "PRM",
+     "resumen": "Representa a Santo Domingo en la Cámara de Diputados.",
+     "registro": "No disponible todavía"
+    },
+    {
+     "cargo": "Diputado/a",
+     "nombre": "Miguel Alberto Bogaert Marra",
+     "partido": "PRM",
+     "resumen": "Representa a Santo Domingo en la Cámara de Diputados.",
+     "registro": "No disponible todavía"
+    },
+    {
+     "cargo": "Diputado/a",
+     "nombre": "Miguel Eduardo Espinal Muñoz",
+     "partido": "FP",
+     "resumen": "Representa a Santo Domingo en la Cámara de Diputados.",
+     "registro": "No disponible todavía"
+    },
+    {
+     "cargo": "Diputado/a",
+     "nombre": "Patricia Alexandra Núñez Rivera",
+     "partido": "PRM",
+     "resumen": "Representa a Santo Domingo en la Cámara de Diputados.",
+     "registro": "No disponible todavía"
+    },
+    {
+     "cargo": "Diputado/a",
+     "nombre": "Pedro Julio Alcántara",
+     "partido": "PRM",
+     "resumen": "Representa a Santo Domingo en la Cámara de Diputados.",
+     "registro": "No disponible todavía"
+    },
+    {
+     "cargo": "Diputado/a",
+     "nombre": "Rafael Augusto Castillo Casado",
+     "partido": "FP",
+     "resumen": "Representa a Santo Domingo en la Cámara de Diputados.",
+     "registro": "No disponible todavía"
+    },
+    {
+     "cargo": "Diputado/a",
+     "nombre": "Rafaela González González",
+     "partido": "FP",
+     "resumen": "Representa a Santo Domingo en la Cámara de Diputados.",
+     "registro": "No disponible todavía"
+    },
+    {
+     "cargo": "Diputado/a",
+     "nombre": "Tayluma Monserrat Calderón Fortuna",
+     "partido": "FP",
+     "resumen": "Representa a Santo Domingo en la Cámara de Diputados.",
+     "registro": "No disponible todavía"
+    },
+    {
+     "cargo": "Diputado/a",
+     "nombre": "Víctor Virgilio Jiménez",
+     "partido": "FP",
+     "resumen": "Representa a Santo Domingo en la Cámara de Diputados.",
+     "registro": "No disponible todavía"
+    },
+    {
+     "cargo": "Diputado/a",
+     "nombre": "Yancarlos Simanca Ferreras",
+     "partido": "PRM",
+     "resumen": "Representa a Santo Domingo en la Cámara de Diputados.",
+     "registro": "No disponible todavía"
+    },
+    {
+     "cargo": "Diputado/a",
+     "nombre": "Ycelmary Brito O´Neal",
+     "partido": "FP",
+     "resumen": "Representa a Santo Domingo en la Cámara de Diputados.",
+     "registro": "No disponible todavía"
+    },
+    {
+     "cargo": "Gobernador/a",
+     "nombre": "Lucrecia Santana Leyba",
+     "partido": "—",
+     "resumen": "Gobernador/a civil de Santo Domingo, designado/a por la Presidencia.",
+     "registro": "No disponible todavía"
+    },
+    {
+     "cargo": "Alcalde/sa de Santo Domingo Este",
+     "nombre": "Dío Astacio",
+     "partido": "PRM",
+     "resumen": "Alcalde/sa de Santo Domingo Este (2024-2028).",
+     "registro": "No disponible todavía"
+    },
+    {
+     "cargo": "Alcalde/sa de Santo Domingo Norte",
+     "nombre": "Betty Gerónimo",
+     "partido": "PRM",
+     "resumen": "Alcalde/sa de Santo Domingo Norte (2024-2028).",
+     "registro": "No disponible todavía"
+    },
+    {
+     "cargo": "Alcalde/sa de Santo Domingo Oeste",
+     "nombre": "Francisco Peña",
+     "partido": "PRM",
+     "resumen": "Alcalde/sa de Santo Domingo Oeste (2024-2028).",
+     "registro": "No disponible todavía"
+    },
+    {
+     "cargo": "Alcalde/sa de Los Alcarrizos",
+     "nombre": "Junior Santos",
+     "partido": "PRM",
+     "resumen": "Alcalde/sa de Los Alcarrizos (2024-2028).",
+     "registro": "No disponible todavía"
+    }
+   ]
+  },
+  {
+   "nombre": "Valverde",
+   "lideres": [
+    {
+     "cargo": "Senador/a",
+     "nombre": "Odalís Rafael Rodríguez Rodríguez",
+     "partido": "PRM",
+     "resumen": "Representa a Valverde en el Senado.",
+     "registro": "No disponible todavía"
+    },
+    {
+     "cargo": "Diputado/a",
+     "nombre": "José Altagracia Valenzuela Arias",
+     "partido": "PRM",
+     "resumen": "Representa a Valverde en la Cámara de Diputados.",
+     "registro": "No disponible todavía"
+    },
+    {
+     "cargo": "Diputado/a",
+     "nombre": "María de los Ángeles Rodríguez Bonseñor",
+     "partido": "PRM",
+     "resumen": "Representa a Valverde en la Cámara de Diputados.",
+     "registro": "No disponible todavía"
+    },
+    {
+     "cargo": "Diputado/a",
+     "nombre": "Rubén Darío Peñaló Torres",
+     "partido": "PRM",
+     "resumen": "Representa a Valverde en la Cámara de Diputados.",
+     "registro": "No disponible todavía"
+    },
+    {
+     "cargo": "Gobernador/a",
+     "nombre": "Marta de Jesús Collado Ozoria de López",
+     "partido": "—",
+     "resumen": "Gobernador/a civil de Valverde, designado/a por la Presidencia.",
+     "registro": "No disponible todavía"
+    },
+    {
+     "cargo": "Alcalde/sa de Mao",
+     "nombre": "Yohendi Jiménez",
+     "partido": "PRM",
+     "resumen": "Alcalde/sa de Mao (2024-2028).",
+     "registro": "No disponible todavía"
+    }
+   ]
+  }
+ ]
 }
