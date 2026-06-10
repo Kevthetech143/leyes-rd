@@ -496,13 +496,22 @@ function renderProvincias(data: ProvinciasData): void {
         const k = grupoDeCargo(l.cargo);
         (grupos[k] = grupos[k] || []).push(l);
       });
+      // Each role folds into its own card (Kelvin: find your target without
+      // scrolling through every position). Same details/summary flow as Sesiones.
       ORDEN_GRUPOS.forEach((k) => {
         const arr = grupos[k];
         if (!arr || !arr.length) return;
         const etq = ETIQUETA_GRUPO[k] || "Otros";
-        const titulo = arr.length > 1 ? etq + " (" + arr.length + ")" : etq;
-        perfil.append(el("h4", "grupo-titulo", titulo));
-        arr.forEach((l) => perfil.append(renderLider(l)));
+        const grupoCard = el("details", "grupo-cargo");
+        const cab = el("summary", "grupo-cab");
+        cab.append(
+          el("span", "grupo-nombre", etq),
+          el("span", "grupo-conteo", arr.length === 1 ? "1 persona" : arr.length + " personas"),
+          el("span", "grupo-chev", "▸")
+        );
+        grupoCard.append(cab);
+        arr.forEach((l) => grupoCard.append(renderLider(l)));
+        perfil.append(grupoCard);
       });
       // Honest note when this province's mayors aren't loaded yet.
       if (!grupos["alcalde"]) {

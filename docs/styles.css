@@ -373,6 +373,25 @@ main { max-width: 720px; margin: 0 auto; padding: 0 14px 40px; }
 .perfil-cerrar:hover { background: #e3e6ee; }
 .perfil h3 { margin: 0 0 4px; }
 .grupo-titulo { margin: 16px 0 2px; font-size: 1rem; color: var(--azul); border-bottom: 2px solid #eef2ff; padding-bottom: 4px; }
+
+/* Role drop-down cards inside the province profile: title + count, fold to see people */
+.grupo-cargo {
+  background: #fff; border: 1px solid #e6e9ef; border-radius: var(--radio-md);
+  margin: 10px 0; overflow: hidden;
+}
+.grupo-cab {
+  display: flex; align-items: center; gap: 10px; cursor: pointer; list-style: none;
+  padding: 12px 14px; background: var(--mapa-bg);
+}
+.grupo-cab::-webkit-details-marker { display: none; }
+.grupo-nombre { font-weight: 800; color: var(--mapa); flex: 1; }
+.grupo-conteo {
+  background: #fff; color: var(--mapa); font-size: .78rem; font-weight: 700;
+  padding: 3px 10px; border-radius: 999px; border: 1px solid var(--mapa);
+}
+.grupo-chev { color: var(--mapa); font-weight: 700; }
+.grupo-cargo[open] .grupo-chev { transform: rotate(90deg); }
+.grupo-cargo > .lider { padding-left: 14px; padding-right: 14px; }
 .lider { border-top: 1px solid #eef0f4; padding: 12px 0; }
 .lider:first-of-type { border-top: none; }
 .lider-cargo { color: var(--gris); font-size: .9rem; }
