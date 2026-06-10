@@ -366,13 +366,25 @@ function renderSesiones(data: SesionesData): void {
     cont.append(el("p", "nota-fuente", "Última sesión publicada: " + fechaLarga(ultima) + "."));
   }
 
-  data.sesiones.forEach((ses) => {
-    const card = el("div", "sesion");
+  // Kid-simple legend: what "primera/segunda discusión" and "unanimidad" mean.
+  const leyenda = el("div", "como");
+  leyenda.innerHTML =
+    "<b>¿Cómo leer esto?</b> Una ley se vota <b>dos veces</b> en el Senado: la primera discusión y la segunda. " +
+    "Si gana las dos, sigue su camino para ser ley. Las resoluciones (homenajes, peticiones) se deciden en una sola votación: <b>única discusión</b>. " +
+    "<b>Unanimidad</b> = todos los presentes dijeron que sí.";
+  cont.append(leyenda);
 
-    const head = el("div", "sesion-head");
+  data.sesiones.forEach((ses, idx) => {
+    // Each session collapses to one line; only the newest starts open.
+    const card = el("details", "sesion") as HTMLDetailsElement;
+    if (idx === 0) card.open = true;
+
+    const head = el("summary", "sesion-head");
     head.append(
       el("span", "sesion-fecha", fechaLarga(ses.fecha)),
-      el("span", "sesion-acta", "Acta " + ses.acta)
+      el("span", "sesion-conteo", ses.votaciones.length + " votaciones"),
+      el("span", "sesion-acta", "Acta " + ses.acta),
+      el("span", "sesion-chev", "▸")
     );
     card.append(head);
 
@@ -380,10 +392,15 @@ function renderSesiones(data: SesionesData): void {
     const vlist = el("div", "votaciones");
     ses.votaciones.forEach((v) => {
       const row = el("div", "votacion");
-      // Plain title first; the official legalese title stays available underneath, smaller.
+      // Plain title up front; the official legalese title tucks behind a tap.
       if (v.titulo_facil) {
         row.append(el("p", "votacion-titulo", v.titulo_facil));
-        row.append(el("p", "votacion-titulo-oficial", "Nombre oficial: " + v.titulo));
+        const oficial = el("details", "oficial");
+        oficial.append(
+          el("summary", null, "📜 Ver nombre oficial"),
+          el("p", "votacion-titulo-oficial", v.titulo)
+        );
+        row.append(oficial);
       } else {
         row.append(el("p", "votacion-titulo", v.titulo));
       }

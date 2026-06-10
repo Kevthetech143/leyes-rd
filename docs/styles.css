@@ -312,12 +312,29 @@ main { max-width: 720px; margin: 0 auto; padding: 0 14px 40px; }
 .sesion-head {
   display: flex; align-items: center; gap: 10px; flex-wrap: wrap;
   padding: 16px 18px; background: #eef2ff; border-bottom: 1px solid #dbe3ff;
+  cursor: pointer; list-style: none;
 }
+.sesion-head::-webkit-details-marker { display: none; }
 .sesion-fecha { font-weight: 700; font-size: 1.05rem; color: #1c2a5e; flex: 1; }
 .sesion-acta {
   background: var(--azul); color: #fff; font-size: .78rem; font-weight: 700;
   padding: 3px 10px; border-radius: 999px;
 }
+.sesion-conteo {
+  background: #fff; color: #1c2a5e; font-size: .78rem; font-weight: 700;
+  padding: 3px 10px; border-radius: 999px; border: 1px solid #dbe3ff;
+}
+.sesion-chev { color: var(--gris); font-weight: 700; }
+.sesion[open] .sesion-chev { transform: rotate(90deg); }
+
+/* Official legalese name tucked behind a tap */
+.oficial { margin: 0 0 6px; }
+.oficial summary {
+  cursor: pointer; list-style: none; font-size: .78rem; font-weight: 700;
+  color: var(--sesiones);
+}
+.oficial summary::-webkit-details-marker { display: none; }
+.oficial .votacion-titulo-oficial { margin: 4px 0 0; }
 .votaciones { padding: 6px 18px 4px; }
 .votacion { border-top: 1px solid #eef0f4; padding: 12px 0; }
 .votacion:first-child { border-top: none; }
