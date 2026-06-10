@@ -1,5 +1,5 @@
 {
- "_nota": "Datos reales tomados del Senado de la República Dominicana (senadord.gob.do). Los votos por legislador no son públicos. Fecha de extracción: 2026-06-07.",
+ "_nota": "Datos reales del Senado (senadord.gob.do) y de la Cámara de Diputados (camaradediputados.gob.do). Las leyes marcadas con \"Cámara de Diputados\" vienen de esa cámara; las demás, del Senado. Los votos por legislador no son públicos. Fecha de extracción: 2026-06-09.",
  "sectores": [
   {
    "id": "justicia",
@@ -45,6 +45,24 @@
      "por_que": "Razón no indicada en la fuente.",
      "votos": [],
      "te_afecta": "Tus papeles de nacimiento, matrimonio o defunción tendrían reglas más claras."
+    },
+    {
+     "titulo": "Crear un juzgado de paz en el distrito municipal de Pedro Corto, San Juan de la Maguana (Iniciativa 04789-2024-2028-CD)",
+     "estado": "votando",
+     "que_es": "Pone un tribunal de paz (el juzgado más cercano a la gente) en la zona de Pedro Corto, en San Juan.",
+     "por_que": "Razón no indicada en la fuente.",
+     "votos": [],
+     "te_afecta": "Si vives por Pedro Corto, resolverías un caso pequeño en tu zona, sin viajar lejos.",
+     "camara": true
+    },
+    {
+     "titulo": "Pagar a los contratistas del Estado y revisar reclamos de obras (Iniciativa 01531-2026)",
+     "estado": "aprobada",
+     "que_es": "Autoriza pagar a empresas que le hicieron obras al Estado y crea una comisión para revisar reclamos por trabajos hechos con o sin contrato formal.",
+     "por_que": "Razón no indicada en la fuente.",
+     "votos": [],
+     "te_afecta": "Si una empresa local le trabajó al Estado, podría cobrar lo que se le debe, y eso mueve empleos en tu zona.",
+     "camara": true
     }
    ]
   },
@@ -75,6 +93,15 @@
      "por_que": "Razón no indicada en la fuente.",
      "votos": [],
      "te_afecta": "Más programas del gobierno para cuidarte los dientes a ti y a tus hijos."
+    },
+    {
+     "titulo": "Pedir un hospital de segundo nivel en Villa Cerro, Higüey (Iniciativa 04716-2024-2028-CD)",
+     "estado": "votando",
+     "que_es": "Pide construir un hospital con más servicios en el sector Villa Cerro, en Higüey, provincia La Altagracia.",
+     "por_que": "Razón no indicada en la fuente.",
+     "votos": [],
+     "te_afecta": "Si vives por Higüey, tendrías un hospital más completo cerca, sin viajar a otra provincia.",
+     "camara": true
     }
    ]
   },
@@ -137,6 +164,15 @@
      "por_que": "Razón no indicada en la fuente.",
      "votos": [],
      "te_afecta": "Estudiantes de esos pueblos llegarían gratis y seguros a la universidad."
+    },
+    {
+     "titulo": "Pedir alumbrado para las carreteras y avenidas de San Pedro de Macorís (Iniciativa 04970-2024-2028-CD)",
+     "estado": "votando",
+     "que_es": "Pide instalar luz en las carreteras y avenidas de varios municipios de la provincia San Pedro de Macorís.",
+     "por_que": "Razón no indicada en la fuente.",
+     "votos": [],
+     "te_afecta": "Si manejas o caminas de noche por esa zona, las vías estarían más iluminadas y seguras.",
+     "camara": true
     }
    ]
   },
@@ -198,6 +234,15 @@
      "por_que": "Razón no indicada en la fuente.",
      "votos": [],
      "te_afecta": "Si vives en Las Terrenas, el pueblo crecería con orden: menos tapones y mejor espacio."
+    },
+    {
+     "titulo": "Sistema de alerta temprana ante inundaciones en Puerto Plata (Iniciativa 05676-2024-2028-CD)",
+     "estado": "votando",
+     "que_es": "Pide poner un sistema que vigila y avisa a tiempo antes de que el agua inunde, en Montellano y Yásica Arriba, Puerto Plata.",
+     "por_que": "Razón no indicada en la fuente.",
+     "votos": [],
+     "te_afecta": "Si vives en esa zona, te avisarían a tiempo para ponerte a salvo antes de una inundación.",
+     "camara": true
     }
    ]
   },

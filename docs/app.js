@@ -64,6 +64,11 @@ function renderLey(ley) {
     const wrap = el("div", "ley");
     wrap.append(el("p", "ley-titulo", ley.titulo));
     wrap.append(el("span", "ley-estado estado-" + ley.estado, estadoLabel[ley.estado] || ley.estado));
+    // Which chamber the bill comes from. Senate is the default (no chip);
+    // a chip is shown only when the bill comes from the Cámara de Diputados.
+    if (ley.camara) {
+        wrap.append(el("span", "ley-camara", "🏛️ Cámara de Diputados"));
+    }
     const det = el("div", "ley-detalle");
     det.append(el("h4", null, "¿Qué es?"), el("p", null, ley.que_es));
     // One plain line: how this law touches daily life.

@@ -227,6 +227,12 @@ main { max-width: 720px; margin: 0 auto; padding: 0 14px 40px; }
 .estado-aprobada { background: #e3f7ec; color: var(--verde); }
 .estado-votando  { background: #fff1d6; color: #8a5800; }
 .estado-rechazada{ background: #fde3e1; color: var(--rojo); }
+/* Chip shown only on bills that come from the Cámara de Diputados. */
+.ley-camara {
+  display: inline-block; font-size: .78rem; font-weight: 700;
+  padding: 2px 8px; border-radius: 999px; margin-top: 6px; margin-left: 6px;
+  background: #e7eefc; color: #1b4ea8;
+}
 .ley-detalle { margin-top: 12px; display: none; }
 .ley.open .ley-detalle { display: block; }
 .ley-detalle h4 { margin: 12px 0 4px; font-size: .95rem; color: var(--azul); }
