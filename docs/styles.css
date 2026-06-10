@@ -716,6 +716,18 @@ main { max-width: 720px; margin: 0 auto; padding: 0 14px 40px; }
 }
 .salud-card.alerta .salud-cifra { color: var(--rojo); }
 .salud-nota { font-size: .85rem; color: var(--gris); }
+.salud-trend {
+  display: flex; align-items: flex-start; gap: 6px;
+  margin-top: 8px; padding: 7px 9px;
+  font-size: .82rem; line-height: 1.35; color: var(--tinta);
+  background: #f3f6fb; border-radius: 9px;
+}
+.salud-trend b { font-weight: 800; }
+.salud-trend .trend-chip {
+  flex: 0 0 auto; font-size: .95rem; line-height: 1;
+}
+.salud-trend.baja { background: #eef7f0; }
+.salud-trend.sube { background: #fdf3ee; }
 .salud-card .nota-fuente { margin-top: 8px; font-size: .72rem; }
 @media (max-width: 520px) {
   .salud-grid { grid-template-columns: 1fr; }

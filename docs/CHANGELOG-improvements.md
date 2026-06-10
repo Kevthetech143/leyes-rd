@@ -2,7 +2,7 @@
 
 Una línea por ciclo de mejora.
 
-- 2026-06-07 — Cron de mejora continua activado (cada 10 min).
+- 2026-06-10 — Dinero: cada cifra del "bolsillo del país" ahora muestra una comparación con el año pasado (flecha ⬆️/⬇️ + frase simple "el año pasado X → este año Y"), para ver si el número es mucho y si va mejor o peor. Verificado con fuentes oficiales del mismo origen (BCRD, DIGEPRES, Hacienda/Crédito Público, TSS). El PIB no lleva comparación porque su crecimiento ya cubre esa tendencia. Nace de la primera sugerencia de un usuario real (WhatsApp, 2026-06-10).
 - 2026-06-07 — Descripción del sitio actualizada al nuevo nombre y alcance (leyes, provincias y sesiones).
 - 2026-06-07 — Sesiones: el check verde ya solo aparece en votos aprobados; los resultados "No indicado" salen en gris neutro (sin marca falsa).
 - 2026-06-07 — Se agregó un ícono de pestaña (favicon con la bandera dominicana) para que el sitio se reconozca en el navegador.

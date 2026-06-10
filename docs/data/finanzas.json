@@ -24,7 +24,15 @@
       "detalle": "El PIB real creció 2.1% interanual acumulado en enero-diciembre 2025 (cifras preliminares).",
       "fuente": "Banco Central RD — Resultados Preliminares de la Economía Dominicana, enero-diciembre 2025",
       "url": "https://cdn.bancentral.gov.do/documents/publicaciones-economicas/resultados-preliminares-de-la-economia-dominicana/documents/infeco_preliminar2025-12.pdf",
-      "periodo": "Enero-diciembre 2025 (preliminar)"
+      "periodo": "Enero-diciembre 2025 (preliminar)",
+      "comparacion": {
+        "valor_anterior": "5.0%",
+        "periodo_anterior": "Enero-diciembre 2024",
+        "tendencia": "baja",
+        "base": "PIB real, crecimiento interanual acumulado del año completo (misma base ambos años).",
+        "fuente": "Banco Central RD — La economía dominicana se expandió en 5.0 % en el año 2024",
+        "url": "https://www.bancentral.gov.do/a/d/6153-la-economia-dominicana-se-expandio-en-50--en-el-ano-2024"
+      }
     },
     {
       "id": "ingresos",
@@ -33,7 +41,15 @@
       "detalle": "Ingresos proyectados = 15.5% del PIB.",
       "fuente": "DIGEPRES — Proyecto de Presupuesto General del Estado 2026",
       "url": "https://www.digepres.gob.do/poder-ejecutivo-deposita-en-el-congreso-nacional-proyecto-de-ley-de-presupuesto-general-del-estado-2026/",
-      "periodo": "Presupuesto 2026"
+      "periodo": "Presupuesto 2026",
+      "comparacion": {
+        "valor_anterior": "RD$1,241,364.7 millones",
+        "periodo_anterior": "Presupuesto 2025 (proyecto)",
+        "tendencia": "sube",
+        "base": "Ingresos estimados del proyecto de presupuesto, año contra año (proyecto 2026 vs proyecto 2025).",
+        "fuente": "Ministerio de Hacienda — Poder Ejecutivo somete al Congreso Presupuesto General del Estado de 2025",
+        "url": "https://www.hacienda.gob.do/poder-ejecutivo-somete-al-congreso-presupuesto-general-del-estado-de-2025/"
+      }
     },
     {
       "id": "gastos",
@@ -42,7 +58,15 @@
       "detalle": "Gastos totales proyectados = 18.7% del PIB.",
       "fuente": "DIGEPRES — Proyecto de Presupuesto General del Estado 2026",
       "url": "https://www.digepres.gob.do/poder-ejecutivo-deposita-en-el-congreso-nacional-proyecto-de-ley-de-presupuesto-general-del-estado-2026/",
-      "periodo": "Presupuesto 2026"
+      "periodo": "Presupuesto 2026",
+      "comparacion": {
+        "valor_anterior": "RD$1,484,234.6 millones",
+        "periodo_anterior": "Presupuesto 2025 (proyecto)",
+        "tendencia": "sube",
+        "base": "Gastos totales del proyecto de presupuesto, año contra año (proyecto 2026 vs proyecto 2025).",
+        "fuente": "Ministerio de Hacienda — Poder Ejecutivo somete al Congreso Presupuesto General del Estado de 2025",
+        "url": "https://www.hacienda.gob.do/poder-ejecutivo-somete-al-congreso-presupuesto-general-del-estado-de-2025/"
+      }
     },
     {
       "id": "deficit",
@@ -51,7 +75,15 @@
       "detalle": "Diferencia entre gastos e ingresos del Presupuesto 2026. Por cada RD$100 que el Estado planea ganar, planea gastar unos RD$121. El hueco se cubre con deuda.",
       "fuente": "DIGEPRES — Proyecto de Presupuesto General del Estado 2026",
       "url": "https://www.digepres.gob.do/poder-ejecutivo-deposita-en-el-congreso-nacional-proyecto-de-ley-de-presupuesto-general-del-estado-2026/",
-      "periodo": "Presupuesto 2026"
+      "periodo": "Presupuesto 2026",
+      "comparacion": {
+        "valor_anterior": "RD$242,869.9 millones",
+        "periodo_anterior": "Presupuesto 2025 (proyecto)",
+        "tendencia": "sube",
+        "base": "Hueco del proyecto de presupuesto = gastos menos ingresos proyectados, año contra año (gastos 2025 RD$1,484,234.6M − ingresos 2025 RD$1,241,364.7M). Mismo cálculo que el déficit 2026; no es ejecución real.",
+        "fuente": "Ministerio de Hacienda — Poder Ejecutivo somete al Congreso Presupuesto General del Estado de 2025",
+        "url": "https://www.hacienda.gob.do/poder-ejecutivo-somete-al-congreso-presupuesto-general-del-estado-de-2025/"
+      }
     },
     {
       "id": "deuda",
@@ -60,7 +92,15 @@
       "detalle": "Deuda del Sector Público No Financiero (SPNF) al cierre de 2025. Es casi medio año de todo lo que el país produce.",
       "fuente": "Ministerio de Hacienda y Economía / Dirección General de Crédito Público — cierre 2025",
       "url": "https://www.hacienda.gob.do/gobierno-dominicano-cierra-2025-con-un-gasto-de-capital-de-2-6-del-pib/",
-      "periodo": "Cierre 2025 (SPNF)"
+      "periodo": "Cierre 2025 (SPNF)",
+      "comparacion": {
+        "valor_anterior": "46.3% del PIB",
+        "periodo_anterior": "Cierre 2024",
+        "tendencia": "sube",
+        "base": "Deuda del Sector Público No Financiero (SPNF) como porcentaje del PIB, cierre de año (misma medida ambos años). Cierre 2024 = US$57,587.2 millones, 46.3% del PIB.",
+        "fuente": "Dirección General de Crédito Público (vía análisis CREES de la deuda consolidada al cierre 2024)",
+        "url": "https://crees.org.do/?p=27646"
+      }
     },
     {
       "id": "salario",
@@ -69,7 +109,15 @@
       "detalle": "Salario promedio cotizable a la seguridad social (trabajadores formales registrados en la TSS). No incluye a quien trabaja informal.",
       "fuente": "Tesorería de la Seguridad Social (TSS) — Boletín del Régimen Contributivo, junio 2025",
       "url": "https://presidencia.gob.do/noticias/salario-promedio-de-cotizantes-en-la-seguridad-social-supera-los-rd-38000",
-      "periodo": "Junio 2025"
+      "periodo": "Junio 2025",
+      "comparacion": {
+        "valor_anterior": "6.7% menos que hace un año",
+        "periodo_anterior": "Junio 2024",
+        "tendencia": "sube",
+        "base": "Salario promedio cotizable a la seguridad social (régimen contributivo TSS). La TSS reportó el dato de junio 2025 (RD$37,572.82) con un crecimiento interanual oficial de 6.7% frente a junio 2024. Se cita el crecimiento publicado porque el valor exacto de junio 2024 no quedó verificable en fuente oficial en línea hoy.",
+        "fuente": "Tesorería de la Seguridad Social (TSS) — Boletín del Régimen Contributivo, junio 2025 (crecimiento interanual 6.7%)",
+        "url": "https://www.tss.gob.do/transparencia/boletines-estadisticos.html"
+      }
     },
     {
       "id": "inflacion",
@@ -78,7 +126,15 @@
       "detalle": "Inflación interanual de mayo 2025 a mayo 2026, medida por el IPC. En el mes de mayo 2026 los precios subieron 0.31%.",
       "fuente": "Banco Central RD — IPC mayo 2026",
       "url": "https://primicias.net/web/bcrd-informa-que-la-variacion-del-ipc-en-el-mes-de-mayo-fue-de-0-31/",
-      "periodo": "Mayo 2026 (interanual)"
+      "periodo": "Mayo 2026 (interanual)",
+      "comparacion": {
+        "valor_anterior": "3.84%",
+        "periodo_anterior": "Mayo 2025 (interanual)",
+        "tendencia": "sube",
+        "base": "Inflación interanual del IPC medida al mes de mayo (misma medida ambos años). Mayo 2024 a mayo 2025 = 3.84%, dentro del rango meta del Banco Central.",
+        "fuente": "Banco Central RD — IPC mayo 2025 (inflación interanual 3.84%)",
+        "url": "https://eldinero.com.do/325993/banco-central-informa-inflacion-interanual-se-situa-en-3-84-a-mayo-2025/"
+      }
     },
     {
       "id": "desempleo",
@@ -87,7 +143,15 @@
       "detalle": "Tasa de desocupación abierta (SU1) al cuarto trimestre de 2025.",
       "fuente": "Banco Central RD — Encuesta Nacional Continua de Fuerza de Trabajo (ENCFT)",
       "url": "https://es.tradingeconomics.com/dominican-republic/unemployment-rate",
-      "periodo": "Octubre-diciembre 2025"
+      "periodo": "Octubre-diciembre 2025",
+      "comparacion": {
+        "valor_anterior": "4.8%",
+        "periodo_anterior": "Octubre-diciembre 2024",
+        "tendencia": "sube",
+        "base": "Tasa de desocupación abierta (SU1) del mismo trimestre (octubre-diciembre) ambos años. El 4.8% del cuarto trimestre 2024 fue un mínimo histórico.",
+        "fuente": "Banco Central RD — ENCFT, tasa de desocupación abierta 4.8% al cierre de 2024",
+        "url": "https://eldinero.com.do/314027/tasas-de-desocupacion-abierta-se-situa-en-4-8-al-cierre-de-2024/"
+      }
     }
   ],
   "comparaciones_derivadas": {
