@@ -579,6 +579,148 @@ function renderProvincias(data: ProvinciasData): void {
   setupGlosario();
 }
 
+/* ---------- ¿Quién controla el Congreso? — composición por partido ---------- */
+// Counts how many seats each party holds in one chamber, reading the same
+// provincias.json the rest of the site uses. Nothing is hardcoded: if the data
+// is refreshed, these numbers move with it. cargoStart = "senador" or "diputad".
+interface ConteoPartido {
+  partido: string;
+  asientos: number;
+}
+function contarPorPartido(data: ProvinciasData, cargoStart: string): ConteoPartido[] {
+  const cuenta: Record<string, number> = {};
+  data.provincias.forEach((p) => {
+    p.lideres.forEach((l) => {
+      if (l.cargo.toLowerCase().startsWith(cargoStart)) {
+        const part = l.partido || "?";
+        cuenta[part] = (cuenta[part] || 0) + 1;
+      }
+    });
+  });
+  return Object.keys(cuenta)
+    .map((k) => ({ partido: k, asientos: cuenta[k] }))
+    // Most seats first; ties broken by party initials so the order is stable.
+    .sort((a, b) => b.asientos - a.asientos || a.partido.localeCompare(b.partido));
+}
+
+// A fixed color per party so the bar, the legend and the detail all agree.
+// Parties not listed fall back to a neutral grey (never invented data, just a
+// color). Colors picked to read apart on a small phone screen.
+const COLOR_PARTIDO: Record<string, string> = {
+  PRM: "#1a4ed8",   // azul — same family as the site accent
+  FP: "#7b2ff7",    // morado
+  PLD: "#1f9d57",   // verde
+  PRSC: "#e0651a",  // naranja
+  DXC: "#0fb5c4",   // turquesa
+  PPG: "#d8261a",   // rojo
+  PLR: "#c01b8a",   // magenta
+};
+const COLOR_OTROS = "#565e6e"; // gris para el grupo "Otros"
+function colorDePartido(partido: string): string {
+  return COLOR_PARTIDO[partido] || COLOR_OTROS;
+}
+
+// Renders one chamber: a grid of actual seat dots (one per legislator, colored
+// by party, sorted so each party forms a contiguous block, majority obvious at a
+// glance) + a legend of party chips, with the real per-party counts folded behind
+// a tap, plus one honest takeaway derived only from the math. Tiny parties (1–2
+// seats) collapse into "Otros" on the legend for readability — the seat grid and
+// the fold-out detail still show every party.
+function renderCamara(nombre: string, total: number, conteo: ConteoPartido[]): HTMLElement {
+  const wrap = el("div", "camara-comp");
+  wrap.append(el("p", "camara-titulo", "<b>" + nombre + "</b> <span class=\"camara-total\">" + total + " asientos</span>"));
+
+  // Group tiny parties (1–2 seats) into "Otros" for the legend only.
+  const grandes = conteo.filter((c) => c.asientos > 2);
+  const pequenos = conteo.filter((c) => c.asientos <= 2);
+  const otrosTotal = pequenos.reduce((n, c) => n + c.asientos, 0);
+  const segmentos: ConteoPartido[] = [...grandes];
+  if (otrosTotal > 0) segmentos.push({ partido: "Otros", asientos: otrosTotal });
+
+  // Seat grid: one dot per legislator, in party order so each party is a solid
+  // block and the majority reads at a glance. The grid is decorative-plus — it
+  // carries an aria-label summarizing the counts; the legend below is the
+  // readable source of truth. Tighter dots for the bigger Cámara so 178 stay
+  // crisp and the grid wraps instead of stretching the page.
+  const grande = total > 60;
+  const grid = el("div", "comp-asientos" + (grande ? " comp-asientos-densa" : ""));
+  grid.setAttribute("role", "img");
+  grid.setAttribute(
+    "aria-label",
+    nombre + ": " + conteo.map((c) => c.partido + " " + c.asientos).join(", ") + " de " + total + " asientos."
+  );
+  conteo.forEach((c) => {
+    for (let i = 0; i < c.asientos; i++) {
+      const dot = el("span", "comp-asiento");
+      dot.style.background = colorDePartido(c.partido);
+      dot.title = c.partido;
+      grid.append(dot);
+    }
+  });
+  wrap.append(grid);
+
+  // Legend: one chip per visible segment (initials + count).
+  const leyenda = el("div", "comp-leyenda");
+  segmentos.forEach((s) => {
+    const chip = el("span", "comp-chip");
+    const punto = el("span", "comp-punto");
+    punto.style.background = s.partido === "Otros" ? COLOR_OTROS : colorDePartido(s.partido);
+    chip.append(punto, el("span", "comp-chip-txt", s.partido + " " + s.asientos));
+    leyenda.append(chip);
+  });
+  wrap.append(leyenda);
+
+  // Honest takeaway, derived from the math only — no political commentary.
+  const lider = conteo[0];
+  if (lider) {
+    const mitad = total / 2;
+    let cola: string;
+    if (lider.asientos > mitad) cola = " — más de la mitad.";
+    else if (lider.asientos === mitad) cola = " — justo la mitad.";
+    else cola = " — la mayor parte, pero no la mitad.";
+    const sustantivo = nombre.toLowerCase().includes("senado") ? "senadores" : "diputados";
+    wrap.append(el(
+      "p",
+      "comp-clave",
+      "El <b>" + lider.partido + "</b> tiene <b>" + lider.asientos + " de " + total + "</b> " + sustantivo + cola
+    ));
+  }
+
+  // Fold-out detail: every party with its real count, biggest first.
+  const det = el("details", "comp-detalle");
+  det.append(el("summary", "comp-detalle-cab", "Ver el detalle por partido"));
+  conteo.forEach((c) => {
+    const fila = el("p", "comp-detalle-fila");
+    const punto = el("span", "comp-punto");
+    punto.style.background = colorDePartido(c.partido);
+    fila.append(punto, el("span", null, c.partido + ": " + c.asientos +
+      (c.asientos === 1 ? " asiento" : " asientos")));
+    det.append(fila);
+  });
+  wrap.append(det);
+  return wrap;
+}
+
+function renderComposicion(data: ProvinciasData): void {
+  const host = document.getElementById("composicionCongreso");
+  if (!host) return;
+  const senado = contarPorPartido(data, "senador");
+  const diputados = contarPorPartido(data, "diputad");
+  const totalSen = senado.reduce((n, c) => n + c.asientos, 0);
+  const totalDip = diputados.reduce((n, c) => n + c.asientos, 0);
+
+  host.innerHTML = "";
+  const card = el("div", "comp-card");
+  card.append(renderCamara("Senado", totalSen, senado));
+  card.append(renderCamara("Cámara de Diputados", totalDip, diputados));
+  card.append(el(
+    "p",
+    "nota-fuente",
+    "Cuenta hecha con los datos verificados de esta misma página (Senado y Cámara, 2024–2028)."
+  ));
+  host.append(card);
+}
+
 /* ---------- Sesiones ---------- */
 const MESES = [
   "enero", "febrero", "marzo", "abril", "mayo", "junio",
@@ -1081,6 +1223,7 @@ async function init(): Promise<void> {
     ]);
     renderLeyes(leyes);
     renderProvincias(provincias);
+    renderComposicion(provincias);
     renderSesiones(sesiones);
     llenarCifrasHome(leyes, provincias, sesiones);
     setupSabias(leyes, sesiones);

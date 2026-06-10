@@ -523,6 +523,53 @@ main { max-width: 720px; margin: 0 auto; padding: 0 14px 40px; }
 .paso-txt b { font-size: 1rem; }
 .paso-txt span { color: var(--gris); font-size: .9rem; }
 .flecha { text-align: center; color: var(--azul); font-size: 1.4rem; line-height: 1.1; margin: 2px 0; }
+
+/* ¿Quién controla el Congreso? — composición por partido (seat grid) */
+.comp-card {
+  background: var(--tarjeta); border-radius: var(--radio-md); box-shadow: var(--sombra);
+  padding: 16px; margin: 0 0 14px;
+}
+.camara-comp { margin-bottom: 18px; }
+.camara-comp:last-of-type { margin-bottom: 0; }
+.camara-titulo { margin: 0 0 8px; font-size: 1rem; color: var(--tinta); }
+.camara-titulo .camara-total {
+  font-size: .78rem; font-weight: 700; color: var(--azul);
+  background: #eef2ff; border-radius: 999px; padding: 2px 8px; margin-left: 4px;
+}
+/* Seat grid: one dot per legislator, wraps and never stretches the page. */
+.comp-asientos {
+  display: flex; flex-wrap: wrap; gap: 4px; margin: 8px 0 10px;
+}
+.comp-asiento {
+  flex: none; width: 13px; height: 13px; border-radius: 4px;
+}
+/* Denser dots for the bigger Cámara so 178 stay crisp at 390px. */
+.comp-asientos-densa { gap: 3px; }
+.comp-asientos-densa .comp-asiento { width: 9px; height: 9px; border-radius: 3px; }
+/* Legend chips: party initials + count. */
+.comp-leyenda { display: flex; flex-wrap: wrap; gap: 6px; margin: 0 0 8px; }
+.comp-chip {
+  display: inline-flex; align-items: center; gap: 5px;
+  background: #f4f6fb; border-radius: 999px; padding: 3px 9px;
+  font-size: .8rem; font-weight: 700; color: var(--tinta);
+}
+.comp-punto { width: 10px; height: 10px; border-radius: 50%; flex: none; }
+.comp-chip-txt { line-height: 1; }
+/* Honest takeaway derived from the math. */
+.comp-clave { margin: 6px 0 4px; font-size: .92rem; color: var(--tinta); }
+/* Fold-out per-party detail. */
+.comp-detalle { margin-top: 4px; }
+.comp-detalle summary {
+  cursor: pointer; font-size: .85rem; font-weight: 700; color: var(--azul);
+  list-style: none;
+}
+.comp-detalle summary::-webkit-details-marker { display: none; }
+.comp-detalle-cab::after { content: " ▸"; color: var(--gris); }
+.comp-detalle[open] .comp-detalle-cab::after { content: " ▾"; }
+.comp-detalle-fila {
+  display: flex; align-items: center; gap: 8px;
+  margin: 6px 0 0; font-size: .88rem; color: var(--tinta);
+}
 .punto-debil {
   background: #fde7e4; border: 1px solid #f6b8af; border-radius: 14px;
   padding: 14px 16px; margin: 16px 0 6px; color: #7a1f15;

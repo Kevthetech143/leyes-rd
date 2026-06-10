@@ -24,7 +24,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="styles.css?v=20260610g" />
+  <link rel="stylesheet" href="styles.css?v=20260610h" />
 </head>
 <body>
   <header class="topbar">
@@ -144,12 +144,20 @@
         <div class="flecha">↓</div>
         <div class="paso"><span class="paso-num">2</span><span class="paso-emoji">🏛️</span><div class="paso-txt"><b>El Presidente</b><span>Dirige el país día a día, con sus ministerios. Hoy es Luis Abinader (PRM), período 2024–2028, junto a la vicepresidenta Raquel Peña.</span></div></div>
         <div class="flecha">↓</div>
-        <div class="paso"><span class="paso-num">3</span><span class="paso-emoji">⚖️</span><div class="paso-txt"><b>El Congreso</b><span>Hace las leyes. Son dos grupos: el Senado (32 personas) y la Cámara de Diputados (190). Los eliges por tu provincia.</span></div></div>
+        <div class="paso"><span class="paso-num">3</span><span class="paso-emoji">⚖️</span><div class="paso-txt"><b>El Congreso</b><span>Hace las leyes. Son dos grupos: el Senado (32 personas) y la Cámara de Diputados (178). Los eliges por tu provincia.</span></div></div>
         <div class="flecha">↓</div>
         <div class="paso"><span class="paso-num">4</span><span class="paso-emoji">🏘️</span><div class="paso-txt"><b>Tu alcalde y los regidores</b><span>El alcalde manda en tu pueblo: calles, basura, parques, agua. Los <span class="palabra" data-def="Los regidores son los concejales del pueblo: el grupo que aprueba el presupuesto del municipio, dicta las normas locales y vigila al alcalde. Cada municipio elige varios por voto.">regidores</span> son el concejo que aprueba el presupuesto del pueblo y vigila al alcalde. A todos los eliges por voto.</span></div></div>
         <div class="flecha">↓</div>
         <div class="paso"><span class="paso-num">5</span><span class="paso-emoji">👨‍⚖️</span><div class="paso-txt"><b>Los jueces</b><span>Aplican la ley cuando hay un problema. A estos no los eliges por voto.</span></div></div>
       </div>
+
+      <!-- "¿Quién controla el Congreso?" — composición por partido del Senado y la
+           Cámara. Las barras, la leyenda, el detalle y la frase honesta se rellenan
+           en app.ts contando los legisladores de provincias.json en tiempo de
+           ejecución (nada está escrito a mano aquí). -->
+      <h3 class="bloque-titulo">🏛️ ¿Quién controla el Congreso?</h3>
+      <p class="bloque-intro">Controlar el Congreso es tener más asientos. El partido con más asientos decide más: qué leyes se votan y cuáles pasan. Aquí ves cuántos asientos tiene cada partido.</p>
+      <div id="composicionCongreso"></div>
 
       <h3 class="bloque-titulo">¿Cuándo y cómo voto?</h3>
       <div class="como">
@@ -526,7 +534,7 @@
     <p class="foot-fuente">Fuentes: Senado y Cámara de Diputados de la República Dominicana.</p>
   </footer>
 
-  <script src="app.js?v=20260610g"></script>
+  <script src="app.js?v=20260610h"></script>
   <!-- Contador de visitas, privado y sin cookies (GoatCounter) -->
   <script data-goatcounter="https://politicasencillard.goatcounter.com/count"
           async src="//gc.zgo.at/count.js"></script>
