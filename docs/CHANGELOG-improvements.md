@@ -2,6 +2,7 @@
 
 Una línea por ciclo de mejora.
 
+- 2026-06-10 — Provincias: cada ficha ahora explica qué son los regidores (los concejales del pueblo: aprueban el presupuesto del municipio y vigilan al alcalde) con una tarjeta "🪑 ¿Y los regidores?", glosario tocable y una línea en "El país". Por sugerencia de un usuario real (Agustín, WhatsApp).
 - 2026-06-07 — Cron de mejora continua activado (cada 10 min).
 - 2026-06-07 — Descripción del sitio actualizada al nuevo nombre y alcance (leyes, provincias y sesiones).
 - 2026-06-07 — Sesiones: el check verde ya solo aparece en votos aprobados; los resultados "No indicado" salen en gris neutro (sin marca falsa).

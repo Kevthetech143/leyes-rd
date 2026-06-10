@@ -58,9 +58,28 @@ interface Lider {
   sueldo?: { monto: string; mes: string; fuente: string };
 }
 
+// One regidor (town-council member): name + party. Filled only with verified
+// names from official sources (JCE 2024 municipal results / municipal portals).
+interface Regidor {
+  nombre: string;
+  partido: string;
+}
+
 interface Provincia {
   nombre: string;
   lideres: Lider[];
+  // Optional explainer block about the province's town-council members.
+  // total: verified count of regidores across the province's municipalities,
+  //        ONLY when confirmed from official data — otherwise omitted (no number).
+  // municipio / lista: verified names+parties for one municipality (the capital),
+  //        when we could read them from an official source.
+  regidores?: {
+    total?: number;
+    fuente_total?: string;
+    municipio?: string;
+    lista?: Regidor[];
+    fuente_lista?: string;
+  };
 }
 
 interface ProvinciasData {
@@ -397,6 +416,47 @@ function renderLider(l: Lider): HTMLElement {
   return block;
 }
 
+// "¿Y los regidores?" — a small explainer card in every province profile.
+// Explains, kid-simple, what a regidor is (the town council that approves the
+// mayor's budget and rules — los concejales del pueblo) and that each
+// municipality elects several. Shows the verified total ONLY when present in
+// the data; otherwise it stays a pure explainer with no invented number.
+// When verified names exist (regidores.lista), they render as a name+party list.
+function renderRegidoresCard(prov: Provincia): HTMLElement {
+  const card = el("div", "como");
+  let html =
+    "<b>🪑 ¿Y los regidores?</b> En cada ayuntamiento, además del alcalde, hay un grupo de " +
+    "<span class=\"palabra\" data-def=\"Los regidores son el grupo de personas, elegidas por voto, que forman el concejo del ayuntamiento. Aprueban el presupuesto del pueblo, dictan las normas locales y vigilan al alcalde. Son como los concejales del pueblo.\">regidores</span>: " +
+    "son los concejales del pueblo. Aprueban el presupuesto del municipio, dictan las normas locales y vigilan al alcalde. " +
+    "Cada municipio elige varios por voto, según cuánta gente vive en él.";
+
+  const r = prov.regidores;
+  if (r && typeof r.total === "number") {
+    html += "<br><br>En esta provincia hay <b>" + r.total + " regidores</b> en total" +
+      (r.fuente_total ? ", según " + r.fuente_total : "") + ".";
+  } else {
+    html += "<br><br><span class=\"nota-fuente\">Cuántos hay en total en esta provincia: aún estamos confirmando la cifra con datos oficiales de la JCE.</span>";
+  }
+  card.innerHTML = html;
+
+  // Verified names for one municipality, when we have them.
+  if (r && r.lista && r.lista.length) {
+    const lista = el("div", "regidores-lista");
+    lista.append(el("p", "regidores-municipio",
+      "<b>Regidores de " + (r.municipio || prov.nombre) + ":</b>"));
+    r.lista.forEach((rg) => {
+      const fila = el("p", "regidor-fila");
+      fila.innerHTML = rg.nombre + " <span class='partido-chip'>" + rg.partido + "</span>";
+      lista.append(fila);
+    });
+    if (r.fuente_lista) {
+      lista.append(el("p", "nota-fuente", "Fuente: " + r.fuente_lista + "."));
+    }
+    card.append(lista);
+  }
+  return card;
+}
+
 function renderProvincias(data: ProvinciasData): void {
   const grid = el("div", "prov-grid");
   const perfil = byId("perfilProvincia");
@@ -447,6 +507,10 @@ function renderProvincias(data: ProvinciasData): void {
           "¿Conoces a tu alcalde? <a href=\"https://github.com/Kevthetech143/leyes-rd/issues/new\" target=\"_blank\" rel=\"noopener\">Ayúdanos a completarlo</a>."
         ));
       }
+      // Always explain the town council (regidores) — feedback de un usuario real.
+      perfil.append(renderRegidoresCard(prov));
+      // The card just added a new .palabra word; wire tap-to-define on it.
+      setupGlosario();
       perfil.scrollIntoView({ behavior: "smooth", block: "start" });
     });
     grid.append(c);
