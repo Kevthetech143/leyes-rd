@@ -9,7 +9,8 @@ Estructura común a todas las vistas:
 
 ## Inicio
 - Etiqueta "BIENVENIDO" + titular grande "La política dominicana, fácil de entender".
-- 4 tarjetas a color (Leyes morado, Provincias verde, Sesiones azul, Dinero naranja), cada una con emoji, una línea y "Explorar ▸".
+- FLUJO 2026-06-10 (Pieza A): tira de héroe "🤔 ¿Sabías que…?" sobre las tarjetas — muestra un dato real a la vez (6 en total, todos de nuestros JSON: sueldo, deuda por persona, gasta vs gana, tamaño del Senado, última sesión, total de leyes), con UN botón que salta a su sección. Rota suave cada 6s, con puntos para elegir y botón de pausa; cada dato pinta la tira con el color de su sección; con prefers-reduced-motion arranca pausado. Inspirado en el carrusel del héroe de dgcp.gob.do.
+- FLUJO 2026-06-10 (Pieza B): las 5 tarjetas se replantearon como recorrido — encabezado "¿Qué quieres aprender hoy? Te sugerimos este orden" y cada tarjeta lleva su número de paso (1–5) en el color de su sección, en el orden de la cadena El país → Leyes → Sesiones → Provincias → Dinero. La primera dice "Empezar aquí". Sigue siendo libre tocar cualquiera.
 - Estado: limpio.
 
 ## El país (rojo bandera)
@@ -43,6 +44,12 @@ Estructura común a todas las vistas:
 - UX 2026-06-10: las dos cajas "¿Cuánto es...?" se pliegan al tocar (la pregunta queda visible); las dos notas de fuente largas se pliegan tras "📚 Ver fuentes oficiales", sin tocar el texto.
 - La tarjeta de Inicio "Dinero" anuncia "con un caso real".
 - Estado: limpio.
+
+## Flujo secuencial por sección (Pieza C, 2026-06-10)
+- Cada sección sigue tres tiempos: (1) tarjeta "⏱️ En 30 segundos" arriba con la esencia en un párrafo; (2) el contenido que ya existía, intacto; (3) pie "¿Y ahora qué?" que enlaza la siguiente sección de la cadena con una línea de por qué.
+- Cadena: El país → Leyes → Sesiones → Provincias → Dinero, circular (Dinero cierra de vuelta a El país con "¡Diste la vuelta completa!").
+- El botón del pie navega con el mismo data-goto que las tarjetas de Inicio (manejador generalizado a cualquier [data-goto]).
+- Dinero (Pieza D): tres sub-encabezados numerados estilo DGCP (1 cuánta plata tiene el país, 2 el viaje del dinero, 3 el caso real del SENASA) con aire entre bloques, para que las tres ideas no se lean pegadas.
 
 ## Pendientes UX detectados
 - Ninguno crítico hoy. Vistas consistentes y legibles en móvil.
