@@ -500,6 +500,67 @@ main { max-width: 720px; margin: 0 auto; padding: 0 14px 40px; }
 }
 .punto-debil p { margin: 6px 0 0; }
 
+/* ---------- Flujo secuencial: intro "En 30 segundos" + footer "¿Y ahora qué?" ---------- */
+/* Beat 1 — a 30-second essence card at the very top of each section. Beat 3 —
+   a footer card that hands the reader to the next section in the chain with one
+   line of why. Both reuse the card shadow/radius; each takes the section accent. */
+.en30 {
+  background: var(--tarjeta); border: 1px solid #e6e9ef; border-left: 6px solid var(--azul);
+  border-radius: var(--radio-md); box-shadow: var(--sombra);
+  padding: 14px 16px; margin: 0 0 16px;
+}
+.en30-cab {
+  display: inline-flex; align-items: center; gap: 6px; margin: 0 0 6px;
+  font-weight: 800; font-size: .8rem; letter-spacing: .04em; text-transform: uppercase;
+  color: var(--azul);
+}
+.en30 p { margin: 0; font-size: 1rem; }
+
+.siguiente {
+  display: flex; flex-direction: column; gap: 10px;
+  background: var(--sesiones-bg); border: 1px solid #cfe4ff;
+  border-radius: var(--radio-lg); padding: 16px; margin: 22px 0 6px;
+}
+.siguiente-cab {
+  font-weight: 800; font-size: .9rem; color: var(--azul);
+}
+.siguiente-porque { margin: 0; font-size: .96rem; color: #2c3a6e; }
+.siguiente-btn {
+  align-self: flex-start; display: inline-flex; align-items: center; gap: 6px;
+  min-height: 44px; border: none; cursor: pointer; font: inherit;
+  font-weight: 800; font-size: .95rem; padding: 10px 18px; border-radius: 999px;
+  color: #fff; background: var(--azul); text-decoration: none;
+}
+.siguiente-btn:active { transform: scale(.97); }
+.siguiente-btn:focus-visible { outline: 3px solid var(--tinta); outline-offset: 2px; }
+
+/* Each section paints its own beats with its accent color. */
+.sec-pais .en30 { border-left-color: var(--rojo); }
+.sec-pais .en30-cab { color: var(--rojo); }
+.sec-leyes .en30 { border-left-color: var(--leyes); }
+.sec-leyes .en30-cab { color: var(--leyes); }
+.sec-mapa .en30 { border-left-color: var(--mapa); }
+.sec-mapa .en30-cab { color: var(--mapa); }
+.sec-sesiones .en30 { border-left-color: var(--sesiones); }
+.sec-sesiones .en30-cab { color: var(--sesiones); }
+.sec-dinero .en30 { border-left-color: var(--dinero); }
+.sec-dinero .en30-cab { color: var(--dinero); }
+
+/* The footer takes the color of the NEXT section it points to (set per-section). */
+.siguiente.va-pais     { background: #fde7e4; border-color: #f6b8af; }
+.siguiente.va-pais     .siguiente-cab, .siguiente.va-pais .siguiente-porque { color: #7a1f15; }
+.siguiente.va-pais     .siguiente-btn { background: var(--rojo); }
+.siguiente.va-leyes    { background: var(--leyes-bg); border-color: #ddd0fb; }
+.siguiente.va-leyes    .siguiente-cab, .siguiente.va-leyes .siguiente-porque { color: #4a228f; }
+.siguiente.va-leyes    .siguiente-btn { background: var(--leyes); }
+.siguiente.va-sesiones .siguiente-btn { background: var(--sesiones); }
+.siguiente.va-mapa     { background: var(--mapa-bg); border-color: #bfe7e1; }
+.siguiente.va-mapa     .siguiente-cab, .siguiente.va-mapa .siguiente-porque { color: #0a5b53; }
+.siguiente.va-mapa     .siguiente-btn { background: var(--mapa); }
+.siguiente.va-dinero   { background: var(--dinero-bg); border-color: #f5c69e; }
+.siguiente.va-dinero   .siguiente-cab, .siguiente.va-dinero .siguiente-porque { color: #9a3b00; }
+.siguiente.va-dinero   .siguiente-btn { background: var(--dinero); }
+
 /* ---------- Per-section accents (distinct identity per tab) ---------- */
 .sec-leyes    .seccion-titulo { color: var(--leyes); }
 .sec-mapa     .seccion-titulo { color: var(--mapa); }

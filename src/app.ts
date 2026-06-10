@@ -693,8 +693,9 @@ function setupTabs(): void {
     });
   });
 
-  // Big home cards jump straight into a section.
-  document.querySelectorAll<HTMLButtonElement>(".home-card").forEach((card) => {
+  // Any element with data-goto jumps straight into a section: the big home
+  // cards AND the "¿Y ahora qué?" footer that chains one section to the next.
+  document.querySelectorAll<HTMLElement>("[data-goto]").forEach((card) => {
     card.addEventListener("click", () => {
       const dest = card.dataset.goto;
       if (dest) mostrarVista(dest);

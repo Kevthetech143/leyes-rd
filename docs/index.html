@@ -132,6 +132,11 @@
       <h2 class="seccion-titulo">🇩🇴 El país</h2>
       <p class="seccion-desc">Quién manda en la República Dominicana, y cuándo y cómo votas tú.</p>
 
+      <div class="en30">
+        <span class="en30-cab">⏱️ En 30 segundos</span>
+        <p>En RD mandan varios, no uno solo. Tú votas y eliges a casi todos: al Presidente, al Congreso que hace las leyes y a tu alcalde. Cada uno tiene su trabajo. Empieza por aquí y lo demás se entiende solo.</p>
+      </div>
+
       <h3 class="bloque-titulo">¿Quién manda?</h3>
       <p class="bloque-intro">Todo empieza con tu voto. La gente elige a casi todos los que mandan:</p>
       <div class="flujo-graf">
@@ -160,11 +165,22 @@
         </ul>
       </div>
       <p class="nota-fuente">Quien organiza las elecciones es la Junta Central Electoral (JCE). Datos: Presidencia de la República Dominicana y JCE, 2026.</p>
+
+      <div class="siguiente va-leyes">
+        <span class="siguiente-cab">¿Y ahora qué?</span>
+        <p class="siguiente-porque">Ya sabes quién hace las leyes. Ahora mira cuáles están haciendo.</p>
+        <button class="siguiente-btn" type="button" data-goto="leyes">Seguir: Las Leyes ▸</button>
+      </div>
     </section>
 
     <section id="view-leyes" class="view hidden sec-leyes">
       <h2 class="seccion-titulo">📜 Las Leyes</h2>
       <p class="seccion-desc">Lo que se propone y se aprueba en el país, contado fácil y ordenado por tema.</p>
+
+      <div class="en30">
+        <span class="en30-cab">⏱️ En 30 segundos</span>
+        <p>Una ley es una regla que vale para todo el país. Alguien la propone, el Congreso la estudia y la vota, y el Presidente la firma. Aquí las ves por tema —salud, luz, trabajo— con su estado: si está aprobada, en votación o rechazada.</p>
+      </div>
       <!-- Source/honesty note + how-to + state legend, grouped into one tight
            intro box so the law sectors aren't pushed down by three stacked boxes. -->
       <div class="como leyes-intro">
@@ -213,11 +229,22 @@
       </div>
       <p id="leyNoResultado" class="hint hidden">No encontramos nada con esa palabra. Prueba otra.</p>
       <div id="sectores"></div>
+
+      <div class="siguiente va-sesiones">
+        <span class="siguiente-cab">¿Y ahora qué?</span>
+        <p class="siguiente-porque">Ya viste qué leyes hay. Ahora mira el día en que el Senado se junta a votarlas.</p>
+        <button class="siguiente-btn" type="button" data-goto="sesiones">Seguir: Las Sesiones ▸</button>
+      </div>
     </section>
 
     <section id="view-mapa" class="view hidden sec-mapa">
       <h2 class="seccion-titulo">🗺️ Las Provincias</h2>
       <p class="seccion-desc">Quién representa a cada provincia: el senador y los diputados (hacen las leyes) y el gobernador y los alcaldes (gobiernan lo local).</p>
+
+      <div class="en30">
+        <span class="en30-cab">⏱️ En 30 segundos</span>
+        <p>El país tiene 32 provincias y cada una tiene su gente que manda: un senador y varios diputados que hacen las leyes, un gobernador y los alcaldes que cuidan lo local. Toca tu provincia y mira quiénes son, qué hacen y cuánto ganan.</p>
+      </div>
       <p class="hint">Toca una provincia para ver a su gente.</p>
       <div class="buscador">
         <span class="buscador-icono" aria-hidden="true">🔎</span>
@@ -226,21 +253,43 @@
       <p id="provNoResultado" class="hint hidden">No encontramos esa provincia. Revisa cómo se escribe.</p>
       <div id="provincias"></div>
       <div id="perfilProvincia" class="perfil hidden"></div>
+
+      <div class="siguiente va-dinero">
+        <span class="siguiente-cab">¿Y ahora qué?</span>
+        <p class="siguiente-porque">Ya sabes quién te representa y cuánto gana. Ahora sigue el dinero del país: de dónde sale, a dónde va y dónde se pierde.</p>
+        <button class="siguiente-btn" type="button" data-goto="dinero">Seguir: El Dinero ▸</button>
+      </div>
     </section>
 
     <section id="view-sesiones" class="view hidden sec-sesiones">
       <h2 class="seccion-titulo">🏛️ Las Sesiones</h2>
       <p class="seccion-desc">Las reuniones del Senado: qué votaron ese día, cuántos dijeron que sí, y quién asistió.</p>
+
+      <div class="en30">
+        <span class="en30-cab">⏱️ En 30 segundos</span>
+        <p>Una sesión es el día en que los 32 senadores se juntan a votar. Aquí ves qué votaron, cuántos dijeron que sí y quién faltó. Así sabes si quien te representa va a trabajar y qué decide cuando llega.</p>
+      </div>
       <div class="como">
         Aquí ves cuántos votaron a favor y quién asistió. El voto de cada senador no es público.
       </div>
       <p class="hint">Cada tarjeta es una sesión del Senado. Toca "Asistencia" para ver quién faltó.</p>
       <div id="sesiones"></div>
+
+      <div class="siguiente va-mapa">
+        <span class="siguiente-cab">¿Y ahora qué?</span>
+        <p class="siguiente-porque">Ya viste cómo vota el Senado. Ahora busca tu provincia y conoce a la gente que te representa.</p>
+        <button class="siguiente-btn" type="button" data-goto="mapa">Seguir: Las Provincias ▸</button>
+      </div>
     </section>
 
     <section id="view-dinero" class="view hidden sec-dinero">
       <h2 class="seccion-titulo">💰 El Dinero</h2>
       <p class="seccion-desc">Cómo viaja el dinero público, paso a paso — y dónde se suele perder.</p>
+
+      <div class="en30">
+        <span class="en30-cab">⏱️ En 30 segundos</span>
+        <p>El dinero del país sale de los impuestos de todos. El Congreso decide en qué se gasta, y luego viaja por varias manos hasta llegar a una obra o un servicio. En ese camino, a veces, se pierde. Aquí lo sigues paso a paso, con un caso real.</p>
+      </div>
 
       <div class="salud-pais">
         <div class="salud-head">
@@ -426,6 +475,12 @@
           <summary>📚 Ver fuentes y por qué este caso</summary>
           <p class="nota-fuente">Usamos este caso porque es público y está bien documentado, no para señalar a un partido: la corrupción ha ocurrido bajo gobiernos de todos los colores. Caso "Operación Cobra", investigado por la PEPCA (procuraduría anticorrupción). Varios exfuncionarios están acusados; el proceso sigue en los tribunales. Cifras y hechos según el Ministerio Público, la SISALRIL y prensa dominicana (Diario Libre, El Nacional, El Día), 2025.</p>
         </details>
+      </div>
+
+      <div class="siguiente va-pais">
+        <span class="siguiente-cab">🎉 ¡Diste la vuelta completa!</span>
+        <p class="siguiente-porque">Ya entiendes quién manda, qué leyes hay, cómo vota el Senado, quién te representa y a dónde va el dinero. Lo más importante: tu voto elige a quienes cuidan todo esto. Repasa cuando quieras.</p>
+        <button class="siguiente-btn" type="button" data-goto="pais">Volver al principio: El país ▸</button>
       </div>
     </section>
   </main>
