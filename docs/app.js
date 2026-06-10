@@ -280,19 +280,24 @@ function renderRegidoresCard(prov) {
         html += "<br><br><span class=\"nota-fuente\">Cuántos hay en total en esta provincia: aún estamos confirmando la cifra con datos oficiales de la JCE.</span>";
     }
     card.innerHTML = html;
-    // Verified names for one municipality, when we have them.
-    if (r && r.lista && r.lista.length) {
-        const lista = el("div", "regidores-lista");
-        lista.append(el("p", "regidores-municipio", "<b>Regidores de " + (r.municipio || prov.nombre) + ":</b>"));
-        r.lista.forEach((rg) => {
-            const fila = el("p", "regidor-fila");
-            fila.innerHTML = rg.nombre + " <span class='partido-chip'>" + rg.partido + "</span>";
-            lista.append(fila);
+    // Verified names per municipality, when we have them. A municipality's list
+    // folds behind a tap so a 30-name council doesn't flood the card.
+    if (r && r.municipios && r.municipios.length) {
+        r.municipios.forEach((m) => {
+            if (!m.lista || !m.lista.length)
+                return;
+            const det = el("details", "regidores-lista");
+            det.append(el("summary", "regidores-municipio", "🪑 Regidores de " + m.municipio + " (" + m.lista.length + ")"));
+            m.lista.forEach((rg) => {
+                const fila = el("p", "regidor-fila");
+                fila.innerHTML = rg.nombre + " <span class='partido-chip'>" + rg.partido + "</span>";
+                det.append(fila);
+            });
+            if (m.fuente_lista) {
+                det.append(el("p", "nota-fuente", "Fuente: " + m.fuente_lista + "."));
+            }
+            card.append(det);
         });
-        if (r.fuente_lista) {
-            lista.append(el("p", "nota-fuente", "Fuente: " + r.fuente_lista + "."));
-        }
-        card.append(lista);
     }
     return card;
 }

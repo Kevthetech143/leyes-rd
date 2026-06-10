@@ -2,6 +2,7 @@
 
 Una línea por ciclo de mejora.
 
+- 2026-06-10 — Provincias: se agregaron los nombres reales y el partido de 98 regidores electos 2024-2028, verificados en los portales oficiales de cada ayuntamiento: Distrito Nacional (36), Santo Domingo Este (32), Santo Domingo Norte (17) y Santo Domingo Oeste (13). Cada lista se abre al tocarla dentro de la ficha de la provincia. Por sugerencia de un usuario real (Agustín, WhatsApp).
 - 2026-06-10 — Provincias: cada ficha ahora explica qué son los regidores (los concejales del pueblo: aprueban el presupuesto del municipio y vigilan al alcalde) con una tarjeta "🪑 ¿Y los regidores?", glosario tocable y una línea en "El país". Por sugerencia de un usuario real (Agustín, WhatsApp).
 - 2026-06-07 — Cron de mejora continua activado (cada 10 min).
 - 2026-06-07 — Descripción del sitio actualizada al nuevo nombre y alcance (leyes, provincias y sesiones).

@@ -71,14 +71,16 @@ interface Provincia {
   // Optional explainer block about the province's town-council members.
   // total: verified count of regidores across the province's municipalities,
   //        ONLY when confirmed from official data — otherwise omitted (no number).
-  // municipio / lista: verified names+parties for one municipality (the capital),
-  //        when we could read them from an official source.
+  // municipios: verified names+parties for one or more municipalities, mirroring
+  //        how alcaldes are stored (a province can have several municipalities).
   regidores?: {
     total?: number;
     fuente_total?: string;
-    municipio?: string;
-    lista?: Regidor[];
-    fuente_lista?: string;
+    municipios?: {
+      municipio: string;
+      lista: Regidor[];
+      fuente_lista?: string;
+    }[];
   };
 }
 
@@ -439,20 +441,24 @@ function renderRegidoresCard(prov: Provincia): HTMLElement {
   }
   card.innerHTML = html;
 
-  // Verified names for one municipality, when we have them.
-  if (r && r.lista && r.lista.length) {
-    const lista = el("div", "regidores-lista");
-    lista.append(el("p", "regidores-municipio",
-      "<b>Regidores de " + (r.municipio || prov.nombre) + ":</b>"));
-    r.lista.forEach((rg) => {
-      const fila = el("p", "regidor-fila");
-      fila.innerHTML = rg.nombre + " <span class='partido-chip'>" + rg.partido + "</span>";
-      lista.append(fila);
+  // Verified names per municipality, when we have them. A municipality's list
+  // folds behind a tap so a 30-name council doesn't flood the card.
+  if (r && r.municipios && r.municipios.length) {
+    r.municipios.forEach((m) => {
+      if (!m.lista || !m.lista.length) return;
+      const det = el("details", "regidores-lista") as HTMLDetailsElement;
+      det.append(el("summary", "regidores-municipio",
+        "🪑 Regidores de " + m.municipio + " (" + m.lista.length + ")"));
+      m.lista.forEach((rg) => {
+        const fila = el("p", "regidor-fila");
+        fila.innerHTML = rg.nombre + " <span class='partido-chip'>" + rg.partido + "</span>";
+        det.append(fila);
+      });
+      if (m.fuente_lista) {
+        det.append(el("p", "nota-fuente", "Fuente: " + m.fuente_lista + "."));
+      }
+      card.append(det);
     });
-    if (r.fuente_lista) {
-      lista.append(el("p", "nota-fuente", "Fuente: " + r.fuente_lista + "."));
-    }
-    card.append(lista);
   }
   return card;
 }
