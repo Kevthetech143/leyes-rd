@@ -221,6 +221,18 @@ function renderLider(l) {
         block.append(el("p", "lider-dato", "💰 Sueldo: <b>" + sueldo.monto + " al mes</b>, según la " + sueldo.fuente +
             " de " + sueldo.mes + ". Lo pagan los impuestos de todos."));
     }
+    // Honest note for roles that don't legislate: explain why there are no
+    // attendance/bill stats instead of leaving the card looking unfinished.
+    const cargoLower = l.cargo.toLowerCase();
+    if (cargoLower.startsWith("gobernador")) {
+        block.append(el("p", "nota-fuente", "El gobernador no hace leyes ni vota en el Congreso, por eso no tiene asistencia ni iniciativas. Su sueldo no sale en una nómina central pública; estamos buscando la oficial."));
+    }
+    else if (cargoLower.startsWith("alcalde")) {
+        block.append(el("p", "nota-fuente", "El alcalde trabaja en el ayuntamiento, no en el Congreso, por eso no tiene asistencia ni iniciativas de leyes. Su sueldo lo publica cada ayuntamiento; estamos reuniendo esas nóminas."));
+    }
+    else if (cargoLower.startsWith("diputad")) {
+        block.append(el("p", "nota-fuente", "Asistencia, comisiones e iniciativas de los diputados: la Cámara las publica distinto al Senado; estamos trabajando en traerlas."));
+    }
     if (esLegislador(l.cargo)) {
         block.append(el("p", "lider-cargo", "Registro de votos: " + l.registro));
     }
