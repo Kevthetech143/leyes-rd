@@ -628,6 +628,12 @@ function setupCasoAccordion() {
 // stopPropagation so a word inside a collapsible step doesn't also toggle the step.
 function setupGlosario() {
     document.querySelectorAll(".palabra").forEach((p) => {
+        // setupGlosario runs more than once (init + after senator cards render).
+        // Wire each word only once, or the click handler stacks and the toggle
+        // fires twice — cancelling itself so the definition never opens.
+        if (p.dataset.glosarioWired === "1")
+            return;
+        p.dataset.glosarioWired = "1";
         p.tabIndex = 0;
         p.setAttribute("role", "button");
         const def = p.getAttribute("data-def") || "";

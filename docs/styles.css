@@ -477,6 +477,37 @@ main { max-width: 720px; margin: 0 auto; padding: 0 14px 40px; }
 .cuanto-es ul { margin: 0; padding-left: 18px; }
 .cuanto-es li { margin: 3px 0; font-size: .9rem; }
 
+/* 🩺 ¿Cómo está el bolsillo del país? — financial health of the country */
+.salud-pais {
+  background: var(--dinero-bg); border: 1px solid #f5c69e;
+  border-radius: 16px; padding: 16px; margin: 0 0 16px;
+}
+.salud-head h3 { margin: 0 0 6px; color: #9a3b00; font-size: 1.2rem; }
+.salud-leer {
+  margin: 0 0 14px; color: #7a3a12; font-size: .92rem; font-weight: 600;
+}
+.salud-grid {
+  display: grid; grid-template-columns: repeat(2, 1fr); gap: 10px;
+}
+.salud-card {
+  display: flex; flex-direction: column;
+  background: #fff; border: 1px solid #f0c489;
+  border-left: 5px solid var(--dinero); border-radius: 12px;
+  padding: 12px 14px;
+}
+.salud-card.alerta { border-left-color: var(--rojo); background: #fff7f5; }
+.salud-emoji { font-size: 1.5rem; }
+.salud-label { font-weight: 700; font-size: .92rem; margin-top: 2px; color: var(--tinta); }
+.salud-cifra {
+  font-weight: 800; font-size: 1.25rem; color: #9a3b00; margin: 6px 0 2px;
+}
+.salud-card.alerta .salud-cifra { color: var(--rojo); }
+.salud-nota { font-size: .85rem; color: var(--gris); }
+.salud-card .nota-fuente { margin-top: 8px; font-size: .72rem; }
+@media (max-width: 520px) {
+  .salud-grid { grid-template-columns: 1fr; }
+}
+
 /* ¿Y tú qué puedes hacer? closing card */
 .tu-parte {
   background: #eaf0ff; border: 1px solid #c3d2ff; border-radius: 14px;
