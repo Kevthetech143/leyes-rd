@@ -6,3 +6,5 @@ scripts/asist_test*.json
 scripts/asist_test.txt
 scripts/test_paging.js
 scripts/__pycache__/
+scripts/_gap_ids.json
+scripts/_gap_out.json
