@@ -1,0 +1,630 @@
+{
+ "committees": {
+  "Administración Interior": [
+   "Ricardo De Los Santos",
+   "Pedro Catrain Bonilla",
+   "Lía Ynocencia Díaz Santana",
+   "Aracelis Villanueva"
+  ],
+  "Asuntos Agropecuarios Y Agroindustriales": [
+   "Manuel María Rodríguez Ortega",
+   "Aneudy Ortiz Sajiun",
+   "Eduard Alexis Espiritusanto Castillo",
+   "Cristóbal Venerado Castillo",
+   "Ginnette Altagracia Bournigal",
+   "Franklin Martín Romero Morillo",
+   "Ramón Rogelio Genao Durán",
+   "Félix Bautista Rosario",
+   "Dagoberto Rodríguez Adames"
+  ],
+  "Asuntos Energéticos": [
+   "Santiago José Zorrilla",
+   "Ramón Rogelio Genao Durán",
+   "Pedro Antonio Tineo Núñez",
+   "Jonhson Encarnación Díaz",
+   "Rafael Barón Duluc Rijo",
+   "Gustavo Lara Salazar",
+   "Secundino Velázquez Pimentel",
+   "Eduard Alexis Espiritusanto Castillo",
+   "Moisés Ayala Pérez"
+  ],
+  "Asuntos De La Familia Y Equidad De Género": [
+   "Aracelis Villanueva",
+   "Lía Ynocencia Díaz Santana",
+   "María Mercedes Ortiz Diloné",
+   "Pedro Antonio Tineo Núñez",
+   "Félix Bautista Rosario",
+   "Jonhson Encarnación Díaz",
+   "Andrés Guillermo Lama Pérez"
+  ],
+  "Asuntos Fronterizos": [
+   "Bernardo Alemán Rodríguez",
+   "Secundino Velázquez Pimentel",
+   "Manuel María Rodríguez Ortega",
+   "Andrés Guillermo Lama Pérez",
+   "Dagoberto Rodríguez Adames",
+   "Moisés Ayala Pérez",
+   "Omar Leonel Fernández Domínguez",
+   "Jonhson Encarnación Díaz",
+   "Casimiro Antonio Marte Familia"
+  ],
+  "Contratos": [
+   "Jonhson Encarnación Díaz",
+   "Odalís Rafael Rodríguez Rodríguez",
+   "Casimiro Antonio Marte Familia",
+   "Pedro Antonio Tineo Núñez",
+   "Rafael Barón Duluc Rijo",
+   "Eduard Alexis Espiritusanto Castillo",
+   "Manuel María Rodríguez Ortega",
+   "Moisés Ayala Pérez",
+   "Secundino Velázquez Pimentel"
+  ],
+  "Cultura": [
+   "Carlos Manuel Gómez Ureña",
+   "Franklin Martín Romero Morillo",
+   "Héctor E. Acosta",
+   "Odalís Rafael Rodríguez Rodríguez",
+   "Cristóbal Venerado Castillo",
+   "Secundino Velázquez Pimentel",
+   "Gustavo Lara Salazar"
+  ],
+  "Defensa Y Seguridad Nacional": [
+   "Dagoberto Rodríguez Adames",
+   "Casimiro Antonio Marte Familia",
+   "Odalís Rafael Rodríguez Rodríguez",
+   "Ginnette Altagracia Bournigal",
+   "Rafael Barón Duluc Rijo",
+   "Gustavo Lara Salazar",
+   "Omar Leonel Fernández Domínguez",
+   "Moisés Ayala Pérez",
+   "Manuel María Rodríguez Ortega"
+  ],
+  "Deportes": [
+   "Gustavo Lara Salazar",
+   "Manuel María Rodríguez Ortega",
+   "Aracelis Villanueva",
+   "Héctor E. Acosta",
+   "Aneudy Ortiz Sajiun",
+   "Rafael Barón Duluc Rijo",
+   "María Mercedes Ortiz Diloné",
+   "Bernardo Alemán Rodríguez",
+   "Odalís Rafael Rodríguez Rodríguez"
+  ],
+  "Desarrollo Municipal Y Ongs": [
+   "Aneudy Ortiz Sajiun",
+   "María Mercedes Ortiz Diloné",
+   "Cristóbal Venerado Castillo",
+   "Casimiro Antonio Marte Familia",
+   "Andrés Guillermo Lama Pérez",
+   "Pedro Antonio Tineo Núñez",
+   "Daniel Enrique De Jesús Rivera Reyes",
+   "Antonio M. Taveras Guzmán",
+   "Secundino Velázquez Pimentel"
+  ],
+  "Dominicanos Residentes En El Exterior": [
+   "Omar Leonel Fernández Domínguez",
+   "Pedro Antonio Tineo Núñez",
+   "Jonhson Encarnación Díaz",
+   "Carlos Manuel Gómez Ureña",
+   "Eduard Alexis Espiritusanto Castillo",
+   "Aneudy Ortiz Sajiun",
+   "Héctor E. Acosta",
+   "Secundino Velázquez Pimentel",
+   "Aracelis Villanueva"
+  ],
+  "Educación": [
+   "Julito Fulcar Encarnación",
+   "Moisés Ayala Pérez",
+   "Félix Bautista Rosario",
+   "Santiago José Zorrilla",
+   "Cristóbal Venerado Castillo",
+   "Dagoberto Rodríguez Adames",
+   "María Mercedes Ortiz Diloné",
+   "Ramón Rogelio Genao Durán",
+   "Pedro Catrain Bonilla"
+  ],
+  "Educacion Superior, Ciencia Y Tecnología": [
+   "Rafael Barón Duluc Rijo",
+   "Julito Fulcar Encarnación",
+   "Daniel Enrique De Jesús Rivera Reyes",
+   "Cristóbal Venerado Castillo",
+   "Héctor E. Acosta",
+   "Odalís Rafael Rodríguez Rodríguez",
+   "Gustavo Lara Salazar"
+  ],
+  "Economía, Planificación Y Desarrollo": [
+   "Moisés Ayala Pérez",
+   "Félix Bautista Rosario",
+   "Bernardo Alemán Rodríguez",
+   "Pedro Catrain Bonilla",
+   "Alexis Victoria Yeb",
+   "Héctor E. Acosta",
+   "Ramón Rogelio Genao Durán"
+  ],
+  "Ética": [
+   "Odalís Rafael Rodríguez Rodríguez",
+   "Antonio M. Taveras Guzmán",
+   "Ginnette Altagracia Bournigal",
+   "Carlos Manuel Gómez Ureña",
+   "Dagoberto Rodríguez Adames",
+   "Casimiro Antonio Marte Familia",
+   "Daniel Enrique De Jesús Rivera Reyes"
+  ],
+  "Hacienda": [
+   "Pedro Catrain Bonilla",
+   "Andrés Guillermo Lama Pérez",
+   "Alexis Victoria Yeb",
+   "Ginnette Altagracia Bournigal",
+   "Ramón Rogelio Genao Durán",
+   "Félix Bautista Rosario",
+   "Lía Ynocencia Díaz Santana",
+   "Aracelis Villanueva",
+   "Eduard Alexis Espiritusanto Castillo"
+  ],
+  "Industria, Comercio Y Zonas Francas": [
+   "Alexis Victoria Yeb",
+   "Omar Leonel Fernández Domínguez",
+   "Ramón Rogelio Genao Durán",
+   "Cristóbal Venerado Castillo",
+   "Antonio M. Taveras Guzmán",
+   "Ginnette Altagracia Bournigal",
+   "Aneudy Ortiz Sajiun",
+   "Lía Ynocencia Díaz Santana",
+   "Gustavo Lara Salazar"
+  ],
+  "Interior Y Policía Y Seguridad Ciudadana": [
+   "Franklin Martín Romero Morillo",
+   "Cristóbal Venerado Castillo",
+   "Moisés Ayala Pérez",
+   "Eduard Alexis Espiritusanto Castillo",
+   "Rafael Barón Duluc Rijo",
+   "Aneudy Ortiz Sajiun",
+   "Bernardo Alemán Rodríguez",
+   "Pedro Antonio Tineo Núñez",
+   "Aracelis Villanueva"
+  ],
+  "Justicia Y Derechos Humanos": [
+   "Antonio M. Taveras Guzmán",
+   "Rafael Barón Duluc Rijo",
+   "Omar Leonel Fernández Domínguez",
+   "Santiago José Zorrilla",
+   "Franklin Martín Romero Morillo",
+   "Alexis Victoria Yeb",
+   "Pedro Catrain Bonilla",
+   "Félix Bautista Rosario",
+   "Aracelis Villanueva"
+  ],
+  "Juventud": [
+   "Eduard Alexis Espiritusanto Castillo",
+   "Gustavo Lara Salazar",
+   "Aneudy Ortiz Sajiun",
+   "Manuel María Rodríguez Ortega",
+   "Franklin Martín Romero Morillo",
+   "Andrés Guillermo Lama Pérez",
+   "Carlos Manuel Gómez Ureña"
+  ],
+  "Modernización Y Reforma": [
+   "Cristóbal Venerado Castillo",
+   "Héctor E. Acosta",
+   "Secundino Velázquez Pimentel",
+   "Franklin Martín Romero Morillo",
+   "Santiago José Zorrilla",
+   "Julito Fulcar Encarnación",
+   "Daniel Enrique De Jesús Rivera Reyes"
+  ],
+  "Obras Públicas": [
+   "Félix Bautista Rosario",
+   "Alexis Victoria Yeb",
+   "Casimiro Antonio Marte Familia",
+   "Manuel María Rodríguez Ortega",
+   "Jonhson Encarnación Díaz",
+   "Franklin Martín Romero Morillo",
+   "Bernardo Alemán Rodríguez",
+   "María Mercedes Ortiz Diloné",
+   "Ramón Rogelio Genao Durán"
+  ],
+  "Presupuesto": [
+   "Pedro Antonio Tineo Núñez",
+   "Aracelis Villanueva",
+   "Andrés Guillermo Lama Pérez",
+   "Alexis Victoria Yeb",
+   "Santiago José Zorrilla",
+   "Bernardo Alemán Rodríguez",
+   "Lía Ynocencia Díaz Santana",
+   "María Mercedes Ortiz Diloné",
+   "Julito Fulcar Encarnación"
+  ],
+  "Recursos Naturales Y Medio Ambiente": [
+   "Casimiro Antonio Marte Familia",
+   "Carlos Manuel Gómez Ureña",
+   "Santiago José Zorrilla",
+   "María Mercedes Ortiz Diloné",
+   "Rafael Barón Duluc Rijo",
+   "Pedro Catrain Bonilla",
+   "Antonio M. Taveras Guzmán",
+   "Dagoberto Rodríguez Adames",
+   "Manuel María Rodríguez Ortega"
+  ],
+  "Relaciones Exteriores Y Cooperación Internacional": [
+   "María Mercedes Ortiz Diloné",
+   "Santiago José Zorrilla",
+   "Carlos Manuel Gómez Ureña",
+   "Pedro Catrain Bonilla",
+   "Aracelis Villanueva",
+   "Lía Ynocencia Díaz Santana",
+   "Gustavo Lara Salazar",
+   "Omar Leonel Fernández Domínguez",
+   "Julito Fulcar Encarnación"
+  ],
+  "Salud Pública": [
+   "Lía Ynocencia Díaz Santana",
+   "Daniel Enrique De Jesús Rivera Reyes",
+   "Jonhson Encarnación Díaz",
+   "Dagoberto Rodríguez Adames",
+   "Moisés Ayala Pérez",
+   "Eduard Alexis Espiritusanto Castillo",
+   "Andrés Guillermo Lama Pérez",
+   "Alexis Victoria Yeb",
+   "Odalís Rafael Rodríguez Rodríguez"
+  ],
+  "Seguridad Social, Trabajo Y Pensiones": [
+   "Daniel Enrique De Jesús Rivera Reyes",
+   "Dagoberto Rodríguez Adames",
+   "Lía Ynocencia Díaz Santana",
+   "Jonhson Encarnación Díaz",
+   "Ginnette Altagracia Bournigal",
+   "Franklin Martín Romero Morillo",
+   "Félix Bautista Rosario",
+   "Omar Leonel Fernández Domínguez",
+   "Gustavo Lara Salazar"
+  ],
+  "Seguimiento, Control Y Evaluación De La Agenda Parlamentaria": [
+   "Ramón Rogelio Genao Durán",
+   "Franklin Martín Romero Morillo",
+   "Cristóbal Venerado Castillo",
+   "Pedro Antonio Tineo Núñez",
+   "Héctor E. Acosta",
+   "Félix Bautista Rosario",
+   "Carlos Manuel Gómez Ureña",
+   "Julito Fulcar Encarnación"
+  ],
+  "Transporte Y Telecomunicaciones": [
+   "Andrés Guillermo Lama Pérez",
+   "Pedro Antonio Tineo Núñez",
+   "Dagoberto Rodríguez Adames",
+   "Secundino Velázquez Pimentel",
+   "Héctor E. Acosta",
+   "Casimiro Antonio Marte Familia",
+   "Ramón Rogelio Genao Durán",
+   "Aneudy Ortiz Sajiun",
+   "Bernardo Alemán Rodríguez"
+  ],
+  "Turismo": [
+   "Ginnette Altagracia Bournigal",
+   "Eduard Alexis Espiritusanto Castillo",
+   "Rafael Barón Duluc Rijo",
+   "Alexis Victoria Yeb",
+   "Pedro Catrain Bonilla",
+   "Santiago José Zorrilla",
+   "Ramón Rogelio Genao Durán",
+   "Omar Leonel Fernández Domínguez",
+   "Secundino Velázquez Pimentel"
+  ]
+ },
+ "per_senator": {
+  "Omar Leonel Fernández Domínguez": [
+   "Asuntos Fronterizos",
+   "Defensa Y Seguridad Nacional",
+   "Dominicanos Residentes En El Exterior",
+   "Industria, Comercio Y Zonas Francas",
+   "Justicia Y Derechos Humanos",
+   "Relaciones Exteriores Y Cooperación Internacional",
+   "Seguridad Social, Trabajo Y Pensiones",
+   "Turismo"
+  ],
+  "Lía Ynocencia Díaz Santana": [
+   "Administración Interior",
+   "Asuntos De La Familia Y Equidad De Género",
+   "Hacienda",
+   "Industria, Comercio Y Zonas Francas",
+   "Presupuesto",
+   "Relaciones Exteriores Y Cooperación Internacional",
+   "Salud Pública",
+   "Seguridad Social, Trabajo Y Pensiones"
+  ],
+  "Andrés Guillermo Lama Pérez": [
+   "Asuntos De La Familia Y Equidad De Género",
+   "Asuntos Fronterizos",
+   "Desarrollo Municipal Y Ongs",
+   "Hacienda",
+   "Juventud",
+   "Presupuesto",
+   "Salud Pública",
+   "Transporte Y Telecomunicaciones"
+  ],
+  "Moisés Ayala Pérez": [
+   "Asuntos Energéticos",
+   "Asuntos Fronterizos",
+   "Contratos",
+   "Defensa Y Seguridad Nacional",
+   "Educación",
+   "Economía, Planificación Y Desarrollo",
+   "Interior Y Policía Y Seguridad Ciudadana",
+   "Salud Pública"
+  ],
+  "Manuel María Rodríguez Ortega": [
+   "Asuntos Agropecuarios Y Agroindustriales",
+   "Asuntos Fronterizos",
+   "Contratos",
+   "Defensa Y Seguridad Nacional",
+   "Deportes",
+   "Juventud",
+   "Obras Públicas",
+   "Recursos Naturales Y Medio Ambiente"
+  ],
+  "Franklin Martín Romero Morillo": [
+   "Asuntos Agropecuarios Y Agroindustriales",
+   "Cultura",
+   "Interior Y Policía Y Seguridad Ciudadana",
+   "Justicia Y Derechos Humanos",
+   "Juventud",
+   "Modernización Y Reforma",
+   "Obras Públicas",
+   "Seguridad Social, Trabajo Y Pensiones",
+   "Seguimiento, Control Y Evaluación De La Agenda Parlamentaria"
+  ],
+  "Santiago José Zorrilla": [
+   "Asuntos Energéticos",
+   "Educación",
+   "Justicia Y Derechos Humanos",
+   "Modernización Y Reforma",
+   "Presupuesto",
+   "Recursos Naturales Y Medio Ambiente",
+   "Relaciones Exteriores Y Cooperación Internacional",
+   "Turismo"
+  ],
+  "Jonhson Encarnación Díaz": [
+   "Asuntos Energéticos",
+   "Asuntos De La Familia Y Equidad De Género",
+   "Asuntos Fronterizos",
+   "Contratos",
+   "Dominicanos Residentes En El Exterior",
+   "Obras Públicas",
+   "Salud Pública",
+   "Seguridad Social, Trabajo Y Pensiones"
+  ],
+  "Carlos Manuel Gómez Ureña": [
+   "Cultura",
+   "Dominicanos Residentes En El Exterior",
+   "Ética",
+   "Juventud",
+   "Recursos Naturales Y Medio Ambiente",
+   "Relaciones Exteriores Y Cooperación Internacional",
+   "Seguimiento, Control Y Evaluación De La Agenda Parlamentaria"
+  ],
+  "Cristóbal Venerado Castillo": [
+   "Asuntos Agropecuarios Y Agroindustriales",
+   "Cultura",
+   "Desarrollo Municipal Y Ongs",
+   "Educación",
+   "Educacion Superior, Ciencia Y Tecnología",
+   "Industria, Comercio Y Zonas Francas",
+   "Interior Y Policía Y Seguridad Ciudadana",
+   "Modernización Y Reforma",
+   "Seguimiento, Control Y Evaluación De La Agenda Parlamentaria"
+  ],
+  "María Mercedes Ortiz Diloné": [
+   "Asuntos De La Familia Y Equidad De Género",
+   "Deportes",
+   "Desarrollo Municipal Y Ongs",
+   "Educación",
+   "Obras Públicas",
+   "Presupuesto",
+   "Recursos Naturales Y Medio Ambiente",
+   "Relaciones Exteriores Y Cooperación Internacional"
+  ],
+  "Dagoberto Rodríguez Adames": [
+   "Asuntos Agropecuarios Y Agroindustriales",
+   "Asuntos Fronterizos",
+   "Defensa Y Seguridad Nacional",
+   "Educación",
+   "Ética",
+   "Recursos Naturales Y Medio Ambiente",
+   "Salud Pública",
+   "Seguridad Social, Trabajo Y Pensiones",
+   "Transporte Y Telecomunicaciones"
+  ],
+  "Rafael Barón Duluc Rijo": [
+   "Asuntos Energéticos",
+   "Contratos",
+   "Defensa Y Seguridad Nacional",
+   "Deportes",
+   "Educacion Superior, Ciencia Y Tecnología",
+   "Interior Y Policía Y Seguridad Ciudadana",
+   "Justicia Y Derechos Humanos",
+   "Recursos Naturales Y Medio Ambiente",
+   "Turismo"
+  ],
+  "Eduard Alexis Espiritusanto Castillo": [
+   "Asuntos Agropecuarios Y Agroindustriales",
+   "Asuntos Energéticos",
+   "Contratos",
+   "Dominicanos Residentes En El Exterior",
+   "Hacienda",
+   "Interior Y Policía Y Seguridad Ciudadana",
+   "Juventud",
+   "Salud Pública",
+   "Turismo"
+  ],
+  "Ramón Rogelio Genao Durán": [
+   "Asuntos Agropecuarios Y Agroindustriales",
+   "Asuntos Energéticos",
+   "Educación",
+   "Economía, Planificación Y Desarrollo",
+   "Hacienda",
+   "Industria, Comercio Y Zonas Francas",
+   "Obras Públicas",
+   "Seguimiento, Control Y Evaluación De La Agenda Parlamentaria",
+   "Transporte Y Telecomunicaciones",
+   "Turismo"
+  ],
+  "Alexis Victoria Yeb": [
+   "Economía, Planificación Y Desarrollo",
+   "Hacienda",
+   "Industria, Comercio Y Zonas Francas",
+   "Justicia Y Derechos Humanos",
+   "Obras Públicas",
+   "Presupuesto",
+   "Salud Pública",
+   "Turismo"
+  ],
+  "Héctor E. Acosta": [
+   "Cultura",
+   "Deportes",
+   "Dominicanos Residentes En El Exterior",
+   "Educacion Superior, Ciencia Y Tecnología",
+   "Economía, Planificación Y Desarrollo",
+   "Modernización Y Reforma",
+   "Seguimiento, Control Y Evaluación De La Agenda Parlamentaria",
+   "Transporte Y Telecomunicaciones"
+  ],
+  "Bernardo Alemán Rodríguez": [
+   "Asuntos Fronterizos",
+   "Deportes",
+   "Economía, Planificación Y Desarrollo",
+   "Interior Y Policía Y Seguridad Ciudadana",
+   "Obras Públicas",
+   "Presupuesto",
+   "Transporte Y Telecomunicaciones"
+  ],
+  "Pedro Antonio Tineo Núñez": [
+   "Asuntos Energéticos",
+   "Asuntos De La Familia Y Equidad De Género",
+   "Contratos",
+   "Desarrollo Municipal Y Ongs",
+   "Dominicanos Residentes En El Exterior",
+   "Interior Y Policía Y Seguridad Ciudadana",
+   "Presupuesto",
+   "Seguimiento, Control Y Evaluación De La Agenda Parlamentaria",
+   "Transporte Y Telecomunicaciones"
+  ],
+  "Secundino Velázquez Pimentel": [
+   "Asuntos Energéticos",
+   "Asuntos Fronterizos",
+   "Contratos",
+   "Cultura",
+   "Desarrollo Municipal Y Ongs",
+   "Dominicanos Residentes En El Exterior",
+   "Modernización Y Reforma",
+   "Transporte Y Telecomunicaciones",
+   "Turismo"
+  ],
+  "Julito Fulcar Encarnación": [
+   "Educación",
+   "Educacion Superior, Ciencia Y Tecnología",
+   "Modernización Y Reforma",
+   "Presupuesto",
+   "Relaciones Exteriores Y Cooperación Internacional",
+   "Seguimiento, Control Y Evaluación De La Agenda Parlamentaria"
+  ],
+  "Ginnette Altagracia Bournigal": [
+   "Asuntos Agropecuarios Y Agroindustriales",
+   "Defensa Y Seguridad Nacional",
+   "Ética",
+   "Hacienda",
+   "Industria, Comercio Y Zonas Francas",
+   "Seguridad Social, Trabajo Y Pensiones",
+   "Turismo"
+  ],
+  "Pedro Catrain Bonilla": [
+   "Administración Interior",
+   "Educación",
+   "Economía, Planificación Y Desarrollo",
+   "Hacienda",
+   "Justicia Y Derechos Humanos",
+   "Recursos Naturales Y Medio Ambiente",
+   "Relaciones Exteriores Y Cooperación Internacional",
+   "Turismo"
+  ],
+  "Gustavo Lara Salazar": [
+   "Asuntos Energéticos",
+   "Cultura",
+   "Defensa Y Seguridad Nacional",
+   "Deportes",
+   "Educacion Superior, Ciencia Y Tecnología",
+   "Industria, Comercio Y Zonas Francas",
+   "Juventud",
+   "Relaciones Exteriores Y Cooperación Internacional",
+   "Seguridad Social, Trabajo Y Pensiones"
+  ],
+  "Aneudy Ortiz Sajiun": [
+   "Asuntos Agropecuarios Y Agroindustriales",
+   "Deportes",
+   "Desarrollo Municipal Y Ongs",
+   "Dominicanos Residentes En El Exterior",
+   "Industria, Comercio Y Zonas Francas",
+   "Interior Y Policía Y Seguridad Ciudadana",
+   "Juventud",
+   "Transporte Y Telecomunicaciones"
+  ],
+  "Félix Bautista Rosario": [
+   "Asuntos Agropecuarios Y Agroindustriales",
+   "Asuntos De La Familia Y Equidad De Género",
+   "Educación",
+   "Economía, Planificación Y Desarrollo",
+   "Hacienda",
+   "Justicia Y Derechos Humanos",
+   "Obras Públicas",
+   "Seguridad Social, Trabajo Y Pensiones",
+   "Seguimiento, Control Y Evaluación De La Agenda Parlamentaria"
+  ],
+  "Aracelis Villanueva": [
+   "Administración Interior",
+   "Asuntos De La Familia Y Equidad De Género",
+   "Deportes",
+   "Dominicanos Residentes En El Exterior",
+   "Hacienda",
+   "Interior Y Policía Y Seguridad Ciudadana",
+   "Justicia Y Derechos Humanos",
+   "Presupuesto",
+   "Relaciones Exteriores Y Cooperación Internacional"
+  ],
+  "Ricardo De Los Santos": [
+   "Administración Interior"
+  ],
+  "Daniel Enrique De Jesús Rivera Reyes": [
+   "Desarrollo Municipal Y Ongs",
+   "Educacion Superior, Ciencia Y Tecnología",
+   "Ética",
+   "Modernización Y Reforma",
+   "Salud Pública",
+   "Seguridad Social, Trabajo Y Pensiones"
+  ],
+  "Casimiro Antonio Marte Familia": [
+   "Asuntos Fronterizos",
+   "Contratos",
+   "Defensa Y Seguridad Nacional",
+   "Desarrollo Municipal Y Ongs",
+   "Ética",
+   "Obras Públicas",
+   "Recursos Naturales Y Medio Ambiente",
+   "Transporte Y Telecomunicaciones"
+  ],
+  "Antonio M. Taveras Guzmán": [
+   "Desarrollo Municipal Y Ongs",
+   "Ética",
+   "Industria, Comercio Y Zonas Francas",
+   "Justicia Y Derechos Humanos",
+   "Recursos Naturales Y Medio Ambiente"
+  ],
+  "Odalís Rafael Rodríguez Rodríguez": [
+   "Contratos",
+   "Cultura",
+   "Defensa Y Seguridad Nacional",
+   "Deportes",
+   "Educacion Superior, Ciencia Y Tecnología",
+   "Ética",
+   "Salud Pública"
+  ]
+ }
+}

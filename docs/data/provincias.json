@@ -9,7 +9,17 @@
      "nombre": "Omar Leonel Fernández Domínguez",
      "partido": "FP",
      "resumen": "Representa a Distrito Nacional en el Senado.",
-     "registro": "No disponible todavía"
+     "registro": "No disponible todavía",
+     "comisiones": [
+      "Asuntos Fronterizos",
+      "Defensa y Seguridad Nacional",
+      "Dominicanos en el Exterior",
+      "Industria, Comercio y Zonas Francas",
+      "Justicia y Derechos Humanos",
+      "Relaciones Exteriores",
+      "Seguridad Social, Trabajo y Pensiones",
+      "Turismo"
+     ]
     },
     {
      "cargo": "Diputado/a",
@@ -154,7 +164,17 @@
      "nombre": "Lía Ynocencia Díaz Santana",
      "partido": "PRM",
      "resumen": "Representa a Azua en el Senado.",
-     "registro": "No disponible todavía"
+     "registro": "No disponible todavía",
+     "comisiones": [
+      "Administración Interior",
+      "Familia y Equidad de Género",
+      "Hacienda",
+      "Industria, Comercio y Zonas Francas",
+      "Presupuesto",
+      "Relaciones Exteriores",
+      "Salud Pública",
+      "Seguridad Social, Trabajo y Pensiones"
+     ]
     },
     {
      "cargo": "Diputado/a",
@@ -208,7 +228,17 @@
      "nombre": "Andrés Guillermo Lama Pérez",
      "partido": "PRM",
      "resumen": "Representa a Bahoruco en el Senado.",
-     "registro": "No disponible todavía"
+     "registro": "No disponible todavía",
+     "comisiones": [
+      "Asuntos Fronterizos",
+      "Desarrollo Municipal y ONG",
+      "Familia y Equidad de Género",
+      "Hacienda",
+      "Juventud",
+      "Presupuesto",
+      "Salud Pública",
+      "Transporte y Telecomunicaciones"
+     ]
     },
     {
      "cargo": "Diputado/a",
@@ -248,7 +278,17 @@
      "nombre": "Moisés Ayala Pérez",
      "partido": "PRM",
      "resumen": "Representa a Barahona en el Senado.",
-     "registro": "No disponible todavía"
+     "registro": "No disponible todavía",
+     "comisiones": [
+      "Asuntos Energéticos",
+      "Asuntos Fronterizos",
+      "Contratos",
+      "Defensa y Seguridad Nacional",
+      "Economía, Planificación y Desarrollo",
+      "Educación",
+      "Interior, Policía y Seguridad Ciudadana",
+      "Salud Pública"
+     ]
     },
     {
      "cargo": "Diputado/a",
@@ -295,7 +335,17 @@
      "nombre": "Manuel María Rodríguez Ortega",
      "partido": "PRM",
      "resumen": "Representa a Dajabón en el Senado.",
-     "registro": "No disponible todavía"
+     "registro": "No disponible todavía",
+     "comisiones": [
+      "Asuntos Agropecuarios",
+      "Asuntos Fronterizos",
+      "Contratos",
+      "Defensa y Seguridad Nacional",
+      "Deportes",
+      "Juventud",
+      "Obras Públicas",
+      "Recursos Naturales y Medio Ambiente"
+     ]
     },
     {
      "cargo": "Diputado/a",
@@ -335,7 +385,18 @@
      "nombre": "Franklin Martín Romero Morillo",
      "partido": "PRM",
      "resumen": "Representa a Duarte en el Senado.",
-     "registro": "No disponible todavía"
+     "registro": "No disponible todavía",
+     "comisiones": [
+      "Asuntos Agropecuarios",
+      "Cultura",
+      "Interior, Policía y Seguridad Ciudadana",
+      "Justicia y Derechos Humanos",
+      "Juventud",
+      "Modernización y Reforma",
+      "Obras Públicas",
+      "Seguimiento de la Agenda Parlamentaria",
+      "Seguridad Social, Trabajo y Pensiones"
+     ]
     },
     {
      "cargo": "Diputado/a",
@@ -396,7 +457,17 @@
      "nombre": "Santiago José Zorrilla",
      "partido": "PRM",
      "resumen": "Representa a El Seibo en el Senado.",
-     "registro": "No disponible todavía"
+     "registro": "No disponible todavía",
+     "comisiones": [
+      "Asuntos Energéticos",
+      "Educación",
+      "Justicia y Derechos Humanos",
+      "Modernización y Reforma",
+      "Presupuesto",
+      "Recursos Naturales y Medio Ambiente",
+      "Relaciones Exteriores",
+      "Turismo"
+     ]
     },
     {
      "cargo": "Diputado/a",
@@ -436,7 +507,17 @@
      "nombre": "Jonhson Encarnación Díaz",
      "partido": "PRM",
      "resumen": "Representa a Elías Piña en el Senado.",
-     "registro": "No disponible todavía"
+     "registro": "No disponible todavía",
+     "comisiones": [
+      "Asuntos Energéticos",
+      "Asuntos Fronterizos",
+      "Contratos",
+      "Dominicanos en el Exterior",
+      "Familia y Equidad de Género",
+      "Obras Públicas",
+      "Salud Pública",
+      "Seguridad Social, Trabajo y Pensiones"
+     ]
     },
     {
      "cargo": "Diputado/a",
@@ -476,7 +557,16 @@
      "nombre": "Carlos Manuel Gómez Ureña",
      "partido": "PRM",
      "resumen": "Representa a Espaillat en el Senado.",
-     "registro": "No disponible todavía"
+     "registro": "No disponible todavía",
+     "comisiones": [
+      "Cultura",
+      "Dominicanos en el Exterior",
+      "Juventud",
+      "Recursos Naturales y Medio Ambiente",
+      "Relaciones Exteriores",
+      "Seguimiento de la Agenda Parlamentaria",
+      "Ética"
+     ]
     },
     {
      "cargo": "Diputado/a",
@@ -530,7 +620,18 @@
      "nombre": "Cristóbal Venerado Castillo",
      "partido": "PRM",
      "resumen": "Representa a Hato Mayor en el Senado.",
-     "registro": "No disponible todavía"
+     "registro": "No disponible todavía",
+     "comisiones": [
+      "Asuntos Agropecuarios",
+      "Cultura",
+      "Desarrollo Municipal y ONG",
+      "Educación",
+      "Educación Superior, Ciencia y Tecnología",
+      "Industria, Comercio y Zonas Francas",
+      "Interior, Policía y Seguridad Ciudadana",
+      "Modernización y Reforma",
+      "Seguimiento de la Agenda Parlamentaria"
+     ]
     },
     {
      "cargo": "Diputado/a",
@@ -570,7 +671,17 @@
      "nombre": "María Mercedes Ortiz Diloné",
      "partido": "PRM",
      "resumen": "Representa a Hermanas Mirabal en el Senado.",
-     "registro": "No disponible todavía"
+     "registro": "No disponible todavía",
+     "comisiones": [
+      "Deportes",
+      "Desarrollo Municipal y ONG",
+      "Educación",
+      "Familia y Equidad de Género",
+      "Obras Públicas",
+      "Presupuesto",
+      "Recursos Naturales y Medio Ambiente",
+      "Relaciones Exteriores"
+     ]
     },
     {
      "cargo": "Diputado/a",
@@ -610,7 +721,18 @@
      "nombre": "Dagoberto Rodríguez Adames",
      "partido": "PRM",
      "resumen": "Representa a Independencia en el Senado.",
-     "registro": "No disponible todavía"
+     "registro": "No disponible todavía",
+     "comisiones": [
+      "Asuntos Agropecuarios",
+      "Asuntos Fronterizos",
+      "Defensa y Seguridad Nacional",
+      "Educación",
+      "Recursos Naturales y Medio Ambiente",
+      "Salud Pública",
+      "Seguridad Social, Trabajo y Pensiones",
+      "Transporte y Telecomunicaciones",
+      "Ética"
+     ]
     },
     {
      "cargo": "Diputado/a",
@@ -650,7 +772,18 @@
      "nombre": "Rafael Barón Duluc Rijo",
      "partido": "PRM",
      "resumen": "Representa a La Altagracia en el Senado.",
-     "registro": "No disponible todavía"
+     "registro": "No disponible todavía",
+     "comisiones": [
+      "Asuntos Energéticos",
+      "Contratos",
+      "Defensa y Seguridad Nacional",
+      "Deportes",
+      "Educación Superior, Ciencia y Tecnología",
+      "Interior, Policía y Seguridad Ciudadana",
+      "Justicia y Derechos Humanos",
+      "Recursos Naturales y Medio Ambiente",
+      "Turismo"
+     ]
     },
     {
      "cargo": "Diputado/a",
@@ -711,7 +844,18 @@
      "nombre": "Eduard Alexis Espiritusanto Castillo",
      "partido": "FP",
      "resumen": "Representa a La Romana en el Senado.",
-     "registro": "No disponible todavía"
+     "registro": "No disponible todavía",
+     "comisiones": [
+      "Asuntos Agropecuarios",
+      "Asuntos Energéticos",
+      "Contratos",
+      "Dominicanos en el Exterior",
+      "Hacienda",
+      "Interior, Policía y Seguridad Ciudadana",
+      "Juventud",
+      "Salud Pública",
+      "Turismo"
+     ]
     },
     {
      "cargo": "Diputado/a",
@@ -765,7 +909,19 @@
      "nombre": "Ramón Rogelio Genao Durán",
      "partido": "PRSC",
      "resumen": "Representa a La Vega en el Senado.",
-     "registro": "No disponible todavía"
+     "registro": "No disponible todavía",
+     "comisiones": [
+      "Asuntos Agropecuarios",
+      "Asuntos Energéticos",
+      "Economía, Planificación y Desarrollo",
+      "Educación",
+      "Hacienda",
+      "Industria, Comercio y Zonas Francas",
+      "Obras Públicas",
+      "Seguimiento de la Agenda Parlamentaria",
+      "Transporte y Telecomunicaciones",
+      "Turismo"
+     ]
     },
     {
      "cargo": "Diputado/a",
@@ -840,7 +996,17 @@
      "nombre": "Alexis Victoria Yeb",
      "partido": "PRM",
      "resumen": "Representa a María Trinidad Sánchez en el Senado.",
-     "registro": "No disponible todavía"
+     "registro": "No disponible todavía",
+     "comisiones": [
+      "Economía, Planificación y Desarrollo",
+      "Hacienda",
+      "Industria, Comercio y Zonas Francas",
+      "Justicia y Derechos Humanos",
+      "Obras Públicas",
+      "Presupuesto",
+      "Salud Pública",
+      "Turismo"
+     ]
     },
     {
      "cargo": "Diputado/a",
@@ -887,7 +1053,17 @@
      "nombre": "Héctor E. Acosta",
      "partido": "PRM",
      "resumen": "Representa a Monseñor Nouel en el Senado.",
-     "registro": "No disponible todavía"
+     "registro": "No disponible todavía",
+     "comisiones": [
+      "Cultura",
+      "Deportes",
+      "Dominicanos en el Exterior",
+      "Economía, Planificación y Desarrollo",
+      "Educación Superior, Ciencia y Tecnología",
+      "Modernización y Reforma",
+      "Seguimiento de la Agenda Parlamentaria",
+      "Transporte y Telecomunicaciones"
+     ]
     },
     {
      "cargo": "Diputado/a",
@@ -934,7 +1110,16 @@
      "nombre": "Bernardo Alemán Rodríguez",
      "partido": "PRM",
      "resumen": "Representa a Monte Cristi en el Senado.",
-     "registro": "No disponible todavía"
+     "registro": "No disponible todavía",
+     "comisiones": [
+      "Asuntos Fronterizos",
+      "Deportes",
+      "Economía, Planificación y Desarrollo",
+      "Interior, Policía y Seguridad Ciudadana",
+      "Obras Públicas",
+      "Presupuesto",
+      "Transporte y Telecomunicaciones"
+     ]
     },
     {
      "cargo": "Diputado/a",
@@ -974,7 +1159,18 @@
      "nombre": "Pedro Antonio Tineo Núñez",
      "partido": "PRM",
      "resumen": "Representa a Monte Plata en el Senado.",
-     "registro": "No disponible todavía"
+     "registro": "No disponible todavía",
+     "comisiones": [
+      "Asuntos Energéticos",
+      "Contratos",
+      "Desarrollo Municipal y ONG",
+      "Dominicanos en el Exterior",
+      "Familia y Equidad de Género",
+      "Interior, Policía y Seguridad Ciudadana",
+      "Presupuesto",
+      "Seguimiento de la Agenda Parlamentaria",
+      "Transporte y Telecomunicaciones"
+     ]
     },
     {
      "cargo": "Diputado/a",
@@ -1021,7 +1217,18 @@
      "nombre": "Secundino Velázquez Pimentel",
      "partido": "PRM",
      "resumen": "Representa a Pedernales en el Senado.",
-     "registro": "No disponible todavía"
+     "registro": "No disponible todavía",
+     "comisiones": [
+      "Asuntos Energéticos",
+      "Asuntos Fronterizos",
+      "Contratos",
+      "Cultura",
+      "Desarrollo Municipal y ONG",
+      "Dominicanos en el Exterior",
+      "Modernización y Reforma",
+      "Transporte y Telecomunicaciones",
+      "Turismo"
+     ]
     },
     {
      "cargo": "Diputado/a",
@@ -1061,7 +1268,15 @@
      "nombre": "Julito Fulcar Encarnación",
      "partido": "PRM",
      "resumen": "Representa a Peravia en el Senado.",
-     "registro": "No disponible todavía"
+     "registro": "No disponible todavía",
+     "comisiones": [
+      "Educación",
+      "Educación Superior, Ciencia y Tecnología",
+      "Modernización y Reforma",
+      "Presupuesto",
+      "Relaciones Exteriores",
+      "Seguimiento de la Agenda Parlamentaria"
+     ]
     },
     {
      "cargo": "Diputado/a",
@@ -1108,7 +1323,16 @@
      "nombre": "Ginnette Altagracia Bournigal",
      "partido": "PRM",
      "resumen": "Representa a Puerto Plata en el Senado.",
-     "registro": "No disponible todavía"
+     "registro": "No disponible todavía",
+     "comisiones": [
+      "Asuntos Agropecuarios",
+      "Defensa y Seguridad Nacional",
+      "Hacienda",
+      "Industria, Comercio y Zonas Francas",
+      "Seguridad Social, Trabajo y Pensiones",
+      "Turismo",
+      "Ética"
+     ]
     },
     {
      "cargo": "Diputado/a",
@@ -1176,7 +1400,17 @@
      "nombre": "Pedro Catrain Bonilla",
      "partido": "PRM",
      "resumen": "Representa a Samaná en el Senado.",
-     "registro": "No disponible todavía"
+     "registro": "No disponible todavía",
+     "comisiones": [
+      "Administración Interior",
+      "Economía, Planificación y Desarrollo",
+      "Educación",
+      "Hacienda",
+      "Justicia y Derechos Humanos",
+      "Recursos Naturales y Medio Ambiente",
+      "Relaciones Exteriores",
+      "Turismo"
+     ]
     },
     {
      "cargo": "Diputado/a",
@@ -1216,7 +1450,18 @@
      "nombre": "Gustavo Lara Salazar",
      "partido": "PRM",
      "resumen": "Representa a San Cristóbal en el Senado.",
-     "registro": "No disponible todavía"
+     "registro": "No disponible todavía",
+     "comisiones": [
+      "Asuntos Energéticos",
+      "Cultura",
+      "Defensa y Seguridad Nacional",
+      "Deportes",
+      "Educación Superior, Ciencia y Tecnología",
+      "Industria, Comercio y Zonas Francas",
+      "Juventud",
+      "Relaciones Exteriores",
+      "Seguridad Social, Trabajo y Pensiones"
+     ]
     },
     {
      "cargo": "Diputado/a",
@@ -1312,7 +1557,17 @@
      "nombre": "Aneudy Ortiz Sajiun",
      "partido": "PRM",
      "resumen": "Representa a San José de Ocoa en el Senado.",
-     "registro": "No disponible todavía"
+     "registro": "No disponible todavía",
+     "comisiones": [
+      "Asuntos Agropecuarios",
+      "Deportes",
+      "Desarrollo Municipal y ONG",
+      "Dominicanos en el Exterior",
+      "Industria, Comercio y Zonas Francas",
+      "Interior, Policía y Seguridad Ciudadana",
+      "Juventud",
+      "Transporte y Telecomunicaciones"
+     ]
     },
     {
      "cargo": "Diputado/a",
@@ -1352,7 +1607,18 @@
      "nombre": "Félix Bautista Rosario",
      "partido": "FP",
      "resumen": "Representa a San Juan en el Senado.",
-     "registro": "No disponible todavía"
+     "registro": "No disponible todavía",
+     "comisiones": [
+      "Asuntos Agropecuarios",
+      "Economía, Planificación y Desarrollo",
+      "Educación",
+      "Familia y Equidad de Género",
+      "Hacienda",
+      "Justicia y Derechos Humanos",
+      "Obras Públicas",
+      "Seguimiento de la Agenda Parlamentaria",
+      "Seguridad Social, Trabajo y Pensiones"
+     ]
     },
     {
      "cargo": "Diputado/a",
@@ -1406,7 +1672,18 @@
      "nombre": "Aracelis Villanueva",
      "partido": "PRM",
      "resumen": "Representa a San Pedro de Macorís en el Senado.",
-     "registro": "No disponible todavía"
+     "registro": "No disponible todavía",
+     "comisiones": [
+      "Administración Interior",
+      "Deportes",
+      "Dominicanos en el Exterior",
+      "Familia y Equidad de Género",
+      "Hacienda",
+      "Interior, Policía y Seguridad Ciudadana",
+      "Justicia y Derechos Humanos",
+      "Presupuesto",
+      "Relaciones Exteriores"
+     ]
     },
     {
      "cargo": "Diputado/a",
@@ -1467,7 +1744,10 @@
      "nombre": "Ricardo De Los Santos",
      "partido": "PRM",
      "resumen": "Representa a Sánchez Ramírez en el Senado.",
-     "registro": "No disponible todavía"
+     "registro": "No disponible todavía",
+     "comisiones": [
+      "Administración Interior"
+     ]
     },
     {
      "cargo": "Diputado/a",
@@ -1514,7 +1794,15 @@
      "nombre": "Daniel Enrique De Jesús Rivera Reyes",
      "partido": "PRM",
      "resumen": "Representa a Santiago en el Senado.",
-     "registro": "No disponible todavía"
+     "registro": "No disponible todavía",
+     "comisiones": [
+      "Desarrollo Municipal y ONG",
+      "Educación Superior, Ciencia y Tecnología",
+      "Modernización y Reforma",
+      "Salud Pública",
+      "Seguridad Social, Trabajo y Pensiones",
+      "Ética"
+     ]
     },
     {
      "cargo": "Diputado/a",
@@ -1666,7 +1954,17 @@
      "nombre": "Casimiro Antonio Marte Familia",
      "partido": "PPG",
      "resumen": "Representa a Santiago Rodríguez en el Senado.",
-     "registro": "No disponible todavía"
+     "registro": "No disponible todavía",
+     "comisiones": [
+      "Asuntos Fronterizos",
+      "Contratos",
+      "Defensa y Seguridad Nacional",
+      "Desarrollo Municipal y ONG",
+      "Obras Públicas",
+      "Recursos Naturales y Medio Ambiente",
+      "Transporte y Telecomunicaciones",
+      "Ética"
+     ]
     },
     {
      "cargo": "Diputado/a",
@@ -1706,7 +2004,14 @@
      "nombre": "Antonio M. Taveras Guzmán",
      "partido": "PRM",
      "resumen": "Representa a Santo Domingo en el Senado.",
-     "registro": "No disponible todavía"
+     "registro": "No disponible todavía",
+     "comisiones": [
+      "Desarrollo Municipal y ONG",
+      "Industria, Comercio y Zonas Francas",
+      "Justicia y Derechos Humanos",
+      "Recursos Naturales y Medio Ambiente",
+      "Ética"
+     ]
     },
     {
      "cargo": "Diputado/a",
@@ -2054,7 +2359,16 @@
      "nombre": "Odalís Rafael Rodríguez Rodríguez",
      "partido": "PRM",
      "resumen": "Representa a Valverde en el Senado.",
-     "registro": "No disponible todavía"
+     "registro": "No disponible todavía",
+     "comisiones": [
+      "Contratos",
+      "Cultura",
+      "Defensa y Seguridad Nacional",
+      "Deportes",
+      "Educación Superior, Ciencia y Tecnología",
+      "Salud Pública",
+      "Ética"
+     ]
     },
     {
      "cargo": "Diputado/a",
@@ -2093,5 +2407,8 @@
     }
    ]
   }
- ]
+ ],
+ "_fuentes": {
+  "comisiones": "Comisiones permanentes por senador: listado oficial 'Comisiones Permanentes Agosto 2024 - Agosto 2026', Senado de la República Dominicana, https://www.senadord.gob.do/lista-de-comisiones/ (consultado 2026-06-10)."
+ }
 }

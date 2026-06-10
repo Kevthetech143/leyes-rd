@@ -144,6 +144,22 @@ function esElecto(cargo) {
     return c.startsWith("senador") || c.startsWith("diputad") || c.startsWith("alcalde")
         || c.startsWith("alcaldesa") || c.startsWith("regidor") || c.startsWith("director");
 }
+function sueldoDeCargo(cargo) {
+    const c = cargo.toLowerCase();
+    if (c.startsWith("senador"))
+        return {
+            monto: "RD$320,000",
+            mes: "abril 2026",
+            fuente: "nómina de sueldos fijos del Senado",
+        };
+    if (c.startsWith("diputad"))
+        return {
+            monto: "RD$320,000",
+            mes: "mayo 2026",
+            fuente: "nómina de la Cámara de Diputados",
+        };
+    return null;
+}
 function iniciales(nombre) {
     var _a, _b;
     const palabras = nombre.trim().split(/\s+/).filter((w) => w.length > 2);
@@ -181,6 +197,30 @@ function renderLider(l) {
         block.append(el("p", "lider-funcion", fn));
     if (l.resumen)
         block.append(el("p", null, l.resumen));
+    // --- Report-card lines. Each appears only when its data is present, so a
+    //     leader without data renders exactly as before. ---
+    // Lane 1: plenary attendance.
+    if (l.asistencia && l.asistencia.total > 0) {
+        const a = l.asistencia;
+        block.append(el("p", "lider-dato", "📅 Asistencia: estuvo en <b>" + a.presentes + " de " + a.total +
+            "</b> sesiones del Pleno (" + a.periodo + ")."));
+    }
+    // Lane 2: committees the senator works in.
+    if (l.comisiones && l.comisiones.length) {
+        block.append(el("p", "lider-dato", "🗂️ Trabaja en " + l.comisiones.length + " comisiones: " + l.comisiones.join(", ") + "."));
+    }
+    // Lane 3: bills proposed or co-proposed.
+    if (typeof l.iniciativas_propuestas === "number") {
+        const n = l.iniciativas_propuestas;
+        block.append(el("p", "lider-dato", "📜 Ha propuesto o copropuesto <b>" + n + "</b> " +
+            (n === 1 ? "iniciativa" : "iniciativas") + " en este período."));
+    }
+    // Lane 4: base monthly salary, per role, from the public payroll.
+    const sueldo = sueldoDeCargo(l.cargo);
+    if (sueldo) {
+        block.append(el("p", "lider-dato", "💰 Sueldo: <b>" + sueldo.monto + " al mes</b>, según la " + sueldo.fuente +
+            " de " + sueldo.mes + ". Lo pagan los impuestos de todos."));
+    }
     if (esLegislador(l.cargo)) {
         block.append(el("p", "lider-cargo", "Registro de votos: " + l.registro));
     }
@@ -241,7 +281,27 @@ function renderProvincias(data) {
     });
     const host = byId("provincias");
     host.innerHTML = "";
+    // "¿Cómo leer esto?" — explains the new report-card lines on a senator card,
+    // in kid-simple Spanish, with tap-to-define words. Only shows once, on top.
+    const comoLeer = el("div", "como");
+    comoLeer.innerHTML =
+        "<b>¿Cómo leer la ficha de un senador?</b> Al abrir una provincia y tocar a su senador verás cuatro datos nuevos:<br>" +
+            "📅 <b>Asistencia</b>: a cuántas reuniones del " +
+            "<span class=\"palabra\" data-def=\"La reunión grande donde todos los senadores se juntan a votar las leyes.\">Pleno</span> " +
+            "fue, de las que pudimos contar. Ir es su trabajo.<br>" +
+            "🗂️ <b>Comisiones</b>: una " +
+            "<span class=\"palabra\" data-def=\"Un grupo pequeño de senadores que estudia un tema (salud, educación, dinero) antes de que todos voten.\">comisión</span> " +
+            "es un equipo que estudia un tema a fondo. Trabajar en varias es normal.<br>" +
+            "📜 <b>Iniciativas</b>: cuántas " +
+            "<span class=\"palabra\" data-def=\"Una idea de ley o resolución que el senador presenta, solo o junto a otros, para que el Senado la estudie.\">propuestas de ley</span> " +
+            "ha presentado, solo o con otros.<br>" +
+            "💰 <b>Sueldo</b>: lo que gana al mes. Sale de la " +
+            "<span class=\"palabra\" data-def=\"La lista pública de lo que cobra cada empleado del Estado. La ley obliga a publicarla cada mes.\">nómina</span> " +
+            "pública. Lo pagan los impuestos de todos nosotros.";
+    host.append(comoLeer);
     host.append(grid);
+    // New glossary words were just added — wire up tap-to-define on them.
+    setupGlosario();
 }
 /* ---------- Sesiones ---------- */
 const MESES = [

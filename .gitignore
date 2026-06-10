@@ -1,2 +1,8 @@
 node_modules/
 *.log
+.playwright-cli/
+scripts/.asist_cache/
+scripts/asist_test*.json
+scripts/asist_test.txt
+scripts/test_paging.js
+scripts/__pycache__/
