@@ -425,6 +425,27 @@ function renderLider(l: Lider): HTMLElement {
 // the data; otherwise it stays a pure explainer with no invented number.
 // When verified names exist (regidores.lista), they render as a name+party list.
 function renderRegidoresCard(prov: Provincia): HTMLElement {
+  // Same drop-down card flow as the other roles (Kelvin): title + count
+  // collapsed; tap to see the explainer and the named lists.
+  const r0 = prov.regidores;
+  const nombres = r0 && r0.municipios
+    ? r0.municipios.reduce((n, m) => n + (m.lista ? m.lista.length : 0), 0) : 0;
+  const wrap = el("details", "grupo-cargo");
+  const cab = el("summary", "grupo-cab");
+  cab.append(
+    el("span", "grupo-nombre", "Regidores/as"),
+    el("span", "grupo-conteo",
+      nombres > 0
+        ? nombres + " con nombre"
+        : (r0 && typeof r0.total === "number" ? String(r0.total) + " personas" : "¿qué son?")),
+    el("span", "grupo-chev", "▸")
+  );
+  wrap.append(cab);
+  wrap.append(renderRegidoresBody(prov));
+  return wrap;
+}
+
+function renderRegidoresBody(prov: Provincia): HTMLElement {
   const card = el("div", "como");
   let html =
     "<b>🪑 ¿Y los regidores?</b> En cada ayuntamiento, además del alcalde, hay un grupo de " +
