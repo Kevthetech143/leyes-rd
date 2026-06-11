@@ -909,3 +909,59 @@ main { max-width: 720px; margin: 0 auto; padding: 0 14px 40px; }
   font: inherit; font-weight: 700; font-size: .85rem; padding: 7px 14px; border-radius: 999px; text-decoration: none;
 }
 .foot-link:active { transform: scale(.97); }
+
+/* ---------- Leyes que entran en vigencia (4ª sugerencia de un usuario real) ---------- */
+.vigencia { margin: 4px 0 16px; }
+.vig-intro { margin-top: 0; }
+.vig-grupo { margin: 14px 0 4px; }
+.vig-grupo-titulo {
+  margin: 0 0 2px; font-size: 1.04rem; font-weight: 800; color: var(--leyes);
+}
+.vig-grupo-sub { margin: 0 0 10px; font-size: .86rem; color: var(--gris); }
+/* "Entran pronto" reads as the call-to-action: a warm amber rail. */
+.vig-grupo-pronto .vig-grupo-titulo { color: #8a5800; }
+
+.vig-ley {
+  background: #fff; border: 1px solid #e6e9ef; border-radius: var(--radio-md);
+  box-shadow: var(--sombra); margin: 8px 0; overflow: hidden;
+  border-left: 5px solid var(--leyes);
+}
+.vig-grupo-pronto .vig-ley { border-left-color: #e0a000; }
+.vig-grupo-vigencia .vig-ley { border-left-color: var(--verde); }
+.vig-ley-cab {
+  display: flex; flex-wrap: wrap; align-items: center; gap: 6px 10px;
+  cursor: pointer; list-style: none; padding: 12px 14px;
+}
+.vig-ley-cab::-webkit-details-marker { display: none; }
+.vig-ley-num {
+  font-size: .72rem; font-weight: 800; color: var(--leyes);
+  background: var(--leyes-bg); padding: 2px 9px; border-radius: 999px; white-space: nowrap;
+}
+.vig-ley-titulo { flex: 1 1 60%; font-weight: 700; color: var(--tinta); font-size: .95rem; }
+.vig-ley-fecha {
+  font-size: .76rem; font-weight: 700; color: var(--verde);
+  background: #e3f7ec; padding: 2px 9px; border-radius: 999px; white-space: nowrap;
+}
+.vig-grupo-pronto .vig-ley-fecha { color: #8a5800; background: #fff1d6; }
+.vig-ley-chev { color: var(--leyes); font-weight: 700; }
+.vig-ley[open] .vig-ley-chev { transform: rotate(90deg); display: inline-block; }
+.vig-ley-det { padding: 0 14px 14px; border-top: 1px solid #eef0f4; }
+.vig-ley-det h4 { margin: 12px 0 2px; color: var(--leyes); font-size: .9rem; }
+.vig-ley-det p { margin: 0; font-size: .92rem; }
+.vig-ley-cuando { color: var(--tinta); }
+.vig-ley-meta { margin-top: 10px !important; font-size: .86rem !important; color: var(--gris); }
+
+/* Default-rule note, folded to keep the page airy. */
+.vig-regla {
+  background: #fff; border: 1px solid #e6e9ef; border-radius: var(--radio-md);
+  margin: 12px 0 0; overflow: hidden;
+}
+.vig-regla-cab {
+  cursor: pointer; padding: 12px 14px; font-weight: 700; color: var(--leyes);
+  list-style: none; font-size: .95rem;
+}
+.vig-regla-cab::-webkit-details-marker { display: none; }
+.vig-regla-cab::after { content: "▸"; float: right; color: var(--gris); }
+.vig-regla[open] .vig-regla-cab::after { content: "▾"; }
+.vig-regla-body { padding: 0 14px 14px; font-size: .9rem; }
+.vig-regla-body p { margin: 6px 0 0; }

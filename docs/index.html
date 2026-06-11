@@ -24,7 +24,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="styles.css?v=20260610i" />
+  <link rel="stylesheet" href="styles.css?v=20260610j" />
 </head>
 <body>
   <header class="topbar">
@@ -200,6 +200,10 @@
         </div>
         <p id="fuenteBanner" class="leyes-intro-fuente">ℹ️ Datos reales del <b>Senado de la República Dominicana</b> (recogidos en junio de 2026). El voto de cada legislador todavía no es público.</p>
       </div>
+
+      <!-- Leyes que entran en vigencia (4ª sugerencia de un usuario real).
+           Se rellena desde data/vigencia.json en src/app.ts (renderVigencia). -->
+      <div id="vigencia" class="vigencia"></div>
 
       <details class="transp">
         <summary>🗳️ ¿Por qué no veo quién votó?</summary>
@@ -534,7 +538,7 @@
     <p class="foot-fuente">Fuentes: Senado y Cámara de Diputados de la República Dominicana.</p>
   </footer>
 
-  <script src="app.js?v=20260610i"></script>
+  <script src="app.js?v=20260610j"></script>
   <!-- Contador de visitas, privado y sin cookies (GoatCounter) -->
   <script data-goatcounter="https://politicasencillard.goatcounter.com/count"
           async src="//gc.zgo.at/count.js"></script>

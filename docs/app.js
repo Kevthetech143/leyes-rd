@@ -116,6 +116,86 @@ function renderLey(ley) {
     });
     return wrap;
 }
+/* ---------- Leyes que entran en vigencia ---------- */
+// One tappable card per promulgated law. Collapsed it shows the plain title,
+// the law number and the vigencia date; tapped it reveals "¿qué es?", the
+// full date explanation and the per-entry source. Same fold idiom (details/
+// summary) the rest of the site uses, so it reads consistent on a phone.
+function renderVigenciaLey(ley) {
+    const card = el("details", "vig-ley");
+    const cab = el("summary", "vig-ley-cab");
+    cab.append(el("span", "vig-ley-num", "Ley " + ley.numero), el("span", "vig-ley-titulo", ley.titulo), el("span", "vig-ley-fecha", (ley.estado === "pronto" ? "📅 Entra: " : "✅ Desde: ") + fechaLarga(ley.vigencia_fecha)), el("span", "vig-ley-chev", "▸"));
+    card.append(cab);
+    const det = el("div", "vig-ley-det");
+    det.append(el("h4", null, "¿Qué es?"), el("p", null, ley.que_es));
+    det.append(el("h4", null, ley.estado === "pronto" ? "¿Cuándo empieza?" : "¿Desde cuándo rige?"), el("p", "vig-ley-cuando", ley.vigencia_texto));
+    det.append(el("p", "vig-ley-meta", "El Presidente la firmó (la promulgó) el <b>" + fechaLarga(ley.promulgada) +
+        "</b> y se publicó en la Gaceta Oficial " +
+        (/^\d+$/.test(ley.gaceta) ? "núm. <b>" + ley.gaceta + "</b>" : "(" + ley.gaceta + ")") + "."));
+    det.append(el("p", "nota-fuente", "Fuente: " + ley.fuente + "."));
+    card.append(det);
+    return card;
+}
+// Renders the whole "¿Cuáles leyes están por empezar?" block: a glossary intro
+// that explains aprobada vs en vigencia, then two groups — already in force
+// (nuevas) and entering soon — each a tappable card list. Nothing is invented:
+// the block hides itself if the data is missing or empty.
+function renderVigencia(data) {
+    const host = document.getElementById("vigencia");
+    if (!host)
+        return;
+    host.innerHTML = "";
+    const leyes = data.leyes || [];
+    if (!leyes.length) {
+        host.classList.add("hidden");
+        return;
+    }
+    host.classList.remove("hidden");
+    // Intro: aprobada vs en vigencia, with tap-to-define words.
+    const intro = el("div", "como vig-intro");
+    intro.innerHTML =
+        "<b>📅 ¿Cuáles leyes están por empezar?</b><br>" +
+            "Que el Congreso apruebe una ley no quiere decir que ya te aplique. " +
+            "Primero el Presidente la firma (la " +
+            "<span class=\"palabra\" data-def=\"Promulgar es el acto en que el Presidente firma una ley ya aprobada por el Congreso para ordenar que se cumpla y se publique.\">promulga</span>) " +
+            "y se publica en la " +
+            "<span class=\"palabra\" data-def=\"La Gaceta Oficial es el periódico del Estado donde se publican las leyes para que sean válidas. Una ley no rige hasta que sale ahí.\">Gaceta Oficial</span>. " +
+            "Recién entonces empieza su " +
+            "<span class=\"palabra\" data-def=\"La vigencia es el momento desde el cual una ley ya manda y debes cumplirla. Algunas rigen de una vez; otras esperan unos meses.\">vigencia</span>: " +
+            "la fecha desde la cual ya manda.";
+    host.append(intro);
+    const vigentes = leyes.filter((l) => l.estado === "vigencia");
+    const pronto = leyes.filter((l) => l.estado === "pronto");
+    // Group "Entran pronto" goes first — it answers the user's exact question
+    // ("¿qué reglas nuevas están por empezar a aplicarme?"); already-in-force
+    // laws follow as recent context.
+    const grupo = (titulo, sub, arr, cls) => {
+        if (!arr.length)
+            return;
+        const wrap = el("div", "vig-grupo " + cls);
+        wrap.append(el("h3", "vig-grupo-titulo", titulo));
+        wrap.append(el("p", "vig-grupo-sub", sub));
+        // Newest entry-into-force first within each group.
+        const ordenadas = [...arr].sort((a, b) => b.vigencia_fecha.localeCompare(a.vigencia_fecha));
+        ordenadas.forEach((l) => wrap.append(renderVigenciaLey(l)));
+        host.append(wrap);
+    };
+    grupo("🔜 Entran pronto", "Ya firmadas, pero su fecha de empezar todavía no llega. Apunta el día.", pronto, "vig-grupo-pronto");
+    grupo("✅ Ya en vigencia (nuevas)", "Leyes recientes que ya mandan. Estas reglas ya te aplican.", vigentes, "vig-grupo-vigencia");
+    // Default-rule note, folded so the page stays airy.
+    if (data.regla_por_defecto) {
+        const r = data.regla_por_defecto;
+        const det = el("details", "vig-regla");
+        det.append(el("summary", "vig-regla-cab", "❓ " + r.titulo));
+        const body = el("div", "vig-regla-body");
+        body.append(el("p", null, r.texto));
+        body.append(el("p", "nota-fuente", "Fuente: " + r.fuente + "."));
+        det.append(body);
+        host.append(det);
+    }
+    // The block just added glossary words and they need tap-to-define wiring.
+    setupGlosario();
+}
 /* ---------- Provincias ---------- */
 // One kid-friendly explanation per ROLE, matched by the start of the cargo.
 // Keeps the language identical for every person with the same job.
@@ -999,11 +1079,13 @@ async function init() {
     setupEscape();
     setupGlosario();
     try {
-        const [leyes, provincias, sesiones] = await Promise.all([
+        const [leyes, provincias, sesiones, vigencia] = await Promise.all([
             cargar("data/leyes.json"),
             cargar("data/provincias.json"),
             cargar("data/sesiones.json"),
+            cargar("data/vigencia.json"),
         ]);
+        renderVigencia(vigencia);
         renderLeyes(leyes);
         renderProvincias(provincias);
         renderComposicion(provincias);
