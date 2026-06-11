@@ -1130,3 +1130,49 @@ main { max-width: 720px; margin: 0 auto; padding: 0 14px 40px; }
 .vig-regla[open] .vig-regla-cab::after { content: "▾"; }
 .vig-regla-body { padding: 0 14px 14px; font-size: .9rem; }
 .vig-regla-body p { margin: 6px 0 0; }
+
+/* Aviso antes de ir al buscador oficial. A small friendly dialog shown only on
+   SEARCH-type doc links (the official portal has no fixed address per document).
+   Native <dialog>: gives us the focus trap, Escape-to-close and backdrop for
+   free. Recolors with the section accent (--enlace-acc, purple in Leyes). */
+.aviso-buscador {
+  border: none; border-radius: 18px; padding: 0;
+  width: min(92vw, 360px); max-width: 360px;
+  background: #fff; color: var(--tinta, #1b2030);
+  box-shadow: 0 18px 50px rgba(20, 24, 40, .35);
+}
+.aviso-buscador::backdrop { background: rgba(20, 24, 40, .55); }
+.aviso-card { padding: 22px 20px 18px; text-align: center; }
+.aviso-titulo {
+  margin: 0 0 10px; font-size: 1.2rem; line-height: 1.25;
+  color: var(--enlace-acc, var(--azul));
+}
+.aviso-cuerpo { margin: 0 0 14px; font-size: .98rem; line-height: 1.4; }
+/* The big, copyable number. Tappable line with a hint and a "¡Copiado!" flash. */
+.aviso-numero-wrap {
+  display: inline-flex; flex-direction: column; align-items: center; gap: 2px;
+  margin: 0 auto 14px; padding: 10px 18px; cursor: pointer;
+  background: var(--leyes-bg, #f3eefe); border-radius: 14px;
+  border: 2px dashed var(--enlace-acc, var(--azul));
+}
+.aviso-numero-wrap:focus-visible { outline: 3px solid var(--enlace-acc, var(--azul)); outline-offset: 2px; }
+.aviso-numero {
+  font-size: 1.9rem; font-weight: 800; letter-spacing: .02em;
+  color: var(--enlace-acc, var(--azul));
+}
+.aviso-copiar-hint { font-size: .72rem; color: var(--gris); text-transform: uppercase; letter-spacing: .06em; }
+.aviso-copiado { font-size: .8rem; font-weight: 700; color: var(--verde); }
+.aviso-sin-numero { margin: 0 0 14px; font-size: .92rem; color: var(--gris); }
+.aviso-botones { display: flex; flex-direction: column; gap: 8px; margin-top: 4px; }
+.aviso-ir {
+  display: block; text-decoration: none; font-weight: 700; font-size: 1rem;
+  padding: 12px 16px; border-radius: 999px; color: #fff;
+  background: var(--enlace-acc, var(--azul));
+}
+.aviso-ir:focus-visible { outline: 3px solid var(--enlace-acc, var(--azul)); outline-offset: 3px; }
+.aviso-quedarme {
+  border: 2px solid #d8dbe5; background: transparent; cursor: pointer;
+  font-weight: 700; font-size: .95rem; padding: 10px 16px; border-radius: 999px;
+  color: var(--gris);
+}
+.aviso-quedarme:focus-visible { outline: 3px solid var(--enlace-acc, var(--azul)); outline-offset: 2px; }
