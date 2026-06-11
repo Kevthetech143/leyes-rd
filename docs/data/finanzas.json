@@ -1,5 +1,5 @@
 {
-  "_nota": "Salud financiera del país — cada número viene de una fuente oficial verificada el 2026-06-10. NO inventar ni actualizar de memoria. Las comparaciones por persona se derivan SOLO de estos números y de la población oficial del censo.",
+  "_nota": "Salud financiera del país — cada número viene de una fuente oficial verificada el 2026-06-10. NO inventar ni actualizar de memoria. Las comparaciones por persona se derivan SOLO de estos números y de la población oficial del censo. ENLACE A LA FUENTE (5ª sugerencia de un usuario real, Ángel): cada tarjeta del 'bolsillo del país' ahora enlaza a la página de su fuente, el mismo 'url' que ya estaba guardado en cada métrica. Todos esos enlaces se reverificaron con HTTP 200 el 2026-06-11; el de salario apunta a la nota oficial de la Presidencia (valor de junio 2025). La URL del boletín de la TSS en la comparación de salario daba 404 (la página se movió) y se cambió por la página principal de la TSS (tss.gob.do), que sí resuelve.",
   "actualizado": "2026-06-10",
   "poblacion": {
     "habitantes": 10773983,
@@ -116,7 +116,7 @@
         "tendencia": "sube",
         "base": "Salario promedio cotizable a la seguridad social (régimen contributivo TSS). La TSS reportó el dato de junio 2025 (RD$37,572.82) con un crecimiento interanual oficial de 6.7% frente a junio 2024. Se cita el crecimiento publicado porque el valor exacto de junio 2024 no quedó verificable en fuente oficial en línea hoy.",
         "fuente": "Tesorería de la Seguridad Social (TSS) — Boletín del Régimen Contributivo, junio 2025 (crecimiento interanual 6.7%)",
-        "url": "https://www.tss.gob.do/transparencia/boletines-estadisticos.html"
+        "url": "https://tss.gob.do/"
       }
     },
     {
