@@ -231,6 +231,39 @@ main { max-width: 720px; margin: 0 auto; padding: 0 14px 40px; }
   .home-grid { grid-template-columns: 1fr; }
 }
 
+/* 📖 Sobre este proyecto — Nivel 1 card (white, shadow, rounded, accent top
+   border) with 3 Nivel-2 folds inside for the longer parts. Informational
+   blue accent. Sits after the share block on Inicio. */
+.proyecto {
+  background: var(--tarjeta); border-radius: 18px; box-shadow: var(--sombra);
+  border-top: 4px solid var(--azul); padding: 18px 16px 16px; margin: 18px 0 8px;
+}
+.proyecto-titulo { margin: 0 0 6px; font-size: 1.15rem; font-weight: 800; color: var(--tinta); }
+.proyecto-intro { margin: 0 0 14px; color: #44506a; font-size: .95rem; }
+.proyecto-fold {
+  background: #fff; border: none; border-left: 3px solid var(--azul);
+  border-radius: 0 8px 8px 0; margin: 0 0 10px; overflow: hidden;
+}
+.proyecto-fold > summary {
+  cursor: pointer; list-style: none; padding: 10px 14px;
+  font-weight: 700; font-size: .95rem; color: var(--azul);
+}
+.proyecto-fold > summary::-webkit-details-marker { display: none; }
+.proyecto-fold > summary::after { content: "▸"; float: right; color: var(--azul); }
+.proyecto-fold[open] > summary::after { content: "▾"; }
+.proyecto-fold-body { padding: 0 14px 12px; font-size: .92rem; }
+.proyecto-fold-body p { margin: 0 0 8px; }
+.proyecto-fold-body p:last-child { margin-bottom: 0; }
+.proyecto-fold-body ul { margin: 4px 0 0; padding-left: 18px; }
+.proyecto-fold-body li { margin: 4px 0; }
+.proyecto-tuyo {
+  background: #eef2ff; border: 1px solid #dbe3ff; color: #1c2a5e;
+  border-radius: 12px; padding: 10px 14px; font-size: .92rem; margin: 14px 0 12px;
+}
+.proyecto-botones { display: flex; flex-wrap: wrap; gap: 8px; }
+.btn-codigo { background: var(--tinta); }
+.proyecto-ayuda { margin: 12px 0 0; color: var(--gris); font-size: .9rem; }
+
 .como {
   background: #eef2ff; border: 1px solid #dbe3ff; color: #1c2a5e;
   padding: 12px 14px; border-radius: 14px; font-size: .92rem; margin: 14px 0;
