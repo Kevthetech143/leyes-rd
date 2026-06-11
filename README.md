@@ -48,3 +48,18 @@ Open http://127.0.0.1:8765
 5. Optional: real clickable SVG map instead of the province grid.
 
 Spec: 2026-06-07-spec.md
+
+## Licencia
+
+Este proyecto es de código abierto y gratis para siempre.
+
+- El código (TypeScript, HTML, CSS) está bajo licencia MIT. Lo puedes copiar,
+  cambiar y usar para lo que quieras. Ver el archivo LICENSE.
+- Los textos y los archivos de datos del sitio los puedes copiar y volver a
+  publicar, siempre que des crédito al proyecto (licencia CC BY 4.0).
+- Los hechos de fondo (leyes, votaciones, presupuestos) vienen de fuentes
+  oficiales del gobierno y son información pública: nadie es dueño de ellos.
+
+En pocas palabras: cualquiera puede revisar la receta completa, copiarla y
+volver a publicarla. Solo pedimos que, si republicas los textos o los datos,
+digas de dónde salieron.
