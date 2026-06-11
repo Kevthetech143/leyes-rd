@@ -81,6 +81,10 @@ interface VigenciaData {
 interface Novedad {
   fecha: string;   // ISO date
   texto: string;   // one short kid-Spanish line
+  // Credit / origin label, shown on every entry: "💡 Idea de NOMBRE" when a
+  // user suggested it (first name only), or "🔧 Mejora interna" for a team
+  // change. Kelvin: every Novedad must show who contributed the idea.
+  aporte?: string;
 }
 interface NovedadesData {
   _nota?: string;
@@ -504,6 +508,9 @@ function renderNovedades(data: NovedadesData): void {
       el("span", "novedad-fecha", fechaLarga(n.fecha)),
       el("span", "novedad-texto", n.texto)
     );
+    // Credit / origin label on every entry (Kelvin): who contributed the idea,
+    // or a "🔧 Mejora interna" marker for team changes.
+    if (n.aporte) li.append(el("span", "novedad-aporte", n.aporte));
     host.append(li);
   });
 }

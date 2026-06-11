@@ -317,6 +317,9 @@ main { max-width: 720px; margin: 0 auto; padding: 0 14px 40px; }
 }
 .novedad-fecha { display: block; font-size: .78rem; color: var(--gris); margin-bottom: 2px; }
 .novedad-texto { display: block; font-size: .95rem; color: var(--tinta); }
+/* Credit / origin label under each Novedad — who contributed the idea, or an
+   internal-change marker. Lightweight, consistent with the section. */
+.novedad-aporte { display: block; margin-top: 3px; font-size: .8rem; font-weight: 700; color: var(--azul); }
 .novedades-rss {
   margin: 10px 0 0; font-size: .88rem; color: #44506a;
   background: #eef2ff; border: 1px solid #dbe3ff; border-radius: 12px; padding: 8px 12px;

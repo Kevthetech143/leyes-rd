@@ -285,6 +285,10 @@ function renderNovedades(data) {
     items.forEach((n) => {
         const li = el("li", "novedad");
         li.append(el("span", "novedad-fecha", fechaLarga(n.fecha)), el("span", "novedad-texto", n.texto));
+        // Credit / origin label on every entry (Kelvin): who contributed the idea,
+        // or a "🔧 Mejora interna" marker for team changes.
+        if (n.aporte)
+            li.append(el("span", "novedad-aporte", n.aporte));
         host.append(li);
     });
 }

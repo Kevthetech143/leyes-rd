@@ -7,6 +7,13 @@
     <language>es</language>
     <lastBuildDate>Wed, 11 Jun 2026 00:00:00 +0000</lastBuildDate>
     <item>
+      <title>Ahora muchas tarjetas traen un enlace para leer el documento oficial: la ley completa, el acta del Senado o la fuente del dato.</title>
+      <link>https://kevthetech143.github.io/leyes-rd/</link>
+      <guid isPermaLink="false">psrd-2026-06-11-enlaces-doc</guid>
+      <pubDate>Wed, 11 Jun 2026 00:00:00 +0000</pubDate>
+      <description>Ahora muchas tarjetas traen un enlace para leer el documento oficial: la ley completa, el acta del Senado o la fuente del dato. Idea de Ángel.</description>
+    </item>
+    <item>
       <title>Ahora todas las tarjetas que se abren y cierran se ven igual en todo el sitio, con el color de su sección.</title>
       <link>https://kevthetech143.github.io/leyes-rd/</link>
       <guid isPermaLink="false">psrd-2026-06-11-diseno</guid>
@@ -18,7 +25,7 @@
       <link>https://kevthetech143.github.io/leyes-rd/</link>
       <guid isPermaLink="false">psrd-2026-06-10-vigencia</guid>
       <pubDate>Tue, 10 Jun 2026 00:00:00 +0000</pubDate>
-      <description>Nueva sección en Leyes: cuáles leyes nuevas ya mandan y cuáles están por empezar, con su fecha.</description>
+      <description>Nueva sección en Leyes: cuáles leyes nuevas ya mandan y cuáles están por empezar, con su fecha. Idea de un usuario.</description>
     </item>
     <item>
       <title>Provincias ya tiene los regidores de todo el país, con nombre y partido, de la lista oficial de la JCE.</title>

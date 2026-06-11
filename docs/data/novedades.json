@@ -1,25 +1,35 @@
 {
-  "_nota": "Las mejoras más recientes del sitio, escritas fácil. Una línea por mejora. Cada entrada sale de docs/CHANGELOG-improvements.md, reescrita en español sencillo. Las más nuevas van primero.",
+  "_nota": "Las mejoras más recientes del sitio, escritas fácil. Una línea por mejora. Cada entrada sale de docs/CHANGELOG-improvements.md, reescrita en español sencillo. Las más nuevas van primero. El campo 'aporte' (obligatorio) etiqueta cada mejora: '💡 Idea de NOMBRE' cuando la sugirió un usuario (solo el primer nombre, por privacidad), o '🔧 Mejora interna' cuando es un cambio del propio equipo.",
   "novedades": [
     {
       "fecha": "2026-06-11",
-      "texto": "Ahora todas las tarjetas que se abren y cierran se ven igual en todo el sitio, con el color de su sección."
+      "texto": "Ahora muchas tarjetas traen un enlace para leer el documento oficial: la ley completa, el acta del Senado o la fuente del dato.",
+      "aporte": "💡 Idea de Ángel"
+    },
+    {
+      "fecha": "2026-06-11",
+      "texto": "Ahora todas las tarjetas que se abren y cierran se ven igual en todo el sitio, con el color de su sección.",
+      "aporte": "🔧 Mejora interna"
     },
     {
       "fecha": "2026-06-10",
-      "texto": "Nueva sección en Leyes: cuáles leyes nuevas ya mandan y cuáles están por empezar, con su fecha."
+      "texto": "Nueva sección en Leyes: cuáles leyes nuevas ya mandan y cuáles están por empezar, con su fecha.",
+      "aporte": "💡 Idea de un usuario"
     },
     {
       "fecha": "2026-06-10",
-      "texto": "Provincias ya tiene los regidores de todo el país, con nombre y partido, de la lista oficial de la JCE."
+      "texto": "Provincias ya tiene los regidores de todo el país, con nombre y partido, de la lista oficial de la JCE.",
+      "aporte": "💡 Idea de un usuario"
     },
     {
       "fecha": "2026-06-10",
-      "texto": "Nuevo bloque que muestra quién controla el Congreso: cuántos asientos tiene cada partido."
+      "texto": "Nuevo bloque que muestra quién controla el Congreso: cuántos asientos tiene cada partido.",
+      "aporte": "💡 Idea de un usuario"
     },
     {
       "fecha": "2026-06-10",
-      "texto": "En Dinero, cada cifra del país ahora se compara con el año pasado, para ver si va mejor o peor."
+      "texto": "En Dinero, cada cifra del país ahora se compara con el año pasado, para ver si va mejor o peor.",
+      "aporte": "💡 Idea de Alejandro"
     }
   ]
 }
