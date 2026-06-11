@@ -20,6 +20,7 @@ Estructura común a todas las vistas:
 
 ## Leyes (morado)
 - UX 2026-06-10: una sola caja de intro compacta (¿Cómo funciona? + leyenda de estados adentro con estilo suave + nota de fuente al final), en vez de tres cajas apiladas.
+- VIGENCIA 2026-06-10 (4ª sugerencia de usuario real): sub-sección "📅 ¿Cuáles leyes están por empezar?" justo bajo la intro. Caja de glosario que explica aprobada vs en vigencia (palabras tocables: promulgar, Gaceta Oficial, vigencia), luego dos grupos de tarjetas plegables: "🔜 Entran pronto" (riel ámbar) y "✅ Ya en vigencia (nuevas)" (riel verde), cada tarjeta con número de ley, título, fecha de vigencia y, al tocar, ¿qué es?/¿desde cuándo?/fuente. Cierra con nota plegable de la regla por defecto (Código Civil art. 1). Datos en data/vigencia.json, render en renderVigencia (src/app.ts).
 - Acordeones "¿Por qué no veo quién votó?" y "¿Cómo se hace una ley?" (plegados) + buscador + sectores.
 - Estado: limpio.
 
