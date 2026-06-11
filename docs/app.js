@@ -13,7 +13,7 @@ const votoClass = { si: "voto-si", no: "voto-no", ausente: "voto-aus" };
 // cache-buster (?v=...). Appended to every data fetch so returning visitors
 // don't render stale JSON from the browser's HTTP cache when only the data
 // changed (the data files are not versioned in the HTML).
-const DATA_VERSION = "20260611f";
+const DATA_VERSION = "20260611g";
 async function cargar(path) {
     const sep = path.indexOf("?") >= 0 ? "&" : "?";
     const res = await fetch(path + sep + "v=" + DATA_VERSION);
@@ -51,6 +51,112 @@ function enlaceDoc(url, texto) {
     // Don't let a tap on the link also toggle the surrounding collapsible card.
     a.addEventListener("click", (e) => e.stopPropagation());
     return a;
+}
+// Marks a doc link as a SEARCH-type link: one that drops the visitor on an
+// official government search page where they must look the document up by
+// number themselves (no fixed address per document). A single delegated click
+// handler (setupAvisoBusqueda) shows a friendly heads-up before leaving the
+// site. numero may be null when the document carries no number — then the
+// dialog adjusts its wording honestly. etiqueta names the number in plain
+// Spanish, e.g. "el número de la ley".
+function marcarBusqueda(a, numero, etiqueta) {
+    a.dataset.busqueda = "1";
+    if (numero)
+        a.dataset.numero = numero;
+    a.dataset.numeroEtiqueta = etiqueta;
+}
+/* ---------- Aviso antes de ir al buscador oficial ---------- */
+// One small, friendly dialog shown when a visitor taps a SEARCH-type doc link
+// (data-busqueda). Direct document links never trigger it — they open in one
+// tap, untouched. Wired ONCE via a single delegated listener on the document
+// (guarded so it can't double-wire and cancel itself, the bug setupGlosario
+// hit). Uses the native <dialog> in docs/index.html for built-in focus trap,
+// Escape-to-close and backdrop. Kid-simple Spanish throughout.
+let avisoBusquedaWired = false;
+function setupAvisoBusqueda() {
+    if (avisoBusquedaWired)
+        return;
+    avisoBusquedaWired = true;
+    const dlg = document.getElementById("avisoBuscador");
+    const numEl = document.getElementById("avisoNumero");
+    const numWrap = document.getElementById("avisoNumeroWrap");
+    const sinNumEl = document.getElementById("avisoSinNumero");
+    const cuerpoEl = document.getElementById("avisoCuerpo");
+    const irBtn = document.getElementById("avisoIr");
+    const copyFeed = document.getElementById("avisoCopiado");
+    if (!dlg || !numEl || !numWrap || !sinNumEl || !cuerpoEl || !irBtn)
+        return;
+    const con = "Esa página del gobierno no tiene una dirección fija para cada documento. Cuando llegues, busca este número:";
+    const sin = "Esa página del gobierno no tiene una dirección fija para cada documento. Cuando llegues, busca el documento por su nombre o su número.";
+    // Delegated, in the CAPTURE phase: every doc link adds its own bubble-phase
+    // click listener that calls stopPropagation (so a tap doesn't toggle the
+    // surrounding card). That would stop a bubble-phase delegated listener from
+    // ever seeing the click. Capturing runs first, top-down, so we intercept the
+    // search-type link before its own handler can stop the event.
+    document.addEventListener("click", (e) => {
+        const target = e.target;
+        const a = target === null || target === void 0 ? void 0 : target.closest("a.enlace-doc[data-busqueda]");
+        if (!a)
+            return;
+        e.preventDefault();
+        e.stopPropagation();
+        const numero = a.dataset.numero || "";
+        irBtn.href = a.href;
+        if (numero) {
+            numEl.textContent = numero;
+            numWrap.classList.remove("hidden");
+            sinNumEl.classList.add("hidden");
+            cuerpoEl.textContent = con;
+        }
+        else {
+            numWrap.classList.add("hidden");
+            sinNumEl.classList.remove("hidden");
+            cuerpoEl.textContent = sin;
+        }
+        if (copyFeed)
+            copyFeed.classList.add("hidden");
+        if (typeof dlg.showModal === "function")
+            dlg.showModal();
+        else
+            dlg.setAttribute("open", "");
+    }, true);
+    // Tap-to-copy the number, with "¡Copiado!" feedback. Skipped silently if the
+    // browser has no clipboard (the visitor still sees the number plainly).
+    numWrap.addEventListener("click", () => {
+        var _a;
+        const txt = numEl.textContent || "";
+        if (!txt)
+            return;
+        const nav = navigator;
+        const ok = () => {
+            if (!copyFeed)
+                return;
+            copyFeed.classList.remove("hidden");
+            window.setTimeout(() => copyFeed.classList.add("hidden"), 1600);
+        };
+        // Same forgiving pattern as copiarEnlace: show "¡Copiado!" on both resolve
+        // and reject. The number is already on screen, so worst case the visitor
+        // copies it by hand — never a broken-looking failure.
+        if ((_a = nav.clipboard) === null || _a === void 0 ? void 0 : _a.writeText)
+            nav.clipboard.writeText(txt).then(ok, ok);
+        else
+            ok();
+    });
+    // "Ir al buscador →" opens the official page in a new tab, then closes the
+    // dialog. The anchor's own target/rel handle the safe new-tab open.
+    irBtn.addEventListener("click", () => { if (dlg.open)
+        dlg.close(); });
+    // "Quedarme aquí" and the backdrop both close without leaving the site.
+    const quedarme = document.getElementById("avisoQuedarme");
+    if (quedarme)
+        quedarme.addEventListener("click", () => { if (dlg.open)
+            dlg.close(); });
+    // Backdrop tap: a click that lands on the <dialog> element itself (not its
+    // inner card) is the backdrop. Native dialog already closes on Escape.
+    dlg.addEventListener("click", (e) => {
+        if (e.target === dlg)
+            dlg.close();
+    });
 }
 // Some source strings carry their URL inline as a trailing "(https://...)",
 // e.g. the JCE regidores source. This splits that into the descriptive text
@@ -149,6 +255,11 @@ function renderLey(ley, busqueda) {
             ? "📄 Búscala en el sistema oficial: iniciativa " + num
             : "📄 Búscala en " + sistema + " (sistema oficial)";
         const a = enlaceDoc(url, texto);
+        // Search-type link: warn the visitor before sending them to the chamber's
+        // search system, and (when we have it) tell them which iniciativa number to
+        // type. Some Senate bills carry no number — then we show no number, honestly.
+        if (a)
+            marcarBusqueda(a, num, "el número de la iniciativa");
         if (a)
             det.append(a);
     }
@@ -197,6 +308,10 @@ function renderVigenciaLey(ley) {
     }
     else if (ley.url_busqueda) {
         const a = enlaceDoc(ley.url_busqueda, "📄 Búscala en el portal oficial: Ley " + ley.numero);
+        // Search-type link: the official portal has no fixed address per law, so we
+        // pop a friendly heads-up telling the visitor which number to look up.
+        if (a)
+            marcarBusqueda(a, ley.numero, "el número de la ley");
         if (a)
             det.append(a);
     }
@@ -1207,6 +1322,7 @@ async function init() {
     setupCompartir();
     setupEscape();
     setupGlosario();
+    setupAvisoBusqueda();
     try {
         const [leyes, provincias, sesiones, vigencia, novedades] = await Promise.all([
             cargar("data/leyes.json"),

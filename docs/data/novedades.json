@@ -3,6 +3,11 @@
   "novedades": [
     {
       "fecha": "2026-06-11",
+      "texto": "Ahora, antes de mandarte al buscador del gobierno, te explicamos qué número buscar cuando llegues.",
+      "aporte": "🔧 Mejora interna"
+    },
+    {
+      "fecha": "2026-06-11",
       "texto": "Ahora muchas tarjetas traen un enlace para leer el documento oficial: la ley completa, el acta del Senado o la fuente del dato.",
       "aporte": "💡 Idea de Ángel"
     },

@@ -24,7 +24,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="styles.css?v=20260611f" />
+  <link rel="stylesheet" href="styles.css?v=20260611g" />
 </head>
 <body>
   <header class="topbar">
@@ -625,7 +625,28 @@
     <p class="foot-fuente">Fuentes: Senado y Cámara de Diputados de la República Dominicana.</p>
   </footer>
 
-  <script src="app.js?v=20260611f"></script>
+  <!-- Aviso antes de salir a un buscador oficial. Solo aparece cuando el enlace
+       no abre el documento directo, sino una página del gobierno donde hay que
+       buscar el documento por su número. Lo controla setupAvisoBusqueda() en app.js. -->
+  <dialog id="avisoBuscador" class="aviso-buscador sec-leyes" aria-labelledby="avisoTitulo">
+    <div class="aviso-card">
+      <h2 id="avisoTitulo" class="aviso-titulo">🔎 Vas al buscador oficial</h2>
+      <p id="avisoCuerpo" class="aviso-cuerpo"></p>
+      <div id="avisoNumeroWrap" class="aviso-numero-wrap hidden" role="button" tabindex="0"
+           aria-label="Tocar para copiar el número">
+        <span id="avisoNumero" class="aviso-numero"></span>
+        <span class="aviso-copiar-hint">toca para copiar</span>
+        <span id="avisoCopiado" class="aviso-copiado hidden">✅ ¡Copiado!</span>
+      </div>
+      <p id="avisoSinNumero" class="aviso-sin-numero hidden">Este documento no tiene un número fijo. Búscalo por su nombre.</p>
+      <div class="aviso-botones">
+        <a id="avisoIr" class="aviso-ir" href="#" target="_blank" rel="noopener">Ir al buscador →</a>
+        <button id="avisoQuedarme" class="aviso-quedarme" type="button">Quedarme aquí</button>
+      </div>
+    </div>
+  </dialog>
+
+  <script src="app.js?v=20260611g"></script>
   <!-- Contador de visitas, privado y sin cookies (GoatCounter) -->
   <script data-goatcounter="https://politicasencillard.goatcounter.com/count"
           async src="//gc.zgo.at/count.js"></script>
