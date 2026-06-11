@@ -242,19 +242,21 @@ main { max-width: 720px; margin: 0 auto; padding: 0 14px 40px; }
 }
 .foot-fuente { font-size: .75rem; color: #6b7280; margin-top: 6px; }
 
-/* Transparencia explainer */
+/* Transparencia explainer — Nivel 2 (lighter: thin accent left border,
+   colored summary, no shadow). Not a grouper, so it stays below the
+   weight of the Nivel-1 sector cards. Accent from the section. */
 .transp {
-  background: #fff; border: 1px solid #e6e9ef; border-radius: 14px;
-  box-shadow: var(--sombra); margin: 0 0 14px; overflow: hidden;
+  background: #fff; border: none; border-left: 3px solid var(--acc);
+  border-radius: 0 8px 8px 0; box-shadow: none; margin: 0 0 14px; overflow: hidden;
 }
 .transp summary {
-  cursor: pointer; padding: 14px 16px; font-weight: 700; color: var(--azul);
-  list-style: none; font-size: 1rem;
+  cursor: pointer; padding: 12px 14px; font-weight: 700; color: var(--acc);
+  list-style: none; font-size: .95rem;
 }
 .transp summary::-webkit-details-marker { display: none; }
-.transp summary::after { content: "▸"; float: right; color: var(--gris); }
+.transp summary::after { content: "▸"; float: right; color: var(--acc); }
 .transp[open] summary::after { content: "▾"; }
-.transp-body { padding: 0 16px 14px; font-size: .92rem; }
+.transp-body { padding: 0 14px 14px; font-size: .92rem; }
 .transp-body ul { margin: 8px 0 0; padding-left: 18px; }
 .transp-body li { margin-bottom: 8px; }
 .transp-pie { margin-top: 10px; color: var(--gris); font-style: italic; }
@@ -279,7 +281,32 @@ main { max-width: 720px; margin: 0 auto; padding: 0 14px 40px; }
 }
 .leyes-intro-fuente { margin: 0; font-size: .85rem; color: #2c3a6e; }
 
-/* Sectores */
+/* =====================================================================
+   SISTEMA DE PLEGABLES — DOS NIVELES (one source of truth)
+   ---------------------------------------------------------------------
+   One global drop-down design, recolored per section through a single
+   accent pair: --acc (line / text color) and --acc-bg (header tint).
+   Each section sets that pair ONCE on its .sec-* wrapper (see the
+   "Per-section accents" block near the end). Every grouper and fold
+   below reads it — so recoloring a whole section is a one-variable
+   change, never a per-card edit. The two contracts are applied directly
+   onto the existing class names (no extra wrapper classes in markup).
+
+   NIVEL 1 — root grouper. Worn by .sector (Leyes), .sesion (Sesiones),
+   .vig-grupo (Vigencia), .grupo-cargo (Provincias roles).
+     Full card: white body + var(--sombra) shadow + radius, a header band
+     in var(--acc-bg), an 800-weight title in var(--acc), a count chip and
+     a rotating chevron in var(--acc).
+
+   NIVEL 2 — inner fold nested inside an open Nivel-1 card. Worn by
+   .oficial, .asistencia, .regidores-lista, .cuanto-es, .fuente-fold,
+   .vig-regla, and the standalone .transp explainers.
+     Lighter: no shadow, no header band; a 3px var(--acc) left border, a
+     plain var(--acc) summary one step smaller, tighter padding.
+   ===================================================================== */
+:root { --acc: var(--azul); --acc-bg: #eef2ff; }
+
+/* Sectores — Nivel 1 grouper (Leyes accent inherited from .sec-leyes) */
 .sector {
   background: var(--tarjeta); border-radius: var(--radio);
   box-shadow: var(--sombra); margin-bottom: 14px; overflow: hidden;
@@ -287,14 +314,15 @@ main { max-width: 720px; margin: 0 auto; padding: 0 14px 40px; }
 .sector-head {
   display: flex; align-items: center; gap: 12px;
   padding: 16px 18px; cursor: pointer; user-select: none;
+  background: var(--acc-bg);
 }
 .sector-emoji { font-size: 1.8rem; }
-.sector-title { font-size: 1.2rem; font-weight: 700; margin: 0; flex: 1; }
+.sector-title { font-size: 1.2rem; font-weight: 800; margin: 0; flex: 1; color: var(--acc); }
 .sector-count {
-  background: #eef2ff; color: var(--azul);
+  background: #fff; color: var(--acc); border: 1px solid var(--acc);
   padding: 2px 10px; border-radius: 999px; font-size: .85rem; font-weight: 700;
 }
-.sector-chev { color: var(--gris); font-size: 1.1rem; flex: none; }
+.sector-chev { color: var(--acc); font-size: 1.1rem; flex: none; }
 .sector.open .sector-chev { transform: rotate(90deg); }
 .sector-chev { transition: transform .15s ease; }
 .sector-body { padding: 0 18px 8px; }
@@ -374,22 +402,24 @@ main { max-width: 720px; margin: 0 auto; padding: 0 14px 40px; }
 .perfil h3 { margin: 0 0 4px; }
 .grupo-titulo { margin: 16px 0 2px; font-size: 1rem; color: var(--azul); border-bottom: 2px solid #eef2ff; padding-bottom: 4px; }
 
-/* Role drop-down cards inside the province profile: title + count, fold to see people */
+/* Role drop-down cards inside the province profile — Nivel 1 grouper.
+   Full card with shadow + colored header band, accent from --acc (teal in
+   Provincias; vig-grupo re-points --acc to purple in Leyes below). */
 .grupo-cargo {
-  background: #fff; border: 1px solid #e6e9ef; border-radius: var(--radio-md);
-  margin: 10px 0; overflow: hidden;
+  background: var(--tarjeta); border: none; border-radius: var(--radio-md);
+  box-shadow: var(--sombra); margin: 10px 0; overflow: hidden;
 }
 .grupo-cab {
   display: flex; align-items: center; gap: 10px; cursor: pointer; list-style: none;
-  padding: 12px 14px; background: var(--mapa-bg);
+  padding: 12px 14px; background: var(--acc-bg);
 }
 .grupo-cab::-webkit-details-marker { display: none; }
-.grupo-nombre { font-weight: 800; color: var(--mapa); flex: 1; }
+.grupo-nombre { font-weight: 800; color: var(--acc); flex: 1; }
 .grupo-conteo {
-  background: #fff; color: var(--mapa); font-size: .78rem; font-weight: 700;
-  padding: 3px 10px; border-radius: 999px; border: 1px solid var(--mapa);
+  background: #fff; color: var(--acc); font-size: .78rem; font-weight: 700;
+  padding: 3px 10px; border-radius: 999px; border: 1px solid var(--acc);
 }
-.grupo-chev { color: var(--mapa); font-weight: 700; }
+.grupo-chev { color: var(--acc); font-weight: 700; transition: transform .15s ease; }
 .grupo-cargo[open] .grupo-chev { transform: rotate(90deg); }
 .grupo-cargo > .lider { padding-left: 14px; padding-right: 14px; }
 .lider { border-top: 1px solid #eef0f4; padding: 12px 0; }
@@ -434,10 +464,15 @@ main { max-width: 720px; margin: 0 auto; padding: 0 14px 40px; }
   padding:2px 8px; border-radius:999px; background:#eef2ff; color:var(--azul);
   margin-left:6px;
 }
-/* Regidores (town-council) explainer list inside a province profile */
-.regidores-lista { margin-top: 10px; padding-top: 8px; border-top: 1px solid #dbe3ff; }
+/* Regidores (town-council) list nested inside a role group — Nivel 2
+   (lighter: thin accent left border, smaller colored summary). */
+.regidores-lista {
+  margin: 8px 0 4px; padding: 4px 0 4px 10px;
+  border-top: 1px solid #dbe3ff; border-left: 3px solid var(--acc);
+  border-radius: 0 8px 8px 0;
+}
 .regidores-municipio {
-  margin: 0; font-size: .9rem; font-weight: 700; color: var(--azul);
+  margin: 0; font-size: .88rem; font-weight: 700; color: var(--acc);
   cursor: pointer; list-style: none; padding: 4px 0;
 }
 .regidores-municipio::-webkit-details-marker { display: none; }
@@ -451,27 +486,28 @@ main { max-width: 720px; margin: 0 auto; padding: 0 14px 40px; }
 }
 .sesion-head {
   display: flex; align-items: center; gap: 10px; flex-wrap: wrap;
-  padding: 16px 18px; background: #eef2ff; border-bottom: 1px solid #dbe3ff;
+  padding: 16px 18px; background: var(--acc-bg); border-bottom: 1px solid #dbe3ff;
   cursor: pointer; list-style: none;
 }
 .sesion-head::-webkit-details-marker { display: none; }
-.sesion-fecha { font-weight: 700; font-size: 1.05rem; color: #1c2a5e; flex: 1; }
+.sesion-fecha { font-weight: 800; font-size: 1.05rem; color: var(--acc); flex: 1; }
 .sesion-acta {
-  background: var(--azul); color: #fff; font-size: .78rem; font-weight: 700;
+  background: var(--acc); color: #fff; font-size: .78rem; font-weight: 700;
   padding: 3px 10px; border-radius: 999px;
 }
 .sesion-conteo {
-  background: #fff; color: #1c2a5e; font-size: .78rem; font-weight: 700;
-  padding: 3px 10px; border-radius: 999px; border: 1px solid #dbe3ff;
+  background: #fff; color: var(--acc); font-size: .78rem; font-weight: 700;
+  padding: 3px 10px; border-radius: 999px; border: 1px solid var(--acc);
 }
-.sesion-chev { color: var(--gris); font-weight: 700; }
+.sesion-chev { color: var(--acc); font-weight: 700; transition: transform .15s ease; }
 .sesion[open] .sesion-chev { transform: rotate(90deg); }
 
-/* Official legalese name tucked behind a tap */
+/* Official legalese name tucked behind a tap — Nivel 2 (plain colored
+   summary text, smallest font, no box). Color from the section accent. */
 .oficial { margin: 0 0 6px; }
 .oficial summary {
   cursor: pointer; list-style: none; font-size: .78rem; font-weight: 700;
-  color: var(--sesiones);
+  color: var(--acc);
 }
 .oficial summary::-webkit-details-marker { display: none; }
 .oficial .votacion-titulo-oficial { margin: 4px 0 0; }
@@ -488,15 +524,21 @@ main { max-width: 720px; margin: 0 auto; padding: 0 14px 40px; }
 .v-conteo { background: #eef2ff; color: var(--azul); }
 .v-resultado { background: #e3f7ec; color: var(--verde); }
 .v-resultado-neutral { background: #f0f1f5; color: var(--gris); }
-.asistencia { border-top: 1px solid #eef0f4; }
+/* Asistencia fold inside a session card — Nivel 2 (lighter: thin accent
+   left border, smaller colored summary, tighter padding, no shadow). */
+.asistencia {
+  border-top: 1px solid #eef0f4;
+  border-left: 3px solid var(--acc); margin: 6px 14px 10px;
+  border-radius: 0 8px 8px 0;
+}
 .asistencia summary {
-  cursor: pointer; padding: 14px 18px; font-weight: 700; color: var(--azul);
-  list-style: none; font-size: .95rem;
+  cursor: pointer; padding: 10px 14px; font-weight: 700; color: var(--acc);
+  list-style: none; font-size: .9rem;
 }
 .asistencia summary::-webkit-details-marker { display: none; }
-.asistencia summary::after { content: "▸"; float: right; color: var(--gris); }
+.asistencia summary::after { content: "▸"; float: right; color: var(--acc); }
 .asistencia[open] summary::after { content: "▾"; }
-.asistencia-body { padding: 0 18px 14px; }
+.asistencia-body { padding: 0 14px 12px; }
 .asist-lista { margin-top: 4px; }
 .asist-fila {
   display: flex; justify-content: space-between;
@@ -655,13 +697,18 @@ main { max-width: 720px; margin: 0 auto; padding: 0 14px 40px; }
 .siguiente.va-dinero   .siguiente-btn { background: var(--dinero); }
 
 /* ---------- Per-section accents (distinct identity per tab) ---------- */
+/* Each section sets the shared accent variable ONCE; every Nivel-1 and
+   Nivel-2 fold inside inherits the right color from --acc / --acc-bg. */
+.sec-leyes    { --acc: var(--leyes);    --acc-bg: var(--leyes-bg); }
+.sec-mapa     { --acc: var(--mapa);     --acc-bg: var(--mapa-bg); }
+.sec-sesiones { --acc: var(--sesiones); --acc-bg: var(--sesiones-bg); }
+.sec-dinero   { --acc: var(--dinero);   --acc-bg: var(--dinero-bg); }
 .sec-leyes    .seccion-titulo { color: var(--leyes); }
 .sec-mapa     .seccion-titulo { color: var(--mapa); }
 .sec-sesiones .seccion-titulo { color: var(--sesiones); }
 .sec-dinero   .seccion-titulo { color: var(--dinero); }
 
 /* Leyes — morado accent */
-.sec-leyes .sector-count { background: var(--leyes-bg); color: var(--leyes); }
 .sec-leyes .ley-detalle h4 { color: var(--leyes); }
 .sec-leyes .sector { border-left: 6px solid var(--leyes); }
 
@@ -735,36 +782,37 @@ main { max-width: 720px; margin: 0 auto; padding: 0 14px 40px; }
   background: #e7f6ee; border-radius: 8px; padding: 4px 10px;
 }
 
-/* ¿Cuánto es esa cifra? scale card — now a tap-to-open fold so the long
-   bullet explainer doesn't stretch the page; the headline stays visible. */
+/* ¿Cuánto es esa cifra? scale fold — Nivel 2 (lighter: thin accent left
+   border, smaller colored summary, no full box). Headline stays visible. */
 .cuanto-es {
-  background: #fff; border: 1px solid #f0c489; border-radius: 12px;
-  padding: 10px 14px; margin-top: 12px; color: var(--tinta);
+  background: #fff; border: none; border-left: 3px solid var(--acc);
+  border-radius: 0 8px 8px 0; padding: 8px 0 8px 12px; margin-top: 12px;
+  color: var(--tinta);
 }
 .cuanto-es > summary {
   cursor: pointer; list-style: none; display: block;
-  font-weight: 700; color: #9a3b00;
+  font-weight: 700; font-size: .9rem; color: var(--acc);
 }
 .cuanto-es > summary::-webkit-details-marker { display: none; }
-.cuanto-es > summary::after { content: "▸"; float: right; color: var(--gris); font-weight: 700; }
+.cuanto-es > summary::after { content: "▸"; float: right; color: var(--acc); font-weight: 700; }
 .cuanto-es[open] > summary::after { content: "▾"; }
 .cuanto-es ul { margin: 8px 0 0; padding-left: 18px; }
 .cuanto-es li { margin: 3px 0; font-size: .9rem; }
 
-/* Source notes folded behind a short tap, so the long official-source
-   paragraph doesn't dominate the page. Phrasing inside is unchanged. */
+/* Source notes folded behind a short tap — Nivel 2 (lighter: thin accent
+   left border, small colored summary). Phrasing inside is unchanged. */
 .fuente-fold {
-  background: #fff; border: 1px solid #e6e9ef; border-radius: 12px;
-  margin: 12px 0 6px; overflow: hidden;
+  background: #fff; border: none; border-left: 3px solid var(--acc);
+  border-radius: 0 8px 8px 0; margin: 12px 0 6px; overflow: hidden;
 }
 .fuente-fold > summary {
-  cursor: pointer; list-style: none; padding: 10px 14px;
-  font-weight: 700; font-size: .85rem; color: var(--gris);
+  cursor: pointer; list-style: none; padding: 8px 0 8px 12px;
+  font-weight: 700; font-size: .85rem; color: var(--acc);
 }
 .fuente-fold > summary::-webkit-details-marker { display: none; }
-.fuente-fold > summary::after { content: "▸"; float: right; }
+.fuente-fold > summary::after { content: "▸"; float: right; color: var(--acc); }
 .fuente-fold[open] > summary::after { content: "▾"; }
-.fuente-fold .nota-fuente { margin: 0; padding: 0 14px 12px; }
+.fuente-fold .nota-fuente { margin: 0; padding: 0 0 12px 12px; }
 
 /* 🩺 ¿Cómo está el bolsillo del país? — financial health of the country */
 .salud-pais {
@@ -913,21 +961,14 @@ main { max-width: 720px; margin: 0 auto; padding: 0 14px 40px; }
 /* ---------- Leyes que entran en vigencia (4ª sugerencia de un usuario real) ---------- */
 .vigencia { margin: 4px 0 16px; }
 .vig-intro { margin-top: 0; }
-/* Each vigencia group is a collapsible card in the Leyes purple, matching the
-   role drop-downs in Provincias (title + count, tap to open). */
+/* Each vigencia group is a Nivel-1 grouper card (extends .grupo-cargo).
+   It inherits the Leyes purple from --acc on .sec-leyes — no per-class
+   color overrides needed. The "pronto" variant re-points --acc to amber. */
 .vig-grupo { margin: 14px 0 4px; }
-.vig-cab { background: var(--leyes-bg); }
-.vig-grupo .grupo-nombre { color: var(--leyes); }
-.vig-grupo .grupo-conteo { color: var(--leyes); border-color: var(--leyes); }
-.vig-grupo .grupo-chev { color: var(--leyes); }
 .vig-grupo-sub { margin: 8px 14px 6px; font-size: .86rem; color: var(--gris); }
 .vig-grupo > .vig-ley { margin-left: 10px; margin-right: 10px; }
 /* "Entran pronto" reads as the call-to-action: a warm amber header. */
-.vig-grupo-pronto .vig-cab { background: #fff1d6; }
-.vig-grupo-pronto .grupo-nombre,
-.vig-grupo-pronto .grupo-conteo,
-.vig-grupo-pronto .grupo-chev { color: #8a5800; }
-.vig-grupo-pronto .grupo-conteo { border-color: #8a5800; }
+.vig-grupo-pronto { --acc: #8a5800; --acc-bg: #fff1d6; }
 
 .vig-ley {
   background: #fff; border: 1px solid #e6e9ef; border-radius: var(--radio-md);
@@ -959,14 +1000,15 @@ main { max-width: 720px; margin: 0 auto; padding: 0 14px 40px; }
 .vig-ley-cuando { color: var(--tinta); }
 .vig-ley-meta { margin-top: 10px !important; font-size: .86rem !important; color: var(--gris); }
 
-/* Default-rule note, folded to keep the page airy. */
+/* Default-rule note, folded to keep the page airy — Nivel 2 (lighter:
+   thin accent left border, colored summary, no full box). */
 .vig-regla {
-  background: #fff; border: 1px solid #e6e9ef; border-radius: var(--radio-md);
-  margin: 12px 0 0; overflow: hidden;
+  background: #fff; border: none; border-left: 3px solid var(--acc);
+  border-radius: 0 8px 8px 0; margin: 12px 0 0; overflow: hidden;
 }
 .vig-regla-cab {
-  cursor: pointer; padding: 12px 14px; font-weight: 700; color: var(--leyes);
-  list-style: none; font-size: .95rem;
+  cursor: pointer; padding: 10px 14px; font-weight: 700; color: var(--acc);
+  list-style: none; font-size: .92rem;
 }
 .vig-regla-cab::-webkit-details-marker { display: none; }
 .vig-regla-cab::after { content: "▸"; float: right; color: var(--gris); }
