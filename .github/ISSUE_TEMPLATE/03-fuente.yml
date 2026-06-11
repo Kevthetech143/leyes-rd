@@ -1,0 +1,31 @@
+name: "📚 Conozco una fuente de datos"
+description: "Sabes de un organismo oficial que publica datos que el sitio podría usar."
+title: "📚 Fuente: "
+labels: ["fuente de datos"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Esto es oro. El sitio solo muestra datos que cualquiera pueda verificar en una fuente oficial.
+        La regla es simple: **sin fuente oficial, no entra.** Dinos qué publica este organismo y dónde.
+  - type: input
+    id: organismo
+    attributes:
+      label: "¿Qué organismo oficial publica el dato?"
+      placeholder: "Ej: la JCE, el Senado, el Ministerio de Hacienda, tu ayuntamiento…"
+    validations:
+      required: true
+  - type: textarea
+    id: que_publica
+    attributes:
+      label: "¿Qué dato publica que el sitio podría usar?"
+      placeholder: "Ej: la lista de alcaldes electos, las nóminas, las votaciones…"
+    validations:
+      required: true
+  - type: input
+    id: fuente
+    attributes:
+      label: "El enlace a la fuente oficial"
+      placeholder: "Pega el enlace exacto a la página o el documento oficial."
+    validations:
+      required: true
