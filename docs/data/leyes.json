@@ -1,5 +1,9 @@
 {
- "_nota": "Datos reales del Senado (senadord.gob.do) y de la Cámara de Diputados (camaradediputados.gob.do). Las leyes marcadas con \"Cámara de Diputados\" vienen de esa cámara; las demás, del Senado. Los votos por legislador no son públicos. Fecha de extracción: 2026-06-09.",
+ "_nota": "Datos reales del Senado (senadord.gob.do) y de la Cámara de Diputados (camaradediputados.gob.do). Las leyes marcadas con \"Cámara de Diputados\" vienen de esa cámara; las demás, del Senado. Los votos por legislador no son públicos. Fecha de extracción: 2026-06-09. ENLACE AL SISTEMA OFICIAL (5ª sugerencia de un usuario real, Ángel): no existe una URL pública estable por proyecto de ley. El sistema viejo del Senado (senado.gov.do/wfilemaster) redirige a una pantalla de inicio de sesión, y el buscador de la Cámara (SIL) es una aplicación de una sola página que devuelve la misma pantalla para cualquier dirección, así que no se puede verificar un enlace por iniciativa. Por eso cada proyecto enlaza, con honestidad, a la página oficial de iniciativas de su cámara para buscarlo ahí: el Senado a su lista de iniciativas legislativas, y la Cámara a su SIL Ciudadano. Cuando el proyecto trae su número de iniciativa en el título, el enlace lo nombra. Ambas páginas verificadas con HTTP 200 el 2026-06-11.",
+ "busqueda_oficial": {
+  "senado": "https://www.senadord.gob.do/iniciativas-legislativa/",
+  "camara": "https://www.diputadosrd.gob.do/sil"
+ },
  "sectores": [
   {
    "id": "justicia",

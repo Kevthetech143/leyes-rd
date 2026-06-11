@@ -66,7 +66,7 @@ function renderLeyes(data) {
         head.append(el("span", "sector-emoji", sec.emoji), el("h3", "sector-title", sec.nombre), el("span", "sector-count", sec.leyes.length + (sec.leyes.length === 1 ? " ley" : " leyes")), el("span", "sector-chev", "▸"));
         const body = el("div", "sector-body");
         body.style.display = "none";
-        sec.leyes.forEach((ley) => body.append(renderLey(ley)));
+        sec.leyes.forEach((ley) => body.append(renderLey(ley, data.busqueda_oficial)));
         // Keyboard accessible: behave like an expandable button.
         head.setAttribute("role", "button");
         head.tabIndex = 0;
@@ -87,7 +87,14 @@ function renderLeyes(data) {
         cont.append(card);
     });
 }
-function renderLey(ley) {
+// Pulls the initiative number out of a bill title when present, e.g.
+// "...(Iniciativa 04789-2024-2028-CD)" -> "04789-2024-2028-CD". Returns null
+// when the title carries no number (most Senate bills in our data don't).
+function numeroIniciativa(titulo) {
+    const m = titulo.match(/Iniciativa\s+([\w-]+)/i);
+    return m ? m[1] : null;
+}
+function renderLey(ley, busqueda) {
     const wrap = el("div", "ley");
     wrap.append(el("p", "ley-titulo", ley.titulo));
     wrap.append(el("span", "ley-estado estado-" + ley.estado, estadoLabel[ley.estado] || ley.estado));
@@ -124,6 +131,20 @@ function renderLey(ley) {
     }
     else {
         det.append(el("p", "nota-fuente", "Voto de cada legislador: el Senado aún no lo hace público."));
+    }
+    // Link to the official search system (5ª sugerencia de un usuario real,
+    // Ángel). No stable per-bill URL exists, so we link the chamber's official
+    // initiatives page and, when the title carries the initiative number, name it.
+    const url = ley.camara ? busqueda === null || busqueda === void 0 ? void 0 : busqueda.camara : busqueda === null || busqueda === void 0 ? void 0 : busqueda.senado;
+    if (url) {
+        const num = numeroIniciativa(ley.titulo);
+        const sistema = ley.camara ? "el SIL de la Cámara" : "el sistema del Senado";
+        const texto = num
+            ? "📄 Búscala en el sistema oficial: iniciativa " + num
+            : "📄 Búscala en " + sistema + " (sistema oficial)";
+        const a = enlaceDoc(url, texto);
+        if (a)
+            det.append(a);
     }
     wrap.append(det);
     // Keyboard accessible: behave like an expandable button.

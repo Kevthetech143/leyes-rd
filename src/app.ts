@@ -29,8 +29,17 @@ interface Sector {
   leyes: Ley[];
 }
 
+// Official "search system" URLs, one per chamber. There is no stable public
+// per-bill URL (the Senate's old system is login-walled and the Cámara SIL is a
+// single-page app), so each bill links to its chamber's official initiatives
+// page with honest wording (5ª sugerencia de un usuario real, Ángel).
+interface BusquedaOficial {
+  senado?: string;
+  camara?: string;
+}
 interface LeyesData {
   sectores: Sector[];
+  busqueda_oficial?: BusquedaOficial;
 }
 
 // --- Leyes que entran en vigencia (4ª sugerencia de un usuario real) ---
@@ -239,7 +248,7 @@ function renderLeyes(data: LeyesData): void {
     const body = el("div", "sector-body");
     body.style.display = "none";
 
-    sec.leyes.forEach((ley) => body.append(renderLey(ley)));
+    sec.leyes.forEach((ley) => body.append(renderLey(ley, data.busqueda_oficial)));
 
     // Keyboard accessible: behave like an expandable button.
     head.setAttribute("role", "button");
@@ -260,7 +269,15 @@ function renderLeyes(data: LeyesData): void {
   });
 }
 
-function renderLey(ley: Ley): HTMLElement {
+// Pulls the initiative number out of a bill title when present, e.g.
+// "...(Iniciativa 04789-2024-2028-CD)" -> "04789-2024-2028-CD". Returns null
+// when the title carries no number (most Senate bills in our data don't).
+function numeroIniciativa(titulo: string): string | null {
+  const m = titulo.match(/Iniciativa\s+([\w-]+)/i);
+  return m ? m[1] : null;
+}
+
+function renderLey(ley: Ley, busqueda?: BusquedaOficial): HTMLElement {
   const wrap = el("div", "ley");
   wrap.append(el("p", "ley-titulo", ley.titulo));
   wrap.append(el("span", "ley-estado estado-" + ley.estado, estadoLabel[ley.estado] || ley.estado));
@@ -299,6 +316,20 @@ function renderLey(ley: Ley): HTMLElement {
     det.append(votos);
   } else {
     det.append(el("p", "nota-fuente", "Voto de cada legislador: el Senado aún no lo hace público."));
+  }
+
+  // Link to the official search system (5ª sugerencia de un usuario real,
+  // Ángel). No stable per-bill URL exists, so we link the chamber's official
+  // initiatives page and, when the title carries the initiative number, name it.
+  const url = ley.camara ? busqueda?.camara : busqueda?.senado;
+  if (url) {
+    const num = numeroIniciativa(ley.titulo);
+    const sistema = ley.camara ? "el SIL de la Cámara" : "el sistema del Senado";
+    const texto = num
+      ? "📄 Búscala en el sistema oficial: iniciativa " + num
+      : "📄 Búscala en " + sistema + " (sistema oficial)";
+    const a = enlaceDoc(url, texto);
+    if (a) det.append(a);
   }
 
   wrap.append(det);
