@@ -1,0 +1,30 @@
+name: "💡 Tengo una sugerencia"
+description: "Una idea para mejorar el sitio o explicar algo más fácil."
+title: "💡 Sugerencia: "
+labels: ["sugerencia"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Muchas de las mejores mejoras del sitio nacieron de ideas de gente como tú. Cuéntanos la tuya.
+  - type: textarea
+    id: idea
+    attributes:
+      label: "¿Cuál es tu idea?"
+      placeholder: "Me gustaría que el sitio…"
+    validations:
+      required: true
+  - type: textarea
+    id: porque
+    attributes:
+      label: "¿Por qué ayudaría?"
+      placeholder: "Así la gente entendería mejor…"
+    validations:
+      required: false
+  - type: input
+    id: fuente
+    attributes:
+      label: "El enlace a la fuente oficial (si tu idea trae un dato)"
+      placeholder: "Si tu idea es agregar un dato, pega de dónde sale oficialmente."
+    validations:
+      required: false

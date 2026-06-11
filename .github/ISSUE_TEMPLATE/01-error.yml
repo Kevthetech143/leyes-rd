@@ -1,0 +1,38 @@
+name: "🐛 Vi un error"
+description: "Algo en el sitio está mal o no coincide con la fuente oficial."
+title: "🐛 Error: "
+labels: ["error"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Gracias por avisar. Esto nos ayuda a arreglarlo rápido.
+        Recuerda la regla del sitio: **sin fuente oficial, no entra.** Si traes el enlace oficial, lo podemos verificar y corregir.
+  - type: input
+    id: pagina
+    attributes:
+      label: "¿En qué página o sección viste el error?"
+      placeholder: "Ej: Provincias, la ficha de Santiago. O pega el enlace."
+    validations:
+      required: true
+  - type: textarea
+    id: dice
+    attributes:
+      label: "¿Qué dice el sitio ahora?"
+      placeholder: "Copia o describe lo que aparece y que crees que está mal."
+    validations:
+      required: true
+  - type: textarea
+    id: correcto
+    attributes:
+      label: "¿Qué debería decir?"
+      placeholder: "Según la fuente oficial, lo correcto es…"
+    validations:
+      required: true
+  - type: input
+    id: fuente
+    attributes:
+      label: "El enlace a la fuente oficial (si lo tienes)"
+      placeholder: "Ej: el portal del Senado, la JCE, la Gaceta Oficial… pega el enlace."
+    validations:
+      required: false

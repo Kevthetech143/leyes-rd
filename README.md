@@ -1,8 +1,11 @@
-# Leyes RD — Fácil de Entender (v0 prototype)
+# Política Sencilla RD — Fácil de Entender
 
-A free, no-login static website that explains Dominican Republic laws in plain,
-kid-friendly Spanish, grouped by sector, with expandable detail, vote records, and a
-province view of leaders.
+A free, no-login static website that explains Dominican Republic politics — laws,
+provinces, Senate sessions, and public money — in plain, kid-friendly Spanish,
+grouped by sector, with expandable detail, vote records, and a province view of
+leaders.
+
+Live: https://kevthetech143.github.io/leyes-rd/
 
 Built 2026-06-07 by Lawyer (under Kelvin's explicit override).
 
@@ -48,6 +51,16 @@ Open http://127.0.0.1:8765
 5. Optional: real clickable SVG map instead of the province grid.
 
 Spec: 2026-06-07-spec.md
+
+## Cómo colaborar
+
+No necesitas saber programar para aportar — solo traer un dato con su fuente
+oficial. La regla del proyecto es simple: **sin fuente oficial, no entra.** Lee la
+guía completa en [CONTRIBUTING.md](CONTRIBUTING.md): cómo reportar un error, sugerir
+una mejora o traer una nueva fuente de datos, cómo se revisa cada aporte contra
+fuentes oficiales antes de publicarse, y cómo **hacer tu propia copia en vivo del
+sitio** (un fork + GitHub Pages, en minutos) para que esta información nunca dependa
+de un solo sitio.
 
 ## Licencia
 

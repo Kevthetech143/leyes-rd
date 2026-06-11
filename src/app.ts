@@ -58,6 +58,20 @@ interface VigenciaData {
   leyes: VigenciaLey[];
 }
 
+// --- Novedades (FOLLOW, on-site, zero-maintenance) ---
+// The ~5 most recent user-visible improvements, rewritten in kid-simple Spanish.
+// One line per entry + its date. Sourced from docs/CHANGELOG-improvements.md and
+// kept in data/novedades.json; the static RSS feed (docs/novedades.xml) mirrors
+// the same list by hand. Newest first.
+interface Novedad {
+  fecha: string;   // ISO date
+  texto: string;   // one short kid-Spanish line
+}
+interface NovedadesData {
+  _nota?: string;
+  novedades: Novedad[];
+}
+
 // Attendance to plenary sessions, from the Senate's official scanned sheets
 // (senadord.gob.do/asistencia-a-sesiones). presentes/total over the sessions
 // we could read for the current legislature. periodo = covered span.
@@ -386,6 +400,34 @@ function renderVigencia(data: VigenciaData): void {
   setupGlosario();
 }
 
+/* ---------- Novedades (FOLLOW) ---------- */
+// Renders the latest improvements into the #novedadesLista list on Inicio.
+// Each item is one short line + its long-form date. Newest first, capped at 5.
+// Hides the whole block if the data is missing or empty (never an empty card).
+function renderNovedades(data: NovedadesData): void {
+  const host = document.getElementById("novedadesLista");
+  if (!host) return;
+  host.innerHTML = "";
+  const items = (data.novedades || [])
+    .slice()
+    .sort((a, b) => b.fecha.localeCompare(a.fecha))
+    .slice(0, 5);
+  const wrap = host.closest(".novedades");
+  if (!items.length) {
+    if (wrap) wrap.classList.add("hidden");
+    return;
+  }
+  if (wrap) wrap.classList.remove("hidden");
+  items.forEach((n) => {
+    const li = el("li", "novedad");
+    li.append(
+      el("span", "novedad-fecha", fechaLarga(n.fecha)),
+      el("span", "novedad-texto", n.texto)
+    );
+    host.append(li);
+  });
+}
+
 /* ---------- Provincias ---------- */
 // One kid-friendly explanation per ROLE, matched by the start of the cargo.
 // Keeps the language identical for every person with the same job.
@@ -685,7 +727,7 @@ function renderProvincias(data: ProvinciasData): void {
           "p",
           "nota-fuente",
           "Alcaldes: aún por añadir. Estamos completando esta provincia con datos oficiales. " +
-          "¿Conoces a tu alcalde? <a href=\"https://github.com/Kevthetech143/leyes-rd/issues/new\" target=\"_blank\" rel=\"noopener\">Ayúdanos a completarlo</a>."
+          "¿Conoces a tu alcalde? <a href=\"https://github.com/Kevthetech143/leyes-rd/issues/new/choose\" target=\"_blank\" rel=\"noopener\">Ayúdanos a completarlo</a>."
         ));
       }
       // Always explain the town council (regidores) — feedback de un usuario real.
@@ -1361,13 +1403,15 @@ async function init(): Promise<void> {
   setupEscape();
   setupGlosario();
   try {
-    const [leyes, provincias, sesiones, vigencia] = await Promise.all([
+    const [leyes, provincias, sesiones, vigencia, novedades] = await Promise.all([
       cargar<LeyesData>("data/leyes.json"),
       cargar<ProvinciasData>("data/provincias.json"),
       cargar<SesionesData>("data/sesiones.json"),
       cargar<VigenciaData>("data/vigencia.json"),
+      cargar<NovedadesData>("data/novedades.json"),
     ]);
     renderVigencia(vigencia);
+    renderNovedades(novedades);
     renderLeyes(leyes);
     renderProvincias(provincias);
     renderComposicion(provincias);

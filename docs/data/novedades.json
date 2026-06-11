@@ -1,0 +1,25 @@
+{
+  "_nota": "Las mejoras más recientes del sitio, escritas fácil. Una línea por mejora. Cada entrada sale de docs/CHANGELOG-improvements.md, reescrita en español sencillo. Las más nuevas van primero.",
+  "novedades": [
+    {
+      "fecha": "2026-06-11",
+      "texto": "Ahora todas las tarjetas que se abren y cierran se ven igual en todo el sitio, con el color de su sección."
+    },
+    {
+      "fecha": "2026-06-10",
+      "texto": "Nueva sección en Leyes: cuáles leyes nuevas ya mandan y cuáles están por empezar, con su fecha."
+    },
+    {
+      "fecha": "2026-06-10",
+      "texto": "Provincias ya tiene los regidores de todo el país, con nombre y partido, de la lista oficial de la JCE."
+    },
+    {
+      "fecha": "2026-06-10",
+      "texto": "Nuevo bloque que muestra quién controla el Congreso: cuántos asientos tiene cada partido."
+    },
+    {
+      "fecha": "2026-06-10",
+      "texto": "En Dinero, cada cifra del país ahora se compara con el año pasado, para ver si va mejor o peor."
+    }
+  ]
+}
