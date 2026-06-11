@@ -263,6 +263,41 @@ main { max-width: 720px; margin: 0 auto; padding: 0 14px 40px; }
 .proyecto-botones { display: flex; flex-wrap: wrap; gap: 8px; }
 .btn-codigo { background: var(--tinta); }
 .proyecto-ayuda { margin: 12px 0 0; color: var(--gris); font-size: .9rem; }
+.proyecto-gracias { margin-top: 14px; }
+.proyecto-gracias .proyecto-fold-body li { margin: 6px 0; }
+
+/* 🆕 Novedades — Nivel 1 card (white, shadow, rounded, accent top border),
+   collapsed by default. Sits after the Sobre este proyecto card on Inicio.
+   Blue informational accent, matching the proyecto card. */
+.novedades {
+  background: var(--tarjeta); border-radius: 18px; box-shadow: var(--sombra);
+  border-top: 4px solid var(--azul); margin: 14px 0 8px; overflow: hidden;
+}
+.novedades-fold > summary {
+  cursor: pointer; list-style: none; display: flex; align-items: center;
+  gap: 8px; padding: 16px; flex-wrap: wrap;
+}
+.novedades-fold > summary::-webkit-details-marker { display: none; }
+.novedades-titulo { font-size: 1.15rem; font-weight: 800; color: var(--tinta); }
+.novedades-sub { color: var(--gris); font-size: .9rem; }
+.novedades-chev {
+  margin-left: auto; color: var(--azul); font-weight: 800;
+  transition: transform .15s ease;
+}
+.novedades-fold[open] > summary .novedades-chev { transform: rotate(90deg); }
+.novedades-body { padding: 0 16px 16px; }
+.novedades-lista { list-style: none; margin: 0; padding: 0; }
+.novedad {
+  border-left: 3px solid var(--azul); border-radius: 0 8px 8px 0;
+  background: #f7f9ff; padding: 8px 12px; margin: 0 0 8px;
+}
+.novedad-fecha { display: block; font-size: .78rem; color: var(--gris); margin-bottom: 2px; }
+.novedad-texto { display: block; font-size: .95rem; color: var(--tinta); }
+.novedades-rss {
+  margin: 10px 0 0; font-size: .88rem; color: #44506a;
+  background: #eef2ff; border: 1px solid #dbe3ff; border-radius: 12px; padding: 8px 12px;
+}
+.novedades-rss a { color: var(--azul); font-weight: 700; }
 
 .como {
   background: #eef2ff; border: 1px solid #dbe3ff; color: #1c2a5e;

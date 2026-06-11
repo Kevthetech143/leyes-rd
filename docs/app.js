@@ -200,6 +200,33 @@ function renderVigencia(data) {
     // The block just added glossary words and they need tap-to-define wiring.
     setupGlosario();
 }
+/* ---------- Novedades (FOLLOW) ---------- */
+// Renders the latest improvements into the #novedadesLista list on Inicio.
+// Each item is one short line + its long-form date. Newest first, capped at 5.
+// Hides the whole block if the data is missing or empty (never an empty card).
+function renderNovedades(data) {
+    const host = document.getElementById("novedadesLista");
+    if (!host)
+        return;
+    host.innerHTML = "";
+    const items = (data.novedades || [])
+        .slice()
+        .sort((a, b) => b.fecha.localeCompare(a.fecha))
+        .slice(0, 5);
+    const wrap = host.closest(".novedades");
+    if (!items.length) {
+        if (wrap)
+            wrap.classList.add("hidden");
+        return;
+    }
+    if (wrap)
+        wrap.classList.remove("hidden");
+    items.forEach((n) => {
+        const li = el("li", "novedad");
+        li.append(el("span", "novedad-fecha", fechaLarga(n.fecha)), el("span", "novedad-texto", n.texto));
+        host.append(li);
+    });
+}
 /* ---------- Provincias ---------- */
 // One kid-friendly explanation per ROLE, matched by the start of the cargo.
 // Keeps the language identical for every person with the same job.
@@ -452,7 +479,7 @@ function renderProvincias(data) {
             // Honest note when this province's mayors aren't loaded yet.
             if (!grupos["alcalde"]) {
                 perfil.append(el("p", "nota-fuente", "Alcaldes: aún por añadir. Estamos completando esta provincia con datos oficiales. " +
-                    "¿Conoces a tu alcalde? <a href=\"https://github.com/Kevthetech143/leyes-rd/issues/new\" target=\"_blank\" rel=\"noopener\">Ayúdanos a completarlo</a>."));
+                    "¿Conoces a tu alcalde? <a href=\"https://github.com/Kevthetech143/leyes-rd/issues/new/choose\" target=\"_blank\" rel=\"noopener\">Ayúdanos a completarlo</a>."));
             }
             // Always explain the town council (regidores) — feedback de un usuario real.
             perfil.append(renderRegidoresCard(prov));
@@ -1083,13 +1110,15 @@ async function init() {
     setupEscape();
     setupGlosario();
     try {
-        const [leyes, provincias, sesiones, vigencia] = await Promise.all([
+        const [leyes, provincias, sesiones, vigencia, novedades] = await Promise.all([
             cargar("data/leyes.json"),
             cargar("data/provincias.json"),
             cargar("data/sesiones.json"),
             cargar("data/vigencia.json"),
+            cargar("data/novedades.json"),
         ]);
         renderVigencia(vigencia);
+        renderNovedades(novedades);
         renderLeyes(leyes);
         renderProvincias(provincias);
         renderComposicion(provincias);
