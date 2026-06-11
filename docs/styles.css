@@ -446,6 +446,26 @@ main { max-width: 720px; margin: 0 auto; padding: 0 14px 40px; }
 .ley-detalle h4 { margin: 12px 0 4px; font-size: .95rem; color: var(--azul); }
 .ley-detalle p { margin: 0; }
 .nota-fuente { margin-top: 10px; font-size: .85rem; color: var(--gris); font-style: italic; }
+
+/* "Ver el documento oficial" — one small, consistent link line on info items.
+   Nivel-2 lightweight: not a button, just a tappable line with the document
+   emoji. It inherits each section's accent color (--enlace-acc, set per area;
+   falls back to the site blue), so it recolors to match Leyes/Sesiones/Dinero/
+   Provincias automatically. Nace de la 5ª sugerencia de un usuario real (Ángel). */
+.enlace-doc {
+  display: inline-flex; align-items: center; gap: 4px;
+  margin-top: 8px;
+  font-size: .85rem; font-weight: 700; font-style: normal;
+  color: var(--enlace-acc, var(--azul));
+  text-decoration: underline; text-underline-offset: 2px;
+}
+.enlace-doc:hover, .enlace-doc:focus-visible { text-decoration-thickness: 2px; }
+.enlace-doc:focus-visible { outline: 3px solid var(--enlace-acc, var(--azul)); outline-offset: 2px; border-radius: 4px; }
+/* Per-section accent for the doc links, mapped to the existing section tokens. */
+.sec-leyes    { --enlace-acc: var(--leyes); }
+.sec-sesiones { --enlace-acc: var(--sesiones); }
+.sec-dinero   { --enlace-acc: var(--dinero); }
+.sec-mapa, #view-mapa { --enlace-acc: var(--mapa); }
 .te-afecta {
   background: #fff7e6; border-left: 4px solid #f5a623; border-radius: 8px;
   padding: 8px 12px; font-size: .95rem;

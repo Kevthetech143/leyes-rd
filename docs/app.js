@@ -29,6 +29,23 @@ function byId(id) {
         throw new Error("Falta el elemento #" + id);
     return n;
 }
+// One consistent "official document" link line, used across the whole site
+// (5ª sugerencia de un usuario real, Ángel). Returns an <a> that opens the
+// official source in a new tab, safely (rel="noopener"). texto is the visible
+// label, e.g. "📄 Leer la ley completa" or "📄 Ver el documento oficial".
+// Returns null when there is no url, so callers can skip it cleanly.
+function enlaceDoc(url, texto) {
+    if (!url)
+        return null;
+    const a = el("a", "enlace-doc");
+    a.href = url;
+    a.target = "_blank";
+    a.rel = "noopener";
+    a.textContent = texto;
+    // Don't let a tap on the link also toggle the surrounding collapsible card.
+    a.addEventListener("click", (e) => e.stopPropagation());
+    return a;
+}
 /* ---------- Leyes ---------- */
 function renderLeyes(data) {
     const cont = byId("sectores");
@@ -133,6 +150,19 @@ function renderVigenciaLey(ley) {
         "</b> y se publicó en la Gaceta Oficial " +
         (/^\d+$/.test(ley.gaceta) ? "núm. <b>" + ley.gaceta + "</b>" : "(" + ley.gaceta + ")") + "."));
     det.append(el("p", "nota-fuente", "Fuente: " + ley.fuente + "."));
+    // Official-document deep link (5ª sugerencia de un usuario real, Ángel).
+    // A direct link to the full law text when we have a verified PDF; otherwise
+    // an honest line pointing to the official portal to look it up by number.
+    if (ley.url_documento) {
+        const a = enlaceDoc(ley.url_documento, "📄 Leer la ley completa (documento oficial)");
+        if (a)
+            det.append(a);
+    }
+    else if (ley.url_busqueda) {
+        const a = enlaceDoc(ley.url_busqueda, "📄 Búscala en el portal oficial: Ley " + ley.numero);
+        if (a)
+            det.append(a);
+    }
     card.append(det);
     return card;
 }
