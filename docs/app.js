@@ -9,8 +9,14 @@ const estadoLabel = {
 };
 const votoLabel = { si: "👍 Sí", no: "👎 No", ausente: "➖ Ausente" };
 const votoClass = { si: "voto-si", no: "voto-no", ausente: "voto-aus" };
+// Bumped with every data/content change, same value as the index.html
+// cache-buster (?v=...). Appended to every data fetch so returning visitors
+// don't render stale JSON from the browser's HTTP cache when only the data
+// changed (the data files are not versioned in the HTML).
+const DATA_VERSION = "20260611f";
 async function cargar(path) {
-    const res = await fetch(path);
+    const sep = path.indexOf("?") >= 0 ? "&" : "?";
+    const res = await fetch(path + sep + "v=" + DATA_VERSION);
     if (!res.ok)
         throw new Error("No se pudo cargar " + path);
     return (await res.json());
