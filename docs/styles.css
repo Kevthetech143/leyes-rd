@@ -913,13 +913,21 @@ main { max-width: 720px; margin: 0 auto; padding: 0 14px 40px; }
 /* ---------- Leyes que entran en vigencia (4ª sugerencia de un usuario real) ---------- */
 .vigencia { margin: 4px 0 16px; }
 .vig-intro { margin-top: 0; }
+/* Each vigencia group is a collapsible card in the Leyes purple, matching the
+   role drop-downs in Provincias (title + count, tap to open). */
 .vig-grupo { margin: 14px 0 4px; }
-.vig-grupo-titulo {
-  margin: 0 0 2px; font-size: 1.04rem; font-weight: 800; color: var(--leyes);
-}
-.vig-grupo-sub { margin: 0 0 10px; font-size: .86rem; color: var(--gris); }
-/* "Entran pronto" reads as the call-to-action: a warm amber rail. */
-.vig-grupo-pronto .vig-grupo-titulo { color: #8a5800; }
+.vig-cab { background: var(--leyes-bg); }
+.vig-grupo .grupo-nombre { color: var(--leyes); }
+.vig-grupo .grupo-conteo { color: var(--leyes); border-color: var(--leyes); }
+.vig-grupo .grupo-chev { color: var(--leyes); }
+.vig-grupo-sub { margin: 8px 14px 6px; font-size: .86rem; color: var(--gris); }
+.vig-grupo > .vig-ley { margin-left: 10px; margin-right: 10px; }
+/* "Entran pronto" reads as the call-to-action: a warm amber header. */
+.vig-grupo-pronto .vig-cab { background: #fff1d6; }
+.vig-grupo-pronto .grupo-nombre,
+.vig-grupo-pronto .grupo-conteo,
+.vig-grupo-pronto .grupo-chev { color: #8a5800; }
+.vig-grupo-pronto .grupo-conteo { border-color: #8a5800; }
 
 .vig-ley {
   background: #fff; border: 1px solid #e6e9ef; border-radius: var(--radio-md);

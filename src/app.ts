@@ -338,10 +338,18 @@ function renderVigencia(data: VigenciaData): void {
   // Group "Entran pronto" goes first — it answers the user's exact question
   // ("¿qué reglas nuevas están por empezar a aplicarme?"); already-in-force
   // laws follow as recent context.
+  // Each group folds into a collapsible card (Kelvin: same drop-down flow as
+  // the role cards) — title + count visible, tap to see the laws.
   const grupo = (titulo: string, sub: string, arr: VigenciaLey[], cls: string): void => {
     if (!arr.length) return;
-    const wrap = el("div", "vig-grupo " + cls);
-    wrap.append(el("h3", "vig-grupo-titulo", titulo));
+    const wrap = el("details", "grupo-cargo vig-grupo " + cls);
+    const cab = el("summary", "grupo-cab vig-cab");
+    cab.append(
+      el("span", "grupo-nombre", titulo),
+      el("span", "grupo-conteo", arr.length === 1 ? "1 ley" : arr.length + " leyes"),
+      el("span", "grupo-chev", "▸")
+    );
+    wrap.append(cab);
     wrap.append(el("p", "vig-grupo-sub", sub));
     // Newest entry-into-force first within each group.
     const ordenadas = [...arr].sort((a, b) => b.vigencia_fecha.localeCompare(a.vigencia_fecha));
