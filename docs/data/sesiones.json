@@ -1,9 +1,10 @@
 {
- "_nota": "Resultados de sesiones del Senado (actas oficiales, senadord.gob.do). Solo totales y asistencia; el voto por senador no es público. \"Ausentes\" lista a los senadores que presentaron excusa segun el acta; el total de presentes no se indica como cifra en el acta narrativa.",
+ "_nota": "Resultados de sesiones del Senado (actas oficiales, senadord.gob.do). Solo totales y asistencia; el voto por senador no es público. \"Ausentes\" lista a los senadores que presentaron excusa segun el acta; el total de presentes no se indica como cifra en el acta narrativa. ENLACE AL ACTA OFICIAL (5ª sugerencia de un usuario real, Ángel): cada sesión lleva 'url_acta', el enlace directo al PDF del acta publicada en la pagina oficial de actas del Senado (senadord.gob.do/actas-de-sesiones/). Verificados con HTTP 200 (application/pdf) el 2026-06-11.",
  "sesiones": [
   {
    "acta": "0106",
    "fecha": "2026-04-15",
+   "url_acta": "https://www.senadord.gob.do/Descargas/1387/actas-de-sesiones/56401/acta-num-0106-de-fecha-15-de-abril-2026",
    "votaciones": [
     {
      "iniciativa": "00636-2025",
@@ -172,6 +173,7 @@
   {
    "acta": "0105",
    "fecha": "2026-03-24",
+   "url_acta": "https://www.senadord.gob.do/Descargas/1387/actas-de-sesiones/56400/acta-num-0105-de-fecha-24-de-marzo-2026",
    "votaciones": [
     {
      "iniciativa": "01450-2026",
@@ -335,6 +337,7 @@
   {
    "acta": "0104",
    "fecha": "2026-03-18",
+   "url_acta": "https://www.senadord.gob.do/Descargas/1387/actas-de-sesiones/55991/acta-num-0104-de-fecha-18-de-marzo-2026",
    "votaciones": [
     {
      "iniciativa": "01291-2026",

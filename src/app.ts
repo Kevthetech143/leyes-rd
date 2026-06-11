@@ -158,6 +158,10 @@ interface Sesion {
   fecha: string;
   votaciones: Votacion[];
   asistencia: Asistencia;
+  // Direct link to the official acta PDF on the Senate site (5ª sugerencia de
+  // un usuario real, Ángel). Optional so sessions without a recoverable PDF
+  // render unchanged.
+  url_acta?: string;
 }
 
 interface SesionesData {
@@ -207,6 +211,16 @@ function enlaceDoc(url: string | undefined, texto: string): HTMLAnchorElement | 
   // Don't let a tap on the link also toggle the surrounding collapsible card.
   a.addEventListener("click", (e: Event) => e.stopPropagation());
   return a;
+}
+
+// Some source strings carry their URL inline as a trailing "(https://...)",
+// e.g. the JCE regidores source. This splits that into the descriptive text
+// (without the URL) and the bare URL, so the text reads clean and the URL can
+// render as a real link. Returns url=null when the string has no trailing URL.
+function partirFuenteUrl(fuente: string): { texto: string; url: string | null } {
+  const m = fuente.match(/^(.*?)\s*\((https?:\/\/[^\s)]+)\)\s*$/);
+  if (m) return { texto: m[1].trim(), url: m[2] };
+  return { texto: fuente, url: null };
 }
 
 /* ---------- Leyes ---------- */
@@ -676,13 +690,24 @@ function renderRegidoresBody(prov: Provincia): HTMLElement {
     "Cada municipio elige varios por voto, según cuánta gente vive en él.";
 
   const r = prov.regidores;
+  // When the source string carries its URL inline (JCE), keep the descriptive
+  // text here and render the URL as a tappable link below (5ª sugerencia de un
+  // usuario real, Ángel).
+  let fuenteTotalLink: HTMLAnchorElement | null = null;
   if (r && typeof r.total === "number") {
+    let textoFuente = r.fuente_total || "";
+    if (r.fuente_total) {
+      const partida = partirFuenteUrl(r.fuente_total);
+      textoFuente = partida.texto;
+      fuenteTotalLink = enlaceDoc(partida.url || undefined, "📄 Ver la lista oficial (JCE)");
+    }
     html += "<br><br>En esta provincia hay <b>" + r.total + " regidores</b> en total" +
-      (r.fuente_total ? ", según " + r.fuente_total : "") + ".";
+      (textoFuente ? ", según " + textoFuente : "") + ".";
   } else {
     html += "<br><br><span class=\"nota-fuente\">Cuántos hay en total en esta provincia: aún estamos confirmando la cifra con datos oficiales de la JCE.</span>";
   }
   card.innerHTML = html;
+  if (fuenteTotalLink) card.append(fuenteTotalLink);
 
   // Verified names per municipality, when we have them. A municipality's list
   // folds behind a tap so a 30-name council doesn't flood the card.
@@ -698,7 +723,11 @@ function renderRegidoresBody(prov: Provincia): HTMLElement {
         det.append(fila);
       });
       if (m.fuente_lista) {
-        det.append(el("p", "nota-fuente", "Fuente: " + m.fuente_lista + "."));
+        // Render the source text clean and turn its inline URL into a link.
+        const partida = partirFuenteUrl(m.fuente_lista);
+        det.append(el("p", "nota-fuente", "Fuente: " + partida.texto + "."));
+        const a = enlaceDoc(partida.url || undefined, "📄 Ver la lista oficial (JCE)");
+        if (a) det.append(a);
       }
       card.append(det);
     });
@@ -1071,6 +1100,10 @@ function renderSesiones(data: SesionesData): void {
     }
     asistWrap.append(body);
     card.append(asistWrap);
+
+    // Link to the official acta PDF (5ª sugerencia de un usuario real, Ángel).
+    const aActa = enlaceDoc(ses.url_acta, "📄 Ver el acta oficial (PDF)");
+    if (aActa) card.append(aActa);
 
     cont.append(card);
   });
