@@ -95,6 +95,16 @@ main { max-width: 720px; margin: 0 auto; padding: 0 14px 40px; }
 }
 .hero-titulo { margin: 0 0 8px; font-size: 1.7rem; font-weight: 800; line-height: 1.2; }
 .hero-sub { margin: 0 auto; max-width: 460px; color: #44506a; font-size: 1.02rem; }
+/* Secondary hero action — soft-tinted, outlined, modest. Leads to the dedicated
+   "Sobre este proyecto" view without competing with the journey cards. */
+.hero-proyecto-btn {
+  display: inline-block; margin: 14px auto 0; cursor: pointer; font: inherit;
+  font-weight: 700; font-size: .9rem; color: var(--azul);
+  background: #eef2ff; border: 1px solid #cdd9ff;
+  padding: 9px 16px; border-radius: 999px;
+}
+.hero-proyecto-btn:active { transform: scale(.97); }
+.hero-proyecto-btn:focus-visible { outline: 3px solid var(--azul); outline-offset: 2px; }
 
 /* ---------- Hero "¿Sabías que...?" carousel ---------- */
 /* One real fact at a time, one button into its section. Reuses card shadow,
@@ -265,6 +275,20 @@ main { max-width: 720px; margin: 0 auto; padding: 0 14px 40px; }
 .proyecto-ayuda { margin: 12px 0 0; color: var(--gris); font-size: .9rem; }
 .proyecto-gracias { margin-top: 14px; }
 .proyecto-gracias .proyecto-fold-body li { margin: 6px 0; }
+
+/* 📖 Sobre este proyecto — dedicated view (view-proyecto). No tab in the nav;
+   reached only from the hero button. Blue accent on its header to match the
+   project card. "← Volver al inicio" buttons top and bottom. */
+.sec-proyecto .seccion-titulo { color: var(--azul); }
+.volver-btn {
+  display: inline-flex; align-items: center; cursor: pointer; font: inherit;
+  font-weight: 700; font-size: .92rem; color: var(--azul);
+  background: #eef2ff; border: 1px solid #cdd9ff;
+  padding: 9px 16px; border-radius: 999px; margin: 14px 0 6px;
+}
+.volver-btn:active { transform: scale(.97); }
+.volver-btn:focus-visible { outline: 3px solid var(--azul); outline-offset: 2px; }
+.volver-btn-pie { margin: 16px 0 8px; }
 
 /* 🆕 Novedades — Nivel 1 card (white, shadow, rounded, accent top border),
    collapsed by default. Sits after the Sobre este proyecto card on Inicio.

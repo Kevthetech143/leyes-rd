@@ -806,6 +806,12 @@ const VISTAS = {
     mapa: "view-mapa",
     sesiones: "view-sesiones",
     dinero: "view-dinero",
+    // "proyecto" has no tab in the nav. It's reachable only from the hero
+    // button. When it's the active view, no tab matches in mostrarVista, so no
+    // tab is highlighted — which is what we want. Tapping any real tab leaves
+    // this view cleanly because the tab handler calls mostrarVista with its own
+    // view name, hiding view-proyecto like any other section.
+    proyecto: "view-proyecto",
 };
 function mostrarVista(view) {
     // Show only the requested section, hide the rest.
