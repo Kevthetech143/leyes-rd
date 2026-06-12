@@ -699,6 +699,54 @@ function iniciales(nombre: string): string {
   return ini.toUpperCase() || "·";
 }
 
+// Official senator portraits from senadord.gob.do (32 verified, fetched
+// 2026-06-12). Keyed by "provincia||nombre" so a name is only matched when the
+// province also lines up — no portrait is shown for a senator we can't verify.
+// Only senators have verified photos; deputies/governors/mayors keep initials.
+// Filenames live in docs/img/senadores/. Manifest of record (name, party,
+// province, source_url, sha256): senado-reader/gallery/gallery.json.
+const RETRATOS_SENADORES: Record<string, string> = {
+  "Distrito Nacional||Omar Leonel Fernández Domínguez": "omar-leonel-fernandez-dominguez.jpg",
+  "Azua||Lía Ynocencia Díaz Santana": "lia-ynocencia-diaz-santana.jpg",
+  "Bahoruco||Andrés Guillermo Lama Pérez": "andres-guillermo-lama-perez.jpg",
+  "Barahona||Moisés Ayala Pérez": "moises-ayala-perez.jpg",
+  "Dajabón||Manuel María Rodríguez Ortega": "manuel-maria-rodriguez-ortega.jpg",
+  "Duarte||Franklin Martín Romero Morillo": "franklin-martin-romero-morillo.jpg",
+  "El Seibo||Santiago José Zorrilla": "santiago-jose-zorrilla.jpg",
+  "Elías Piña||Jonhson Encarnación Díaz": "jonhson-encarnacion-diaz.jpg",
+  "Espaillat||Carlos Manuel Gómez Ureña": "carlos-manuel-gomez-urena.jpg",
+  "Hato Mayor||Cristóbal Venerado Castillo": "cristobal-venerado-castillo.jpg",
+  "Hermanas Mirabal||María Mercedes Ortiz Diloné": "maria-mercedes-ortiz-dilone.jpg",
+  "Independencia||Dagoberto Rodríguez Adames": "dagoberto-rodriguez-adames.jpg",
+  "La Altagracia||Rafael Barón Duluc Rijo": "rafael-baron-duluc-rijo.jpg",
+  "La Romana||Eduard Alexis Espiritusanto Castillo": "eduard-alexis-espiritusanto-castillo.jpg",
+  "La Vega||Ramón Rogelio Genao Durán": "ramon-rogelio-genao-duran.jpg",
+  "María Trinidad Sánchez||Alexis Victoria Yeb": "alexis-victoria-yeb.jpg",
+  "Monseñor Nouel||Héctor E. Acosta": "hector-e-acosta.jpg",
+  "Monte Cristi||Bernardo Alemán Rodríguez": "bernardo-aleman-rodriguez.jpg",
+  "Monte Plata||Pedro Antonio Tineo Núñez": "pedro-antonio-tineo-nunez.jpg",
+  "Pedernales||Secundino Velázquez Pimentel": "secundino-velazquez-pimentel.jpg",
+  "Peravia||Julito Fulcar Encarnación": "julito-fulcar-encarnacion.jpg",
+  "Puerto Plata||Ginnette Altagracia Bournigal": "ginnette-altagracia-bournigal.jpg",
+  "Samaná||Pedro Catrain Bonilla": "pedro-catrain-bonilla.jpg",
+  "San Cristóbal||Gustavo Lara Salazar": "gustavo-lara-salazar.jpg",
+  "San José de Ocoa||Aneudy Ortiz Sajiun": "aneudy-ortiz-sajiun.jpg",
+  "San Juan||Félix Bautista Rosario": "felix-bautista-rosario.jpg",
+  "San Pedro de Macorís||Aracelis Villanueva": "aracelis-villanueva.jpg",
+  "Sánchez Ramírez||Ricardo De Los Santos": "ricardo-de-los-santos.jpg",
+  "Santiago||Daniel Enrique De Jesús Rivera Reyes": "daniel-enrique-de-jesus-rivera-reyes.jpg",
+  "Santiago Rodríguez||Casimiro Antonio Marte Familia": "casimiro-antonio-marte-familia.jpg",
+  "Santo Domingo||Antonio M. Taveras Guzmán": "antonio-m-taveras-guzman.jpg",
+  "Valverde||Odalís Rafael Rodríguez Rodríguez": "odalis-rafael-rodriguez-rodriguez.jpg",
+};
+
+// Returns the portrait filename for a senator, or null when we have no verified
+// photo for that exact person in that exact province. Only senators qualify.
+function retratoSenador(provincia: string, l: Lider): string | null {
+  if (!l.cargo.toLowerCase().startsWith("senador")) return null;
+  return RETRATOS_SENADORES[provincia + "||" + l.nombre] || null;
+}
+
 const ORDEN_GRUPOS = ["senador", "diputad", "gobernador", "alcalde", "director", "regidor", "otros"];
 const ETIQUETA_GRUPO: Record<string, string> = {
   senador: "Senador/a",
@@ -714,10 +762,30 @@ function grupoDeCargo(cargo: string): string {
   return ORDEN_GRUPOS.find((k) => k !== "otros" && c.startsWith(k)) || "otros";
 }
 
-function renderLider(l: Lider): HTMLElement {
+function renderLider(l: Lider, provincia: string): HTMLElement {
   const block = el("div", "lider");
   const cab = el("div", "lider-cab");
-  cab.append(el("span", "avatar", iniciales(l.nombre)));
+  // Senators with a verified official portrait show the photo; everyone else
+  // (and any senator we couldn't match) keeps the initials circle.
+  const retrato = retratoSenador(provincia, l);
+  if (retrato) {
+    const img = el("img", "avatar avatar-foto") as HTMLImageElement;
+    img.src = "img/senadores/" + retrato;
+    img.alt = "Retrato oficial de " + l.nombre;
+    img.width = 44;
+    img.height = 44;
+    img.loading = "lazy";
+    img.decoding = "async";
+    // If the file ever fails to load, fall back to the initials circle so the
+    // card never shows a broken-image icon.
+    img.addEventListener("error", () => {
+      const fb = el("span", "avatar", iniciales(l.nombre));
+      img.replaceWith(fb);
+    });
+    cab.append(img);
+  } else {
+    cab.append(el("span", "avatar", iniciales(l.nombre)));
+  }
   const ident = el("div", "lider-ident");
   ident.append(el("p", "lider-nombre", "<b>" + l.nombre + "</b><span class='partido-chip'>" + l.partido + "</span>"));
   ident.append(el("p", "lider-cargo", l.cargo));
@@ -934,7 +1002,7 @@ function renderProvincias(data: ProvinciasData): void {
           el("span", "grupo-chev", "▸")
         );
         grupoCard.append(cab);
-        arr.forEach((l) => grupoCard.append(renderLider(l)));
+        arr.forEach((l) => grupoCard.append(renderLider(l, prov.nombre)));
         perfil.append(grupoCard);
       });
       // Honest note when this province's mayors aren't loaded yet.

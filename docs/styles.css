@@ -547,6 +547,13 @@ main { max-width: 720px; margin: 0 auto; padding: 0 14px 40px; }
   display: flex; align-items: center; justify-content: center;
   font-weight: 800; font-size: 1rem;
 }
+/* Official senator portrait: same 44px round footprint as the initials circle.
+   object-fit keeps faces undistorted (sources are 400x372 or 300x450). */
+.avatar-foto {
+  object-fit: cover; object-position: center top;
+  background: #e9eef5;
+  border: 1px solid rgba(0,0,0,.06);
+}
 .lider-ident { display: flex; flex-direction: column; }
 .lider-nombre { margin: 0; }
 .lider-dato { margin: 8px 0 0; font-size: .88rem; color: var(--tinta); }
