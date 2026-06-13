@@ -14,9 +14,13 @@ HONESTY RULES (same as the rest of the site):
   are skipped rather than shown with a garbage title.
 - Totals come from counting the real roll for that session+bill, not from a
   precomputed field, so the number always matches the names listed below it.
-- Dates are NOT derivable: the vote-file "session" code is a board/session index
-  that does not line up with the public acta numbers in sesiones.json. So the
-  session number itself is used as the label, and the view says so honestly.
+- Dates come from the Senate sessions ledger (sessions-ledger.md), which maps
+  each session code to the real DATE of that plenary video on @SenadoRD. The
+  ledger is the source of truth; this script reads it and stamps each session's
+  "fecha" with the real ISO date. A session code with no ledger match keeps the
+  code as its fecha (so we never invent a date) — in practice all current codes
+  map. The map is parsed live from the ledger, with an inline fallback (built
+  from that same ledger) so the build still works if the ledger file moves.
 - Chamber of Deputies has no data yet -> emitted as an empty list placeholder.
 
 Source datasets live in the sibling politica-sencilla-rd repo (NOT in this repo):
@@ -25,6 +29,7 @@ Source datasets live in the sibling politica-sencilla-rd repo (NOT in this repo)
 """
 import json
 import os
+import re
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 REPO = os.path.dirname(HERE)  # dr-laws-site
@@ -38,10 +43,57 @@ DATASET = os.path.normpath(
 VOTES_PATH = os.path.join(DATASET, "clean_votes_refreshed.json")
 BILLS_PATH = os.path.join(DATASET, "bills.json")
 BILLS_REFRESHED_PATH = os.path.join(DATASET, "bills_refreshed.json")
+# The sessions ledger sits one level above the dataset folder in the same
+# sibling repo. It is the source of truth for session-code -> real DATE.
+LEDGER_PATH = os.path.normpath(os.path.join(DATASET, "..", "sessions-ledger.md"))
 OUT_PATH = os.path.join(REPO, "docs", "data", "votos_por_sesion.json")
 
 # Raw vote tokens -> the three plain values the front-end renders.
 VOTO_MAP = {"SI": "si", "NO": "no", "ABSENT": "ausente"}
+
+# Inline fallback session-code -> real ISO date, transcribed from
+# sessions-ledger.md (the YouTube @SenadoRD streams table). Used only if the
+# ledger file can't be read; the live parse below is preferred. Covers every
+# session code the site currently renders.
+SESSION_DATES_FALLBACK = {
+    "0116": "2026-06-12", "0115": "2026-06-10", "0114": "2026-06-02",
+    "0113": "2026-05-27", "0112": "2026-05-18", "0111": "2026-05-13",
+    "0110": "2026-05-06", "0109": "2026-04-29", "0108": "2026-04-23",
+    "0107": "2026-04-21", "0106": "2026-04-15", "0105": "2026-03-24",
+    "0104": "2026-03-18", "0103": "2026-03-11", "0102": "2026-03-04",
+    "0099": "2026-01-10", "0097": "2026-01-08", "0095": "2025-12-18",
+    "0093": "2025-12-16", "0092": "2025-12-09",
+}
+
+# Matches one ledger table row and pulls the session code (col 2) and the ISO
+# date (col 3, e.g. "2026-06-12 Fri"). Example row:
+#   | 1 | 0116 | 2026-06-12 Fri | 0h53m | MCxWyirFmoM | pending | queued | ...
+LEDGER_ROW = re.compile(
+    r"^\|\s*\d+\s*\|\s*(\d{3,4})\s*\|\s*(\d{4}-\d{2}-\d{2})\b"
+)
+
+
+def load_session_dates() -> dict:
+    """Return {session_code: ISO_date} parsed from the ledger.
+
+    The ledger (sessions-ledger.md) is the source of truth. If it can't be read
+    for any reason, fall back to the inline transcription above so the build
+    never breaks. Never invents a date — a code missing from both simply isn't
+    in the map, and the caller keeps the code as the fecha.
+    """
+    try:
+        with open(LEDGER_PATH, encoding="utf-8") as f:
+            text = f.read()
+    except OSError:
+        return dict(SESSION_DATES_FALLBACK)
+
+    dates = {}
+    for line in text.splitlines():
+        m = LEDGER_ROW.match(line)
+        if m:
+            dates[m.group(1)] = m.group(2)
+    # If parsing somehow found nothing, fall back rather than blank every date.
+    return dates or dict(SESSION_DATES_FALLBACK)
 
 
 def main() -> None:
@@ -53,6 +105,9 @@ def main() -> None:
     # id overlap so a hand-verified entry is never clobbered).
     with open(BILLS_REFRESHED_PATH, encoding="utf-8") as f:
         bills_refreshed = json.load(f)
+
+    # Session-code -> real ISO date, from the ledger (source of truth).
+    session_dates = load_session_dates()
 
     # Plain-language explanation per bill id (only real, verified bills).
     bmap = {b["id"]: b for b in bills_refreshed if b.get("id")}
@@ -109,7 +164,9 @@ def main() -> None:
             continue
         senado.append({
             "numero": ses,
-            "fecha": ses,  # date not derivable; label honestly by session number
+            # Real plenary date from the ledger. Falls back to the session code
+            # only if a code has no ledger match (never an invented date).
+            "fecha": session_dates.get(ses, ses),
             "bills": bills_out,
         })
 
@@ -122,8 +179,10 @@ def main() -> None:
 
     total_bills = sum(len(s["bills"]) for s in senado)
     total_rolls = sum(len(b["roll"]) for s in senado for b in s["bills"])
+    con_fecha = sum(1 for s in senado if s["fecha"] != s["numero"])
     print(f"Wrote {OUT_PATH}")
     print(f"  Senado: {len(senado)} sesiones, {total_bills} bills, {total_rolls} roll rows")
+    print(f"  Fechas reales desde el ledger: {con_fecha}/{len(senado)} sesiones")
 
 
 if __name__ == "__main__":

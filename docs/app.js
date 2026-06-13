@@ -13,7 +13,7 @@ const votoClass = { si: "voto-si", no: "voto-no", ausente: "voto-aus" };
 // cache-buster (?v=...). Appended to every data fetch so returning visitors
 // don't render stale JSON from the browser's HTTP cache when only the data
 // changed (the data files are not versioned in the HTML).
-const DATA_VERSION = "20260613c";
+const DATA_VERSION = "20260613d";
 async function cargar(path) {
     const sep = path.indexOf("?") >= 0 ? "&" : "?";
     const res = await fetch(path + sep + "v=" + DATA_VERSION);
@@ -1176,6 +1176,13 @@ function fechaLarga(iso) {
     const mes = MESES[m] || parts[1];
     return d + " de " + mes + " de " + y;
 }
+// True when a string is a real ISO date ("2026-06-12"), false for the
+// by-session fallback (the session code like "0116"). Lets the by-session view
+// show a friendly date when one exists and fall back to the number otherwise,
+// without ever inventing a date.
+function esFechaIso(s) {
+    return /^\d{4}-\d{2}-\d{2}$/.test(s);
+}
 const estadoAsist = {
     presente: "✅ Presente",
     ausente: "➖ Ausente",
@@ -1317,11 +1324,15 @@ function renderSesionesVotos(data) {
     btnDip.setAttribute("aria-disabled", "true");
     chooser.append(btnSen, btnDip);
     host.append(chooser);
+    // One plain line on each chamber, so the chooser isn't a bare pair of buttons.
+    host.append(el("p", "ses-votos-camaras-nota", "El <b>Senado</b> son los 32 senadores, uno por provincia (y uno por el Distrito Nacional). " +
+        "La <b>Cámara de Diputados</b> es el otro grupo del Congreso, más grande; sus votos los " +
+        "leeremos próximamente."));
     // Honest scope line: these are the recent sessions we've read, not the whole
-    // term, and the date isn't recoverable so we label by session number.
+    // term. Each session now carries its real date (from the Senate sessions
+    // ledger), so we name the session by its date.
     host.append(el("p", "nota-fuente", "Estas son las sesiones recientes que ya leímos, no todo el período. " +
-        "Solo aparecen los proyectos con su explicación verificada. " +
-        "El acta no publica una fecha junto a cada votación, así que cada sesión se identifica por su número."));
+        "Solo aparecen los proyectos con su explicación verificada."));
     // Senado panel: one collapsible card per session, newest first (data already
     // arrives newest-first). Only the first session starts open.
     const panelSen = el("div", "ses-votos-panel");
@@ -1332,14 +1343,32 @@ function renderSesionesVotos(data) {
         if (idx === 0)
             sCard.open = true;
         const sCab = el("summary", "grupo-cab");
-        sCab.append(el("span", "grupo-nombre", "Sesión " + ses.numero), el("span", "grupo-conteo", ses.bills.length + (ses.bills.length === 1 ? " proyecto" : " proyectos")), el("span", "grupo-chev", "▸"));
+        // Header names the session by its real date when we have one ("Sesión del
+        // 16 de diciembre de 2025"), keeping the session number as a small tag.
+        // Sessions whose code has no ledger date fall back to "Sesión <número>".
+        const tieneFecha = esFechaIso(ses.fecha);
+        const nombreSesion = tieneFecha
+            ? "Sesión del " + fechaLarga(ses.fecha)
+            : "Sesión " + ses.numero;
+        const cabNombre = el("span", "grupo-nombre", nombreSesion);
+        if (tieneFecha) {
+            cabNombre.append(el("span", "ses-votos-num", "N.º " + ses.numero));
+        }
+        sCab.append(cabNombre, el("span", "grupo-conteo", ses.bills.length + (ses.bills.length === 1 ? " proyecto" : " proyectos")), el("span", "grupo-chev", "▸"));
         sCard.append(sCab);
+        // Kid-friendly one-liner: what this card is and what to do with it.
+        sCard.append(el("p", "ses-votos-sesion-linea", "Una reunión donde votaron leyes — ábrela para ver qué decidieron ese día."));
         ses.bills.forEach((b) => {
             // Each bill folds open to its explanation and roll. The summary shows the
             // plain title and the Sí/No/Ausente totals as small colored chips.
             const bDet = el("details", "ses-voto-bill");
             const bCab = el("summary", "ses-voto-bill-cab");
-            bCab.append(el("span", "ses-voto-bill-titulo", b.titulo));
+            // Tiny "La ley" label above the title so the fold reads as a small lesson:
+            // La ley → ¿Qué es? → ¿Y a mí qué? → cómo votó cada senador.
+            const tituloWrap = el("span", "ses-voto-bill-titulo");
+            tituloWrap.append(el("span", "ses-voto-bill-kicker", "La ley"));
+            tituloWrap.append(el("span", "ses-voto-bill-nombre", b.titulo));
+            bCab.append(tituloWrap);
             const totales = el("span", "ses-voto-totales");
             totales.append(el("span", "ses-total voto-si", "👍 " + b.si), el("span", "ses-total voto-no", "👎 " + b.no), el("span", "ses-total voto-aus", "➖ " + b.ausente));
             bCab.append(totales);
@@ -1371,6 +1400,198 @@ function renderSesionesVotos(data) {
     });
     host.append(panelSen);
     return host;
+}
+/* ---------- El rastro del dinero público (money trails) ---------- */
+// Formats a plain peso amount with thousands separators, e.g. 1059000 ->
+// "RD$1,059,000". Used in the per-province table inside a fund.
+function pesosRD(monto) {
+    return "RD$" + monto.toLocaleString("en-US");
+}
+// Builds the whole "El rastro del dinero público" feature from
+// data/fondos_publicos.json. One card per fund: what it is, how much, an
+// expandable per-province table, who refuses it, the 5-step money chain shown
+// as labeled steps each with a colored transparency badge (🟢/🟡/🔴), and a
+// big verdict badge. Reuses the site's flow-step (.paso) and chip/fold idioms.
+// Returns nothing when there are no funds, leaving the host empty (and the
+// section header without orphaned content). Strictly non-partisan: no
+// name-and-shame gallery; one sourced category-level misuse line at most.
+function renderFondos(data) {
+    const cont = byId("fondos-publicos");
+    cont.innerHTML = "";
+    const fondos = data.fondos || [];
+    if (!fondos.length)
+        return;
+    const leyenda = data.leyenda_estado;
+    // Intro: this is public money that should reach people; here's how far we can
+    // follow it. Kid-Spanish, set in the section accent.
+    cont.append(el("p", "fondos-intro", "Esto es dinero público: <b>tuyo y de todos</b>. Debería llegar a la gente. " +
+        "Aquí seguimos su rastro paso a paso y marcamos cada paso con un semáforo, " +
+        "para que veas <b>hasta dónde se puede mirar</b> y dónde se pierde de vista."));
+    // The 3-state legend, shown once at the top so every badge below reads clear.
+    const leyDiv = el("div", "rastro-leyenda");
+    ["publico", "dificil", "oculto"].forEach((k) => {
+        const li = leyenda[k];
+        if (!li)
+            return;
+        const item = el("span", "rastro-leyenda-item rastro-" + k);
+        item.append(el("span", "rastro-leyenda-emoji", li.emoji), el("span", "rastro-leyenda-txt", "<b>" + li.etiqueta + "</b> — " + li.explica));
+        leyDiv.append(item);
+    });
+    cont.append(leyDiv);
+    fondos.forEach((f) => cont.append(renderFondo(f, leyenda)));
+}
+// Builds one fund card. Split out from renderFondos so adding a second fund is
+// just another array entry — the card markup is shared.
+function renderFondo(f, leyenda) {
+    const card = el("div", "fondo");
+    // Header: popular name big, official name small underneath.
+    const head = el("div", "fondo-head");
+    head.append(el("h4", "fondo-nombre", "💰 " + f.nombre_popular));
+    head.append(el("p", "fondo-oficial", "Nombre oficial: " + f.nombre_oficial));
+    card.append(head);
+    // What it is + who it's for, plain.
+    card.append(el("p", "fondo-quees", f.que_es));
+    if (f.para_quien) {
+        const pq = el("p", "fondo-quees fondo-paraquien");
+        pq.innerHTML = "<b>¿Para quién?</b> " + f.para_quien;
+        card.append(pq);
+    }
+    // The amount, as a small pill row (annual + monthly), with a note.
+    if (f.monto_total) {
+        const montos = el("div", "fondo-montos");
+        if (f.monto_total.anual)
+            montos.append(el("span", "fondo-monto-pill", f.monto_total.anual));
+        if (f.monto_total.mensual)
+            montos.append(el("span", "fondo-monto-pill", f.monto_total.mensual));
+        card.append(montos);
+        if (f.monto_total.nota)
+            card.append(el("p", "nota-fuente", f.monto_total.nota));
+    }
+    // The formula, folded so it doesn't crowd the card.
+    if (f.formula) {
+        const fDet = el("details", "fondo-fold");
+        fDet.append(el("summary", "fondo-fold-cab", "🧮 ¿Cómo se calcula cuánto recibe cada uno?"));
+        const body = el("div", "fondo-fold-body");
+        body.append(el("p", "fondo-formula-regla", f.formula.regla));
+        if (f.formula.minimo) {
+            const mn = el("p", null);
+            mn.innerHTML = "<b>Mínimo:</b> " + f.formula.minimo;
+            body.append(mn);
+        }
+        if (f.formula.tope) {
+            const tp = el("p", null);
+            tp.innerHTML = "<b>Tope:</b> " + f.formula.tope;
+            body.append(tp);
+        }
+        if (f.formula.nota)
+            body.append(el("p", "nota-fuente", f.formula.nota));
+        fDet.append(body);
+        card.append(fDet);
+    }
+    // The per-province table, folded. Each row = province + monthly amount.
+    if (f.tabla_por_provincia && f.tabla_por_provincia.filas.length) {
+        const t = f.tabla_por_provincia;
+        const tDet = el("details", "fondo-fold");
+        const cab = "🗺️ " + (t.titulo || "Cuánto recibe cada provincia") +
+            " <span class=\"fondo-fold-conteo\">" + t.filas.length + " provincias</span>";
+        tDet.append(el("summary", "fondo-fold-cab", cab));
+        const body = el("div", "fondo-fold-body");
+        if (t.mes_referencia) {
+            const mr = el("p", "fondo-tabla-mes");
+            mr.innerHTML = "Montos de <b>" + t.mes_referencia + "</b>" +
+                (t.moneda ? " (" + t.moneda + ")" : "") + ".";
+            body.append(mr);
+        }
+        const tabla = el("div", "fondo-tabla");
+        t.filas.forEach((row) => {
+            const fila = el("div", "fondo-tabla-fila");
+            fila.append(el("span", "fondo-tabla-prov", row.provincia), el("span", "fondo-tabla-monto", pesosRD(row.monto)));
+            tabla.append(fila);
+        });
+        body.append(tabla);
+        if (t.nota)
+            body.append(el("p", "nota-fuente", t.nota));
+        tDet.append(body);
+        card.append(tDet);
+    }
+    // Accepts vs. refuses note (factual, names only those publicly known to
+    // refuse — that is a positive disclosure, not a spending accusation).
+    if (f.quien_lo_rechaza && f.quien_lo_rechaza.nombres.length) {
+        const r = f.quien_lo_rechaza;
+        const box = el("div", "fondo-rechaza");
+        const t = el("b", null, "🙅 " + (r.titulo || "No todos lo aceptan"));
+        box.append(t);
+        box.append(el("p", "fondo-rechaza-nombres", r.nombres.join(" · ")));
+        if (r.nota)
+            box.append(el("p", "nota-fuente", r.nota));
+        card.append(box);
+    }
+    // Legal basis line, when present (the barrilito's "ninguna" is itself a fact).
+    if (f.base_legal) {
+        const bl = el("div", "fondo-legal");
+        bl.innerHTML = "<b>⚖️ ¿Qué ley lo crea?</b> " + f.base_legal;
+        card.append(bl);
+    }
+    // The money chain: a header, then the 5 steps as a flow, each with a badge.
+    card.append(el("h5", "fondo-cadena-titulo", "🔎 El rastro, paso a paso"));
+    const flujo = el("div", "flujo-graf fondo-cadena");
+    f.cadena.forEach((p, i) => {
+        if (i > 0)
+            flujo.append(el("div", "flecha", "↓"));
+        flujo.append(renderFondoPaso(p, i + 1, leyenda));
+    });
+    card.append(flujo);
+    // One sourced, category-level misuse line (no names) — only if present.
+    if (f.mal_uso_documentado) {
+        const mu = el("div", "fondo-maluso");
+        mu.innerHTML = "<b>⚠️ Lo que encontró la prensa:</b> " + f.mal_uso_documentado;
+        card.append(mu);
+    }
+    // The big verdict badge + its plain explanation.
+    const ver = el("div", "fondo-veredicto");
+    ver.append(el("span", "fondo-veredicto-pill", "Veredicto: " + f.veredicto.etiqueta));
+    ver.append(el("p", "fondo-veredicto-txt", f.veredicto.explica));
+    card.append(ver);
+    // Source links at the bottom, folded.
+    if (f.fuentes && f.fuentes.length) {
+        const sDet = el("details", "fuente-fold");
+        sDet.append(el("summary", null, "📚 Ver fuentes"));
+        const ul = el("ul", "fondo-fuentes");
+        f.fuentes.forEach((src) => {
+            const li = el("li", null);
+            const a = el("a", "enlace-doc");
+            a.href = src.url;
+            a.target = "_blank";
+            a.rel = "noopener";
+            a.textContent = src.titulo;
+            a.addEventListener("click", (e) => e.stopPropagation());
+            li.append(a);
+            ul.append(li);
+        });
+        sDet.append(ul);
+        card.append(sDet);
+    }
+    return card;
+}
+// One chain step: number + label + what-happens, plus a colored transparency
+// badge that carries the 🟢/🟡/🔴 legend wording. The .paso class gives it the
+// same flow-step look as the money-journey diagram; the rastro-<estado> class
+// paints the left border to match the badge.
+function renderFondoPaso(p, num, leyenda) {
+    const li = leyenda[p.estado];
+    const paso = el("div", "paso fondo-paso rastro-borde-" + p.estado);
+    paso.append(el("span", "paso-num", String(num)));
+    const txt = el("div", "paso-txt");
+    const titulo = p.subtitulo ? p.paso + " — " + p.subtitulo : p.paso;
+    txt.append(el("b", null, titulo));
+    txt.append(el("span", null, p.que_pasa));
+    // The badge: emoji + label, colored by state.
+    if (li) {
+        const badge = el("span", "rastro-badge rastro-" + p.estado, li.emoji + " " + li.etiqueta);
+        txt.append(badge);
+    }
+    paso.append(txt);
+    return paso;
 }
 /* ---------- Buscadores (search) ---------- */
 // Accent-insensitive, lowercase match so "san cristobal" finds "San Cristóbal".
@@ -1744,7 +1965,7 @@ async function init() {
     setupGlosario();
     setupAvisoBusqueda();
     try {
-        const [leyes, provincias, sesiones, vigencia, novedades, votosPorSesion] = await Promise.all([
+        const [leyes, provincias, sesiones, vigencia, novedades, votosPorSesion, fondos] = await Promise.all([
             cargar("data/leyes.json"),
             cargar("data/provincias.json"),
             cargar("data/sesiones.json"),
@@ -1754,6 +1975,10 @@ async function init() {
             // still renders its attendance/tally cards (the catch below handles a hard
             // failure; a soft null keeps the rest of the page intact).
             cargar("data/votos_por_sesion.json").catch(() => ({})),
+            // Money trails (El rastro del dinero público). Optional, same pattern:
+            // a soft-fail keeps the rest of the Dinero view intact if the file is
+            // missing. renderFondos no-ops when there are no funds or no legend.
+            cargar("data/fondos_publicos.json").catch(() => ({ leyenda_estado: {}, fondos: [] })),
         ]);
         renderVigencia(vigencia);
         renderNovedades(novedades);
@@ -1761,6 +1986,8 @@ async function init() {
         renderProvincias(provincias);
         renderComposicion(provincias);
         renderSesiones(sesiones, votosPorSesion);
+        if (fondos && fondos.leyenda_estado)
+            renderFondos(fondos);
         llenarCifrasHome(leyes, provincias, sesiones);
         setupSabias(leyes, sesiones);
         setupCasoAccordion();

@@ -686,6 +686,23 @@ main { max-width: 720px; margin: 0 auto; padding: 0 14px 40px; }
 .ses-voto-roll[open] > .ses-voto-roll-cab::after { content: "▾"; }
 .ses-voto-roll-voto { flex: none; white-space: nowrap; }
 
+/* One plain line under the chamber chooser saying what each chamber is. */
+.ses-votos-camaras-nota { margin: 2px 0 8px; font-size: .9rem; color: var(--tinta); }
+/* Session number kept as a small tag next to the friendly date header. */
+.ses-votos-num {
+  display: inline-block; margin-left: 8px; font-size: .72rem; font-weight: 700;
+  color: var(--gris); background: var(--sesiones-bg); border-radius: 999px; padding: 1px 8px;
+  vertical-align: middle;
+}
+/* Kid-friendly one-liner under each session header. */
+.ses-votos-sesion-linea { margin: 4px 0 6px; font-size: .88rem; color: var(--gris); }
+/* "La ley" kicker above each bill title, so the fold reads like a tiny lesson. */
+.ses-voto-bill-kicker {
+  display: block; font-size: .68rem; font-weight: 800; letter-spacing: .05em;
+  text-transform: uppercase; color: var(--sesiones);
+}
+.ses-voto-bill-nombre { display: block; }
+
 /* Sesiones */
 .sesion {
   background: var(--tarjeta); border-radius: var(--radio);
@@ -965,6 +982,141 @@ main { max-width: 720px; margin: 0 auto; padding: 0 14px 40px; }
 .arreglo b { display: block; margin-bottom: 6px; }
 .arreglo ul { margin: 0; padding-left: 18px; }
 .arreglo li { margin: 3px 0; font-size: .92rem; }
+
+/* ---------- El rastro del dinero público (money trails) ---------- */
+/* A reusable, data-driven block: one card per public fund, each with its money
+   chain shown as flow steps carrying a 3-state transparency badge, and a final
+   verdict pill. Reuses the Dinero accent + the site's card shadow/radius. */
+.fondos-publicos { margin-top: 8px; }
+.fondos-intro { margin: 0 0 14px; font-size: 1rem; color: var(--tinta); }
+
+/* The 3-state legend, shown once at the top. */
+.rastro-leyenda {
+  display: flex; flex-direction: column; gap: 8px;
+  background: #fff; border: 1px solid #e6e9ef; border-radius: var(--radio-md);
+  box-shadow: var(--sombra); padding: 12px 14px; margin: 0 0 18px;
+}
+.rastro-leyenda-item { display: flex; align-items: flex-start; gap: 8px; font-size: .9rem; }
+.rastro-leyenda-emoji { flex: none; font-size: 1rem; line-height: 1.5; }
+.rastro-leyenda-txt { color: var(--tinta); }
+
+/* One fund card. */
+.fondo {
+  background: var(--tarjeta); border: 1px solid #f0e0cf;
+  border-top: 5px solid var(--dinero);
+  border-radius: var(--radio-lg); box-shadow: var(--sombra);
+  padding: 16px; margin: 0 0 18px;
+}
+.fondo-head { margin-bottom: 8px; }
+.fondo-nombre { margin: 0; font-size: 1.2rem; font-weight: 800; color: var(--dinero); }
+.fondo-oficial { margin: 2px 0 0; font-size: .85rem; color: var(--gris); font-style: italic; }
+.fondo-quees { margin: 8px 0 0; font-size: .98rem; color: var(--tinta); }
+.fondo-paraquien { margin-top: 6px; }
+
+/* Amount pills. */
+.fondo-montos { display: flex; flex-wrap: wrap; gap: 8px; margin: 12px 0 4px; }
+.fondo-monto-pill {
+  background: var(--dinero-bg); color: #9a3b00; font-weight: 800;
+  border: 1px solid #f5c69e; border-radius: 999px; padding: 6px 14px; font-size: .9rem;
+}
+
+/* Folds inside a fund (formula, per-province table, sources) reuse the
+   dato-chip look but go full width. */
+.fondo-fold {
+  background: #fff; border: 1px solid #ecead9; border-radius: var(--radio-sm);
+  margin: 10px 0; padding: 0;
+}
+.fondo-fold-cab {
+  cursor: pointer; list-style: none; font-weight: 700; font-size: .92rem;
+  color: #9a3b00; padding: 12px 14px;
+}
+.fondo-fold-cab::-webkit-details-marker { display: none; }
+.fondo-fold-cab::after { content: "▸"; float: right; color: var(--dinero); font-weight: 700; }
+.fondo-fold[open] > .fondo-fold-cab::after { content: "▾"; }
+.fondo-fold-conteo {
+  background: var(--dinero-bg); color: #9a3b00; font-weight: 700;
+  border-radius: 999px; padding: 1px 9px; font-size: .8rem; margin-left: 6px;
+}
+.fondo-fold-body { padding: 0 14px 12px; }
+.fondo-fold-body p { margin: 6px 0; font-size: .9rem; }
+.fondo-formula-regla { font-weight: 700; color: var(--tinta); }
+.fondo-tabla-mes { color: var(--gris); }
+
+/* Per-province amount table: a tidy two-column list, alternating row tint. */
+.fondo-tabla {
+  display: flex; flex-direction: column;
+  border: 1px solid #f0e6d8; border-radius: var(--radio-sm); overflow: hidden;
+}
+.fondo-tabla-fila {
+  display: flex; justify-content: space-between; align-items: center; gap: 10px;
+  padding: 7px 12px; font-size: .9rem;
+}
+.fondo-tabla-fila:nth-child(odd) { background: #fdf6ee; }
+.fondo-tabla-prov { color: var(--tinta); }
+.fondo-tabla-monto { font-weight: 800; color: #9a3b00; white-space: nowrap; }
+
+/* Accepts-vs-refuses note. */
+.fondo-rechaza {
+  background: #eef6ff; border: 1px solid #cfe0f5; border-radius: var(--radio-md);
+  padding: 12px 14px; margin: 12px 0;
+}
+.fondo-rechaza b { color: #1c3f73; }
+.fondo-rechaza-nombres { margin: 4px 0 0; font-weight: 800; color: #1c3f73; font-size: .95rem; }
+
+/* Legal basis line. */
+.fondo-legal {
+  background: #fbf4ff; border: 1px solid #e7d6f7; border-radius: var(--radio-md);
+  padding: 12px 14px; margin: 12px 0; font-size: .92rem; color: #4a228f;
+}
+.fondo-legal b { color: #4a228f; }
+
+/* The chain: title + flow steps. Reuses .flujo-graf / .paso from the money
+   journey; here each step's left border + badge follow its transparency state. */
+.fondo-cadena-titulo { margin: 16px 0 8px; font-size: 1.05rem; color: var(--dinero); }
+.fondo-cadena .paso { background: #fff; }
+.fondo-paso .paso-num { background: var(--gris); }
+.rastro-borde-publico { border-left-color: #1f9d57 !important; }
+.rastro-borde-publico .paso-num { background: #1f9d57; }
+.rastro-borde-dificil { border-left-color: #c98a00 !important; }
+.rastro-borde-dificil .paso-num { background: #c98a00; }
+.rastro-borde-oculto  { border-left-color: #d33a26 !important; background: #fff5f3; }
+.rastro-borde-oculto .paso-num { background: #d33a26; }
+
+/* The per-step transparency badge. */
+.rastro-badge {
+  align-self: flex-start; margin-top: 6px;
+  font-weight: 800; font-size: .8rem; border-radius: 999px; padding: 3px 11px;
+}
+.rastro-badge.rastro-publico { background: #e2f6ec; color: #136c3c; }
+.rastro-badge.rastro-dificil { background: #fdf0d6; color: #8a5d00; }
+.rastro-badge.rastro-oculto  { background: #fde7e4; color: #b3261e; }
+/* Legend chips echo the same colors. */
+.rastro-leyenda-item.rastro-publico .rastro-leyenda-emoji { color: #1f9d57; }
+.rastro-leyenda-item.rastro-dificil .rastro-leyenda-emoji { color: #c98a00; }
+.rastro-leyenda-item.rastro-oculto  .rastro-leyenda-emoji { color: #d33a26; }
+
+/* Documented-misuse line (category-level, no names). */
+.fondo-maluso {
+  background: #fde7e4; border: 1px solid #f6b8af; border-radius: var(--radio-md);
+  padding: 12px 14px; margin: 14px 0; font-size: .92rem; color: #7a1f15;
+}
+.fondo-maluso b { color: #7a1f15; }
+
+/* The big verdict. */
+.fondo-veredicto {
+  margin: 16px 0 4px; padding: 14px; border-radius: var(--radio-md);
+  background: linear-gradient(135deg, #fff2e8, #ffe0cc); border: 1px solid #f5c69e;
+  text-align: center;
+}
+.fondo-veredicto-pill {
+  display: inline-block; background: #9a3b00; color: #fff; font-weight: 800;
+  border-radius: 999px; padding: 7px 18px; font-size: 1rem;
+}
+.fondo-veredicto-txt { margin: 10px 0 0; font-size: .92rem; color: #7a3a12; }
+
+/* Source list inside the fund's fold. */
+.fondo-fuentes { margin: 6px 0 0; padding-left: 18px; }
+.fondo-fuentes li { margin: 5px 0; font-size: .88rem; }
 
 /* Glosario: tap a dotted word, see its plain meaning */
 .palabra {

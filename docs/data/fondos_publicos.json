@@ -1,0 +1,120 @@
+{
+  "_nota": "El rastro del dinero público — un fondo público por entrada. Diseñado para crecer: para añadir otro fondo, agrega un objeto más al arreglo 'fondos'. Cada hecho viene de una fuente citada en 'fuentes'. Lo que no es público se marca honesto ('no publicado'). Voz: español sencillo, para que un niño lo entienda. No se señala a senadores por nombre con su gasto; el único dato de mal uso va por categoría y con fuente.",
+  "leyenda_estado": {
+    "publico": { "emoji": "🟢", "etiqueta": "Se puede seguir", "explica": "Está publicado: cualquiera lo puede ver." },
+    "dificil": { "emoji": "🟡", "etiqueta": "Difícil: sólo si lo pides", "explica": "No está publicado, pero te lo deben dar si lo solicitas por la Ley 200-04." },
+    "oculto": { "emoji": "🔴", "etiqueta": "Oculto: no se publica", "explica": "No está publicado en ningún lado. No hay forma normal de verlo." }
+  },
+  "fondos": [
+    {
+      "id": "barrilito",
+      "nombre_popular": "El barrilito",
+      "nombre_oficial": "Fondo de Gestión Provincial Senatorial",
+      "que_es": "Es dinero público que cada senador recibe todos los meses para repartir como ayuda social en su provincia. Lo entrega el Senado. No es el sueldo del senador: es otra plata, aparte, que él decide cómo usar.",
+      "para_quien": "Para gente de la provincia que pide ayuda en la oficina del senador: ayudas en efectivo, útiles escolares, gastos de salud, apoyos pequeños. El senador decide a quién y en qué.",
+      "monto_total": {
+        "anual": "Cerca de RD$252.8 millones al año",
+        "mensual": "Cerca de RD$21 millones al mes",
+        "nota": "Es lo que sale del presupuesto para todos los senadores juntos. En 2023 se gastaron más: RD$368.8 millones, contando partidas extra (Día de las Madres, útiles, Navidad)."
+      },
+      "formula": {
+        "regla": "RD$400,000 fijos para cada senador, más RD$1 por cada habitante de su provincia.",
+        "minimo": "Cerca de RD$609,000 al mes (la provincia con menos gente).",
+        "tope": "Cerca de RD$1,059,000 al mes (las provincias con más gente).",
+        "nota": "El tope original era RD$900,000, pero ya se pasó: las provincias grandes cobran más. La cuenta usa la población del censo de 2002."
+      },
+      "tabla_por_provincia": {
+        "titulo": "Cuánto recibe cada provincia al mes",
+        "mes_referencia": "Septiembre de 2020",
+        "nota": "Esta es la tabla más completa que existe, publicada por la prensa (Listín Diario). No es una tabla oficial que el gobierno publique para descargar. Ese mes, dos provincias no cobraron porque sus senadores no lo aceptaron: Santo Domingo y Santiago.",
+        "moneda": "RD$ al mes",
+        "filas": [
+          { "provincia": "Distrito Nacional", "monto": 1059000 },
+          { "provincia": "San Cristóbal", "monto": 1059000 },
+          { "provincia": "La Vega", "monto": 944000 },
+          { "provincia": "Puerto Plata", "monto": 869000 },
+          { "provincia": "San Pedro de Macorís", "monto": 859000 },
+          { "provincia": "Duarte", "monto": 849000 },
+          { "provincia": "San Juan", "monto": 799000 },
+          { "provincia": "Espaillat", "monto": 784000 },
+          { "provincia": "La Romana", "monto": 779000 },
+          { "provincia": "Azua", "monto": 769000 },
+          { "provincia": "Barahona", "monto": 739000 },
+          { "provincia": "La Altagracia", "monto": 739000 },
+          { "provincia": "Monte Plata", "monto": 739000 },
+          { "provincia": "Peravia", "monto": 729000 },
+          { "provincia": "Monseñor Nouel", "monto": 729000 },
+          { "provincia": "Valverde", "monto": 719000 },
+          { "provincia": "Sánchez Ramírez", "monto": 709000 },
+          { "provincia": "María Trinidad Sánchez", "monto": 694000 },
+          { "provincia": "Montecristi", "monto": 669000 },
+          { "provincia": "Hermanas Mirabal", "monto": 654000 },
+          { "provincia": "Hato Mayor", "monto": 649000 },
+          { "provincia": "Bahoruco", "monto": 649000 },
+          { "provincia": "Samaná", "monto": 649000 },
+          { "provincia": "El Seibo", "monto": 629000 },
+          { "provincia": "Pedernales", "monto": 629000 },
+          { "provincia": "Dajabón", "monto": 619000 },
+          { "provincia": "Elías Piña", "monto": 619000 },
+          { "provincia": "Santiago Rodríguez", "monto": 619000 },
+          { "provincia": "San José de Ocoa", "monto": 619000 },
+          { "provincia": "Independencia", "monto": 609000 }
+        ]
+      },
+      "quien_lo_rechaza": {
+        "titulo": "No todos lo aceptan",
+        "nombres": ["Antonio Taveras"],
+        "nota": "Hoy (período 2024–2028) sólo un senador no lo cobra: Antonio Taveras, de Santo Domingo. En el período pasado (2020–2024) lo rechazaban tres: Eduardo Estrella, Antonio Taveras y Faride Raful. Pero Raful pasó a ser ministra y Estrella no volvió al Senado; los senadores que llegaron en su lugar (Omar Fernández y Daniel Rivera) volvieron a cobrarlo. Por eso el total va en subida, hacia unos RD$278 millones al año."
+      },
+      "base_legal": "Ninguna. El Tribunal Constitucional dijo en 2022 que no es ley, ni decreto, ni reglamento, ni resolución: sólo es un fondo del presupuesto que maneja el Senado. Ojo: el Tribunal no dijo si es legal o ilegal — dejó el caso sin juzgar por la forma. Nació en 2006 por decisión interna del Senado.",
+      "mal_uso_documentado": "Investigaciones periodísticas (\"El Informe\" de Alicia Ortega y Diario Libre) mostraron que el dinero no siempre va a ayuda social: también se gastó en publicidad con la cara de los legisladores, en remodelar oficinas, en bebidas alcohólicas y otros gastos. No listamos nombres aquí; lo que está documentado es el tipo de gasto.",
+      "cadena": [
+        {
+          "paso": "Recibido",
+          "subtitulo": "entra al presupuesto del país",
+          "que_pasa": "El dinero se aprueba dentro del presupuesto del Senado. Pero sólo se ve como un total del Senado, no como una línea aparte que diga \"barrilito\".",
+          "estado": "publico"
+        },
+        {
+          "paso": "Entregado a cada senador",
+          "subtitulo": "depósito mensual",
+          "que_pasa": "Cada mes se deposita en la cuenta de cada senador. Cuánto recibe cada uno no se publica: la prensa sólo lo supo pidiéndolo.",
+          "estado": "oculto"
+        },
+        {
+          "paso": "Gastado",
+          "subtitulo": "en qué y a quién",
+          "que_pasa": "El senador decide en qué lo usa y a quién ayuda. No hay un registro público de quién recibió la ayuda.",
+          "estado": "oculto"
+        },
+        {
+          "paso": "Reportado",
+          "subtitulo": "rendición de cuentas",
+          "que_pasa": "El senador debe entregar un reporte de gastos al Senado. Sólo se consigue pidiéndolo de forma formal (Ley 200-04), y la mayoría de senadores no lo cumple. Una excepción: el senador Omar Fernández publica por su cuenta en qué usa el suyo — la prensa lo llamó histórico, justo porque es la excepción, no la regla.",
+          "estado": "dificil"
+        },
+        {
+          "paso": "Auditado",
+          "subtitulo": "revisión independiente",
+          "que_pasa": "La Cámara de Cuentas puede revisarlo de forma independiente. El Senado pasó más de diez años sin una auditoría externa, y el fondo, creado en 2006, nunca ha tenido una auditoría pública. En mayo de 2025 el Senado pidió una por primera vez en más de una década (años 2020–2025), pero cubre los gastos del Senado en general, no el barrilito aparte — y todavía no hay resultado.",
+          "estado": "oculto"
+        }
+      ],
+      "veredicto": {
+        "etiqueta": "Imposible de auditar",
+        "explica": "Puedes ver el total salir del presupuesto. Pero no puedes ver cuánto recibió cada senador, ni a quién llegó la ayuda, ni una revisión independiente que confirme que fue real. El rastro se pierde apenas el dinero entra a manos de cada senador."
+      },
+      "fuentes": [
+        { "titulo": "Tribunal Constitucional: el barrilito no es ley ni decreto (Diario Libre, 2022)", "url": "https://www.diariolibre.com/actualidad/justicia/2022/04/06/declaran-inadmisible-recurso-contra-el-barrilito/1753354" },
+        { "titulo": "La línea de RD$252.8 millones en el presupuesto (Diario Libre, 2024)", "url": "https://www.diariolibre.com/politica/congreso-nacional/2024/06/11/barrilito-dietas-y-sueldos-se-tragan-70--del-dinero-del-congreso/2751726" },
+        { "titulo": "Tabla por provincia, septiembre 2020 (Listín Diario)", "url": "https://listindiario.com/la-republica/2020/10/14/639427/estos-son-los-montos-del-barrilito-asignados-por-provincias-en-septiembre" },
+        { "titulo": "La fórmula: RD$400,000 base + RD$1 por habitante (Hoy)", "url": "https://hoy.com.do/senadores-gastan-el-barrilito-sin-controles/" },
+        { "titulo": "Historia, mínimo y tope, base legal indirecta (Listín Diario, 2020)", "url": "https://listindiario.com/la-republica/2020/10/16/639690/el-barrilito-una-larga-historia-que-desangra-las-arcas-nacionales.html" },
+        { "titulo": "RD$368.8 millones gastados en 2023; categorías de gasto (Hoy / El Informe)", "url": "https://hoy.com.do/revelan-en-que-los-senadores-gastaron-rd-368-8-millones-del-fondo-barrilito-en-2023/" },
+        { "titulo": "Cómo se gasta: publicidad, remodelación y más; quién lo rechaza (Diario Libre)", "url": "https://www.diariolibre.com/actualidad/publicidad-remodelacion-de-oficinas-y-hasta-pagos-a-presos-asi-gastan-los-senadores-los-fondos-del-barrilito-MI29561872" },
+        { "titulo": "Un pedido de información dio 5,806 páginas, sin identificar a los beneficiarios (Hoy)", "url": "https://hoy.com.do/senadores-gastan-el-barrilito-sin-controles/" },
+        { "titulo": "El Senado pide su primera auditoría en más de 10 años (Diario Libre, 2025)", "url": "https://www.diariolibre.com/politica/congreso-nacional/2025/05/22/el-senado-solicita-auditoria-a-la-camara-de-cuentas/3123164" }
+      ]
+    }
+  ]
+}
