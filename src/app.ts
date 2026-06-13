@@ -204,6 +204,41 @@ interface SesionesData {
   sesiones: Sesion[];
 }
 
+// ---- By-session vote detail (the second door to the same vote data) ----
+// One senator's vote on one bill, used in the per-bill roll below.
+interface SesionRollVoto {
+  senator: string;
+  vote: Voto;
+}
+
+// One bill voted on in a session: the plain explanation (verbatim from our bills
+// dataset), the Sí/No/Ausente totals, and the full per-senator roll.
+interface SesionVotoBill {
+  bill_id: string;
+  titulo: string;
+  que_es: string;
+  como_afecta: string;
+  si: number;
+  no: number;
+  ausente: number;
+  roll: SesionRollVoto[];
+}
+
+// One plenary session, by-session view: a label (session number, since the
+// vote-file session code doesn't map to a public date) and its bills.
+interface SesionVoto {
+  numero: string;
+  fecha: string;
+  bills: SesionVotoBill[];
+}
+
+// The whole by-session file, keyed by chamber. Senado has data today; the
+// Cámara de Diputados key may be absent or empty until we read its boards.
+interface VotosPorSesionData {
+  Senado?: SesionVoto[];
+  "Cámara de Diputados"?: SesionVoto[];
+}
+
 const estadoLabel: Record<Estado, string> = {
   aprobada: "✅ Aprobada",
   votando: "🗳️ En votación",
@@ -216,7 +251,7 @@ const votoClass: Record<Voto, string> = { si: "voto-si", no: "voto-no", ausente:
 // cache-buster (?v=...). Appended to every data fetch so returning visitors
 // don't render stale JSON from the browser's HTTP cache when only the data
 // changed (the data files are not versioned in the HTML).
-const DATA_VERSION = "20260611g";
+const DATA_VERSION = "20260613c";
 
 async function cargar<T>(path: string): Promise<T> {
   const sep = path.indexOf("?") >= 0 ? "&" : "?";
@@ -1067,8 +1102,10 @@ function renderLider(l: Lider, provincia: string): HTMLElement {
   const sueldo = sueldoDeCargo(l.cargo) || l.sueldo || null;
   if (sueldo) {
     chips.append(datoChip(
-      "💰 <b>" + sueldo.monto + "</b> al mes",
-      "Sueldo: <b>" + sueldo.monto + " al mes</b>, según la " + sueldo.fuente +
+      "💰 Sueldo del cargo: <b>" + sueldo.monto + "/mes</b>",
+      "Es el salario mensual oficial que paga el Estado por ocupar el cargo. " +
+      "No es dinero de otras fuentes ni su patrimonio.<br>" +
+      "Monto: <b>" + sueldo.monto + " al mes</b>, según la " + sueldo.fuente +
       " de " + sueldo.mes + ". Lo pagan los impuestos de todos."
     ));
   }
@@ -1328,7 +1365,8 @@ function renderProvincias(data: ProvinciasData): void {
     "📜 <b>Iniciativas</b>: cuántas " +
     "<span class=\"palabra\" data-def=\"Una idea de ley o resolución que el senador presenta, solo o junto a otros, para que el Senado la estudie.\">propuestas de ley</span> " +
     "ha presentado, solo o con otros.<br>" +
-    "💰 <b>Sueldo</b>: lo que gana al mes. Sale de la " +
+    "💰 <b>Sueldo del cargo</b>: el salario mensual oficial que paga el Estado por ocupar el puesto. " +
+    "No es dinero de otras fuentes ni su patrimonio. Sale de la " +
     "<span class=\"palabra\" data-def=\"La lista pública de lo que cobra cada empleado del Estado. La ley obliga a publicarla cada mes.\">nómina</span> " +
     "pública. Lo pagan los impuestos de todos nosotros.";
   host.append(comoLeer);
@@ -1503,7 +1541,7 @@ const estadoAsist: Record<string, string> = {
   excusado: "📝 Excusado",
 };
 
-function renderSesiones(data: SesionesData): void {
+function renderSesiones(data: SesionesData, votosPorSesion?: VotosPorSesionData): void {
   const cont = byId("sesiones");
   cont.innerHTML = "";
 
@@ -1511,6 +1549,15 @@ function renderSesiones(data: SesionesData): void {
     const fechas = data.sesiones.map((s) => s.fecha).sort();
     const ultima = fechas[fechas.length - 1];
     cont.append(el("p", "nota-fuente", "Última sesión publicada: " + fechaLarga(ultima) + "."));
+  }
+
+  // By-session vote detail (the second door to the same vote data): voting record
+  // organized by session and bill, with the per-senator roll. Rendered first, as
+  // its own clearly-labelled block; the anonymous attendance/tally cards below
+  // stay exactly as before. Skipped cleanly if the data file is missing/empty.
+  if (votosPorSesion) {
+    const detalle = renderSesionesVotos(votosPorSesion);
+    if (detalle) cont.append(detalle);
   }
 
   // Kid-simple legend: what "primera/segunda discusión" and "unanimidad" mean.
@@ -1615,6 +1662,112 @@ function renderSesiones(data: SesionesData): void {
 
     cont.append(card);
   });
+}
+
+// Builds the by-session vote detail: the same vote data as the per-senator
+// "Registro de votos", but entered by SESSION instead of by person. A chamber
+// chooser (Senado now, Cámara de Diputados "próximamente") sits on top; each
+// session folds open to its bills; each bill folds open to the plain
+// "¿qué es? / ¿y a mí qué?" and the full per-senator roll. Reuses the same
+// chip/fold idiom and the same voto colors as the rest of the site. Returns
+// null when there is nothing to show, so the caller can skip it cleanly.
+function renderSesionesVotos(data: VotosPorSesionData): HTMLElement | null {
+  const senado = data.Senado || [];
+  const tieneSenado = senado.some((s) => s.bills && s.bills.length);
+  if (!tieneSenado) return null;
+
+  const host = el("div", "ses-votos");
+  host.append(el("h3", "ses-votos-titulo", "🗳️ Cómo votó cada quién, sesión por sesión"));
+  host.append(el("p", "como",
+    "<b>Otra puerta a lo mismo:</b> aquí entras por la sesión, no por la persona. " +
+    "Eliges la cámara, abres una sesión y ves cada proyecto que se votó ese día, " +
+    "con el resultado (Sí / No / Ausente) y cómo votó cada senador por su nombre."));
+
+  // Chamber chooser. Senado is the only chamber with data today; the Cámara de
+  // Diputados sits as a disabled "próximamente" option so the scope reads honest.
+  const chooser = el("div", "ses-votos-camaras");
+  const btnSen = el("button", "ses-camara-btn ses-camara-activa",
+    "Senado <span class=\"ses-camara-conteo\">" + senado.length +
+    (senado.length === 1 ? " sesión" : " sesiones") + "</span>") as HTMLButtonElement;
+  btnSen.type = "button";
+  btnSen.setAttribute("aria-pressed", "true");
+  const btnDip = el("button", "ses-camara-btn ses-camara-pronto",
+    "Cámara de Diputados <span class=\"ses-camara-conteo\">próximamente</span>") as HTMLButtonElement;
+  btnDip.type = "button";
+  btnDip.disabled = true;
+  btnDip.setAttribute("aria-disabled", "true");
+  chooser.append(btnSen, btnDip);
+  host.append(chooser);
+
+  // Honest scope line: these are the recent sessions we've read, not the whole
+  // term, and the date isn't recoverable so we label by session number.
+  host.append(el("p", "nota-fuente",
+    "Estas son las sesiones recientes que ya leímos, no todo el período. " +
+    "Solo aparecen los proyectos con su explicación verificada. " +
+    "El acta no publica una fecha junto a cada votación, así que cada sesión se identifica por su número."));
+
+  // Senado panel: one collapsible card per session, newest first (data already
+  // arrives newest-first). Only the first session starts open.
+  const panelSen = el("div", "ses-votos-panel");
+  senado.forEach((ses, idx) => {
+    if (!ses.bills || !ses.bills.length) return;
+    const sCard = el("details", "grupo-cargo ses-votos-sesion") as HTMLDetailsElement;
+    if (idx === 0) sCard.open = true;
+    const sCab = el("summary", "grupo-cab");
+    sCab.append(
+      el("span", "grupo-nombre", "Sesión " + ses.numero),
+      el("span", "grupo-conteo", ses.bills.length + (ses.bills.length === 1 ? " proyecto" : " proyectos")),
+      el("span", "grupo-chev", "▸"),
+    );
+    sCard.append(sCab);
+
+    ses.bills.forEach((b) => {
+      // Each bill folds open to its explanation and roll. The summary shows the
+      // plain title and the Sí/No/Ausente totals as small colored chips.
+      const bDet = el("details", "ses-voto-bill");
+      const bCab = el("summary", "ses-voto-bill-cab");
+      bCab.append(el("span", "ses-voto-bill-titulo", b.titulo));
+      const totales = el("span", "ses-voto-totales");
+      totales.append(
+        el("span", "ses-total voto-si", "👍 " + b.si),
+        el("span", "ses-total voto-no", "👎 " + b.no),
+        el("span", "ses-total voto-aus", "➖ " + b.ausente),
+      );
+      bCab.append(totales);
+      bCab.append(el("span", "grupo-chev", "▸"));
+      bDet.append(bCab);
+
+      if (b.que_es) {
+        bDet.append(el("h4", "voto-ley-h", "¿Qué es?"), el("p", "voto-ley-p", b.que_es));
+      }
+      if (b.como_afecta) {
+        bDet.append(el("h4", "voto-ley-h", "¿Y a mí qué?"), el("p", "voto-ley-p", b.como_afecta));
+      }
+
+      // Per-senator roll, folded so a 32-name list doesn't flood the card. Same
+      // name+colored-vote row idiom as the attendance list and the per-senator
+      // record.
+      const rollDet = el("details", "ses-voto-roll");
+      rollDet.append(el("summary", "ses-voto-roll-cab",
+        "🧾 Cómo votó cada senador (" + b.roll.length + ")"));
+      const lista = el("div", "asist-lista");
+      b.roll.forEach((r) => {
+        const fila = el("div", "asist-fila");
+        fila.append(el("span", null, r.senator));
+        fila.append(el("span", "ses-voto-roll-voto " + (votoClass[r.vote] || ""),
+          votoLabel[r.vote] || r.vote));
+        lista.append(fila);
+      });
+      rollDet.append(lista);
+      bDet.append(rollDet);
+
+      sCard.append(bDet);
+    });
+    panelSen.append(sCard);
+  });
+  host.append(panelSen);
+
+  return host;
 }
 
 /* ---------- Buscadores (search) ---------- */
@@ -1986,19 +2139,23 @@ async function init(): Promise<void> {
   setupGlosario();
   setupAvisoBusqueda();
   try {
-    const [leyes, provincias, sesiones, vigencia, novedades] = await Promise.all([
+    const [leyes, provincias, sesiones, vigencia, novedades, votosPorSesion] = await Promise.all([
       cargar<LeyesData>("data/leyes.json"),
       cargar<ProvinciasData>("data/provincias.json"),
       cargar<SesionesData>("data/sesiones.json"),
       cargar<VigenciaData>("data/vigencia.json"),
       cargar<NovedadesData>("data/novedades.json"),
+      // By-session vote detail. Optional: if it fails to load, the Sesiones view
+      // still renders its attendance/tally cards (the catch below handles a hard
+      // failure; a soft null keeps the rest of the page intact).
+      cargar<VotosPorSesionData>("data/votos_por_sesion.json").catch(() => ({} as VotosPorSesionData)),
     ]);
     renderVigencia(vigencia);
     renderNovedades(novedades);
     renderLeyes(leyes);
     renderProvincias(provincias);
     renderComposicion(provincias);
-    renderSesiones(sesiones);
+    renderSesiones(sesiones, votosPorSesion);
     llenarCifrasHome(leyes, provincias, sesiones);
     setupSabias(leyes, sesiones);
     setupCasoAccordion();

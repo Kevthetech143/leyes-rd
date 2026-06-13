@@ -636,6 +636,56 @@ main { max-width: 720px; margin: 0 auto; padding: 0 14px 40px; }
 .voto-ley-h { margin: 8px 0 2px; font-size: .82rem; color: var(--azul); }
 .voto-ley-p { margin: 0; font-size: .86rem; color: var(--tinta); line-height: 1.5; }
 
+/* By-session vote detail (the second door to the same vote data). Lives at the
+   top of the Sesiones view. Reuses the .grupo-cargo grouper for each session and
+   the section accent (--acc, set by .sec-sesiones) so it matches the rest of the
+   page. A bill folds open to its plain explanation and the per-senator roll. */
+.ses-votos { margin: 16px 0 8px; }
+.ses-votos-titulo { margin: 0 0 6px; font-size: 1.05rem; color: var(--acc); }
+.ses-votos-camaras { display: flex; flex-wrap: wrap; gap: 8px; margin: 10px 0; }
+.ses-camara-btn {
+  font-weight: 700; font-size: .9rem; padding: 8px 14px; border-radius: 999px;
+  border: 2px solid var(--acc); background: #fff; color: var(--acc); cursor: pointer;
+}
+.ses-camara-activa { background: var(--acc); color: #fff; }
+.ses-camara-conteo {
+  display: inline-block; margin-left: 6px; font-size: .72rem; font-weight: 700;
+  opacity: .85;
+}
+.ses-camara-pronto {
+  border-color: #d8dbe5; color: var(--gris); cursor: not-allowed; opacity: .7;
+}
+.ses-votos-panel { margin-top: 6px; }
+.ses-votos-sesion { margin: 10px 0; }
+/* One bill inside a session: a Nivel-2 fold. Summary shows the plain title and
+   the Sí/No/Ausente totals; open reveals the explanation and the roll. */
+.ses-voto-bill {
+  margin: 8px 0; padding: 4px 12px 8px;
+  border-top: 1px solid #dbe3ff; border-left: 3px solid var(--acc);
+  border-radius: 0 8px 8px 0;
+}
+.ses-voto-bill-cab {
+  margin: 0; cursor: pointer; list-style: none; padding: 6px 0;
+  display: flex; align-items: center; flex-wrap: wrap; gap: 8px;
+}
+.ses-voto-bill-cab::-webkit-details-marker { display: none; }
+.ses-voto-bill-titulo { font-size: .9rem; font-weight: 700; color: var(--tinta); flex: 1 1 60%; }
+.ses-voto-totales { display: inline-flex; gap: 8px; flex: none; }
+.ses-total { font-size: .82rem; font-weight: 700; white-space: nowrap; }
+.ses-voto-bill .grupo-chev { margin-left: auto; }
+.ses-voto-bill[open] > .ses-voto-bill-cab .grupo-chev { transform: rotate(90deg); }
+/* Per-senator roll, folded so a 32-name list stays tidy. Same name+vote row
+   idiom as the attendance list. */
+.ses-voto-roll { margin: 8px 0 0; }
+.ses-voto-roll-cab {
+  cursor: pointer; list-style: none; font-size: .85rem; font-weight: 700;
+  color: var(--acc); padding: 4px 0;
+}
+.ses-voto-roll-cab::-webkit-details-marker { display: none; }
+.ses-voto-roll-cab::after { content: "▸"; color: var(--acc); margin-left: 6px; }
+.ses-voto-roll[open] > .ses-voto-roll-cab::after { content: "▾"; }
+.ses-voto-roll-voto { flex: none; white-space: nowrap; }
+
 /* Sesiones */
 .sesion {
   background: var(--tarjeta); border-radius: var(--radio);
