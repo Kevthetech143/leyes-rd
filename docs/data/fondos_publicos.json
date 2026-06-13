@@ -67,6 +67,45 @@
         "nota": "Hoy (período 2024–2028) sólo un senador no lo cobra: Antonio Taveras, de Santo Domingo. En el período pasado (2020–2024) lo rechazaban tres: Eduardo Estrella, Antonio Taveras y Faride Raful. Pero Raful pasó a ser ministra y Estrella no volvió al Senado; los senadores que llegaron en su lugar (Omar Fernández y Daniel Rivera) volvieron a cobrarlo. Por eso el total va en subida, hacia unos RD$278 millones al año."
       },
       "base_legal": "Ninguna. El Tribunal Constitucional dijo en 2022 que no es ley, ni decreto, ni reglamento, ni resolución: sólo es un fondo del presupuesto que maneja el Senado. Ojo: el Tribunal no dijo si es legal o ilegal — dejó el caso sin juzgar por la forma. Nació en 2006 por decisión interna del Senado.",
+      "legal": {
+        "titulo": "Las preguntas legales, en sencillo",
+        "intro": "Lo que un ciudadano querría preguntar sobre el barrilito, respondido en palabras simples. Cada respuesta trae su fuente para que tú mismo lo compruebes.",
+        "items": [
+          {
+            "q": "¿Tiene una ley que lo creó?",
+            "a": "No. No hay ley, ni decreto, ni reglamento que lo cree. Nació en 2006 por una decisión interna del propio Senado: su presidente quitó unas ayudas que iban a las ONG de los senadores y las cambió por este fondo. O sea, el Senado se lo dio a sí mismo, sin pasar por una ley.",
+            "fuente": { "titulo": "El barrilito nació en 2006 por decisión del Senado, no por ley (Listín Diario, 2020)", "url": "https://listindiario.com/la-republica/2020/10/16/639690/el-barrilito-una-larga-historia-que-desangra-las-arcas-nacionales.html" }
+          },
+          {
+            "q": "¿Es legal?",
+            "a": "Nadie lo ha decidido. En 2022 el Tribunal Constitucional — el tribunal más alto para temas de la Constitución — dijo que el barrilito no es una ley, ni un decreto, ni un reglamento, ni una resolución u ordenanza, sino un fondo de ayuda social que maneja el Senado con dinero del presupuesto. Por eso NO lo juzgó por dentro: no dijo si es legal ni si es ilegal — dejó el caso sin juzgar por la forma. Hay quienes dicen que choca con la Constitución: el Artículo 93 dice que el Congreso hace leyes y vigila al gobierno, no obras sociales; y el Artículo 140 dice que ningún organismo puede ponerse beneficios a sí mismo. Eso es lo que discuten los críticos; el Tribunal no lo ha resuelto.",
+            "fuente": { "titulo": "El Tribunal Constitucional no lo declaró legal ni ilegal, lo dejó sin juzgar por la forma (Diario Libre, 2022)", "url": "https://www.diariolibre.com/actualidad/justicia/2022/04/06/declaran-inadmisible-recurso-contra-el-barrilito/1753354" },
+            "fuentes_extra": [
+              { "titulo": "Crítica: el Congreso legisla y fiscaliza, no hace obras sociales (Artículo 93) — Acento", "url": "https://acento.com.do/politica/ciudadania-vigilante-exige-a-senadores-renunciar-a-los-rd1228-millones-del-barrilito-y-cofecito-8907914.html" },
+              { "titulo": "Crítica: viola el Artículo 140, nadie se pone beneficios a sí mismo — Listín Diario", "url": "https://listindiario.com/la-republica/2020/10/14/639401/esquea-guerrero-vuelve-a-la-carga-con-el-barrilito-dice-viola-articulo-140-de-la-constitucion.html" },
+              { "titulo": "Texto oficial de la Constitución (Artículos 93 y 140) — Presidencia", "url": "https://presidencia.gob.do/sites/default/files/statics/transparencia/base-legal/Constitucion-de-la-Republica-Dominicana-2015-actualizada.pdf" }
+            ]
+          },
+          {
+            "q": "¿Hay reglas para gastarlo?",
+            "a": "En papel, sí. Desde el inicio se dijo que cada senador debe entregar cada mes un reporte de cómo gastó el dinero, con sus recibos, y se nombraron contadores para revisarlo. El problema es que casi no se cumple: la mayoría no entrega ese reporte como debería, y aun así el dinero sigue llegando.",
+            "fuente": { "titulo": "Las reglas existen en papel pero casi no se cumplen (Hoy, “sin controles”)", "url": "https://hoy.com.do/senadores-gastan-el-barrilito-sin-controles/" }
+          },
+          {
+            "q": "¿Quién lo vigila?",
+            "a": "Debería vigilarlo la Cámara de Cuentas — el organismo que revisa las cuentas del Estado para ver si el dinero se usó bien. Pero no lo ha auditado: el fondo, creado en 2006, nunca ha tenido una auditoría pública en casi 20 años. Apenas en mayo de 2025 el Senado pidió por primera vez en más de una década que la Cámara de Cuentas lo revise (años 2020–2025), y todavía no hay resultado — además, lo que pidió cubre los gastos del Senado en general, no el barrilito aparte.",
+            "fuente": { "titulo": "El Senado pide su primera auditoría en más de 10 años; aún sin resultado (Diario Libre, 2025)", "url": "https://www.diariolibre.com/politica/congreso-nacional/2025/05/22/el-senado-solicita-auditoria-a-la-camara-de-cuentas/3123164" }
+          },
+          {
+            "q": "¿Qué puedes hacer tú?",
+            "a": "Tienes derechos. (1) Pedir la información por la Ley 200-04: es gratis, lo puede hacer cualquiera, te deben responder en 15 días hábiles, y si se quedan callados ese silencio cuenta como un “no”. (2) Si te la niegan, puedes apelar y llegar hasta un amparo — una acción rápida ante la justicia para proteger tu derecho a la información; para eso sí necesitas un abogado dominicano. (3) Exigir que la Cámara de Cuentas lo audite. (4) Y el arreglo de fondo: que un legislador cambie las reglas internas del Senado para que se publique automáticamente cuánto recibe cada senador, con nombre.",
+            "fuente": { "titulo": "Ley 200-04, texto oficial: gratis, 15 días hábiles, el silencio cuenta como negación (Ministerio de Hacienda)", "url": "https://www.hacienda.gob.do/wp-content/uploads/2023/12/ley_200-04-1.pdf" },
+            "fuentes_extra": [
+              { "titulo": "El amparo para proteger el derecho a la información (Ley 137-11) — Poder Judicial", "url": "https://poderjudicial.gob.do/wp-content/uploads/2021/06/LEY_137_11.pdf" }
+            ]
+          }
+        ]
+      },
       "mal_uso_documentado": "Investigaciones periodísticas (\"El Informe\" de Alicia Ortega y Diario Libre) mostraron que el dinero no siempre va a ayuda social: también se gastó en publicidad con la cara de los legisladores, en remodelar oficinas, en bebidas alcohólicas y otros gastos. No listamos nombres aquí; lo que está documentado es el tipo de gasto.",
       "cadena": [
         {
@@ -113,7 +152,12 @@
         { "titulo": "RD$368.8 millones gastados en 2023; categorías de gasto (Hoy / El Informe)", "url": "https://hoy.com.do/revelan-en-que-los-senadores-gastaron-rd-368-8-millones-del-fondo-barrilito-en-2023/" },
         { "titulo": "Cómo se gasta: publicidad, remodelación y más; quién lo rechaza (Diario Libre)", "url": "https://www.diariolibre.com/actualidad/publicidad-remodelacion-de-oficinas-y-hasta-pagos-a-presos-asi-gastan-los-senadores-los-fondos-del-barrilito-MI29561872" },
         { "titulo": "Un pedido de información dio 5,806 páginas, sin identificar a los beneficiarios (Hoy)", "url": "https://hoy.com.do/senadores-gastan-el-barrilito-sin-controles/" },
-        { "titulo": "El Senado pide su primera auditoría en más de 10 años (Diario Libre, 2025)", "url": "https://www.diariolibre.com/politica/congreso-nacional/2025/05/22/el-senado-solicita-auditoria-a-la-camara-de-cuentas/3123164" }
+        { "titulo": "El Senado pide su primera auditoría en más de 10 años (Diario Libre, 2025)", "url": "https://www.diariolibre.com/politica/congreso-nacional/2025/05/22/el-senado-solicita-auditoria-a-la-camara-de-cuentas/3123164" },
+        { "titulo": "Crítica: el Congreso legisla y fiscaliza, no hace obras sociales (Constitución, Art. 93) — Acento", "url": "https://acento.com.do/politica/ciudadania-vigilante-exige-a-senadores-renunciar-a-los-rd1228-millones-del-barrilito-y-cofecito-8907914.html" },
+        { "titulo": "Crítica: nadie se pone beneficios a sí mismo (Constitución, Art. 140) — Listín Diario", "url": "https://listindiario.com/la-republica/2020/10/14/639401/esquea-guerrero-vuelve-a-la-carga-con-el-barrilito-dice-viola-articulo-140-de-la-constitucion.html" },
+        { "titulo": "Texto oficial de la Constitución de la República Dominicana — Presidencia", "url": "https://presidencia.gob.do/sites/default/files/statics/transparencia/base-legal/Constitucion-de-la-Republica-Dominicana-2015-actualizada.pdf" },
+        { "titulo": "Ley 200-04 de Libre Acceso a la Información, texto oficial (gratis, 15 días, silencio = no) — Ministerio de Hacienda", "url": "https://www.hacienda.gob.do/wp-content/uploads/2023/12/ley_200-04-1.pdf" },
+        { "titulo": "Ley 137-11: el amparo para proteger el derecho a la información — Poder Judicial", "url": "https://poderjudicial.gob.do/wp-content/uploads/2021/06/LEY_137_11.pdf" }
       ]
     }
   ]

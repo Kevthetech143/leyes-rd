@@ -1129,6 +1129,27 @@ main { max-width: 720px; margin: 0 auto; padding: 0 14px 40px; }
 }
 .fondo-legal b { color: #4a228f; }
 
+/* Plain-Spanish legal explainer (folded). Same fold shell as the formula /
+   table folds, recolored to the legal purple, with each question as a kicker
+   and its cited source link directly under the answer. */
+.fondo-legal-fold > .fondo-fold-cab { color: #4a228f; }
+.fondo-legal-fold > .fondo-fold-cab::after { color: #7a4fc0; }
+.fondo-legal-fold .fondo-fold-conteo { background: #f1e6fb; color: #4a228f; }
+.fondo-legal-intro { color: var(--gris); font-style: italic; margin: 4px 0 12px !important; }
+.fondo-legal-qa {
+  border-left: 3px solid #c9aef0; background: #fbf7ff;
+  border-radius: 0 10px 10px 0; padding: 10px 14px; margin: 10px 0;
+}
+.fondo-legal-q {
+  margin: 0 0 4px !important; font-weight: 800; color: #4a228f; font-size: .96rem !important;
+}
+.fondo-legal-a { margin: 0 !important; color: var(--tinta); font-size: .92rem !important; }
+.fondo-legal-fuentes {
+  display: flex; flex-wrap: wrap; align-items: baseline; gap: 6px 10px; margin-top: 8px;
+}
+.fondo-legal-fuentes-lbl { font-size: .8rem; font-weight: 700; color: #7a4fc0; }
+.fondo-legal-fuente { font-size: .82rem; }
+
 /* The chain: title + flow steps. Reuses .flujo-graf / .paso from the money
    journey; here each step's left border + badge follow its transparency state. */
 .fondo-cadena-titulo { margin: 16px 0 8px; font-size: 1.05rem; color: var(--dinero); }

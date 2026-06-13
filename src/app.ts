@@ -307,6 +307,22 @@ interface FondoFuente {
   url: string;
 }
 
+// One plain-Spanish legal question + its answer, each carrying its own cited
+// source (and optional extra sources). Data-driven so any fund can ship the
+// same "the legal questions, in plain words" explainer.
+interface FondoLegalItem {
+  q: string;
+  a: string;
+  fuente?: FondoFuente;
+  fuentes_extra?: FondoFuente[];
+}
+
+interface FondoLegal {
+  titulo?: string;
+  intro?: string;
+  items: FondoLegalItem[];
+}
+
 // One public fund, end to end.
 interface Fondo {
   id: string;
@@ -319,6 +335,7 @@ interface Fondo {
   tabla_por_provincia?: FondoTablaProvincia;
   quien_lo_rechaza?: FondoRechaza;
   base_legal?: string;
+  legal?: FondoLegal;
   mal_uso_documentado?: string;
   cadena: FondoPaso[];
   veredicto: FondoVeredicto;
@@ -343,7 +360,7 @@ const votoClass: Record<Voto, string> = { si: "voto-si", no: "voto-no", ausente:
 // cache-buster (?v=...). Appended to every data fetch so returning visitors
 // don't render stale JSON from the browser's HTTP cache when only the data
 // changed (the data files are not versioned in the HTML).
-const DATA_VERSION = "20260613g";
+const DATA_VERSION = "20260613h";
 
 async function cargar<T>(path: string): Promise<T> {
   const sep = path.indexOf("?") >= 0 ? "&" : "?";
@@ -2057,6 +2074,13 @@ function renderFondo(f: Fondo, leyenda: Record<EstadoRastro, RastroLeyendaItem>)
     card.append(bl);
   }
 
+  // The plain-Spanish legal explainer: the questions a citizen would ask, each
+  // answered simply with its own cited source. Folded so it doesn't crowd the
+  // card. Data-driven (f.legal) so any future fund can carry the same block.
+  if (f.legal && f.legal.items.length) {
+    card.append(renderFondoLegal(f.legal));
+  }
+
   // The money chain: a header, then the 5 steps as a flow, each with a badge.
   card.append(el("h5", "fondo-cadena-titulo", "🔎 El rastro, paso a paso"));
   const flujo = el("div", "flujo-graf fondo-cadena");
@@ -2098,6 +2122,48 @@ function renderFondo(f: Fondo, leyenda: Record<EstadoRastro, RastroLeyendaItem>)
   }
 
   return card;
+}
+
+// A small cited-source link in the site's enlace-doc idiom. Opens in a new tab
+// and stops the click from toggling any enclosing <details> fold.
+function fondoFuenteLink(src: FondoFuente): HTMLAnchorElement {
+  const a = el("a", "enlace-doc fondo-legal-fuente") as HTMLAnchorElement;
+  a.href = src.url; a.target = "_blank"; a.rel = "noopener";
+  a.textContent = "📎 " + src.titulo;
+  a.addEventListener("click", (e: Event) => e.stopPropagation());
+  return a;
+}
+
+// The plain-Spanish legal explainer for a fund: a folded "the legal questions,
+// in simple words" panel. Each item shows the citizen's question as a kicker,
+// the kid-Spanish answer, and its cited source link(s) right below — so every
+// legal claim is checkable, per the project's hard sourcing rule. Reuses the
+// same fold idiom as the formula / per-province table.
+function renderFondoLegal(legal: FondoLegal): HTMLElement {
+  const det = el("details", "fondo-fold fondo-legal-fold");
+  det.append(el("summary", "fondo-fold-cab",
+    "⚖️ " + (legal.titulo || "Las preguntas legales, en sencillo") +
+    " <span class=\"fondo-fold-conteo\">" + legal.items.length + " preguntas</span>"));
+  const body = el("div", "fondo-fold-body");
+  if (legal.intro) body.append(el("p", "fondo-legal-intro", legal.intro));
+  legal.items.forEach((it) => {
+    const qa = el("div", "fondo-legal-qa");
+    qa.append(el("p", "fondo-legal-q", it.q));
+    qa.append(el("p", "fondo-legal-a", it.a));
+    // Every answer carries its source(s), so the claim is verifiable.
+    const fuentes: FondoFuente[] = [];
+    if (it.fuente) fuentes.push(it.fuente);
+    if (it.fuentes_extra) fuentes.push(...it.fuentes_extra);
+    if (fuentes.length) {
+      const srcWrap = el("div", "fondo-legal-fuentes");
+      srcWrap.append(el("span", "fondo-legal-fuentes-lbl", "Fuente:"));
+      fuentes.forEach((src) => srcWrap.append(fondoFuenteLink(src)));
+      qa.append(srcWrap);
+    }
+    body.append(qa);
+  });
+  det.append(body);
+  return det;
 }
 
 // One chain step: number + label + what-happens, plus a colored transparency
