@@ -343,7 +343,7 @@ const votoClass: Record<Voto, string> = { si: "voto-si", no: "voto-no", ausente:
 // cache-buster (?v=...). Appended to every data fetch so returning visitors
 // don't render stale JSON from the browser's HTTP cache when only the data
 // changed (the data files are not versioned in the HTML).
-const DATA_VERSION = "20260613d";
+const DATA_VERSION = "20260613e";
 
 async function cargar<T>(path: string): Promise<T> {
   const sep = path.indexOf("?") >= 0 ? "&" : "?";
