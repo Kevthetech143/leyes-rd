@@ -537,6 +537,39 @@ main { max-width: 720px; margin: 0 auto; padding: 0 14px 40px; }
 .grupo-chev { color: var(--acc); font-weight: 700; transition: transform .15s ease; }
 .grupo-cargo[open] .grupo-chev { transform: rotate(90deg); }
 .grupo-cargo > .lider { padding-left: 14px; padding-right: 14px; }
+
+/* Page-top group — same Nivel-1 grouper, used to wrap whole existing blocks
+   (cards, flows, render targets) at the top of a tab so every tab opens short.
+   One source of truth: reuses .grupo-cargo's card + .grupo-cab header verbatim,
+   recolored by each section's --acc / --acc-bg. The only additions are a plain
+   subtitle line under the title (like the novedades header) and body padding so
+   wrapped blocks sit inside the open card without doubling their own margins. */
+.grupo-pagina > .grupo-cab { align-items: flex-start; }
+.grupo-pagina .grupo-cab-txt { display: flex; flex-direction: column; gap: 2px; flex: 1; }
+.grupo-sub { font-size: .85rem; font-weight: 600; color: var(--gris); line-height: 1.35; }
+.grupo-pagina[open] > .grupo-cab .grupo-chev { transform: rotate(90deg); }
+.grupo-pagina-body { padding: 10px 14px 14px; }
+/* The wrapped blocks bring their own top/bottom margins; zero the outer ones so
+   the open card isn't padded twice. */
+.grupo-pagina-body > :first-child { margin-top: 0; }
+.grupo-pagina-body > :last-child { margin-bottom: 0; }
+/* The numbered .sub-seccion dividers were the old way to label blocks; inside a
+   page group the header already labels it, so neutralize their big top border/gap
+   if any survive nested. */
+.grupo-pagina-body .sub-seccion { margin-top: 8px; border-top: none; padding-top: 0; }
+
+/* Human-cost lead — the short, plain block at the top of the "cuando el rastro
+   se rompe" group. Same alert vocabulary as .punto-debil (red-tinted card) but
+   carries a list so more real cases can be added later. Honest framing: each
+   line is what the prosecution alleges, sourced in the case fold below it. */
+.costo-humano {
+  background: #fde7e4; border: 1px solid #f6b8af; border-radius: 14px;
+  padding: 14px 16px; margin: 4px 0 16px; color: #7a1f15;
+}
+.costo-humano b { display: block; margin-bottom: 6px; }
+.costo-humano ul { margin: 6px 0 0; padding-left: 18px; }
+.costo-humano li { margin: 5px 0; font-size: .93rem; line-height: 1.45; }
+.costo-humano .costo-cierre { margin: 10px 0 0; font-size: .9rem; font-weight: 700; }
 .lider { border-top: 1px solid #eef0f4; padding: 12px 0; }
 .lider:first-of-type { border-top: none; }
 .lider-cargo { color: var(--gris); font-size: .9rem; }
@@ -1229,12 +1262,6 @@ main { max-width: 720px; margin: 0 auto; padding: 0 14px 40px; }
 .tu-parte li { margin: 3px 0; font-size: .92rem; }
 .tu-parte a { color: var(--azul); font-weight: 700; }
 .sec-mapa .prov-card:focus-visible { outline: 3px solid var(--mapa); outline-offset: 2px; }
-.caso-salto {
-  display: inline-flex; align-items: center; gap: 6px; margin: 6px 0 14px;
-  min-height: 44px; padding: 10px 16px; border-radius: 999px;
-  background: var(--dinero-bg); color: var(--dinero);
-  font-weight: 800; font-size: .95rem; text-decoration: none;
-}
 .aviso-legal {
   background: #eef3ff; border: 1px solid #c3d2f5; border-radius: 14px;
   padding: 14px 16px; margin-bottom: 14px; color: #1e3a8a; font-size: .95rem;

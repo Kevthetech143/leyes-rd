@@ -24,7 +24,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="styles.css?v=20260613e" />
+  <link rel="stylesheet" href="styles.css?v=20260613f" />
 </head>
 <body>
   <header class="topbar">
@@ -159,7 +159,19 @@
         <p>En RD mandan varios, no uno solo. Tú votas y eliges a casi todos: al Presidente, al Congreso que hace las leyes y a tu alcalde. Cada uno tiene su trabajo. Empieza por aquí y lo demás se entiende solo.</p>
       </div>
 
-      <h3 class="bloque-titulo">¿Quién manda?</h3>
+      <!-- ===== GRUPO 1 (El país) — ¿Quién manda? (plegado por defecto) =====
+           Envuelve el intro + el flujo de 5 pasos existente. Mismo plegable
+           Nivel-1; .sec-pais usa el acento por defecto (azul). -->
+      <details class="grupo-cargo grupo-pagina">
+        <summary class="grupo-cab">
+          <span class="grupo-cab-txt">
+            <span class="grupo-nombre">🗳️ ¿Quién manda?</span>
+            <span class="grupo-sub">Del voto a los jueces: quién hace qué en el país.</span>
+          </span>
+          <span class="grupo-chev" aria-hidden="true">▸</span>
+        </summary>
+        <div class="grupo-pagina-body">
+
       <p class="bloque-intro">Todo empieza con tu voto. La gente elige a casi todos los que mandan:</p>
       <div class="flujo-graf">
         <div class="paso"><span class="paso-num">1</span><span class="paso-emoji">🗳️</span><div class="paso-txt"><b>El pueblo vota</b><span>Tú eliges a casi todos los que mandan.</span></div></div>
@@ -173,15 +185,42 @@
         <div class="paso"><span class="paso-num">5</span><span class="paso-emoji">👨‍⚖️</span><div class="paso-txt"><b>Los jueces</b><span>Aplican la ley cuando hay un problema. A estos no los eliges por voto.</span></div></div>
       </div>
 
-      <!-- "¿Quién controla el Congreso?" — composición por partido del Senado y la
-           Cámara. Las barras, la leyenda, el detalle y la frase honesta se rellenan
-           en app.ts contando los legisladores de provincias.json en tiempo de
-           ejecución (nada está escrito a mano aquí). -->
-      <h3 class="bloque-titulo">🏛️ ¿Quién controla el Congreso?</h3>
+        </div>
+      </details>
+      <!-- ===== fin GRUPO 1 (El país) ===== -->
+
+      <!-- ===== GRUPO 2 (El país) — ¿Quién controla el Congreso? (plegado) =====
+           Envuelve el intro + el render target #composicionCongreso. Las barras,
+           la leyenda y el detalle se rellenan en app.ts (renderComposicion)
+           contando provincias.json — nada escrito a mano aquí. -->
+      <details class="grupo-cargo grupo-pagina">
+        <summary class="grupo-cab">
+          <span class="grupo-cab-txt">
+            <span class="grupo-nombre">🏛️ ¿Quién controla el Congreso?</span>
+            <span class="grupo-sub">Cuántos asientos tiene cada partido.</span>
+          </span>
+          <span class="grupo-chev" aria-hidden="true">▸</span>
+        </summary>
+        <div class="grupo-pagina-body">
+
       <p class="bloque-intro">Controlar el Congreso es tener más asientos. El partido con más asientos decide más: qué leyes se votan y cuáles pasan. Aquí ves cuántos asientos tiene cada partido.</p>
       <div id="composicionCongreso"></div>
 
-      <h3 class="bloque-titulo">¿Cuándo y cómo voto?</h3>
+        </div>
+      </details>
+      <!-- ===== fin GRUPO 2 (El país) ===== -->
+
+      <!-- ===== GRUPO 3 (El país) — ¿Cuándo y cómo voto? (plegado) ===== -->
+      <details class="grupo-cargo grupo-pagina">
+        <summary class="grupo-cab">
+          <span class="grupo-cab-txt">
+            <span class="grupo-nombre">🗳️ ¿Cuándo y cómo voto?</span>
+            <span class="grupo-sub">Las fechas y cómo prepararte para votar.</span>
+          </span>
+          <span class="grupo-chev" aria-hidden="true">▸</span>
+        </summary>
+        <div class="grupo-pagina-body">
+
       <div class="como">
         <b>¿Cuándo?</b> Cada 4 años hay elecciones. Las próximas son en <b>2028</b>: en <b>febrero</b> votas por tu alcalde y regidores; en <b>mayo</b> por presidente, senadores y diputados.
         <span class="nota-fuente">La JCE publica la fecha exacta cuando se acerca.</span>
@@ -195,6 +234,10 @@
         </ul>
       </div>
       <p class="nota-fuente">Quien organiza las elecciones es la Junta Central Electoral (JCE). Datos: Presidencia de la República Dominicana y JCE, 2026.</p>
+
+        </div>
+      </details>
+      <!-- ===== fin GRUPO 3 (El país) ===== -->
 
       <div class="siguiente va-leyes">
         <span class="siguiente-cab">¿Y ahora qué?</span>
@@ -312,7 +355,7 @@
         fecha, y ves cada ley que se votó ese día con el voto de cada quien por su nombre.
         Después, una lista de sesiones con <b>cuántos votaron a favor y quién faltó</b>.
       </div>
-      <p class="hint">Empieza por la sesión más reciente —ya está abierta— y baja desde ahí.</p>
+      <p class="hint">Las sesiones están en orden, de la más reciente a la más antigua. Toca una para abrirla.</p>
       <div id="sesiones"></div>
 
       <div class="siguiente va-mapa">
@@ -331,13 +374,19 @@
         <p>El dinero del país sale de los impuestos de todos. El Congreso decide en qué se gasta, y luego viaja por varias manos hasta llegar a una obra o un servicio. En ese camino, a veces, se pierde. Aquí lo sigues paso a paso, con un caso real.</p>
       </div>
 
-      <div class="sub-seccion">
-        <span class="sub-seccion-num" aria-hidden="true">1</span>
-        <div class="sub-seccion-txt">
-          <h3 class="sub-seccion-titulo">Cuánta plata tiene el país</h3>
-          <p class="sub-seccion-desc">Primero lo grande: cuánto produce, cuánto gana, cuánto gasta y cuánto debe.</p>
-        </div>
-      </div>
+      <!-- ===== GRUPO 1 — El bolsillo del país (plegado por defecto) =====
+           Envuelve el bloque .salud-pais existente (PIB, deuda, etc.) verbatim
+           en la tarjeta Nivel-1 (.grupo-cargo .grupo-pagina). Mismo diseño de
+           plegable que Provincias; recoloreado por --acc de .sec-dinero. -->
+      <details class="grupo-cargo grupo-pagina">
+        <summary class="grupo-cab">
+          <span class="grupo-cab-txt">
+            <span class="grupo-nombre">🪙 El bolsillo del país</span>
+            <span class="grupo-sub">Cuánto produce, gana, gasta y debe el país.</span>
+          </span>
+          <span class="grupo-chev" aria-hidden="true">▸</span>
+        </summary>
+        <div class="grupo-pagina-body">
 
       <div class="salud-pais">
         <div class="salud-head">
@@ -452,15 +501,24 @@
         </details>
       </div>
 
-      <a class="caso-salto" href="#caso-senasa">⬇️ Ir al caso real: el <span class="palabra" data-def="robo de dinero que te confiaron cuidar">desfalco</span> del SENASA</a>
-
-      <div class="sub-seccion">
-        <span class="sub-seccion-num" aria-hidden="true">2</span>
-        <div class="sub-seccion-txt">
-          <h3 class="sub-seccion-titulo">El viaje del dinero, paso a paso</h3>
-          <p class="sub-seccion-desc">Ya viste cuánto dinero hay. Ahora mira el camino que recorre, desde que se decide hasta que llega.</p>
         </div>
-      </div>
+      </details>
+      <!-- ===== fin GRUPO 1 ===== -->
+
+      <!-- ===== GRUPO 2 — El rastro del dinero público (plegado por defecto) =====
+           Reúne las dos mitades de "seguir el dinero": el camino sano paso a paso
+           (intro + flujo de 6 pasos + punto débil) y, debajo, el rastro real de
+           los fondos (#fondos-publicos, el barrilito) con su semáforo y veredicto.
+           Mismo plegable Nivel-1. -->
+      <details class="grupo-cargo grupo-pagina">
+        <summary class="grupo-cab">
+          <span class="grupo-cab-txt">
+            <span class="grupo-nombre">🔎 El rastro del dinero público</span>
+            <span class="grupo-sub">Sigue un peso hasta donde se puede ver — y donde se pierde.</span>
+          </span>
+          <span class="grupo-chev" aria-hidden="true">▸</span>
+        </summary>
+        <div class="grupo-pagina-body">
 
       <p class="ej-intro">🍞 Para que se entienda, sigamos un peso: el que paga el desayuno escolar.</p>
 
@@ -485,12 +543,48 @@
 
       <p class="nota-fuente">Flujo general según el sistema de finanzas del Estado dominicano (SIGEF, Tesorería, DGCP, Cámara de Cuentas). No incluye cifras de casos específicos.</p>
 
-      <div class="sub-seccion">
-        <span class="sub-seccion-num" aria-hidden="true">3</span>
-        <div class="sub-seccion-txt">
-          <h3 class="sub-seccion-titulo">Cuando el dinero se pierde: un caso real</h3>
-          <p class="sub-seccion-desc">Ya viste el camino sano. Ahora mira un caso de verdad donde, según la Fiscalía, el dinero se desvió.</p>
+      <!-- 💰 El rastro del dinero público — feature reutilizable, hecho con datos.
+           Se rellena desde data/fondos_publicos.json en src/app.ts (renderFondos).
+           Cada fondo muestra: qué es, cuánto, tabla por provincia, quién lo
+           rechaza, y la cadena de 5 pasos con un semáforo de transparencia
+           (🟢 se puede seguir / 🟡 difícil / 🔴 oculto) y un veredicto. Para
+           añadir otro fondo, sólo se agrega una entrada al JSON. -->
+      <div id="fondos-publicos" class="fondos-publicos"></div>
+
         </div>
+      </details>
+      <!-- ===== fin GRUPO 2 ===== -->
+
+      <!-- ===== GRUPO 3 — Cuando el rastro se rompe, y lo que te cuesta =====
+           Plegado por defecto. Encabeza con el COSTO HUMANO en lenguaje sencillo
+           (qué le pasó a personas reales cuando el rastro del dinero se rompió),
+           y debajo va el caso SENASA existente verbatim. Cada línea del costo
+           humano es lo que ALEGA la Fiscalía; la fuente está en el plegable
+           "Ver fuentes y por qué este caso" más abajo. Construido para crecer:
+           se pueden añadir más casos reales como nuevas tarjetas/plegables
+           dentro de este grupo (ver el comentario CASOS-FUTUROS al final). -->
+      <details class="grupo-cargo grupo-pagina">
+        <summary class="grupo-cab">
+          <span class="grupo-cab-txt">
+            <span class="grupo-nombre">💔 Cuando el rastro se rompe — y lo que te cuesta</span>
+            <span class="grupo-sub">Un caso real: el SENASA. Lo que le pasó a la gente.</span>
+          </span>
+          <span class="grupo-chev" aria-hidden="true">▸</span>
+        </summary>
+        <div class="grupo-pagina-body">
+
+      <!-- Costo humano: lo primero que ve la persona al abrir el grupo. Lenguaje
+           de 12 años, honesto. Lo que sigue es lo que ALEGA la Fiscalía. -->
+      <div class="costo-humano">
+        <b>👥 Lo que esto le costó a la gente</b>
+        <p>Cuando el rastro del dinero se rompe, no es solo plata: son personas. Esto es lo que, según la Fiscalía, pasó con el SENASA, el seguro de salud de 7.5 millones de personas, muchas pobres y enfermas:</p>
+        <ul>
+          <li>Mientras se pagaba a clínicas falsas, a las clínicas y hospitales de verdad se les dejó de pagar: las deudas con proveedores reales pasaron de casi nada en 2020 a cerca de la mitad de lo que se debía en 2023. Cuando no le pagan a tu hospital, el que se queda sin atención eres tú.</li>
+          <li>Hubo gente enferma —con cáncer, con los riñones dañados— que necesitaba tratamiento caro y quedó atrapada en un sistema que cobraba por curaciones que muchas veces nunca se dieron.</li>
+          <li>Se facturó por personas que ni conocían la clínica que cobró en su nombre: de 34 afiliados que la Fiscalía contactó en un caso, ninguno reconoció los servicios que se cobraron.</li>
+          <li>Y se llegó a cobrar diálisis de pacientes que ya habían fallecido. Detrás de cada factura falsa había una familia real.</li>
+        </ul>
+        <p class="costo-cierre">Por eso esto importa: cuando nadie puede seguir el dinero, los que pagan el precio son los más débiles. Aquí abajo ves, paso a paso, cómo se rompió.</p>
       </div>
 
       <div class="caso" id="caso-senasa">
@@ -558,21 +652,14 @@
         </details>
       </div>
 
-      <div class="sub-seccion">
-        <span class="sub-seccion-num" aria-hidden="true">4</span>
-        <div class="sub-seccion-txt">
-          <h3 class="sub-seccion-titulo">El rastro del dinero público</h3>
-          <p class="sub-seccion-desc">Hay dinero público que debería llegar a la gente. Aquí ves hasta dónde se puede seguir, fondo por fondo.</p>
-        </div>
-      </div>
+      <!-- CASOS-FUTUROS: aquí abajo, dentro de este mismo grupo, se pueden añadir
+           más casos reales (cada uno como su propia tarjeta .caso con su .caso-head,
+           sus pasos y su plegable de fuentes), sin tocar el diseño. SENASA es el
+           único por ahora; nada inventado. -->
 
-      <!-- 💰 El rastro del dinero público — feature reutilizable, hecho con datos.
-           Se rellena desde data/fondos_publicos.json en src/app.ts (renderFondos).
-           Cada fondo muestra: qué es, cuánto, tabla por provincia, quién lo
-           rechaza, y la cadena de 5 pasos con un semáforo de transparencia
-           (🟢 se puede seguir / 🟡 difícil / 🔴 oculto) y un veredicto. Para
-           añadir otro fondo, sólo se agrega una entrada al JSON. -->
-      <div id="fondos-publicos" class="fondos-publicos"></div>
+        </div>
+      </details>
+      <!-- ===== fin GRUPO 3 ===== -->
 
       <div class="siguiente va-pais">
         <span class="siguiente-cab">🎉 ¡Diste la vuelta completa!</span>
@@ -669,7 +756,7 @@
     </div>
   </dialog>
 
-  <script src="app.js?v=20260613e"></script>
+  <script src="app.js?v=20260613f"></script>
   <!-- Contador de visitas, privado y sin cookies (GoatCounter) -->
   <script data-goatcounter="https://politicasencillard.goatcounter.com/count"
           async src="//gc.zgo.at/count.js"></script>

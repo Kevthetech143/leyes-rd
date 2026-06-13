@@ -13,7 +13,7 @@ const votoClass = { si: "voto-si", no: "voto-no", ausente: "voto-aus" };
 // cache-buster (?v=...). Appended to every data fetch so returning visitors
 // don't render stale JSON from the browser's HTTP cache when only the data
 // changed (the data files are not versioned in the HTML).
-const DATA_VERSION = "20260613e";
+const DATA_VERSION = "20260613f";
 async function cargar(path) {
     const sep = path.indexOf("?") >= 0 ? "&" : "?";
     const res = await fetch(path + sep + "v=" + DATA_VERSION);
@@ -1212,11 +1212,11 @@ function renderSesiones(data, votosPorSesion) {
             "Si gana las dos, sigue su camino para ser ley. Las resoluciones (homenajes, peticiones) se deciden en una sola votación: <b>única discusión</b>. " +
             "<b>Unanimidad</b> = todos los presentes dijeron que sí.";
     cont.append(leyenda);
-    data.sesiones.forEach((ses, idx) => {
-        // Each session collapses to one line; only the newest starts open.
+    data.sesiones.forEach((ses) => {
+        // Each session collapses to one line. All start CLOSED so the tab opens
+        // short and consistent with every other tab (the user taps the session
+        // they want). The most recent is listed first.
         const card = el("details", "sesion");
-        if (idx === 0)
-            card.open = true;
         const head = el("summary", "sesion-head");
         head.append(el("span", "sesion-fecha", fechaLarga(ses.fecha)), el("span", "sesion-conteo", ses.votaciones.length + " votaciones"), el("span", "sesion-acta", "Acta " + ses.acta), el("span", "sesion-chev", "▸"));
         card.append(head);
@@ -1334,14 +1334,13 @@ function renderSesionesVotos(data) {
     host.append(el("p", "nota-fuente", "Estas son las sesiones recientes que ya leímos, no todo el período. " +
         "Solo aparecen los proyectos con su explicación verificada."));
     // Senado panel: one collapsible card per session, newest first (data already
-    // arrives newest-first). Only the first session starts open.
+    // arrives newest-first). All start CLOSED so the view opens short and matches
+    // every other tab; the user taps the session they want.
     const panelSen = el("div", "ses-votos-panel");
-    senado.forEach((ses, idx) => {
+    senado.forEach((ses) => {
         if (!ses.bills || !ses.bills.length)
             return;
         const sCard = el("details", "grupo-cargo ses-votos-sesion");
-        if (idx === 0)
-            sCard.open = true;
         const sCab = el("summary", "grupo-cab");
         // Header names the session by its real date when we have one ("Sesión del
         // 16 de diciembre de 2025"), keeping the session number as a small tag.
