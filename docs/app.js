@@ -13,7 +13,7 @@ const votoClass = { si: "voto-si", no: "voto-no", ausente: "voto-aus" };
 // cache-buster (?v=...). Appended to every data fetch so returning visitors
 // don't render stale JSON from the browser's HTTP cache when only the data
 // changed (the data files are not versioned in the HTML).
-const DATA_VERSION = "20260611g";
+const DATA_VERSION = "20260613a";
 async function cargar(path) {
     const sep = path.indexOf("?") >= 0 ? "&" : "?";
     const res = await fetch(path + sep + "v=" + DATA_VERSION);
@@ -819,9 +819,65 @@ function renderLider(l, provincia) {
         block.append(el("p", "nota-fuente", nota));
     }
     if (esLegislador(l.cargo)) {
-        block.append(el("p", "lider-cargo", "Registro de votos: " + l.registro));
+        // When we've read this legislator's votes from the official boards, show an
+        // expandable record: a "Registro de votos" card -> one fold per session ->
+        // the bills voted on, each with the plain "¿qué es?" / "¿y a mí qué?" and how
+        // this person voted. Gated on l.votos so the other legislators (and every
+        // non-legislator) keep the plain fallback line below, exactly as before.
+        if (l.votos && l.votos.length) {
+            block.append(renderRegistroVotos(l));
+        }
+        else {
+            block.append(el("p", "lider-cargo", "Registro de votos: " + l.registro));
+        }
     }
     return block;
+}
+// Builds the expandable "Registro de votos" record for a legislator that has
+// per-session vote data (l.votos). Outer card folds open to the honest scope
+// note + one fold per session; each session fold opens to its bills, and each
+// bill shows the plain explanation and this person's vote. Nothing is invented:
+// every title/explanation comes verbatim from the data passed in.
+function renderRegistroVotos(l) {
+    const votos = l.votos;
+    const totalLeyes = votos.reduce((n, s) => n + (s.leyes ? s.leyes.length : 0), 0);
+    const card = el("details", "grupo-cargo votos-registro");
+    const cab = el("summary", "grupo-cab");
+    cab.append(el("span", "grupo-nombre", "🗳️ Registro de votos"), el("span", "grupo-conteo", totalLeyes + (totalLeyes === 1 ? " voto" : " votos")), el("span", "grupo-chev", "▸"));
+    card.append(cab);
+    const body = el("div", "votos-registro-body");
+    // Honest scope line first: these are the recent sessions we've read, not the
+    // whole term.
+    const nota = l.votos_nota ||
+        "Estas son las sesiones recientes del Senado que ya leímos, no todo su período.";
+    body.append(el("p", "nota-fuente", nota));
+    votos.forEach((ses) => {
+        if (!ses.leyes || !ses.leyes.length)
+            return;
+        const sDet = el("details", "votos-sesion");
+        const sCab = el("summary", "votos-sesion-cab");
+        sCab.append(el("span", "votos-sesion-nom", "Sesión " + ses.sesion), el("span", "votos-sesion-conteo", ses.leyes.length + (ses.leyes.length === 1 ? " ley" : " leyes")), el("span", "grupo-chev", "▸"));
+        sDet.append(sCab);
+        ses.leyes.forEach((ley) => {
+            const wrap = el("div", "voto-ley");
+            // Title + this person's vote on the same row, the vote colored like the
+            // existing per-law vote rows (voto-si / voto-no / voto-aus).
+            const top = el("div", "voto-ley-top");
+            top.append(el("span", "voto-ley-titulo", ley.titulo));
+            top.append(el("span", "voto-ley-voto " + (votoClass[ley.voto] || ""), votoLabel[ley.voto] || ley.voto));
+            wrap.append(top);
+            if (ley.que_es) {
+                wrap.append(el("h4", "voto-ley-h", "¿Qué es?"), el("p", "voto-ley-p", ley.que_es));
+            }
+            if (ley.como_afecta) {
+                wrap.append(el("h4", "voto-ley-h", "¿Y a mí qué?"), el("p", "voto-ley-p", ley.como_afecta));
+            }
+            sDet.append(wrap);
+        });
+        body.append(sDet);
+    });
+    card.append(body);
+    return card;
 }
 // "¿Y los regidores?" — a small explainer card in every province profile.
 // Explains, kid-simple, what a regidor is (the town council that approves the

@@ -101,6 +101,24 @@ interface Asistenciasenador {
   fuente: string;
 }
 
+// One bill a legislator voted on, with the plain explanation (verbatim from our
+// bills dataset) and how this person voted. Used inside the per-session vote
+// record below.
+interface VotoLey {
+  bill_id: string;
+  titulo: string;
+  que_es: string;
+  como_afecta: string;
+  voto: Voto;
+}
+
+// One plenary session's worth of a legislator's votes: the session number and
+// the bills voted on in it.
+interface VotoSesion {
+  sesion: string;
+  leyes: VotoLey[];
+}
+
 interface Lider {
   cargo: string;
   nombre: string;
@@ -111,6 +129,10 @@ interface Lider {
   asistencia?: Asistenciasenador;       // Lane 1 — plenary attendance
   comisiones?: string[];                 // Lane 2 — Senate committees
   iniciativas_propuestas?: number;       // Lane 3 — bills proposed/co-proposed
+  // Per-session voting record (optional). When present, the vote slot renders an
+  // expandable record instead of the plain "Registro de votos: ..." line.
+  votos?: VotoSesion[];
+  votos_nota?: string;                   // honest scope line for the record
   // Per-person salary, used for mayors (each ayuntamiento pays its own amount,
   // so this is read from that municipality's own nómina, not a role-wide rate).
   sueldo?: { monto: string; mes: string; fuente: string };
@@ -1069,9 +1091,75 @@ function renderLider(l: Lider, provincia: string): HTMLElement {
   }
 
   if (esLegislador(l.cargo)) {
-    block.append(el("p", "lider-cargo", "Registro de votos: " + l.registro));
+    // When we've read this legislator's votes from the official boards, show an
+    // expandable record: a "Registro de votos" card -> one fold per session ->
+    // the bills voted on, each with the plain "¿qué es?" / "¿y a mí qué?" and how
+    // this person voted. Gated on l.votos so the other legislators (and every
+    // non-legislator) keep the plain fallback line below, exactly as before.
+    if (l.votos && l.votos.length) {
+      block.append(renderRegistroVotos(l));
+    } else {
+      block.append(el("p", "lider-cargo", "Registro de votos: " + l.registro));
+    }
   }
   return block;
+}
+
+// Builds the expandable "Registro de votos" record for a legislator that has
+// per-session vote data (l.votos). Outer card folds open to the honest scope
+// note + one fold per session; each session fold opens to its bills, and each
+// bill shows the plain explanation and this person's vote. Nothing is invented:
+// every title/explanation comes verbatim from the data passed in.
+function renderRegistroVotos(l: Lider): HTMLElement {
+  const votos = l.votos as VotoSesion[];
+  const totalLeyes = votos.reduce((n, s) => n + (s.leyes ? s.leyes.length : 0), 0);
+  const card = el("details", "grupo-cargo votos-registro");
+  const cab = el("summary", "grupo-cab");
+  cab.append(
+    el("span", "grupo-nombre", "🗳️ Registro de votos"),
+    el("span", "grupo-conteo", totalLeyes + (totalLeyes === 1 ? " voto" : " votos")),
+    el("span", "grupo-chev", "▸"),
+  );
+  card.append(cab);
+
+  const body = el("div", "votos-registro-body");
+  // Honest scope line first: these are the recent sessions we've read, not the
+  // whole term.
+  const nota = l.votos_nota ||
+    "Estas son las sesiones recientes del Senado que ya leímos, no todo su período.";
+  body.append(el("p", "nota-fuente", nota));
+
+  votos.forEach((ses) => {
+    if (!ses.leyes || !ses.leyes.length) return;
+    const sDet = el("details", "votos-sesion");
+    const sCab = el("summary", "votos-sesion-cab");
+    sCab.append(
+      el("span", "votos-sesion-nom", "Sesión " + ses.sesion),
+      el("span", "votos-sesion-conteo", ses.leyes.length + (ses.leyes.length === 1 ? " ley" : " leyes")),
+      el("span", "grupo-chev", "▸"),
+    );
+    sDet.append(sCab);
+
+    ses.leyes.forEach((ley) => {
+      const wrap = el("div", "voto-ley");
+      // Title + this person's vote on the same row, the vote colored like the
+      // existing per-law vote rows (voto-si / voto-no / voto-aus).
+      const top = el("div", "voto-ley-top");
+      top.append(el("span", "voto-ley-titulo", ley.titulo));
+      top.append(el("span", "voto-ley-voto " + (votoClass[ley.voto] || ""), votoLabel[ley.voto] || ley.voto));
+      wrap.append(top);
+      if (ley.que_es) {
+        wrap.append(el("h4", "voto-ley-h", "¿Qué es?"), el("p", "voto-ley-p", ley.que_es));
+      }
+      if (ley.como_afecta) {
+        wrap.append(el("h4", "voto-ley-h", "¿Y a mí qué?"), el("p", "voto-ley-p", ley.como_afecta));
+      }
+      sDet.append(wrap);
+    });
+    body.append(sDet);
+  });
+  card.append(body);
+  return card;
 }
 
 // "¿Y los regidores?" — a small explainer card in every province profile.

@@ -601,6 +601,41 @@ main { max-width: 720px; margin: 0 auto; padding: 0 14px 40px; }
 .regidores-municipio::after { content: " ▸"; }
 .regidores-lista[open] .regidores-municipio::after { content: " ▾"; }
 .regidor-fila { margin: 4px 0; font-size: .9rem; }
+
+/* Registro de votos: a legislator's per-session voting record. The outer card
+   reuses .grupo-cargo (Nivel-1 grouper). Inside: the honest scope note, then one
+   session fold (Nivel-2, same idiom as .regidores-lista), each opening to the
+   bills voted on with the plain explanation and the colored vote chip. */
+.votos-registro-body { padding: 4px 14px 12px; }
+.votos-registro-body > .nota-fuente { margin-top: 6px; }
+.votos-sesion {
+  margin: 8px 0 4px; padding: 4px 0 4px 10px;
+  border-top: 1px solid #dbe3ff; border-left: 3px solid var(--acc);
+  border-radius: 0 8px 8px 0;
+}
+.votos-sesion-cab {
+  margin: 0; cursor: pointer; list-style: none; padding: 4px 0;
+  display: flex; align-items: center; gap: 8px;
+}
+.votos-sesion-cab::-webkit-details-marker { display: none; }
+.votos-sesion-nom { font-size: .9rem; font-weight: 800; color: var(--acc); }
+.votos-sesion-conteo {
+  font-size: .74rem; font-weight: 700; color: var(--acc);
+  background: #fff; border: 1px solid var(--acc); border-radius: 999px; padding: 1px 8px;
+}
+.votos-sesion .grupo-chev { margin-left: auto; }
+.votos-sesion[open] > .votos-sesion-cab .grupo-chev { transform: rotate(90deg); }
+/* One bill inside a session fold: title + vote on a row, then the explanation. */
+.voto-ley { padding: 8px 0; border-top: 1px dashed #eef0f4; }
+.voto-ley:first-of-type { border-top: none; }
+.voto-ley-top {
+  display: flex; align-items: baseline; justify-content: space-between; gap: 10px;
+}
+.voto-ley-titulo { font-size: .9rem; font-weight: 700; color: var(--tinta); flex: 1; }
+.voto-ley-voto { flex: none; font-size: .9rem; white-space: nowrap; }
+.voto-ley-h { margin: 8px 0 2px; font-size: .82rem; color: var(--azul); }
+.voto-ley-p { margin: 0; font-size: .86rem; color: var(--tinta); line-height: 1.5; }
+
 /* Sesiones */
 .sesion {
   background: var(--tarjeta); border-radius: var(--radio);
