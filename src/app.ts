@@ -343,7 +343,7 @@ const votoClass: Record<Voto, string> = { si: "voto-si", no: "voto-no", ausente:
 // cache-buster (?v=...). Appended to every data fetch so returning visitors
 // don't render stale JSON from the browser's HTTP cache when only the data
 // changed (the data files are not versioned in the HTML).
-const DATA_VERSION = "20260613f";
+const DATA_VERSION = "20260613g";
 
 async function cargar<T>(path: string): Promise<T> {
   const sep = path.indexOf("?") >= 0 ? "&" : "?";
@@ -1941,7 +1941,30 @@ function renderFondos(data: FondosData): void {
   });
   cont.append(leyDiv);
 
-  fondos.forEach((f) => cont.append(renderFondo(f, leyenda)));
+  // Each fund is its own COLLAPSED Nivel-2 sub-group (the grouping rule, one
+  // level deeper). Adding a fund to the JSON makes a new collapsed sub-group
+  // automatically — no markup change. Reuses the site's Nivel-2 grouper
+  // (.grupo-pagina) so it folds and recolors like every other sub-group.
+  fondos.forEach((f) => cont.append(renderFondoGrupo(f, leyenda)));
+}
+
+// Wraps one fund card in a collapsed Nivel-2 sub-group. The summary shows the
+// fund's popular name and a one-line teaser; tapping it reveals the full card
+// built by renderFondo. Same fold/accent idiom as the page's other groups.
+function renderFondoGrupo(f: Fondo, leyenda: Record<EstadoRastro, RastroLeyendaItem>): HTMLElement {
+  const grupo = el("details", "grupo-cargo grupo-pagina fondo-grupo");
+  const cab = el("summary", "grupo-cab");
+  const txt = el("span", "grupo-cab-txt");
+  txt.append(
+    el("span", "grupo-nombre", "💰 " + f.nombre_popular),
+    el("span", "grupo-sub", "Nombre oficial: " + f.nombre_oficial + ". Sigue su rastro y mira el veredicto."),
+  );
+  cab.append(txt, el("span", "grupo-chev", "▸"));
+  grupo.append(cab);
+  const body = el("div", "grupo-pagina-body");
+  body.append(renderFondo(f, leyenda));
+  grupo.append(body);
+  return grupo;
 }
 
 // Builds one fund card. Split out from renderFondos so adding a second fund is
@@ -1949,11 +1972,8 @@ function renderFondos(data: FondosData): void {
 function renderFondo(f: Fondo, leyenda: Record<EstadoRastro, RastroLeyendaItem>): HTMLElement {
   const card = el("div", "fondo");
 
-  // Header: popular name big, official name small underneath.
-  const head = el("div", "fondo-head");
-  head.append(el("h4", "fondo-nombre", "💰 " + f.nombre_popular));
-  head.append(el("p", "fondo-oficial", "Nombre oficial: " + f.nombre_oficial));
-  card.append(head);
+  // No header here: the fund's popular and official names live in the
+  // collapsed sub-group summary (renderFondoGrupo) that wraps this card.
 
   // What it is + who it's for, plain.
   card.append(el("p", "fondo-quees", f.que_es));

@@ -558,6 +558,32 @@ main { max-width: 720px; margin: 0 auto; padding: 0 14px 40px; }
    if any survive nested. */
 .grupo-pagina-body .sub-seccion { margin-top: 8px; border-top: none; padding-top: 0; }
 
+/* Nivel-2 sub-group — a .grupo-pagina nested inside an OPEN page group (the
+   grouping rule one level deeper: e.g. inside "El rastro del dinero público",
+   the "Cómo debería viajar el dinero" and "El rastro real de los fondos"
+   sub-groups, and each per-fund sub-group rendered from the JSON). Reuses the
+   same fold markup, but reads LIGHTER so three stacked levels stay distinct:
+   no heavy shadow, a 3px --acc left border, and a softer header band. The
+   chevron + open/close behavior come from .grupo-pagina above unchanged. */
+.grupo-pagina-body > .grupo-pagina {
+  box-shadow: none; border-left: 3px solid var(--acc); border-radius: var(--radio-sm);
+  margin: 8px 0;
+}
+.grupo-pagina-body > .grupo-pagina > .grupo-cab {
+  background: var(--dinero-bg); padding: 10px 12px;
+}
+.grupo-pagina-body > .grupo-pagina > .grupo-cab .grupo-nombre { font-size: .98rem; }
+.grupo-pagina-body > .grupo-pagina > .grupo-pagina-body { padding: 8px 12px 12px; }
+/* A per-fund sub-group sits a third level deep (inside the funds sub-group),
+   so trim its own card chrome to a flat tinted strip — no nested shadow, no
+   doubled border — and let the fund card inside read as content, not a second
+   card (drop the fund card's own shadow/thick top rule when wrapped). */
+.fondo-grupo { border-left-width: 3px; margin: 8px 0; }
+.fondo-grupo > .grupo-pagina-body { padding: 6px 12px 12px; }
+.fondo-grupo > .grupo-pagina-body > .fondo {
+  margin: 0; box-shadow: none; border: none; border-radius: 0; padding: 4px 0 0;
+}
+
 /* Human-cost lead — the short, plain block at the top of the "cuando el rastro
    se rompe" group. Same alert vocabulary as .punto-debil (red-tinted card) but
    carries a list so more real cases can be added later. Honest framing: each

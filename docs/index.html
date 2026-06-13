@@ -24,7 +24,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="styles.css?v=20260613f" />
+  <link rel="stylesheet" href="styles.css?v=20260613g" />
 </head>
 <body>
   <header class="topbar">
@@ -506,15 +506,33 @@
       <!-- ===== fin GRUPO 1 ===== -->
 
       <!-- ===== GRUPO 2 — El rastro del dinero público (plegado por defecto) =====
-           Reúne las dos mitades de "seguir el dinero": el camino sano paso a paso
-           (intro + flujo de 6 pasos + punto débil) y, debajo, el rastro real de
-           los fondos (#fondos-publicos, el barrilito) con su semáforo y veredicto.
-           Mismo plegable Nivel-1. -->
+           Reúne las dos mitades de "seguir el dinero". Por la REGLA de agrupar
+           (un nivel más abajo), cada mitad es su PROPIO sub-grupo Nivel-2,
+           plegado por defecto:
+             (a) "Cómo debería viajar el dinero" — el camino sano paso a paso
+                 (intro + flujo de 6 pasos + punto débil), estático aquí.
+             (b) "El rastro real de los fondos" — #fondos-publicos, que src/app.ts
+                 (renderFondos) rellena con UN sub-grupo plegado por cada fondo
+                 del JSON (hoy: el barrilito). Añadir un fondo crea su sub-grupo
+                 solo, sin tocar el HTML.
+           Al abrir el grupo se ven dos encabezados de sub-grupo cortos; cada uno
+           se toca para abrirse. Mismo plegable Nivel-1 por fuera, Nivel-2 dentro. -->
       <details class="grupo-cargo grupo-pagina">
         <summary class="grupo-cab">
           <span class="grupo-cab-txt">
             <span class="grupo-nombre">🔎 El rastro del dinero público</span>
             <span class="grupo-sub">Sigue un peso hasta donde se puede ver — y donde se pierde.</span>
+          </span>
+          <span class="grupo-chev" aria-hidden="true">▸</span>
+        </summary>
+        <div class="grupo-pagina-body">
+
+      <!-- (a) Sub-grupo Nivel-2 — cómo DEBERÍA viajar el dinero (camino sano). -->
+      <details class="grupo-cargo grupo-pagina">
+        <summary class="grupo-cab">
+          <span class="grupo-cab-txt">
+            <span class="grupo-nombre">🛣️ Cómo debería viajar el dinero</span>
+            <span class="grupo-sub">El camino sano, paso a paso — y dónde se suele perder.</span>
           </span>
           <span class="grupo-chev" aria-hidden="true">▸</span>
         </summary>
@@ -543,13 +561,30 @@
 
       <p class="nota-fuente">Flujo general según el sistema de finanzas del Estado dominicano (SIGEF, Tesorería, DGCP, Cámara de Cuentas). No incluye cifras de casos específicos.</p>
 
-      <!-- 💰 El rastro del dinero público — feature reutilizable, hecho con datos.
-           Se rellena desde data/fondos_publicos.json en src/app.ts (renderFondos).
-           Cada fondo muestra: qué es, cuánto, tabla por provincia, quién lo
-           rechaza, y la cadena de 5 pasos con un semáforo de transparencia
-           (🟢 se puede seguir / 🟡 difícil / 🔴 oculto) y un veredicto. Para
-           añadir otro fondo, sólo se agrega una entrada al JSON. -->
-      <div id="fondos-publicos" class="fondos-publicos"></div>
+        </div>
+      </details>
+      <!-- fin sub-grupo (a) -->
+
+      <!-- (b) Sub-grupo Nivel-2 — el rastro REAL de los fondos. Encabeza con una
+           línea corta; dentro, #fondos-publicos se rellena desde
+           data/fondos_publicos.json en src/app.ts (renderFondos): la leyenda del
+           semáforo, y luego UN sub-grupo plegado por cada fondo (hoy el
+           barrilito) con su cadena de 5 pasos, tabla por provincia y veredicto
+           "Imposible de auditar". Añadir otro fondo al JSON crea su propio
+           sub-grupo automáticamente. -->
+      <details class="grupo-cargo grupo-pagina">
+        <summary class="grupo-cab">
+          <span class="grupo-cab-txt">
+            <span class="grupo-nombre">🔦 El rastro real de los fondos</span>
+            <span class="grupo-sub">Fondos de verdad: hasta dónde se puede seguir cada uno.</span>
+          </span>
+          <span class="grupo-chev" aria-hidden="true">▸</span>
+        </summary>
+        <div class="grupo-pagina-body">
+          <div id="fondos-publicos" class="fondos-publicos"></div>
+        </div>
+      </details>
+      <!-- fin sub-grupo (b) -->
 
         </div>
       </details>
@@ -756,7 +791,7 @@
     </div>
   </dialog>
 
-  <script src="app.js?v=20260613f"></script>
+  <script src="app.js?v=20260613g"></script>
   <!-- Contador de visitas, privado y sin cookies (GoatCounter) -->
   <script data-goatcounter="https://politicasencillard.goatcounter.com/count"
           async src="//gc.zgo.at/count.js"></script>
