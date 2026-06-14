@@ -125,7 +125,7 @@
       "valor": "5.35% en un año",
       "detalle": "Inflación interanual de mayo 2025 a mayo 2026, medida por el IPC. En el mes de mayo 2026 los precios subieron 0.31%.",
       "fuente": "Banco Central RD — IPC mayo 2026",
-      "url": "https://primicias.net/web/bcrd-informa-que-la-variacion-del-ipc-en-el-mes-de-mayo-fue-de-0-31/",
+      "url": "https://www.bancentral.gov.do/a/d/2541-inflacion",
       "periodo": "Mayo 2026 (interanual)",
       "comparacion": {
         "valor_anterior": "3.84%",
@@ -142,7 +142,7 @@
       "valor": "5.0%",
       "detalle": "Tasa de desocupación abierta (SU1) al cuarto trimestre de 2025.",
       "fuente": "Banco Central RD — Encuesta Nacional Continua de Fuerza de Trabajo (ENCFT)",
-      "url": "https://es.tradingeconomics.com/dominican-republic/unemployment-rate",
+      "url": "https://www.bancentral.gov.do/a/d/2542-mercado-de-trabajo",
       "periodo": "Octubre-diciembre 2025",
       "comparacion": {
         "valor_anterior": "4.8%",
