@@ -69,7 +69,7 @@ interface VigenciaLey {
 
 interface VigenciaData {
   _nota?: string;
-  regla_por_defecto?: { titulo: string; texto: string; fuente: string };
+  regla_por_defecto?: { titulo: string; texto: string; fuente: string; url?: string };
   leyes: VigenciaLey[];
 }
 
@@ -360,7 +360,7 @@ const votoClass: Record<Voto, string> = { si: "voto-si", no: "voto-no", ausente:
 // cache-buster (?v=...). Appended to every data fetch so returning visitors
 // don't render stale JSON from the browser's HTTP cache when only the data
 // changed (the data files are not versioned in the HTML).
-const DATA_VERSION = "20260614c";
+const DATA_VERSION = "20260614d";
 
 async function cargar<T>(path: string): Promise<T> {
   const sep = path.indexOf("?") >= 0 ? "&" : "?";
@@ -756,6 +756,8 @@ function renderVigencia(data: VigenciaData): void {
     const body = el("div", "vig-regla-body");
     body.append(el("p", null, r.texto));
     body.append(el("p", "nota-fuente", "Fuente: " + r.fuente + "."));
+    const aRegla = enlaceDoc(r.url, "📄 Ver el documento oficial (PDF)");
+    if (aRegla) body.append(aRegla);
     det.append(body);
     host.append(det);
   }

@@ -13,7 +13,7 @@ const votoClass = { si: "voto-si", no: "voto-no", ausente: "voto-aus" };
 // cache-buster (?v=...). Appended to every data fetch so returning visitors
 // don't render stale JSON from the browser's HTTP cache when only the data
 // changed (the data files are not versioned in the HTML).
-const DATA_VERSION = "20260614c";
+const DATA_VERSION = "20260614d";
 async function cargar(path) {
     const sep = path.indexOf("?") >= 0 ? "&" : "?";
     const res = await fetch(path + sep + "v=" + DATA_VERSION);
@@ -376,6 +376,9 @@ function renderVigencia(data) {
         const body = el("div", "vig-regla-body");
         body.append(el("p", null, r.texto));
         body.append(el("p", "nota-fuente", "Fuente: " + r.fuente + "."));
+        const aRegla = enlaceDoc(r.url, "📄 Ver el documento oficial (PDF)");
+        if (aRegla)
+            body.append(aRegla);
         det.append(body);
         host.append(det);
     }

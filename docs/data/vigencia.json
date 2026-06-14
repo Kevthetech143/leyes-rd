@@ -1,154 +1,155 @@
 {
- "_nota": "Leyes promulgadas (firmadas por el Presidente y publicadas en la Gaceta Oficial) entre agosto de 2025 y mayo de 2026. Fuente oficial de cada ley: Consultoría Jurídica del Poder Ejecutivo, portal 'Leyes y Decretos' (www.consultoria.gov.do/consulta), de donde salen el número de ley, el título, el número de Gaceta y la fecha de promulgación. La fecha de vigencia se tomó del propio texto de cada ley (artículo de 'entrada en vigencia') descargado de ese mismo portal. Regla por defecto cuando la ley no fija un plazo propio: Código Civil Dominicano, artículo 1 (modificado por la Ley 1930 de 1949) — la ley empieza a regir el día siguiente a su publicación en la Gaceta Oficial en el Distrito Nacional, y el segundo día en el resto de las provincias. Texto del Código Civil verificado en el PDF oficial publicado por el Estado (ri.gob.do). Las frases '¿qué es?' las redactó este sitio en español sencillo a partir del título y el texto oficial; no son citas del Estado. Fecha de extracción: 2026-06-10. ENLACES AL DOCUMENTO OFICIAL (5ª sugerencia de un usuario real, Ángel): cada ley con un PDF oficial verificado lleva 'url_documento' (enlace directo al texto completo, oficial del Estado); cuando no hay un PDF estable por ley, lleva 'url_busqueda' que apunta al portal oficial de la Consultoría Jurídica (www.consultoria.gov.do/consulta) para buscarla por su número. Todos los enlaces verificados con HTTP 200 el 2026-06-11. El Código Penal (Ley 74-25) enlaza al PDF oficial de la Presidencia; la Ley 47-25 al PDF oficial de la Dirección General de Contrataciones Públicas (dgcp.gob.do).",
- "regla_por_defecto": {
-  "titulo": "¿Y si la ley no dice cuándo empieza?",
-  "texto": "Cuando una ley no fija su propia fecha, manda el Código Civil (artículo 1): empieza a regir el día siguiente a salir en la Gaceta Oficial en el Distrito Nacional, y el segundo día en el resto de las provincias.",
-  "fuente": "Código Civil Dominicano, art. 1 (modificado por la Ley 1930 de 1949). PDF oficial: ri.gob.do/wp-content/uploads/Marco_Legal/Codigos/Codigo_Civil_RD.pdf"
- },
- "leyes": [
-  {
-   "numero": "74-25",
-   "titulo": "Código Penal de la República Dominicana",
-   "que_es": "Es el libro nuevo que dice cuáles cosas son delito y qué castigo tiene cada una. Cambia el Código Penal viejo, que tenía más de 100 años.",
-   "promulgada": "2025-08-03",
-   "gaceta": "publicación digital de la Gaceta Oficial",
-   "estado": "pronto",
-   "vigencia_fecha": "2026-08-03",
-   "vigencia_texto": "Empieza a regir 12 meses después de su firma, según su propio artículo 393. Se firmó el 3 de agosto de 2025, así que empieza alrededor del 3 de agosto de 2026.",
-   "fuente": "Ley 74-25, art. 393 — Consultoría Jurídica del Poder Ejecutivo (consultoria.gov.do/consulta)",
-   "url_documento": "https://presidencia.gob.do/sites/default/files/laws/2025-08/Ley%20Nu%CC%81m.%2074-25%20%28Co%CC%81digo%20Penal%20RD%29.pdf"
+  "_nota": "Leyes promulgadas (firmadas por el Presidente y publicadas en la Gaceta Oficial) entre agosto de 2025 y mayo de 2026. Fuente oficial de cada ley: Consultoría Jurídica del Poder Ejecutivo, portal 'Leyes y Decretos' (www.consultoria.gov.do/consulta), de donde salen el número de ley, el título, el número de Gaceta y la fecha de promulgación. La fecha de vigencia se tomó del propio texto de cada ley (artículo de 'entrada en vigencia') descargado de ese mismo portal. Regla por defecto cuando la ley no fija un plazo propio: Código Civil Dominicano, artículo 1 (modificado por la Ley 1930 de 1949) — la ley empieza a regir el día siguiente a su publicación en la Gaceta Oficial en el Distrito Nacional, y el segundo día en el resto de las provincias. Texto del Código Civil verificado en el PDF oficial publicado por el Estado (ri.gob.do). Las frases '¿qué es?' las redactó este sitio en español sencillo a partir del título y el texto oficial; no son citas del Estado. Fecha de extracción: 2026-06-10. ENLACES AL DOCUMENTO OFICIAL (5ª sugerencia de un usuario real, Ángel): cada ley con un PDF oficial verificado lleva 'url_documento' (enlace directo al texto completo, oficial del Estado); cuando no hay un PDF estable por ley, lleva 'url_busqueda' que apunta al portal oficial de la Consultoría Jurídica (www.consultoria.gov.do/consulta) para buscarla por su número. Todos los enlaces verificados con HTTP 200 el 2026-06-11. El Código Penal (Ley 74-25) enlaza al PDF oficial de la Presidencia; la Ley 47-25 al PDF oficial de la Dirección General de Contrataciones Públicas (dgcp.gob.do).",
+  "regla_por_defecto": {
+    "titulo": "¿Y si la ley no dice cuándo empieza?",
+    "texto": "Cuando una ley no fija su propia fecha, manda el Código Civil (artículo 1): empieza a regir el día siguiente a salir en la Gaceta Oficial en el Distrito Nacional, y el segundo día en el resto de las provincias.",
+    "fuente": "Código Civil Dominicano, art. 1 (modificado por la Ley 1930 de 1949).",
+    "url": "https://ri.gob.do/wp-content/uploads/Marco_Legal/Codigos/Codigo_Civil_RD.pdf"
   },
-  {
-   "numero": "16-26",
-   "titulo": "Pago a contratistas del Estado y revisión de obras",
-   "que_es": "Permite pagarle a las empresas que le hicieron obras al Estado y crea un grupo que revisa los reclamos por trabajos hechos con o sin contrato formal.",
-   "promulgada": "2026-05-01",
-   "gaceta": "11240",
-   "estado": "vigencia",
-   "vigencia_fecha": "2026-05-04",
-   "vigencia_texto": "Su artículo 18 dice que empieza a regir al promulgarse y publicarse, siguiendo los plazos del Código Civil. Salió en la Gaceta 11240 (2 de mayo de 2026), así que ya está en vigencia.",
-   "fuente": "Ley 16-26, art. 18 — Consultoría Jurídica del Poder Ejecutivo (consultoria.gov.do/consulta)",
-   "url_busqueda": "https://www.consultoria.gov.do/consulta/"
-  },
-  {
-   "numero": "13-26",
-   "titulo": "Limpieza de reglas viejas del sistema electoral",
-   "que_es": "Quita tres artículos de la ley electoral del 2023 y deroga una ley electoral vieja con sus cambios, para dejar las reglas de las elecciones más ordenadas.",
-   "promulgada": "2026-03-26",
-   "gaceta": "11236",
-   "estado": "vigencia",
-   "vigencia_fecha": "2026-03-27",
-   "vigencia_texto": "No fija un plazo propio, así que manda el Código Civil: empezó a regir el día siguiente a salir en la Gaceta 11236 (26 de marzo de 2026).",
-   "fuente": "Ley 13-26 — Consultoría Jurídica del Poder Ejecutivo (consultoria.gov.do/consulta)",
-   "url_busqueda": "https://www.consultoria.gov.do/consulta/"
-  },
-  {
-   "numero": "4-26",
-   "titulo": "Monseñor Nouel, provincia ecoturística",
-   "que_es": "Declara a la provincia Monseñor Nouel (Bonao) como provincia de ecoturismo, para cuidar su naturaleza y atraer visitantes. Reemplaza una ley del 2004.",
-   "promulgada": "2026-01-15",
-   "gaceta": "11229",
-   "estado": "vigencia",
-   "vigencia_fecha": "2026-01-16",
-   "vigencia_texto": "No fija un plazo propio, así que manda el Código Civil: empezó a regir el día siguiente a salir en la Gaceta 11229 (15 de enero de 2026).",
-   "fuente": "Ley 4-26 — Consultoría Jurídica del Poder Ejecutivo (consultoria.gov.do/consulta)",
-   "url_busqueda": "https://www.consultoria.gov.do/consulta/"
-  },
-  {
-   "numero": "1-26",
-   "titulo": "Crea la Dirección Nacional de Inteligencia (DNI)",
-   "que_es": "Crea una oficina del Estado que reúne información para cuidar la seguridad del país, y pone reglas para cómo debe trabajar el sistema de inteligencia.",
-   "promulgada": "2026-01-09",
-   "gaceta": "11227",
-   "estado": "vigencia",
-   "vigencia_fecha": "2026-01-10",
-   "vigencia_texto": "Su texto dice que empieza a regir al promulgarse y publicarse, siguiendo los plazos del Código Civil. Salió en la Gaceta 11227 (9 de enero de 2026), así que ya está en vigencia.",
-   "fuente": "Ley 1-26 — Consultoría Jurídica del Poder Ejecutivo (consultoria.gov.do/consulta)",
-   "url_busqueda": "https://www.consultoria.gov.do/consulta/"
-  },
-  {
-   "numero": "100-25",
-   "titulo": "Permiso para tomar deuda en 2026",
-   "que_es": "Autoriza al gobierno a pedir prestado (emitir deuda) hasta un tope grande para pagar sus cuentas del año. El tope llega a más de RD$401 mil millones.",
-   "promulgada": "2025-12-19",
-   "gaceta": "11224",
-   "estado": "vigencia",
-   "vigencia_fecha": "2025-12-20",
-   "vigencia_texto": "Su texto dice que empieza a regir tras promulgarse y publicarse, según la Constitución. Salió en la Gaceta 11224 (19 de diciembre de 2025), así que ya está en vigencia.",
-   "fuente": "Ley 100-25 — Consultoría Jurídica del Poder Ejecutivo (consultoria.gov.do/consulta)",
-   "url_busqueda": "https://www.consultoria.gov.do/consulta/"
-  },
-  {
-   "numero": "99-25",
-   "titulo": "Presupuesto del país para 2026",
-   "que_es": "Es el plan de cuánto dinero va a gastar el Estado en 2026 y en qué: salud, educación, obras, sueldos. Lo aprueba el Congreso cada año.",
-   "promulgada": "2025-12-16",
-   "gaceta": "11223",
-   "estado": "vigencia",
-   "vigencia_fecha": "2026-01-01",
-   "vigencia_texto": "Es el presupuesto del año 2026, por eso rige durante todo ese año. Salió en la Gaceta 11223 (16 de diciembre de 2025).",
-   "fuente": "Ley 99-25 — Consultoría Jurídica del Poder Ejecutivo (consultoria.gov.do/consulta)",
-   "url_busqueda": "https://www.consultoria.gov.do/consulta/"
-  },
-  {
-   "numero": "98-25",
-   "titulo": "Cambios a la ley de basura y residuos",
-   "que_es": "Ajusta la ley que organiza cómo se recoge, se separa y se reusa la basura del país, para manejarla mejor.",
-   "promulgada": "2025-12-15",
-   "gaceta": "11222",
-   "estado": "vigencia",
-   "vigencia_fecha": "2026-01-01",
-   "vigencia_texto": "Su propio texto dice que estos cambios empiezan a regir el 1 de enero de 2026. Salió en la Gaceta 11222 (15 de diciembre de 2025).",
-   "fuente": "Ley 98-25 — Consultoría Jurídica del Poder Ejecutivo (consultoria.gov.do/consulta)",
-   "url_busqueda": "https://www.consultoria.gov.do/consulta/"
-  },
-  {
-   "numero": "97-25",
-   "titulo": "Código Procesal Penal (cómo se llevan los juicios)",
-   "que_es": "Es el libro nuevo que dice cómo se hace un juicio penal: paso a paso, desde la denuncia hasta la sentencia. Reemplaza al Código Procesal Penal viejo del 2002.",
-   "promulgada": "2025-12-07",
-   "gaceta": "11221",
-   "estado": "vigencia",
-   "vigencia_fecha": "2025-12-09",
-   "vigencia_texto": "Su artículo 470 dice que empieza a regir al promulgarse y publicarse, siguiendo los plazos del Código Civil. Salió en la Gaceta 11221 (8 de diciembre de 2025), así que ya está en vigencia.",
-   "fuente": "Ley 97-25, art. 470 — Consultoría Jurídica del Poder Ejecutivo (consultoria.gov.do/consulta)",
-   "url_busqueda": "https://www.consultoria.gov.do/consulta/"
-  },
-  {
-   "numero": "85-25",
-   "titulo": "Nueva ley de alquileres y desahucios",
-   "que_es": "Cambia las reglas de cuando alquilas o rentas una casa o un local: derechos del inquilino y del dueño, y cómo se hace un desahucio. Reemplaza leyes de 1955 y 1988.",
-   "promulgada": "2025-08-14",
-   "gaceta": "11211",
-   "estado": "vigencia",
-   "vigencia_fecha": "2025-08-15",
-   "vigencia_texto": "Su artículo 58 dice que empieza a regir al promulgarse y publicarse, siguiendo los plazos del Código Civil. Salió en la Gaceta 11211 (14 de agosto de 2025), así que ya está en vigencia.",
-   "fuente": "Ley 85-25, art. 58 — Consultoría Jurídica del Poder Ejecutivo (consultoria.gov.do/consulta)",
-   "url_busqueda": "https://www.consultoria.gov.do/consulta/"
-  },
-  {
-   "numero": "47-25",
-   "titulo": "Nueva ley de compras del Estado",
-   "que_es": "Pone reglas nuevas para cuando el Estado compra cosas o contrata obras y servicios, para que sea más claro y con menos trampas.",
-   "promulgada": "2025-08-11",
-   "gaceta": "11210",
-   "estado": "vigencia",
-   "vigencia_fecha": "2026-02-07",
-   "vigencia_texto": "Su artículo 248 dice que empieza a regir 180 días después de firmarse. Se firmó el 11 de agosto de 2025, así que entró en vigencia alrededor del 7 de febrero de 2026.",
-   "fuente": "Ley 47-25, art. 248 — Consultoría Jurídica del Poder Ejecutivo (consultoria.gov.do/consulta)",
-   "url_documento": "https://www.dgcp.gob.do/new_dgcp/documentos/politicas_normas_y_procedimientos/leyes_y_decretos/Ley%2047-25.pdf"
-  },
-  {
-   "numero": "84-25",
-   "titulo": "El Congreso vigila y controla mejor",
-   "que_es": "Da reglas para que el Congreso revise y vigile el trabajo del gobierno: cómo pide cuentas y fiscaliza a las instituciones.",
-   "promulgada": "2025-08-08",
-   "gaceta": "11211",
-   "estado": "vigencia",
-   "vigencia_fecha": "2026-02-08",
-   "vigencia_texto": "Su artículo 103 dice que empieza a regir 6 meses después de firmarse. Se firmó el 8 de agosto de 2025, así que entró en vigencia alrededor del 8 de febrero de 2026.",
-   "fuente": "Ley 84-25, art. 103 — Consultoría Jurídica del Poder Ejecutivo (consultoria.gov.do/consulta)",
-   "url_busqueda": "https://www.consultoria.gov.do/consulta/"
-  }
- ]
+  "leyes": [
+    {
+      "numero": "74-25",
+      "titulo": "Código Penal de la República Dominicana",
+      "que_es": "Es el libro nuevo que dice cuáles cosas son delito y qué castigo tiene cada una. Cambia el Código Penal viejo, que tenía más de 100 años.",
+      "promulgada": "2025-08-03",
+      "gaceta": "publicación digital de la Gaceta Oficial",
+      "estado": "pronto",
+      "vigencia_fecha": "2026-08-03",
+      "vigencia_texto": "Empieza a regir 12 meses después de su firma, según su propio artículo 393. Se firmó el 3 de agosto de 2025, así que empieza alrededor del 3 de agosto de 2026.",
+      "fuente": "Ley 74-25, art. 393 — Consultoría Jurídica del Poder Ejecutivo (consultoria.gov.do/consulta)",
+      "url_documento": "https://presidencia.gob.do/sites/default/files/laws/2025-08/Ley%20Nu%CC%81m.%2074-25%20%28Co%CC%81digo%20Penal%20RD%29.pdf"
+    },
+    {
+      "numero": "16-26",
+      "titulo": "Pago a contratistas del Estado y revisión de obras",
+      "que_es": "Permite pagarle a las empresas que le hicieron obras al Estado y crea un grupo que revisa los reclamos por trabajos hechos con o sin contrato formal.",
+      "promulgada": "2026-05-01",
+      "gaceta": "11240",
+      "estado": "vigencia",
+      "vigencia_fecha": "2026-05-04",
+      "vigencia_texto": "Su artículo 18 dice que empieza a regir al promulgarse y publicarse, siguiendo los plazos del Código Civil. Salió en la Gaceta 11240 (2 de mayo de 2026), así que ya está en vigencia.",
+      "fuente": "Ley 16-26, art. 18 — Consultoría Jurídica del Poder Ejecutivo (consultoria.gov.do/consulta)",
+      "url_busqueda": "https://www.consultoria.gov.do/consulta/"
+    },
+    {
+      "numero": "13-26",
+      "titulo": "Limpieza de reglas viejas del sistema electoral",
+      "que_es": "Quita tres artículos de la ley electoral del 2023 y deroga una ley electoral vieja con sus cambios, para dejar las reglas de las elecciones más ordenadas.",
+      "promulgada": "2026-03-26",
+      "gaceta": "11236",
+      "estado": "vigencia",
+      "vigencia_fecha": "2026-03-27",
+      "vigencia_texto": "No fija un plazo propio, así que manda el Código Civil: empezó a regir el día siguiente a salir en la Gaceta 11236 (26 de marzo de 2026).",
+      "fuente": "Ley 13-26 — Consultoría Jurídica del Poder Ejecutivo (consultoria.gov.do/consulta)",
+      "url_busqueda": "https://www.consultoria.gov.do/consulta/"
+    },
+    {
+      "numero": "4-26",
+      "titulo": "Monseñor Nouel, provincia ecoturística",
+      "que_es": "Declara a la provincia Monseñor Nouel (Bonao) como provincia de ecoturismo, para cuidar su naturaleza y atraer visitantes. Reemplaza una ley del 2004.",
+      "promulgada": "2026-01-15",
+      "gaceta": "11229",
+      "estado": "vigencia",
+      "vigencia_fecha": "2026-01-16",
+      "vigencia_texto": "No fija un plazo propio, así que manda el Código Civil: empezó a regir el día siguiente a salir en la Gaceta 11229 (15 de enero de 2026).",
+      "fuente": "Ley 4-26 — Consultoría Jurídica del Poder Ejecutivo (consultoria.gov.do/consulta)",
+      "url_busqueda": "https://www.consultoria.gov.do/consulta/"
+    },
+    {
+      "numero": "1-26",
+      "titulo": "Crea la Dirección Nacional de Inteligencia (DNI)",
+      "que_es": "Crea una oficina del Estado que reúne información para cuidar la seguridad del país, y pone reglas para cómo debe trabajar el sistema de inteligencia.",
+      "promulgada": "2026-01-09",
+      "gaceta": "11227",
+      "estado": "vigencia",
+      "vigencia_fecha": "2026-01-10",
+      "vigencia_texto": "Su texto dice que empieza a regir al promulgarse y publicarse, siguiendo los plazos del Código Civil. Salió en la Gaceta 11227 (9 de enero de 2026), así que ya está en vigencia.",
+      "fuente": "Ley 1-26 — Consultoría Jurídica del Poder Ejecutivo (consultoria.gov.do/consulta)",
+      "url_busqueda": "https://www.consultoria.gov.do/consulta/"
+    },
+    {
+      "numero": "100-25",
+      "titulo": "Permiso para tomar deuda en 2026",
+      "que_es": "Autoriza al gobierno a pedir prestado (emitir deuda) hasta un tope grande para pagar sus cuentas del año. El tope llega a más de RD$401 mil millones.",
+      "promulgada": "2025-12-19",
+      "gaceta": "11224",
+      "estado": "vigencia",
+      "vigencia_fecha": "2025-12-20",
+      "vigencia_texto": "Su texto dice que empieza a regir tras promulgarse y publicarse, según la Constitución. Salió en la Gaceta 11224 (19 de diciembre de 2025), así que ya está en vigencia.",
+      "fuente": "Ley 100-25 — Consultoría Jurídica del Poder Ejecutivo (consultoria.gov.do/consulta)",
+      "url_busqueda": "https://www.consultoria.gov.do/consulta/"
+    },
+    {
+      "numero": "99-25",
+      "titulo": "Presupuesto del país para 2026",
+      "que_es": "Es el plan de cuánto dinero va a gastar el Estado en 2026 y en qué: salud, educación, obras, sueldos. Lo aprueba el Congreso cada año.",
+      "promulgada": "2025-12-16",
+      "gaceta": "11223",
+      "estado": "vigencia",
+      "vigencia_fecha": "2026-01-01",
+      "vigencia_texto": "Es el presupuesto del año 2026, por eso rige durante todo ese año. Salió en la Gaceta 11223 (16 de diciembre de 2025).",
+      "fuente": "Ley 99-25 — Consultoría Jurídica del Poder Ejecutivo (consultoria.gov.do/consulta)",
+      "url_busqueda": "https://www.consultoria.gov.do/consulta/"
+    },
+    {
+      "numero": "98-25",
+      "titulo": "Cambios a la ley de basura y residuos",
+      "que_es": "Ajusta la ley que organiza cómo se recoge, se separa y se reusa la basura del país, para manejarla mejor.",
+      "promulgada": "2025-12-15",
+      "gaceta": "11222",
+      "estado": "vigencia",
+      "vigencia_fecha": "2026-01-01",
+      "vigencia_texto": "Su propio texto dice que estos cambios empiezan a regir el 1 de enero de 2026. Salió en la Gaceta 11222 (15 de diciembre de 2025).",
+      "fuente": "Ley 98-25 — Consultoría Jurídica del Poder Ejecutivo (consultoria.gov.do/consulta)",
+      "url_busqueda": "https://www.consultoria.gov.do/consulta/"
+    },
+    {
+      "numero": "97-25",
+      "titulo": "Código Procesal Penal (cómo se llevan los juicios)",
+      "que_es": "Es el libro nuevo que dice cómo se hace un juicio penal: paso a paso, desde la denuncia hasta la sentencia. Reemplaza al Código Procesal Penal viejo del 2002.",
+      "promulgada": "2025-12-07",
+      "gaceta": "11221",
+      "estado": "vigencia",
+      "vigencia_fecha": "2025-12-09",
+      "vigencia_texto": "Su artículo 470 dice que empieza a regir al promulgarse y publicarse, siguiendo los plazos del Código Civil. Salió en la Gaceta 11221 (8 de diciembre de 2025), así que ya está en vigencia.",
+      "fuente": "Ley 97-25, art. 470 — Consultoría Jurídica del Poder Ejecutivo (consultoria.gov.do/consulta)",
+      "url_busqueda": "https://www.consultoria.gov.do/consulta/"
+    },
+    {
+      "numero": "85-25",
+      "titulo": "Nueva ley de alquileres y desahucios",
+      "que_es": "Cambia las reglas de cuando alquilas o rentas una casa o un local: derechos del inquilino y del dueño, y cómo se hace un desahucio. Reemplaza leyes de 1955 y 1988.",
+      "promulgada": "2025-08-14",
+      "gaceta": "11211",
+      "estado": "vigencia",
+      "vigencia_fecha": "2025-08-15",
+      "vigencia_texto": "Su artículo 58 dice que empieza a regir al promulgarse y publicarse, siguiendo los plazos del Código Civil. Salió en la Gaceta 11211 (14 de agosto de 2025), así que ya está en vigencia.",
+      "fuente": "Ley 85-25, art. 58 — Consultoría Jurídica del Poder Ejecutivo (consultoria.gov.do/consulta)",
+      "url_busqueda": "https://www.consultoria.gov.do/consulta/"
+    },
+    {
+      "numero": "47-25",
+      "titulo": "Nueva ley de compras del Estado",
+      "que_es": "Pone reglas nuevas para cuando el Estado compra cosas o contrata obras y servicios, para que sea más claro y con menos trampas.",
+      "promulgada": "2025-08-11",
+      "gaceta": "11210",
+      "estado": "vigencia",
+      "vigencia_fecha": "2026-02-07",
+      "vigencia_texto": "Su artículo 248 dice que empieza a regir 180 días después de firmarse. Se firmó el 11 de agosto de 2025, así que entró en vigencia alrededor del 7 de febrero de 2026.",
+      "fuente": "Ley 47-25, art. 248 — Consultoría Jurídica del Poder Ejecutivo (consultoria.gov.do/consulta)",
+      "url_documento": "https://www.dgcp.gob.do/new_dgcp/documentos/politicas_normas_y_procedimientos/leyes_y_decretos/Ley%2047-25.pdf"
+    },
+    {
+      "numero": "84-25",
+      "titulo": "El Congreso vigila y controla mejor",
+      "que_es": "Da reglas para que el Congreso revise y vigile el trabajo del gobierno: cómo pide cuentas y fiscaliza a las instituciones.",
+      "promulgada": "2025-08-08",
+      "gaceta": "11211",
+      "estado": "vigencia",
+      "vigencia_fecha": "2026-02-08",
+      "vigencia_texto": "Su artículo 103 dice que empieza a regir 6 meses después de firmarse. Se firmó el 8 de agosto de 2025, así que entró en vigencia alrededor del 8 de febrero de 2026.",
+      "fuente": "Ley 84-25, art. 103 — Consultoría Jurídica del Poder Ejecutivo (consultoria.gov.do/consulta)",
+      "url_busqueda": "https://www.consultoria.gov.do/consulta/"
+    }
+  ]
 }
