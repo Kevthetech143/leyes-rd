@@ -573,7 +573,7 @@ function renderLey(ley: Ley, busqueda?: BusquedaOficial): HTMLElement {
 
   // One plain line: how this law touches daily life.
   if (ley.te_afecta) {
-    det.append(el("h4", null, "¿Y a mí qué?"), el("p", "te-afecta", ley.te_afecta));
+    det.append(el("h4", null, "¿Y a mí qué?"), el("p", "te-afecta leer-voz", ley.te_afecta));
   }
 
   // Only show a real reason; otherwise a quiet note (the Senate source rarely states the motive).
