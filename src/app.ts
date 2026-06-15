@@ -2551,11 +2551,61 @@ function setupEscape(): void {
   });
 }
 
+// "🔊 Escúchalo" — read-aloud for citizens who read with difficulty (the mission's
+// most-excluded reader). Adds a listen button to each "En 30 segundos" card that
+// speaks its text with the phone's own voice (free, offline, no API). Hidden
+// entirely when the device has no Spanish voice — never offer what won't work.
+function setupEscuchar(): void {
+  const synth = window.speechSynthesis;
+  if (!synth || typeof SpeechSynthesisUtterance === "undefined") return;
+  const hayVozEs = (): boolean =>
+    synth.getVoices().some((v) => (v.lang || "").toLowerCase().startsWith("es"));
+  const resetBotones = (): void => {
+    document.querySelectorAll<HTMLButtonElement>(".btn-escuchar").forEach((b) => {
+      b.textContent = "🔊 Escuchar";
+      b.setAttribute("aria-pressed", "false");
+    });
+  };
+  const montar = (): void => {
+    if (!hayVozEs()) return;
+    document.querySelectorAll<HTMLElement>(".en30").forEach((card) => {
+      if (card.dataset.escucharWired === "1") return;
+      const p = card.querySelector("p");
+      if (!p || !(p.textContent || "").trim()) return;
+      card.dataset.escucharWired = "1";
+      const btn = el("button", "btn-escuchar") as HTMLButtonElement;
+      btn.type = "button";
+      btn.textContent = "🔊 Escuchar";
+      btn.setAttribute("aria-label", "Escuchar este texto en voz alta");
+      btn.setAttribute("aria-pressed", "false");
+      btn.addEventListener("click", () => {
+        const activo = btn.getAttribute("aria-pressed") === "true";
+        synth.cancel();
+        resetBotones();
+        if (activo) return;
+        const u = new SpeechSynthesisUtterance((p.textContent || "").trim());
+        u.lang = "es-DO";
+        const voz = synth.getVoices().find((v) => (v.lang || "").toLowerCase().startsWith("es"));
+        if (voz) u.voice = voz;
+        u.onend = resetBotones;
+        u.onerror = resetBotones;
+        btn.textContent = "⏸️ Detener";
+        btn.setAttribute("aria-pressed", "true");
+        synth.speak(u);
+      });
+      card.appendChild(btn);
+    });
+  };
+  montar();
+  if (!hayVozEs()) synth.addEventListener("voiceschanged", montar, { once: true });
+}
+
 async function init(): Promise<void> {
   setupTabs();
   setupCompartir();
   setupEscape();
   setupGlosario();
+  setupEscuchar();
   setupAvisoBusqueda();
   try {
     const [leyes, provincias, sesiones, vigencia, novedades, votosPorSesion, fondos] = await Promise.all([
