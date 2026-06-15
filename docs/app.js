@@ -2041,39 +2041,47 @@ function setupEscuchar() {
             b.setAttribute("aria-pressed", "false");
         });
     };
+    const wire = (host, texto) => {
+        if (host.dataset.escucharWired === "1" || !texto.trim())
+            return;
+        host.dataset.escucharWired = "1";
+        const btn = el("button", "btn-escuchar");
+        btn.type = "button";
+        btn.textContent = "🔊 Escuchar";
+        btn.setAttribute("aria-label", "Escuchar este texto en voz alta");
+        btn.setAttribute("aria-pressed", "false");
+        btn.addEventListener("click", () => {
+            const activo = btn.getAttribute("aria-pressed") === "true";
+            synth.cancel();
+            resetBotones();
+            if (activo)
+                return;
+            const u = new SpeechSynthesisUtterance(texto.trim());
+            u.lang = "es-DO";
+            const voz = synth.getVoices().find((v) => (v.lang || "").toLowerCase().startsWith("es"));
+            if (voz)
+                u.voice = voz;
+            u.onend = resetBotones;
+            u.onerror = resetBotones;
+            btn.textContent = "⏸️ Detener";
+            btn.setAttribute("aria-pressed", "true");
+            synth.speak(u);
+        });
+        host.appendChild(btn);
+    };
     const montar = () => {
         if (!hayVozEs())
             return;
+        // "En 30 segundos" summary cards -> read the summary paragraph.
         document.querySelectorAll(".en30").forEach((card) => {
-            if (card.dataset.escucharWired === "1")
-                return;
             const p = card.querySelector("p");
-            if (!p || !(p.textContent || "").trim())
-                return;
-            card.dataset.escucharWired = "1";
-            const btn = el("button", "btn-escuchar");
-            btn.type = "button";
-            btn.textContent = "🔊 Escuchar";
-            btn.setAttribute("aria-label", "Escuchar este texto en voz alta");
-            btn.setAttribute("aria-pressed", "false");
-            btn.addEventListener("click", () => {
-                const activo = btn.getAttribute("aria-pressed") === "true";
-                synth.cancel();
-                resetBotones();
-                if (activo)
-                    return;
-                const u = new SpeechSynthesisUtterance((p.textContent || "").trim());
-                u.lang = "es-DO";
-                const voz = synth.getVoices().find((v) => (v.lang || "").toLowerCase().startsWith("es"));
-                if (voz)
-                    u.voice = voz;
-                u.onend = resetBotones;
-                u.onerror = resetBotones;
-                btn.textContent = "⏸️ Detener";
-                btn.setAttribute("aria-pressed", "true");
-                synth.speak(u);
-            });
-            card.appendChild(btn);
+            if (p)
+                wire(card, p.textContent || "");
+        });
+        // Any block marked .leer-voz (e.g. the SENASA help card) -> read its full
+        // text, captured before the button is appended so it isn't read back.
+        document.querySelectorAll(".leer-voz").forEach((blk) => {
+            wire(blk, blk.textContent || "");
         });
     };
     montar();
