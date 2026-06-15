@@ -1995,7 +1995,7 @@ function renderFondo(f: Fondo, leyenda: Record<EstadoRastro, RastroLeyendaItem>)
   // collapsed sub-group summary (renderFondoGrupo) that wraps this card.
 
   // What it is + who it's for, plain.
-  card.append(el("p", "fondo-quees", f.que_es));
+  card.append(el("p", "fondo-quees leer-voz", f.que_es));
   if (f.para_quien) {
     const pq = el("p", "fondo-quees fondo-paraquien");
     pq.innerHTML = "<b>¿Para quién?</b> " + f.para_quien;
@@ -2100,7 +2100,7 @@ function renderFondo(f: Fondo, leyenda: Record<EstadoRastro, RastroLeyendaItem>)
   }
 
   // The big verdict badge + its plain explanation.
-  const ver = el("div", "fondo-veredicto");
+  const ver = el("div", "fondo-veredicto leer-voz");
   ver.append(el("span", "fondo-veredicto-pill", "Veredicto: " + f.veredicto.etiqueta));
   ver.append(el("p", "fondo-veredicto-txt", f.veredicto.explica));
   card.append(ver);
@@ -2668,6 +2668,7 @@ async function init(): Promise<void> {
     setupFinder(provincias);
     renderSesiones(sesiones, votosPorSesion);
     if (fondos && fondos.leyenda_estado) renderFondos(fondos);
+    setupEscuchar(); // re-run: wire .leer-voz blocks rendered from data (e.g. the barrilito)
     llenarCifrasHome(leyes, provincias, sesiones);
     setupSabias(leyes, sesiones);
     setupCasoAccordion();
