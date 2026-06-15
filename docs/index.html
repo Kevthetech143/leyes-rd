@@ -24,7 +24,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="styles.css?v=20260614h" />
+  <link rel="stylesheet" href="styles.css?v=20260614i" />
 </head>
 <body>
   <header class="topbar">
@@ -67,6 +67,17 @@
       <!-- Suggested learning order — the home cards reframed as a journey, in the
            chain order El país → Leyes → Sesiones → Provincias → Dinero. Each card
            carries its step number so it reads as "first this, then this". -->
+      <!-- "¿Quién te representa?" finder — fastest path to your own officials.
+           The <select> is filled and wired by setupFinder() in app.js from
+           provincias.json; choosing a province opens its profile. -->
+      <div class="finder">
+        <h3 class="finder-titulo">🔎 ¿Quién te representa?</h3>
+        <p class="finder-sub">Elige tu provincia y ve a tu senador y tus diputados: qué hacen, cuánto ganan y cómo votaron.</p>
+        <select id="finderProvincia" class="finder-select" aria-label="Elige tu provincia">
+          <option value="">Elige tu provincia…</option>
+        </select>
+      </div>
+
       <div class="ruta-cab">
         <h3 class="ruta-titulo">¿Qué quieres aprender hoy?</h3>
         <p class="ruta-sub">Te sugerimos este orden. Pero puedes tocar cualquiera y empezar por donde quieras.</p>
@@ -803,7 +814,7 @@
     </div>
   </dialog>
 
-  <script src="app.js?v=20260614h"></script>
+  <script src="app.js?v=20260614i"></script>
   <!-- Contador de visitas, privado y sin cookies (GoatCounter) -->
   <script data-goatcounter="https://politicasencillard.goatcounter.com/count"
           async src="//gc.zgo.at/count.js"></script>

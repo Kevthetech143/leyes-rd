@@ -2088,6 +2088,37 @@ function setupEscuchar() {
     if (!hayVozEs())
         synth.addEventListener("voiceschanged", montar, { once: true });
 }
+// "¿Quién te representa?" finder on Inicio: pick your province -> jump straight
+// to its officials (reuses the existing province-card flow). For the citizen who
+// can't navigate menus well.
+function setupFinder(data) {
+    const sel = document.getElementById("finderProvincia");
+    if (!sel)
+        return;
+    [...data.provincias]
+        .sort((a, b) => a.nombre.localeCompare(b.nombre, "es"))
+        .forEach((p) => {
+        const o = document.createElement("option");
+        o.value = p.nombre;
+        o.textContent = p.nombre;
+        sel.append(o);
+    });
+    sel.addEventListener("change", () => {
+        const nombre = sel.value;
+        sel.value = "";
+        if (!nombre)
+            return;
+        mostrarVista("mapa");
+        const card = Array.from(document.querySelectorAll(".prov-card"))
+            .find((c) => c.getAttribute("aria-label") === "Ver " + nombre);
+        if (card) {
+            card.click();
+            const perfil = document.getElementById("perfilProvincia");
+            if (perfil)
+                perfil.scrollIntoView({ behavior: "smooth", block: "start" });
+        }
+    });
+}
 async function init() {
     setupTabs();
     setupCompartir();
@@ -2116,6 +2147,7 @@ async function init() {
         renderLeyes(leyes);
         renderProvincias(provincias);
         renderComposicion(provincias);
+        setupFinder(provincias);
         renderSesiones(sesiones, votosPorSesion);
         if (fondos && fondos.leyenda_estado)
             renderFondos(fondos);

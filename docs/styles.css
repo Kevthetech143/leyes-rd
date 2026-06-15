@@ -1516,3 +1516,9 @@ main { max-width: 720px; margin: 0 auto; padding: 0 14px 40px; }
 }
 .btn-escuchar:hover { background: #dde7ff; }
 .btn-escuchar[aria-pressed="true"] { background: #1a4ed8; color: #fff; border-color: #1a4ed8; }
+
+/* "¿Quién te representa?" finder on Inicio (filled + wired by setupFinder). */
+.finder { margin: 0 0 18px; padding: 16px; background: #eef3ff; border: 1.5px solid #cfdcff; border-radius: 16px; }
+.finder-titulo { margin: 0 0 4px; font-size: 1.15rem; color: #1a4ed8; }
+.finder-sub { margin: 0 0 12px; color: #44506b; font-size: 0.95rem; line-height: 1.4; }
+.finder-select { width: 100%; font: inherit; font-size: 1rem; padding: 12px 14px; border: 1.5px solid #c7d6ff; border-radius: 12px; background: #fff; color: #1b2336; }
