@@ -13,7 +13,7 @@ const votoClass = { si: "voto-si", no: "voto-no", ausente: "voto-aus" };
 // cache-buster (?v=...). Appended to every data fetch so returning visitors
 // don't render stale JSON from the browser's HTTP cache when only the data
 // changed (the data files are not versioned in the HTML).
-const DATA_VERSION = "20260614d";
+const DATA_VERSION = "20260615a";
 async function cargar(path) {
     const sep = path.indexOf("?") >= 0 ? "&" : "?";
     const res = await fetch(path + sep + "v=" + DATA_VERSION);
@@ -796,6 +796,15 @@ function renderLider(l, provincia) {
         const n = l.iniciativas_propuestas;
         chips.append(datoChip("📜 <b>" + n + "</b> " + (n === 1 ? "iniciativa" : "iniciativas"), "Ha propuesto o copropuesto <b>" + n + "</b> " +
             (n === 1 ? "iniciativa" : "iniciativas") + " en este período."));
+    }
+    // Lane 5: voting participation (deputies) — how many recent recorded roll-call
+    // votes they actually cast. Neutral count from the Chamber's own public data.
+    if (l.votaciones_pleno && l.votaciones_pleno.total > 0) {
+        const vp = l.votaciones_pleno;
+        chips.append(datoChip("🗳️ Votó en <b>" + vp.emitidas + "/" + vp.total + "</b>", "En las últimas <b>" + vp.total + "</b> votaciones del Pleno que registramos (sesiones " +
+            "recientes), emitió su voto en <b>" + vp.emitidas + "</b>. En las demás se ausentó o no votó. " +
+            "Algunas votaciones son de procedimiento interno; esto muestra si participa en las votaciones, " +
+            "no cómo votó cada ley. Dato público de la Cámara de Diputados."));
     }
     // Lane 4: base monthly salary, from the public payroll. Senators, deputies
     // and governors share a role-wide rate (sueldoDeCargo); mayors each have their

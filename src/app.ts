@@ -129,6 +129,10 @@ interface Lider {
   asistencia?: Asistenciasenador;       // Lane 1 — plenary attendance
   comisiones?: string[];                 // Lane 2 — Senate committees
   iniciativas_propuestas?: number;       // Lane 3 — bills proposed/co-proposed
+  // Lane 5 — voting participation (deputies): how many of the recent recorded
+  // Chamber roll-call votes this deputy actually cast (vs absent-for-vote / no-vote).
+  // From the Chamber's own public data (diputadosrd.gob.do). Honest, neutral count.
+  votaciones_pleno?: { emitidas: number; total: number };
   // Per-session voting record (optional). When present, the vote slot renders an
   // expandable record instead of the plain "Registro de votos: ..." line.
   votos?: VotoSesion[];
@@ -360,7 +364,7 @@ const votoClass: Record<Voto, string> = { si: "voto-si", no: "voto-no", ausente:
 // cache-buster (?v=...). Appended to every data fetch so returning visitors
 // don't render stale JSON from the browser's HTTP cache when only the data
 // changed (the data files are not versioned in the HTML).
-const DATA_VERSION = "20260614d";
+const DATA_VERSION = "20260615a";
 
 async function cargar<T>(path: string): Promise<T> {
   const sep = path.indexOf("?") >= 0 ? "&" : "?";
@@ -1204,6 +1208,19 @@ function renderLider(l: Lider, provincia: string): HTMLElement {
       "📜 <b>" + n + "</b> " + (n === 1 ? "iniciativa" : "iniciativas"),
       "Ha propuesto o copropuesto <b>" + n + "</b> " +
       (n === 1 ? "iniciativa" : "iniciativas") + " en este período."
+    ));
+  }
+
+  // Lane 5: voting participation (deputies) — how many recent recorded roll-call
+  // votes they actually cast. Neutral count from the Chamber's own public data.
+  if (l.votaciones_pleno && l.votaciones_pleno.total > 0) {
+    const vp = l.votaciones_pleno;
+    chips.append(datoChip(
+      "🗳️ Votó en <b>" + vp.emitidas + "/" + vp.total + "</b>",
+      "En las últimas <b>" + vp.total + "</b> votaciones del Pleno que registramos (sesiones " +
+      "recientes), emitió su voto en <b>" + vp.emitidas + "</b>. En las demás se ausentó o no votó. " +
+      "Algunas votaciones son de procedimiento interno; esto muestra si participa en las votaciones, " +
+      "no cómo votó cada ley. Dato público de la Cámara de Diputados."
     ));
   }
 
