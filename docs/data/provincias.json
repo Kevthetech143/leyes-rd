@@ -25557,6 +25557,10 @@
             "total": 166,
             "periodo": "agosto 2024 a junio 2026",
             "fuente": "registro oficial de asistencia al Pleno de la Cámara de Diputados (SIL Ciudadano, diputadosrd.gob.do)"
+          },
+          "votaciones_pleno": {
+            "emitidas": 15,
+            "total": 40
           }
         },
         {
